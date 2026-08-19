@@ -1,0 +1,11 @@
+# Backup / ancienne copie imbriquée
+avocato.rar
+avocato/
+
+# Tooling
+node_modules/
+.obsidian/
+
+# OS
+Thumbs.db
+.DS_Store

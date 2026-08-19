@@ -1,0 +1,35 @@
+# 04 — Mots-clés SEO et calendrier éditorial 12 semaines
+
+## Mots-clés SEO principaux
+
+| Requête | Volume estimé/mois | Intention |
+| :--- | :--- | :--- |
+| CGV e-commerce Maroc | 300 | Transactionnel |
+| mentions légales site e-commerce Maroc | 200 | Informationnel |
+| loi 09-08 e-commerce Maroc | 150 | Informationnel |
+| politique de confidentialité e-commerce Maroc | 100 | Transactionnel |
+| CMI blocage site e-commerce | 200 | Transactionnel |
+| facture conforme Maroc e-commerce | 150 | Transactionnel |
+| YouCan CGV modèle | 80 | Transactionnel |
+
+## Calendrier éditorial 12 semaines
+
+| Sem | Sujet | Requête cible |
+| :---: | :--- | :--- |
+| 1 | CGV e-commerce Maroc : mentions obligatoires (Loi 31-08) | CGV e-commerce Maroc |
+| 2 | Loi 09-08 e-commerce : déclaration CNDP obligatoire | loi 09-08 e-commerce Maroc |
+| 3 | Politique de confidentialité e-commerce Maroc | politique de confidentialité e-commerce |
+| 4 | CMI blocage site e-commerce : causes et solutions | CMI blocage site e-commerce |
+| 5 | Facture conforme Maroc e-commerce (CGI art. 144) | facture conforme Maroc e-commerce |
+| 6 | Mentions légales site e-commerce Maroc | mentions légales site |
+| 7 | Droit de rétractation e-commerce : 14 jours | droit de rétractation e-commerce |
+| 8 | COD Maroc : mentions obligatoires | COD Maroc mentions |
+| 9 | Statut e-commerçant : AE ou SARL | statut e-commerçant AE ou SARL |
+| 10 | Registre 09-08 e-commerce : tenue et conservation | registre 09-08 e-commerce |
+| 11 | Litige client e-commerce : mode d'emploi | litige client e-commerce |
+| 12 | Synthèse : boutique YouCan conforme en 5 étapes | YouCan conforme |
+
+## Stratégie
+
+- Articles longs en français uniquement.
+- Réutilisation : 1 article = 1 post LinkedIn + 1 carrousel Canva + 1 vidéo courte + 1 statut WhatsApp.

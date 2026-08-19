@@ -1,0 +1,97 @@
+# 01 — Méthodes de vente : SPIN, Challenger, BATNA
+
+## 1. SPIN Selling
+
+### Définition
+
+Méthode de vente basée sur 4 types de questions :
+
+- **Situation** : comprendre la situation du prospect.
+- **Problem** : identifier les problèmes.
+- **Implication** : mesurer le coût du problème.
+- **Need-payoff** : faire émerger le besoin de solution.
+
+### Application au diagnostic juridique
+
+#### Situation (5-10 min)
+
+- Quel est votre activité ?
+- Statut juridique ?
+- Clients ?
+- Paiement ?
+
+#### Problem (5-10 min)
+
+- Quels sont les problèmes juridiques que vous rencontrez ?
+- Qu'est-ce qui vous stresse le plus ?
+- Avez-vous déjà eu un litige ?
+
+#### Implication (5-10 min)
+
+- Si ce problème n'est pas résolu, quel serait le coût ?
+- Avez-vous déjà subi un blocage administratif ?
+- Avez-vous déjà été mis en demeure ?
+
+#### Need-payoff (5-10 min)
+
+- Si vous aviez un contrat type FR/EN, que changerait-il ?
+- Si votre statut était structuré, vous sentiriez-vous plus serein ?
+
+## 2. Challenger Sale
+
+### Définition
+
+Méthode de vente basée sur 3 piliers :
+
+- **Teach** : enseigner une perspective nouvelle.
+- **Tailor** : adapter au prospect.
+- **Take control** : diriger la conversation.
+
+### Application au diagnostic
+
+#### Teach
+
+- Présenter le cadre juridique (loi 09-08, Loi 31-08, CGI).
+- Révéler des risques que le prospect ignorait.
+
+#### Tailor
+
+- Adapter le discours à la niche (freelance offshore, e-commerce, PME).
+- Utiliser le vocabulaire du prospect.
+
+#### Take control
+
+- Diriger le diagnostic (40 min structuré).
+- Proposer les 2 options de mission clairement.
+
+## 3. BATNA (Best Alternative To a Negotiated Agreement)
+
+### Définition
+
+La meilleure alternative si la négociation échoue.
+
+### Application
+
+- BATNA avocat : refuser la mission si le prospect négocie trop bas.
+- BATNA prospect : aller voir un confrère (souvent plus cher ou moins spécialisé).
+
+### Si BATNA avocat > offre prospect → refuser.
+
+## 4. Anchoring
+
+### Définition
+
+Présenter l'option la plus chère en premier. Les options suivantes paraissent raisonnables.
+
+### Application
+
+1. Présenter le Pack Conformité complète à 12 000 DH.
+2. Puis le Pack Politique de confidentialité seule à 2 500 DH.
+3. Le prospect choisit l'option 2 ou 3 (plus raisonnable perçue).
+
+## 5. La synergie SPIN + Challenger
+
+- SPIN pour le diagnostic (comprendre).
+- Challenger pour la proposition (enseigner + diriger).
+- BATNA pour la négociation (savoir quand refuser).
+- Anchoring pour le pricing (ancrer le prix).
