@@ -42,3 +42,9 @@
 **Phrase de diagnostic :** "La CNDP contrôle aujourd'hui sur plainte ET d'office. Le premier document demandé est le registre. Sans lui, vous êtes en difficulté dès le début. On le constitue en 10 jours."
 
 > Vérifiez chaque décision sur cndp.ma avant de l'invoquer — les montants évoluent.
+
+---
+
+## Note de méthode professionnelle
+
+Ce document s'inscrit dans la démarche `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/` : information sobre, références primaires (`sgg.gov.ma`, `oc.gov.ma`, `cndp.ma`), devoir d'information art. 59, secret art. 36, convention art. 30. Le chiffre n'est jamais jeté sans sa base légale et sa date de vérification.

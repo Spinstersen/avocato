@@ -54,3 +54,11 @@ R : 6-12 mois minimum.
 
 **Q : La niche est-elle accessible en lancement ?**
 R : Difficile. À réserver après 12-18 mois d'exercice sur les niches 1-2.
+
+---
+
+## Canal comme lieu d'information, pas comme entonnoir
+
+Le canal (LinkedIn, partenariat comptable, Technopark) n'est pas un piège à prospects. Il est le lieu où le prospect cherche déjà une réponse (ex: `contrat cession PI freelance`). L'avocat y dépose une analyse sobre (article 1 500 mots, H2, références), pas un `Pack 5 900 HT`. La mesure n'est pas le volume, mais le taux de diagnostics qualifiés (art. 59).
+
+> Déontologie : pas de DM non sollicité, pas de commission, recommandation réciproque `01_Strategy/01_Rules/06_Apporteur_Affaires_Partenariats.md`.

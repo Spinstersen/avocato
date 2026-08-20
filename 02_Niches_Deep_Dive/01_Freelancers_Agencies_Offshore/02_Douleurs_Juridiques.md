@@ -5,7 +5,7 @@
 ### Plafond CA auto-entrepreneur
 
 - 200 000 DH/an pour les services.
-- 1 000 000 DH/an pour le commerce.
+- 500 000 DH/an pour les activités commerciales (art. 4 Loi 114-13, plafond révisé).
 - Au-delà : bascule obligatoire en SARL ou autre régime.
 
 ### Régime fiscal AE

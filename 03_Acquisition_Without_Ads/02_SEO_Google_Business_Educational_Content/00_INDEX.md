@@ -30,3 +30,9 @@ Voir les fichiers `02_Niches_Deep_Dive/[niche]/04_Mots_Cles_SEO.md`.
 
 - Système global : `01_Strategy/04_Client_Acquisition_System_No_Ads/02_Maillon1_Contenu_Educatif.md`.
 - Déontologie : `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/04_Site_Web_Conforme_Specifications.md`.
+
+---
+
+## Note de méthode professionnelle
+
+Ce document s'inscrit dans la démarche `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/` : information sobre, références primaires (`sgg.gov.ma`, `oc.gov.ma`, `cndp.ma`), devoir d'information art. 59, secret art. 36, convention art. 30. Le chiffre n'est jamais jeté sans sa base légale et sa date de vérification.

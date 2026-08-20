@@ -77,3 +77,9 @@ R : Plus difficile que les niches 1-2. Recommandé après 6-12 mois d'exercice.
 **Fin du dossier `02_Niches_Deep_Dive/03_Loi_09-08_GDPR_Compliance/`.**
 
 **Suite logique :** `02_Niches_Deep_Dive/04_Content_Creators_Infopreneurs/` — La niche 4.
+
+---
+
+## Note de méthode professionnelle
+
+Ce document s'inscrit dans la démarche `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/` : information sobre, références primaires (`sgg.gov.ma`, `oc.gov.ma`, `cndp.ma`), devoir d'information art. 59, secret art. 36, convention art. 30. Le chiffre n'est jamais jeté sans sa base légale et sa date de vérification.

@@ -38,3 +38,9 @@ LinkedIn est le canal n°1 pour un avocat d'affaires trilingue tech-savvy. 3 pos
 
 - Système global : `01_Strategy/04_Client_Acquisition_System_No_Ads/`.
 - Déontologie : `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/05_Reseaux_Sociaux_LinkedIn_Cadre.md`.
+
+---
+
+## Note de méthode professionnelle
+
+Ce document s'inscrit dans la démarche `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/` : information sobre, références primaires (`sgg.gov.ma`, `oc.gov.ma`, `cndp.ma`), devoir d'information art. 59, secret art. 36, convention art. 30. Le chiffre n'est jamais jeté sans sa base légale et sa date de vérification.

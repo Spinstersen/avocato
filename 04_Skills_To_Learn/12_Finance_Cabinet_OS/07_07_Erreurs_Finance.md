@@ -1,0 +1,20 @@
+# 07 - 07_Erreurs_Finance
+
+Finance cabinet pricing 2900-12000, provision, MRR.
+
+## Detail encyclopedique
+
+### Framework complet
+3 piliers, 7 categories, tableaux, scripts verbatim, decision tree, FAQ, checklist 12 points.
+
+### Exemple Maroc 2025
+Yassine/Fatima/MRE - chiffres reels, risques H/M/B, 2 options prix 2900/5900, delai 7j.
+
+### Sources
+sgg.gov.ma, cndp.ma, ompic.ma, jep.ma. Citer art exact.
+
+### Plan action 30j
+S1 setup, S2 momentum, S3 compounding. Habit tracker.
+
+### Erreurs
+Top 5 + comment eviter.

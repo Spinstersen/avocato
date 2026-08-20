@@ -28,3 +28,9 @@ Au-delà de J+15, la satisfaction a diminué, le moment est passé.
 
 **Q : Que faire si le client ne répond pas à la demande de referral ?**
 R : Relancer une fois à J+15. Sans réponse, passer à autre chose. Pas de pression.
+
+---
+
+## Note de méthode professionnelle
+
+Ce document s'inscrit dans la démarche `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/` : information sobre, références primaires (`sgg.gov.ma`, `oc.gov.ma`, `cndp.ma`), devoir d'information art. 59, secret art. 36, convention art. 30. Le chiffre n'est jamais jeté sans sa base légale et sa date de vérification.

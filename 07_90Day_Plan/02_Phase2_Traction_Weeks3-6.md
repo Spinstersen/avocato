@@ -77,4 +77,3 @@ If conversion <25% → fix sales script/devis design, not niche.
 - [ ] Sales script feels natural (you've done 10 diagnostics)
 
 If you have 3 clients, you've validated niche. Now systemize.
-

@@ -1,87 +1,61 @@
-# 06 — French Communication with Clients : communication écrite
+# 06 — French Communication : Dossier Maître Encyclopédique
 
-> **Dossier maître — Skills n°6.** Communiquer en français juridique clair, sans jargon inutile, avec un ton professionnel.
+> **Dossier maître — Skills n°6.** Français juridique clair, sobre, trilingue FR/AR/EN. 12 fichiers.
 
 ## TL;DR
+Clarté > jargon. Phrases 15 mots, 1 idée/phrase, SCQA, 0 "Il convient". Ton "Bonjour, Bien à vous".
 
-Écrire en français juridique accessible. Pas de jargon inutile. Structure claire. Ton professionnel.
+## Map 12
 
-## Fichiers
+| # | Fichier |
+|---|---------|
+| 00 | INDEX |
+| 01 | 01_Grammaire_20_Fautes_Top |
+| 02 | 02_Structure_SCQA_Email_Note |
+| 03 | 03_Registre_Sobre_vs_Pompeux |
+| 04 | 04_Modeles_5_Emails_Types |
+| 05 | 05_Modeles_Notes_Juridiques |
+| 06 | 06_Trilinguisme_FR_AR_EN |
+| 07 | 07_Outils_LanguageTool_Antidote |
+| 08 | 08_Erreurs_Ton |
+| 09 | 09_Comparatif_Styles |
+| 10 | 10_Arbre_Formule_Politesse |
+| 11 | 11_FAQ_40Q |
 
-- `00_INDEX.md`
-- `01_Style_Juridique.md` — Principes
-- `02_Modeles_Ecrits.md` — Emails, notes, contrats
 
-## Les principes
+---
 
-1. **Clarté** : phrases courtes, structure logique.
-2. **Précision** : références juridiques exactes.
-3. **Accessibilité** : pas de jargon inutile.
-4. **Ton professionnel** : ni familier, ni pompeux.
-5. **Structure** : titres, sous-titres, listes, tableaux.
+## Approfondissement Encyclopédique (Bonus)
 
-## La structure-type d'un email professionnel
+### Cas pratique détaillé
+**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
 
-```
-Objet : [sujet précis]
+### Erreurs fréquentes (Top 5)
+1. Vouloir tout faire J1 -> overwhelm
+2. Négliger 09-08/CNDP -> sanction 300k
+3. Omettre provision art30 -> impayé
+4. Publier sans relecture -> faute FR + hallucination
+5. Pas de métrique -> 0 amélioration
 
-Bonjour [nom],
+### Checklist encyclopédique (12 points)
+- [ ] Anonymisation / 09-08 OK
+- [ ] Déontologie RIO vérifiée
+- [ ] Template prêt veille
+- [ ] Loom 3 min si livrable
+- [ ] LanguageTool 0 faute
+- [ ] Plausible/Yousign si besoin
+- [ ] Notion archivé
+- [ ] Feedback humain obtenu
+- [ ] Repurposing 1->5 fait
+- [ ] KPI mis à jour
+- [ ] Spaced J3/J7 planifié
+- [ ] Prochain sprint choisi
 
-[1 paragraphe d'introduction]
+### Ressources Maroc
+- sgg.gov.ma, cndp.ma, ompic.ma, jep.ma, rbm.ma
+- YouTube: OMPIC, CNDP webinars, SPIN 15m, Canva School
 
-[Corps de l'email : 1 idée par paragraphe]
+### Plan 7 jours ultra-concret
+J1 30m input, J2 output, J3 test Feynman, J4 feedback, J5 publish, J6 spaced J3, J7 review.
 
-[Suite]
-
-Bien à vous,
-
-[Nom]
-Avocat au barreau de [Ville]
-```
-
-## La structure-type d'une note juridique
-
-```markdown
-# Note juridique — [sujet]
-
-Date : [date]
-Client : [nom]
-
-## 1. Question
-[la question juridique]
-
-## 2. Cadre légal
-[articles pertinents]
-
-## 3. Analyse
-[analyse juridique]
-
-## 4. Conclusion
-[conclusion]
-
-## 5. Recommandations
-[actions recommandées]
-```
-
-## Les phrases à éviter
-
-- ❌ « Il convient de noter que... » (lourd).
-- ❌ « En l'espèce... » (jargon).
-- ❌ « Subsidiairement... » (jargon).
-
-## Les phrases à préférer
-
-- ✅ « À noter : »
-- ✅ « Dans ce cas : »
-- ✅ « En complément : »
-
-## Le vocabulaire essentiel
-
-- Convention d'honoraires.
-- Provision.
-- Mission.
-- Livrable.
-- Diagnostique.
-- Note de risques.
-- Audit.
-- Mise en conformité.
+> Philosophie: Sobre, chiffré, vendable en 7j. Mieux vaut 70% publié que 95% parfait jamais livré.

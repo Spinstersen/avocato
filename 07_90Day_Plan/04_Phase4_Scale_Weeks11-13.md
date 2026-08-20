@@ -59,4 +59,3 @@ Celebrate. You went from 0 to system.
 - Continue this vault: update templates after each client feedback.
 - Re-read `06_ADHD_System/` monthly to avoid burnout.
 - Keep 3 MITs daily forever.
-

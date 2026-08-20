@@ -26,7 +26,8 @@
     set echeances(v) { LS.set('echeances', v); }
   };
 
-  let mode = LS.get('mode', 'Base');
+  let mode = LS.get('mode', 'vault');
+  if (mode === 'Base') { mode = 'vault'; LS.set('mode', 'vault'); }
   let cabView = LS.get('cabinetView', 'dashboard');
   let editingId = null;
 
@@ -61,7 +62,7 @@
       b.classList.toggle('active', on);
       b.setAttribute('aria-selected', on ? 'true' : 'false');
     });
-    const isBase = m === 'Base';
+    const isBase = m === 'vault';
     $('#tree').hidden = !isBase;
     $('#searchWrap').hidden = !isBase;
     $('#btnDashboard').hidden = !isBase;
@@ -665,13 +666,13 @@
     $$('[data-open]').forEach(el => el.addEventListener('click', () => {
       const id = el.dataset.open;
       // switch to Base and open doc
-      setMode('Base');
+      setMode('vault');
       setTimeout(() => { location.hash = '#' + encodeURIComponent(id); window.dispatchEvent(new HashChangeEvent('hashchange')); }, 50);
     }));
     $$('[data-open-juris]').forEach(a => a.addEventListener('click', (e) => {
       e.preventDefault();
       const id = a.dataset.openJuris;
-      setMode('Base');
+      setMode('vault');
       setTimeout(() => { location.hash = '#' + encodeURIComponent(id); window.dispatchEvent(new HashChangeEvent('hashchange')); }, 50);
     }));
   }

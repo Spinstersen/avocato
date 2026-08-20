@@ -43,3 +43,9 @@ R : 500-2 000 connexions qualitatives dans la niche.
 
 **Q : Faut-il accepter toutes les invitations ?**
 R : Non. Accepter les connexions pertinentes (prospect, pair, partenaire).
+
+---
+
+## Note de méthode professionnelle
+
+Ce document s'inscrit dans la démarche `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/` : information sobre, références primaires (`sgg.gov.ma`, `oc.gov.ma`, `cndp.ma`), devoir d'information art. 59, secret art. 36, convention art. 30. Le chiffre n'est jamais jeté sans sa base légale et sa date de vérification.

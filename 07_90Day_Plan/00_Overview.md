@@ -41,4 +41,3 @@ Daily: 10h-11:30 Deep Work (delivery), 11:30-12h shallow, 18h review.
 - `05_Daily_Checklist_Template.md` — print this
 
 **Rule:** Don't read all phases now. Read only Phase 1 today. When you finish week 2, open Phase 2.
-

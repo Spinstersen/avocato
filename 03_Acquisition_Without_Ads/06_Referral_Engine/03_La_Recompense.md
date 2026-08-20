@@ -58,3 +58,9 @@ L'avocat qui reçoit 2-3 dossiers d'un comptable partenaire doit :
 
 **Q : Puis-je offrir une remise sur la prochaine mission ?**
 R : Risqué. Tolérance variable. Préférer le diagnostic gratuit offert au filleul.
+
+---
+
+## Note de méthode professionnelle
+
+Ce document s'inscrit dans la démarche `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/` : information sobre, références primaires (`sgg.gov.ma`, `oc.gov.ma`, `cndp.ma`), devoir d'information art. 59, secret art. 36, convention art. 30. Le chiffre n'est jamais jeté sans sa base légale et sa date de vérification.

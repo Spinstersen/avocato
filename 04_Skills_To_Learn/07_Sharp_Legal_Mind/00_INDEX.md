@@ -1,92 +1,62 @@
-# 07 — Sharp Legal Mind : l'esprit juridique affûté
+# 07 — Sharp Legal Mind : Dossier Maître Encyclopédique
 
-> **Dossier maître — Skills n°7.** Développer l'issue-spotting et le diagnostic juridique rapide.
+> **Dossier maître — Skills n°7.** Sharp = substance + raisonnement + business awareness. 13 fichiers. 30 min/jour.
 
 ## TL;DR
+3 piliers: 1) Maîtrise 3 domaines (contrats, statuts, 09-08) 2) Thinking (issue-spotting, SCQA) 3) Business awareness. 5 min issue-spotting quotidien.
 
-L'issue-spotting est la capacité à identifier les problèmes juridiques dans une situation factuelle. C'est le cœur du métier d'avocat. Se développe par la pratique.
+## Map 13
 
-## Fichiers
+| # | Fichier |
+|---|---------|
+| 00 | INDEX |
+| 01 | 01_Theorie_IssueSpotting_7Cat |
+| 02 | 02_SCQA_Argumentation |
+| 03 | 03_Numbers_Sheet_10Chiffres |
+| 04 | 04_Routine_Hebdo_Jurisprudence |
+| 05 | 05_Cas_Grades_10 |
+| 06 | 06_Deal_Reasoning |
+| 07 | 07_Business_Awareness |
+| 08 | 08_Comparatif_Methodes |
+| 09 | 09_Metriques_Sharpness |
+| 10 | 10_Arbre_IssueSpotting |
+| 11 | 11_FAQ_30Q |
+| 12 | 12_Plan_90J |
 
-- `00_INDEX.md`
-- `01_Issue_Spotting.md` — Méthode
-- `02_Cas_Pratiques.md` — Exercices
 
-## L'issue-spotting
+---
 
-### Définition
+## Approfondissement Encyclopédique (Bonus)
 
-Capacité à identifier les problèmes juridiques dans une situation factuelle.
+### Cas pratique détaillé
+**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
 
-### La méthode
+### Erreurs fréquentes (Top 5)
+1. Vouloir tout faire J1 -> overwhelm
+2. Négliger 09-08/CNDP -> sanction 300k
+3. Omettre provision art30 -> impayé
+4. Publier sans relecture -> faute FR + hallucination
+5. Pas de métrique -> 0 amélioration
 
-1. Écouter les faits (5-10 min).
-2. Identifier les **catégories juridiques** (contrat, société, fiscal, social, contentieux).
-3. Pour chaque catégorie, identifier les **questions**.
-4. Pour chaque question, évaluer le **risque** (gravité, probabilité).
-5. Hiérarchiser les risques.
-6. Proposer des **actions**.
+### Checklist encyclopédique (12 points)
+- [ ] Anonymisation / 09-08 OK
+- [ ] Déontologie RIO vérifiée
+- [ ] Template prêt veille
+- [ ] Loom 3 min si livrable
+- [ ] LanguageTool 0 faute
+- [ ] Plausible/Yousign si besoin
+- [ ] Notion archivé
+- [ ] Feedback humain obtenu
+- [ ] Repurposing 1->5 fait
+- [ ] KPI mis à jour
+- [ ] Spaced J3/J7 planifié
+- [ ] Prochain sprint choisi
 
-### L'arbre d'issue-spotting
+### Ressources Maroc
+- sgg.gov.ma, cndp.ma, ompic.ma, jep.ma, rbm.ma
+- YouTube: OMPIC, CNDP webinars, SPIN 15m, Canva School
 
-```
-[Faits écoutés]
-   ↓
-[Catégories juridiques identifiées]
-   ↓
-[Questions juridiques par catégorie]
-   ↓
-[Risques évalués]
-   ↓
-[Hiérarchisation]
-   ↓
-[Actions proposées]
-```
+### Plan 7 jours ultra-concret
+J1 30m input, J2 output, J3 test Feynman, J4 feedback, J5 publish, J6 spaced J3, J7 review.
 
-## Les catégories juridiques à vérifier systématiquement
-
-1. **Statut** (AE, SARL, autre).
-2. **Contrats** (existence, conformité).
-3. **Fiscalité** (TVA, IR, IS, conventions bilatérales).
-4. **Social** (salariat, freelances, CNSS).
-5. **Conformité numérique** (Loi 09-08, Loi 31-08).
-6. **Propriété intellectuelle** (droit d'auteur, marques).
-7. **Contentieux** (litiges en cours ou potentiels).
-
-## Les cas pratiques
-
-### Cas 1 — Le freelance dev offshore
-
-Écouter : freelance dev, AE, facture à l'étranger, pas de contrat, Stripe bloqué.
-
-Catégories : statut, contrats, fiscalité, social, conformité 09-08, IP.
-
-Questions : plafond AE ? TVA exonérée art. 92 ? Contrat type ? Mentions 09-08 ? IP du code ?
-
-Risques : redressement fiscal (gravité haute), litige client (moyenne), perte IP (haute).
-
-Actions : création SARL, contrat type FR/EN, mentions 09-08, clause IP.
-
-### Cas 2 — L'e-commerçante YouCan
-
-Écouter : boutique YouCan, AE, 30 k DH/mois CA, pas de CGV, CMI bloque.
-
-Catégories : statut, contrats, conformité 09-08, Loi 31-08.
-
-Questions : plafond AE commerce (1 million) ? CGV absentes ? Mentions 09-08 ? Registre 09-08 ?
-
-Risques : amende CNDP (haute), perte CA par blocage CMI (haute), action en justice client (moyenne).
-
-Actions : CGV conformes, mentions 09-08, registre 09-08, modèle facture.
-
-## Le développement de l'issue-spotting
-
-- 5-10 diagnostics par mois pendant 6 mois.
-- Lecture de jurisprudence (revues juridiques).
-- Discussion de cas avec confrères.
-- Auto-évaluation : ai-je manqué quelque chose ?
-
-## FAQ
-
-**Q : Combien de temps pour développer un bon issue-spotting ?**
-R : 6-12 mois de pratique active.
+> Philosophie: Sobre, chiffré, vendable en 7j. Mieux vaut 70% publié que 95% parfait jamais livré.

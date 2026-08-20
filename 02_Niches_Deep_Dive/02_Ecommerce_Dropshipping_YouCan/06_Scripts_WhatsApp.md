@@ -110,3 +110,9 @@ Bien à vous,
 | « Appelez maintenant pour votre consultation gratuite » | « Pour un diagnostic à 600 DH HT : [lien] » |
 | « Je suis le meilleur avocat e-commerce » | « J'accompagne les e-commerçants YouCan » |
 | « Boutique garantie conforme en 24h » | « Boutique conforme en 7 jours ouvrés » |
+
+---
+
+## Note de méthode professionnelle
+
+Ce document s'inscrit dans la démarche `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/` : information sobre, références primaires (`sgg.gov.ma`, `oc.gov.ma`, `cndp.ma`), devoir d'information art. 59, secret art. 36, convention art. 30. Le chiffre n'est jamais jeté sans sa base légale et sa date de vérification.

@@ -23,12 +23,18 @@
   const FOLDER_LABELS = {
     '00_START_HERE': '🚀 Commencer ici',
     '01_Strategy': '🧭 Stratégie',
-    '02_Niches_Deep_Dive': '🎯 Niches',
+    '02_Niches_Deep_Dive': '🎯 Niches — Fondamentaux',
+    '02_Niches_Deep_Dive/07_Propriete_Intellectuelle': '💡 PI — Marques & BMDA',
+    '02_Niches_Deep_Dive/08_Fiscalite_Internationale_Rapatriement': '🌍 Fiscalité Internationale & Rapatriement',
+    '02_Niches_Deep_Dive/09_Office_Changes_Dotation_IGOC2024': '🏦 Office des Changes & Dotations (IGOC 2024)',
+    '02_Niches_Deep_Dive/10_MRE_Entrepreneurs': '🇲🇦 MRE & Entrepreneurs',
+    '02_Niches_Deep_Dive/11_Nomads_Digital': '✈️ Nomads Digital — Légal au Maroc',
     '03_Acquisition_Without_Ads': '📣 Acquisition sans pub',
     '04_Skills_To_Learn': '🧠 Compétences',
     '05_Document_Bank': '🗂️ Banque de Documents',
-    '06_ADHD_System': '⚡ Système ADHD',
-    '07_90Day_Plan': '🗓️ Plan 90 jours',
+    '06_ADHD_System': '⚡ Système ADHD (EN)',
+    '07_90Day_Plan': '🗓️ Plan 90 jours (EN)',
+    '08_Jurisprudence': '⚖️ Jurisprudence',
     '(root)': '📄 Racine'
   };
   const FOLDER_ORDER = Object.keys(FOLDER_LABELS);
@@ -312,10 +318,15 @@
   /* ---------- tree ---------- */
   function docProgress(id) { return state.read.has(id) ? 1 : 0; }
 
+  function getGroupKey(d) {
+    const parts = d.id.split('/');
+    if (parts[0] === '02_Niches_Deep_Dive' && parts.length > 2) return parts.slice(0, 2).join('/');
+    return d.folder;
+  }
   function renderTree(filter) {
     const tree = $('#tree');
     const groups = {};
-    DATA.forEach(d => { (groups[d.folder] = groups[d.folder] || []).push(d); });
+    DATA.forEach(d => { const g = getGroupKey(d); (groups[g] = groups[g] || []).push(d); });
     const folders = Object.keys(groups).sort((a, b) => {
       const ia = FOLDER_ORDER.indexOf(a), ib = FOLDER_ORDER.indexOf(b);
       return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
@@ -382,7 +393,7 @@
     const doneChecks = Object.values(state.checks).filter(Boolean).length;
 
     const groups = {};
-    DATA.forEach(d => { (groups[d.folder] = groups[d.folder] || []).push(d); });
+    DATA.forEach(d => { const g = getGroupKey(d); (groups[g] = groups[g] || []).push(d); });
     const progressRows = Object.keys(groups)
       .sort((a, b) => (FOLDER_ORDER.indexOf(a) - FOLDER_ORDER.indexOf(b)))
       .map(f => {

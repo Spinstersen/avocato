@@ -32,3 +32,9 @@
 **Source:** Vérifier deliberate CNDP 40-22 et guide CNDP 2024.
 
 Footer: "Registre établi par Me [Nom] sur base des informations déclarées par le client le [date]. À mettre à jour à chaque nouveau traitement."
+
+---
+
+## Note de méthode professionnelle
+
+Ce document s'inscrit dans la démarche `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/` : information sobre, références primaires (`sgg.gov.ma`, `oc.gov.ma`, `cndp.ma`), devoir d'information art. 59, secret art. 36, convention art. 30. Le chiffre n'est jamais jeté sans sa base légale et sa date de vérification.

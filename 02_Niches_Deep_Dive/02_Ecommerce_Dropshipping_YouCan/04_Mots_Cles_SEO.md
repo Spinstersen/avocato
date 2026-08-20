@@ -33,3 +33,9 @@
 
 - Articles longs en français uniquement.
 - Réutilisation : 1 article = 1 post LinkedIn + 1 carrousel Canva + 1 vidéo courte + 1 statut WhatsApp.
+
+---
+
+## SEO comme information, pas comme publicité
+
+Le mot-clé `dépôt marque OMPIC prix 2025` n'est pas une promesse de prix fixe. L'article qui le porte explique le barème OMPIC (1 200 DH/classe), la taxe de publication, et le coût de la recherche antériorité (temps 3h), puis propose la mission avec convention. C'est de l'information juridique à caractère éducatif (art. 3 Règlement Intérieur), non de la publicité comparative `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/05_Reseaux_Sociaux_LinkedIn_Cadre.md`.

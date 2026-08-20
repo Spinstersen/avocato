@@ -52,3 +52,9 @@ R : Le matin (9h-10h) pour la visibilité. Le dimanche soir pour le batch.
 
 **Q : Faut-il sponsoriser des posts ?**
 R : Non. Le sponsoring est de la publicité payante, interdite par la Loi 28-08.
+
+---
+
+## Note de méthode professionnelle
+
+Ce document s'inscrit dans la démarche `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/` : information sobre, références primaires (`sgg.gov.ma`, `oc.gov.ma`, `cndp.ma`), devoir d'information art. 59, secret art. 36, convention art. 30. Le chiffre n'est jamais jeté sans sa base légale et sa date de vérification.

@@ -47,4 +47,3 @@ Systemize = boring for ADHD. Make it game: "Can I close next client in 24h from 
 - [ ] Referral system bringing 2 leads/month without effort
 - [ ] 3-4 SEO articles ranking
 - [ ] Revenue 15k-30k DH/month stable
-

@@ -59,4 +59,3 @@
 - [ ] Notion CRM with pipeline
 
 If you have 50% of this, it's success. Don't wait for perfect. Move to Phase 2.
-

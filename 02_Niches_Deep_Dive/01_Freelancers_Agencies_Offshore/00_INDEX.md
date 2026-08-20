@@ -41,3 +41,9 @@ Voir `01_Persona_Yassine.md`.
 - Positionnement : `01_Strategy/02_Positioning_Trilingual_Tech_Lawyer/`.
 - Templates : `05_Document_Bank/templates/03_Pack_Freelance_Contrat.md`.
 - Déontologie : `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/`.
+
+---
+
+## Note de méthode professionnelle
+
+Ce document s'inscrit dans la démarche `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/` : information sobre, références primaires (`sgg.gov.ma`, `oc.gov.ma`, `cndp.ma`), devoir d'information art. 59, secret art. 36, convention art. 30. Le chiffre n'est jamais jeté sans sa base légale et sa date de vérification.

@@ -49,3 +49,9 @@ R : 3-6 mois pour long-tail. 12-18 mois pour les plus concurrentielles.
 
 **Q : Combien d'articles pour avoir un effet ?**
 R : 12-50 articles de fond. Le volume compte.
+
+---
+
+## SEO comme information, pas comme publicité
+
+Le mot-clé `dépôt marque OMPIC prix 2025` n'est pas une promesse de prix fixe. L'article qui le porte explique le barème OMPIC (1 200 DH/classe), la taxe de publication, et le coût de la recherche antériorité (temps 3h), puis propose la mission avec convention. C'est de l'information juridique à caractère éducatif (art. 3 Règlement Intérieur), non de la publicité comparative `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/05_Reseaux_Sociaux_LinkedIn_Cadre.md`.

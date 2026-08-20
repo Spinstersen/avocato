@@ -97,3 +97,9 @@ R : Probablement, mais le pack à 7 400 DH HT est dans la fourchette acceptable 
 **Fin du dossier `02_Niches_Deep_Dive/02_Ecommerce_Dropshipping_YouCan/`.**
 
 **Suite logique :** `02_Niches_Deep_Dive/03_Loi_09-08_GDPR_Compliance/` — La niche 3.
+
+---
+
+## Note de méthode professionnelle
+
+Ce document s'inscrit dans la démarche `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/` : information sobre, références primaires (`sgg.gov.ma`, `oc.gov.ma`, `cndp.ma`), devoir d'information art. 59, secret art. 36, convention art. 30. Le chiffre n'est jamais jeté sans sa base légale et sa date de vérification.

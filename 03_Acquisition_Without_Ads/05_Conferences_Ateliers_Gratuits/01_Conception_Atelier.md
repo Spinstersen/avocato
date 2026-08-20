@@ -44,3 +44,9 @@ Précis, informatif, pas promotionnel.
 
 **Q : Combien de participants viser ?**
 R : 10-30 participants idéal. Pas trop grand (perte d'interactivité), pas trop petit (manque d'effet).
+
+---
+
+## Note de méthode professionnelle
+
+Ce document s'inscrit dans la démarche `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/` : information sobre, références primaires (`sgg.gov.ma`, `oc.gov.ma`, `cndp.ma`), devoir d'information art. 59, secret art. 36, convention art. 30. Le chiffre n'est jamais jeté sans sa base légale et sa date de vérification.
