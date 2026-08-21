@@ -39,37 +39,23 @@ Stack minimal viable: Notion + Google Workspace + Calendly/Cal.com + Tally + You
 
 ---
 
-## Approfondissement Encyclopédique (Bonus)
+## À retenir + checklist + suite — Legal Tech Stack
 
-### Cas pratique détaillé
-**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
+**3 points clés de ce fichier :**
+- Stack minimal viable = 10 outils, 100–150 USD/mois, logique just-in-time (pas d'outil avant besoin client).
+- Matrice coût/risque : GA4 ❌ → Plausible ✅ (09-08), Notion anonymisé, Yousign UE, Stripe zone grise RIO.
+- Évolution avec CA : voir `01_Strategy/05_ADHD_Operating_System_Overview/09_Outils_Stack_Tech.md`.
 
-### Erreurs fréquentes (Top 5)
-1. Vouloir tout faire J1 -> overwhelm
-2. Négliger 09-08/CNDP -> sanction 300k
-3. Omettre provision art30 -> impayé
-4. Publier sans relecture -> faute FR + hallucination
-5. Pas de métrique -> 0 amélioration
+**Checklist 6 points — stack opérationnelle :**
+- [ ] Notion workspace créé + 6 BDD (Clients/Missions/Content/Prospects/Templates/Veille)
+- [ ] Google Workspace + Calendly/Cal.com lié (intake → Notion <2 min)
+- [ ] Yousign testé (convention art.30) + Stripe provision si RIO tolère (page sobre)
+- [ ] Plausible script posé (0 cookie) + registre 09-08 simplifié complété
+- [ ] Workflow Tally → Notion → Yousign → Loom testé de bout en bout
+- [ ] Coût mensuel noté dans Notion KPI <150 USD + backup hebdo configuré
 
-### Checklist encyclopédique (12 points)
-- [ ] Anonymisation / 09-08 OK
-- [ ] Déontologie RIO vérifiée
-- [ ] Template prêt veille
-- [ ] Loom 3 min si livrable
-- [ ] LanguageTool 0 faute
-- [ ] Plausible/Yousign si besoin
-- [ ] Notion archivé
-- [ ] Feedback humain obtenu
-- [ ] Repurposing 1->5 fait
-- [ ] KPI mis à jour
-- [ ] Spaced J3/J7 planifié
-- [ ] Prochain sprint choisi
+**Renvoi glossaire :** `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §06 Loi 09-08 registre 5 colonnes + §10 Provision 50% art.30. Voir aussi `02_AI_For_Lawyers/01_Fondamentaux_LLM_Risques.md` pour anonymisation.
 
-### Ressources Maroc
-- sgg.gov.ma, cndp.ma, ompic.ma, jep.ma, rbm.ma
-- YouTube: OMPIC, CNDP webinars, SPIN 15m, Canva School
+**Interaction dossier :** Ce stack alimente `03_Sales_Without_Selling/02_Script_Diagnostic_40min.md` (intake Tally → diagnostic) et `04_Design_Canva_For_Legal` (templates livrables).
 
-### Plan 7 jours ultra-concret
-J1 30m input, J2 output, J3 test Feynman, J4 feedback, J5 publish, J6 spaced J3, J7 review.
-
-> Philosophie: Sobre, chiffré, vendable en 7j. Mieux vaut 70% publié que 95% parfait jamais livré.
+**Sources spécifiques :** notion.so/help, support.yousign.com (hébergement UE), plausible.io/docs, zapier.com/blog — vérif 20/08/2026.

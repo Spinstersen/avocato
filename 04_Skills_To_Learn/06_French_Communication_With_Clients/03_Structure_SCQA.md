@@ -19,37 +19,23 @@ Exemple note 09-08: Q: "Dois-je déclarer CNDP?" → Cadre art 12 Loi 09-08 → 
 
 ---
 
-## Approfondissement Encyclopédique (Bonus)
+## À retenir + checklist + suite — Structure SCQA
 
-### Cas pratique détaillé
-**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
+**3 points clés de ce fichier :**
+- Email SCQA 4 blocs : Objet précis + Contexte 1 ligne (S) + Complication 2 lignes (C) + Question + Réponse 2 raisons (A) + Next step 1 ligne.
+- Note juridique 5 chap : Question posée → Cadre légal (art exacts) → Analyse SCQA → Conclusion → Recommandations (ex: 09-08 déclaration ?).
+- 1 phrase client / paragraphe = lisible mobile + sobre (pas de jargon).
 
-### Erreurs fréquentes (Top 5)
-1. Vouloir tout faire J1 -> overwhelm
-2. Négliger 09-08/CNDP -> sanction 300k
-3. Omettre provision art30 -> impayé
-4. Publier sans relecture -> faute FR + hallucination
-5. Pas de métrique -> 0 amélioration
+**Checklist 6 points — email/note envoyable :**
+- [ ] Objet SCQA précis : "Votre note de risques + 2 options — [Nom]" (pas "Re: bonjour")
+- [ ] S + C + Q + A respectés + base légale exacte citée (art.12 Loi09-08, art.30 Loi28-08)
+- [ ] Conclusion 1 ligne + reco 2 options chiffrées (2900 vs 5900) + délai
+- [ ] Relecture LanguageTool 0 faute + signature sobre barreau [Ville]
+- [ ] Next step calendaire : "Je vous envoie convention Yousign demain 10h — OK ?"
+- [ ] Archivé Notion BDD Content + suivi J3 prévu
 
-### Checklist encyclopédique (12 points)
-- [ ] Anonymisation / 09-08 OK
-- [ ] Déontologie RIO vérifiée
-- [ ] Template prêt veille
-- [ ] Loom 3 min si livrable
-- [ ] LanguageTool 0 faute
-- [ ] Plausible/Yousign si besoin
-- [ ] Notion archivé
-- [ ] Feedback humain obtenu
-- [ ] Repurposing 1->5 fait
-- [ ] KPI mis à jour
-- [ ] Spaced J3/J7 planifié
-- [ ] Prochain sprint choisi
+**Renvoi glossaire :** `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §06 Loi 09-08 (ex. note : "Déclarer CNDP ? Oui si collecte email — art.12") + §10 Provision.
 
-### Ressources Maroc
-- sgg.gov.ma, cndp.ma, ompic.ma, jep.ma, rbm.ma
-- YouTube: OMPIC, CNDP webinars, SPIN 15m, Canva School
+**Interaction dossier :** Utilisé dans `03_Sales_Without_Selling/02_Script_Diagnostic_40min.md` (note risques 24h) et `06_French_Communication/04_Modeles_5_Emails.md` (5 verbatims).
 
-### Plan 7 jours ultra-concret
-J1 30m input, J2 output, J3 test Feynman, J4 feedback, J5 publish, J6 spaced J3, J7 review.
-
-> Philosophie: Sobre, chiffré, vendable en 7j. Mieux vaut 70% publié que 95% parfait jamais livré.
+**Sources spécifiques :** Barbara Minto *The Pyramid Principle* SCQA, minto-books.com, LanguageTool SCQA guide — vérif 20/08/2026.

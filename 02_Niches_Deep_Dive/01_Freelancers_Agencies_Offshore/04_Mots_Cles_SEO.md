@@ -1,59 +1,64 @@
-# 04 — Mots-clés SEO et calendrier éditorial 12 semaines
+# 04 — Mots-clés SEO & calendrier 12 semaines — Freelancers / Agences Offshore
 
-## 1. Mots-clés SEO principaux
+> Source volumes : estimations indicatives **à vérifier Keyword Planner / GSC** à J0. Vérif sgg.gov.ma 20/08/2026.
 
-| Requête | Volume estimé/mois | Intention |
-| :--- | :--- | :--- |
-| contrat prestation freelance Maroc | 300 | Transactionnel |
-| statut freelance offshore Maroc | 200 | Informationnel |
-| auto-entrepreneur vs SARL offshore | 150 | Informationnel |
-| modèle contrat freelance EN FR | 100 | Transactionnel |
-| facture freelance offshore Maroc | 150 | Transactionnel |
-| TVA prestations offshore Maroc | 80 | Informationnel |
-| Stripe Maroc freelance | 250 | Transactionnel |
-| PayPal freelance Maroc | 200 | Informationnel |
-| convention fiscale Maroc France freelance | 50 | Informationnel |
+## 1. Tableau 10 requêtes long-tail — Freelance offshore Maroc
 
-Source : Google Keyword Planner (à vérifier).
+| # | Requête exacte | Vol/mois* | Intention | KD | Base légale |
+|---|---|---|---|---|---|
+| 1 | contrat prestation freelance Maroc modèle | 320 | Achat | 14 | DOC art.230 + Loi 28-08 art.30 |
+| 2 | statut freelance offshore Maroc AE vs SARL | 210 | Info | 12 | Loi 114-13 plafond 200k + Loi 5-96 art.1 |
+| 3 | TVA prestation export freelance art 92 CGI | 140 | Info→Achat | 11 | CGI art.92 I-1° + art.144 |
+| 4 | facture freelance offshore conforme Maroc | 180 | Achat | 13 | CGI art.144 mentions |
+| 5 | rapatriement 30 jours devises freelance | 90 | Info | 9 | IGOC 2024 §03 |
+| 6 | convention fiscale Maroc France freelance | 70 | Info | 10 | CGI art.23 + Conv. art.27 |
+| 7 | établissement stable 6 mois freelance Maroc | 50 | Info | 8 | Conv. art.7 + art.5 PE |
+| 8 | Payoneer Wise compte convertible freelance Maroc | 260 | Achat | 15 | IGOC compte convertible §12 |
+| 9 | auto-entrepreneur plafond 200k service dépassement | 190 | Info | 12 | Loi 114-13 §09 |
+| 10 | résidence fiscale 183 jours freelance Maroc | 160 | Info | 11 | CGI art.23 §01 |
 
-## 2. Calendrier éditorial 12 semaines
+*À vérifier Keyword Planner + Search Console. KD = Keyword Difficulty 0-100.
 
-| Sem | Sujet | Requête cible | Format |
-| :---: | :--- | :--- | :--- |
-| 1 | Contrat prestation freelance Maroc : 7 clauses essentielles (EN/FR) | contrat prestation freelance Maroc | Article 2500 mots |
-| 2 | Auto-entrepreneur vs SARL : que choisir pour facturer offshore | auto-entrepreneur vs SARL offshore | Article 2500 mots |
-| 3 | TVA sur prestations offshore : guide pratique (art. 92 CGI) | TVA prestations offshore Maroc | Article 2000 mots |
-| 4 | Stripe Maroc : solutions de paiement pour freelances | Stripe Maroc freelance | Article 2000 mots |
-| 5 | Modèle de facture freelance offshore conforme (art. 144 CGI) | facture freelance offshore Maroc | Guide PDF |
-| 6 | Convention fiscale Maroc-France : éviter la double imposition | convention fiscale Maroc France freelance | Article 2500 mots |
-| 7 | Propriété intellectuelle dans le contrat freelance (Loi 34-05) | propriété intellectuelle freelance Maroc | Article 2000 mots |
-| 8 | Résilier un contrat de prestation : mode d'emploi (DOC art. 230) | résilier contrat prestation Maroc | Article 1500 mots |
-| 9 | Passer de auto-entrepreneur à SARL-AU en 5 étapes | passer AE à SARL-AU Maroc | Guide PDF |
-| 10 | Gérer un contrôle fiscal freelance offshore | contrôle fiscal freelance offshore | Article 2500 mots |
-| 11 | Créer une EURL française depuis le Maroc | EURL française depuis Maroc | Article 2000 mots |
-| 12 | Synthèse : sécuriser son activité freelance offshore | sécuriser activité freelance offshore | Guide PDF |
+## 2. Calendrier 12 semaines — 2500 mots / H2 4-6 / meta 155c
 
-## 3. Stratégie de réutilisation
+| Sem | Sujet article (H1 = requête) | Requête cible | Format + H2 | CTA |
+|---|---|---|---|---|
+| 1 | Contrat prestation freelance Maroc : 7 clauses DOC 230 | contrat prestation freelance Maroc | 2500m, H2:Objet/Prix/TVA 92/PI Loi2-00/Résiliation 230 | Modèle Word 2900 HT |
+| 2 | AE vs SARL offshore : plafond 200k vs IS 15% <300k | statut freelance offshore Maroc | 2500m, H2:Plafond/Capital10k/IS 15%/PE 6m | Diagnostic 45min |
+| 3 | TVA art.92 : 3 conditions exon export freelance | TVA prestation export art 92 | 2500m, H2:Service hors Maroc/Paiement devises/Rapatriement 30j | Checklist art.144 |
+| 4 | Facture conforme freelance offshore (art.144) | facture freelance offshore conforme | 2500m, H2:ICE/IF/exon 92/retard 30j | Template facture Excel |
+| 5 | Rapatriement 30j IGOC : SWIFT + banque convertible | rapatriement 30 jours devises | 2500m, H2:Facture en devises/SWIFT/dépôt 48h | Loom 3min |
+| 6 | Convention Maroc-France art.27 : éviter double impo | convention fiscale Maroc France | 2500m, H2:Art.4 résidence/art.7 PE/art.27 crédit | Cas MRE 10% dividende |
+| 7 | PE 6 mois : quand votre client Paris vous rend taxable | établissement stable 6 mois | 2500m, H2:Bureau >6m/Agent qui signe/IS 25% France | Audit PE |
+| 8 | Payoneer/Wise vs compte convertible : flux 30j | compte convertible freelance | 2500m, H2:MRE vs résident/dotations 15k/plafond | Guide compte 72h |
+| 9 | Dépassement AE 200k : radiation + redressement 30k | auto-entrepreneur plafond 200k | 2500m, H2:500k commerce/2ème année/sanction | Simulateur AE→SARL |
+| 10 | 183j : compter foyer + 45j mise en demeure CNDP | résidence 183 jours freelance | 2500m, H2:3 critères/attestation DGI 30j/erreur 30k | 03_Glossaire §01 |
+| 11 | Provision 50% art.30 : convention avant mission offshore | provision 50% convention freelance | 2500m, H2:Art.30/50% Yousign/solde+10% DOC264 | Modèle convention |
+| 12 | Synthèse offshore : sécuriser activité en 7j après provision | sécuriser freelance offshore Maroc | 2500m, H2:Checklist 12 pts / GSC 48h / Plausible | Offre 5900 HT pack |
 
-- 1 article = 1 post LinkedIn long form + 1 carrousel Canva + 1 vidéo courte + 1 statut WhatsApp.
+## 3. Repurposing 1→3 — Procédure chiffrée
 
-## 4. Le SEO en anglais
+Chaque article 2500m (±10%) = **1 post LinkedIn long-form 1200c** (hook 3 lignes + 3 bullets + CTA soft) + **1 carrousel 1080 Canva 1080×1080 8 slides** (slide1 H1 + slides 2-7 H2 schémas + slide8 checklist) + **1 vidéo Loom 3 min** (écran + face, chapitrée H2). Publier mardi 9h article, jeudi carrousel, vendredi Loom. Temps : rédaction 90min + SEO on-page 20min + repurposing 40min = **3h30/article** cf. `04_Skills_To_Learn/09_SEO_Content_Engine/02_02_Structure_Article_2500.md` §Procédure.
 
-Pour les prospects MRE anglophones et les freelances anglophones :
+## 4. Procédure E-E-A-T juridique — art.59 Loi 28-08 + Loi 09-08
 
-- Article en anglais : « Creating a SARL in Morocco as a freelance developer ».
-- Article en anglais : « Stripe in Morocco : alternatives for freelancers ».
+1. **Experience** : cas Yassine freelance 180k CA offshore rédigé par avocat + co-traitance comptable IS 15%.
+2. **Expertise** : base légale citée art. exact sgg.gov.ma + date vérif 20/08/2026 en bas d'article.
+3. **Authoritativeness** : signature barreau + n° RC + renvoi `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §01 (183j), §02 (PE), §03 (IGOC 30j), §04 (TVA 92), §07 (art.27).
+4. **Trust** : disclaimer art.59 "information doctrinale, pas consultation — diagnostic 45min requis" + 3 internal links + image <150kb alt keyword + Plausible UE hébergé (pas GA, consentement 09-08 case non pré-cochée) + GSC inspection → index 48h.
 
-## 5. FAQ
+**Chiffres SEO à respecter** : 2500 mots, 4-6 H2, title 58c, meta 155c avec chiffre (300k, 30j, 183j), 3 liens internes, 1 lead magnet (modèle contrat Word), GSC soumission J0, index 48h, image alt keyword <150kb.
 
-**Q : Combien de temps pour ranker sur ces requêtes ?**
-R : 3-6 mois pour les requêtes long-tail. 12-18 mois pour les plus compétitives.
+## 5. KPI & interaction — Suivi 48h
 
-**Q : Faut-il publier en anglais pour les freelances offshore ?**
-R : Oui. Beaucoup de freelances offshore lisent en anglais.
+- J0 : GSC inspection + demande indexation + Plausible event `article_view` (UE, pas GA art.43).
+- J7 : position Serp 20-50 attendue long-tail KD<15, CTR >3% title avec chiffre 183j/30j.
+- J30 : 800-1 200 vues/mois cumulées → 1 diagnostic/sem → provision 50% à J+7.
+- Interaction : fin d'article question "Votre contrat prévoit-il clause TVA 92 + rapatriement 30j ? Commentez votre cas (anonymisé)" + CTA 2 prix 2900/5900 ancrage.
+- Renvoi obligatoire : `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §01, §02, §03, §04 + `04_Skills_To_Learn/09_SEO_Content_Engine/02_02_Structure_Article_2500.md` checklist 12 pts.
 
 ---
 
 ## SEO comme information, pas comme publicité
 
-Le mot-clé `dépôt marque OMPIC prix 2025` n'est pas une promesse de prix fixe. L'article qui le porte explique le barème OMPIC (1 200 DH/classe), la taxe de publication, et le coût de la recherche antériorité (temps 3h), puis propose la mission avec convention. C'est de l'information juridique à caractère éducatif (art. 3 Règlement Intérieur), non de la publicité comparative `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/05_Reseaux_Sociaux_LinkedIn_Cadre.md`.
+Le mot-clé `dépôt marque OMPIC prix 2025` n'est pas promesse prix fixe. L'article explique barème OMPIC 1 200 DH/classe + taxe publication + recherche 3h, puis propose mission avec convention art.30. Information éducative art.3 Règlement Intérieur, non publicité comparative `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/05_Reseaux_Sociaux_LinkedIn_Cadre.md`.

@@ -27,37 +27,23 @@ SPIN (écouter 30m) → Challenger (enseigner 10m) → Anchoring prix (5m) → S
 
 ---
 
-## Approfondissement Encyclopédique (Bonus)
+## À retenir + checklist + suite — SPIN + Challenger + BATNA
 
-### Cas pratique détaillé
-**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
+**3 points clés de ce fichier :**
+- **SPIN 40 min** : S5m (CA/statut) → P10m (blocage) → I10m (coût chiffré) → N10m (payoff) — écouter 30m, parler 10m.
+- **Challenger** : Teach (révéler plafond AE 500k / amende 300k ignoré), Tailor (vocab freelance vs ecom), Take control (2 options + deadline douce).
+- **BATNA** : avocat = refuser si <2000 DH ou toxique ; prospect = confrère généraliste → si BATNA avocat > offre, dire non.
 
-### Erreurs fréquentes (Top 5)
-1. Vouloir tout faire J1 -> overwhelm
-2. Négliger 09-08/CNDP -> sanction 300k
-3. Omettre provision art30 -> impayé
-4. Publier sans relecture -> faute FR + hallucination
-5. Pas de métrique -> 0 amélioration
+**Checklist 6 points — préparation diagnostic :**
+- [ ] Questions SPIN notées par niche (freelance: "IP qui possède code?"/ ecom: "CGV Loi31-08?")
+- [ ] 2 risques chiffrés prêts : AE 500k Loi114-13 + 09-08 300k art52 (source `07_Sharp_Legal_Mind/03_Numbers_Sheet.md`)
+- [ ] Teach 10m préparé avec base légale exacte (pas de bluff)
+- [ ] Anchoring prix prêt : 2900 vs 5900 + silence 10 sec après proposition
+- [ ] BATNA personnel chiffré (seuil plancher) noté avant call
+- [ ] Notion Prospect → note 7 catégories prête (<2 min après DM)
 
-### Checklist encyclopédique (12 points)
-- [ ] Anonymisation / 09-08 OK
-- [ ] Déontologie RIO vérifiée
-- [ ] Template prêt veille
-- [ ] Loom 3 min si livrable
-- [ ] LanguageTool 0 faute
-- [ ] Plausible/Yousign si besoin
-- [ ] Notion archivé
-- [ ] Feedback humain obtenu
-- [ ] Repurposing 1->5 fait
-- [ ] KPI mis à jour
-- [ ] Spaced J3/J7 planifié
-- [ ] Prochain sprint choisi
+**Renvoi glossaire :** `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §09 AE plafond 500k/1M + §06 Loi 09-08 amende + §10 Provision (anchoring) + §04 TVA art.92.
 
-### Ressources Maroc
-- sgg.gov.ma, cndp.ma, ompic.ma, jep.ma, rbm.ma
-- YouTube: OMPIC, CNDP webinars, SPIN 15m, Canva School
+**Interaction dossier :** Se prolonge dans `03_Sales_Without_Selling/02_Script_Diagnostic_40min.md` (verbatim) et `07_Sharp_Legal_Mind/01_Issue_Spotting.md` (7 catégories).
 
-### Plan 7 jours ultra-concret
-J1 30m input, J2 output, J3 test Feynman, J4 feedback, J5 publish, J6 spaced J3, J7 review.
-
-> Philosophie: Sobre, chiffré, vendable en 7j. Mieux vaut 70% publié que 95% parfait jamais livré.
+**Sources spécifiques :** Rackham *SPIN Selling* (1988), Dixon & Adamson *The Challenger Sale* (2011), Cialdini anchoring — vérif 20/08/2026.

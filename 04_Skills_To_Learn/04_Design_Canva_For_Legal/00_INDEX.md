@@ -24,37 +24,23 @@ Palette Navy #0F2A44 / Beige #F5F1E8 / Teal #1FA89E + Inter + 8 templates. 0 cli
 
 ---
 
-## Approfondissement Encyclopédique (Bonus)
+## À retenir + checklist + suite — Design Canva for Legal
 
-### Cas pratique détaillé
-**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
+**3 points clés de ce fichier :**
+- Palette Navy #0F2A44 / Beige #F5F1E8 / Teal #1FA89E + Inter + 0 cliché balance/marteau = premium tech.
+- 8 templates : convention, contrat FR/EN, CGV Loi31-08, facture, plaquette, carte QR, carrousel 1080, miniature YT.
+- Brand Kit Canva Pro : header wordmark + footer "Barreau [Ville] — site" + numérotation.
 
-### Erreurs fréquentes (Top 5)
-1. Vouloir tout faire J1 -> overwhelm
-2. Négliger 09-08/CNDP -> sanction 300k
-3. Omettre provision art30 -> impayé
-4. Publier sans relecture -> faute FR + hallucination
-5. Pas de métrique -> 0 amélioration
+**Checklist 6 points — Brand Kit livré :**
+- [ ] Canva Pro + Brand Kit créé (palette + Inter + logo wordmark + couleurs)
+- [ ] 3 templates validés (convention A4, contrat 2 colonnes, facture TVA)
+- [ ] Règle 1 template = 1 job vérifiée (pas de Word 1998)
+- [ ] Export PDF print + PNG web testés (lisible A4 et mobile)
+- [ ] Plaquette A4 paysage + carte 1080 QR ajoutées au Drive
+- [ ] Galerie avant/après sauvegardée (`07_Avant_Apres_Galerie.md`)
 
-### Checklist encyclopédique (12 points)
-- [ ] Anonymisation / 09-08 OK
-- [ ] Déontologie RIO vérifiée
-- [ ] Template prêt veille
-- [ ] Loom 3 min si livrable
-- [ ] LanguageTool 0 faute
-- [ ] Plausible/Yousign si besoin
-- [ ] Notion archivé
-- [ ] Feedback humain obtenu
-- [ ] Repurposing 1->5 fait
-- [ ] KPI mis à jour
-- [ ] Spaced J3/J7 planifié
-- [ ] Prochain sprint choisi
+**Renvoi glossaire :** `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §10 Convention honoraires (template convention) + §11 DOC art.443 (preuve écrite >10k).
 
-### Ressources Maroc
-- sgg.gov.ma, cndp.ma, ompic.ma, jep.ma, rbm.ma
-- YouTube: OMPIC, CNDP webinars, SPIN 15m, Canva School
+**Interaction dossier :** Templates utilisés dans `01_Legal_Tech_Stack/04_Yousign_Signature_Conforme.md` (convention Yousign) et `03_Sales_Without_Selling/02_Script_Diagnostic_40min.md` (livrable Loom + PDF).
 
-### Plan 7 jours ultra-concret
-J1 30m input, J2 output, J3 test Feynman, J4 feedback, J5 publish, J6 spaced J3, J7 review.
-
-> Philosophie: Sobre, chiffré, vendable en 7j. Mieux vaut 70% publié que 95% parfait jamais livré.
+**Sources spécifiques :** canva.com/brand-kit, fonts.google.com/specimen/Inter, coolors.co — vérif 20/08/2026.

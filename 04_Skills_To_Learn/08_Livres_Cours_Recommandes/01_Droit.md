@@ -7,54 +7,23 @@ Ex: El Mernissi p123: clause agréement SARL = modèle contrat.
 
 ---
 
-## Approfondissement Encyclopédique (Bonus)
+## À retenir + checklist + suite — Droit des Affaires (6 titres)
 
-### Cas pratique détaillé
-**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
+**3 points clés de ce fichier :**
+- Niveau 1 (fondations) : El Mernissi SARL/SA + Code commerce SGG + OMPIC vidéos + Loi 17-97 PI — lire 1er mois.
+- Niveau 2 (approfondissement) : Kettani fonds de commerce + MOOC Paris-Saclay contrats — mois 2-3.
+- Méthode : chaque livre = 3 takeaways + 1 clause réutilisable (ex: El Mernissi p.123 clause agrément SARL → contrat type).
 
-### Erreurs fréquentes (Top 5)
-1. Vouloir tout faire J1 -> overwhelm
-2. Négliger 09-08/CNDP -> sanction 300k
-3. Omettre provision art30 -> impayé
-4. Publier sans relecture -> faute FR + hallucination
-5. Pas de métrique -> 0 amélioration
+**Checklist 6 points — lecture active :**
+- [ ] El Mernissi fiché 3 takeaways + 1 clause agrément SARL extraite
+- [ ] Code commerce + Loi 17-97 lus sur sgg.gov.ma avec surlignage art.133/148/155
+- [ ] OMPIC vidéos (directompic.ma) visionnées + dépôt marque 1200 DH/classe compris
+- [ ] Kettani + MOOC contrats notés SCQA + 1 clause pénale art.264 reformulée 10%
+- [ ] Notion Veille : 1 fiche/livre (titre + 3 idées + 1 clause + lien sgg/ompic)
+- [ ] 1 post LinkedIn / livre publié (repurposing 1→5) + feedback humain obtenu
 
-### Checklist encyclopédique (12 points)
-- [ ] Anonymisation / 09-08 OK
-- [ ] Déontologie RIO vérifiée
-- [ ] Template prêt veille
-- [ ] Loom 3 min si livrable
-- [ ] LanguageTool 0 faute
-- [ ] Plausible/Yousign si besoin
-- [ ] Notion archivé
-- [ ] Feedback humain obtenu
-- [ ] Repurposing 1->5 fait
-- [ ] KPI mis à jour
-- [ ] Spaced J3/J7 planifié
-- [ ] Prochain sprint choisi
+**Renvoi glossaire :** `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §05 OMPIC classes Nice + §09 SARL Loi 5-96 + §11 DOC art.264/443.
 
-### Ressources Maroc
-- sgg.gov.ma, cndp.ma, ompic.ma, jep.ma, rbm.ma
-- YouTube: OMPIC, CNDP webinars, SPIN 15m, Canva School
+**Interaction dossier :** Clauses extraites → `04_Design_Canva_For_Legal/03_Templates_8_Types_Spec.md` (contrat FR/EN) et `07_Sharp_Legal_Mind/01_Issue_Spotting.md` (7 catégories).
 
-### Plan 7 jours ultra-concret
-J1 30m input, J2 output, J3 test Feynman, J4 feedback, J5 publish, J6 spaced J3, J7 review.
-
-> Philosophie: Sobre, chiffré, vendable en 7j. Mieux vaut 70% publié que 95% parfait jamais livré.
-
-## Detail encyclopedique
-
-### Framework complet
-3 piliers, 7 categories, tableaux, scripts verbatim, decision tree, FAQ, checklist 12 points.
-
-### Exemple Maroc 2025
-Yassine/Fatima/MRE - chiffres reels, risques H/M/B, 2 options prix 2900/5900, delai 7j.
-
-### Sources
-sgg.gov.ma, cndp.ma, ompic.ma, jep.ma. Citer art exact.
-
-### Plan action 30j
-S1 setup, S2 momentum, S3 compounding. Habit tracker.
-
-### Erreurs
-Top 5 + comment eviter.
+**Sources spécifiques :** sgg.gov.ma (Loi 17-97, Loi 5-96, DOC), ompic.ma guide dépôt, mooc.paris-saclay.fr contrats — vérif 20/08/2026.

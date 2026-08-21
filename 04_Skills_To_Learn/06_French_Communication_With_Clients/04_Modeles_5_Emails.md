@@ -18,37 +18,23 @@ Voir `01_Strategy/01_Rules/12_Fiches_Pratiques.md:292`.
 
 ---
 
-## Approfondissement Encyclopédique (Bonus)
+## À retenir + checklist + suite — 5 Modèles Emails Verbatim
 
-### Cas pratique détaillé
-**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
+**3 points clés de ce fichier :**
+- 5 modèles : 1 Diagnostic (Calendly 600 DH HT art.30), 2 Relance J3, 3 Livraison (Drive+Loom+facture solde), 4 Partenaire comptable (sans commission), 5 Ordre saisine.
+- Chaque email = SCQA + objet précis + 5 lignes max + signature sobre barreau [Ville].
+- Timing : diag J0, relance J3, livraison J+7 après provision + pièces complètes.
 
-### Erreurs fréquentes (Top 5)
-1. Vouloir tout faire J1 -> overwhelm
-2. Négliger 09-08/CNDP -> sanction 300k
-3. Omettre provision art30 -> impayé
-4. Publier sans relecture -> faute FR + hallucination
-5. Pas de métrique -> 0 amélioration
+**Checklist 6 points — email prêt à Yousign :**
+- [ ] Objet SCQA avec date : "Votre diagnostic 45 min — 28/08 10h — 600 DH HT art.30"
+- [ ] Corps <5 lignes + 1 next step calendaire + lien Calendly/Tally/Drive exact
+- [ ] Provision 50% + TVA 20% ou 0% art.92 mentionnée + débours en sus
+- [ ] Signature sobre : "Bien à vous — [Nom] barreau [Ville] — cabinet.ma"
+- [ ] LanguageTool 0 faute + test envoi à soi-même (mobile + desktop)
+- [ ] Archivé Notion BDD Prospects + suivi auto Zapier J3
 
-### Checklist encyclopédique (12 points)
-- [ ] Anonymisation / 09-08 OK
-- [ ] Déontologie RIO vérifiée
-- [ ] Template prêt veille
-- [ ] Loom 3 min si livrable
-- [ ] LanguageTool 0 faute
-- [ ] Plausible/Yousign si besoin
-- [ ] Notion archivé
-- [ ] Feedback humain obtenu
-- [ ] Repurposing 1->5 fait
-- [ ] KPI mis à jour
-- [ ] Spaced J3/J7 planifié
-- [ ] Prochain sprint choisi
+**Renvoi glossaire :** `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §10 Provision art.30 (convention préalable) + §04 TVA art.92 (mention facture).
 
-### Ressources Maroc
-- sgg.gov.ma, cndp.ma, ompic.ma, jep.ma, rbm.ma
-- YouTube: OMPIC, CNDP webinars, SPIN 15m, Canva School
+**Interaction dossier :** Suite directe de `03_Sales_Without_Selling/02_Script_Diagnostic_40min.md` (post-diag) et `01_Legal_Tech_Stack/04_Yousign_Signature_Conforme.md` (envoi convention).
 
-### Plan 7 jours ultra-concret
-J1 30m input, J2 output, J3 test Feynman, J4 feedback, J5 publish, J6 spaced J3, J7 review.
-
-> Philosophie: Sobre, chiffré, vendable en 7j. Mieux vaut 70% publié que 95% parfait jamais livré.
+**Sources spécifiques :** Modèle `05_Document_Bank/templates/01_Convention_Honoraires_Modele.md` + art.30 Loi 28-08 sgg.gov.ma — vérif 20/08/2026.

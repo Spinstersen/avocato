@@ -15,37 +15,23 @@ Chaque template: header wordmark, footer "Avocat barreau [Ville] — [site]", nu
 
 ---
 
-## Approfondissement Encyclopédique (Bonus)
+## À retenir + checklist + suite — 8 Templates Spec
 
-### Cas pratique détaillé
-**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
+**3 points clés de ce fichier :**
+- 8 types : convention A4 6 articles, contrat FR/EN 12 articles 2 colonnes, CGV 15 art Loi31-08, facture HT/TVA/RIB, plaquette A4 paysage, carte 1080 QR, carrousel 8 slides, miniature 1280×720.
+- Chaque template : header wordmark + footer barreau + numérotation + mentions légales (art.92 TVA si export).
+- Format : A4 portrait pour juridique, 1080×1080 pour social, 1280×720 pour YouTube.
 
-### Erreurs fréquentes (Top 5)
-1. Vouloir tout faire J1 -> overwhelm
-2. Négliger 09-08/CNDP -> sanction 300k
-3. Omettre provision art30 -> impayé
-4. Publier sans relecture -> faute FR + hallucination
-5. Pas de métrique -> 0 amélioration
+**Checklist 6 points — templates imprimables :**
+- [ ] Convention honoraires A4 (6 articles + provision art.30) validée juriste
+- [ ] Contrat FR/EN bilingue 2 colonnes (12 articles + IP Loi 2-00 + réserve art.618)
+- [ ] CGV ecom 15 articles (Loi31-08) + mentions 09-08 intégrées
+- [ ] Facture (HT/TVA 20% ou 0% art.92 + provision + RIB + ICE/RC/IF)
+- [ ] Plaquette + carte QR + carrousel LinkedIn testés export PDF/PNG
+- [ ] Check qualité : typo Inter, palette Navy/Beige/Teal, 0 faute LanguageTool
 
-### Checklist encyclopédique (12 points)
-- [ ] Anonymisation / 09-08 OK
-- [ ] Déontologie RIO vérifiée
-- [ ] Template prêt veille
-- [ ] Loom 3 min si livrable
-- [ ] LanguageTool 0 faute
-- [ ] Plausible/Yousign si besoin
-- [ ] Notion archivé
-- [ ] Feedback humain obtenu
-- [ ] Repurposing 1->5 fait
-- [ ] KPI mis à jour
-- [ ] Spaced J3/J7 planifié
-- [ ] Prochain sprint choisi
+**Renvoi glossaire :** `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §10 Provision art.30 + §11 DOC réserve propriété art.618 + §04 TVA mentions art.144.
 
-### Ressources Maroc
-- sgg.gov.ma, cndp.ma, ompic.ma, jep.ma, rbm.ma
-- YouTube: OMPIC, CNDP webinars, SPIN 15m, Canva School
+**Interaction dossier :** Utilisé dans `01_Legal_Tech_Stack/04_Yousign_Signature_Conforme.md` (envoi Yousign) et `06_French_Communication/04_Modeles_5_Emails.md` (email livraison).
 
-### Plan 7 jours ultra-concret
-J1 30m input, J2 output, J3 test Feynman, J4 feedback, J5 publish, J6 spaced J3, J7 review.
-
-> Philosophie: Sobre, chiffré, vendable en 7j. Mieux vaut 70% publié que 95% parfait jamais livré.
+**Sources spécifiques :** canva.com/templates, Loi 31-08 sgg.gov.ma, DOC art.618 sgg.gov.ma — vérif 20/08/2026.

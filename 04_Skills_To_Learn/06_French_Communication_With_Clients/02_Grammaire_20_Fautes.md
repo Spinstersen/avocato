@@ -20,37 +20,23 @@ J1 email diagnostic, J2 relance, J3 note risques, J4 contrat, J5 LinkedIn, J6 pl
 
 ---
 
-## Approfondissement Encyclopédique (Bonus)
+## À retenir + checklist + suite — Grammaire 20 Fautes
 
-### Cas pratique détaillé
-**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
+**3 points clés de ce fichier :**
+- Top fautes avocat : accord ci-jointe, "il convient de" → "À noter:", "nonobstant/en l'espèce" → "Cependant/Dans ce cas", provision ≠ acompte (art.30).
+- Exercice 7j : J1 email diag, J2 relance, J3 note risques, J4 contrat, J5 LinkedIn, J6 plaquette, J7 Loom — corriger via LanguageTool chaque jour.
+- Sobre > jargon : 1 faute = crédibilité perdue → 0 faute avant envoi Yousign.
 
-### Erreurs fréquentes (Top 5)
-1. Vouloir tout faire J1 -> overwhelm
-2. Négliger 09-08/CNDP -> sanction 300k
-3. Omettre provision art30 -> impayé
-4. Publier sans relecture -> faute FR + hallucination
-5. Pas de métrique -> 0 amélioration
+**Checklist 6 points — 0 faute avant envoi :**
+- [ ] Document passé LanguageTool (0 faute) + Antidote relecture 2e passe
+- [ ] "Ci-joint la convention" → "Ci-jointe" + accord "honoraires convenus" vérifié
+- [ ] Jargon purgé : remplacer "nonobstant/attendu que/en l'espèce" → "cependant/considérant/dans ce cas"
+- [ ] Provision (art.30) vs acompte distingué + échéance vs deadline
+- [ ] Signature sobre : "Bien à vous — [Nom] barreau [Ville]" (pas cordialement)
+- [ ] Notion Template "Relecture" coché avant Yousign
 
-### Checklist encyclopédique (12 points)
-- [ ] Anonymisation / 09-08 OK
-- [ ] Déontologie RIO vérifiée
-- [ ] Template prêt veille
-- [ ] Loom 3 min si livrable
-- [ ] LanguageTool 0 faute
-- [ ] Plausible/Yousign si besoin
-- [ ] Notion archivé
-- [ ] Feedback humain obtenu
-- [ ] Repurposing 1->5 fait
-- [ ] KPI mis à jour
-- [ ] Spaced J3/J7 planifié
-- [ ] Prochain sprint choisi
+**Renvoi glossaire :** `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §10 Provision (terminologie art.30) + §11 DOC art.443 (écrit >10k exige 0 faute).
 
-### Ressources Maroc
-- sgg.gov.ma, cndp.ma, ompic.ma, jep.ma, rbm.ma
-- YouTube: OMPIC, CNDP webinars, SPIN 15m, Canva School
+**Interaction dossier :** S'applique à `06_French_Communication/03_Structure_SCQA.md` (email SCQA) et `04_Design_Canva_For_Legal/03_Templates_8_Types_Spec.md` (plaquette sans faute).
 
-### Plan 7 jours ultra-concret
-J1 30m input, J2 output, J3 test Feynman, J4 feedback, J5 publish, J6 spaced J3, J7 review.
-
-> Philosophie: Sobre, chiffré, vendable en 7j. Mieux vaut 70% publié que 95% parfait jamais livré.
+**Sources spécifiques :** languagetool.org/fr, antidote.info, grevisse.fr — vérif 20/08/2026.

@@ -26,37 +26,23 @@ Si closing <30% → revoir SPIN I (coût non quantifié) ou anchoring (prix pré
 
 ---
 
-## Approfondissement Encyclopédique (Bonus)
+## À retenir + checklist + suite — Métriques & Taux Conversion
 
-### Cas pratique détaillé
-**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
+**3 points clés de ce fichier :**
+- Funnel cible : 100 vues post → 10 DM/intake → 5 diagnostics → 2 missions (40% closing) → 1 referral.
+- KPIs hebdo Notion : intake/sem 5, diag bookés 3, closing 40%, ticket moyen 4500 DH, délai diag→signature <7j.
+- Dopamine Board : streak 5 diags = récompense ; si closing <30% → revoir SPIN I (coût non quantifié) ou anchoring trop tôt.
 
-### Erreurs fréquentes (Top 5)
-1. Vouloir tout faire J1 -> overwhelm
-2. Négliger 09-08/CNDP -> sanction 300k
-3. Omettre provision art30 -> impayé
-4. Publier sans relecture -> faute FR + hallucination
-5. Pas de métrique -> 0 amélioration
+**Checklist 6 points — pilotage hebdo 10 min :**
+- [ ] Notion KPI rempli lundi (intake / diag / closing / ticket / délai)
+- [ ] Funnel Plausible → Tally → Calendly → Notion tracé (source top LinkedIn vs Google)
+- [ ] 1 hypothèse d'amélioration notée si closing <40% (ex: ajouter ROI 50× SPIN-I)
+- [ ] Dopamine Board coché (voir `01_Strategy/04_Client_Acquisition/08_Metrics_Dopamine_Board.md`)
+- [ ] Ticket moyen calculé : (2900×n + 5900×m)/total → cible 4500 DH
+- [ ] Rétro 15 min vendredi : quoi garder / changer / tester la semaine prochaine
 
-### Checklist encyclopédique (12 points)
-- [ ] Anonymisation / 09-08 OK
-- [ ] Déontologie RIO vérifiée
-- [ ] Template prêt veille
-- [ ] Loom 3 min si livrable
-- [ ] LanguageTool 0 faute
-- [ ] Plausible/Yousign si besoin
-- [ ] Notion archivé
-- [ ] Feedback humain obtenu
-- [ ] Repurposing 1->5 fait
-- [ ] KPI mis à jour
-- [ ] Spaced J3/J7 planifié
-- [ ] Prochain sprint choisi
+**Renvoi glossaire :** `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §10 Provision 50% (ticket) + §09 AE/SARL (panier moyen).
 
-### Ressources Maroc
-- sgg.gov.ma, cndp.ma, ompic.ma, jep.ma, rbm.ma
-- YouTube: OMPIC, CNDP webinars, SPIN 15m, Canva School
+**Interaction dossier :** Données alimentées par `01_Legal_Tech_Stack/07_Plausible_Analytics_CNDP.md` (vues) et `03_Sales_Without_Selling/02_Script_Diagnostic_40min.md` (closing).
 
-### Plan 7 jours ultra-concret
-J1 30m input, J2 output, J3 test Feynman, J4 feedback, J5 publish, J6 spaced J3, J7 review.
-
-> Philosophie: Sobre, chiffré, vendable en 7j. Mieux vaut 70% publié que 95% parfait jamais livré.
+**Sources spécifiques :** Plausible dashboard (vues), Notion KPI template, *SPIN Selling* chap.12 métriques — vérif 20/08/2026.
