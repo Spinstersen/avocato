@@ -1,8 +1,8 @@
-# Glossaire Encyclopédique — Les 12 Concepts Clés (à connaître par cœur)
+# Glossaire Encyclopédique — Les 15 Concepts Clés (à connaître par cœur)
 
-> **Pourquoi ce fichier existe :** 80% des docs du vault citent ces 12 concepts en 2-3 mots (`183j`, `PE 6m`, `art.27`, `dotation 15k`) sans les expliquer. Résultat : salade de mots-clés. Ce glossaire donne pour chaque concept : **définition claire + base légale exacte + procédure pas-à-pas + chiffres 2025 + comment il interagit avec les 11 autres + erreur qui coûte cher**. Sources primaires à vérifier à chaque utilisation.
+> **Pourquoi ce fichier existe :** 80% des docs du vault citent ces 15 concepts en 2-3 mots (`183j`, `PE 6m`, `art.27`, `dotation 15k`, `substance`, `CRS`) sans les expliquer. Résultat : salade de mots-clés. Ce glossaire donne pour chaque concept : **définition claire + base légale exacte + procédure pas-à-pas + chiffres 2025 + comment il interagit avec les 14 autres + erreur qui coûte cher**. Sources primaires à vérifier à chaque utilisation.
 
-> **Date de vérification : 20/08/2026** — sgg.gov.ma (CGI, Loi 5-96, Loi 17-97, Loi 09-08), oc.gov.ma (IGOC 2024), cndp.ma, ompic.ma. Vérifiez à chaque diagnostic : PLF annuelle et IGOC juillet modifient les chiffres.
+> **Date de vérification : 21/08/2026** — sgg.gov.ma (CGI, Loi 5-96, Loi 17-97, Loi 09-08), oc.gov.ma (IGOC 2024), cndp.ma, ompic.ma, rbe.ompic.ma, oecd.org (Forum mondial 2025). Vérifiez à chaque diagnostic : PLF annuelle et IGOC juillet modifient les chiffres.
 
 ---
 
@@ -307,6 +307,87 @@ ICE: 00XXXX RC: XXXX IF: XXXX
 
 ---
 
+## 13 — Substance réelle : bureau + salariés + décisions locales (test substance)
+
+**Définition simple :** Une société est imposée **où elle exerce réellement son activité**, pas où son papier est signé. Le test substance vérifie 4 éléments cumulatifs :
+1. **Bureau réel** (bail au nom de la société, pas boîte postale ni domiciliation virtuelle)
+2. **Salariés locaux qualifiés** (2 minimum pour une holding, CNSS locales, banques exigent souvent plus)
+3. **Décisions prises sur place** (PV d'assemblées tenus localement, dirigeants résidents, signature des contrats sur place)
+4. **CA/activité locale cohérente** (comptabilité locale tenue, factures émises depuis le siège réel)
+
+Si les 4 manquent → **shell** = coquille → requalification : la société est taxée comme si elle était résidente du pays du bénéficiaire effectif.
+
+**Base légale :** CGI art.23 (résidence fiscale), conventions art.5/7 (PE) + art.4 (résidence effective), CGI art.208 abus de droit (actes fictifs/simulés), BEPS action 6 OCDE (abus convention — clause PPT), ATAD UE art.3 (test substance holdings UE).
+
+**Procédure — test substance en 5 questions :**
+1. Où sont signés les contrats clients ? Si tout est signé à Casa alors que le siège est à Dubai → substance Dubai = 0.
+2. Qui prend les décisions stratégiques ? PV d'assemblée localisé où ? Si PV à Casa → résidence effective Casa.
+3. Combien de salariés CNSS locaux ? 0 salarié = shell présumé.
+4. La comptabilité locale existe-t-elle ? Compta tenue à l'étranger par un cabinet réel ?
+5. Le bureau est-il un bail réel >12m² avec présence physique ? Boîte postale = shell.
+
+**Chiffres :** bureau réel 12m²+, 2 salariés CNSS locaux (holding), PV décisionnels sur place, compta locale annuelle ~15-30k DH/an (cabinet local), coût holding Dubai avec substance ~60-100k DH/an (bureau + 2 visas + compta) vs shell ~10-15k DH/an.
+
+**Interagit avec :** §01 Résidence (substance détermine résidence effective), §02 PE (sans substance locale = risque PE inverse), §14 CRS/BO (banque KYC exige substance avant ouverture compte), §15 Prix transfert (sans substance = pas de fonction = pas de marge justifiable), §07 Convention art.27 (taux réduit refusé si shell — bénéficiaire effectif contesté).
+
+**Erreur qui coûte 150k :** Holding Dubai 0 salarié, 0 bureau, PV signés à Casa → DGI requalifie : IS Maroc sur tous les bénéfices + majoration 30% + taux conventionnel EAU refusé (bénéficiaire effectif non démontré). Économie espérée 60k → redressement 150k+.
+
+**Source :** sgg.gov.ma CGI art.23/208, oecd.org BEPS action 6 + Forum mondial 2025, conventions publiées. Vérif PLF annuelle.
+
+---
+
+## 14 — CRS / Registre BO / FATCA : l'argent n'est plus invisible
+
+**Définition simple :** 3 dispositifs rendent les avoirs étrangers visibles :
+- **CRS (Norme commune de déclaration OCDE)** : les banques déclarent automatiquement les comptes des non-résidents à leur fisc, qui transmet au fisc du pays de résidence du titulaire. ~120 juridictions.
+- **Registre BO Maroc** : toute société marocaine doit déclarer ses **bénéficiaires effectifs** (personnes physiques qui contrôlent/détiennent ≥25%) au registre public tenu par OMPIC.
+- **FATCA (US)** : les banques mondiales déclarent les comptes de contribuables US au fisc américain, sinon retenue 30% sur flux US.
+
+**Base légale :** CRS = norme OCDE 2014 + CGI art.214-5 (LF 2018 : diligences banques/assurances Maroc pour EAR). BO = Loi 43-05 LBC modifiée Loi 12-18 + décret n°2.21.708 (BO 7024 du 23/09/2021), plateforme rbe.ompic.ma. FATCA = droit US + IGA.
+
+**Point critique Maroc (vérifié Forum mondial OCDE déc. 2025) :** Le Maroc s'était engagé à démarrer les échanges CRS en 2025 — **non tenu**. Classé « juridiction de pertinence », il doit être opérationnel **au plus tard 2028**. MAIS : (1) la banque étrangère (Dubai, Suisse…) applique déjà le CRS selon SES règles et déclare au pays de résidence fiscale qu'elle identifie chez vous ; (2) CGI art.214-5 prépare déjà la collecte côté marocain ; (3) le registre BO donne déjà à la DGI la cartographie des montages. Ne jamais vendre « Dubai = invisible ».
+
+**Procédure — conformité en 4 étapes :**
+1. Déclarer le BO dans le mois suivant immatriculation RC et chaque modification (rbe.ompic.ma via personne assujettie LBC)
+2. Déclarer tout avoir étranger au titre de la résidence fiscale applicable (annexe DGI / déclaration IR ou IS selon structure)
+3. Vérifier comment votre banque étrangère vous a classé (résidence fiscale déclarée au KYC = celle que le fisc verra)
+4. Documenter la source des fonds (contrats, SWIFT, liasse) — le KYC banque exige la traçabilité
+
+**Chiffres :** BO sous 1 mois après RC/modification ; amende BO 5 000-50 000 DH (manquement), 10 000-100 000 DH (infos fausses) ; seuil contrôle BO = détention/contrôle ≥25% ; CRS ~120 juridictions, Maroc opérationnel horizon 2028 ; FATCA retenue 30% flux US.
+
+**Interagit avec :** §13 Substance (KYC banque refuse shell sans substance), §12 Compte (flux devises tracés Office + banque), §03 Rapatriement 30j (SWIFT = trace permanente), §07 Convention art.27 (BO déclaré conditionne taux réduit), §11 DOC (fausse déclaration = nullité + pénal).
+
+**Erreur qui coûte 80k :** Résident fiscal Maroc, compte Dubai 500k DH ouvert avec adresse « résidence Dubai » fictive → la banque déclare au fisc du pays KYC dès activation CRS, le registre BO montre déjà le montage, la DGI recoupe → IR/IS mondial + majoration 30% + amende BO. Déclaration spontanée coûte 0 ; redressement coûte tout.
+
+**Source :** oecd.org Forum mondial rapport 2025 (déc. 2025), rbe.ompic.ma, décret 2.21.708 BO 7024, sgg.gov.ma CGI art.214-5, Loi 43-05/12-18.
+
+---
+
+## 15 — Prix de transfert : prix de marché obligatoire entre sociétés liées (CGI art.213)
+
+**Définition simple :** Quand deux sociétés liées (même propriétaire direct/indirect) se facturent entre elles à travers les frontières, les prix doivent être ceux qu'auraient pratiqués des entreprises **indépendantes** (principe de pleine concurrence). Facturer un service 1 000 DH quand le marché en demande 5 000 = bénéfice transféré artificiellement = redressement.
+
+**Base légale :** CGI art.213 II (bénéfices indirectement transférés via liens de dépendance rapportés au résultat), CGI art.214-III (obligation documentation), CGI art.234 bis (accord préalable APP, LF 2015), LF 2020 (CbCR), LF 2021 (périmètre documentation), Principes OCDE prix de transfert (BEPS action 13).
+
+**Procédure — savoir si vous êtes concerné :**
+1. Liens de dépendance ? (participation ≥50% capital/votes, contrôle gestion, même bénéficiaire effectif)
+2. Transactions intragroupes transfrontalières ? (management fees, redevances, achats/ventes, prêts)
+3. CA réalisé ≥50 MMAD OU actif brut bilan ≥50 MMAD → **documentation master file + local file obligatoire** (format électronique, produite en cas de contrôle, pas déposée spontanément)
+4. Groupe CA consolidé ≥8,136 MMDH (~750M EUR) → **déclaration pays par pays CbCR** déposée DGI dans les 12 mois de la clôture
+5. Sécurisation possible : APP avec la DGI (art.234 bis) — méthode validée 4 exercices
+
+**Méthode prix marché (la seule défense) :** benchmark comparable (ex : prestation dev senior facturée 500 DH/j à la filiale alors que le marché local est à 800 DH/j → 300 DH/j × jours × IS = redressement). Méthodes acceptées : prix comparable sur marché libre, prix de revente minoré, coût majoré, partage bénéfices, marge nette transactionnelle.
+
+**Chiffres :** seuil documentation 50 MMAD (CA ou actif brut, LF 2021), CbCR 8,136 MMDH consolidé (LF 2020, dépôt 12 mois), APP valable 4 exercices, sanction défaut documentation 0,5% des transactions concernées (à vérifier LF en vigueur) + redressement bénéfices transférés + majorations de droit commun.
+
+**Interagit avec :** §13 Substance (pas de fonction réelle = pas de marge justifiable dans la chaîne), §14 CRS/BO (DGI croise BO + CbCR + CRS), §02 PE (prix transfert et PE = 2 angles du même contrôle international), §09 Statut SARL (SARL Casa facturant holding étrangère = liens de dépendance dès 50%).
+
+**Erreur qui coûte 200k :** SARL Casa (dev) facture sa holding Dubai 1 000 DH/jour pour du dev vendu 5 000 DH/jour au client final. Contrôle : DGI compare aux comparables, rapporte la différence au résultat Casa → IS + majoration 30% sur 3 exercices non prescrits + documentation inexistante = position aggravée. Benchmark écrit AVANT facturation = 0 redressement.
+
+**Source :** sgg.gov.ma CGI art.213/214/234 bis, LF 2020/2021, guide DGI prix de transfert, impots.gouv.fr (Bofip) pour versant FR, Principes OCDE.
+
+---
+
 ## Tableau synthèse interactions (à afficher en diagnostic)
 
 ```
@@ -316,10 +397,16 @@ ICE: 00XXXX RC: XXXX IF: XXXX
 [08 Carte 1 an]          [04 TVA art.92]    [03 Rapatriement 30j] ──→ [12 Compte convertible/MRE]
        │                       │                  │
        └──────────→ [10 Provision 50% + Contrat DOC 443] ←──────────┘
-                              │
-                         [06 Loi 09-08 registre] + [05 OMPIC marque]
+                               │
+                          [06 Loi 09-08 registre] + [05 OMPIC marque]
+
+── Couche internationale (volet 12) ──────────────────────────────
+[13 Substance] ──→ [15 Prix transfert art.213] ──→ [14 CRS/BO/FATCA]
+       │                       │                          │
+       └── shell sans substance = requalification + redressement┘
 ```
 
 **Ordre diagnostic :** 01 → 09 → 02 → 07 → 03 → 04 → 12 → 10 → 06/05. Ne sautez pas d'étape.
+**Volet international (dossier 12) :** 13 Substance → 15 Prix transfert → 14 CRS/BO — toujours dans cet ordre : la substance conditionne tout le reste.
 
 > **Devoir d'information art.59 Loi 28-08 :** Ce glossaire est une information doctrinale, pas une consultation. Diagnostic 45 min + co-traitance comptable obligatoire pour chiffrage exact. Vérifiez chaque chiffre sur sgg.gov.ma à la date du diagnostic.

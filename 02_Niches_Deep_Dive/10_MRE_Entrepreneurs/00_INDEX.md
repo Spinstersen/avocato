@@ -44,6 +44,7 @@
 
 *   Préalable: `08_Fiscalite_Internationale_Rapatriement/` + `09_Office_Changes_Dotation_IGOC2024/`
 *   Nomad séparé: `11_Nomads_Digital/`
+*   Holding/shell/substance : `12_Ingenierie_Fiscale_Internationale_Shell/` (arbre décision + zones grises chiffrées)
 
 ---
 
