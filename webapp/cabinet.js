@@ -136,6 +136,8 @@
     const soldeDu = caHT - provEnc;
     const enCours = dossiers.filter(d => ['Convention signée', 'En cours', 'Livré - solde dû'].includes(d.statut)).length;
     const overdue = echeances.filter(e => !e.done && e.date && e.date < todayISO()).length;
+    const fin = financeAggregates();
+    const anneeCourante = new Date().getFullYear();
 
     const content = $('#content');
     content.innerHTML = `
@@ -144,15 +146,30 @@
         <p class="sub">Dossiers en localStorage — offline. Provision et solde suivent la convention d'honoraires (loi n° 66.23).</p>
         ${!settingsComplete() ? '<div class="dash-panel" style="border-left:4px solid var(--warn);margin-bottom:14px"><h3>⚙️ Configure ta fiche cabinet</h3><p style="font-size:13px;color:var(--text-dim)">Nom + Barreau requis pour que les conventions/factures sortent à ton nom (sinon placeholders).</p><button class="btn btn-primary" id="cabGoSettings">Ouvrir les Paramètres</button></div>' : ''}
         <div class="dash-cards">
+          <div class="dash-card"><div class="num">${fmtMoney(fin.encaisse)}</div><div class="lbl">Encaissé réel (TTC)</div></div>
+          <div class="dash-card"><div class="num">${fmtMoney(fin.attendu)}</div><div class="lbl">Attendu (émis non encaissé)</div></div>
           <div class="dash-card"><div class="num">${total}</div><div class="lbl">Dossiers</div></div>
-          <div class="dash-card"><div class="num">${fmtMoney(caHT)}</div><div class="lbl">CA HT total (missions)</div></div>
-          <div class="dash-card"><div class="num">${fmtMoney(provEnc)}</div><div class="lbl">Provisions (50% théorique)</div></div>
           <div class="dash-card"><div class="num">${enCours}</div><div class="lbl">En cours / livrés</div></div>
-          <div class="dash-card"><div class="num">${overdue}</div><div class="lbl">Échéances en retard</div></div>
+          <div class="dash-card"><div class="num" style="${overdue ? 'color:var(--err)' : ''}">${overdue}</div><div class="lbl">Échéances en retard</div></div>
         </div>
         <div class="dash-grid">
           <div class="dash-panel"><h3>Dossiers par statut</h3><div class="chart-canvas-wrap" style="height:220px"><canvas id="cabStatut"></canvas></div></div>
           <div class="dash-panel"><h3>CA par mission</h3><div class="chart-canvas-wrap" style="height:220px"><canvas id="cabMission"></canvas></div></div>
+        </div>
+        <div class="dash-grid">
+          <div class="dash-panel">
+            <h3>TVA collectée — ${anneeCourante} <select id="tvaYear" style="margin-left:auto;font-size:12px;padding:2px 6px"></select></h3>
+            <table class="cab-table"><thead><tr><th>Trimestre</th><th>Base HT</th><th>TVA collectée</th></tr></thead><tbody id="tvaBody">
+            ${tvaParTrimestre(anneeCourante).map(r => `<tr><td>${r.q}</td><td>${fmtMoney(r.ht)}</td><td class="mono">${fmtMoney(r.tva)}</td></tr>`).join('')}
+            </tbody></table>
+            <p style="font-size:11px;color:var(--text-faint);margin-top:8px">Base = factures émises (provisions + soldes). Vérifier le régime déclaratif avec ton comptable.</p>
+          </div>
+          <div class="dash-panel">
+            <h3>Export comptable</h3>
+            <p style="font-size:13px;color:var(--text-dim)">Fichier CSV (dossiers + factures) prêt à transmettre au comptable pour la déclaration.</p>
+            <button class="btn btn-primary" id="btnExportCSV">⬇️ Exporter CSV ${anneeCourante}</button>
+            <p style="font-size:11px;color:var(--text-faint);margin-top:8px">Colonnes : type, numéro, date, client, ICE, mission, HT, TVA, TTC, statut, encaissé le.</p>
+          </div>
         </div>
         <div class="dash-panel" style="margin-bottom:16px">
           <h3>Actions rapides</h3>
@@ -203,6 +220,32 @@
     $('#cabSample').addEventListener('click', loadSample);
     $('#cabExport').addEventListener('click', exportJSON);
     $('#cabImport').addEventListener('change', importJSON);
+    $('#btnExportCSV').addEventListener('click', exportCSV);
+    // sélecteur année TVA
+    const ySel = $('#tvaYear');
+    const years = [...new Set(STORE.factures.map(f => (f.date || '').slice(0, 4)).filter(Boolean))].sort().reverse();
+    if (years.length) {
+      ySel.innerHTML = years.map(y => `<option ${y === String(anneeCourante) ? 'selected' : ''}>${y}</option>`).join('');
+      ySel.addEventListener('change', () => {
+        const rows = tvaParTrimestre(Number(ySel.value));
+        $('#tvaBody').innerHTML = rows.map(r => `<tr><td>${r.q}</td><td>${fmtMoney(r.ht)}</td><td class="mono">${fmtMoney(r.tva)}</td></tr>`).join('');
+      });
+    } else { ySel.disabled = true; }
+  }
+
+  function exportCSV() {
+    const annee = new Date().getFullYear();
+    const escCsv = (v) => '"' + String(v ?? '').replace(/"/g, '""') + '"';
+    const lines = ['type;numero;date;client;ice;mission;ht;tva;ttc;statut;encaisse_le'];
+    STORE.factures.forEach(f => {
+      const d = STORE.dossiers.find(x => x.id === f.dossierId) || {};
+      lines.push([escCsv(f.type), escCsv(f.num), escCsv(f.date), escCsv(d.client), escCsv(d.ice), escCsv(d.mission), f.ht, f.tva, f.ttc, escCsv(f.statut), escCsv(f.encaisseeLe || '')].join(';'));
+    });
+    STORE.dossiers.forEach(d => {
+      lines.push(['DOSSIER', '', escCsv(d.createdAt), escCsv(d.client), escCsv(d.ice), escCsv(d.mission), d.honoraires, calcTTC(d.honoraires, d.tva).tva, calcTTC(d.honoraires, d.tva).ttc, escCsv(d.statut), ''].join(';'));
+    });
+    const blob = new Blob(['\uFEFF' + lines.join('\r\n')], { type: 'text/csv;charset=utf-8' });
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'comptable-' + annee + '.csv'; a.click(); URL.revokeObjectURL(a.href);
   }
 
   function loadSample() {
@@ -729,8 +772,42 @@
     }));
     $$('[data-encaisse]').forEach(b => b.addEventListener('click', () => {
       const f = STORE.factures.find(x => x.id === b.dataset.encaisse);
-      if (f) { f.statut = f.statut === 'Encaissée' ? 'Émise' : 'Encaissée'; STORE.factures = STORE.factures; renderFactures(); }
+      if (!f) return;
+      if (f.statut === 'Encaissée') {
+        f.statut = 'Émise'; f.encaisseeLe = '';
+        logEvent(f.dossierId, 'facture', f.type + ' ' + f.num + ' repassée à Émise');
+      } else {
+        const d = prompt('Date d\'encaissement (AAAA-MM-JJ) :', todayISO());
+        if (d === null) return;
+        f.statut = 'Encaissée'; f.encaisseeLe = d || todayISO();
+        logEvent(f.dossierId, 'facture', f.type + ' ' + f.num + ' ENCAISSÉE (' + fmtMoney(f.ttc) + ')');
+      }
+      STORE.factures = STORE.factures; renderFactures();
     }));
+  }
+
+  /* ---------- Finance : agrégats ---------- */
+  function financeAggregates() {
+    const facts = STORE.factures;
+    const encaisse = facts.filter(f => f.statut === 'Encaissée').reduce((s, f) => s + (Number(f.ttc) || 0), 0);
+    const attendu = facts.filter(f => f.statut !== 'Encaissée').reduce((s, f) => s + (Number(f.ttc) || 0), 0);
+    const dossiers = STORE.dossiers.filter(d => !['Prospect', 'Abandonné'].includes(d.statut));
+    const portefeuille = dossiers.reduce((s, d) => {
+      const c = calcTTC(d.honoraires, d.tva);
+      return s + c.ttc;
+    }, 0);
+    return { encaisse, attendu, portefeuille };
+  }
+  function tvaParTrimestre(annee) {
+    const map = {};
+    STORE.factures.forEach(f => {
+      if (!f.date || !f.date.startsWith(String(annee))) return;
+      const q = 'T' + Math.floor((Number(f.date.slice(5, 7)) - 1) / 3) + 1;
+      map[q] = map[q] || { tva: 0, ht: 0 };
+      map[q].tva += Number(f.tva) || 0;
+      map[q].ht += Number(f.ht) || 0;
+    });
+    return ['T1', 'T2', 'T3', 'T4'].map(q => ({ q, ...(map[q] || { tva: 0, ht: 0 }) }));
   }
 
   /* ---------- Échéances ---------- */
