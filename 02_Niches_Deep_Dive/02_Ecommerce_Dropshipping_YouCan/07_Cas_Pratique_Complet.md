@@ -46,7 +46,7 @@ Convention Yousign. Paiement provision 3 700 DH.
 
 - CGV conformes (Loi 31-08 + COD + mentions 09-08).
 - Politique de confidentialité.
-- Politique de retour (14 jours).
+- Politique de retour (7 jours, art.36 loi 31-08).
 - Registre 09-08 vierge.
 - Modèle de facture conforme.
 - Modèle de devis.

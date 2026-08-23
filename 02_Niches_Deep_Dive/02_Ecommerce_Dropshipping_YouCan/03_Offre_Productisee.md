@@ -10,7 +10,7 @@
 1. CGV conformes (Loi 31-08 + pratiques e-commerce + COD).
 2. Mentions obligatoires 09-08.
 3. Politique de confidentialité type.
-4. Modèle de politique de retour (14 jours).
+4. Modèle de politique de retour (7 jours, art.36 loi 31-08 ; remboursement 15j).
 5. Registre 09-08 vierge + notice de tenue.
 6. Note explicative Loom 15 min.
 

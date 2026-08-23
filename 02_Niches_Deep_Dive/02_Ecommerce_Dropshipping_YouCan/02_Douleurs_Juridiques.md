@@ -15,7 +15,7 @@
 3. Prix en DH TTC (mention de la TVA).
 4. Modalités de paiement acceptées.
 5. Délai de livraison.
-6. Droit de rétractation 14 jours (sauf exceptions).
+6. Droit de rétractation 7 jours (art.36 loi 31-08, sauf exceptions).
 7. Modalités de retour et de remboursement.
 8. Garanties légales.
 9. Conditions de résiliation.
@@ -106,7 +106,7 @@ CMI (Centre Monétique Interbancaire) et MoPay exigent des **mentions spécifiqu
 
 ## 7. Droit de rétractation non respecté
 
-- Article 26 et seq. Loi 31-08 : droit de rétractation 14 jours pour les ventes à distance.
+- Articles 36-38 Loi 31-08 : droit de rétractation 7 jours pour les ventes à distance (remboursement sous 15 jours).
 - L'e-commerçant doit informer le client et accepter les retours.
 
 ## 8. COD et obligations

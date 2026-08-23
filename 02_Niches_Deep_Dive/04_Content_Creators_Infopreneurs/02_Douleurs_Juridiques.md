@@ -59,7 +59,7 @@
 
 - Loi 31-08 sur la protection du consommateur.
 - Vente de formations en ligne = prestation de services → CGV obligatoires.
-- Droit de rétractation 14 jours (sauf exception pour les biens numériques dématérialisés).
+- Droit de rétractation 7 jours (art.36 loi 31-08 ; exceptions art.38, dont contenu numérique exécuté avec consentement exprès).
 
 ## 5. Mentions légales chaîne YouTube/TikTok non conformes
 

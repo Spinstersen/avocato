@@ -93,7 +93,7 @@ Production : 4h pour l'article. Réutilisation : 1h supplémentaire pour les 4 f
 4. CMI blocage site e-commerce : causes et solutions.
 5. Facture conforme Maroc e-commerce (art. 144 CGI).
 6. Mentions légales site e-commerce Maroc.
-7. Droit de rétractation e-commerce : 14 jours.
+7. Droit de rétractation e-commerce : 7 jours (art.36 loi 31-08 ; remboursement sous 15 jours).
 8. COD Maroc : mentions obligatoires.
 9. Statut e-commerçant : AE ou SARL.
 10. Registre 09-08 e-commerce : tenue et conservation.
