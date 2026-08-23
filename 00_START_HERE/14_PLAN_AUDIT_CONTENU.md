@@ -113,3 +113,5 @@ Dossier sain (aucun <3KB). Passe légère :
 
 - 23/08/2026 · 7 fichiers · bannière abrogation loi 28-08 → 66.23 promulguée · conformité
 - 23/08/2026 · 12_VEILLE §A2 · détails définitifs (arts 12/39/121-11 différés, élections décembre, ABM 05/09) · exactitude
+- 23/08/2026 · **P2 START_HERE** : 01_ADHD_QuickStart enrichi (parcours première heure + timers FR) ; 02_Guide_FR actualisé (tracks 14-22, niche 12, note loi 66.23) ; 07_Table_Matieres → 10 dossiers/22 tracks/22 templates ; 13_AUDIT §3 statut 66.23 en vigueur + liste bannières complète
+- 23/08/2026 · **P3 Acquisition** : décision « enrichir individuellement » appliquée — 6 fichiers `10_FAQ_30_Canal` remplis avec vraies Q/R (LinkedIn 25Q, SEO 11Q, Partenariats 12Q, WhatsApp 11Q, Conférences 10Q, Referral 9Q), placeholders « ...30 Q/R » supprimés ; chemins vérifiés OK après fusion

@@ -1,7 +1,8 @@
-# 07 — Table des Matières Curriculum Maître (Carte Complète 9 Dossiers)
+# 07 — Table des Matières Curriculum Maître (Carte Complète 10 Dossiers)
 
-> **Version encyclopédique — 22/08/2026 — Navigation sans recherche externe. Imprimer A3 et afficher.**
-> **But:** Voir d'un coup les 9 dossiers, leurs phases, leurs dépendances causales, et où reprendre sans perdre vision.
+> **Version encyclopédique — 23/08/2026 — Navigation sans recherche externe. Imprimer A3 et afficher.**
+> **But:** Voir d'un coup les 10 dossiers, leurs phases, leurs dépendances causales, et où reprendre sans perdre vision.
+> **Volume :** ~710 docs · 22 tracks skills · 22 templates · veille légale vivante (`12_VEILLE_LEGALE`).
 
 ---
 
@@ -38,6 +39,11 @@
 | 06 | `06_Glossaire_Trilingue_50_Termes_FR_EN_AR.md` | 20 min (outil) | FR/EN/AR | 03 |
 | 07 | `07_Table_Matieres_Curriculum_Maitre.md` | 10 min (tu es ici) | FR | 00-06 |
 | 08 | `08_FAQ_30_Start_Here.md` | 20 min | FR (10 AR) | 00-07 |
+| 09 | `09_PLAN_Fusion_V1_V2_Reprise.md` | référence historique | FR | — |
+| 10 | `10_PLAN_Next_Skills.md` | 10 min | FR | 04_Skills |
+| 12 | `12_VEILLE_LEGALE_2025_2026.md` | **15 min/mois (vivant)** | FR | — |
+| 13 | `13_AUDIT_IMPACT_REFORMES_2026.md` | 20 min | FR | 12 |
+| 14 | `14_PLAN_AUDIT_CONTENU.md` | plan qualité en cours | FR | 12-13 |
 
 **Objectif fin 00:** Choisir 1 niche `02_Niches` + 1 canal `03_Acquisition` + envoyer 1 message.
 
@@ -102,13 +108,13 @@
 
 **Choisir 1 canal 90j.** Funnel global `07_Systeme_Global` dans dossier 03.
 
-### 04_Skills_To_Learn — Comment (159→~250 files, FR/EN, miroir 01)
+### 04_Skills_To_Learn — Comment (~253 files, FR/EN, miroir 01)
 
-13 dossiers (00 roadmap +01 legal tech +02 AI +03 sales fusion +04 design +06 French +07 sharp +08 livres +09 SEO +10 speaking +11 négo +12 finance +13 ingénierie). **+6 tracks Level 2 (23/08/2026):** 14_Litigation (13), 15_Client_Psy (12), 16_LE_Drafting EN (13), 17_Finance_Op (13), 18_AI_Auto (13), 19_Sectors Fintech (13). Parity 00_INDEX+12 files comme `01_Strategy`. Voir `04_Skills/00_MASTER_INDEX:05`.
+13 dossiers (00 roadmap +01 legal tech +02 AI +03 sales fusion +04 design +06 French +07 sharp +08 livres +09 SEO +10 speaking +11 négo +12 finance +13 ingénierie). **+9 tracks Level 2 :** 14_Litigation · 15_Client_Psy · 16_LE_Drafting EN · 17_Finance_Op · 18_AI_Auto · 19_Sectors Fintech · **20_Legal_Writing · 21_Facturation_Electronique (décret attendu) · 22_Actifs_Numeriques_Crypto (projet 42-25 non promulgué)**. Voir `04_Skills/00_MASTER_INDEX`.
 
-### 05_Document_Bank — Templates (8→16 files, FR+EN+AR 1p)
+### 05_Document_Bank — Templates (**22 files**, FR+EN+AR 1p)
 
-`01_Convention` (+variants) +02 Scripts +03 Contrat +04 CGV +05 Registre +06 Reçu/Facture +07 Lettre mission +08 PV +09-12 lead magnets Canva/Tally +13 Sources primaires. Convention art.30 avant mission (`01:39-42`).
+`01_Convention` +02 Scripts +03 Contrat freelance +04 CGV pack ecom +05 Registre 09-08 +06 Reçu/Facture +07 Lettre mission +08 PV clôture +09 Checklist 19pts +10 Email recouvrement +11 Calculateur provision/TVA +**12 Politique confidentialité · 13 Sous-traitance art.24 · 14 DPIA CNDP · 15 CGV formation (rétractation 7j) · 16 Sponsor/influenceur PI · 17 Checklist marque OMPIC · 18 Procuration apostillée MRE · 19 Guide formulaire 5000-F · 20 Radiation AE & quitus · 21 Devis pack · 22 CGV e-commerce loi 31-08**. Index complet : `05_Document_Bank/00_Index.md`.
 
 ### 06_ADHD_System — OS quotidien (11→24 files, EN+FR résumé)
 
@@ -173,4 +179,4 @@ flowchart TD
 
 ---
 
-> **MAJ:** 22/08 Phase 1 00 encyclo FR/EN/AR. Prochain 01_Strategy puis 08.
+> **MAJ:** 23/08/2026 — 710 docs · loi 66.23 en vigueur (bannières posées) · 22 templates · plan audit contenu lancé (`14_PLAN_AUDIT_CONTENU.md`).
