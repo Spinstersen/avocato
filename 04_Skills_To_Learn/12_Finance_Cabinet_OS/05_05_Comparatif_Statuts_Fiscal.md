@@ -1,5 +1,7 @@
 ﻿# 05 — Comparatif Statuts Fiscal : AE 200k vs SARL IS 15% (7-14j, 10k)
 
+> 🟡 **FISCALITÉ 2026 — vérifié le 23/08/2026** : la **LF 2026 (loi 50-25, BO n°7465 bis du 16/12/2025)** a unifié l'IS au taux de **20 %** pour tout bénéfice net <100M MAD (35 % au-delà ; financier 40 %). L'ancien barème transitoire «15 % <300k / 20 % / 31-32 %» cité ci-dessous est **obsolète depuis le 01/01/2026** — chiffres conservés pour historique/comparatif, à requalifier en diagnostic. Détail : `12_VEILLE_LEGALE_2025_2026.md` §B1.
+
 ## Définition
 Comparatif statuts = **tableau AE vs SARL vs Portage** pour choisir statut selon CA 2025, avec chiffres PLF à vérifier juillet. AE plafond **500k commerce / 200k service HT 12 mois glissants** (Loi 114-13), IR libératoire **1% commerce / 2% service** (pas 3%). SARL **capital 10k min, IS 15% <300k bénéfice (pas CA), 20% 300k-1M, 32% >1M, création 7-14j OMPIC, frais CRI ~2000 DH**. Sans comparatif, Yassine reste AE 350k → radiation + redressement 68k.
 

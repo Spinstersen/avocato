@@ -17,6 +17,8 @@
 
 > ⚠️ Ancien tableau disait "400k (500k 2026?)" sans millésime ni base légale → obsolète. Remplacé par valeurs ci-dessus. Ne jamais citer sans année + base légale + source datée.
 
+> 🟡 **FISCALITÉ 2026 — vérifié le 23/08/2026** : la **LF 2026 (loi 50-25, BO n°7465 bis du 16/12/2025)** a unifié l'IS au taux de **20 %** pour tout bénéfice net <100M MAD (35 % au-delà ; financier 40 %). L'ancien barème transitoire «15 % <300k / 20 % / 31-32 %» cité ci-dessous est **obsolète depuis le 01/01/2026** — chiffres conservés pour historique/comparatif, à requalifier en diagnostic. Détail : `12_VEILLE_LEGALE_2025_2026.md` §B1.
+
 ## Procédure MAJ trimestrielle — qui / où / quand / comment
 
 **Qui :**

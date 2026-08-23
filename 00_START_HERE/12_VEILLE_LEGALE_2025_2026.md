@@ -1,122 +1,143 @@
-# 12 — Veille légale : réformes 2025-2026 à jour
+# 12 — Veille légale & fiscale : panorama complet des lois utiles à la pratique (2025-2026)
 
-> **Dernière vérification : 23 août 2026** — sources primaires : `sgg.gov.ma` (Bulletins officiels), `justice.gov.ma`, presse juridique (Médias24, Le Matin, cabinetkrari.ma).
-> ⚠️ **Ce document est votre point de contrôle annuel/trimestriel.** À chaque reprise : re-vérifier les numéros BO et dates sur sgg.gov.ma, puis mettre à jour la ligne « Dernière vérification ». Devoir d'information art.59 Loi 28-08 : information doctrinale, pas consultation.
+> **Dernière vérification : 23 août 2026** — sources primaires : `sgg.gov.ma` (Bulletins officiels), `tax.gov.ma` (DGI), `justice.gov.ma`, `finances.gov.ma`, presse juridique (Médias24, Le Matin, Le360, cabinets).
+> ⚠️ Règle vault : chaque chiffre garde sa base légale + date de vérification. Information doctrinale art.59 Loi 28-08 — pas consultation. **À re-vérifier trimestriellement.**
+> Rapport d'impact fichier-par-fichier : `13_AUDIT_IMPACT_REFORMES_2026.md`.
 
 ---
 
-## 📌 Résumé express (à connaître en diagnostic)
+## 0. Les 6 changements qui comptent MAINTENANT (résumé express)
 
-| Réforme | Texte | BO | Entrée en vigueur | Statut au 23/08/2026 |
+| # | Quoi | Texte | Date clé | Impact immédiat |
 |---|---|---|---|---|
-| **Nouveau Code de procédure civile** | **Loi n° 58-25**, dahir n° 1-26-07 du 11/02/2026 | **n° 7485 du 23/02/2026** | **24 août 2026** (art. 643) | ⚠️ **ENTRE EN VIGUEUR DEMAIN** — ancien CPC 1974 abrogé (art. 644) |
-| **Profession d'avocat** | **Loi n° 66.23**, dahir n° 1-26-75 du 18/08/2026 | **n° 7536 du 20/08/2026** | Immédiate (art. 146) [vérifier] | ✅ En vigueur — contestation des barreaux poursuivie, saisine CC pendante |
-| **Code de procédure pénale** | **Loi n° 03.23** modifiant/complétant le CPP (remplace la loi 22.01 de 2002) | **n° 7437 du 08/09/2025** | **8 décembre 2025** (art. 6) | ✅ Applicable depuis 8 mois |
+| 1 | **Nouveau Code de procédure civile** | Loi 58-25, BO n°7485 (23/02/2026) | ⚠️ **24/08/2026** | CPC 1974 abrogé ; requête électronique, audiences à distance, recours selon la valeur du litige |
+| 2 | **Profession d'avocat** | Loi 66.23, dahir 1-26-75, BO n°7536 (20/08/2026) | Immédiate [vérifier art.146] | Traçabilité honoraires, discipline, gouvernance ; décision CC pendante |
+| 3 | **Code de procédure pénale** | Loi 03.23, BO n°7437 (08/09/2025) | ✅ 08/12/2025 | Détention exceptionnelle, défense renforcée, notification CIN |
+| 4 | **IS unifié à 20 %** | **LF 2026 (loi 50-25), BO n°7465 bis (16/12/2025)** | ✅ **01/01/2026** | Fin du barème transitoire 15%/20%/31-32% : **taux unique 20 %** si bénéfice net <100M MAD ; 35 % au-delà ; financier 40 %. ⚠️ Le vault cite encore l'ancien barème dans ~68 fichiers (audit §7) |
+| 5 | **Facturation électronique** | CGI art.145-IX (LF 2024) + décret en cours SGG (avril 2026) | Déploiement progressif dès 2026 ; **AE/PME >500k CA visées dès 2027** | Modèle Clearance DGI, format UBL/CII, QR code ; risque **non-déductibilité TVA** des factures non conformes à terme |
+| 6 | **Réforme du Code du travail** | Projet de loi **03-26** (Conseil des ministres 14/05/2026) | Vote automne 2026 → vigueur prévue **01/01/2027** | Télétravail encadré (droit 3j/sem + indemnité), CDD jusqu'à 3 ans renouvelable 2×, congés +3j, statut plateformes numériques, sanctions harcèlement 30k-150k DH |
 
 ---
 
-## 1. Loi n° 58-25 — Nouveau Code de procédure civile
+## PARTIE A — Procédures & profession
 
-> **Vérifié le 23/08/2026.** Sources : BO n° 7485 (`sgg.gov.ma/BO/AR/3111/2026/BO_7485_Ar.pdf`), Médias24 (04/03/2026, 11/08/2026), cabinetkrari.ma (11/07/2026).
+### A1. Loi n° 58-25 — Nouveau Code de procédure civile *(vérifié 23/08/2026)*
 
-### Références exactes
-- Projet de loi **n° 02-23** ; promulguée par **dahir n° 1-26-07 du 22 Chaabane 1447 (11 février 2026)** ; publiée au **BO n° 7485 du 23 février 2026** ; **644 articles** (vs 528 à l'ancien CPC).
-- **Entrée en vigueur : 24 août 2026** (art. 643 — six mois après publication).
-- Historique : censure partielle de la **Cour constitutionnelle le 4 août 2025** (plus de 30 articles invalidés — ex. annulation de jugement définitif sur requête du ministère public, notification sur « âge apparent », audiences à distance sans garanties) → texte réécrit avant promulgation.
+Promulguée par **dahir n° 1-26-07 du 11/02/2026**, publiée au **BO n° 7485 du 23/02/2026** (644 articles vs 528). Issu du projet n° 02-23 après **censure partielle de la Cour constitutionnelle (04/08/2025)** et réécriture.
 
-### Abrogations (art. 644) — un seul code unifié civil/commercial/administratif
-- Dahir n° 1-74-447 du 28/09/1974 (**ancien CPC**) ;
-- Articles 4, 5 et 7 à 13 de la **loi 42-10** (justice de proximité) ;
-- **Règles procédurales** des lois **53-95** (juridictions de commerce), **41-90** (tribunaux administratifs), **80-03** (cours d'appel administratives).
-- Les juridictions restent ; seules leurs règles de procédure sont unifiées dans la loi 58-25.
+- **Entrée en vigueur : 24 août 2026** (art. 643). Abrogations (art. 644) : CPC 1974 (dahir 1-74-447), art. 4/5/7-13 loi 42-10, règles procédurales des lois **53-95** (tribunaux commerce), **41-90** (TA), **80-03** (CAA). Les juridictions subsistent — procédure unifiée civile/commerciale/administrative.
+- **Nouveautés** : principes directeurs + bonne foi processuelle (art. 1-10) · médiation/conciliation encouragées (art. 6-9) · requête écrite **ou électronique** (art. 76) · plateforme judiciaire, signature/notification électroniques (art. 623-634) · audiences à distance encadrées · notification via adresse CIN en dernier recours (art. 86) · juge de la mise en état renforcé · **appel/cassation conditionnés à la valeur du litige** + sanctions des recours abusifs.
+- **Transitoire** (art. 641-643) : affaires engagées avant le 24/08 restent sous l'ancien code ; délais ouverts ne repartent pas ; jugements antérieurs → anciens recours.
+- Impact vault : track `14_Litigation` banniérée (voir audit §2).
 
-### Principales nouveautés
-1. **Principes directeurs du procès** (art. 1-10) : procès équitable, indépendance, **obligation de bonne foi procédurale** (art. 10) — nouveau levier contre les manœuvres dilatoires.
-2. **Médiation & conciliation encouragées systématiquement** (art. 6-9) — argument commercial fort pour l'offre transaction/médiation (voir `04_Skills_To_Learn/14_Litigation/09_Transaction_Arbitrage_Mediation_AMR.md`).
-3. **Introduction de l'instance par requête écrite OU voie électronique** (art. 76) — plateforme électronique judiciaire, **signature et notifications électroniques** consacrées (art. 623-634).
-4. **Audiences à distance encadrées légalement** pour la première fois (garanties des droits de la défense ; modalités par texte réglementaire à venir).
-5. **Notification fiabilisée** : si introuvable, utilisation possible de l'adresse de la **CIN électronique** en dernier recours (art. 86) — réputée valablement notifiée.
-6. **Juge de la mise en état renforcé** (pouvoirs élargis, sanctions des manœuvres dilatoires).
-7. **Voies de recours conditionnées à la valeur du litige** (appel/cassation plafonnés pour les petits litiges) + sanctions des **recours abusifs** — point le plus sensible de la réforme.
-8. Compétence matérielle/territoriale : règles unifiées et clarifiées.
+### A2. Loi n° 66.23 — Organisation de la profession d'avocat *(vérifié 23/08/2026)*
 
-### Dispositions transitoires (art. 641-643)
-- Affaires **en cours** au 24/08/2026 : continuent sous l'ancien code jusqu'à leur terme (non-rétroactivité ; la date de dépôt de la requête décide du régime).
-- Délais déjà ouverts : ne repartent pas à zéro.
-- Jugements rendus avant le 24/08 : anciennes voies de recours applicables.
+**Dahir n° 1-26-75 du 18/08/2026**, **BO n° 7536 du 20/08/2026** ; application immédiate (art. 146) [vérifier]. Remplace la loi 27-11 (2012). Contexte : grève ~100 jours ; **saisine Cour constitutionnelle pendante** (surveiller).
 
-### Impact sur ce vault — fichiers à mettre à jour (sprint dédié)
-| Fichier | Ce qui vieillit |
+**Ce qui change** : master obligatoire avant CAPA · institut de formation dédié · **stage 2 ans** · mandats des organes du barreau limités · représentation minimale des femmes · encadrement des cabinets étrangers · **traçabilité des honoraires** · contrôle Cour des comptes des caisses du barreau · discipline réformée.
+Impact vault : `06_Deontologie/*`, template convention, scripts annonce honoraires (bannière posée — voir audit §3).
+
+### A3. Loi n° 03.23 — Code de procédure pénale *(vérifié 23/08/2026)*
+
+Publiée **BO n° 7437 du 08/09/2025** ; **en vigueur depuis le 08/12/2025** (art. 6) ; >420 articles modifiés (remplace le régime loi 22.01/2002).
+
+Détention provisoire exceptionnelle + peines alternatives · défense renforcée · victimes protégées · notification CIN · pouvoir du parquet redessiné · art. 3 et 7 controversés (associations anti-corruption — réserves CNDH/CESE).
+Impact vault : indirect — renvoi au pénaliste pour volet pénal client.
+
+---
+
+## PARTIE B — Fiscalité (champ d'action quotidien)
+
+### B1. LF 2026 — loi n° 50-25 : LE changement fiscal majeur *(vérifié 23/08/2026)*
+
+Promulguée le **16/12/2025**, **BO n° 7465 bis**, en vigueur **01/01/2026**. Note Synthétique DGI sur finances.gov.ma.
+
+**Barème IS définitif (CGI art.19 modifié) — fin de la trajectoire 2023-2025 :**
+
+| Bénéfice net fiscal | Taux 2026 |
 |---|---|
-| `04_Skills_To_Learn/14_Litigation/01_CPC_Fondamentaux_Juridictions.md` | Basé sur CPC 1974 + loi 42-20 (seuils à re-vérifier sous 58-25) |
-| `04_Skills_To_Learn/14_Litigation/02…08` (requêtes, mise en état, exécution, voies de recours) | Numérotation d'articles et délais changent ; ajouter dépôt électronique + audiences à distance |
-| `04_Skills_To_Learn/14_Litigation/09_Transaction_Arbitrage_Mediation_AMR.md` | Renforcer avec médiation art. 6-9 loi 58-25 |
-| `08_Jurisprudence/*` (grilles délais/voies de recours) | Vérifier les renvois procéduraux cités en diagnostic |
-| `02_Niches/*/09_Jurisprudence_Niche.md`, `10_Comparatif_International.md` | Mentions « injonction de payer », délais d'appel à requalifier |
+| < 100 000 000 MAD (non financier) | **20 % unique** |
+| > 100 000 000 MAD | 35 % |
+| Secteur financier | 40 % |
+
+⚠️ **Conséquence vault** : le triplet « 15 % <300k / 20 % 300k-1M / 32 % >1M » (hérité PLF 2023-2025) est **obsolète** — ~68 fichiers concernés (liste audit §7). Pour une SARL freelance type (bénéfice <300k), l'IS passe concrètement de 15 % à **20 %**.
+
+Autres mesures LF 2026 utiles en pratique :
+- **Retenue à la source 5 %** sur loyers versés à des personnes morales à l'IS / PP à l'IR professionnel.
+- **Auto-liquidation TVA** obligatoire pour la transformation industrielle depuis le 01/01/2026.
+- Déclaration de l'adresse électronique simplifiée (plus besoin de prestataire qualifié depuis le 01/01/2026).
+- **AE inchangé structurellement** : IR libératoire sur CA — taux réglementaires **0,5 % commerce/artisanat / 1 % services** (décret 114-13 ; ⚠️ plusieurs fichiers du vault disent «1 %/2 % » — incohérence tracée audit §7, à harmoniser après vérification décret) ; règle du client unique >80 000 MAD taxée à 30 % au-delà.
+
+### B2. Facturation électronique — chantier n°1 de la conformité 2026-2027 *(vérifié 23/08/2026)*
+
+Base : **CGI art.145-IX** (introduit LF 2024) ; décret d'application en examen SGG (annoncé avril 2026) ; plateforme nationale confiée à XHub (6,3 MDH, juillet 2024).
+
+- Modèle **Clearance** : facture structurée **validée par la DGI AVANT envoi** au client ; format **UBL/CII** ; numéro de validation = preuve légale ; outil web gratuit annoncé pour TPE.
+- Calendrier progressif par CA (arrêté DGI attendu) : grandes entreprises d'abord ; **AE/PME >500k CA visées dès 2027**.
+- ⚠️ Risque majeur : à terme, **facture non conforme = TVA non déductible** (art.106/146 CGI).
+- Conseil pratique diagnostic : auditer mentions facture (ICE/IF/art.144) dès maintenant — c'est aussi l'argument commercial d'un pack « mise en conformité facturation 2027 ».
+
+### B3. Chiffres courants re-vérifiés au 23/08/2026
+
+| Chiffre | Valeur | Base | Statut |
+|---|---|---|---|
+| Plafond AE commerce | **500 000 DH** HT/12m | Loi 114-13 art.4 + décret | ✅ corrigé dans le vault ce jour |
+| Plafond AE services | **200 000 DH** HT/12m | idem | ✅ |
+| IR libératoire AE | **0,5 % commerce / 1 % services** (à confirmer décret) | Loi 114-13 art.10 + décret | 🟡 vault dit parfois 1 %/2 % — harmoniser |
+| Client unique AE | Fraction >80 000 MAD taxée 30 % | LF 2026 (reprise règle existante) | ✅ |
+| Rétractation vente à distance | **7 jours** (remboursement 15j) | Loi 31-08 **art.36** | ✅ corrigé ce jour (14j = France L221-18) |
+| CNSS | 21,09 % patronal / 6,74 % salarial (≈27,83 %) | CNSS | ℹ️ surveiller réforme retraite (âge 63 ans annoncée 2026) |
+| SMIG | Passage annoncé **3 500 DH/mois** (juillet 2026) | dialogue social | 🟡 à confirmer BO |
 
 ---
 
-## 2. Loi n° 66.23 — Organisation de la profession d'avocat
+## PARTIE C — Sociétés & statuts
 
-> **Vérifié le 23/08/2026.** Sources : BO n° 7536 du 20/08/2026, `justice.gov.ma` (communiqué 20/08/2026), Médias24 (20-21/08/2026), Le360 (22/08/2026), LNT (21/08/2026).
+### C1. SAS/SASU — la forme des startups, enfin opérationnelle *(loi 19-20)*
 
-### Références exactes
-- Promulguée par **dahir n° 1-26-75 du 18 août 2026**, publiée au **BO n° 7536 du jeudi 20 août 2026**.
-- Adoption parlementaire définitive début juillet 2026 ; saisine de la **Cour constitutionnelle** (décision non publiée à la date de vérification — **à surveiller** : une censure partielle reste possible).
-- **Application immédiate** dès publication (art. 146) [vérifier le texte au BO].
-- Contexte : grève nationale des avocats (~100 jours) et rejet du texte par les barreaux ; mobilisation maintenue après publication.
+Introduite par **loi n° 19-20** modifiant la loi 17-95 (**dahir n° 1-21-75 du 14/07/2021**, BO n°7006 du 22/07/2021) — en vigueur depuis 2021. À connaître absolument pour les clients startup/MRE :
 
-### Principales nouveautés (ce qui change concrètement)
-1. **Accès durci** : **master obligatoire** avant la CAPA ; création d'un institut dédié à la formation.
-2. **Stage porté à deux ans**.
-3. **Gouvernance des barreaux** : limitation des mandats (bâtonnier et organes), **représentation minimale des femmes** dans les instances.
-4. **Encadrement des cabinets étrangers** exerçant au Maroc.
-5. **Traçabilité des honoraires** (encadrement des paiements) — impacte directement les conventions art. 30 Loi 28-08 et les packs HT de ce vault.
-6. **Contrôle de la Cour des comptes** sur la gestion des caisses du barreau.
-7. **Procédures disciplinaires réformées** (droits, procédure, voies de recours).
+- **Aucun capital minimum** · 1 associé suffit (**SASU**) · dirigeant personne physique ou morale · liberté statutaire totale (pactes, clauses d'agrément/préemption, comités) · émission de **BSA/OCA/OBSA** sans formalisme SA → outil standard des levées de fonds.
+- Fiscalité : IS de droit commun (donc **20 %** LF 2026), CM 0,5 % min 3 000 DH ; **pas d'option IR**.
+- Points de friction pratiques : certaines administrations n'ont pas mis à jour leurs systèmes (« SAS » absente de certains formulaires) ; **décret seuils CAC toujours non publié** (CAC facultatif en pratique).
+- Positionnement vs SARL : préférer la SAS dès qu'il y a investisseurs/BSA ou pacte ; SARL reste adaptée aux structures simples familiales.
+- Impact vault : enrichir `06_AE_vers_SARL_Scaling` (option SAS manquante) — sprint suggéré.
 
-### Impact sur ce vault — fichiers à mettre à jour
-| Fichier | Ce qui vieillit |
-|---|---|
-| `01_Strategy/06_Deontologie_Pratique_Avocat_Maroc/*` (tous) | Références à la loi 27-11 / RI barreau : ajouter loi 66.23 (traçabilité honoraires, discipline, gouvernance) |
-| `05_Document_Bank/templates/01_Convention_Honoraires_Modele.md` | Clause de traçabilité des honoraires conforme 66.23 |
-| `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/08_Sanctions_Procedure_Disciplinaire.md` | Nouvelle procédure disciplinaire |
-| `04_Skills_To_Learn/15_Client_Psy/02_Annonce_Honoraires_Scripts_FR_AR_EN.md` | Vérifier cohérence avec traçabilité 66.23 |
+### C2. Ce qui ne change pas (socle stable, re-vérifié)
+
+Loi 5-96 SARL (capital 10k, gérance) · DOC art.230/258/264/443/618/1055 (contrats, astreinte, clause pénale, preuve, réserve, transaction) — **droit de fond intact malgré la réforme procédurale** · Loi 114-13 AE (plafonds ci-dessus) · Loi 17-97 PI (OMPIC 1 200 DH/classe, opposition 2 mois) · Loi 02-00 droits d'auteur · Loi 08-05 arbitrage/AMR · Loi 15-06 échange · IGOC juillet 2024 (dotations 15k/100k, rapatriement 30j) — **surveiller la circulaire Office 2025/2026**.
 
 ---
 
-## 3. Loi n° 03.23 — Nouveau Code de procédure pénale
+## PARTIE D — Consommateurs, données, travail
 
-> **Vérifié le 23/08/2026.** Sources : BO n° 7437 du 08/09/2025 (`sgg.gov.ma`), Le Matin (15/09/2025, 08/12/2025), Le360 (17/12/2025), Médias24 (09/12/2025).
+### D1. Loi 31-08 — protection du consommateur *(règle corrigée ce jour)*
 
-### Références exactes
-- **Loi n° 03.23 modifiant et complétant le Code de procédure pénale** (plus de **420 articles** concernés) ; remplace le régime issu de la **loi 22.01 de 2002**.
-- Publiée au **BO n° 7437 du 8 septembre 2025** ; **entrée en vigueur le 8 décembre 2025** (art. 6) — **déjà applicable**.
+Vente à distance : **rétractation 7 jours francs (art.36)**, remboursement sous 15 jours, exceptions art.38 (dont contenu numérique exécuté avec consentement exprès). CGV obligatoires FR/AR, ICE/RC/IF, livraison, SAV. Clause abusive → nullité (art.15+19) + DOC art.264. Ne jamais copier les CGV françaises (14j L221-18).
 
-### Principales nouveautés
-1. **Détention provisoire = exception** strictement encadrée ; promotion des **peines alternatives**.
-2. **Droits de la défense renforcés** (accès au dossier, assistance de l'avocat, garanties du procès équitable).
-3. **Victimes placées au cœur du dispositif** (information, protection, indemnisation).
-4. **Notification par l'adresse CIN** en cas d'introuvable (même logique que le futur CPC civil).
-5. **Redessin du pouvoir du ministère public** ; procédures simplifiées/juge unique élargis pour désencombrer les formations collégiales.
-6. Controverses persistantes : **articles 3 et 7** (droit d'ester en justice des associations anti-corruption réservé au ministère public) — réserves du CNDH et du CESE ; saisines de la CC appelées par des collectifs.
+### D2. Données personnelles — 09-08 / 28-08 *(base stable, vigilance CNDP)*
 
-### Impact sur ce vault
-Le vault est orienté droit des affaires : impact indirect. À noter en diagnostic si un client/freelance évoque une plainte pénale (escroquerie, chèques) : les délais et garanties ont changé depuis le 08/12/2025 — renvoyer au pénaliste.
+Loi 09-08 : registre 5 colonnes, déclaration CNDP (récepissé 30j), transfert hors Maroc art.43-44 (autorisation/CCT), sanctions 10k-300k + art.52. Délibération cookies 40-22 (bandeau, 13 mois). **À surveiller** : activité répressive CNDP croissante (veille mensuelle `08_Jurisprudence/09_Veille_Mensuelle.md`) et tout projet de refonte alignant le cadre marocain sur les standards RGPD — aucune promulgation connue au 23/08/2026.
+
+### D3. Code du travail — réforme 03-26 *(préparatoire — pas encore voté)*
+
+Conseil des ministres **14/05/2026** ; vote parlementaire attendu automne 2026 ; **entrée en vigueur prévue 01/01/2027**. Contenu annoncé : télétravail légalisé (droit explicite, plafond indicatif 3 j/sem, indemnité ~250 DH/mois) · CDD jusqu'à 3 ans renouvelable 2× (start-ups <3 ans incluses) · congés payés +3 jours · **statut des travailleurs de plateformes** (livraison/VTC) · harcèlement moral défini + signalement obligatoire >50 salariés (amendes 30k-150k) · libertés syndicales élargies. ⚠️ Chiffres = projets soumis à négociation/vote : ne PAS les citer aux clients avant promulgation. Impact vault : `07_Droit_Social_CNSS`, packs employeur — sprint post-promulgation.
+
+### D4. Actifs numériques / crypto — cadre en construction
+
+Un cadre réglementaire pour les crypto-actifs (BAM/parties prenantes) a été annoncé dans la presse économique 2024-2025 mais **aucune loi promulguée au 23/08/2026** trouvée lors de cette vérification. Freelances payés en stablecoins : rester sur la prudence Office des Changes (rapatriement 30j, compte convertible) et suivre BAM. Point à re-vérifier chaque trimestre.
 
 ---
 
-## 4. Rituel de mise à jour (à copier dans vos sprints)
+## 5. Rituel de mise à jour
 
 | Échéance | Contrôle |
 |---|---|
-| **Chaque trimestre** | Re-vérifier ce fichier : numéros BO, décisions de la Cour constitutionnelle pendantes (loi 66.23 !), textes d'application de la 58-25 (audiences à distance, plateforme électronique) |
-| **01/10 (PLF)** | Barèmes IS/TVA dans `07_Sharp_Legal_Mind/03a_Numbers_Fiscal.md` + `17_Finance_Op/03_IS_Bareme_PLF_Checklist.md` |
-| **15/07 (IGOC)** | Dotations/rapatriement dans `09_Office_Changes_Dotation_IGOC2024/*` |
-| **1×/mois** | `08_Jurisprudence/09_Veille_Mensuelle.md` (cndp.ma + courdecassation.ma) — y ajouter les publications BO pertinentes |
+| **Trimestriel** | Ce fichier : CC sur 66.23 · textes d'application 58-25 (audiences distance, plateforme) · décret facturation électronique · arrêté calendrier DGI · circulaire Office · crypto BAM |
+| **01/10 (PLF 2027)** | Barèmes IS/TVA/IR dans Numbers_Sheet + `17_Finance_Op/03_IS_Bareme_PLF_Checklist.md` |
+| **15/07** | Circulaire IGOC annuelle |
+| **Mensuel** | `08_Jurisprudence/09_Veille_Mensuelle.md` (CNDP + Cassation + publications BO) |
 
-> **Rappel déontologique** : information doctrinale art.59 Loi 28-08. Les numéros d'articles cités aux clients doivent être re-vérifiés sur sgg.gov.ma à la date du diagnostic, surtout pendant la transition 58-25 (coexistence ancien/nouveau régime selon la date de dépôt).
+> Devoir art.59 : information doctrinale, pas consultation. Pendant la transition 58-25, la date de dépôt décide du régime. Chiffres exacts (taux, retenues) = comptable agréé.
 
----
-
-*Document créé le 23/08/2026 lors de la fusion V1+V2 — prochaine revue recommandée : après publication des textes d'application de la loi 58-25 et de la décision de la Cour constitutionnelle sur la loi 66.23.*
+*Document étendu le 23/08/2026 (analyse tous domaines). Prochaine revue : T4 2026.*
