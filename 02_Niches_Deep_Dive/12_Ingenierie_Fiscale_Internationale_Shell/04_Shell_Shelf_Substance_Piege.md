@@ -31,7 +31,7 @@
 *   **Ce qu'il a voulu faire :** US LLC Wyoming (0% fédéral) facturant sa SARL Casa des « management fees » pour vider le résultat Maroc.
 *   **Ce qui se passe :** (1) fees non déductibles = bénéfices indirectement transférés rapportés CGI art.213 II ; (2) LLC = résidence effective Casa (gérance depuis Maroc) → revenus mondiaux Maroc ; (3) pas de documentation prix transfert → position aggravée ; (4) flux sortis sans justification Office → Loi 19-06.
 *   **Chiffrage :** économie espérée ~120k/an → redressement IS + majoration 30% sur 3 exercices ≈ 250-300k + sanctions change.
-*   **Parade légale proposée :** SARL Casa seule IS 15% (120k), TVA art.92 si export, rapatriement 30j, BO déclaré. Économie légale restante : optimisation charges + éventuelle holding Dubai AVEC substance si CA >3M (fichier 06).
+*   **Parade légale proposée :** SARL Casa seule IS 20 % (LF 2026) (120k), TVA art.92 si export, rapatriement 30j, BO déclaré. Économie légale restante : optimisation charges + éventuelle holding Dubai AVEC substance si CA >3M (fichier 06).
 
 ## Quand la shelf est légitime
 

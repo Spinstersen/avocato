@@ -32,7 +32,7 @@ La niche 6 est une niche de **transition** : les auto-entrepreneurs marocains en
 
 - AE : IR libératoire 1-3% pour services, 0,5-1% pour commerce.
 - Au-delà de 200 000 DH/an CA, le régime AE n'est plus applicable.
-- SARL : IS 15% (jusqu'à 300 k DH bénéfice) ou 31% au-delà, mais déduction des charges (salaires, frais, investissements).
+- SARL : IS 20 % (LF 2026) (jusqu'à 300 k DH bénéfice) ou 31% au-delà, mais déduction des charges (salaires, frais, investissements).
 
 ### 3.3 Besoin d'embauche
 
@@ -100,8 +100,8 @@ Tarik, AE, 350 k DH/an CA, veut embaucher et se verser un salaire. Hésite à pa
 ### Diagnostic
 
 Calcul comparatif :
-- AE : 350 k × 2% = 7 000 DH IR + CNSS forfaitaire 500 DH = 7 500 DH/an.
-- SARL : IS 15% sur bénéfice (350 k - charges 200 k = 150 k bénéfice × 15% = 22 500 DH IS + comptabilité 15 000 DH/an + salaire dirigeant 60 k DH/an → charges sociales 30 k DH = beaucoup plus cher mais avec salaire et CNSS).
+- AE (commerce, plafond 500k) : 350 k × 0,5 % = 1 750 DH IR + CNSS forfaitaire 500 DH ≈ 2 250 DH/an.
+- SARL : IS 20 % (LF 2026) sur bénéfice (350 k - charges 200 k = 150 k × 20 % = 30 000 DH IS + comptabilité 15 000 DH/an + salaire dirigeant 60 k DH/an → charges sociales 30 k DH = beaucoup plus cher mais avec salaire et CNSS).
 
 Conclusion : SARL plus chère globalement, mais salaire + protection + scalabilité. À décider selon objectifs.
 

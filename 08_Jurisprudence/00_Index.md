@@ -39,7 +39,7 @@ Chaque dossier : `00_INDEX` (plan) · `01_Texte_Source` (articles exacts) · `02
 
 ## Glossaire des concepts (à connaître avant de citer)
 
-Les 12 concepts les plus cités sont expliqués avec base légale + procédure dans `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` : 183j (CGI art.23), PE 6m (conv. art.7), IGOC 2024 15k/100k/30j, TVA art.92, OMPIC 1200 DH/72h, Loi 09-08 registre 5 colonnes, Convention art.27, Carte séjour art.13 Loi 02-03, AE 500k/200k vs SARL IS 15%, Provision art.30, DOC art.443/264/618. Lisez-le avant tout diagnostic.
+Les 12 concepts les plus cités sont expliqués avec base légale + procédure dans `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` : 183j (CGI art.23), PE 6m (conv. art.7), IGOC 2024 15k/100k/30j, TVA art.92, OMPIC 1200 DH/72h, Loi 09-08 registre 5 colonnes, Convention art.27, Carte séjour art.13 Loi 02-03, AE 500k/200k vs SARL IS 20 % (LF 2026), Provision art.30, DOC art.443/264/618. Lisez-le avant tout diagnostic.
 
 ## Méthode de fiche (Notion)
 

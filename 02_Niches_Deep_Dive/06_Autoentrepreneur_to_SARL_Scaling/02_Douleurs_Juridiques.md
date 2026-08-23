@@ -13,7 +13,7 @@
 ### Comparatif
 
 - AE : IR libératoire 1-3% pour services, 0,5-1% pour commerce.
-- SARL : IS 10% (<300k), 20% (300k-1M), 30% (>1M) (CGI art.19, LF 2024) — précédemment 15% (<300k)'à 300 k DH bénéfice) ou 31% au-delà, mais déduction des charges.
+- SARL : **IS 20 % unifié** (LF 2026, CGI art.19) sur bénéfice net ; cotisation minimale 0,5 % du CA, min 3 000 DH. — précédemment 15% (<300k)'à 300 k DH bénéfice) ou 31% au-delà, mais déduction des charges.
 
 ## 3. Besoin d'embauche
 

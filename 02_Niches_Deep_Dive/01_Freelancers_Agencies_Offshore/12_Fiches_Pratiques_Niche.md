@@ -22,7 +22,7 @@
 ## Scripts (FR fait foi — EN traduction seule)
 
 *   **DM freelance offshore :** `Bonjour [Prénom], vu ton profil dev/design à Casa + clients FR : risque PE 6 mois si salarié Paris + résidence 183j. Je fais diag 1 200 HT (45 min, art.23/92/PE) + pack offshore 5 900 HT (contrat FR/EN + facture art.144 + rapatriement 30j + registre 09-08). Checklist 1p WhatsApp ? — [Nom], avocat barreau [Ville]`
-*   **Relance J+3 :** `Hello [Name], FR prevails — 2 options: AE 2% <200k ou SARL 10k IS 15% + exon TVA art.92 si 30j OK. Provision 50% art.30. On cale diag cette semaine ?`
+*   **Relance J+3 :** `Hello [Name], FR prevails — 2 options: AE 0,5-1 % <plafonds ou SARL 10k IS 20 % (LF 2026) + exon TVA art.92 si 30j OK. Provision 50% art.30. On cale diag cette semaine ?`
 *   **Objection "je suis non-résident" :** `Même à 40j, foyer Casa = résident art.23 → IS mondial. On vérifie passeport + bail en diag 1 200, puis attestation DGI 30j pour activer art.27.`
 
 ## Modèles `05_Document_Bank` à joindre
@@ -61,7 +61,7 @@
 
 ## Fiche comme mémoire externe, pas comme script de vente
 
-Cette checklist n'est pas à cocher devant le freelance. C'est une mémoire externe (art.59 devoir de conseil) pour ne rien oublier en diagnostic : 183j passeport, PE bureau Paris >6m, TVA art.92 3 conditions, rapatriement 30j SWIFT, convention art.27 crédit 15k, dotation 15k SaaS, carte séjour 200 DH, compte 48-72h, AE 200k vs SARL 10k IS 15%. Chaque case renvoie au Glossaire pour base légale exacte — ne citez jamais un chiffre sans l'article. L'ordre causal est 183j → AE/SARL → PE → art.27 → 30j → TVA → compte. Sans cet ordre, vous vendez un statut avant de savoir où le client est résident.
+Cette checklist n'est pas à cocher devant le freelance. C'est une mémoire externe (art.59 devoir de conseil) pour ne rien oublier en diagnostic : 183j passeport, PE bureau Paris >6m, TVA art.92 3 conditions, rapatriement 30j SWIFT, convention art.27 crédit 15k, dotation 15k SaaS, carte séjour 200 DH, compte 48-72h, AE 200k vs SARL 10k IS 20 % (LF 2026). Chaque case renvoie au Glossaire pour base légale exacte — ne citez jamais un chiffre sans l'article. L'ordre causal est 183j → AE/SARL → PE → art.27 → 30j → TVA → compte. Sans cet ordre, vous vendez un statut avant de savoir où le client est résident.
 
 > Sources : `sgg.gov.ma` CGI art.23/92/144, Loi 5-96, Loi 28-08 art.30, `oc.gov.ma` IGOC 2024, `cndp.ma` Loi 09-08, `ompic.ma` — vérifier PLF et IGOC juillet à chaque diagnostic. Glossaire de référence : `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §01-§12.
 > Contexte niche 01 : export de services, pas de stock, risque principal = fiscal (PE + résidence) + change (30j), pas CGV 31-08. Facturation 80% en devises = montrez SWIFT.

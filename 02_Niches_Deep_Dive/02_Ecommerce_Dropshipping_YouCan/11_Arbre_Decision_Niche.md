@@ -30,7 +30,7 @@ Vendre en COD sans CGV conformes Loi 31-08 = litige au tribunal de commerce sans
 
 ## Cas chiffrés
 
-* **Amine, YouCan COD 800k CA commerce, pas de CGV, pas de registre** : AE impossible (>500k) §09 → SARL IS 15% si bénéfice <300k → régularisation : CGV 31-08 (3 500 DH) + registre art.14 + déclaration CNDP 30j §06 ; sans CGV litige 20k : perdu faute preuve art.443 §11.
+* **Amine, YouCan COD 800k CA commerce, pas de CGV, pas de registre** : AE impossible (>500k) §09 → SARL IS 20 % (LF 2026) → régularisation : CGV 31-08 (3 500 DH) + registre art.14 + déclaration CNDP 30j §06 ; sans CGV litige 20k : perdu faute preuve art.443 §11.
 * **Sara, dropshipping Shopify, Stripe US, ads Meta 12k/an** : Dotation 15k §03 → Meta 12k OK (reste 3k) ; Shopify 29$/m = 348$ → OK. Si besoin 22k → dépassement 7k = infraction → passer par compte devise alimenté virement étranger §12.
 * **Boutique "CasaGlow" 50 cmd/j, marque non déposée classe 35** : Concurrent dépose CasaGlow 35 → vous perdez nom après 2 mois opposition §05 → coût rebrand 80k + stock ; dépôt préventif 1 200 DH évite 80k.
 
@@ -40,7 +40,7 @@ Vendre en COD sans CGV conformes Loi 31-08 = litige au tribunal de commerce sans
 * **Piège 09-08** : Base 5 000 emails sans registre → contrôle CNDP sanction 2023-045 mise en demeure 45j §06 (08_Jurisprudence/01:5-10).
 * **Piège CMI** : Encaisser COD 300k en espèce sans versement banque 48h → blocage CMI + soupçon blanchiment.
 * **Piège Marque** : Déposer seulement classe 35 pour app mobile → classe 09/42 non protégée → concurrent dépose app et vous bloque §05.
-* **Piège Statut** : Rester AE à 620k commerce 2 ans → radiation Loi 114-13 + redressement IS 15% + IR 38% §09.
+* **Piège Statut** : Rester AE à 620k commerce 2 ans → radiation Loi 114-13 + redressement résultat réel (IS 20 %) + majorations §09.
 * **Piège TVA** : Vendre à client FR en EUR sans facture art.144 §04 → pas de preuve export → TVA 20% redressée malgré Stripe.
 * **Piège 183j** : Gérant YouCan 210j Casa sans attestation DGI §01 → IS mondial §09 non anticipé + carte 1 an §08 oubliée.
 

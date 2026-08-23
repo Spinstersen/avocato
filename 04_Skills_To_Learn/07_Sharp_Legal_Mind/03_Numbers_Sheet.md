@@ -51,7 +51,7 @@ Ne citez jamais un chiffre nu. Formule : **chiffre + base légale + risque chiff
 
 > **Exemple TVA :** « Votre CA offshore 600k DH — sans mention art.92 + rapatriement 30j (CGI art.92 I-1° + IGOC 30j), TVA 20% = 120k redressée + pénalités 15%. Pack contrat FR/EN 2 900 DH = ROI 41×. »
 
-> **Exemple AE :** « AE service plafonné 500k (Loi 114-13 art.4). Vous êtes à 600k → dépassement → radiation + IS 15%. Création SARL 10k capital (Loi 5-96 art.6) en 7-14j pour 2 000 DH = sécurisé. »
+> **Exemple AE :** « AE service plafonné 500k (Loi 114-13 art.4). Vous êtes à 600k → dépassement → radiation + IS 20 % (LF 2026). Création SARL 10k capital (Loi 5-96 art.6) en 7-14j pour 2 000 DH = sécurisé. »
 
 Usage : glisser 1 chiffre maximum par phase Implication, toujours avec base légale affichée à l'écran.
 

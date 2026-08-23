@@ -10,7 +10,7 @@
 | 2 | dépassement 90 jours Maroc touriste sanction | 70 | Info | 9 | Loi 02-03 90j + 180j max |
 | 3 | devenir légal Maroc nomad SARL 7 jours | 60 | Achat | 9 | Loi 5-96 10k capital §09 |
 | 4 | résidence fiscale 183 jours nomad Maroc | 80 | Info | 10 | CGI art.23 183j/foyer §01 |
-| 5 | SARL Maroc nomad prix 2025 10000 DH | 100 | Achat | 12 | Loi 5-96 capital 10k IS15% |
+| 5 | SARL Maroc nomad prix 2025 10000 DH | 100 | Achat | 12 | Loi 5-96 capital 10k / IS 20 % (LF 2026) |
 | 6 | établissement stable 6 mois nomad France Maroc | 40 | Info | 7 | Conv. art.7 PE 6 mois §02 |
 | 7 | compte devise nomad Maroc 48h 72h | 50 | Info | 7 | IGOC 2024 §12 convertible |
 | 8 | convention fiscale Maroc France nomad dividende 10% | 45 | Info | 7 | Conv. art.27 dividende 10% §07 |
@@ -45,7 +45,7 @@
 1. **Experience** : cas Lena nomad 210j sans carte → travail illégal + attestation DGI 30j.
 2. **Expertise** : cite CGI art.23, Loi 02-03 art.13, Loi 5-96 10k, Conv. art.27, IGOC30j exact sgg.gov.ma date vérif.
 3. **Authority** : renvoi `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §01 (183j), §02 (PE 6m), §03 (rapatriement30j), §07 (art27), §08 (carte 1an 200DH 30j), §09 (10k 7-14j), §12 (compte 48-72h), §10 (provision50%).
-4. **Trust** : disclaimer art.59 info doctrinale + 3 internal links (vers 183j + carte + PE) + Plausible UE hébergé UE (conforme 09-08, pas GA transfert US art.43) + consentement cookies non pré-coché + GSC index 48h + image <150kb alt keyword + co-traitance comptable IS15%.
+4. **Trust** : disclaimer art.59 info doctrinale + 3 internal links (vers 183j + carte + PE) + Plausible UE hébergé UE (conforme 09-08, pas GA transfert US art.43) + consentement cookies non pré-coché + GSC index 48h + image <150kb alt keyword + co-traitance comptable IS 20 % (LF 2026).
 
 **Chiffres SEO** : 2500 mots, 4-6 H2, title 58c, meta 155c avec 90j/183j/10k/200DH, 3 liens internes, 1 lead magnet (checklist carte séjour 1p Canva Tally FR), GSC J0 index 48h, LanguageTool 0 faute, image <150kb EN+FR.
 

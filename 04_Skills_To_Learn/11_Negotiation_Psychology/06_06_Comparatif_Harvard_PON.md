@@ -33,7 +33,7 @@ Harvard PON (Fisher/Ury) = **négocier sur intérêts (pourquoi) pas positions (
 | Client | Position | Intérêts (Voss) | Harvard solution | Prix |
 |---|---|---|---|---|
 | **Fatima** "1500 max, 300k faux" | 1500 | CA 30k serré + peur 300k + Shopify US + veut vite 7j | 2900 sans dépôt (elle dépose J1, tu corriges 10 min) → win : elle économise, tu sauves 2h, conforme 7j | **2900** (au lieu de no deal) |
-| **Yassine** "AE 1500" | 1500 | Peur radiation 68k + veut SARL 10k + IS 15% | 5900 AE→SARL complet (intérêt 68k > 1500) → win : il évite 68k | **5900** (intérêt 68k > position 1500) |
+| **Yassine** "AE 1500" | 1500 | Peur radiation 68k + veut SARL 10k + IS 20 % (LF 2026) | 5900 AE→SARL complet (intérêt 68k > 1500) → win : il évite 68k | **5900** (intérêt 68k > position 1500) |
 
 Sans Harvard, Fatima no deal 1500 vs 2900. Avec Harvard, 2900 sans dépôt = deal.
 

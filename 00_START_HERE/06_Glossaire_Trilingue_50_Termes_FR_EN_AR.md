@@ -46,7 +46,7 @@
 
 | 19 | Auto-entrepreneur AE | Auto-entrepreneur | مقاول ذاتي | Loi 114-13 | 500k com /200k serv 1-2% |
 | 20 | SARL / SARL-AU | LLC LLC-SU | ش.م.م | Loi 5-96 | Capital min 10k DH |
-| 21 | IS 20 % (LF 2026). | CIT 15% <300k profit | الضريبة 15% <300 ألف ربح | CGI art.19 | 20% 300k-1M, 32% >1M PLF |
+| 21 | IS 20 % (LF 2026). | CIT 20% flat (LF 2026) | الضريبة 15% <300 ألف ربح | CGI art.19 | 35% si >100M MAD (LF 2026) |
 | 22 | Registre Commerce RC | Trade Register | السجل التجاري | OMPIC | CRI 7-14j ~2.000 DH |
 | 23 | ICE / IF / RC | ICE / TIN / RC | ICE/IF/RC | DGI | Mention facture |
 

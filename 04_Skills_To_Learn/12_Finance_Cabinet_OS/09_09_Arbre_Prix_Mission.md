@@ -71,7 +71,7 @@ Q4 Client groupe/MRE 100k ? (dividende 10% 100k=10k) ──NON→ 5900
 - [ ] Glossaire §09 AE/SARL, §06 300k, §04 TVA
 
 ## Sources
-- sgg.gov.ma : CGI IS 15%, Loi 09-08 art.52 300k, Loi 114-13 200k, art.30 50%, art.92 TVA, DOC art.264
+- sgg.gov.ma : CGI : IS 20 % (LF 2026), Loi 09-08 art.52 300k, Loi 114-13 200k, art.30 50%, art.92 TVA, DOC art.264
 - Cialdini, Voss, Toggl
 - Glossaire `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §09, §06, §04, §10
 

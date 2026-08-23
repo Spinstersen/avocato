@@ -30,7 +30,7 @@
 ## Cas chiffré Yassine 600k DH (freelance dev US)
 
 *   AE 600k >200k plafond → redressement 30% + IS rétro 31% = 180k DH si contrôle.
-*   **Solution SARL:** IS 15% sur bénéfice 400k (après charges 200k) = 60k DH + CNSS 25k vs IR AE 3%×600k=18k mais limité plafond → **SG: SARL coûte +42k mais légal + embauche**.
+*   **Solution SARL:** IS 20 % (LF 2026) sur bénéfice net ≈ 200k = 40k DH + CNSS 25k ; IR AE libératoire impossible (plafond 200k services dépassé) → **SG: SARL coûte +42k mais légal + embauche**.
 *   **Pack:** SARL 7-14j (OMPIC) + contrat FR/EN + TVA exon + compte convertible = `08_Missions_Pack_International_Fiscal.md:5,900 HT`.
 
 ## Cas Salma ecom 30k DH/mois (360k/an) YouCan

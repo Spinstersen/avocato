@@ -10,7 +10,7 @@
 
 ## Cas 3 — Couple 400k/an 2 freelances → 1 SARL
 
-*   400k >200k plafond → SARL commune 7,500 vs 2 AE 400k → IS 15% sur 300k bénéfice =45k vs 12k IR mais légal + embauche.
+*   400k >200k plafond → SARL commune 7,500 vs 2 AE 400k → IS 20 % (LF 2026) sur 300k bénéfice =60k vs 12k IR mais légal + embauche.
 
 ## Synthèse
 

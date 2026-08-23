@@ -9,9 +9,9 @@
 - **Réf :** DGI Décision n° AE-2023-541 du 17/06/2023 — direction régionale DGI Casa, Loi 114-13 art.8 + CGI.
 - **Faits :** AE graphiste 350k DH/an service 2 ans consécutifs (plafond 200k), sans bascule SARL, facturation sans TVA, sans ICE complet.
 - **Solution :** Radiation auto + redressement — IR libératoire 2% perdu → IS 20 % (LF 2026) + IR 38% + TVA 20% art.92 non applicable à AE + pénalités 30% + majoration 10%/mois.
-- **Takeaway diagnostic :** « 350k en AE service = radiation + IS 15% rétroactif — on bascule SARL à 190k, pas à 200k, provision 50% + ICE. »
+- **Takeaway diagnostic :** « 350k en AE service = radiation + rattrapage au résultat réel (IS 20 %) — on bascule SARL à 190k, pas à 200k, provision 50% + ICE. »
 - **Mission liée :** Audit plafond 500k/200k 12 mois glissants + création SARL 10k capital 7-14j + RC + ICE — CRI 2 000 DH.
-- **Glossaire :** §09 AE 500k/200k 1% commerce 2% service vs SARL IS 15% + §01 résidence 210j + §04 TVA.
+- **Glossaire :** §09 AE 500k/200k 0,5 % commerce / 1 % services vs SARL IS 20 % (LF 2026) + §01 résidence 210j + §04 TVA.
 
 ### 2. Cass. com. — Transformation SARL sans PV AGE = nullité
 
@@ -50,7 +50,7 @@ Source vérifiable: sgg.gov.ma / courdecassation.ma / cnss.ma — date vérif: _
 
 ## Sources & Renvois glossaire
 
-- sgg.gov.ma : Loi 114-13 art.8 plafond 500k/200k, Loi 5-96 art.66-71 SARL, CGI art.19 IS 15%, Loi 19-12 art.15.
+- sgg.gov.ma : Loi 114-13 art.8 plafond 500k/200k, Loi 5-96 art.66-71 SARL, CGI art.19 : IS 20 % (LF 2026), Loi 19-12 art.15.
 - courdecassation.ma : Cass. com. 734/2023.
 - cnss.ma : Commission 2023-092 — taux 27,83% + circulaire CNSS 2023.
 - Glossaire : §09 intégral (AE→SARL 10k/7-14j/15%), §11 (preuve/AGE), §01 (183j), §10 (provision).

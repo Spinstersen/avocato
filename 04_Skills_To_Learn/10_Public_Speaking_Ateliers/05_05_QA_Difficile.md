@@ -30,7 +30,7 @@ QA difficile = **3 questions pièges qui reviennent à 80% des ateliers avocat M
 
 | Q live | Réponse Voss 90s | Conversion |
 |---|---|---|
-| Yassine : "AE 350k mais DGI ne va pas voir ?" | Miroir "DGI ne va pas voir ?" → étiquette "vous espérez passer sous radar ?" → preuve Loi 114-13 plafond 200k service + radiation 2 ans + redressement 68k → CTA audit 2900 | Yassine prend 5900 (SARL 10k + IS 15%) |
+| Yassine : "AE 350k mais DGI ne va pas voir ?" | Miroir "DGI ne va pas voir ?" → étiquette "vous espérez passer sous radar ?" → preuve Loi 114-13 plafond 200k service + radiation 2 ans + redressement 68k → CTA audit 2900 | Yassine prend 5900 (SARL 10k + IS 20 % (LF 2026)) |
 | Fatima : "Shopify US ?" | Voir framework ligne 2 → 3 Fatima-like convaincues | 2 leads 2900 |
 | MRE : "Dividende 10% sans attestation ?" | Art.10 convention France 10% + attestation DGI 30j obligatoire → sinon 15% → 5900 pack MRE | 1 lead 5900 |
 

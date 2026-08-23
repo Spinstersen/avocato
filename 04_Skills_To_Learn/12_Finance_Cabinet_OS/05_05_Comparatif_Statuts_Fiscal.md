@@ -1,4 +1,4 @@
-﻿# 05 — Comparatif Statuts Fiscal : AE 200k vs SARL IS 15% (7-14j, 10k)
+﻿# 05 — Comparatif Statuts Fiscal : AE 200k vs SARL IS 20 % (LF 2026) (7-14j, 10k)
 
 > 🟡 **FISCALITÉ 2026 — vérifié le 23/08/2026** : la **LF 2026 (loi 50-25, BO n°7465 bis du 16/12/2025)** a unifié l'IS au taux de **20 %** pour tout bénéfice net <100M MAD (35 % au-delà ; financier 40 %). L'ancien barème transitoire «15 % <300k / 20 % / 31-32 %» cité ci-dessous est **obsolète depuis le 01/01/2026** — chiffres conservés pour historique/comparatif, à requalifier en diagnostic. Détail : `12_VEILLE_LEGALE_2025_2026.md` §B1.
 
@@ -10,20 +10,20 @@ Comparatif statuts = **tableau AE vs SARL vs Portage** pour choisir statut selon
 | Critère | AE (Loi 114-13) | SARL (Loi 5-96, CGI) | Portage 8% | Gagnant |
 |---|---|---|---|---|
 | **Plafond CA HT 12 mois** | 500k commerce / 200k service | Illimité | Illimité | SARL si >200k service |
-| **Impôt** | IR 0,5 % commerce / 1 % servicesice libératoire | IS 20 % (LF 2026), 20% 300k-1M | 8% +30% frais → ~15% net | AE si <200k, SARL si >300k bénéfice |
+| **Impôt** | IR 0,5 % commerce / 1 % services libératoire | IS 20 % (LF 2026) | 8% +30% frais → ~15% net | AE si <200k, SARL si >300k bénéfice |
 | **TVA** | Non assujetti (pas de TVA, pas d'exon art.92) | TVA 20% / 0% export art.92 possible | TVA 20% | SARL si export MRE (0% art.92) |
 | **Création** | 1 jour en ligne ae.gov.ma, 0 DH | 7-14j OMPIC, capital 10k, CRI 2000 DH | 24h | AE si solo <200k |
 | **PE 6 mois France** | PE perso si salarié Paris 7 mois | PE SARL si bureau/salarié Paris >6 mois (glossaire §02) | Pas de PE | Aucun si PE |
-| **Coût fixe/an** | 0 + IR 2% (ex: 150k×2%=3k) | 5000 charges + IS 15% (ex: 100k bén×15%=15k) | 8% CA | AE <200k |
-| **Risque** | Radiation si >200k 2 ans + redressement IS 15%+38%+30% | IS mondial si résident 183j (glossaire §01) | Dépendance | SARL si >200k |
+| **Coût fixe/an** | 0 + IR 1 % services (ex: 150k×1%=1,5k) | 5 000 charges + IS 20 % (ex: 100k×20%=20k) | 8% CA | AE <200k |
+| **Risque** | Radiation si >200k 2 ans + redressement résultat réel + majoration 30 % | IS mondial si résident 183j (glossaire §01) | Dépendance | SARL si >200k |
 
-**Chiffres à vérifier PLF juillet :** AE 500k/200k, IS 15/20/32%, capital 10k, délai 7-14j.
+**Chiffres à vérifier PLF juillet :** AE 500k/200k, IS 20 % (LF 2026), capital 10k, délai 7-14j.
 
 ## Procédure pas-à-pas chiffrée (20 min diagnostic)
 
 **Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
-2. **Teste AE vs SARL IS (5 min)** : CA 150k service → AE IR 150k×2%=3k vs SARL bénéfice 80k×15%=12k → AE gagne 9k. CA 350k service bénéfice 150k → AE radiation + IS 68k vs SARL IS 22.5k → SARL gagne 45k.
-3. **Vérifie PE 6 mois (3 min)** : Salarié/bureau Paris >6 mois ? Si oui → PE France IS 25% même en SARL → portage 8% ou filiale (glossaire §02). Sinon SARL Casa taxée Maroc seul 15%.
+2. **Teste AE vs SARL IS (5 min)** : CA 150k service → AE IR 150k×1%=1,5k vs SARL bénéfice 80k×20%=16k → AE gagne ~14,5k. CA 350k service (>plafond 200k) → AE radié, bascule obligatoire ; SARL bénéfice 150k×20%=30k → SARL seule voie conforme.
+3. **Vérifie PE 6 mois (3 min)** : Salarié/bureau Paris >6 mois ? Si oui → PE France IS 25% même en SARL → portage 8% ou filiale (glossaire §02). Sinon SARL Casa taxée au Maroc seul — 20 % (LF 2026).
 4. **Vérifie TVA 0% besoin (3 min)** : Client export MRE Paris ? Besoin exon art.92 → SARL seule (AE non assujetti ne facture pas TVA 0%). Si besoin → SARL.
 5. **Décision arbre (2 min)** : CA <200k + pas PE + pas TVA 0% → AE 1j. CA >200k OU PE OU TVA 0% → SARL 10k 7-14j. Entre → portage 8% transitoire.
 6. **Log + PLF (2 min)** : Notion "Statut" : CA / IS / AE / décision / PLF vérif juillet. Re-vérifie PLF juillet (IGOC + CGI).
@@ -33,12 +33,12 @@ Comparatif statuts = **tableau AE vs SARL vs Portage** pour choisir statut selon
 | Client | CA 12 mois | IS AE vs SARL | Décision | Prix |
 |---|---|---|---|---|
 | **Yassine** freelance 600k offshore 350k service | 350k >200k → AE KO | AE radiation 68k vs SARL IS 22.5k | **SARL 10k 7-14j, IS 20 % (LF 2026) | **Option 2900** : diagnostic 20 min + AE→SARL checklist. **Option 5900** : + création SARL 7-14j OMPIC 2000 DH + attestation DGI 30j + compte convertible 48h. Délai 7-14j |
-| **Fatima** 30k/mois commerce 360k | 360k <500k → AE OK | AE 360k×1%=3.6k vs SARL 50k bén×15%=7.5k → AE gagne | **AE** (mais Shopify TVA ? → SARL si veut TVA 0%) | 2900 AE, 5900 SARL TVA 0% |
+| **Fatima** 30k/mois commerce 360k | 360k <500k → AE OK | AE 360k×0,5%=1,8k vs SARL 50k×20%=10k → AE gagne largement | **AE** (mais Shopify TVA ? → SARL si veut TVA 0%) | 2900 AE, 5900 SARL TVA 0% |
 | **Karim MRE** Paris 40j + SARL Casa 100k bén | 100k bén | SARL IS 15k vs AE impossible (résident 40j non résident → SARL) | **SARL + dividende 10% France art.10 + attestation 30j** | 5900 MRE pack |
 
 ## Erreurs Top 3
 
-1. **Rester AE 350k 2 ans → radiation + redressement IS 15% + IR 38% +30% pénalités =68k** → corriger : CA >200k service → SARL 7-14j avant 12 mois.
+1. **Rester AE 350k 2 ans → radiation + redressement résultat réel (IS 20 %) + majorations +30% pénalités =68k** → corriger : CA >200k service → SARL 7-14j avant 12 mois.
 2. **Créer SARL avec salarié Paris 7 mois → PE France IS 25%** → double impo 40k vs 15k → corriger : PE 6 mois test §02 → portage 8% si PE inévitable.
 3. **AE avec client export Paris → pas d'exon TVA 0%** → TVA 20% perdue → corriger : AE non assujetti → SARL si besoin art.92 + rapatriement 30j.
 
@@ -65,7 +65,7 @@ Comparatif statuts = **tableau AE vs SARL vs Portage** pour choisir statut selon
 ## Plan d'action 30 jours
 **Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 **Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
-- **S3 J22-30** : MRR SARL IS 15% vs AE 2% chiffré, 2 closes 5900 SARL, 1 AE 2900, retro statuts, template v2
+- **S3 J22-30** : MRR SARL IS 20 % (LF 2026) vs AE 0,5-1 % chiffré, 2 closes 5900 SARL, 1 AE 2900, retro statuts, template v2
 - Tracker : Notion "Statuts" + PLF juillet reminder, habit "CA 12 mois glissants"
 
 ## Interactions avec autres dossiers

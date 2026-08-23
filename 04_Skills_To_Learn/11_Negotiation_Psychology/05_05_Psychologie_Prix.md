@@ -32,7 +32,7 @@ Délai 7j après provision 50% art.30, TVA 20% Maroc / 0% art.92 export.
 
 | Client | Biais activés | Choix | Prix |
 |---|---|---|---|
-| **Yassine** AE 350k, peur radiation 68k | Ancrage 5900 + perte 68k + preuve "Yassine 600k passé SARL 7j" | **5900** (AE→SARL IS 15% + capital 10k) | 5900 évite 68k → 2% de 68k = rentable |
+| **Yassine** AE 350k, peur radiation 68k | Ancrage 5900 + perte 68k + preuve "Yassine 600k passé SARL 7j" | **5900** (AE→SARL IS 20 % (LF 2026) + capital 10k) | 5900 évite 68k → 2% de 68k = rentable |
 | **Fatima** 30k, petit budget | Ancrage 5900 + perte 300k + preuve Fatima 30k + rareté 2 places | **2900** (70% choisissent 2900) | 2900 =1% 300k |
 
 Sans 5900, Yassine aurait pris 2900 seul → perte upsell 3000.

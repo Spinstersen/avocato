@@ -53,7 +53,7 @@ Total 2025 : +93k évités.
 - [ ] TVA 20% Maroc / 0% art.92 + SWIFT 30j 100% factures 0% (04)
 - [ ] ICE/RC/IF art.144 sur 100% devis/factures
 - [ ] CA 12 mois vs 200k/500k AE vérifié mensuel (05)
-- [ ] IS 15% vs 2% AE calculé si >200k
+- [ ] IS 20 % (LF 2026) vs 2% AE calculé si >200k
 - [ ] PE 6 mois §02 testé si salarié Paris
 - [ ] MRR + runway 3 mois tracé 03_KPI (si <3 → fix 06)
 - [ ] BATNA 725/h 11_01 si offre <2900
@@ -62,7 +62,7 @@ Total 2025 : +93k évités.
 - [ ] Glossaire §04/§10/§09/§03 cités
 
 ## Sources
-- sgg.gov.ma : CGI art.92 20%/0% art.144, Loi 28-08 art.30 50%, Loi 09-08 art.52 300k, Loi 114-13 200k/500k, IS 15%, DOC art.264/618
+- sgg.gov.ma : CGI art.92 20%/0% art.144, Loi 28-08 art.30 50%, Loi 09-08 art.52 300k, Loi 114-13 200k/500k, IS 20 % (LF 2026), DOC art.264/618
 - oc.gov.ma IGOC 30j, Yousign Stripe Notion
 - Glossaire `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §04, §10, §06, §09, §03, §11, §12
 

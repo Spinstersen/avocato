@@ -24,7 +24,7 @@ Voir 00_START_HERE/03_Glossaire § chain causale 01->02->03->04->06->07->10. Ex:
 
 ## Erreur qui coute 15-50k
 
-Ne pas verifier PLF: AE reste 400k service 2 ans -> radiation + redress IS 15% + penal 30%. Croire 40j = non-resident alors foyer Casa -> IS mondial 15% + penal.
+Ne pas verifier PLF: AE reste 400k service 2 ans -> radiation + basculé au résultat réel (IS 20 %) + pénalité 30 %. Croire 40j = non-resident alors foyer Casa -> IS mondial 15% + penal.
 
 ## Trilingue
 

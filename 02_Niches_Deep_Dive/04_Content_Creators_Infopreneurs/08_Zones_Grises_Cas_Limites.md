@@ -10,7 +10,7 @@
 | 2. CGV formation sans 7j | CGV PDF copiees tolerees <30j | Vente formation 5 000 DH sans retractation 7j art.36-38 + sans ICE = remboursement force | CGV Loi 31-08 : 7j, programme, duree, attestation, ICE + facture art.144 | Loi 31-08 art.36-38, CGI art.144 | §11 + §4 TVA |
 | 3. Marque classe 41 non deposee | Nom podcast YouTube sans depot tolere <72h | Concurrent depose 41 (formation) avant vous → perte nom + strikedown | Recherche OMPIC 2h + depot 41 (+9 si app) 1 200 DH/classe en 72h + surveillance 10 ans | Loi 17-97 art.133/148 | §5 OMPIC |
 | 4. Contrat sponsor sans cession image | Deal 2 000 DH oral tolere 1 fois | Contrat YouTube sponsor sans cession droit image → retrait video + dommages | Contrat sponsor FR/EN : cession image, duree 12m, territoire, remuneration, reserve 618, penale 10% | Loi 2-00 art.11, DOC art.230/264 | §11 DOC + §10 |
-| 5. AE 200k service depasse | CA 190k AE tolere, 200-210k gris 1 an | 250k formation (service 200k plafond) 2 ans = radiation + IS 15% + IR 38% + 30% | Basculer SARL avant 200k, capital 10k, IS 20 % (LF 2026), facturation art.92 si etranger | Loi 114-13 art.4, CGI art.150, Loi 5-96 | §9 AE/SARL |
+| 5. AE 200k service depasse | CA 190k AE tolere, 200-210k gris 1 an | 250k formation (service 200k plafond) 2 ans = radiation + résultat réel (IS 20 %) + majorations + 30% | Basculer SARL avant 200k, capital 10k, IS 20 % (LF 2026), facturation art.92 si etranger | Loi 114-13 art.4, CGI art.150, Loi 5-96 | §9 AE/SARL |
 
 ## Cas limite detaille — chiffre niche 04
 
@@ -20,7 +20,7 @@
 - Contrat sponsor 60k marque FR sans cession image, CGV sans 7j, facture sans ICE.
 
 ### Qualification
-- AE 280k >200k service → depassement Loi 114-13 art.4 → tolerance 1 an puis radiation annee 2, redressement IS 15% + IR 38% + 30% = ~85k sur 280k.
+- AE 280k >200k service → depassement Loi 114-13 art.4 → tolerance 1 an puis radiation annee 2, redressement résultat réel (IS 20 %) + majorations + 30% = ~85k sur 280k.
 - Cession sans ecrit art.11 Loi 2-00 → nulle, monteuse peut revendiquer montage sur YouTube, retrait monetisation.
 - Marque 41 non deposee → concurrent depose MindfulScale 41 → perte chaine + rebrand 30k.
 - Sponsor sans image → marque peut exiger retrait video 60k + dommages.

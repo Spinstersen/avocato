@@ -16,7 +16,7 @@
 
 ### Régime SARL
 
-- IS : 15% sur les bénéfices jusqu'à 300 000 DH, 31% au-delà.
+- IS : 20 % unifié (LF 2026) si bénéfice net <100M MAD ; 35 % au-delà.
 - Déduction des charges (salaires, frais, investissements).
 - TVA : facturée et reversée (sauf exonération art. 92 CGI pour exports).
 - Comptabilité d'engagement obligatoire.

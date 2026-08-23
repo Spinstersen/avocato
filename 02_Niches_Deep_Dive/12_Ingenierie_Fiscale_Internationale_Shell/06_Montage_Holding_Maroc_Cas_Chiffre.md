@@ -23,8 +23,8 @@ _VEILLE_LEGALE_2025_2026.md §B1.
 | Ligne | Montant |
 |---|---|
 | Bénéfice | 1 000 000 |
-| IS Maroc (300k×15% + 700k×20%) | -185 000 |
-| Net après IS | 815 000 |
+| IS Maroc (20 % × 1 000 000) | -200 000 |
+| Net après IS | 800 000 |
 | Dividende versé au gérant (retenue source/dividende selon régime en vigueur) | à chiffrer comptable agréé |
 | Coûts structure | ~3-5k/an |
 | **Risque requalification** | **Nul si déclarations exactes** |
@@ -36,18 +36,18 @@ _VEILLE_LEGALE_2025_2026.md §B1.
 | Bénéfice groupe | 1 000 000 |
 | IS UAE 9% (si substance et direction effective Dubai) | -90 000 |
 | Coûts substance Dubai (bureau + 2 visas/salariés + compta) | -70 000 |
-| Gain brut vs A | ~25-35k/an |
+| Gain brut vs A | ~40k/an (le scénario A passe à 200k d’IS sous LF 2026) |
 | Flux dividende holding→gérant Maroc | Convention MA-UAE art.10 + déclaration avoir étranger |
 | Risque | PPT : taux 9% exige direction effective DUBAI (PV, dirigeants locaux) |
-| **Verdict** | **Pertinent dès ~3M bénéfice ; à 1M le gain ne paie pas la complexité** |
+| **Verdict** | **LF 2026 renforce l’arbitrage (A → 200k) ; à 1M le gain brut (~40k/an) doit encore couvrir substance + risque PPT — analyse au cas par cas [comptable agréé]** |
 
 ## Scénario C — Shell sans substance (ce que vend l'agent offshore)
 
 | Ligne | Année 1-2 | Année 3 (contrôle) |
 |---|---|---|
 | Économie espérée | ~100-150k/an | — |
-| Requalification résidence effective Maroc | — | IS plein ~185k |
-| Majoration 30% (+100% si manquement caractérisé) | — | +55k à +185k |
+| Requalification résidence effective Maroc | — | IS plein ~200k |
+| Majoration 30% (+100% si manquement caractérisé) | — | +60k à +200k |
 | Prix transfert non documentés (fees facturés) rapportés art.213 II | — | inclus ci-dessus |
 | Sanctions change Loi 19-06 (flux non rapatriés) | — | 3k-30k + risque pénal 6 mois |
 | Amende BO OMPIC | 5k-50k | cumulable |
@@ -57,16 +57,16 @@ _VEILLE_LEGALE_2025_2026.md §B1.
 
 ```
 Gain net montage = (Impôt évité × 5 ans) − (Coût substance × 5 ans) − (Risque × probabilité contrôle)
-Shell      : (750k) − (0) − (0,4 × 500k+) = PERDANT
-Holding B  : (475k) − (350k) − faible    = neutre à 1M, positif >3M
-SARL A     : 0 − 25k − 0                  = référence
+Shell      : (1 000k évité plein) − (0) − (0,4 × 500k+) = PERDANT
+Holding B  : (40k/an ⇒ 200k / 5 ans) − (350k coûts) = négatif sous ~2M, positif au-delà si substance solide
+SARL A     : référence légale (800k/an net)
 ```
 
 ## Points Office des Changes du cas (renvoi fichier 09)
 
 *   Dividende SARL→holding Dubai : transfert autorisé sur base RC + liasse + attestation résidence — pas d'autorisation RC1 sous les seuils IGOC.
 *   Investissement étranger significatif (>100M DH dossier Office RC1 30j) : hors périmètre de ce cas, traité fichier 09.
-*   Tout flux doit être rapatrié/justifié dans les délais IGOC 2024 — Loi 19-06 s'applique indépendamment de l'impôt.
+*   Tout flux doit être rapatrié/justifié dans les délais IGOC en vigueur (IGOC 2026 depuis le 01/01/2026) — Loi 19-06 s'applique indépendamment de l'impôt.
 
 ## Phrase diagnostic
 

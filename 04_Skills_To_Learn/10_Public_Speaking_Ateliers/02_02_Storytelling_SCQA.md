@@ -14,7 +14,7 @@ SCQA = **Situation-Complication-Question-Answer** (Barbara Minto, McKinsey). En 
 
 **3 histoires types avocat Maroc (à alterner) :**
 1. **YouCan Fatima** (e-com 30k) → SCQA 09-08 transfert Shopify US art.43
-2. **Yassine freelance 600k** → SCQA AE 350k > plafond 200k → radiation + IS 15%
+2. **Yassine freelance 600k** → SCQA AE 350k > plafond 200k → radiation + IS 20 % (LF 2026)
 3. **Karim MRE Paris** → SCQA dividende 10% France sans attestation DGI 30j → bloqué
 
 ## Procédure pas-à-pas chiffrée (40 min pour écrire SCQA 90s)
@@ -31,14 +31,14 @@ SCQA = **Situation-Complication-Question-Answer** (Barbara Minto, McKinsey). En 
 | SCQA 90s | Script verbatim |
 |---|---|
 | S | "Yassine, développeur Casa, 600k DH/an offshore, AE 350k service depuis 2 ans. Il pensait être tranquille : IR 2% = 7k/an." |
-| C | "Janvier 2025, DGI : dépassement plafond 200k service 2 ans → radiation AE + redressement IS 15% + IR 38% + 30% pénalités = 68k dus. Compte bloqué." |
+| C | "Janvier 2025, DGI : dépassement plafond 200k service 2 ans → radiation AE + redressement résultat réel (IS 20 %) + majorations + 30% pénalités = 68k dus. Compte bloqué." |
 | Q | "AE ou SARL ? Comment choisir sans payer 68k ?" |
 | A | "3 critères : plafond 500k/200k, IS 20 % (LF 2026), capital 10k. On voit tableau 7-30 min + 2 options 2900/5900." |
 
 | Pack storytelling | Prix |
 |---|---|
 | **Option 2900 DH** | Atelier 60 min SCQA 90s + 3 piliers + modèle AE/SARL |
-| **Option 5900 DH** | + cas Yassine complet + simulation IS 15% + création SARL 7-14j assistée | Délai 7j après provision 50% |
+| **Option 5900 DH** | + cas Yassine complet + simulation IS 20 % (LF 2026) + création SARL 7-14j assistée | Délai 7j après provision 50% |
 
 ## Erreurs Top 3
 
@@ -63,7 +63,7 @@ SCQA = **Situation-Complication-Question-Answer** (Barbara Minto, McKinsey). En 
 
 ## Sources
 - Barbara Minto SCQA, McKinsey, TED storytelling
-- sgg.gov.ma : Loi 09-08 art.52, Loi 114-13 AE 200k/500k, CGI IS 15%
+- sgg.gov.ma : Loi 09-08 art.52, Loi 114-13 AE 200k/500k, CGI : IS 20 % (LF 2026)
 - cndp.ma 2023-045, ompic.ma
 - Glossaire `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §06 (09-08), §09 (AE/SARL), §12 (compte)
 

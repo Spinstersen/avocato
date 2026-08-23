@@ -49,7 +49,7 @@
 
 ## Analyse doctrinale — Fiscalité internationale
 
-**Pourquoi les conventions existent :** Sans elles, même bénéfice taxé 2 fois (Maroc IS 15% + France IR 25% = 40%). Art.7 répartit le droit d'imposer, art.27 élimine double impo par crédit. Le PE est le piège : 1 salarié qui signe = PE = France récupère l'impôt.
+**Pourquoi les conventions existent :** Sans elles, même bénéfice taxé 2 fois (Maroc IS 20 % (LF 2026) + France IR 25% = 40%). Art.7 répartit le droit d'imposer, art.27 élimine double impo par crédit. Le PE est le piège : 1 salarié qui signe = PE = France récupère l'impôt.
 
 **Raisonnement :** 1) Résidence art.4 → 2) Qualification revenu (bénéfice art.7 vs dividende art.10 vs salaire art.15) → 3) Test PE 6 mois/pouvoir conclure → 4) Élimination art.27. Chaque étape exige attestation DGI + justificatif bancaire — sinon convention théorique.
 

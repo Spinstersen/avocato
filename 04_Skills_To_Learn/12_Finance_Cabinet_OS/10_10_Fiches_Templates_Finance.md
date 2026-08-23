@@ -59,7 +59,7 @@ Fiches finance = **4 templates A4 qui transforment devis→encaissement 7j en 15
 - [ ] Glossaire §04/§10/§06/§09/§03/§11/§12 cités
 
 ## Sources
-- sgg.gov.ma : CGI art.92 20%/0% art.144 ICE, Loi 28-08 art.30 50%, DOC art.264 10% art.618 art.443, Loi 09-08 art.52 300k, Loi 114-13, IS 15%
+- sgg.gov.ma : CGI art.92 20%/0% art.144 ICE, Loi 28-08 art.30 50%, DOC art.264 10% art.618 art.443, Loi 09-08 art.52 300k, Loi 114-13, IS 20 % (LF 2026)
 - oc.gov.ma IGOC 30j, Yousign Stripe Toggl Notion Plausible
 - Glossaire `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §04, §10, §06, §09, §03, §11, §12
 

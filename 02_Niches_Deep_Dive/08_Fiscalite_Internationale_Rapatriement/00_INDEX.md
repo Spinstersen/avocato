@@ -6,7 +6,7 @@
 
 *   **Résidence fiscale:** >183j ou foyer au Maroc = résident mondial, sinon non-résident source Maroc seulement `CGI art.23` + `05_MRE.../02_Douleurs_Juridiques.md:32` + attestation.
 *   **Salarié hors Maroc:** détachement 12 mois vs portage international vs contrat local = CNSS A1, risque établissement stable si >6 mois remote.
-*   **Freelance/e-com rapatriement:** AE 200k/500k vs SARL IS 15%/31% vs succursale vs portage → TVA art.92 exonération export, rapatriement 30j IGOC, provision art.30.
+*   **Freelance/e-com rapatriement:** AE 200k/500k vs SARL IS 20 % (LF 2026) vs succursale vs portage → TVA art.92 exonération export, rapatriement 30j IGOC, provision art.30.
 *   **Double imposition:** conv. fiscale art.4 résidence, art.7/13 bénéfices, art.27 élimination `01_Freelancers.../02_Douleurs_Juridiques.md:32`.
 *   **Offre:** Diagnostic International 1,200 HT → Pack Rapatriement 5,900 HT → Pack MRE Fiscal 7,500 HT + débours OMPIC/Office.
 

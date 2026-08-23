@@ -10,7 +10,7 @@
 | 2 | transformation AE SARL-AU capital 10000 DH | 140 | Achat | 11 | Loi 5-96 capital 10k |
 | 3 | plafond auto-entrepreneur 500k commerce 200k service | 220 | Info | 12 | Loi 114-13 §09 Glossaire |
 | 4 | SARL-AU Maroc création délai 7-14 jours CRI | 300 | Achat | 14 | Loi 5-96 + IGOC CRI 2k DH |
-| 5 | fiscalité AE vs SARL IS 15% 300k | 180 | Info | 12 | CGI IS 15%/20%/32% §09 |
+| 5 | fiscalité AE vs SARL IS 2026 | 180 | Info | 12 | CGI art.19 : IS 20 % unifié (LF 2026) §09 |
 | 6 | avantage SARL sur auto-entrepreneur TVA art92 | 120 | Info | 10 | CGI art.92 exon export |
 | 7 | radiation auto-entrepreneur dépassement 2 ans | 90 | Info | 9 | Loi 114-13 art.11 |
 | 8 | gérant SARL-AU carte séjour étranger | 70 | Info | 8 | Loi 02-03 art.13 + §08 |
@@ -29,7 +29,7 @@
 | 4 | Créer SARL-AU en 7-14j : CRI Casa 2000 DH | SARL-AU création 7-14j | 2500m H2:Dossier OMPIC/ICE IF RC 48h/Pub BO | Modèle statuts |
 | 5 | AE 1% vs SARL IS 20% : calcul 200k bénéfice | fiscalité AE vs SARL IS20 | 2500m H2:AE 0,5-1% libératoire/IS 20% unifié LF2026 | Tableau comparatif |
 | 6 | SARL et TVA art.92 : exon export freelance e-commerce | avantage SARL TVA art92 | 2500m H2:3 conditions/30j SWIFT/Facture144 | Guide TVA |
-| 7 | Radiation AE : que faire après 2 ans dépassement | radiation AE dépassement | 2500m H2:Redressement 30%/IS15%+IR38%/Pénalités | Cas réel 350k 2ans |
+| 7 | Radiation AE : que faire après 2 ans dépassement | radiation AE dépassement | 2500m H2:Redressement 30%/IS 20 % (LF 2026)+IR38%/Pénalités | Cas réel 350k 2ans |
 | 8 | Devenir gérant SARL-AU étranger : carte 1 an 200DH | gérant SARL carte séjour | 2500m H2:Dossier préfecture 30j/8 photos/Bail légalisé | Guide carte |
 | 9 | AE vs SARL : compte convertible et dotation 15k | compte convertible SARL vs AE | 2500m H2:Convertible 48h/Devise MRE 72h/Dotation | Guide banque |
 | 10 | Convention honoraires passage SARL : provision 50% | provision 50% passage SARL | 2500m H2:Art30/50% Yousign/7j après pièces | Modèle convention |
@@ -38,11 +38,11 @@
 
 ## 3. Repurposing 1→3 — Procédure chiffrée
 
-1 article 2500m → **1 post LinkedIn 1200c** (hook "200k dépassé = radiation ?" + tableau AE 1% vs IS15% + CTA simulateur) + **1 carrousel 1080×1080 8 slides** (5 étapes AE→SARL + slide capital 10k + slide délai 7-14j) + **1 Loom 3 min** (capture simulateur AE vs IS + statuts). Canal LinkedIn 3 posts/sem entrepreneurs + partenariat comptables (co-intervention) + atelier coworking mensuel Casa/Rabat "AE ou SARL ?". Mardi article, jeudi carrousel, vendredi Loom. 3h30/article cf. `04_Skills_To_Learn/09_SEO_Content_Engine/02_02_Structure_Article_2500.md` §Procédure + `04_04_Repurposing_1vers5.md`.
+1 article 2500m → **1 post LinkedIn 1200c** (hook "200k dépassé = radiation ?" + tableau AE 0,5-1 % vs IS 20 % (LF 2026) + CTA simulateur) + **1 carrousel 1080×1080 8 slides** (5 étapes AE→SARL + slide capital 10k + slide délai 7-14j) + **1 Loom 3 min** (capture simulateur AE vs IS + statuts). Canal LinkedIn 3 posts/sem entrepreneurs + partenariat comptables (co-intervention) + atelier coworking mensuel Casa/Rabat "AE ou SARL ?". Mardi article, jeudi carrousel, vendredi Loom. 3h30/article cf. `04_Skills_To_Learn/09_SEO_Content_Engine/02_02_Structure_Article_2500.md` §Procédure + `04_04_Repurposing_1vers5.md`.
 
 ## 4. Procédure E-E-A-T — art.59 Loi 28-08 + Loi 09-08 Plausible
 
-1. **Experience** : cas Karim AE 350k service 2 ans → radiation + redressement IS15%+30% pénalités (Glossaire §09 erreur 30k).
+1. **Experience** : cas Karim AE 350k service 2 ans → radiation + redressement résultat réel + majoration 30 % (Glossaire §09 erreur 30k).
 2. **Expertise** : cite Loi 114-13, Loi 5-96, CGI IS 15/20/32%, Loi 02-03 art.13 exact sgg.gov.ma date vérif + PLF juillet.
 3. **Authority** : renvoi `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §09 (AE/SARL 10k/7-14j), §01 (183j), §02 (PE), §08 (carte 1 an 200DH), §12 (compte 48-72h), §10 (provision 50%).
 4. **Trust** : disclaimer art.59 info doctrinale + 3 internal links (vers AE plafond + IS + carte) + Plausible UE (conforme 09-08, pas GA art.43 transfert US) + GSC index 48h + image <150kb + co-traitance comptable obligatoire chiffrage.

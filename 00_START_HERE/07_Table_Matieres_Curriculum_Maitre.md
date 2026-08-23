@@ -19,7 +19,7 @@
 ```
 
 **Ordre causal intra-dossier (à respecter sinon requalification):**
-`01 Résidence 183j (CGI 23) → 09 AE/SARL (500k/200k vs IS15%) → 02 PE 6m (art.5/7) → 07 Convention 27 → 03 Rapatriement 30j (IGOC) → 04 TVA92 → 12 Compte → 10 Provision 30 → 06/05 (09-08/OMPIC)` + volet 13→15→14 (Substance→Prix→CRS) — voir `03_Glossaire:392-410`.
+`01 Résidence 183j (CGI 23) → 09 AE/SARL (500k/200k vs IS 20 % (LF 2026)) → 02 PE 6m (art.5/7) → 07 Convention 27 → 03 Rapatriement 30j (IGOC) → 04 TVA92 → 12 Compte → 10 Provision 30 → 06/05 (09-08/OMPIC)` + volet 13→15→14 (Substance→Prix→CRS) — voir `03_Glossaire:392-410`.
 
 ---
 

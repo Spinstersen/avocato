@@ -7,7 +7,7 @@ Cas Honoraires 5000 = **scénario réel où client a budget 5000 (entre 2900 et 
 
 | Cas 5000 | Budget | Intérêt | Prix optimal | Justif 2900 vs 5900 |
 |---|---|---|---|---|
-| **Yassine 5000** AE 350k → SARL | 5000 | Peur radiation 68k + IS 15% | **5900** (dépasse 5000 mais évite 68k) | 5900 =8% de 68k → ROI 12×, 2900 = sans SARL → reste risque |
+| **Yassine 5000** AE 350k → SARL | 5000 | Peur radiation 68k + IS 20 % (LF 2026) | **5900** (dépasse 5000 mais évite 68k) | 5900 =8% de 68k → ROI 12×, 2900 = sans SARL → reste risque |
 | **Fatima 5000** CGV YouCan | 5000 | CGV urgente + 09-08 | **4900 → 5900** | 5900 = CGV+registre+politique (3 en 1) vs 2900 CGV seule → 2000 de plus = 2 livrables |
 | **MRE 5000** dividende | 5000 | Dividende 10% France 100k | **5900** | 5900 attestation DGI 30j + convention → économise 15k IR France (art.27) |
 
@@ -17,7 +17,7 @@ Cas Honoraires 5000 = **scénario réel où client a budget 5000 (entre 2900 et 
 
 1. **0'-2' budget 5000 détecté (1 min)** : Calendly "budget 5000" ou "5000 max ?" → miroir "5000 ?" (4s) → étiquette "Il semble que 5000 soit le max pour ce projet ?" → il confirme 5000 + peur.
 **Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
-3. **5'-8' ancre 5900 + perte (2 min)** : "2 options : 5900 complet (SARL 10k + IS 15% + dépôt OMPIC 7-14j, évite 68k) ou 2900 essentiel (contrat seul). 5900 =8% de 68k, 2900 =4%. La plupart avec 68k prennent 5900 (preuve Yassine 600k 7j)." Silence 4s.
+3. **5'-8' ancre 5900 + perte (2 min)** : "2 options : 5900 complet (SARL 10k + IS 20 % (LF 2026) + dépôt OMPIC 7-14j, évite 68k) ou 2900 essentiel (contrat seul). 5900 =8% de 68k, 2900 =4%. La plupart avec 68k prennent 5900 (preuve Yassine 600k 7j)." Silence 4s.
 **Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 5. **12'-15' close 5000 → 5900 (3 min)** : "Avec 5000, on peut faire 5900 en 2× : 2500 provision art.30 aujourd'hui + 2500 solde J7 + 900 J30 (étalé). Ou 2900 aujourd'hui si budget bloqué. On bloque 5900 étalé ou 2900 ?" Offre étalé = lève friction 5000→5900.
 6. **J0 provision (5 min)** : Yousign convention honoraires art.30 + facture provision 50% 2950 → Stripe 48h → J7 livraison.

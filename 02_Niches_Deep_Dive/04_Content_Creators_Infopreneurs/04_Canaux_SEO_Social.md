@@ -23,7 +23,7 @@
 | Sem | Sujet (H1 = requête) | Requête cible | Format + H2 | CTA |
 |---|---|---|---|---|
 | 1 | Contrat partenariat influenceur Maroc : 6 clauses DOC | contrat partenariat influenceur | 2500m H2:Objet/Rému/Exclusivité/PI Loi2-00/Résiliation 230 | Modèle contrat 2900 HT |
-| 2 | Statut créateur : AE 200k vs SARL 10k capital 7-14j | statut auto-entrepreneur créateur | 2500m H2:Plafond 200k/IS15% /Facture144/TVA | Simulateur AE→SARL |
+| 2 | Statut créateur : AE 200k vs SARL 10k capital 7-14j | statut auto-entrepreneur créateur | 2500m H2:Plafond 200k/IS 20 % (LF 2026) /Facture144/TVA | Simulateur AE→SARL |
 | 3 | PI YouTube Maroc : qui possède la vidéo sponsorisée | propriété intellectuelle YouTube | 2500m H2:Auteur Loi2-00/Cession art38/BMDA | Checklist cession |
 | 4 | CGV formation en ligne : 5 mentions Loi 31-08 | CGV formation en ligne Maroc | 2500m H2:Prix/Accès/Remboursement/09-08/Preuve443 | Template CGV 5900 |
 | 5 | Cession droits auteur créateur : modèle art.38 | contrat cession droits auteur | 2500m H2:Écrit obligatoire/Rému proportionnelle/Durée | Modèle cession Word |

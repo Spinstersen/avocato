@@ -58,7 +58,7 @@ Retainer 2900/mois = MRR stable, ponctuel = pic.
 - [ ] Interaction 09_06 : 1 article/semaine → 0.5 deal → MRR
 - [ ] Interaction 12_02 : provision 50% → trésorerie → runway
 - [ ] 0 deal/semaine → alerte +1 SEO (09_05)
-- [ ] Glossaire §10 provision, §09 AE/SARL (MRR vs IS 15%)
+- [ ] Glossaire §10 provision, §09 AE/SARL (MRR vs IS 20 % (LF 2026))
 
 ## Sources
 - sgg.gov.ma : CGI IS 20 % (LF 2026), Loi 09-08 art.52 300k (MRR vs risque), Loi 28-08 art.30 provision

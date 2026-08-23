@@ -10,7 +10,7 @@ NPS atelier = **0-10 "Recommanderiez-vous cet atelier ?"** (Tally 1 question) + 
 | **NPS** | %promoteurs 9-10 − %détracteurs 0-6 | ≥8.5 | <7.5 | Réécris SCQA 02 + slides 03 |
 | **Présence** | présents / invités | ≥75% (18/24) | <60% | Change horaire mar 10h + relance J-3 |
 | **Conversion** | audits bookés / présents | ≥30% (6/18) | <15% | CTA soft 10 plus visible + suivi 06 |
-| **MRR** | clos 5900 × nb | ≥11 800 (2×5900) | <5 900 | Monte ticket 5900 (IS 15% inclus) |
+| **MRR** | clos 5900 × nb | ≥11 800 (2×5900) | <5 900 | Monte ticket 5900 (IS 20 % (LF 2026) inclus) |
 
 **3 piliers mesure :** 1. Tally NPS J+1 2. Feuille présence 3. Calendly + CRM Notion
 
@@ -28,7 +28,7 @@ NPS atelier = **0-10 "Recommanderiez-vous cet atelier ?"** (Tally 1 question) + 
 | Atelier | Invités/Présents | NPS | Conversion | MRR | Action |
 |---|---|---|---|---|---|
 | 20/09 CGV YouCan | 24→18 (75%) | 8.7 (58 NPS) | 33% 6 audits | 11 800 (2×5900) | Garde SCQA Fatima |
-| 27/09 AE vs SARL | 30→19 (63%) | 7.2 (31 NPS) | 15% 3 audits | 5 900 | Fix : change horaire 10h→18h, simplifie IS 15% |
+| 27/09 AE vs SARL | 30→19 (63%) | 7.2 (31 NPS) | 15% 3 audits | 5 900 | Fix : change horaire 10h→18h, simplifie IS 20 % (LF 2026) |
 | 04/10 Registre 5 col | 24→20 (83%) | 9.1 (73 NPS) | 40% 8 audits | 17 700 (3×5900) | Double-down registre |
 
 | Pack métriques | Prix |

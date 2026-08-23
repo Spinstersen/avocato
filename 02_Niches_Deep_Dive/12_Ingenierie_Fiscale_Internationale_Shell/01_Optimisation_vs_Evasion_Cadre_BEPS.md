@@ -13,7 +13,7 @@
 
 | Pratique | Mécanisme | Pourquoi c'est tentant |
 |---|---|---|
-| Holding Dubai au-dessus d'une SARL Casa | Bénéfices remontés en dividende taxés 9% UAE | IS 15% → 9% |
+| Holding Dubai au-dessus d'une SARL Casa | Bénéfices remontés en dividende taxés 9% UAE | IS 20 % (LF 2026) → 9% |
 | Shell Estonia / US LLC facturant la SARL | Management fees qui vident le résultat Maroc | Déplacer la marge vers 0% |
 | Prix transfert sous-facturés | Dev vendu 1k/j facturé 1k quand marché = 5k | Marge déplacée hors Maroc |
 | Compte étranger non déclaré | Encaissements clients directs sur compte Dubai | Échapper au rapatriement 30j |

@@ -59,7 +59,7 @@ Sans métriques, 1500 semble "mieux que 0". Avec, 375/h <725/h BATNA → refuse.
 - [ ] Glossaire §10 provision 50% (DH/h après provision)
 
 ## Sources
-- sgg.gov.ma : art.30 provision 50% (trésorerie DH/h), CGI IS 15%, Loi 09-08 300k (MRR vs risque)
+- sgg.gov.ma : art.30 provision 50% (trésorerie DH/h), CGI : IS 20 % (LF 2026), Loi 09-08 300k (MRR vs risque)
 - Toggl, Stripe 2%, Notion, Plausible
 - 11_01 BATNA 725/h, 12_01 Pricing, 03_KPI
 - Glossaire `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §10, §04, §06

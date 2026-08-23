@@ -6,7 +6,7 @@
 
 | Zone | Gris (tolere) | Rouge (sanction) | Procedure sortie | Base legale | Renvoi glossaire §X |
 |---|---|---|---|---|---|
-| 1. CA 250k depasse AE 200k | 200k OK, 210k tolerance 1 an (annee N) | 250k service 2 ans = radiation auto + redressement 30% + IS 15% + IR 38% | Basculer SARL avant fin annee tolerance, capital 10k, RC 7-14j, cloture AE | Loi 114-13 art.4, CGI art.150 | §9 AE/SARL |
+| 1. CA 250k depasse AE 200k | 200k OK, 210k tolerance 1 an (annee N) | 250k service 2 ans = radiation auto + redressement 30% + résultat réel (IS 20 %) + majorations | Basculer SARL avant fin annee tolerance, capital 10k, RC 7-14j, cloture AE | Loi 114-13 art.4, CGI art.150 | §9 AE/SARL |
 | 2. Transformation sans PV AGE | Apport verbal fonds commerce tolere <30j | Sans PV AGE + evaluation + RC modificatif = nullite apport + IS plus-value | PV AGE + rapport commissaire apports si >10k + depot OMPIC 7j + IF | Loi 5-96 art.67, CGI | §9 + §11 DOC |
 | 3. Facture TVA apres depassement | AE non assujetti sans TVA tolere <200k | AE 250k sans TVA = TVA 20% due retro depuis depassement + 15% penalites | Immat TVA apres depassement + facturation art.144 ICE + TVA 20% ou exon art.92 si export | CGI art.92/144, Loi 114-13 | §4 TVA + §9 |
 | 4. Contrat sans reserve 618 apres scale | Contrat 5k oral tolere AE | Scale 80k sans clause 618 + sans cession 2-00 = impaye irrecouvrable, preuve 0 >10k | Contrat FR/EN avant scale : reserve 618 + penale 10% art.264 + cession PI Loi 2-00 | DOC art.443/264/618, Loi 2-00 art.11 | §11 DOC |
@@ -19,7 +19,7 @@
 - Apporte son fonds a SARL sans PV AGE (accord oral), contrat client 80k sans clause 618, 1 salarie non declare 8 mois.
 
 ### Qualification
-- AE 200k plafond service Loi 114-13 : N+1 250k → tolerance 1 an, mais N+2 290k = radiation obligatoire + requalification : IS 15% sur benef 120k=18k + IR 38% + 30% = ~55k/an x2 = 110k.
+- AE 200k plafond service Loi 114-13 : N+1 250k → tolerance 1 an, mais N+2 290k = radiation obligatoire + requalification : IS 20 % (LF 2026) sur benef 120k=18k + IR 38% + 30% = ~55k/an x2 = 110k.
 - Transformation sans PV AGE → apport nul, SARL sans capital libere → responsabilite gerant.
 - TVA : depuis depassement 200k, TVA 20% due retro sur 540k CA (N+1+N+2) = 108k + 15% = 124k.
 - Contrat 80k sans 618/443 → impaye, preuve 0 >10k, pas de revendication.
@@ -39,7 +39,7 @@
 ## Methode qualification en 3 temps (AE→SARL)
 
 1. **Qualification** : CA 12 mois glissants >200k service /500k commerce ? → Oui → Loi 114-13 depassement. Apport → Loi 5-96 PV AGE ? Facture >10k → DOC 443 ?
-2. **Risque chiffre** : 250k 2 ans = radiation + 30% + IS 15% + IR 38% = 55k/an, TVA 20% retro = 108k, 618 manquant = 80k perdu.
+2. **Risque chiffre** : 250k 2 ans = radiation + 30% + résultat réel (IS 20 %) + majorations = 55k/an, TVA 20% retro = 108k, 618 manquant = 80k perdu.
 3. **Parade purgeante** : SARL avant 200k+1 an, PV AGE 7j, TVA des depassement, contrat 618 avant livraison, Damancom J-1.
 
 ## Interactions (chaine AE→SARL)

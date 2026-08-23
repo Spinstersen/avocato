@@ -45,7 +45,7 @@
 
 ## Cas chiffré
 
-*   Lena 210j → résidente → IS 15% sur bénéfice 200k = 30k DH vs non-résident 0% → mais évite double 25k France → gain net 15k avec convention.
+*   Lena 210j → résidente → IS 20 % (LF 2026) sur bénéfice 200k = 30k DH vs non-résident 0% → mais évite double 25k France → gain net 15k avec convention.
 
 ---
 

@@ -20,7 +20,7 @@ Déclinaison fiscal/juridique du Numbers Sheet : chaque chiffre porte sa valeur,
 | Frais création SARL (CRI) | **~2 000 DH** (OMPIC + CRI) | Arrêté CRI + tarifs OMPIC | ompic.ma + directompic.ma, 01/04/2025 | Tarifs OMPIC : vérification **mensuelle** |
 | Délai création SARL | **7–14 jours** | Procédure OMPIC | directompic.ma, 01/04/2025 | directompic.ma : vérification **mensuelle** |
 | Taxe dépôt marque OMPIC | **1 200 DH/classe** | Loi 17-97 + tarif arrêté | ompic.ma, 20/08/2026 | Bulletin/tarifs OMPIC : **mensuel** |
-| IS taux réduit PME | **15% sur bénéfice net ≤ 300 000 DH** | CGI, barème progressif (loi de finances) | sgg.gov.ma, 01/01/2025 | Barème IS `[vérifier PLF 01/10]` — jamais citer sans millésime ; bénéfice net, pas CA |
+| IS taux PME | **20 % unifié** (bénéfice net <100M MAD ; 35 % au-delà) | CGI art.19 — LF 2026 (loi 50-25) | sgg.gov.ma, 23/08/2026 | Barème IS `[vérifier PLF 01/10]` — jamais citer sans millésime ; bénéfice net, pas CA |
 | Dividende vers France | **Retenue à la source 10%** (vs 15% interne) si attestation DGI + formulaire 5000-F avant versement | Convention FR-Maroc 29 mai 1970 art.10 | sgg.gov.ma + Bofip, 20/08/2026 | Conventions stables : revue **annuelle Q1** (Bofip pour l'interprétation FR) |
 
 ## Mini-checklist échéances
@@ -35,7 +35,7 @@ Déclinaison fiscal/juridique du Numbers Sheet : chaque chiffre porte sa valeur,
 
 1. Citer « 500k » sans préciser service vs commerce — les deux plafonds ne sont pas interchangeables.
 2. Exonérer la TVA export sans vérifier le SWIFT ni le dépôt sous 30j — condition 3 manquante = TVA 20% redressée + pénalités.
-3. Citer IS 15% sur le chiffre d'affaires — le barème porte sur le **bénéfice net**, jamais sur le CA.
+3. Citer IS 20 % (LF 2026) sur le chiffre d'affaires — le barème porte sur le **bénéfice net**, jamais sur le CA.
 
 ## Footer — sources + renvois + devoir d'information
 

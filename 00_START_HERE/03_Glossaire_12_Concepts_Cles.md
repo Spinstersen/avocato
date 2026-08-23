@@ -52,7 +52,7 @@
 **Procédure — test PE en 3 questions :**
 1. Avez-vous un lieu fixe en France >6 mois ? OUI → PE → bénéfice France taxé 25% IS France.
 2. Avez-vous un salarié/agent en France qui signe des contrats ? OUI → PE même si <6 mois.
-3. NON aux deux → pas de PE → bénéfice taxé Maroc seulement 15% <300k.
+3. NON aux deux → pas de PE → bénéfice taxé au Maroc seulement — 20 % (LF 2026).
 
 **Conséquence chiffrée :** Sans PE : 100k bénéfice → IS Maroc 15k seulement. Avec PE : IS Maroc 15k + IS France 25k = 40k, puis crédit art.27 (15k) → reste 25k France → total 40k vs 15k = **25k de surcoût**.
 
@@ -227,21 +227,21 @@ ICE: 00XXXX RC: XXXX IF: XXXX
 
 ---
 
-## 09 — AE plafond / SARL IS 15% / Capital 10k / Délai 7-14j
+## 09 — AE plafond / SARL IS 20 % (LF 2026) / Capital 10k / Délai 7-14j
 
 **Définition simple :**
 - **AE (Auto-entrepreneur Loi 114-13) :** Plafond **500k DH commerce / 200k DH service** (HT, 12 mois glissants), IR libératoire **0,5 % commerce / 1 % servicesice** (decret 114-13), radiation si dépassement 2 ans.
 - **SARL (Loi 5-96) :** Capital min **10 000 DH**, IS 20 % unique (LF 2026 : benefice net <100M MAD ; 35 % au-dela)** (PLF annuelle à vérifier), création **7-14j** OMPIC.
 
 **Procédure — choisir AE vs SARL :**
-1. CA <200k service + <183j + pas de salarié France + pas de TVA export → AE 1 jour, IR 1-2% (ex: 150k × 2% = 3k)
-2. CA >200k OU besoin TVA art.92 OU salarié >6 mois OU 210j résident → SARL 10k capital → IS 20 % (LF 2026) (ex: 100k bénéfice ×15% =15k)
+1. CA <200k service + <183j + pas de salarié France + pas de TVA export → AE 1 jour, IR libératoire 0,5-1 % (ex: 150k services × 1 % = 1,5k)
+2. CA >200k OU besoin TVA art.92 OU salarié >6 mois OU 210j résident → SARL 10k capital → IS 20 % (LF 2026) (ex: 100k bénéfice × 20 % = 20k)
 
-**Chiffres à vérifier PLF :** AE 500k/200k, IS 15/20/32%, capital 10k, délai OMPIC 7-14j, frais CRI **~2 000 DH** (pas 5k).
+**Chiffres à vérifier PLF :** AE 500k/200k, IS 20 % (LF 2026), capital 10k, délai OMPIC 7-14j, frais CRI **~2 000 DH** (pas 5k).
 
 **Interagit avec :** §01 Résidence (AE 400k mais 210j → IS mondial), §02 PE (SARL Casa + salarié Paris 7 mois = PE même si SARL), §04 TVA (SARL seule permet exon art.92, AE non assujetti mais pas exon).
 
-**Erreur :** Rester AE à 350k service 2 ans → radiation + redressement IS 15% + IR 38% + 30% pénalités.
+**Erreur :** Rester AE à 350k service 2 ans → radiation + redressement résultat réel (IS 20 %) + majorations + 30% pénalités.
 
 **Source :** Loi 114-13, Loi 5-96, CGI art.19 IS, PLF sgg.gov.ma.
 

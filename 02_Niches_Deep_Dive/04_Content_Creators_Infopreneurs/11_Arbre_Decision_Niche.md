@@ -15,7 +15,7 @@ Vendre une formation sans CGV 31-08 = remboursement forcé. Signer un sponsor sa
            ├─ Cession signée ? OUI → OK  |  NON → Contrat FR fait foi + clause cession avant tournage §11
            └─ [Q3] Marque classe 41 déposée (nom/pseudo) ? §05
                      ├─ NON → Dépôt OMPIC 41 (+35 si merch) 1 200 DH/classe 72h §05
-                     └─ OUI → [Q4] CA >200k service ? §09 → AE 2% vs SARL 15% + TVA art.92 §04 si client FR
+                     └─ OUI → [Q4] CA >200k service ? §09 → AE 0,5-1 % vs SARL/SAS IS 20 % + TVA art.92 §04 si client FR
 ```
 
 ## Tableau décision — 4 branches
@@ -25,11 +25,11 @@ Vendre une formation sans CGV 31-08 = remboursement forcé. Signer un sponsor sa
 | A — CGV | Formation/coaching vendu en ligne | Loi 31-08 + DOC art.443 §11 + §10 | Rédiger CGV (prix HT/TVA, accès 12 mois, rétractation, support) → publier + case acceptation → conserver preuve commande §11 | Vente opposable |
 | B — PI/Cession | Vidéo sponsorisée / UGC | Loi 2-00 art.11 §05 + DOC art.230 §11 | Contrat FR fait foi : objet, prix, cession droits (durée/territoire/support), réserve propriété art.618 §11 → Yousign avant livraison | Cession valide |
 | C — Marque | Nom de créateur / podcast / formation | Loi 17-97 art.133 §05 | Recherche antériorité directompic.ma → dépôt classe 41 (éducation/divertissement) + 35 (merch) + 09 (app) §05 → opposition 2m | Protection 10 ans |
-| D — Fiscal | CA >200k service / client étranger | §09 AE 200k/500k + §01 183j + §04 TVA art.92 | Si <200k + <183j → AE 1j 2% ; si >200k ou export → SARL 10k capital 7-14j IS 15% + facture art.92 + rapatriement 30j §03 + compte §12 | AE vs SARL |
+| D — Fiscal | CA >200k service / client étranger | §09 AE 200k/500k + §01 183j + §04 TVA art.92 | Si <200k + <183j → AE 1j 2% ; si >200k ou export → SARL 10k capital 7-14j IS 20 % (LF 2026) + facture art.92 + rapatriement 30j §03 + compte §12 | AE vs SARL |
 
 ## Cas chiffrés
 
-* **Yasmine, coach Insta, formation 1 200 DH × 180 ventes = 216k CA, pas de CGV** : >200k §09 → AE plafonné → passage SARL IS 15% sur bénéfice ; sans CGV litige "accès coupé à 6 mois" → remboursement 1 200 × 20 =24k faute preuve art.443 §11 ; régularisation CGV 31-08 (4h) + SARL 7-14j.
+* **Yasmine, coach Insta, formation 1 200 DH × 180 ventes = 216k CA, pas de CGV** : >200k §09 → AE plafonné → passage SARL IS 20 % (LF 2026) sur bénéfice ; sans CGV litige "accès coupé à 6 mois" → remboursement 1 200 × 20 =24k faute preuve art.443 §11 ; régularisation CGV 31-08 (4h) + SARL 7-14j.
 * **Deal sponsor 30k DH, agence Paris réutilise vidéo 1 an sans cession** : Sans contrat art.11 Loi 2-00 §11 → cession implicite nulle → agence en contrefaçon → facture impayée 30k vs clause pénale 10% DOC art.264 §11 =3k ; contrat préalable évite litige.
 * **Podcast "MindCasa" non déposé classe 41, 80k abonnés** : Concurrent dépose MindCasa 41 → opposition 2 mois manquée §05 → rebrand 50k + perte SEO ; dépôt préventif 1 200 DH aurait bloqué.
 

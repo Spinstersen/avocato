@@ -60,7 +60,7 @@ Refuser 1500 = gagner 2900 ailleurs → +1400 et 4h sauvées.
 
 ## Sources
 - Fisher/Ury Getting to Yes (BATNA/ZOPA), Harvard PON, Chris Voss
-- sgg.gov.ma : Loi 09-08 art.52 300k, Loi 28-08 art.30 provision 50%, CGI IS 15%
+- sgg.gov.ma : Loi 09-08 art.52 300k, Loi 28-08 art.30 provision 50%, CGI : IS 20 % (LF 2026)
 - 09_SEO 06 (BATNA SEO 725/h), 10_Atelier 07 (BATNA atelier 1475/h)
 - Glossaire `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §10 (provision), §06 (09-08), §09 (AE plafond)
 

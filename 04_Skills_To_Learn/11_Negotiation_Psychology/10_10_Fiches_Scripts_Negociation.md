@@ -58,7 +58,7 @@ Fiches négo = **4 templates A6 qui transforment call 15 min en exécution sans 
 
 ## Sources
 - Voss Never Split, Fisher/Ury Harvard, Cialdini
-- sgg.gov.ma : art.30 provision 50%, Loi 09-08 art.52 300k, CGI IS 15%, Loi 114-13
+- sgg.gov.ma : art.30 provision 50%, Loi 09-08 art.52 300k, CGI : IS 20 % (LF 2026), Loi 114-13
 - Glossaire `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §10, §06, §09, §04
 
 ## Plan d'action 30 jours

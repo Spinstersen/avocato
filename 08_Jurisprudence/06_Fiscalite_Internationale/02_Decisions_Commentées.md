@@ -7,7 +7,7 @@
 ### 1. Residence foyer Casa 40j — MRE Paris requalifie resident (DGI 2023)
 
 - **Faits:** MRE Paris foyer femme/enfants Casa, 40j/an Maroc, se declare non-resident.
-- **Solution:** Art.4 conv FR-Maroc du 29 mai 1970: foyer permanent Casa -> resident Maroc meme 40j. IS mondial 15% <300k + credit FR art.27. Redress 3 ans.
+- **Solution:** Art.4 conv FR-Maroc du 29 mai 1970: foyer permanent Casa -> resident Maroc meme 40j. IS mondial 20 % (LF 2026) + credit FR art.27. Redress 3 ans.
 - **Takeaway a dire:** "40j != non-resident si foyer Casa. Foyer prime sur 183j. Attestation DGI preuve."
 
 ### 2. PE salarie Paris 7 mois — SARL Casa commercial signe (Fisc FR 2023)

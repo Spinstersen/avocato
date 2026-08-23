@@ -24,7 +24,7 @@
 | Sem | Sujet article (H1 = requête) | Requête cible | Format + H2 | CTA |
 |---|---|---|---|---|
 | 1 | Contrat prestation freelance Maroc : 7 clauses DOC 230 | contrat prestation freelance Maroc | 2500m, H2:Objet/Prix/TVA 92/PI Loi2-00/Résiliation 230 | Modèle Word 2900 HT |
-| 2 | AE vs SARL offshore : plafond 200k vs IS 20 % (LF 2026)| statut freelance offshore Maroc | 2500m, H2:Plafond/Capital10k/IS 15%/PE 6m | Diagnostic 45min |
+| 2 | AE vs SARL offshore : plafond 200k vs IS 20 % (LF 2026)| statut freelance offshore Maroc | 2500m, H2:Plafond/Capital10k/IS 20 % (LF 2026)/PE 6m | Diagnostic 45min |
 | 3 | TVA art.92 : 3 conditions exon export freelance | TVA prestation export art 92 | 2500m, H2:Service hors Maroc/Paiement devises/Rapatriement 30j | Checklist art.144 |
 | 4 | Facture conforme freelance offshore (art.144) | facture freelance offshore conforme | 2500m, H2:ICE/IF/exon 92/retard 30j | Template facture Excel |
 | 5 | Rapatriement 30j IGOC : SWIFT + banque convertible | rapatriement 30 jours devises | 2500m, H2:Facture en devises/SWIFT/dépôt 48h | Loom 3min |
@@ -42,7 +42,7 @@ Chaque article 2500m (±10%) = **1 post LinkedIn long-form 1200c** (hook 3 ligne
 
 ## 4. Procédure E-E-A-T juridique — art.59 Loi 28-08 + Loi 09-08
 
-1. **Experience** : cas Yassine freelance 180k CA offshore rédigé par avocat + co-traitance comptable IS 15%.
+1. **Experience** : cas Yassine freelance 180k CA offshore rédigé par avocat + co-traitance comptable IS 20 % (LF 2026).
 2. **Expertise** : base légale citée art. exact sgg.gov.ma + date vérif 20/08/2026 en bas d'article.
 3. **Authoritativeness** : signature barreau + n° RC + renvoi `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §01 (183j), §02 (PE), §03 (IGOC 30j), §04 (TVA 92), §07 (art.27).
 4. **Trust** : disclaimer art.59 "information doctrinale, pas consultation — diagnostic 45min requis" + 3 internal links + image <150kb alt keyword + Plausible UE hébergé (pas GA, consentement 09-08 case non pré-cochée) + GSC inspection → index 48h.

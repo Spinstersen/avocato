@@ -31,7 +31,7 @@ Repurposing 1→5 = transformer 1 article pilier 2500 mots (02) en 5 formats nat
 
 | Dérivé | Contenu | Prix pack |
 |---|---|---|
-| Article source | "AE vs SARL 2025 : 500k/200k, IS 15%, capital 10k" (02) | Inclus 2900 |
+| Article source | "AE vs SARL 2025 : 500k/200k, IS 20 % (LF 2026), capital 10k" (02) | Inclus 2900 |
 | LinkedIn + carrousel + Loom + newsletter + atelier 10 min | 5 dérivés planifiés J+1 à J+7 | **Option 2900 DH** : article + 2 dérivés (LinkedIn + newsletter). **Option 5900 DH** : article + 5 dérivés + Canva source + Loom + rapport GSC 06. Délai 7j après provision 50%. |
 
 Yassine (210j Casa, hésite AE 350k) voit carrousel → clique article → convertit 5900 (audit AE/SARL complet).

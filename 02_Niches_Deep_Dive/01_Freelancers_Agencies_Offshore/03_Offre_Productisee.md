@@ -21,7 +21,7 @@ Le freelance facture sans contrat écrit, sous statut AE au-delà du plafond (20
 ### Ce que l'avocat fait concrètement
 
 1.  **Entretien diagnostic 45 min** (présentiel ou visio) : qualification du flux (client, pays, devise, statut actuel, CA 12 mois).
-2.  **Analyse statutaire** : AE vs SARL-AU — tableau comparatif chiffré (charges déductibles, IS 10% <300k / 20% 300k-1M / 30% >1M, CGI art. 19, LF annuelle à vérifier).
+2.  **Analyse statutaire** : AE vs SARL-AU — tableau comparatif chiffré (charges déductibles, IS 20 % unifié (LF 2026), CGI art. 19, LF annuelle à vérifier).
 3.  **Analyse contractuelle** : 10 points de contrôle (objet, prix, pénalités 10% DOC art. 258, réserve propriété art. 618, PI cession art. 9 Loi 2-00, confidentialité 09-08, résiliation, juridiction Casa, loi marocaine, force majeure).
 4.  **Note de risques 2 pages** : synthèse des 3 priorités + références légales + échéance recommandée.
 

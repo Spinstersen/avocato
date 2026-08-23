@@ -29,14 +29,14 @@ Ne commencez pas par CA ou statut. Un PE en France rend la SARL taxable à Paris
 ## Cas chiffrés
 
 * **Yassine, dev Casa, client Berlin, 180k DH service, 210j Casa, pas de PE** : Résident §01 → AE encore possible (<200k) mais TVA art.92 via SARL plus clean si croissance → si SARL 80k bénéfice → IS 12k (15%) vs AE 3,6k (2% sur CA) — choisir SARL si >200k prévu §09.
-* **Léa, agency Casa, closer Paris 7 mois, 600k bénéfice** : PE OUI §02 → 200k rattaché PE → IS FR 50k + IS MA 60k (400k×15%) = 110k ; sans PE (closer sans pouvoir signer) → 90k seulement → **20k surcoût + redressement**.
+* **Léa, agency Casa, closer Paris 7 mois, 600k bénéfice** : PE OUI §02 → 200k rattaché PE → IS FR 50k + IS MA 80k (400k×20 %, LF 2026) = 130k ; sans PE (closer sans pouvoir signer) → 80k seulement → **50k surcoût + redressement**.
 * **Karim, SAS Paris + SARL Casa, 40j MA, dividende 100k** : Non-résident §01 → IS source only → retenue 10% FR §07 =10k via 5000-F + compte devise MRE §12 transférable 72h.
 * **Nadia, freelance 250k CA service, 190j Casa mais foyer Paris** : 190j <183? Non, 190j >183 → résident malgré foyer FR (183j suffit) §01 → IS mondial 15% + TVA art.92 si client FR payé devises §04 → SARL 7-14j §09 obligatoire (AE plafonné).
 
 ## Erreurs / pièges
 
 * **Piège PE** : Mettre son frère à Paris 7 mois "sans contrat" → PE requalifié art.5 → redressement FR 25% + MA 15% non crédité.
-* **Piège 183j** : 40j à Casa mais épouse/enfants à Casa = foyer → résident mondial malgré 40j §01 → IS 15% sur revenus FR oubliés + 30% pénalités.
+* **Piège 183j** : 40j à Casa mais épouse/enfants à Casa = foyer → résident mondial malgré 40j §01 → IS 20 % (LF 2026) sur revenus FR oubliés + 30% pénalités.
 * **Piège TVA** : Facturer client Casa en EUR avec exon art.92 → service rendu au MA → TVA 20% redressée §04.
 * **Piège dotation** : Payer SaaS US 20k/an avec dotation 15k §03 → dépassement = infraction change 3k-30k ; solution : compte devise + rapatriement.
 * **Piège convention** : Démarrer mission sans convention provision 50% §10 → impayé 60% + pas de preuve art.443 §11.

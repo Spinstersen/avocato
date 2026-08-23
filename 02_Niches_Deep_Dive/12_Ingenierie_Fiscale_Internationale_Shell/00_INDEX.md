@@ -7,7 +7,7 @@
 *   **La ligne rouge :** optimisation = utiliser la loi telle qu'elle est écrite avec substance réelle ; évasion = simuler une substance qui n'existe pas. CGI art.208 abus de droit + art.213 prix transfert + BEPS action 6 (clause PPT) ferment la seconde porte.
 *   **Substance = tout :** bureau réel + 2 salariés CNSS locaux + PV décisionnels sur place + compta locale. Sans les 4 → shell → requalification résidence effective Maroc + majoration 30%.
 *   **Invisibilité n'existe plus :** registre BO OMPIC (Loi 43-05/12-18), CRS ~120 juridictions (Maroc opérationnel horizon 2028 — Forum mondial déc. 2025), FATCA 30%. Compte Dubai solde 500k = traçable.
-*   **Chiffre d'arbitrage :** 1M bénéfice → SARL Casa seule 15% (150k) vs holding Dubai AVEC substance 9% (~90k + coûts substance ~70k/an) vs shell sans substance redressé 300k + pénalités. Le shell perd toujours à 5 ans.
+*   **Chiffre d'arbitrage :** 1M bénéfice → SARL Casa seule 20 % (200k, LF 2026) vs holding Dubai AVEC substance 9% (~90k + coûts substance ~70k/an) vs shell sans substance redressé 300k + pénalités. Le shell perd toujours à 5 ans. LF 2026 réduit l’écart avec le holding : la substance reste le juge de paix.
 *   **Offre :** Diagnostic International 1 200 HT → Note substance + KYC **Pack 12 000 HT** (co-traitance comptable agréé + confrère juridiction).
 
 ## Comment lire (13 fichiers)

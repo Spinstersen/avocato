@@ -8,7 +8,7 @@
     *   J1-2: Diagnostic 1,200 (résident 340j → IS mondial, convention US art.7 pas PE si <6 mois).
     *   J3-7: Création SARL-AU 7j OMPIC 10k capital + contrat FR/EN `03_Pack_Freelance_Contrat.md` + facture art.92 + ouverture compte convertible Attijari.
     *   J8: Formation IGOC 30j (justif banque).
-    *   **Co-traitance comptable:** IS 15% sur 400k bénéfice = 60k vs AE 18k mais légal.
+    *   **Co-traitance comptable:** IS 20 % (LF 2026) sur 400k bénéfice = 60k vs AE 18k mais légal.
 *   **Livrable:** SARL RC + contrat + compte + checklist IGOC + Loom 10 min.
 
 ## Cas 2 — Salma ecom YouCan 30k/mois (360k/an) Dubai nomad — Salarié hors Maroc
@@ -25,9 +25,9 @@
 *   **Faits:** MRE Paris, 40j Maroc/an (non-résident `05_MRE.../02_Douleurs_Juridiques.md:32`), veut SARL Casa investissement 100k bénéfice, rapatrier dividende Paris.
 *   **Risques:** Double imposition sans conv. art.27 = 40k, PE si pouvoir conclure Paris, compte bloqué Office sans justif.
 *   **Solution Pack MRE Fiscal 7,500 HT:**
-    *   Diagnostic: non-résident → IS Maroc 15% seulement, convention France art.27 crédit.
+    *   Diagnostic: non-résident → IS Maroc 20 % (LF 2026) seulement, convention France art.27 crédit.
     *   Création SARL distance via procuration Apostille `10_MRE_Entrepreneurs/03_Creation_SARL_Distance_Procuration.md` 14j + compte convertible + PV AG 50k dividende + Office RC1.
-    *   **Chiffrage:** 100k bénéfice → IS 15k → dividende 50k → retenue 10% 5k → net 45k Paris (vs 40k sans conv. = économie 15k).
+    *   **Chiffrage:** 100k bénéfice → IS 20k (LF 2026) → dividende 50k → retenue 10% 5k → net 45k Paris (vs 40k sans conv. = économie 5k).
 *   **Co-traitance:** comptable agréé chiffre IS + expert France crédit.
 
 ## Synthèse 3 cas

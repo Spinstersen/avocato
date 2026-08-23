@@ -12,7 +12,7 @@ Q2 Ticket ≥2900 ? (CGV 4900 / registre 2900 / AE 12k) ──NON→ P3
   └─OUI
 Q3 Peur chiffrée 300k/68k/45j ? (sanction CNDP/DGI) ──NON→ P2 (info)
   └─OUI (art.52 300k)
-Q4 Tu as cas live 5 min ? (Excel 5 col / CGV / IS 15%) ──NON→ prépare live sinon P2
+Q4 Tu as cas live 5 min ? (Excel 5 col / CGV / IS 20 % (LF 2026)) ──NON→ prépare live sinon P2
   └─OUI → SUJET MARDI (01_Anatomie + 02_SCQA)
 ```
 
@@ -21,7 +21,7 @@ Q4 Tu as cas live 5 min ? (Excel 5 col / CGV / IS 15%) ──NON→ prépare liv
 |---|---|---|---|---|---|---|
 | Registre CNDP 5 col | 11 | 2900 | 300k 45j | Excel 5 col 5 min | Passe Q1-4 | **#1 MARDI** |
 | CGV YouCan 09-08 | 9 | 4900 | 300k | CGV live | Passe | #2 |
-| AE vs SARL | 14 | 12k | 68k | IS 15% tableau | Passe | #3 |
+| AE vs SARL | 14 | 12k | 68k | IS 20 % (LF 2026) tableau | Passe | #3 |
 | Loi 2-00 IP | 42 | 5000 | 10k | Non (pas de live) | Q1 NON | P3 écarté |
 
 ## Procédure pas-à-pas chiffrée (5 min / choix, 20 min pour 5 sujets)
@@ -39,7 +39,7 @@ Q4 Tu as cas live 5 min ? (Excel 5 col / CGV / IS 15%) ──NON→ prépare liv
 |---|---|---|---|
 | Oct | Registre CNDP 5 col (pos11, 300k, Excel live) | Top GSC + live le plus fort | **Option 2900 DH** : atelier 60 min + replay + modèle. **Option 5900 DH** : + audit 45 min + dépôt CNDP 30j + 3 registres |
 | Nov | CGV YouCan (pos9, 4900, CGV live) | Ticket 4900 >2900 | 5900 = CGV + registre + politique |
-| Déc | AE vs SARL (pos14, 12k, IS 15% live) | Ticket 12k max | 5900 = simulation IS 15% + création SARL 7-14j |
+| Déc | AE vs SARL (pos14, 12k, IS 20 % (LF 2026) live) | Ticket 12k max | 5900 = simulation IS 20 % (LF 2026) + création SARL 7-14j |
 
 Délai 7j après provision 50% art.30.
 
@@ -65,7 +65,7 @@ Délai 7j après provision 50% art.30.
 - [ ] Glossaire §06/09 cité dans Q3
 
 ## Sources
-- sgg.gov.ma : Loi 09-08 art.52 300k, Loi 114-13 200k, CGI IS 15%
+- sgg.gov.ma : Loi 09-08 art.52 300k, Loi 114-13 200k, CGI : IS 20 % (LF 2026)
 - GSC 09_06, Plausible, cndp.ma 2023-045
 - Glossaire `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §06, §09, §10, §04
 
