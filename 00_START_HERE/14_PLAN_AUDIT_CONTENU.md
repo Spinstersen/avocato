@@ -16,10 +16,11 @@
 
 | Tâche | Statut |
 |---|---|
-| Bannières abrogation sur fichiers citant la loi 28-08 | ✅ 7 fichiers (01_Textes_Fondamentaux, 08_Sanctions_Disciplinaire, 04_Site_Web_Conforme, Moot Scenarios 06-10, Client_Psy 01/04/06) |
+| Bannières abrogation sur fichiers citant la loi 28-08 | ✅ 16 fichiers (7 initiaux + 9 déontologie) |
 | Veille §A2 mise à jour (promulgation + entrées différées + transitoire) | ✅ |
+| **Nouveau dossier `01_Strategy/13_Loi_66-23_Nouvelle_Loi_Avocats/`** (00_INDEX + 4 fichiers : accès/formation, honoraires/finances, gouvernance/élections, checklist cabinet) | ✅ créé le 23/08/2026 |
 | **Re-mapping art. 28-08 → 66.23** (convention honoraires art.30/32 ; secret pro art.36 ; discipline) | ⏳ dès texte consolidé SGG |
-| Nouveau dossier `01_Strategy/13_Loi_66-23_Nouvelle_Loi_Avocats/` (synthèse changements + calendrier élections barreaux décembre + impact pratique cabinet) | ⏳ |
+| Clause paiement >10k dans templates (convention + reçu numéroté) | ⏳ checklist `13_Loi_66-23/04_Impact_Pratique` |
 | Suivi assemblée ABM du 05/09/2026 | ⏳ veille mensuelle |
 
 ## §1 — 00_START_HERE (13 docs) — passe 1

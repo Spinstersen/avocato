@@ -57,6 +57,7 @@
 | 04_Client_Acquisition_System_No_Ads | 13 | 2h | 01_01 +03 | Funnel Impressions→Provision |
 | 05_ADHD_Operating_System_Overview | 13 | 2h | 06_ADHD | OS 3MITs |
 | 06_Deontologie_Pratique_Avocat_Maroc | 13 | 3h | 01_01 | Checklist avant publier |
+| **13_Loi_66-23_Nouvelle_Loi_Avocats** | **5 (00_INDEX+4)** | **1h** | 06 | Checklist adaptation cabinet 66.23 |
 
 **Lire en 2e, avant toute niche.** Déonto = non négociable.
 
