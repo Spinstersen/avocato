@@ -1,4 +1,4 @@
-# 10 — Fiches & Scripts Négociation : le kit 15 min qui évite l'impro
+﻿# 10 — Fiches & Scripts Négociation : le kit 15 min qui évite l'impro
 
 ## Définition
 Fiches négo = **4 templates A6 qui transforment call 15 min en exécution sans impro** : F1 BATNA 5 min, F2 Ancre 5900 30s, F3 Voss 90s, F4 Close 2900/5900. Sans fiches, tu improvises → BATNA oubliée → 1500 accepté. Avec fiches, 12/12 coché → 2900 mini + 0 impayé. Temps : 5 min pré-call + 15 min call + 2 min log.
@@ -23,7 +23,7 @@ Fiches négo = **4 templates A6 qui transforment call 15 min en exécution sans 
 5. **Log 2 min** : 4 fiches cochées → Notion "Négo Fiches" : client / F1-4 / clos 2900/5900 ou no deal / -1400 évitée.
 6. **Mensuel 10 min** : 4 fiches ×8 calls =32 fiches → taux clos 2900/5900, erreur #1-5 (08) → template gagnant dupliqué.
 
-## Exemple Maroc 2025 — Call Fatima 30k vs Yassine 1500
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 
 | Call | F1 BATNA | F2 Ancre | F3 Voss | F4 Close | Résultat |
 |---|---|---|---|---|---|
@@ -46,7 +46,7 @@ Fiches négo = **4 templates A6 qui transforment call 15 min en exécution sans 
 - [ ] F1 BATNA 725/h + ZOPA 2900-budget + arbre Q1-4 5 min pré-call
 - [ ] F1 : BATNA > offre ? → phrase refuse 10s prête
 - [ ] F2 : "5900 complet ou 2900 essentiel + 300k" dit + 4s silence
-- [ ] F3 : 3 miroirs 3 mots + 4s (Yassine/Fatima/agence)
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 - [ ] F3 : 2 étiquettes "Il semble..." + 1 calibrée "Qu'est-ce qui empêche... ?"
 - [ ] F3 : client parle 70% (chrono replay)
 - [ ] F4 : duo 2900/5900 + binaire "On bloque 2900 ou 5900 ?"

@@ -1,5 +1,8 @@
 ﻿# Niche #5: MRE & Foreign Investors (Your Trilingual Edge)
 
+> **Comment utiliser ce fichier (curriculum) :** Ce fichier est le **playbook 7 jours acquisition** — où trouver les clients, quoi dire, quel lead magnet, quel script DM. Pour le **fond juridique** (base légale exacte, offre productisée détaillée avec provision 50% / Yousign / débours OMPIC, workflow, cas pratique chiffré, zones grises, jurisprudence), ouvrez le dossier deep dive : `02_Niches_Deep_Dive/05_MRE_Foreign_Investors/00_INDEX.md` (13 fichiers, 00_INDEX → 12_Fiches).
+> **Fondement juridique du pack cité :** CGI art.23 (183j/foyer/centre), Conv. France-Maroc 29 mai 1970 art.4/27, IGOC dotations, Loi 20-19 art.60-70 (SARL-AU). Vérifiez chaque chiffre sur sgg.gov.ma / cndp.ma / ompic.ma / oc.gov.ma (IGOC juillet 2024) — PLF et IGOC changent les taux.
+
 > **Verdict: PREMIUM. High trust, remote work, perfect for small city + EN fluency. Leverage diaspora.**
 
 ## Who

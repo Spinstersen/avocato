@@ -1,4 +1,4 @@
-# 02 — Storytelling SCQA : le récit qui fait retenir la sanction 300k
+﻿# 02 — Storytelling SCQA : le récit qui fait retenir la sanction 300k
 
 ## Définition
 SCQA = **Situation-Complication-Question-Answer** (Barbara Minto, McKinsey). En atelier juridique, SCQA transforme "Loi 09-08 art.14 registre 5 colonnes" (oublié en 5 min) en histoire "Fatima 30k/mois → mise en demeure 45j → 300k → registre en 7j" (retenu 80% à J7). Durée SCQA : 90 secondes au début (acte 1 de 01_Anatomie). Sans SCQA, hook rate 22% ; avec SCQA, 71% (test 18 ateliers).
@@ -19,7 +19,7 @@ SCQA = **Situation-Complication-Question-Answer** (Barbara Minto, McKinsey). En 
 
 ## Procédure pas-à-pas chiffrée (40 min pour écrire SCQA 90s)
 
-1. **Choisis 1 histoire (5 min)** : Prends cas réel anonymisé (Yassine/Fatima/MRE) lié au sujet atelier. 1 histoire = 1 atelier, pas 3.
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 2. **S 2 phrases (5 min)** : "Fatima, 30k CA/mois YouCan, 50 cmd/j, 2000 mails collectés depuis 18 mois. Tout allait bien jusqu'au 12 mars 2025." Chiffré + date.
 3. **C 2 phrases + sanction (10 min)** : "Le 12 mars, CNDP mise en demeure 45 jours : 0 registre art.14, transfert Shopify US sans clauses art.43. Sanction : 10k-300k art.52 + publication." Cite art exact.
 4. **Q 1 phrase (5 min)** : "Comment passer de 0 à conforme en 7 jours sans couper Shopify ni payer 300k ?" Question fermée qui appelle 3 piliers.
@@ -48,7 +48,7 @@ SCQA = **Situation-Complication-Question-Answer** (Barbara Minto, McKinsey). En 
 
 ## Checklist 12 points — Storytelling SCQA (contextuelle)
 
-- [ ] 1 histoire choisie (Yassine/Fatima/MRE) pas 3
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 - [ ] S 2 phrases chiffrées (CA, mails, date)
 - [ ] C cite art exact + sanction chiffrée (300k, 68k, 10%)
 - [ ] Q question fermée "Comment ... en 7j ?"
@@ -68,7 +68,7 @@ SCQA = **Situation-Complication-Question-Answer** (Barbara Minto, McKinsey). En 
 - Glossaire `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §06 (09-08), §09 (AE/SARL), §12 (compte)
 
 ## Plan d'action 30 jours
-- **S1 J1-7** : 3 SCQA 90s écrits (Yassine/Fatima/MRE), 1 choisi, Loom testé
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 - **S2 J8-21** : SCQA intégré slides 03, répété 2× avec chrono, feedback 1 pair (hook compris en 5s ?)
 - **S3 J22-30** : Atelier J25 SCQA 90s live, NPS question "histoire claire ?" 9/10, retro SCQA affiné, réutilisé en LinkedIn post 09_04
 - Tracker : Notion "SCQA Bank" 3 histoires, habit "écris SCQA 90s" lundi

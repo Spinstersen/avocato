@@ -1,4 +1,4 @@
-# 01 — Pricing 3 Options : le menu qui fait choisir 5900 (pas 2900)
+﻿# 01 — Pricing 3 Options : le menu qui fait choisir 5900 (pas 2900)
 
 ## Définition
 Pricing 3 options = **menu 2 prix actifs + 1 leurre** : Essentiel 2900 (ancrage bas), Complet 5900 (choix cible 60%), Premium 9900 (leurre qui fait 5900 = milieu raisonnable). Sans 3 options, client compare 2900 à 0 → 2900 semble cher. Avec 3, 5900 = compromis → +22% MRR vs duo 2900/5900. Loi Doc art.264 : clause pénale 10% si impayé (pas 30%).
@@ -22,7 +22,7 @@ Pricing 3 options = **menu 2 prix actifs + 1 leurre** : Essentiel 2900 (ancrage 
 5. **Call 15 min Voss (15 min)** : Ancre 9900→5900 + perte 300k + preuve Fatima 7j (11_02) → close 5900 60%.
 6. **Log MRR (3 min)** : Notion "Pricing" : option choisie / temps / MRR → 5900 = MRR cible.
 
-## Exemple Maroc 2025 — Fatima 30k vs Yassine 600k vs Groupe 3 boutiques
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 
 | Client | Option choisie | Pourquoi | Prix HT + TVA |
 |---|---|---|---|

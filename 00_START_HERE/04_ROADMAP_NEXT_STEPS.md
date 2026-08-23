@@ -1,4 +1,4 @@
-# Roadmap Next Steps — Continuer sans perdre la vision
+﻿# Roadmap Next Steps — Continuer sans perdre la vision
 
 > **Dernière mise à jour : 21/08/2026 — commit dd3519d**
 > **Objectif :** Tracer ce qui est fait, ce qui reste, et le nouveau volet fiscal pour reprise en 1 fichier. Ouvrez ce fichier à chaque reprise — pas besoin de relire tout l'audit.
@@ -21,7 +21,7 @@ Ordre diagnostic : 01 Résidence 183j → 09 AE/SARL → 02 PE 6m → 07 Convent
 - **08_Jurisprudence/00_Index.md:13** corrigé + cartographie transversale
 - **04_Skills 09-12 (41 fichiers)** : SEO 11 + Public Speaking 10 + Négociation 10 + Finance 10 — tous passés de 20l à 78-89l
 - **07_Sharp_Legal_Mind/03_Numbers_Sheet.md:1** source de vérité 6 colonnes + procédure MAJ 01/10 PLF + 15/07 IGOC
-- **18 footers clonés** remplacés par footers contextuels (Yassine/Fatima générique supprimé)
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 - **webapp/data.js** rebuild 488 docs / 1956 KB
 
 ### Volet 12 — Ingénierie fiscale (fait le 21/08/2026, même jour)
@@ -74,7 +74,7 @@ Ces dettes ne bloquent pas le nouveau module — à traiter après le volet ing�
 
 ## 7. Sources à vérifier à chaque diagnostic
 
-sgg.gov.ma (CGI, Loi 5-96, Loi 17-97, Loi 09-08, Loi 114-13, Loi 19-06), oc.gov.ma (IGOC 2024 juillet), cndp.ma (délib 40-22), ompic.ma (1 200 DH/classe), Bofip impôts.gouv.fr (conv. France 1959 art.4/7/10/27), OCDE BEPS.
+sgg.gov.ma (CGI, Loi 5-96, Loi 17-97, Loi 09-08, Loi 114-13, Loi 19-06), oc.gov.ma (IGOC 2024 juillet), cndp.ma (délib 40-22), ompic.ma (1 200 DH/classe), Bofip impôts.gouv.fr (conv. France-Maroc du 29 mai 1970 art.4 (residence)/art.5 (PE)/art.7 (benefices)/art.10-13 (dividendes)/art.27 (elimination)), OCDE BEPS.
 
 > Devoir art.59 Loi 28-08 : information doctrinale, pas consultation. Diagnostic 45 min + comptable agréé obligatoire. Connaître les pratiques = connaître les limites pour ne pas les franchir.
 

@@ -1,4 +1,4 @@
-# 06 — Comparatif Harvard PON : position vs intérêt (gagner sans écraser)
+﻿# 06 — Comparatif Harvard PON : position vs intérêt (gagner sans écraser)
 
 ## Définition
 Harvard PON (Fisher/Ury) = **négocier sur intérêts (pourquoi) pas positions (combien)**. Position = "Je veux 1500". Intérêt = "Je veux être conforme sans payer 300k avec petit CA 30k". Sans Harvard, duel 1500 vs 2900 → blocage. Avec Harvard, tu trouves intérêt commun : "conforme 7j + petit budget" → 2900 avec dépôt retiré (tu guides 10 min, elle dépose) → deal.
@@ -28,7 +28,7 @@ Harvard PON (Fisher/Ury) = **négocier sur intérêts (pourquoi) pas positions (
 5. **13'-15' close win-win (2 min)** : "Si on fait 2900 sans dépôt CNDP (vous déposez, je corrige), vous économisez 3000 vs 5900 + conforme 7j. Provision 50% art.30 → 1450 aujourd'hui. On part là-dessus ?" Win-win.
 6. **Log (1 min)** : Note intérêts 3 + option choisie + critère art.
 
-## Exemple Maroc 2025 — Fatima 30k vs Yassine 600k
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 
 | Client | Position | Intérêts (Voss) | Harvard solution | Prix |
 |---|---|---|---|---|

@@ -1,4 +1,4 @@
-# 09 — Cas YouCan 09-08 : boutique 30k/mois mise en demeure 45j → conforme en 7j
+﻿# 09 — Cas YouCan 09-08 : boutique 30k/mois mise en demeure 45j → conforme en 7j
 
 ## Définition
 Cas YouCan_0908 = boutique YouCan/Shopify marocaine typique (30k CA/mois, 50 commandes/j, 2000 mails collectés) qui reçoit **mise en demeure CNDP 45 jours** pour absence registre art.14 + transfert Shopify US sans clauses art.43. Sanction encourue : 10k-300k DH art.52 + blocage. Objectif : passer de "0 registre" à "conforme + 4 articles SEO 09-08 qui rankent" en 7 jours. Tiré de jurisprudence CNDP 2023-045.
@@ -30,7 +30,7 @@ Cas YouCan_0908 = boutique YouCan/Shopify marocaine typique (30k CA/mois, 50 com
 6. **J7 GSC + preuve (30 min)** : Soumets 3 articles GSC 03 → index 48h. Archive dossier : registre + récépissé CNDP + politique + clauses → envoie CNDP réponse mise en demeure 45j.
 7. **J30 suivi** : Récépissé CNDP reçu → classe. GSC pos J30 : "registre CNDP" pos 11 (110 imp), 2 leads 2900.
 
-## Exemple Maroc 2025 — Fatima YouCan 30k vs Yassine freelance
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 
 | Client | Situation J0 | Solution 7j | Prix |
 |---|---|---|---|

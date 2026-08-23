@@ -78,20 +78,7 @@
       toc.push({ tag: h.tagName, text: h.textContent.trim(), id });
     });
 
-    // checkboxes interactive
-    $$('input[type="checkbox"]', tmp).forEach((cb, i) => {
-      cb.disabled = false;
-      const key = (state.current || '') + '#' + i;
-      if (state.checks[key]) cb.checked = true;
-      cb.addEventListener('change', () => {
-        state.checks[key] = cb.checked;
-        LS.set('checks', state.checks);
-        const li = cb.closest('li');
-        if (li) li.classList.toggle('checked', cb.checked);
-      });
-    });
-
-    // wrap tables
+    // wrap tables (survives innerHTML round-trip)
     $$('table', tmp).forEach((t) => {
       const wrap = document.createElement('div');
       wrap.className = 'table-scroll';
@@ -99,8 +86,29 @@
       wrap.appendChild(t);
     });
 
-    // internal links
-    $$('a[href]', tmp).forEach((a) => {
+    // NOTE: checkboxes + internal links are bound AFTER insertion into the real DOM
+    // (binding on tmp is lost after innerHTML string copy). See bindContentEvents().
+    const htmlOut = tmp.innerHTML;
+    return { html: htmlOut, toc };
+  }
+
+  // Bind interactive behaviour on the REAL rendered content (after innerHTML insertion)
+  function bindContentEvents(root) {
+    // checkboxes: restore state + persist on change
+    $$('input[type="checkbox"]', root).forEach((cb, i) => {
+      cb.disabled = false;
+      const key = (state.current || '') + '#' + i;
+      if (state.checks[key]) cb.checked = true;
+      if (cb.checked) { const li = cb.closest('li'); if (li) li.classList.add('checked'); }
+      cb.addEventListener('change', () => {
+        state.checks[key] = cb.checked;
+        LS.set('checks', state.checks);
+        const li = cb.closest('li');
+        if (li) li.classList.toggle('checked', cb.checked);
+      });
+    });
+    // internal .md links -> SPA navigation
+    $$('a[href]', root).forEach((a) => {
       const href = a.getAttribute('href');
       if (href && href.endsWith('.md')) {
         a.addEventListener('click', (e) => { e.preventDefault(); openDoc(href); });
@@ -110,9 +118,6 @@
         a.classList.add('doc-link');
       }
     });
-
-    const htmlOut = tmp.innerHTML;
-    return { html: htmlOut, toc };
   }
 
   /* ---------- charts ---------- */
@@ -297,6 +302,8 @@
     const article = $('.doc', main);
     article.insertBefore(meta, $('.toc, .doc-content', article) || null);
 
+    // bind checkboxes + internal links on the real DOM (lost if only bound on tmp)
+    bindContentEvents(main);
     // auto charts from fences
     $$('.chart-box', main).forEach(renderChartBox);
     setupTableCharts(main);
@@ -531,6 +538,7 @@
       if (article) {
         const contentEl = $('.doc-content', article);
         contentEl.innerHTML = html;
+        bindContentEvents(contentEl);
         const tocEl = $('.toc', article);
         if (toc.length > 1 && !tocEl) {
           const d = document.createElement('details');

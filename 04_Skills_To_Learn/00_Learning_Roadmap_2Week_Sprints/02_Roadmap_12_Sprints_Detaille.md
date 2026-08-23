@@ -1,4 +1,4 @@
-# 02 — Roadmap 12 Sprints Détaillée (24 Semaines = 12 Livrables Vendables)
+﻿# 02 — Roadmap 12 Sprints Détaillée (24 Semaines = 12 Livrables Vendables)
 
 Chaque sprint = 10 jours ouvrés × 45 min = 7.5h + 1 livrable client.
 
@@ -18,7 +18,7 @@ Chaque sprint = 10 jours ouvrés × 45 min = 7.5h + 1 livrable client.
 | S12 | 23-24 | **Atelier 60 min** | Conception + répétition 4h | 1 atelier coworking gratuit 10 inscrits | NPS >8/10 |
 
 ## Détail S1 — Notion (exemple reproductible)
-**J1:** Créer bases CLIENTS/MISSIONS (voir `01_Legal_Tech_Stack/02_Notion_Detaille.md`)
+**J1:** Créer bases CLIENTS/MISSIONS (voir `01_Legal_Tech_Stack/02_Notion_Cabinet_OS_Detaille.md` — le fichier `02_Notion_Detaille.md` n'existe pas, le bon fichier est `02_Notion_Cabinet_OS_Detaille.md`)
 **J2:** Importer 2 clients fictifs + 1 mission pack freelance
 **J3:** Configurer Dashboard 3 MITs + Dopamine Board
 **J4:** Tester workflow intake → mission
@@ -32,7 +32,7 @@ Ne fais pas S5 SEO si tu n'as pas encore vendu 3 packs freelance. L'ordre ci-des
 ## Approfondissement Encyclopédique (Bonus)
 
 ### Cas pratique détaillé
-**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 -> overwhelm

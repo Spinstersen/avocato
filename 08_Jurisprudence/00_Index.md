@@ -17,7 +17,7 @@
 | `03_Contrats_Commerce.md` | 3 arrêts Cass. sur clauses pénales, réserve de propriété, force majeure | Mission 2 — Contrats |
 | `04_Office_Changes_Sanctions.md` | 4 décisions Office + IGOC 2024 (rapatriement, dotations) | Mission 9 — Change |
 | `05_Propriete_Intellectuelle_OMPIC.md` | 4 décisions OMPIC/Cass. (opposition 2m, contrefaçon, cession) | Mission 7 — PI |
-| `06_Fiscalite_Internationale_Conventions.md` | 4 décisions DGI/conv. (183j, PE 7m, prix transfert, dividende 10%) | Mission 8 — Fiscalité |
+| `06_Fiscalite_Internationale_Conventions.md` | 4 décisions DGI/conv. (183j, PE 6 mois — au-delà de 6 mois = PE, prix transfert, dividende conventionnel) | Mission 8 — Fiscalité |
 | `07_Droit_Social_CNSS.md` | 4 décisions CNSS/Cass. soc. (requalification, travail dissimulé) | Mission freelance — CNSS 27,83% |
 | `08_Contentieux_Clause_Penale.md` | 4 décisions Cass. (clause 10%, astreinte, réserve art.618) — approfondit 03 | Mission 2 — Contrats |
 

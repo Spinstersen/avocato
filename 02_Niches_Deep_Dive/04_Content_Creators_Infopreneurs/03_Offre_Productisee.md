@@ -1,9 +1,6 @@
-# 03 — Offre productisée : Packs pour créateurs de contenu
-> **Nature juridique** — Mission sur convention écrite préalable (art. 30 Loi 28-08). Honoraires indicatifs HT, provision 50%, débours en sus. Aucun forfait e-commerce. Diagnostic préalable obligatoire.
+# 03 — Offre productisée : Packs créateurs de contenu & infopreneurs
 
-
-
-> **Mission professionnelle** — Honoraires indicatifs HT, fixés par **convention écrite préalable** (art. 30 Loi 28-08, Règlement Intérieur du Barreau). Aucun forfait ne constitue une offre commerciale type e-commerce. Chaque dossier fait l'objet d'un diagnostic (art. 59) et d'une provision (art. 32). Débours OMPIC/CNDP/Office des Changes en sus. Aucune garantie de résultat.
+> **Nature juridique — Créateurs** — Mission sur **convention d'honoraires écrite préalable** (art. 30 Loi 28-08) obligatoire avant tout travail. Honoraires **indicatifs HT** (ajustés au diagnostic art. 59), **provision 50%** à la signature — pratique déontologique usuelle convenue dans la convention —, débours OMPIC en sus, TVA selon art. 91-92 CGI. Aucun forfait e-commerce.
 
 
 ## Mission Contrat Partenariat Influenceur — 2 500-3 500 DH HT
@@ -57,9 +54,9 @@ R : Pour le top 10% des influenceurs (revenus > 50 k DH/mois).
 
 ## Cadre déontologique et pédagogie de l'honoraire
 
-**Aucun honoraire n'est un prix catalogue** : L'art. 30 Loi 28-08 exige une convention écrite préalable qui précise l'objet, le temps prévisible, la spécialité, et les débours. L'art. 32 impose la provision. Le chiffre indicatif HT sert à la transparence, pas à la vente.
+**Aucun honoraire n'est un prix catalogue** : L'art. 30 Loi 28-08 exige une **convention écrite préalable** (objet, temps prévisible, spécialité, débours, **provision convenue** — usuellement 50% —, TVA, délai). Le chiffre indicatif HT sert à la transparence.
 
-**Pédagogie** : Expliquer que 3 500 DH HT pour 12 clauses, c'est 290 DH par clause rédigée, relue, et expliquée en Loom — à comparer avec le coût d'une clause pénale mal rédigée (30% jugée abusive, Cass. com. 2022/123, `08_Jurisprudence/08_Contentieux_Clause_Penale.md`).
+**Pédagogie (créateurs)** : « 2 500–3 500 DH HT pour un contrat partenariat marque-influenceur (rémunération, IP, exclusivité, résiliation, juridiction Casa) + note d'usage, c'est le prix d'une seule collaboration mal cadrée : sans clause IP claire, la marque réutilise votre vidéo 2 ans ; sans clause d'exclusivité chiffrée, vous perdez 2 autres deals. Le pack complet 4 900–6 900 HT (statut + 3 contrats + CGV formation) remplace 3 allers-retours chez 3 prestataires. Provision 50% = engagement ; solde à livraison. »
 
 **Hors périmètre** : Le comptable chiffre, l'avocat qualifie. La co-traitance tripartite (`08_Fiscalite_Internationale_Rapatriement/12_Fiches_Checklist_CoTraitance_Comptable.md`) évite l'exercice illégal.
 

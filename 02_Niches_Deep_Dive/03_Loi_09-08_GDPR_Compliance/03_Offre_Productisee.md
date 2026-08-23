@@ -1,9 +1,6 @@
-# 03 — Offre productisée : conformité 09-08 et alignment GDPR
-> **Nature juridique** — Mission sur convention écrite préalable (art. 30 Loi 28-08). Honoraires indicatifs HT, provision 50%, débours en sus. Aucun forfait e-commerce. Diagnostic préalable obligatoire.
+# 03 — Offre productisée : Conformité Loi 09-08 & alignement GDPR
 
-
-
-> **Mission professionnelle** — Honoraires indicatifs HT, fixés par **convention écrite préalable** (art. 30 Loi 28-08, Règlement Intérieur du Barreau). Aucun forfait ne constitue une offre commerciale type e-commerce. Chaque dossier fait l'objet d'un diagnostic (art. 59) et d'une provision (art. 32). Débours OMPIC/CNDP/Office des Changes en sus. Aucune garantie de résultat.
+> **Nature juridique — Loi 09-08** — Mission sur **convention d'honoraires écrite préalable** (art. 30 Loi 28-08) obligatoire avant tout travail. Honoraires **indicatifs HT** (ajustés au diagnostic art. 59), **provision 50%** à la signature — pratique déontologique usuelle convenue dans la convention —, débours et frais CNDP en sus, TVA selon art. 91-92 CGI. Aucun forfait e-commerce.
 
 
 ## Mission Conformité 09-08 PME — 8 000-12 000 DH HT
@@ -72,9 +69,9 @@ R : 90 jours en pratique (mission + plan d'action).
 
 ## Cadre déontologique et pédagogie de l'honoraire
 
-**Aucun honoraire n'est un prix catalogue** : L'art. 30 Loi 28-08 exige une convention écrite préalable qui précise l'objet, le temps prévisible, la spécialité, et les débours. L'art. 32 impose la provision. Le chiffre indicatif HT sert à la transparence, pas à la vente.
+**Aucun honoraire n'est un prix catalogue** : L'art. 30 Loi 28-08 exige une **convention écrite préalable** (objet, temps prévisible, spécialité, débours, **provision convenue** — usuellement 50% —, TVA, délai). Le chiffre indicatif HT sert à la transparence.
 
-**Pédagogie** : Expliquer que 3 500 DH HT pour 12 clauses, c'est 290 DH par clause rédigée, relue, et expliquée en Loom — à comparer avec le coût d'une clause pénale mal rédigée (30% jugée abusive, Cass. com. 2022/123, `08_Jurisprudence/08_Contentieux_Clause_Penale.md`).
+**Pédagogie (09-08)** : « 8 000–12 000 DH HT pour audit + registre 5 colonnes + politique confidentialité + mentions site + plan 90 jours + Loom 20 min, c'est le coût d'une seule sanction CNDP évitée : 10 000–300 000 DH d'amende (Loi 09-08 art. 52) + injonction de mise en conformité sous 30 jours + publication de la sanction. Nos clients PME découvrent en diagnostic qu'ils transfèrent des données vers Shopify/US sans base légale — le registre met 14 jours à produire, la sanction met 1 jour à tomber. Provision 50% = engagement ; solde à livraison. »
 
 **Hors périmètre** : Le comptable chiffre, l'avocat qualifie. La co-traitance tripartite (`08_Fiscalite_Internationale_Rapatriement/12_Fiches_Checklist_CoTraitance_Comptable.md`) évite l'exercice illégal.
 

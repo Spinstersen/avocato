@@ -1,4 +1,4 @@
-# 02 — Structure Article 2500 mots : le squelette qui ranke en 7 jours
+﻿# 02 — Structure Article 2500 mots : le squelette qui ranke en 7 jours
 
 ## Définition
 Un article SEO avocat qui ranke = **2500 mots (±10%)**, **H1 unique + 5-7 H2**, **meta title 58c + description 155c**, **3 internal links**, **1 lead magnet**. En-dessous de 1800 mots Google le classe "thin content" ; au-delà de 3200 mots le taux de lecture chute à 22% (Search Engine Journal 2024). 2500 = sweet spot juridique Maroc.
@@ -15,7 +15,7 @@ Un article SEO avocat qui ranke = **2500 mots (±10%)**, **H1 unique + 5-7 H2**,
 | 1. Hook + définition (H1) | 200 | Définit concept en 2 phrases + sanction chiffrée |
 | 2. Base légale tableau | 350 | Art exact sgg.gov.ma + 3 conditions |
 | 3. Procédure pas-à-pas | 600 | 5 étapes numérotées, délais 30j/7j, coûts 1200 DH |
-| 4. Exemple Maroc chiffré | 400 | Yassine/Fatima + 2 options 2900/5900 |
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 | 5. Erreurs Top 3 | 300 | Erreur → coût → correction |
 | 6. Checklist 12 points | 250 | Cases à cocher contextuelles |
 | 7. FAQ 3 Q + CTA | 400 | Schema FAQ + renvoi glossaire |
@@ -55,7 +55,7 @@ Risque si non fait : art.52 Loi 09-08 → amende 10k-300k + mise en demeure 45j 
 - [ ] Title 55-60c + meta 150-155c avec chiffre (300k, 30j)
 - [ ] URL courte sans stop words
 - [ ] 1 tableau base légale (art + source sgg.gov.ma)
-- [ ] Exemple Maroc 2900/5900 présent (Yassine/Fatima/MRE)
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 - [ ] 3 internal links (vers 01, 03, autre article)
 - [ ] 1 lead magnet avec consentement 09-08
 - [ ] LanguageTool 0 faute FR + FR juridique vérifié

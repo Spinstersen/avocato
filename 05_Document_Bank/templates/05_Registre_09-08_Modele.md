@@ -1,6 +1,6 @@
-# Template: Registre de Traitement Loi 09-08 (Excel/Notion)
+# Template : Registre de Traitement Loi 09-08 (Excel / Notion) — Modèle livrable Pack 09-08
 
-> To deliver for Pack 09-08. Create Excel with 1 row per traitement. Example below.
+> **À livrer pour le Pack Conformité 09-08 (8 000–12 000 DH HT).** Créer un fichier Excel (ou base Notion) avec **1 ligne = 1 traitement**. Le registre est obligatoire dès que vous collectez des données personnelles (Loi 09-08 art. 1, 12, 21). Sans registre, sanction CNDP 10 000–300 000 DH (art. 52). Le modèle ci-dessous est conforme au guide CNDP 2024.
 
 **Colonnes Excel:**
 

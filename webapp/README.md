@@ -16,7 +16,7 @@ python -m http.server 8765 --directory "C:\Users\N\Documents\Default Project\avo
 
 | Mode | Purpose |
 | :--- | :--- |
-| **📚 Vault** | Read the 177-doc knowledge base (strategy, 6 niches, 6 acquisition channels, skills, ADHD system, 90-day plan, jurisprudence). Search, checklists, charts, read tracking. |
+| **📚 Vault** | Read the 500+-doc knowledge base (strategy, 12 niches, 6 acquisition channels, skills, ADHD system, 90-day plan, jurisprudence). Search, checklists, charts, read tracking. |
 | **⚖️ Cabinet OS** | Run your cabinet — offline, localStorage. |
 
 ## ✨ Vault Features
@@ -55,7 +55,7 @@ python -m http.server 8765 --directory "C:\Users\N\Documents\Default Project\avo
 ```
 node webapp/scripts/build.js
 ```
-Regenerates `data.js` (177 docs). No npm needed.
+Regenerates `data.js` (500+ docs, compte exact affiché à la fin du build). No npm needed.
 
 ## 🌍 Deploy to GitHub Pages
 
@@ -76,7 +76,7 @@ webapp/
   app.js            → Vault logic
   cabinet.js        → Cabinet OS logic
   styles.css        → theming (Vault + Cabinet + print)
-  data.js           → GENERATED (51 docs)
+  data.js           → GENERATED (500+ docs — rebuild après chaque édition .md)
   scripts/build.js  → generator
   vendor/           → marked + Chart.js (offline)
 ```

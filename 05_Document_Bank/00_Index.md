@@ -18,14 +18,22 @@
 | 07 | `templates/07_Lettre_Mission_Planning.md` | Planning joint à la convention | — |
 | 08 | `templates/08_PV_Remise_Cloture.md` | PV de remise & clôture | — |
 
+## Fiches opérationnelles — prêtes (mémoire externe art. 59)
+
+| # | Fichier | Usage | Quand |
+| :--- | :--- | :--- | :--- |
+| 09 | `09_Fiche_Verification_19_Points.md` | **Mémoire externe 19 points** : vérifier avant convention (183j, PE 6m, Office 30j, TVA art.92, provision art.30) | Avant chaque convention |
+| 10 | `10_Checklist_Ouverture_Dossier.md` | **Workflow 7 étapes** : du diagnostic à la livraison (qui/délai/livrable/conservation 10 ans) | Après provision encaissée |
+| 11 | `11_Modele_Attestation_Residence_Fiscale.md` | **Modèle DGI** : lettre d'accompagnement + attestation sur l'honneur séjours + procédure 30j | Dossier international |
+
 ## À créer (Canva/Tally — quand besoin)
 
 | # | Fichier | Usage |
 | :--- | :--- | :--- |
-| 09 | `Checklist_12_Clauses` (Canva 1p) | Lead magnet Mission Contrats |
-| 10 | `Quiz_Conformite_Ecom` (Tally) | Lead magnet Mission Conformité |
-| 11 | `Atelier_Slides` (Canva 12p) | Support atelier 60 min |
-| 12 | `Carte_Recommandation` (Canva QR) | Après remise, recommandation sobre |
+| 12 | `Checklist_12_Clauses` (Canva 1p) | Lead magnet Mission Contrats |
+| 13 | `Quiz_Conformite_Ecom` (Tally) | Lead magnet Mission Conformité |
+| 14 | `Atelier_Slides` (Canva 12p) | Support atelier 60 min |
+| 15 | `Carte_Recommandation` (Canva QR) | Après remise, recommandation sobre |
 
 ## Mention déontologique (pied de page de chaque modèle)
 "Modèle à titre informatif, à adapter à votre situation. Validé par Me [Nom], Avocat au Barreau de [Ville]. Ne constitue pas une consultation personnalisée sans diagnostic individuel."

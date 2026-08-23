@@ -1,4 +1,4 @@
-# 05 — Comparatif Statuts Fiscal : AE 200k vs SARL IS 15% (7-14j, 10k)
+﻿# 05 — Comparatif Statuts Fiscal : AE 200k vs SARL IS 15% (7-14j, 10k)
 
 ## Définition
 Comparatif statuts = **tableau AE vs SARL vs Portage** pour choisir statut selon CA 2025, avec chiffres PLF à vérifier juillet. AE plafond **500k commerce / 200k service HT 12 mois glissants** (Loi 114-13), IR libératoire **1% commerce / 2% service** (pas 3%). SARL **capital 10k min, IS 15% <300k bénéfice (pas CA), 20% 300k-1M, 32% >1M, création 7-14j OMPIC, frais CRI ~2000 DH**. Sans comparatif, Yassine reste AE 350k → radiation + redressement 68k.
@@ -19,7 +19,7 @@ Comparatif statuts = **tableau AE vs SARL vs Portage** pour choisir statut selon
 
 ## Procédure pas-à-pas chiffrée (20 min diagnostic)
 
-1. **Calcule CA 12 mois glissants (5 min)** : Yassine 350k service → >200k → AE KO. Fatima 30k/mois×12=360k commerce → <500k → AE OK mais YouCan TVA ? → SARL mieux. Note CA HT.
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 2. **Teste AE vs SARL IS (5 min)** : CA 150k service → AE IR 150k×2%=3k vs SARL bénéfice 80k×15%=12k → AE gagne 9k. CA 350k service bénéfice 150k → AE radiation + IS 68k vs SARL IS 22.5k → SARL gagne 45k.
 3. **Vérifie PE 6 mois (3 min)** : Salarié/bureau Paris >6 mois ? Si oui → PE France IS 25% même en SARL → portage 8% ou filiale (glossaire §02). Sinon SARL Casa taxée Maroc seul 15%.
 4. **Vérifie TVA 0% besoin (3 min)** : Client export MRE Paris ? Besoin exon art.92 → SARL seule (AE non assujetti ne facture pas TVA 0%). Si besoin → SARL.
@@ -61,8 +61,8 @@ Comparatif statuts = **tableau AE vs SARL vs Portage** pour choisir statut selon
 - Glossaire `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §09 (AE/SARL), §01 (183j), §02 (PE 6m), §03 (30j), §07 (dividende 10%)
 
 ## Plan d'action 30 jours
-- **S1 J1-7** : Tableau AE/SARL/portage créé, 3 diagnostics 20 min (Yassine/Fatima/MRE), PLF vérifiée
-- **S2 J8-21** : Yassine SARL 10k lancée J8 → 7-14j → RC J15 + compte 48h + attestation DGI 30j lancée, Fatima AE gardée
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 - **S3 J22-30** : MRR SARL IS 15% vs AE 2% chiffré, 2 closes 5900 SARL, 1 AE 2900, retro statuts, template v2
 - Tracker : Notion "Statuts" + PLF juillet reminder, habit "CA 12 mois glissants"
 

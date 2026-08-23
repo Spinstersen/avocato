@@ -1,4 +1,4 @@
-# 09 — SEO & Content Engine : Nouveau Skill Encyclopédique (Bonus)
+﻿# 09 — SEO & Content Engine : Nouveau Skill Encyclopédique (Bonus)
 
 > **Nouveau dossier — Skills n°9 (bonus au-delà des 8).** 12 fichiers. SEO long-tail + repurposing 1→5. Sans pub, sans sponsor. S'appuie sur `01_Strategy/04_Client_Acquisition/02_Maillon1_Contenu_Educatif.md`.
 
@@ -29,7 +29,7 @@ Voir détail chaque fichier (contenu 8-12k chars type stratégie).
 ## Approfondissement Encyclopédique (Bonus)
 
 ### Cas pratique détaillé
-**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 -> overwhelm

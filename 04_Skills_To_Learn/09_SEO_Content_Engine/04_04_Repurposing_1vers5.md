@@ -1,4 +1,4 @@
-# 04 — Repurposing 1→5 : 1 article 2500 mots = 5 contenus en 45 min
+﻿# 04 — Repurposing 1→5 : 1 article 2500 mots = 5 contenus en 45 min
 
 ## Définition
 Repurposing 1→5 = transformer 1 article pilier 2500 mots (02) en 5 formats natifs sans réécrire. Principe : 80% du travail est la recherche juridique (art.14, sanction 300k) → on la recycle. Ratio avocat occupé : 3h30 pour 1 article → 45 min pour 5 dérivés = **5× la surface sans 5× le temps**. Sans repurposing, 1 article meurt après 48h d'impressions.
@@ -16,7 +16,7 @@ Repurposing 1→5 = transformer 1 article pilier 2500 mots (02) en 5 formats nat
 **3 piliers repurposing :**
 1. **Natif** : chaque format respecte codes canal (pas copier-coller 2500 mots sur LinkedIn)
 2. **Boucle** : chaque dérivé renvoie à l'article (SEO juice) + collecte mail (09-08 consentement)
-3. **09-08 safe** : anonymisation Yassine/Fatima, pas de données client réelles
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 
 ## Procédure pas-à-pas chiffrée (45 min chrono)
 
@@ -51,7 +51,7 @@ Yassine (210j Casa, hésite AE 350k) voit carrousel → clique article → conve
 - [ ] Loom 3 min enregistré + titre SEO + lien article description
 - [ ] Newsletter 350 mots + bouton lead magnet + objet <45c
 - [ ] Chaque dérivé renvoie à URL article (backlink interne)
-- [ ] Anonymisation Yassine/Fatima OK (pas de nom réel)
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 - [ ] Consentement 09-08 sur formulaire (case non cochée + durée 3 ans)
 - [ ] 5 dérivés planifiés J+1 à J+7 (Buffer/Brevo)
 - [ ] Log Notion rempli (source + 5 URLs + dates)

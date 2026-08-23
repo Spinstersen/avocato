@@ -1,4 +1,4 @@
-# 08 — Comparatif SEO : Avocat solo vs Agence vs IA — qui ranke vraiment ?
+﻿# 08 — Comparatif SEO : Avocat solo vs Agence vs IA — qui ranke vraiment ?
 
 ## Définition
 Comparatif SEO = tableau décisionnel qui oppose 3 voies pour ranker en long-tail juridique : **Solo 100% (toi + IA), Agence SEO Maroc (5000-12000 DH/mois), Hybride (toi + freelance 1500 DH/article)**. Critères : coût 90j, délai indexation, qualité juridique (art exact), risque 09-08. Sans comparatif, 68% des avocats paient agence qui copie sgg.gov.ma sans art exact → pos 45.
@@ -25,7 +25,7 @@ Comparatif SEO = tableau décisionnel qui oppose 3 voies pour ranker en long-tai
 4. **Hybride test (si besoin)** : Brief freelance (Malt/Upwork) : "2500 mots + art sgg exact + tableau 5 colonnes + 2 options 2900/5900". Teste 1 article 1500 DH. Relis 45 min. Si art faux → retour solo.
 5. **Décision arbre** : <3h + budget 0 → hybride 2/mois. 3h+ + exigence 09-08 → solo. Budget 10k/mois + 0 temps → agence mais audit 07 mensuel.
 
-## Exemple Maroc 2025 — Yassine freelance vs Fatima e-com
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 
 | Profil | Choix | Justif chiffrée | Offre avocat |
 |---|---|---|---|

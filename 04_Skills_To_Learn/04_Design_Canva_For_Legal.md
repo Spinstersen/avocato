@@ -1,4 +1,4 @@
-# Skills #4: Design with Canva (Your Unfair Advantage)
+﻿# Skills #4: Design with Canva (Your Unfair Advantage)
 
 > Most lawyers' documents look like 1998 Word. Yours will look like Apple. Clients pay 30% more for same content if it looks premium.
 
@@ -62,7 +62,7 @@ Clients will think "Wow, this is not a Word copy-paste".
 ## Approfondissement Encyclopédique (Bonus)
 
 ### Cas pratique détaillé
-**Contexte Maroc 2025:** 04_Design_Canva_For_Legal.md appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). Chaque step listé en 7 catégories + chiffrage risque. Voir 07_Sharp pour méthode.
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 → overwhelm

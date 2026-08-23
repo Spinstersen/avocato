@@ -1,4 +1,4 @@
-# 05 — Psychologie du Prix : pourquoi 2900 vs 5900 vend 2× plus que 2900 seul
+﻿# 05 — Psychologie du Prix : pourquoi 2900 vs 5900 vend 2× plus que 2900 seul
 
 ## Définition
 Psychologie prix = **5 biais qui font choisir 2900 quand 5900 est ancre** : ancrage (5900), aversion perte (300k), milieu (compromis 2900), rareté (2 places), preuve sociale (Fatima 30k conforme). Prix unique 2900 → 1.8% conversion. Duo 2900/5900 → 3.4% (×2). Sans 5900, tu négocies à la baisse ; avec 5900, tu vends au milieu.
@@ -28,7 +28,7 @@ Délai 7j après provision 50% art.30, TVA 20% Maroc / 0% art.92 export.
 5. **8'-12' milieu + rareté (60s)** : Si hésite 5900 → "La plupart prennent 2900 (70%), 30% 5900 quand Shopify US (art.43). 2 places cette semaine, après 10 jours." Rareté + norme.
 6. **12'-15' close binaire (2 min)** : "On bloque 2900 ou 5900 ? Provision 50% art.30 → 1450 aujourd'hui, solde à livraison J7." Pas "vous réfléchissez ?" → choix fermé 2900/5900.
 
-## Exemple Maroc 2025 — Yassine AE 350k vs Fatima YouCan
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 
 | Client | Biais activés | Choix | Prix |
 |---|---|---|---|
@@ -53,7 +53,7 @@ Sans 5900, Yassine aurait pris 2900 seul → perte upsell 3000.
 - [ ] 2 prix 2900/5900 prêts (pas 1)
 - [ ] 5900 dit en premier + silence 4s
 - [ ] Perte 300k art.52 citée (2900=1%)
-- [ ] Preuve Fatima/Yassine 7j citée + live 1 min
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 - [ ] Rareté 2 places/semaine vraie (pas fake)
 - [ ] Milieu : si 3 options, 9900 ajoutée → 5900 milieu
 - [ ] Provision 50% art.30 + délai 7j dits

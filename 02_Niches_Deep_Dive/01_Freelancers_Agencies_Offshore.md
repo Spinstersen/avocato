@@ -1,5 +1,8 @@
 ﻿# Niche #1 : Freelances & Agences travaillant pour des clients étrangers
 
+> **Comment utiliser ce fichier (curriculum) :** Ce fichier est le **playbook 7 jours acquisition** — où trouver les clients, quoi dire, quel lead magnet, quel script DM. Pour le **fond juridique** (base légale exacte, offre productisée détaillée avec provision 50% / Yousign / débours OMPIC, workflow, cas pratique chiffré, zones grises, jurisprudence), ouvrez le dossier deep dive : `02_Niches_Deep_Dive/01_Freelancers_Agencies_Offshore/00_INDEX.md` (13 fichiers, 00_INDEX → 12_Fiches).
+> **Fondement juridique du pack cité :** Loi 28-08 art.30 (convention), DOC art.230/443 (preuve >10k DH) + art.618 (réserve propriété), CGI art.92 (TVA export), Loi 114-13 art.4 (plafond AE 200k services/500k commerce), IGOC 2024 rapatriement 30j. Vérifiez chaque chiffre sur sgg.gov.ma / cndp.ma / ompic.ma / oc.gov.ma (IGOC juillet 2024) — PLF et IGOC changent les taux.
+
 > **Verdict : MEILLEURE NICHE DE DÉMARRAGE pour vous. Trésorerie la plus rapide, parfaite pour vos compétences en anglais + tech.**
 
 ## Qui exactement

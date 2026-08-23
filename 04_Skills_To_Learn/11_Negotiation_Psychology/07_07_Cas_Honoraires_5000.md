@@ -1,4 +1,4 @@
-# 07 — Cas Honoraires 5000 : passer de 2900 à 5900 sans perdre Fatima
+﻿# 07 — Cas Honoraires 5000 : passer de 2900 à 5900 sans perdre Fatima
 
 ## Définition
 Cas Honoraires 5000 = **scénario réel où client a budget 5000 (entre 2900 et 5900) et hésite**. Objectif : closer 5900 quand ticket 12k (AE→SARL 68k) ou 4900 (CGV) et 2900 quand budget serré 30k, sans brader à 4000. 3 leviers : ancrage 5900, perte 300k, preuve 7j. Temps : call 15 min → provision 50% 2500 → J+7 livraison.
@@ -16,9 +16,9 @@ Cas Honoraires 5000 = **scénario réel où client a budget 5000 (entre 2900 et 
 ## Procédure pas-à-pas chiffrée (15 min)
 
 1. **0'-2' budget 5000 détecté (1 min)** : Calendly "budget 5000" ou "5000 max ?" → miroir "5000 ?" (4s) → étiquette "Il semble que 5000 soit le max pour ce projet ?" → il confirme 5000 + peur.
-2. **2'-5' ticket vs prix (2 min)** : Calcule ticket évité : Yassine 68k (radiation AE 350k 2 ans), Fatima 300k (09-08), MRE 15k (IR France). Note : 68k/300k vs 5000 → ratio 13× /60× → 5900 justifié.
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 3. **5'-8' ancre 5900 + perte (2 min)** : "2 options : 5900 complet (SARL 10k + IS 15% + dépôt OMPIC 7-14j, évite 68k) ou 2900 essentiel (contrat seul). 5900 =8% de 68k, 2900 =4%. La plupart avec 68k prennent 5900 (preuve Yassine 600k 7j)." Silence 4s.
-4. **8'-12' preuve 7j (3 min)** : "Yassine même AE 350k → SARL 7j + attestation DGI 30j → 68k évités. Fatima 30k → conforme 7j 2900 → récépissé J30. Live Excel 1 min si besoin." Montre.
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 5. **12'-15' close 5000 → 5900 (3 min)** : "Avec 5000, on peut faire 5900 en 2× : 2500 provision art.30 aujourd'hui + 2500 solde J7 + 900 J30 (étalé). Ou 2900 aujourd'hui si budget bloqué. On bloque 5900 étalé ou 2900 ?" Offre étalé = lève friction 5000→5900.
 6. **J0 provision (5 min)** : Yousign convention honoraires art.30 + facture provision 50% 2950 → Stripe 48h → J7 livraison.
 
@@ -50,7 +50,7 @@ Moyenne 5000 → 4900 clos (upsell 5900 66%).
 - [ ] Ratio ticket/prix >10× vérifié → 5900 justifié
 - [ ] Ancre 5900→2900 + silence 4s (02)
 - [ ] Perte 68k/300k citée (2900=1-4%)
-- [ ] Preuve 7j Yassine/Fatima + live 1 min
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 - [ ] Étalé 2500+2500+900 proposé si 5000→5900 friction
 - [ ] 2 options 2900/5900 + 1 gratuite Harvard (06)
 - [ ] Provision 50% art.30 2950 J0 (Yousign)
@@ -64,7 +64,7 @@ Moyenne 5000 → 4900 clos (upsell 5900 66%).
 - Glossaire `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §09, §06, §10, §07
 
 ## Plan d'action 30 jours
-- **S1 J1-7** : 3 cas 5000 scriptés (Yassine/Fatima/MRE) + étalé 2500+2500+900, test 1 call 5000→5900
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 - **S2 J8-21** : 3 calls budget 5000 (2×5900 étalé, 1×2900), ticket 68k/300k chiffré 100%, MRR 14 700 (2×5900+2900)
 - **S3 J22-30** : 100% 5000 → 5900 étalé si ratio >10×, log 6 cas, template 5000 v2, réutilisé 12_Finance 01
 - Tracker : Notion "5000 Log" budget→ticket→clos, habit "ticket >10× ? →5900"

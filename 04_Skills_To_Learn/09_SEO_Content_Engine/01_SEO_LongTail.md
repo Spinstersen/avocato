@@ -1,4 +1,4 @@
-# 01 — SEO Long-Tail Keywords Avocat : 0 concurrence → Intent achat 10/10
+﻿# 01 — SEO Long-Tail Keywords Avocat : 0 concurrence → Intent achat 10/10
 
 ## Définition
 Long-tail = requête ≥4 mots, volume 10-150/mois, difficulté KD <15, intent transactionnel clair. À l'inverse du short-tail ("avocat Maroc" KD 89, intent flou), la long-tail capte quelqu'un qui cherche une solution payante immédiate. Ex: "modèle contrat prestation freelance Maroc Word" = 38 recherches/mois, KD 6, intent 10/10 → 1 article = 1 lead qualifié à 2900 DH.
@@ -29,7 +29,7 @@ Long-tail = requête ≥4 mots, volume 10-150/mois, difficulté KD <15, intent t
 5. **Tableau final (15 min)** : 20 keywords triés par score. Choisis 1 keyword = 1 article (voir 10_Arbre_Choix_MotCle).
 6. **Validation GSC (10 min)** : Après publication, vérifie impressions J+7 dans GSC → si <5 impressions ajuste title H1.
 
-## Exemple Maroc 2025 — Yassine vs Fatima
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 
 | Client | Keyword choisi | Volume/KD | Intent | Offre |
 |---|---|---|---|---|

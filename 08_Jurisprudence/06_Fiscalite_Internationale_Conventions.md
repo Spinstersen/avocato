@@ -5,7 +5,7 @@
 ## 1. Résidence fiscale — 183j vs foyer (CGI art.23 + Conv. art.4)
 
 - **Faits :** MRE Paris avec foyer (femme/enfants) à Casa, 40j/an Maroc, se déclare non-résident. Contrôle DGI Casa : requalifié résident (foyer = critère 1 art.4).
-- **Solution :** Art.4 convention France-Maroc 1959 : foyer permanent Casa → résident Maroc même à 40j. IS mondial dû au Maroc (15% <300k) + crédit France art.27. Redressement 3 ans.
+- **Solution :** Art. 4 convention France–Maroc du **29 mai 1970** (publiée au B.O., entrée en vigueur 1972) : foyer permanent Casa → résident Maroc même à 40j. IS mondial dû au Maroc (15% <300k) + crédit France art. 27 (élimination double imposition). Redressement 3 ans. *Vérifier date exacte sur sgg.gov.ma — la convention est souvent citée « 1970 » ou « 1970/1972 », jamais 1959.*
 - **Takeaway :** "40j ne fait pas non-résident si foyer à Casa. Foyer prime sur 183j. Attestation DGI = preuve, pas passeport."
 - **Mission liée :** Test résidence `08_Fiscalite/01_Residence_Fiscale_183j_Foyer.md` + attestation DGI 30j.
 
@@ -25,8 +25,8 @@
 
 ## 4. Dividende MRE — Retenue 10% France non optimisée (Conv. art.10)
 
-- **Faits :** MRE Paris perçoit dividende SARL Casa 100k, retenue source Maroc 15% au lieu de 10% convention France 1959, sans formulaire 5000-F.
-- **Solution :** Art.10 convention France : dividende source 10% si attestation DGI + 5000-F avant versement. Sans formulaire : 15% retenu → perte 5k. Avec : 10k retenue + crédit France art.27 = 0 double impo.
+- **Faits :** MRE Paris perçoit dividende SARL Casa 100k, retenue source Maroc 15% au lieu du taux conventionnel (10% dans ce cas d'école), sans formulaire 5000-F — illustration pédagogique.
+- **Solution :** Art. 10 (ou art. 13 selon numérotation de la convention — vérifier publication sgg.gov.ma) convention France–Maroc du 29 mai 1970 : dividende source au taux conventionnel si attestation DGI + formulaire 5000-F avant versement + preuve rapatriement 30j IGOC. Sans formulaire : 15% retenu → perte 5k (sur cet exemple). Avec : taux conventionnel + crédit France art. 27 (élimination) = 0 double imposition. *Taux exact (10% vs 15%) dépend de la participation et de la convention en vigueur — le comptable calcule, l'avocat qualifie.*
 - **Takeaway :** "Dividende Casa→Paris = 10% pas 15% si 5000-F. Sans formulaire, 5k perdus. Faites 5000-F avant AG."
 - **Mission liée :** Formulaire 5000-F + attestation DGI + AG dividende.
 
@@ -38,7 +38,7 @@
 | Bénéfice SARL sans PE | Conv art.7 | Maroc 15% <300k seul |
 | Bénéfice avec PE 7 mois | Conv art.7 + art.5 | France 25% + Maroc 15% - crédit art.27 |
 | Prix transfert | CGI art.213 | Prix marché, dossier comparables |
-| Dividende France | Conv 1959 art.10 | 10% retenue + 5000-F + crédit art.27 |
+| Dividende France | Conv. 29 mai 1970 art. 10/13* | Taux conventionnel (10–15% selon cas) + 5000-F + crédit art. 27 |
 | Dividende Belgique | Conv 1972 art.10 | 15% retenue |
 
 **Phrase de diagnostic :** "Où est votre foyer ? Avez-vous un salarié en France >6 mois ? Votre dividende est à 10% ou 15% ? 3 questions = 20k d'économie ou de redressement."
@@ -57,7 +57,7 @@
 
 ### Sources primaires (à jour au 20/08/2026)
 
-*   **sgg.gov.ma** — CGI art.23, art.213, conventions 1959/1972/1985/1977, Loi 5-96 SARL.
+*   **sgg.gov.ma** — CGI art.23, art.213, conventions France 29 mai 1970 / Belgique 4 mai 1972 / autres (vérifier dates exactes), Loi 5-96 SARL.
 *   **impots.gouv.fr Bofip** — Interprétation conventions FR-Maroc.
 *   **oc.gov.ma** — IGOC rapatriement dividende 30j.
 *   **00_START_HERE/03_Glossaire_12_Concepts_Cles.md §01, §02, §07** — Détail résidence, PE, convention.

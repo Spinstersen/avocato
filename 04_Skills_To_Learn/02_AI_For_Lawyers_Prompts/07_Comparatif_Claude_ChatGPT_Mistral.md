@@ -1,4 +1,4 @@
-# 07 — Comparatif Claude vs ChatGPT vs Mistral vs Local
+﻿# 07 — Comparatif Claude vs ChatGPT vs Mistral vs Local
 
 | Critère | Claude 3.5 Sonnet | ChatGPT-4o | Mistral Large | Llama 3 local (Ollama) |
 |---|---|---|---|---|
@@ -25,7 +25,7 @@ Claude Pro ($20) + Mistral gratuit en backup + Ollama local pour secret absolu.
 ## Approfondissement Encyclopédique (Bonus)
 
 ### Cas pratique détaillé
-**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 -> overwhelm

@@ -1,4 +1,4 @@
-# 08 — Livres & Cours : Dossier Maître Encyclopédique + Bonus
+﻿# 08 — Livres & Cours : Dossier Maître Encyclopédique + Bonus
 
 > Dossier maître — Skills n°8. 11 fichiers. 1 livre/2 sem + 1 cours/mois. Résumés 30 min > lecture 20h.
 
@@ -26,7 +26,7 @@ Voir `08_Livres_Cours_Recommandes.md` originel pour liste 28 titres.
 ## Approfondissement Encyclopédique (Bonus)
 
 ### Cas pratique détaillé
-**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 -> overwhelm

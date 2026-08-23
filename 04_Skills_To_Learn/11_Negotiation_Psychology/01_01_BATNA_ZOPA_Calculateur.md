@@ -1,4 +1,4 @@
-# 01 — BATNA & ZOPA : le calculateur qui évite de brader à 1500 DH
+﻿# 01 — BATNA & ZOPA : le calculateur qui évite de brader à 1500 DH
 
 ## Définition
 **BATNA** (Best Alternative To Negotiated Agreement) = ta meilleure porte de sortie si tu refuses ce client. **ZOPA** (Zone Of Possible Agreement) = intervalle où deal possible (ton plancher vs son plafond). Sans BATNA, tu acceptes 1500 DH par peur du vide. Avec BATNA chiffrée, tu sais que refuser 1500 = gagner 2900 ailleurs → tu dis non en 5 sec.
@@ -28,7 +28,7 @@ Formules : `BATNA = revenu alternatif / temps` ; `ZOPA = [ton 2900 , son budget 
 5. **Décision binaire (1 min)** : Si ≥2900 → oui + provision 50% art.30 (glossaire §10). Si <2900 → "non merci, voici modèle gratuit + reviens quand budget 2900" → garde relation (09_09 arbre).
 6. **Log (2 min)** : Notion "Négo Log" : client / offre / BATNA / ZOPA / décision / temps économisé.
 
-## Exemple Maroc 2025 — Yassine vs Fatima
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 
 | Client | Offre | Ta BATNA | ZOPA | Décision | 2 options prix |
 |---|---|---|---|---|---|

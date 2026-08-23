@@ -64,10 +64,10 @@ Deliver this list as 1-page Canva checklist (free magnet), full contract as paid
 
 ## Cadre déontologique et pédagogie de l'honoraire
 
-**Aucun honoraire n'est un prix catalogue** : L'art. 30 Loi 28-08 exige une convention écrite préalable qui précise l'objet, le temps prévisible, la spécialité, et les débours. L'art. 32 impose la provision. Le chiffre indicatif HT sert à la transparence, pas à la vente.
+**Aucun honoraire n'est un prix catalogue** : L'art. 30 Loi 28-08 exige une **convention écrite préalable** qui précise l'objet, le temps prévisible, la spécialité, les débours et le cas échéant la **provision convenue**. La provision usuelle de 50% à la signature — et son acquisition en cas d'impayé — résulte de la convention, pas d'un tarif imposé par la loi. Le chiffre indicatif HT sert à la transparence, pas à la vente.
 
-**Pédagogie** : Expliquer que 3 500 DH HT pour 12 clauses, c'est 290 DH par clause rédigée, relue, et expliquée en Loom — à comparer avec le coût d'une clause pénale mal rédigée (30% jugée abusive, Cass. com. 2022/123, `08_Jurisprudence/08_Contentieux_Clause_Penale.md`).
+**Pédagogie (à dire au client)** : « 3 500 DH HT pour 12 clauses, c'est ~290 DH par clause rédigée, relue, mise en page Canva et expliquée en Loom 15 min — à comparer au coût d'une clause pénale mal rédigée : jusqu'à 30% des clauses pénales sont jugées abusives et réduites par le juge (DOC art. 264, Cass. com. 2022/123, `08_Jurisprudence/08_Contentieux_Clause_Penale.md`), sans compter le blocage bancaire si facture non conforme art. 144 CGI. » Expliquer aussi : provision 50% = engagement mutuel ; solde à la livraison contre facture ; toute variation = avenant écrit Yousign (art. 30).
 
-**Hors périmètre** : Le comptable chiffre, l'avocat qualifie. La co-traitance tripartite (`08_Fiscalite_Internationale_Rapatriement/12_Fiches_Checklist_CoTraitance_Comptable.md`) évite l'exercice illégal.
+**Hors périmètre** : Le comptable chiffre, l'avocat qualifie. La co-traitance tripartite (`08_Fiscalite_Internationale_Rapatriement/12_Fiches_Checklist_CoTraitance_Comptable.md`) évite l'exercice illégal de la comptabilité et sécurise le client.
 
 > Références : `01_Strategy/06_Deontologie_Pratique_Avocat_Maroc/01_Convention_Honoraires.md`, `05_Document_Bank/templates/01_Convention_Honoraires_Modele.md`.

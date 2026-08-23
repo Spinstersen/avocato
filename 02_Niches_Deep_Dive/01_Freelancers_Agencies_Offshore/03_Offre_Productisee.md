@@ -111,6 +111,23 @@ Revue de contrats (5 ou 10/mois selon formule), réponse sous 48h, veille 09-08,
 *   **Devoir d'information** (art. 59) : chaque livrable est accompagné d'une note explicative Loom, pas d'un envoi brut.
 *   **Secret professionnel** (art. 36) : pièces conservées 10 ans, hébergement UE (Plausible/Yousign) ou chiffrement.
 
+### Procédure convention & provision (art. 30/32 Loi 28-08) — pas-à-pas
+
+1. Diagnostic 45 min (Mission 1) — facturé séparément, **déductible** si engagement sous 30j.
+2. Convention envoyée via **Yousign** (signature électronique) : objet, honoraires HT, TVA 20% ou exon art.92 export, **provision 50%**, débours en sus, délai **7j ouvrés après provision ET pièces complètes**.
+3. Encaissement provision → reçu HT/TVA remis (`templates/06_Recu_Provision_Facture.md`).
+4. Production → livraison + facture solde. Impayé : provision acquise + clause pénale 10% (DOC art. 264, Cass. com. 2022/123).
+5. Toute variation d'honoraires = **avenant écrit** signé Yousign avant poursuite (art. 30).
+
+### Débours en sus (facturés au réel, pièce justificative fournie)
+
+| Débours | Montant indicatif | Mission concernée |
+|---|---|---|
+| Frais CRI / immatriculation SARL | ~2 000 DH (pas 5k) | Mission 3 |
+| Journal d'annonces légales (BO/JAL) | variable selon support | Mission 3 |
+| Dépôt marque OMPIC (si demandé) | **1 200 DH/classe** électronique (+200 DH papier) | Optionnelle |
+| Légalisation/notaire (procuration distance) | selon actes | Mission 3 à distance |
+
 ## FAQ
 
 **Q : Honoraires négociables ?** R : Non forfaitaire sans diagnostic. Après diagnostic, ajustement motivé par complexité (avenant art. 30).

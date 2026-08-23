@@ -1,4 +1,4 @@
-# 06 — Stripe Paiement (Zone Grise Déontologique)
+﻿# 06 — Stripe Paiement (Zone Grise Déontologique)
 
 > **Avertissement:** `01_Strategy/01_Rules/03_Actes_Permis_Cadre_Legal.md` — le paiement en ligne n'est pas interdit mais l'affichage "Acheter maintenant" peut être vu comme sollicitation. Vérifier RIO local.
 
@@ -38,7 +38,7 @@ Stripe: 1.4% + 2 DH Europe, 2.9% hors Europe. Répercuter ou absorber? Absorber 
 ## Approfondissement Encyclopédique (Bonus)
 
 ### Cas pratique détaillé
-**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 -> overwhelm

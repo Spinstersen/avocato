@@ -17,7 +17,7 @@
 - Use `06_ADHD_System/` to not burn out
 
 ### 📖 Web App — Vault & Cabinet OS (Recommended)
-Open **`webapp/index.html`** — double-click, offline. Toggle **📚 Vault** (177 docs, charts, checklists) / **⚖️ Cabinet OS** (dossiers, conventions d'honoraires art. 30, factures, échéances, bibliothèque). Details: `webapp/README.md`. Rebuild after editing .md: `node webapp/scripts/build.js`.
+Open **`webapp/index.html`** — double-click, offline. Toggle **📚 Vault** (500+ docs, charts, checklists) / **⚖️ Cabinet OS** (dossiers, conventions d'honoraires art. 30, factures, échéances, bibliothèque). Details: `webapp/README.md`. Rebuild after editing .md: `node webapp/scripts/build.js` (génère `webapp/data.js`).
 
 ### 🌍 Deploy to GitHub Pages (free hosting)
 
@@ -39,13 +39,13 @@ Live URL: `https://<user>.github.io/<repo>/` — no server needed, works from an
 ```
 00_START_HERE/          -> Start here (5 min)
 01_Strategy/            -> Big picture + déontologie Loi 28-08 (06_Deontologie_Pratique)
-02_Niches_Deep_Dive/    -> 6 niches (missions HT, provision 50%, convention)
+02_Niches_Deep_Dive/    -> 12 niches (missions HT, provision 50%, convention) — freelancers, e-commerce, 09-08, créateurs, MRE, AE→SARL, PI, fiscalité internationale, Office des Changes, nomads...
 03_Acquisition_Without_Ads/ -> 6 channels sans publicité
 04_Skills_To_Learn/     -> Sales, French, sharpness, AI, design
 05_Document_Bank/       -> 8 modèles pros (convention, reçu, PV, trames)
 06_ADHD_System/         -> OS quotidien
 07_90Day_Plan/          -> Plan 90 jours
-08_Jurisprudence/       -> 4 fiches CNDP/31-08/contrats à citer
+08_Jurisprudence/       -> 8 fiches (CNDP, 31-08, contrats, Office, OMPIC, fiscalité internationale, CNSS, clause pénale) à citer en diagnostic
 webapp/                 -> Vault reader + Cabinet OS (offline, localStorage)
 ```
 

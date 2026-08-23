@@ -1,4 +1,4 @@
-# 11 — Negotiation & Psychologie Client : Bonus
+﻿# 11 — Negotiation & Psychologie Client : Bonus
 
 > Skills n°11 — BATNA, ZOPA, ancrage, Cialdini appliqué à honoraires. 11 fichiers. Négocier sans brader.
 
@@ -16,7 +16,7 @@ Approfondit Harvard PON, tactiques Voss (mirroring, étiquetage), gestion client
 ## Approfondissement Encyclopédique (Bonus)
 
 ### Cas pratique détaillé
-**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 -> overwhelm

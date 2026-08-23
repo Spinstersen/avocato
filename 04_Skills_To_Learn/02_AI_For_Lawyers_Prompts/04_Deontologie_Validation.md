@@ -1,4 +1,4 @@
-# 04 — Déontologie & Validation Humaine
+﻿# 04 — Déontologie & Validation Humaine
 
 ## Principes Loi 28-08
 
@@ -28,7 +28,7 @@ Avocat US 2023 sanctionné pour mémoire citant arrêts ChatGPT inventés. Trans
 ## Approfondissement Encyclopédique (Bonus)
 
 ### Cas pratique détaillé
-**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 -> overwhelm

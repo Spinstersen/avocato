@@ -1,4 +1,4 @@
-# 03 — Sales Without Selling : Dossier Maître Fusion (SPIN + Challenger + Closing)
+﻿# 03 — Sales Without Selling : Dossier Maître Fusion (SPIN + Challenger + Closing)
 
 > **Dossier maître — Skills n°3+5 fusionnés.** Vendre sans vendre = diagnostiquer, enseigner, proposer 2 options, laisser décider. 13 fichiers. S'appuie sur `01_Strategy/04_Client_Acquisition_System_No_Ads/` (Maillon 3 Diagnostic).
 
@@ -34,7 +34,7 @@
 ## Approfondissement Encyclopédique (Bonus)
 
 ### Cas pratique détaillé
-**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
+**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 -> overwhelm
