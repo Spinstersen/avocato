@@ -19,6 +19,18 @@
 ### 📖 Web App — Vault & Cabinet OS (Recommended)
 Open **`webapp/index.html`** — double-click, offline. Toggle **📚 Base** (680 docs, charts, checklists) / **🎓 Curriculum** (ordre pédagogique) / **⚖️ Cabinet OS** (dossiers, conventions d'honoraires art. 30, factures, échéances, bibliothèque). Details: `webapp/README.md`. Rebuild after editing .md: `node webapp/scripts/build.js` (génère `webapp/data.js`).
 
+### ⚖️ Veille légale 2025-2026 — LIRE AVANT TOUT DIAGNOSTIC (vérifié le 23/08/2026)
+
+Trois réformes majeures changent les règles citées dans ce vault. Détail complet + calendrier : **`00_START_HERE/12_VEILLE_LEGALE_2025_2026.md`**.
+
+| Loi | Entrée en vigueur | Impact express |
+|---|---|---|
+| **Loi 58-25** — nouveau Code de procédure civile (BO n°7485 du 23/02/2026) | **24 août 2026** | Ancien CPC 1974 abrogé : requête écrite **ou électronique**, audiences à distance encadrées, notification via adresse CIN, juge de la mise en état renforcé, **voies de recours conditionnées à la valeur du litige**, médiation systématique. Affaires en cours → ancien régime |
+| **Loi 66.23** — profession d'avocat (dahir 1-26-75 du 18/08/2026, BO n°7536 du 20/08/2026) | Immédiate [vérifier art.146] | Master obligatoire, stage 2 ans, limitation des mandats, traçabilité des honoraires, contrôle Cour des comptes, discipline réformée. Décision Cour constitutionnelle pendante — à surveiller |
+| **Loi 03.23** — Code de procédure pénale (BO n°7437 du 08/09/2025) | **8 décembre 2025** (déjà en vigueur) | Détention provisoire exceptionnelle + peines alternatives, défense renforcée, victimes protégées, notification CIN |
+
+> Règle vault : chaque chiffre garde sa **base légale + date de vérification**. Pendant la transition 58-25, la date de dépôt de la requête décide du régime applicable (art. 641).
+
 ### 🌍 Deploy to GitHub Pages (free hosting)
 
 1. Create a repo on GitHub and push this folder:
