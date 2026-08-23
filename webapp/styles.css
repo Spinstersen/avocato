@@ -549,3 +549,29 @@ details.qcm-answer[open] summary::before { content: '📖'; }
   transition: opacity .15s ease, transform .15s ease, visibility .15s;
 }
 .gl:hover::after, .gl:focus-visible::after { opacity: 1; visibility: visible; transform: translateY(0); }
+
+/* ---------- 12. F2 : recherche surlignée + PWA ---------- */
+mark.hl {
+  background: #fde68a; color: inherit;
+  border-radius: 3px; padding: 0 2px;
+}
+[data-theme="dark"] mark.hl, body[data-theme="dark"] mark.hl { background: #a16207; color: #fff; }
+.search-hits-bar {
+  display: flex; align-items: center; gap: var(--sp-3); flex-wrap: wrap;
+  background: var(--accent-soft); border: 1px solid var(--accent);
+  border-radius: var(--r-md); padding: 8px 14px; margin-bottom: var(--sp-4);
+  font-family: var(--font-ui); font-size: 13px; color: var(--text);
+}
+.search-hits-bar .btn { padding: 4px 10px; font-size: 12px; }
+.tree-item { flex-wrap: wrap; }
+.tree-item .snip {
+  display: block; width: 100%; margin: 2px 0 2px 15px;
+  font-size: 11px; line-height: 1.4; color: var(--text-faint);
+  white-space: normal; overflow: hidden; display: -webkit-box;
+  -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+}
+.tree-item .cnt {
+  margin-left: auto; flex-shrink: 0;
+  font-size: 10px; font-weight: 700; color: var(--accent-text);
+  background: var(--accent-soft); border-radius: 999px; padding: 1px 7px;
+}

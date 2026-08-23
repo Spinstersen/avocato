@@ -79,6 +79,75 @@
 
   /* ---------- helpers ---------- */
   function esc(s) { return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
+  function escRe(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
+
+  /* --- recherche : extrait + compteur pour l'arbre, surbrillance dans le document --- */
+  function snippetFor(d, f) {
+    const firstTok = f.split(/\s+/)[0];
+    if (!firstTok) return null;
+    const lower = d.content.toLowerCase();
+    const cnt = lower.split(firstTok).length - 1;
+    const i = lower.indexOf(firstTok);
+    let snip = '';
+    if (i >= 0) {
+      snip = '…' + d.content.slice(Math.max(0, i - 40), i + 70).replace(/\s+/g, ' ').trim() + '…';
+    } else {
+      for (const t of f.split(/\s+/)) {
+        const j = lower.indexOf(t);
+        if (j >= 0) { snip = '…' + d.content.slice(Math.max(0, j - 40), j + 70).replace(/\s+/g, ' ').trim() + '…'; break; }
+      }
+    }
+    return { cnt, snip: snip ? esc(snip) : '' };
+  }
+
+  function highlightIn(rootEl, query) {
+    const tokens = (query || '').split(/\s+/).map(t => t.trim()).filter(t => t.length >= 3).slice(0, 5);
+    if (!rootEl || !tokens.length) return 0;
+    const re = new RegExp('(' + tokens.map(escRe).join('|') + ')', 'gi');
+    const skipTags = new Set(['A', 'CODE', 'PRE', 'SCRIPT', 'STYLE', 'BUTTON', 'MARK']);
+    const walker = document.createTreeWalker(rootEl, NodeFilter.SHOW_TEXT, {
+      acceptNode(n) {
+        const p = n.parentElement;
+        if (!p || skipTags.has(p.tagName) || p.closest('mark.hl,.gl,a,button')) return NodeFilter.FILTER_REJECT;
+        return NodeFilter.FILTER_ACCEPT;
+      }
+    });
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    let count = 0;
+    for (const node of nodes) {
+      if (count > 400) break;
+      const txt = node.nodeValue;
+      re.lastIndex = 0;
+      if (!re.test(txt)) continue;
+      re.lastIndex = 0;
+      const frag = document.createDocumentFragment();
+      let last = 0, m;
+      while ((m = re.exec(txt)) && count <= 400) {
+        if (m.index > last) frag.appendChild(document.createTextNode(txt.slice(last, m.index)));
+        const mk = document.createElement('mark');
+        mk.className = 'hl';
+        mk.textContent = m[0];
+        frag.appendChild(mk);
+        last = m.index + m[0].length;
+        count++;
+      }
+      if (last < txt.length) frag.appendChild(document.createTextNode(txt.slice(last)));
+      node.parentNode.replaceChild(frag, node);
+    }
+    return count;
+  }
+
+  function clearHighlights(rootEl) {
+    if (!rootEl) return;
+    $$('mark.hl', rootEl).forEach(mk => {
+      const p = mk.parentNode;
+      if (!p) return;
+      p.replaceChild(document.createTextNode(mk.textContent), mk);
+      p.normalize();
+    });
+    $$('.search-hits-bar', rootEl.closest('.content-wrap') || document).forEach(b => b.remove());
+  }
   function parseNum(s) {
     if (s == null) return NaN;
     let t = String(s).trim().replace(/\s/g, '').replace(/,/g, '.');
@@ -469,6 +538,24 @@
     $$('.doc-footer-nav [data-go]', main).forEach(b =>
       b.addEventListener('click', () => openDoc(b.dataset.go)));
 
+    // surbrillance de la recherche active dans le document ouvert
+    const sq = ($('#searchInput').value || '').trim();
+    if (sq.length >= 2) {
+      const nHits = highlightIn($('.doc-content', main), sq);
+      if (nHits > 0) {
+        const art = $('.doc', main);
+        const bar = document.createElement('div');
+        bar.className = 'search-hits-bar';
+        bar.innerHTML = `<span>🔍 <b>${nHits}</b> correspondance${nHits > 1 ? 's' : ''} pour « ${esc(sq)} »</span><button class="btn" id="hlClear">✕ Effacer</button>`;
+        art.insertBefore(bar, $('.doc-meta', art));
+        $('#hlClear', main).addEventListener('click', () => {
+          $('#searchInput').value = '';
+          renderTree('');
+          clearHighlights($('#content'));
+        });
+      }
+    }
+
     $('#crumbs').innerHTML =
       `${esc(dom.icon)} ${esc(dom.label)} <span aria-hidden="true">/</span> ${esc(folderLabel(gKey))} <span aria-hidden="true">/</span> <span class="cur">${esc(doc.title)}</span>`;
     highlightTree();
@@ -516,11 +603,17 @@
             <span class="progress-mini"><span class="fill" style="width:${pct}%"></span></span>
           </button>
           <div class="tree-items" style="display:${isOpen ? '' : 'none'}">
-            ${items.map(d => `
-              <button class="tree-item ${state.read.has(d.id) ? 'read' : ''} ${state.current === d.id ? 'active' : ''}" data-id="${esc(d.id)}">
-                <span class="read-dot" aria-hidden="true"></span>
-                <span class="fname">${esc(d.title)}</span>
-              </button>`).join('')}
+          ${items.map(d => {
+            let extra = '';
+            if (f) {
+              const s = snippetFor(d, f);
+              if (s) extra = `${s.snip ? `<span class="snip">${s.snip}</span>` : ''}<span class="cnt">${s.cnt}</span>`;
+            }
+            return `
+            <button class="tree-item ${state.read.has(d.id) ? 'read' : ''} ${state.current === d.id ? 'active' : ''}" data-id="${esc(d.id)}">
+              <span class="read-dot" aria-hidden="true"></span>
+              <span class="fname">${esc(d.title)}</span>${extra}
+            </button>`; }).join('')}
           </div>
         </div>`;
       });
@@ -850,8 +943,19 @@
     $('#sidebarClose').addEventListener('click', () => document.body.classList.remove('sidebar-open'));
     $('#scrim').addEventListener('click', () => document.body.classList.remove('sidebar-open'));
     const sInput = $('#searchInput');
-    sInput.addEventListener('input', e => renderTree(e.target.value.trim().toLowerCase()));
-    sInput.addEventListener('keydown', e => { if (e.key === 'Escape') { e.target.value = ''; renderTree(''); e.target.blur(); } });
+    sInput.addEventListener('input', e => {
+      const v = e.target.value.trim();
+      if (v.length < 2) clearHighlights($('#content'));
+      renderTree(v.toLowerCase());
+    });
+    sInput.addEventListener('keydown', e => {
+      if (e.key === 'Escape') {
+        e.target.value = '';
+        clearHighlights($('#content'));
+        renderTree('');
+        e.target.blur();
+      }
+    });
     $('#readBtn').addEventListener('click', toggleRead);
     $('#prevBtn').addEventListener('click', () => step(-1));
     $('#nextBtn').addEventListener('click', () => step(1));

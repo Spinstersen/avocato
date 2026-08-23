@@ -1,0 +1,16 @@
+{
+  "name": "AVOCATO Learn — Vault de formation juridique Maroc",
+  "short_name": "AVOCATO",
+  "description": "Formation juridique Maroc sans publicité : 695 documents, curriculum, QCM, jurisprudence citable. 100% hors-ligne.",
+  "lang": "fr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f6f7f9",
+  "theme_color": "#0f766e",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icons/icon-maskable.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}
