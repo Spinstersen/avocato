@@ -14,7 +14,7 @@
 
 ## Base legale exacte
 
-Loi 114-13 AE 500k/200k 1-2% vs SARL IS15% 10k capital — source primaire sgg.gov.ma / oc.gov.ma / cndp.ma / ompic.ma. Verifier PLF 01/10 + IGOC 15/07. Chaque chiffre avec art. + date. Ex: IS 15% <300k benef CGI art.19 (pas CA), AE 500k commerce /200k service 1-2% Loi114-13, OMPIC 1.200 DH/classe electronique 72h, CNSS 27.83% (6.74+21.09), dotation ecom 15k / voyage 100k IGOC, rapat 30j IGOC art.162, TVA art.92 3 conditions cumulatives, DOC art.443 >10k ecrit, 264 penale 10%, 618 reserve ecrite avant livraison.
+Loi 114-13 AE 500k/200k 1-2% vs SARL IS15% 10k capital — source primaire sgg.gov.ma / oc.gov.ma / cndp.ma / ompic.ma. Verifier PLF 01/10 + IGOC 15/07. Chaque chiffre avec art. + date. Ex: IS 20 % (LF 2026) CGI art.19 (pas CA), AE 500k commerce /200k service 1-2% Loi114-13, OMPIC 1.200 DH/classe electronique 72h, CNSS 27.83% (6.74+21.09), dotation ecom 15k / voyage 100k IGOC, rapat 30j IGOC art.162, TVA art.92 3 conditions cumulatives, DOC art.443 >10k ecrit, 264 penale 10%, 618 reserve ecrite avant livraison.
 
 ## Procedure pas-a-pas chiffree (4 sprints)
 

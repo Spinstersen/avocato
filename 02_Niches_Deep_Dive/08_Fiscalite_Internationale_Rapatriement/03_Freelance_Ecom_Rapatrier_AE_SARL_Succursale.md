@@ -8,7 +8,7 @@
 |---|---|---|---|---|---|---|---|
 | **AE service** | 200k DH/an `06_Autoentrepreneur.../02_Douleurs_Juridiques.md:7` | 1j gratuit | IR 1-3% libératoire | Exon si client hors Maroc + justif export | Virement perso (pas pro séparé) | Perso | Test <200k, 1 client |
 | **AE commerce** | 500k DH/an | 1j | IR 0.5-1% | Idem | Idem | Perso | Ecom <400k test |
-| **SARL/SARL-AU** | Illimité | 7-14j OMPIC `05_MRE.../02_Douleurs_Juridiques.md:8`, capital 10k min | IS 15% <300k bénéf, 31% au-delà | Exon art.92 | Dividende/salaire via compte pro convertible, déclar 30j IGOC `09_Office_Changes_IGOC2024/07_Rapatriement_Obligations.md` | Pro convertible | Freelance >200k, ecom >400k, PME |
+| **SARL/SARL-AU** | Illimité | 7-14j OMPIC `05_MRE.../02_Douleurs_Juridiques.md:8`, capital 10k min | IS 20 % unique (LF 2026 : benefice net <100M MAD ; 35 % au-dela)à | Exon art.92 | Dividende/salaire via compte pro convertible, déclar 30j IGOC `09_Office_Changes_IGOC2024/07_Rapatriement_Obligations.md` | Pro convertible | Freelance >200k, ecom >400k, PME |
 | **Succursale** (art.379 loi 17-95) | Illimité | 14j RC + Office | IS sur bénéf Maroc seulement | Exon | Maison mère → succursale (Office) | Pro succursale | Ecom étranger (Dubai) veut Maroc |
 | **Auto-entrepreneur → SARL scaling** | Passage obligé plafond | `06_Autoentrepreneur_to_SARL_Scaling/02_Douleurs_Juridiques.md:7` | Transition IR→IS | Idem | Idem | Pro | Atteint plafond |
 

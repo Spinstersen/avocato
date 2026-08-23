@@ -5,7 +5,7 @@
 ## 1. Résidence fiscale — 183j vs foyer (CGI art.23 + Conv. art.4)
 
 - **Faits :** MRE Paris avec foyer (femme/enfants) à Casa, 40j/an Maroc, se déclare non-résident. Contrôle DGI Casa : requalifié résident (foyer = critère 1 art.4).
-- **Solution :** Art. 4 convention France–Maroc du **29 mai 1970** (publiée au B.O., entrée en vigueur 1972) : foyer permanent Casa → résident Maroc même à 40j. IS mondial dû au Maroc (15% <300k) + crédit France art. 27 (élimination double imposition). Redressement 3 ans. *Vérifier date exacte sur sgg.gov.ma — la convention est souvent citée « 1970 » ou « 1970/1972 », jamais 1959.*
+- **Solution :** Art. 4 convention France–Maroc du **29 mai 1970** (publiée au B.O., entrée en vigueur 1972) : foyer permanent Casa → résident Maroc même à 40j. IS mondial dû au Maroc (20 % LF 2026) + crédit France art. 27 (élimination double imposition). Redressement 3 ans. *Vérifier date exacte sur sgg.gov.ma — la convention est souvent citée « 1970 » ou « 1970/1972 », jamais 1959.*
 - **Takeaway :** "40j ne fait pas non-résident si foyer à Casa. Foyer prime sur 183j. Attestation DGI = preuve, pas passeport."
 - **Mission liée :** Test résidence `08_Fiscalite/01_Residence_Fiscale_183j_Foyer.md` + attestation DGI 30j.
 
@@ -35,7 +35,7 @@
 | Revenu | Base | Taux / Procédure |
 | :--- | :--- | :--- |
 | Résidence | CGI art.23 + Conv art.4 | 183j OU foyer OU centre intérêts → attestation DGI 30j |
-| Bénéfice SARL sans PE | Conv art.7 | Maroc 15% <300k seul |
+| Bénéfice SARL sans PE | Conv art.7 | Maroc 20 % (LF 2026) seul |
 | Bénéfice avec PE 7 mois | Conv art.7 + art.5 | France 25% + Maroc 15% - crédit art.27 |
 | Prix transfert | CGI art.213 | Prix marché, dossier comparables |
 | Dividende France | Conv. 29 mai 1970 art. 10/13* | Taux conventionnel (10–15% selon cas) + 5000-F + crédit art. 27 |

@@ -8,9 +8,9 @@ Rester AE au-delà du plafond 2 ans = radiation + redressement. D'où : **CA 200
 
 ```
 [Q1] CA 12m glissants > plafond ? §09 Loi 114-13 (200k service / 500k commerce)
- ├─ NON (<180k) → AE 1j IR 2% service /1% commerce §09 → stay AE + registre 09-08 §06 si collecte
+ ├─ NON (<180k) → AE 1j IR 1 % service /1% commerce §09 → stay AE + registre 09-08 §06 si collecte
  └─ OUI → [Q2] Résident 183j / foyer ? §01 CGI art.23
-           ├─ >183j résident → IS mondial 15% <300k §09 + rapatriement 30j §03 obligatoire
+           ├─ >183j résident → IS mondial 20 % (LF 2026) §09 + rapatriement 30j §03 obligatoire
            └─ <183j non-résident → IS source §07
                 └─ [Q3] Client étranger payé devises + 3 cond. art.92 ? §04
                      ├─ OUI → SARL 10k capital 7-14j §09 → facture 0% TVA + compte convertible §12
@@ -31,7 +31,7 @@ Rester AE au-delà du plafond 2 ans = radiation + redressement. D'où : **CA 200
 ## Cas chiffrés
 
 * **Bilal, dev AE 190k service, 210j Casa, client Berlin payé EUR** : Plafond OK (<200k) mais croissance → SARL anticipée : AE 190k×2% =3,8k IR vs SARL 60k bénéf×15% =9k IS ; mais AE ne permet pas exon art.92 propre §04 → TVA 0% via SARL + rapatriement 30j §03 → SARL dès 200k franchi, pas après radiation.
-* **Fatima, e-com AE 520k commerce** : >500k → AE radiée §09 → redressement IS 15% sur marge + pénalités 30% ; passage SARL 10k 7-14j → IS 15% <300k bénéf → si bénéf 80k → 12k IS vs 5,2k IR AE (520k×1%) → surcoût 6,8k mais conformité + CMI + dotation 15k §03 débloquée.
+* **Fatima, e-com AE 520k commerce** : >500k → AE radiée §09 → redressement IS 15% sur marge + pénalités 30% ; passage SARL 10k 7-14j → IS 20 % (LF 2026) → si bénéf 80k → 12k IS vs 5,2k IR AE (520k×1%) → surcoût 6,8k mais conformité + CMI + dotation 15k §03 débloquée.
 * **Younes, 40j MA, AE 180k, client Paris via closer Paris 7 mois** : PE OUI §02 → AE + PE = IS FR 25% → portage 8% (14,4k sur 180k) évite PE le temps de créer SARL Casa sans salarié signataire §02 → économie 30k.
 
 ## Erreurs / pièges

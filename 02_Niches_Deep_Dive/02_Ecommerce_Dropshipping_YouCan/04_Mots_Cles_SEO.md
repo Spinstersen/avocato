@@ -31,7 +31,7 @@
 | 6 | Facture e-commerce conforme art.144 (YouCan/Shopify) | facture conforme e-commerce art144 | 2500m H2:ICE RC IF/TVA 20%/Export 92/alerte 10k | Excel facture auto |
 | 7 | Rétractation 7j Maroc : quand rembourser sans discuter | droit rétractation 7 jours e-commerce | 2500m H2:Délai 7j art.36/Exceptions/Modèle formulaire | Modèle formulaire |
 | 8 | COD Maroc : mention "paiement à la livraison" + preuve | COD Maroc mentions | 2500m H2:Réserve 618 DOC/Preuve <10k/ Litige | Guide COD PDF |
-| 9 | AE 500k vs SARL 10k capital : bascule YouCan 30k/mois | statut auto-entrepreneur e-commerce | 2500m H2:Plafond 500k/IS 15% <300k/Bascule 7-14j | Simulateur 2900 |
+| 9 | AE 500k vs SARL 10k capital : bascule YouCan 30k/mois | statut auto-entrepreneur e-commerce | 2500m H2:Plafond 500k/IS 20 % (LF 2026)/Bascule 7-14j | Simulateur 2900 |
 | 10 | Registre 09-08 boutique : 5 colonnes tenue 10 ans | registre traitement e-commerce | 2500m H2:Traitement/Finalité/Base/Durée/Destinataires | Excel 5 colonnes |
 | 11 | Litige client e-commerce : mise en demeure DOC 264 | litige client e-commerce | 2500m H2:Clause pénale 10%/Preuve 443/Médiation | Modèle mise en demeure |
 | 12 | Synthèse : boutique YouCan conforme 5 étapes 7j | boutique YouCan conforme | 2500m H2:Checklist 12 pts CGV+09-08+144+CMI | Pack conforme 5900 HT 7j |

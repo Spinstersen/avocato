@@ -16,7 +16,7 @@ Code travail art.370 travail dissimule, CNSS DAMANCOM partie 6.74% salariale + 2
 
 ## Chiffres 2026 a verifier PLF/IGOC juillet
 
-Voir 03_Grille. Tout chiffre avec art. + source + date. Ex: IS 15% <300k benef CGI art.19, TV A 20% ou 0% export art.92 3 conditions cumulatives, OMPIC 1.200 DH/classe, CNSS 27.83%, dotation 15k/100k IGOC.
+Voir 03_Grille. Tout chiffre avec art. + source + date. Ex: IS 20 % (LF 2026) CGI art.19, TV A 20% ou 0% export art.92 3 conditions cumulatives, OMPIC 1.200 DH/classe, CNSS 27.83%, dotation 15k/100k IGOC.
 
 ## Interactions
 

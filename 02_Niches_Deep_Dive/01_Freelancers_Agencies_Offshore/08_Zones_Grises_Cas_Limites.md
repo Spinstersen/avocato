@@ -20,7 +20,7 @@
 - Facture 80k HT exon art.92 mais rapatriement J+45, stack SaaS 18k/an, contrat EN oral sans 618, impaye 80k.
 
 ### Qualification
-- 195j + foyer Casa → resident CGI art.23 → IS mondial 15% <300k benef. 120k benef → 18k IS Maroc.
+- 195j + foyer Casa → resident CGI art.23 → IS mondial 20 % (LF 2026). 120k benef → 24k IS Maroc.
 - BD 7 mois + pouvoir conclure → PE France art.5/7 → IS France 25% sur 60k attribue PE = 15k, credit art.27 = -15k → surcout net 15k si PE confirme.
 - Rapatriement 45j → art.92 non rempli → TVA 20% sur 80k = 16k + 15% + maj = ~19k.
 - SaaS 18k >15k → 3k hors dotation = infraction change 3k-30k Loi 19-06.

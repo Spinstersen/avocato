@@ -59,7 +59,7 @@ Moyenne 5000 → 4900 clos (upsell 5900 66%).
 - [ ] Glossaire §09/§06/§10 cités
 
 ## Sources
-- sgg.gov.ma : Loi 114-13 plafond 200k, CGI IS 15% <300k, Loi 09-08 art.52 300k, art.30 provision 50%
+- sgg.gov.ma : Loi 114-13 plafond 200k, CGI IS 20 % (LF 2026), Loi 09-08 art.52 300k, art.30 provision 50%
 - cndp.ma 2023-045, OMPIC 1200 DH/classe, conventions art.27 IR 15k
 - Glossaire `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §09, §06, §10, §07
 

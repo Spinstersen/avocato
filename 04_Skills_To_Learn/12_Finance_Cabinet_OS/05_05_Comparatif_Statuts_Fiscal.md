@@ -3,14 +3,14 @@
 > 🟡 **FISCALITÉ 2026 — vérifié le 23/08/2026** : la **LF 2026 (loi 50-25, BO n°7465 bis du 16/12/2025)** a unifié l'IS au taux de **20 %** pour tout bénéfice net <100M MAD (35 % au-delà ; financier 40 %). L'ancien barème transitoire «15 % <300k / 20 % / 31-32 %» cité ci-dessous est **obsolète depuis le 01/01/2026** — chiffres conservés pour historique/comparatif, à requalifier en diagnostic. Détail : `12_VEILLE_LEGALE_2025_2026.md` §B1.
 
 ## Définition
-Comparatif statuts = **tableau AE vs SARL vs Portage** pour choisir statut selon CA 2025, avec chiffres PLF à vérifier juillet. AE plafond **500k commerce / 200k service HT 12 mois glissants** (Loi 114-13), IR libératoire **1% commerce / 2% service** (pas 3%). SARL **capital 10k min, IS 15% <300k bénéfice (pas CA), 20% 300k-1M, 32% >1M, création 7-14j OMPIC, frais CRI ~2000 DH**. Sans comparatif, Yassine reste AE 350k → radiation + redressement 68k.
+Comparatif statuts = **tableau AE vs SARL vs Portage** pour choisir statut selon CA 2025, avec chiffres PLF à vérifier juillet. AE plafond **500k commerce / 200k service HT 12 mois glissants** (Loi 114-13), IR libératoire **0,5 % commerce / 1 % servicesice** (decret 114-13). SARL **capital 10k min, IS 20 % unique (LF 2026 : benefice net <100M MAD ; 35 % au-dela), création 7-14j OMPIC, frais CRI ~2000 DH**. Sans comparatif, Yassine reste AE 350k → radiation + redressement 68k.
 
 ## Framework complet — Tableau 7 critères 2025
 
 | Critère | AE (Loi 114-13) | SARL (Loi 5-96, CGI) | Portage 8% | Gagnant |
 |---|---|---|---|---|
 | **Plafond CA HT 12 mois** | 500k commerce / 200k service | Illimité | Illimité | SARL si >200k service |
-| **Impôt** | IR 1% commerce /2% service libératoire | IS 15% <300k bénéfice, 20% 300k-1M | 8% +30% frais → ~15% net | AE si <200k, SARL si >300k bénéfice |
+| **Impôt** | IR 0,5 % commerce / 1 % servicesice libératoire | IS 20 % (LF 2026), 20% 300k-1M | 8% +30% frais → ~15% net | AE si <200k, SARL si >300k bénéfice |
 | **TVA** | Non assujetti (pas de TVA, pas d'exon art.92) | TVA 20% / 0% export art.92 possible | TVA 20% | SARL si export MRE (0% art.92) |
 | **Création** | 1 jour en ligne ae.gov.ma, 0 DH | 7-14j OMPIC, capital 10k, CRI 2000 DH | 24h | AE si solo <200k |
 | **PE 6 mois France** | PE perso si salarié Paris 7 mois | PE SARL si bureau/salarié Paris >6 mois (glossaire §02) | Pas de PE | Aucun si PE |
@@ -32,7 +32,7 @@ Comparatif statuts = **tableau AE vs SARL vs Portage** pour choisir statut selon
 
 | Client | CA 12 mois | IS AE vs SARL | Décision | Prix |
 |---|---|---|---|---|
-| **Yassine** freelance 600k offshore 350k service | 350k >200k → AE KO | AE radiation 68k vs SARL IS 22.5k | **SARL 10k 7-14j, IS 15% <300k** | **Option 2900** : diagnostic 20 min + AE→SARL checklist. **Option 5900** : + création SARL 7-14j OMPIC 2000 DH + attestation DGI 30j + compte convertible 48h. Délai 7-14j |
+| **Yassine** freelance 600k offshore 350k service | 350k >200k → AE KO | AE radiation 68k vs SARL IS 22.5k | **SARL 10k 7-14j, IS 20 % (LF 2026) | **Option 2900** : diagnostic 20 min + AE→SARL checklist. **Option 5900** : + création SARL 7-14j OMPIC 2000 DH + attestation DGI 30j + compte convertible 48h. Délai 7-14j |
 | **Fatima** 30k/mois commerce 360k | 360k <500k → AE OK | AE 360k×1%=3.6k vs SARL 50k bén×15%=7.5k → AE gagne | **AE** (mais Shopify TVA ? → SARL si veut TVA 0%) | 2900 AE, 5900 SARL TVA 0% |
 | **Karim MRE** Paris 40j + SARL Casa 100k bén | 100k bén | SARL IS 15k vs AE impossible (résident 40j non résident → SARL) | **SARL + dividende 10% France art.10 + attestation 30j** | 5900 MRE pack |
 
@@ -45,7 +45,7 @@ Comparatif statuts = **tableau AE vs SARL vs Portage** pour choisir statut selon
 ## Checklist 12 points — Comparatif Statuts (contextuelle)
 
 - [ ] CA HT 12 mois glissants calculé (200k/500k)
-- [ ] IR AE 1%/2% vs IS 15% <300k chiffré
+- [ ] IR AE 1%/2% vs IS 20 % (LF 2026)chiffré
 - [ ] PE 6 mois France testé (bureau/salarié >6 mois §02)
 - [ ] TVA 0% art.92 besoin vérifié (export MRE ?)
 - [ ] Résidence 183j §01 vérifiée (210j → IS mondial)

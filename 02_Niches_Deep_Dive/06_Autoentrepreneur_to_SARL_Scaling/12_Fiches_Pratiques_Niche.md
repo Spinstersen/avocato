@@ -8,7 +8,7 @@
 *   [ ] Statuts SARL Loi 5-96 capital 10 000 DH — rédaction statuts : dénomination + objet + siège + capital 10k min + gérance + parts, capital bloqué attestation 48h, déblocage après RC → voir Glossaire §09
 *   [ ] PV transformation & AGE — PV assemblée : décision transformation AE→SARL + nomination gérant + pouvoirs Apostille si MRE, dépôt OMPIC 7-14j → voir Glossaire §09
 *   [ ] Formalités OMPIC RC 7-14j CRI ~2 000 DH — dossier directompic.ma : statuts + blocage 10k + CIN + quitus AE + bail, RC 7j Casa /14j région, ICE/IF auto, frais CRI ~2 000 DH (pas 5k) → voir Glossaire §09
-*   [ ] Choix fiscal IR 1-2% vs IS 15% (CGI art.19/144) — AE IR libératoire 1% commerce/2% service sur CA, SARL IS 15% <300k bénéfice /20% 300k-1M /32% >1M + TVA 20% ou exon art.92, simuler seuil rentabilité → voir Glossaire §09 + §04
+*   [ ] Choix fiscal IR 1-2% vs IS 15% (CGI art.19/144) — AE IR libératoire 0,5 % commerce / 1 % servicesice sur CA, SARL IS 20 % unique (LF 2026 : benefice net <100M MAD ; 35 % au-dela) + TVA 20% ou exon art.92, simuler seuil rentabilité → voir Glossaire §09 + §04
 *   [ ] TVA art.92 exon export si clients hors Maroc — SARL seule permet exon 0% (3 conditions : service hors Maroc + devises + rapatriement 30j), AE non assujetti mais pas exon → voir Glossaire §04
 *   [ ] Rapatriement 30j IGOC 2024 (Office) — SARL exportatrice facture devises → SWIFT → banque 30j, dossier gardé 10 ans, condition exon TVA art.92, sanction 3k-30k → voir Glossaire §03
 *   [ ] Compte convertible 48-72h (BAM/IGOC) — ouverture banque RC SARL + statuts + contrat, alimenté par rapatriement 30j, dotation e-commerce 15k + voyage 100k → voir Glossaire §12
@@ -22,7 +22,7 @@
 ## Scripts (FR fait foi)
 
 *   **DM scaling :** `Bonjour [Prénom], vu ton AE à [180k/350k] : plafond service 200k HT 12m glissants — à 350k 2 ans = radiation + redressement IS 15% + IR 38%. Je fais diag 1 200 HT (AE vs SARL 10k + IS 15% + TVA art.92) + pack transformation 7 500 HT 7j (radiation 1j + statuts 5-96 + RC 7-14j + contrats SARL + 09-08). Checklist 1p ? — [Nom], avocat [Ville]`
-*   **Objection "je reste AE" :** `AE 350k 2e année = radiation auto + IS mondial si 210j résident (art.23). SARL 10k IS 15% <300k bénéfice te coûte 15k sur 100k vs IR 38% en redressement. On simule en diag 45 min.`
+*   **Objection "je reste AE" :** `AE 350k 2e année = radiation auto + IS mondial si 210j résident (art.23). SARL 10k IS 20 % (LF 2026) te coûte 15k sur 100k vs IR 38% en redressement. On simule en diag 45 min.`
 *   **Objection "coût SARL" :** `SARL 10k bloqué 48h puis débloqué, RC 2 000 DH, pas 5k. Tu récupères en 1 facture exon art.92 (TVA 20% économisée = 20k sur 100k).`
 
 ## Modèles `05_Document_Bank` à joindre
@@ -51,9 +51,9 @@
 
 ## Chiffres 2025 à vérifier à chaque diag (PLF + IGOC)
 
-*   AE plafond glissant 200k service /500k commerce HT, IR 1% commerce /2% service
+*   AE plafond glissant 200k service /500k commerce HT, IR 0,5 % commerce / 1 % servicesice
 *   Radiation AE 1j + quitus DGI, sinon redressement IR 38% + 30% si 2 ans dépassement
-*   SARL 10k bloqué 48h → débloqué RC, RC 7-14j CRI ~2 000 DH, IS 15% <300k /20% /32%
+*   SARL 10k bloqué 48h → débloqué RC, RC 7-14j CRI ~2 000 DH, IS 20 % (LF 2026)/20% /32%
 *   TVA 20% ou 0% art.92 si 3 cond., rapatriement 30j 10 ans, compte 48-72h dotation 15k/100k
 *   Contrat >10k écrit art.443, pénale 10% max art.264, registre 09-08 5 colonnes dès 1 donnée
 
@@ -61,7 +61,7 @@
 
 ## Fiche comme mémoire externe, pas comme script de vente
 
-Cette fiche est une mémoire pour transformer un AE qui explose le plafond sans le crasher : radiation 1j ≠ disparition dettes (quitus DGI obligatoire), capital 10k bloqué 48h puis débloqué, RC 7-14j CRI ~2 000 DH pas 10j fixe ni 5k, IR 1% commerce /2% service sur CA vs IS 15% sur bénéfice <300k (simuler : 400k CA 100k bénéfice → AE 8k vs SARL 15k mais SARL permet TVA art.92 exon + PE crédible), contrats à refaire au nom SARL (DOC art.443 >10k), registre 09-08 à migrer avec nouveau consentement. Ne laissez pas un AE à 350k 2 ans — radiation + redressement 30% = 50k de casse. L'ordre est quitus → blocage 10k → OMPIC → compte → contrats → 09-08.
+Cette fiche est une mémoire pour transformer un AE qui explose le plafond sans le crasher : radiation 1j ≠ disparition dettes (quitus DGI obligatoire), capital 10k bloqué 48h puis débloqué, RC 7-14j CRI ~2 000 DH pas 10j fixe ni 5k, IR 0,5 % commerce / 1 % servicesice sur CA vs IS 15% sur bénéfice <300k (simuler : 400k CA 100k bénéfice → AE 8k vs SARL 15k mais SARL permet TVA art.92 exon + PE crédible), contrats à refaire au nom SARL (DOC art.443 >10k), registre 09-08 à migrer avec nouveau consentement. Ne laissez pas un AE à 350k 2 ans — radiation + redressement 30% = 50k de casse. L'ordre est quitus → blocage 10k → OMPIC → compte → contrats → 09-08.
 
 > Sources : `sgg.gov.ma` Loi 114-13, Loi 5-96, CGI art.19/92/144, `oc.gov.ma` IGOC 2024, `ompic.ma` 7-14j, `cndp.ma` Loi 09-08 art.14 — vérifier PLF. Glossaire : `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §03 §04 §06 §09 §10 §11 §12.
 > Contexte niche 06 : scaling = sortir du plafond avant sanction. AE 500k commerce /200k service HT 12m glissants, pas annuel civil. Comptez glissant ou redressement.

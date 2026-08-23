@@ -10,7 +10,7 @@
 *   [ ] Contrat plateforme YouTube/Meta/TikTok — CGU plateforme ≠ contrat sponsor : vérifier monétisation + cession non exclusive, garder contrat sponsor séparé avec clause PI, réserve propriété art.618 si livraison vidéo avant paiement → voir Glossaire §11
 *   [ ] Mentions Loi 09-08 collecte emails/leads (art.14) — dès 1 email lead magnet : registre 5 colonnes + base consentement non pré-cochée + bannière + politique + contrat Mailchimp/Système.io art.24 + transfert US art.43 → voir Glossaire §06
 *   [ ] Facture CGI art.144 + TVA — facture ICE/RC/IF + TVA 20% si client Maroc, exon art.92 si client hors Maroc + paiement devises + rapatriement 30j IGOC, conservation 10 ans → voir Glossaire §04 + §03
-*   [ ] Statut AE 200k service vs SARL 10k capital (Loi 114-13/5-96) — AE IR 2% si CA <200k 12m glissants, au-delà SARL IS 15% <300k bénéfice OMPIC 7-14j CRI ~2 000 DH, AE incompatible si équipe >1 → voir Glossaire §09
+*   [ ] Statut AE 200k service vs SARL 10k capital (Loi 114-13/5-96) — AE IR 2% si CA <200k 12m glissants, au-delà SARL IS 20 % (LF 2026) OMPIC 7-14j CRI ~2 000 DH, AE incompatible si équipe >1 → voir Glossaire §09
 *   [ ] DOC art.443 preuve >10k + art.264 clause pénale 10% — contrat écrit obligatoire si formation >10k, clause pénale impayé 10% max (juge réduit si 30%), paiement 30j → voir Glossaire §11
 *   [ ] Droits à l'image & PI tiers (Loi 2-00) — autorisation écrite si invité/témoignage vidéo, musique libre de droits ou licence, sinon retrait YouTube + dommages → voir Glossaire §05 + §11
 *   [ ] Compte convertible 48-72h / devise si nomad — ouverture RC + contrat sponsor + CGV → convertible si résident 183j, devise résident si nomad 210j + carte séjour 200 DH → voir Glossaire §12
@@ -55,7 +55,7 @@
 *   Marque 1 200 DH/classe 41+35+9, 72h accusé, 2 mois opposition, 10 ans, art.133 premier déposant
 *   Leads 09-08 dès 1 email 5 colonnes + CNDP 30j + bannière + art.24/43 si Mailchimp US
 *   Facture art.144 ICE 10 ans + TVA 20% ou 0% art.92 si devises+30j
-*   AE 200k IR 2% vs SARL 10k IS 15% <300k, RC 7-14j CRI ~2 000 DH
+*   AE 200k IR 2% vs SARL 10k IS 20 % (LF 2026), RC 7-14j CRI ~2 000 DH
 
 ---
 

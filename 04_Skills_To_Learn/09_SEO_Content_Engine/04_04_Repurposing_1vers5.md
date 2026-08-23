@@ -58,7 +58,7 @@ Yassine (210j Casa, hésite AE 350k) voit carrousel → clique article → conve
 - [ ] KPI J+7 : vues LinkedIn >300, CTR newsletter >3%, vues Loom >50
 
 ## Sources
-- sgg.gov.ma : Loi 114-13 AE plafond 500k/200k, CGI IS 15% <300k (contenu source)
+- sgg.gov.ma : Loi 114-13 AE plafond 500k/200k, CGI IS 20 % (LF 2026)(contenu source)
 - cndp.ma : registre 5 colonnes (lead magnet)
 - Canva School, Loom, Buffer, Brevo docs
 - Glossaire `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §09 (AE/SARL), §06 (09-08 consentement), §10 (provision)

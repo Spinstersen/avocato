@@ -4,7 +4,7 @@
 
 ## Checklist 12 points — Freelance & Agency Offshore (export de services)
 
-*   [ ] Résidence fiscale 183j (CGI art.23) — compter jours physiques entrée=1j sur 365j glissants, si >183j OU foyer Casa = résident mondial IS 15% <300k, demander attestation DGI 30j → voir Glossaire §01
+*   [ ] Résidence fiscale 183j (CGI art.23) — compter jours physiques entrée=1j sur 365j glissants, si >183j OU foyer Casa = résident mondial IS 20 % (LF 2026), demander attestation DGI 30j → voir Glossaire §01
 *   [ ] Établissement stable PE 6 mois (Conventions art.5/art.7) — bureau Paris >6 mois OU salarié signataire = PE → IS France 25% + crédit art.27, sinon taxé Maroc seul 15% → voir Glossaire §02
 *   [ ] TVA art.92 exonération export (CGI art.92) — 3 conditions cumulatives : service hors Maroc + paiement devises + rapatriement 30j, sinon TVA 20% + pénalités 15% → voir Glossaire §04
 *   [ ] Rapatriement 30j IGOC 2024 (Office des Changes) — facture en devises → SWIFT → dépôt banque sous 30j + garder dossier 10 ans, sanction 3k-30k Loi 19-06 → voir Glossaire §03
@@ -12,7 +12,7 @@
 *   [ ] Dotation e-commerce 15 000 DH + voyage 100 000 DH/an (IGOC 2024) — banque avec RC + factures SaaS (Vercel/GitHub 20$/mois) → carte dotée 15k en 10 min, au-delà dossier Office RC1 30j → voir Glossaire §03
 *   [ ] Carte séjour 1 an art.13 Loi 02-03 si >90j — dossier préfecture : bail 12 mois + RC + contrat gérant + 30k DH/mois, dépôt 30j, taxe 200 DH, 90j touriste max 180j/an → voir Glossaire §08
 *   [ ] Compte convertible (résident) / devise résident 48-72h (BAM/IGOC) — ouverture banque RC + contrat FR/EN + CIN/carte séjour, alimenté par rapatriement 30j, transfert plafonné → voir Glossaire §12
-*   [ ] Statut AE 200k service / SARL 10k capital (Loi 114-13 / Loi 5-96) — AE IR 2% service si CA <200k HT 12m glissants, au-delà SARL IS 15% <300k bénéfice création OMPIC 7-14j CRI ~2 000 DH → voir Glossaire §09
+*   [ ] Statut AE 200k service / SARL 10k capital (Loi 114-13 / Loi 5-96) — AE IR 1 % service si CA <200k HT 12m glissants, au-delà SARL IS 20 % (LF 2026) création OMPIC 7-14j CRI ~2 000 DH → voir Glossaire §09
 *   [ ] Provision 50% + Convention honoraires art.30 Loi 28-08 — convention écrite HT/TVA signée AVANT mission, provision 50% à Yousign, délai 7j après provision + pièces complètes, débours OMPIC 1 200 DH/classe en sus → voir Glossaire §10
 *   [ ] Contrat FR/EN + facture art.144 (DOC art.443/264/618) — FR fait foi + EN traduction, preuve écrite >10k, clause pénale 10% max, réserve propriété écrite, cession PI Loi 2-00 art.11 avant livraison → voir Glossaire §11
 *   [ ] Registre Loi 09-08 5 colonnes (art.14) — dès 1 email collecté : traitement/finalité/base légale (consentement case non pré-cochée)/durée 3 ans/destinataires, déclaration CNDP 30j + bannière + contrat sous-traitant art.24 → voir Glossaire §06
@@ -55,7 +55,7 @@
 *   PE = 6 mois lieu fixe OU agent signataire, IS France 25% vs Maroc 15%
 *   TVA art.92 exon 0% si 3 conditions, sinon 20% + 15% pénalités
 *   Rapatriement 30j + dossier 10 ans, dotation 15k e-commerce /100k voyage
-*   Carte séjour 200 DH/30j, compte 48-72h, AE 200k service /500k commerce, SARL 10k IS 15% <300k
+*   Carte séjour 200 DH/30j, compte 48-72h, AE 200k service /500k commerce, SARL 10k IS 20 % (LF 2026)
 
 ---
 

@@ -12,7 +12,7 @@
 *   [ ] Marque OMPIC Loi 17-97 classes 35+9+42 (1 200 DH/classe) — recherche antériorité directompic.ma 2h, dépôt en ligne accusé 72h, publication 4-6 mois + opposition 2 mois art.148, protection 10 ans, premier déposant = propriétaire art.133 → voir Glossaire §05
 *   [ ] Transfert hors Maroc art.43-44 Loi 09-08 (AWS/Shopify/Mailchimp) — hébergement US = transfert → clauses contractuelles types CNDP + info clients + registre colonne destinataires, autorisation CNDP si données sensibles → voir Glossaire §06
 *   [ ] Contrat sous-traitant art.24 Loi 09-08 (YouCan, livreur, pixel Meta) — contrat écrit : finalité + durée + sécurité + sous-traitant ne traite que sur instruction, audit possible, modèle CNDP → voir Glossaire §06
-*   [ ] OMPIC création AE 200k/500k vs SARL 10k capital 7-14j (Loi 114-13/5-96) — AE service 200k commerce 500k IR 1% commerce/2% service, SARL IS 15% <300k bénéfice CRI ~2 000 DH → voir Glossaire §09
+*   [ ] OMPIC création AE 200k/500k vs SARL 10k capital 7-14j (Loi 114-13/5-96) — AE service 200k commerce 500k IR 0,5 % commerce / 1 % servicesice, SARL IS 20 % (LF 2026) CRI ~2 000 DH → voir Glossaire §09
 *   [ ] Dotation e-commerce 15 000 DH/an IGOC 2024 — payer Shopify/Stripe/Meta Ads via banque RC + factures, carte dotée 15k en 10 min, voyage 100k/an en sus, dossier Office RC1 30j si > plafonds → voir Glossaire §03
 *   [ ] Provision 50% art.30 Loi 28-08 + convention honoraires — convention préalable HT/TVA 20%, provision 50% Yousign avant rédaction CGV, délai 7j après provision + accès YouCan → voir Glossaire §10
 *   [ ] Compte convertible 48-72h + mentions légales site — ouverture RC + CGV + registre → compte convertible crédité par CA local (pas rapatriement 30j), footer : RC/ICE/IF/CGV/09-08/politique retour 7j → voir Glossaire §12
@@ -55,7 +55,7 @@
 *   Registre 09-08 5 colonnes dès 1 donnée, CNDP 30j, bannière 13 mois, transfert art.43 CTT
 *   Marque 1 200 DH/classe 35+9+42, 72h accusé, 4-6 mois publi, 2 mois opposition, 10 ans
 *   CMI 7j + 1,5-2,8% + Rolling 10% 180j, dotation 15k/100k, AE 200k/500k IR 1%/2%
-*   SARL 10k IS 15% <300k, CRI ~2 000 DH, RC 7-14j, provision 50% art.30
+*   SARL 10k IS 20 % (LF 2026), CRI ~2 000 DH, RC 7-14j, provision 50% art.30
 
 ---
 

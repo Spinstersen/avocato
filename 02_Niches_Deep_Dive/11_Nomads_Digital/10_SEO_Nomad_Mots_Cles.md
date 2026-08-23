@@ -27,7 +27,7 @@
 | 2 | Dépassement 90j Maroc : amende + expulsion | dépassement 90 jours Maroc | 2500m H2:Calcul 90j/Renouvellement 1×/Carte obligatoire | Cas 210j Lena |
 | 3 | Devenir légal en 7j : SARL nomad 10k capital 7-14j | devenir légal Maroc nomad SARL | 2500m H2:Capital10k/OMPIC72h/Carte gérant 30j | Pack légal 5900 7j |
 | 4 | 183j nomad : foyer + centre intérêts = résident même 40j | résidence fiscale 183 jours nomad | 2500m H2:3 critères/Attestation DGI 30j/Erreur30k | 03_Glossaire §01 |
-| 5 | SARL nomad prix 2025 : 10k capital + 2k CRI + 15% IS | SARL Maroc nomad prix 2025 | 2500m H2:10k capital/CRI 2k/IS15% <300k/Banque48h | Simulateur SARL |
+| 5 | SARL nomad prix 2025 : 10k capital + 2k CRI + 20% IS (LF 2026) | SARL Maroc nomad prix 2025 | 2500m H2:10k capital/CRI 2k/IS 20% unifié/Banque48h | Simulateur SARL |
 | 6 | PE 6 mois nomad : salarié Paris 7 mois = IS France 25% | établissement stable 6 mois nomad | 2500m H2:Bureau>6m/Agent qui signe/Crédit art27 | Audit PE |
 | 7 | Compte devise nomad : convertible 48h vs MRE 72h | compte devise nomad Maroc | 2500m H2:Carte séjour72h/SWIFT/Rapatriement30j | Guide compte |
 | 8 | Dividende nomad 10% France : attestation DGI 30j | convention fiscale nomad dividende | 2500m H2:Art4 résidence/Art7 PE/Art27 crédit 15k | Cas Karim MRE 100k |

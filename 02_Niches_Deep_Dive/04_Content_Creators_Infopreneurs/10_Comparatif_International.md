@@ -25,7 +25,7 @@ Maroc AE 2% = **3 600 DH** vs France micro 35% = **63k DH** — **59k écart** e
 
 ## Verdict créateurs / infopreneurs
 
-*   **Statut** : <200k DH → AE 2% imbattable (3,6k sur 180k) ; >200k ou équipe >1 ou besoin TVA art.92 = **SARL 10k capital 7-14j IS 15% <300k bénéfice** (vs FR 15% <42k€). Ne pas rester AE 2 ans >200k = radiation + IS 15%+38% IR +30% pénalités.
+*   **Statut** : <200k DH → AE 2% imbattable (3,6k sur 180k) ; >200k ou équipe >1 ou besoin TVA art.92 = **SARL 10k capital 7-14j IS 20 % (LF 2026) (vs FR 15% <42k€). Ne pas rester AE 2 ans >200k = radiation + IS 15%+38% IR +30% pénalités.
 *   **PI** : Cession Loi 2-00 art.11 **avant tournage** (durée/territoire/support/prix) FR fait foi + réserve propriété art.618 si livraison avant paiement ; dépôt **OMPIC 41 (+35 merch +9 app) 1 200 DH/classe 72h** au nom SARL dès 10k abonnés.
 *   **Vente** : CGV Loi 31-08 **7j Maroc** (pas 14j FR) + preuve commande >10k art.443 §11 + politique 09-08 + bannière cookies 13 mois délib.40-22.
 *   **Procédure crédit art.27 :** Dividende SARL créateur → associé FR/BE : retenue **10% FR /15% BE** vs 30% PFU → **15k économisés /100k bénéfice**. Étapes : attestation résidence DGI 30j (CGI art.23 §01) + formulaire **5000-F Bofip** avant virement + compte convertible 48h (résident) / devise MRE 72h → crédit IS Maroc sur IR étranger. Sans 5000-F = double imposition. → §05 §06 §07 §11

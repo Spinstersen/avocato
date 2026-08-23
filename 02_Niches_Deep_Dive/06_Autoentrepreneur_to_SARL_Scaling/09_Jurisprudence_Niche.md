@@ -8,7 +8,7 @@
 
 - **Réf :** DGI Décision n° AE-2023-541 du 17/06/2023 — direction régionale DGI Casa, Loi 114-13 art.8 + CGI.
 - **Faits :** AE graphiste 350k DH/an service 2 ans consécutifs (plafond 200k), sans bascule SARL, facturation sans TVA, sans ICE complet.
-- **Solution :** Radiation auto + redressement — IR libératoire 2% perdu → IS 15% <300k bénéfice + IR 38% + TVA 20% art.92 non applicable à AE + pénalités 30% + majoration 10%/mois.
+- **Solution :** Radiation auto + redressement — IR libératoire 2% perdu → IS 20 % (LF 2026) + IR 38% + TVA 20% art.92 non applicable à AE + pénalités 30% + majoration 10%/mois.
 - **Takeaway diagnostic :** « 350k en AE service = radiation + IS 15% rétroactif — on bascule SARL à 190k, pas à 200k, provision 50% + ICE. »
 - **Mission liée :** Audit plafond 500k/200k 12 mois glissants + création SARL 10k capital 7-14j + RC + ICE — CRI 2 000 DH.
 - **Glossaire :** §09 AE 500k/200k 1% commerce 2% service vs SARL IS 15% + §01 résidence 210j + §04 TVA.

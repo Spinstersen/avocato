@@ -10,7 +10,7 @@
 
 L'auto-entrepreneur (AE) est plafonné : **200 000 DH/an services** / **500 000 DH/an commerce** (art. 4 Loi 114-13). Au-delà, 3 risques cumulatifs :
 
-1. **Redressement fiscal** : requalification en SARL de fait → IS (15% <300k / 20% 300k–1M / 30% >1M, CGI art. 19, LF annuelle) + pénalités 30% + intérêts.
+1. **Redressement fiscal** : requalification en SARL de fait → IS (20 % unique (LF 2026 : benefice net <100M MAD ; 35 % au-dela), CGI art. 19, LF annuelle) + pénalités 30% + intérêts.
 2. **Requalification CNSS** : si l'AE n'a qu'un seul donneur d'ordre, requalification en contrat de travail → cotisations 27,83% + dommages-intérêts (`08_Jurisprudence/07_Droit_Social_CNSS/00_INDEX.md`).
 3. **Blocage bancaire & Office** : encaissements > plafond sans RC/ICE/IF → banque gèle, Office exige justificatifs.
 

@@ -61,7 +61,7 @@ Retainer 2900/mois = MRR stable, ponctuel = pic.
 - [ ] Glossaire §10 provision, §09 AE/SARL (MRR vs IS 15%)
 
 ## Sources
-- sgg.gov.ma : CGI IS 15% <300k, Loi 09-08 art.52 300k (MRR vs risque), Loi 28-08 art.30 provision
+- sgg.gov.ma : CGI IS 20 % (LF 2026), Loi 09-08 art.52 300k (MRR vs risque), Loi 28-08 art.30 provision
 - Baremetrics MRR, Notion, Plausible, Stripe
 - 09_SEO 06 métriques, 10_Atelier 07 NPS, 11_BATNA 725/h
 - Glossaire `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §10, §09, §06, §04

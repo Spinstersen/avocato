@@ -17,7 +17,7 @@ Client a-t-il un foyer au Maroc OU >183j au Maroc OU centre d'intérêts au Maro
            → Imposition source seulement + retenue dividende 15% (art. 13 Conv. France–Maroc si MRE Paris)
 ```
 
-**Cas fréquent freelance offshore :** vit 210j à Casa + foyer Casa → résident → attestation « résident » → IS mondial au Maroc (15% <300k) + crédit France art. 27 si PE évité.
+**Cas fréquent freelance offshore :** vit 210j à Casa + foyer Casa → résident → attestation « résident » → IS mondial au Maroc (20 % LF 2026) + crédit France art. 27 si PE évité.
 
 ---
 

@@ -5,7 +5,7 @@
 ## TL;DR
 
 *   **Aucune juridiction n'est « meilleure »** : chacune gagne sur un axe et perd sur un autre. Le bon choix = celui qui supporte ta substance ET tes flux.
-*   **Maroc 15% <300k bénéfice** reste imbattable en coût total pour une activité dirigée depuis le Maroc.
+*   **Maroc 20 % (LF 2026)** reste imbattable en coût total pour une activité dirigée depuis le Maroc.
 *   **Dubai 9%** ne vaut que si tu paies la substance (~60-100k DH/an) — rentable au-delà de ~3M DH de bénéfice.
 *   **Estonia 20% différé** = trésorerie de croissance, pas d'économie finale ; pas de convention avec le Maroc → dividende pénalisé.
 *   **US LLC** = pass-through séduisant mais qualification fiscale FR/Maroc incertaine + FATCA/CRS partiel : à n'utiliser qu'avec confrère US.
@@ -14,7 +14,7 @@
 
 | Critère | Maroc SARL | Dubai (UAE) | Estonia OÜ | US LLC (WY/DE) |
 |---|---|---|---|---|
-| IS / impôt | IS 15% <300k, 20% 300k-1M, 32% >1M (CGI art.19, PLF) | 9% >375k AED (~95k USD) | 0 tant que réinvesti ; 20/80 à distribution | Pass-through fédéral 0 si non-résident ; étatique variable |
+| IS / impôt | IS 20 % unique (LF 2026 : benefice net <100M MAD ; 35 % au-dela) (CGI art.19, PLF) | 9% >375k AED (~95k USD) | 0 tant que réinvesti ; 20/80 à distribution | Pass-through fédéral 0 si non-résident ; étatique variable |
 | Substance exigée | N/A | Bureau réel + 2 salariés + décisions locales | Conseil local + comptabilité EE | Agent + EIN + banque + activité réelle |
 | Registre BO | OMPIC (Loi 43-05/12-18), amende 5k-50k | Registre UAE (décret 2020) | Registre e-residency | Étatique (WY beneficial ownership) + FATCA |
 | CRS | Émetteur horizon 2028 (Forum mondial déc. 2025) | Actif (données échangées depuis 2019) | Actif UE | Partiel (pas de CRS fédéral ; FATCA 30%) |

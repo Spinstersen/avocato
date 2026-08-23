@@ -24,7 +24,7 @@
 | Sem | Sujet article (H1 = requête) | Requête cible | Format + H2 | CTA |
 |---|---|---|---|---|
 | 1 | Contrat prestation freelance Maroc : 7 clauses DOC 230 | contrat prestation freelance Maroc | 2500m, H2:Objet/Prix/TVA 92/PI Loi2-00/Résiliation 230 | Modèle Word 2900 HT |
-| 2 | AE vs SARL offshore : plafond 200k vs IS 15% <300k | statut freelance offshore Maroc | 2500m, H2:Plafond/Capital10k/IS 15%/PE 6m | Diagnostic 45min |
+| 2 | AE vs SARL offshore : plafond 200k vs IS 20 % (LF 2026)| statut freelance offshore Maroc | 2500m, H2:Plafond/Capital10k/IS 15%/PE 6m | Diagnostic 45min |
 | 3 | TVA art.92 : 3 conditions exon export freelance | TVA prestation export art 92 | 2500m, H2:Service hors Maroc/Paiement devises/Rapatriement 30j | Checklist art.144 |
 | 4 | Facture conforme freelance offshore (art.144) | facture freelance offshore conforme | 2500m, H2:ICE/IF/exon 92/retard 30j | Template facture Excel |
 | 5 | Rapatriement 30j IGOC : SWIFT + banque convertible | rapatriement 30 jours devises | 2500m, H2:Facture en devises/SWIFT/dépôt 48h | Loom 3min |

@@ -56,11 +56,11 @@ Promulguée le **16/12/2025**, **BO n° 7465 bis**, en vigueur **01/01/2026**. N
 
 | Bénéfice net fiscal | Taux 2026 |
 |---|---|
-| < 100 000 000 MAD (non financier) | **20 % unique** |
+| < 100 000 000 MAD (non financier) | 20 % unique** |
 | > 100 000 000 MAD | 35 % |
 | Secteur financier | 40 % |
 
-⚠️ **Conséquence vault** : le triplet « 15 % <300k / 20 % 300k-1M / 32 % >1M » (hérité PLF 2023-2025) est **obsolète** — ~68 fichiers concernés (liste audit §7). Pour une SARL freelance type (bénéfice <300k), l'IS passe concrètement de 15 % à **20 %**.
+⚠️ **Conséquence vault** : le triplet « 20 % unique (LF 2026 : benefice net <100M MAD ; 35 % au-dela) » (hérité PLF 2023-2025) est **obsolète** — ~68 fichiers concernés (liste audit §7). Pour une SARL freelance type (bénéfice <300k), l'IS passe concrètement de 15 % à **20 %**.
 
 Autres mesures LF 2026 utiles en pratique :
 - **Retenue à la source 5 %** sur loyers versés à des personnes morales à l'IS / PP à l'IR professionnel.

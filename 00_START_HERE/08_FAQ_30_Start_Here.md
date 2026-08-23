@@ -79,7 +79,7 @@ FR (loi FR), vulgarisation AR Darija orale atelier CCI + résumé AR 1p pour gé
 Jours physiques entrée=1j, transit <24h=0, 365j glissants, garder passeport (`03_Glossaire:01` proc 4 étapes). Attestation DGI 30j.
 
 **20. "AE plafond exact ?"**
-500k commerce /200k service HT 12m glissants, IR 1% com /2% serv, radiation si dépassement 2 ans (`03_Glossaire:09` Loi 114-13). SARL 10k capital, IS 15% <300k béné. (pas CA) 20% 300k-1M 32% >1M PLF à vérifier 01/10.
+500k commerce /200k service HT 12m glissants, IR 1% com /2% serv, radiation si dépassement 2 ans (`03_Glossaire:09` Loi 114-13). SARL 10k capital, IS 20 % unique (LF 2026 : benefice net <100M MAD ; 35 % au-dela) PLF à vérifier 01/10.
 
 **21. "TVA 20% ou 0% ?"**
 0% si 3 conditions art.92 cumulatives: service hors Maroc + paiement devises + rapatriement 30j (`03_Glossaire:04`). Sinon 20% + pénal 15% +10%/mois. Mention art.144 obligatoire ICE/RC/IF.

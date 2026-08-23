@@ -4,7 +4,7 @@
 
 ## TL;DR
 
-*   **Scénario A — SARL Casa seule :** IS 15% <300k + 20% au-delà → ~170k d'IS. Simple, indestructible.
+*   **Scénario A — SARL Casa seule :** IS 20 % (LF 2026)+ 20% au-delà → ~170k d'IS. Simple, indestructible.
 *   **Scénario B — Holding Dubai AVEC substance :** ~90k UAE (9%) + coûts substance ~70k/an → gain net réel ~10-40k/an seulement à ce niveau ; pertinent >3M.
 *   **Scénario C — Shell sans substance :** économie espérée maximale → redressement ~300k+ majoration 30% + sanctions change. Perdant systématique à 5 ans.
 

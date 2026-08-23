@@ -4,7 +4,7 @@
 
 ## Base legale exacte
 
-CGI art.23 residence 183j/foyer/centre, Conv. FR-Maroc du 29 mai 1970 art.4 residence (foyer primautaire), art.5/7 PE 6 mois/pouvoir conclure, art.10 dividende 10% FR 15% BE, art.27 elimination double impo credit, CGI art.213 prix transfert marche, art.214-III doc, PLF IS 15% <300k benef 20% 300k-1M 32% >1M. Procedure: test residence -> test PE -> convention -> 5000-F + attestation DGI 30j.
+CGI art.23 residence 183j/foyer/centre, Conv. FR-Maroc du 29 mai 1970 art.4 residence (foyer primautaire), art.5/7 PE 6 mois/pouvoir conclure, art.10 dividende 10% FR 15% BE, art.27 elimination double impo credit, CGI art.213 prix transfert marche, art.214-III doc, PLF IS 20 % unique (LF 2026 : benefice net <100M MAD ; 35 % au-dela). Procedure: test residence -> test PE -> convention -> 5000-F + attestation DGI 30j.
 
 ## Procedure pas-a-pas chiffree
 
@@ -16,7 +16,7 @@ CGI art.23 residence 183j/foyer/centre, Conv. FR-Maroc du 29 mai 1970 art.4 resi
 
 ## Chiffres 2026 a verifier PLF/IGOC juillet
 
-Voir 03_Grille. Tout chiffre avec art. + source + date. Ex: IS 15% <300k benef CGI art.19, TV A 20% ou 0% export art.92 3 conditions cumulatives, OMPIC 1.200 DH/classe, CNSS 27.83%, dotation 15k/100k IGOC.
+Voir 03_Grille. Tout chiffre avec art. + source + date. Ex: IS 20 % (LF 2026) CGI art.19, TV A 20% ou 0% export art.92 3 conditions cumulatives, OMPIC 1.200 DH/classe, CNSS 27.83%, dotation 15k/100k IGOC.
 
 ## Interactions
 

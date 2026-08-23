@@ -55,7 +55,7 @@ Chaque point suit la même structure : **Question → Base légale → Pièce à
 |---|---|---|---|---|
 | 13 | **TVA — prestation export exonérée art. 92 CGI ?** (client hors Maroc, paiement en devises, rapatriement 30j = 3 conditions cumulatives) | CGI art. 92 I-1° + IGOC 30j | Facture avec mention « Exonération TVA art. 92 CGI — prestation export — paiement devises — rapatriement 30j IGOC » + SWIFT | Facturation 20% TVA en trop à un client US = perte de compétitivité + remboursement impossible |
 | 14 | **Mentions facture art. 144 CGI** : ICE, IF, RC, date, numéro, HT/TVA/TTC ? | CGI art. 144 | Modèle facture `05_Document_Bank/templates/06_Recu_Provision_Facture.md` | Facture non conforme = rejet comptable + redressement |
-| 15 | **Régime IS/IR** : IS 15% <300k / 20% 300k–1M / 30% >1M (LF annuelle à vérifier PLF) ? | CGI art. 19 (taux à vérifier chaque PLF 01/10) | Dernier bilan, option IS/IR | Taux obsolète cité = conseil erroné |
+| 15 | **Régime IS/IR** : IS 20 % unique (LF 2026 : benefice net <100M MAD ; 35 % au-dela) (LF annuelle à vérifier PLF) ? | CGI art. 19 (taux à vérifier chaque PLF 01/10) | Dernier bilan, option IS/IR | Taux obsolète cité = conseil erroné |
 
 ---
 

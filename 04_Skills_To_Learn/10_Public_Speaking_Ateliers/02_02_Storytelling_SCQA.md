@@ -33,7 +33,7 @@ SCQA = **Situation-Complication-Question-Answer** (Barbara Minto, McKinsey). En 
 | S | "Yassine, développeur Casa, 600k DH/an offshore, AE 350k service depuis 2 ans. Il pensait être tranquille : IR 2% = 7k/an." |
 | C | "Janvier 2025, DGI : dépassement plafond 200k service 2 ans → radiation AE + redressement IS 15% + IR 38% + 30% pénalités = 68k dus. Compte bloqué." |
 | Q | "AE ou SARL ? Comment choisir sans payer 68k ?" |
-| A | "3 critères : plafond 500k/200k, IS 15% <300k bénéfice, capital 10k. On voit tableau 7-30 min + 2 options 2900/5900." |
+| A | "3 critères : plafond 500k/200k, IS 20 % (LF 2026), capital 10k. On voit tableau 7-30 min + 2 options 2900/5900." |
 
 | Pack storytelling | Prix |
 |---|---|

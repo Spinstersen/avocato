@@ -1,6 +1,6 @@
 # 04 — Canaux SEO & Partenaires — Auto-entrepreneur → SARL Scaling
 
-> Volumes **à vérifier Keyword Planner + GSC**. Vérif sgg.gov.ma / PLF juillet. AE 500k/200k, IS 15% <300k à vérifier.
+> Volumes **à vérifier Keyword Planner + GSC**. Vérif sgg.gov.ma / PLF juillet. AE 500k/200k, IS 20 % (LF 2026)à vérifier.
 
 ## 1. Tableau 10 requêtes long-tail — AE → SARL Maroc
 
@@ -27,7 +27,7 @@
 | 2 | Capital 10k SARL-AU : où déposer + attestation 48h | transformation AE SARL-AU capital | 2500m H2:Banque 48h/Statuts/OMPIC 72h/RC | Checklist capital |
 | 3 | Plafond AE 2025 : 500k commerce / 200k service 12 mois | plafond AE 500k 200k | 2500m H2:HT 12 mois glissants/Dépassement 2ans/Sanction | Simulateur plafond |
 | 4 | Créer SARL-AU en 7-14j : CRI Casa 2000 DH | SARL-AU création 7-14j | 2500m H2:Dossier OMPIC/ICE IF RC 48h/Pub BO | Modèle statuts |
-| 5 | AE 2% vs SARL IS 15% : calcul 200k bénéfice | fiscalité AE vs SARL IS15 | 2500m H2:AE 1%/2% libératoire/IS15% <300k/20% 300k-1M | Tableau comparatif |
+| 5 | AE 1% vs SARL IS 20% : calcul 200k bénéfice | fiscalité AE vs SARL IS20 | 2500m H2:AE 0,5-1% libératoire/IS 20% unifié LF2026 | Tableau comparatif |
 | 6 | SARL et TVA art.92 : exon export freelance e-commerce | avantage SARL TVA art92 | 2500m H2:3 conditions/30j SWIFT/Facture144 | Guide TVA |
 | 7 | Radiation AE : que faire après 2 ans dépassement | radiation AE dépassement | 2500m H2:Redressement 30%/IS15%+IR38%/Pénalités | Cas réel 350k 2ans |
 | 8 | Devenir gérant SARL-AU étranger : carte 1 an 200DH | gérant SARL carte séjour | 2500m H2:Dossier préfecture 30j/8 photos/Bail légalisé | Guide carte |

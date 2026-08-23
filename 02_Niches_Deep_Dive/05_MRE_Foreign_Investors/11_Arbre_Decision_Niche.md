@@ -12,7 +12,7 @@
  │        └─ [Q2] Création SARL sans venir ? → Procuration Apostille ? §11 DOC art.443
  │                 ├─ NON → Procuration légalisée + Apostille + envoi DHL 72h
  │                 └─ OUI → [Q3] Compte devise MRE 72h §12 + [Q4] Dividende 10% FR §07
- └─ >183j OU foyer Casa → Résident → IS mondial 15% <300k §09 + §01
+ └─ >183j OU foyer Casa → Résident → IS mondial 20 % (LF 2026) §09 + §01
           └─ [Q2] Carte séjour 1 an art.13 §08 ? (étranger >90j)
                    ├─ NON → Dossier préfecture 30j (bail 12m + RC + 30k/mois) §08
                    └─ OUI → Compte convertible §12 + rapatriement 30j §03 + TVA art.92 §04
@@ -30,7 +30,7 @@
 ## Cas chiffrés
 
 * **Karim, MRE Paris, 40j/an Casa, SARL Casa bénéfice 200k** : Non-résident §01 → IS Maroc 30k (15%) source seulement → dividende 170k → retenue 10% FR §07 =17k via 5000-F → net 153k sur compte devise MRE §12 transférable FR en 72h ; sans 5000-F retenue 15% =25,5k → **perte 8,5k**.
-* **Leila, MRE Bruxelles, 210j Casa (mère malade), foyer Casa** : Résidente malgré passeport BE §01 (foyer) → IS mondial → revenus BE déclarés MA → IS 15% <300k §09 → carte séjour non (Marocaine) mais attestation résidence MA pour éviter double impo art.27 §07 → crédit 30k.
+* **Leila, MRE Bruxelles, 210j Casa (mère malade), foyer Casa** : Résidente malgré passeport BE §01 (foyer) → IS mondial → revenus BE déclarés MA → IS 20 % (LF 2026)§09 → carte séjour non (Marocaine) mais attestation résidence MA pour éviter double impo art.27 §07 → crédit 30k.
 * **Investisseur US, 20j Casa, procuration sans Apostille** : OMPIC refuse dépôt §09 → perte 14j + billet 1 200$ ; avec Apostille (45€ + 72h DHL) → SARL 7-14j OK + compte devise MRE §12.
 
 ## Erreurs / pièges

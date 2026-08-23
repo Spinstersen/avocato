@@ -45,7 +45,7 @@ Es-tu résident 183j Maroc ?
 |---|---|---|---|---|---|---|
 | AE service | 200k DH/an | IR 1-3% libératoire | Exon art.92 si justificatif | 0 salarié | Compte perso + Office justif | Freelance <200k test |
 | AE commerce | 500k DH/an | IR 0.5-1% | Idem | 0 | Idem | Ecom <400k test |
-| SARL/SARL-AU | Illimité | IS 15% <300k bénéfice, 31% au-delà `06_Autoentrepreneur.../02_Douleurs_Juridiques.md:15` | Exon art.92 | Oui | Dividende 15% IR + Office | Freelance >200k / PME |
+| SARL/SARL-AU | Illimité | IS 20 % unique (LF 2026 : benefice net <100M MAD ; 35 % au-dela)à `06_Autoentrepreneur.../02_Douleurs_Juridiques.md:15` | Exon art.92 | Oui | Dividende 15% IR + Office | Freelance >200k / PME |
 | Succursale | Illimité | IS sur bénéfice Maroc seulement | Exon | Oui | Maison mère → Maroc | Ecom étranger veut Maroc |
 | Portage | Via société portage | IR salarial | Portage gère | Oui | Salaire via portage | Salarié remote hors Maroc |
 

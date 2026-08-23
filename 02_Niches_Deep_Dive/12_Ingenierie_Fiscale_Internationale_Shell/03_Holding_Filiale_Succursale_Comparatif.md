@@ -42,7 +42,7 @@ Activité commerciale RÉELLE dans le pays cible ?
 
 ## Chiffres à vérifier à chaque diagnostic
 
-*   IS France 25% (PLF annuelle), IS Maroc 15% <300k bénéfice (CGI art.19, PLF).
+*   IS France 25% (PLF annuelle), IS Maroc 20 % (LF 2026 ; CGI art.19).
    *   Retenue dividende : FR→MA 10% (conv. 29 mai 1970 art.10), UAE→MA selon conv. 2022, US→MA 15% (conv. 1977) — vérifier protocoles en vigueur.
 *   UAE corporate tax 9% au-delà de 375k AED (décret-loi 47/2022) — vérifier FTA.
 *   Estonia : 20/80 à distribution (0 tant que réinvesti) — vérifier eesti.ee.

@@ -16,7 +16,7 @@ Loi 17-97 art.133 premier depossant, art.135 distinctivite, art.147 publication 
 
 ## Chiffres 2026 a verifier PLF/IGOC juillet
 
-Voir 03_Grille. Tout chiffre avec art. + source + date. Ex: IS 15% <300k benef CGI art.19, TV A 20% ou 0% export art.92 3 conditions cumulatives, OMPIC 1.200 DH/classe, CNSS 27.83%, dotation 15k/100k IGOC.
+Voir 03_Grille. Tout chiffre avec art. + source + date. Ex: IS 20 % (LF 2026) CGI art.19, TV A 20% ou 0% export art.92 3 conditions cumulatives, OMPIC 1.200 DH/classe, CNSS 27.83%, dotation 15k/100k IGOC.
 
 ## Interactions
 

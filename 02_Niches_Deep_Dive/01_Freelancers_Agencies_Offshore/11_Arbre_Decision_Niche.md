@@ -10,7 +10,7 @@ Ne commencez pas par CA ou statut. Un PE en France rend la SARL taxable à Paris
 [Q1] PE 6m en France ? §02  (bureau >6m OU salarié signataire ?)
  ├─ OUI → PE → IS France 25% sur bénéfice PE → Option filiale/portage 8% §09
  └─ NON → [Q2] Résident 183j / foyer §01  (CGI art.23) ?
-           ├─ >183j OU foyer Casa → Résident → IS mondial 15% <300k §09 + Carte 1an §08 si étranger
+           ├─ >183j OU foyer Casa → Résident → IS mondial 20 % (LF 2026) §09 + Carte 1an §08 si étranger
            └─ <183j ET foyer hors MA → Non-résident → IS source + compte devise MRE §12
                 └─ [Q3] TVA art.92 exon ? §04 (service hors MA + devises + rapatriement 30j §03)
                      ├─ 3 OK → Facture HT 0% TVA → [Q4] Dividende art.27 §07 → retenue 10% FR /15% BE

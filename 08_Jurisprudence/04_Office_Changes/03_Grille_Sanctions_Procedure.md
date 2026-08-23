@@ -20,7 +20,7 @@
 
 ## Couts indicatifs
 
-Voir 01_Texte_Source chiffres PLF. Ex: IS 15% <300k benef, OMPIC 1.200/classe, CNSS 27.83%, dotation 15k/100k, CNDP 0 declaration 30j.
+Voir 01_Texte_Source chiffres PLF. Ex: IS 20 % (LF 2026), OMPIC 1.200/classe, CNSS 27.83%, dotation 15k/100k, CNDP 0 declaration 30j.
 
 ## Interactions
 

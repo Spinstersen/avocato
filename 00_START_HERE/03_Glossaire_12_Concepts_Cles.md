@@ -27,7 +27,7 @@
 
 **Procédure — comment compter 183j :**
 1. Comptez jours physiques de présence (entrée = 1 jour, sortie = 1 jour, transit <24h = 0). Gardez copies passeport.
-2. Si >183j OU foyer au Maroc → résident → IS mondial (tous revenus mondiaux déclarés au Maroc) + IS 15% <300k bénéfice.
+2. Si >183j OU foyer au Maroc → résident → IS mondial (tous revenus mondiaux déclarés au Maroc) + IS 20 % (LF 2026).
 3. Si <183j ET foyer hors Maroc → non-résident → IS source seulement (revenus source Maroc) + retenue dividende 10% France /15% Belgique.
 4. Demandez **attestation de résidence DGI** (délai 30j, dépôt DGI avec passeport + bail + RC) — indispensable pour activer convention art.27.
 
@@ -230,12 +230,12 @@ ICE: 00XXXX RC: XXXX IF: XXXX
 ## 09 — AE plafond / SARL IS 15% / Capital 10k / Délai 7-14j
 
 **Définition simple :**
-- **AE (Auto-entrepreneur Loi 114-13) :** Plafond **500k DH commerce / 200k DH service** (HT, 12 mois glissants), IR libératoire **1% commerce / 2% service** (pas 3%), radiation si dépassement 2 ans.
-- **SARL (Loi 5-96) :** Capital min **10 000 DH**, IS **15% <300k bénéfice** (pas CA), **20% 300k-1M**, **32% >1M** (PLF annuelle à vérifier), création **7-14j** OMPIC.
+- **AE (Auto-entrepreneur Loi 114-13) :** Plafond **500k DH commerce / 200k DH service** (HT, 12 mois glissants), IR libératoire **0,5 % commerce / 1 % servicesice** (decret 114-13), radiation si dépassement 2 ans.
+- **SARL (Loi 5-96) :** Capital min **10 000 DH**, IS 20 % unique (LF 2026 : benefice net <100M MAD ; 35 % au-dela)** (PLF annuelle à vérifier), création **7-14j** OMPIC.
 
 **Procédure — choisir AE vs SARL :**
 1. CA <200k service + <183j + pas de salarié France + pas de TVA export → AE 1 jour, IR 1-2% (ex: 150k × 2% = 3k)
-2. CA >200k OU besoin TVA art.92 OU salarié >6 mois OU 210j résident → SARL 10k capital → IS 15% <300k bénéfice (ex: 100k bénéfice ×15% =15k)
+2. CA >200k OU besoin TVA art.92 OU salarié >6 mois OU 210j résident → SARL 10k capital → IS 20 % (LF 2026) (ex: 100k bénéfice ×15% =15k)
 
 **Chiffres à vérifier PLF :** AE 500k/200k, IS 15/20/32%, capital 10k, délai OMPIC 7-14j, frais CRI **~2 000 DH** (pas 5k).
 

@@ -26,7 +26,7 @@ PE caractérisé art.5/7 Conv. ES-MA 1985 → bénéfice rattaché ES **200k DH 
 ## Verdict MRE / Foreign Investors
 
 *   **Création distance** : SARL Maroc **7-14j CRI, 7 500 HT + 2 000 DH débours**, procuration apostillée 14j (Haye) + traduction assermentée ; SASU France 1 000€ 7j plus rapide mais **IS 25% au-delà 42,5k€ vs 15% <300k MA**.
-*   **Fiscalité** : IS 15% <300k DH (≈27k€) compétitif ; avec charges déductibles Casa (loyer 3k DH/mois vs Paris 1 200€), **bénéfice imposable réduit de 40%**. Toujours tester PE §02 avant de signer bail/salarié FR/BE/ES >6 mois.
+*   **Fiscalité** : IS 20 % (LF 2026)DH (≈27k€) compétitif ; avec charges déductibles Casa (loyer 3k DH/mois vs Paris 1 200€), **bénéfice imposable réduit de 40%**. Toujours tester PE §02 avant de signer bail/salarié FR/BE/ES >6 mois.
 *   **Dividende** : **10% FR / 15% BE / 10% ES** vs 30% PFU FR → **15-20k économisés /100k** via **attestation DGI résidence art.4 (30j) + formulaire 5000-F Bofip avant virement** + compte **devise MRE 72h transférable** (pas convertible). Sans 5000-F, banque FR retient 30% d'office.
 *   **Compte** : MRE <183j → **devise MRE (transférable)** ; >183j → **convertible + carte 1 an 200 DH** (Loi 02-03). Erreur = blocage transfert 6 mois Office. → §01 §07 §12
 

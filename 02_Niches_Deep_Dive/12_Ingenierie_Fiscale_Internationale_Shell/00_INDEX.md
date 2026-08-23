@@ -48,7 +48,7 @@ Ta société étrangère a-t-elle un bail réel au nom de la société ?
 
 | Juridiction | IS | Substance exigée | CRS | Convention Maroc | Verdict vault |
 |---|---|---|---|---|---|
-| Maroc SARL | 15% <300k bénéfice | N/A (c'est chez toi) | Émetteur horizon 2028 | — | **Base par défaut** |
+| Maroc SARL | 20 % (LF 2026) | N/A (c'est chez toi) | Émetteur horizon 2028 | — | **Base par défaut** |
 | Dubai (UAE) | 9% >375k AED | Bureau + 2 salariés réels | Actif depuis données 2019 | Convention 2022 | OK si substance payée |
 | Estonia OÜ | 20% à distribution | Conseil local réel | Actif | Pas de convention Maroc | Crédit impôt impossible → éviter sans conseil |
 | US LLC Wyoming/Delaware | 0 pass-through fédéral (non-résident) | Agent + activité réelle | FATCA + CRS partiel | Convention 1977 | Piège fiscal FR/Maroc si mal utilisée |
