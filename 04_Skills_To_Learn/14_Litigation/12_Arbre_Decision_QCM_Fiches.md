@@ -4,6 +4,8 @@
 >
 > **Liens :** `00_INDEX.md` · `../07_Sharp_Legal_Mind/03_Numbers_Sheet.md` · `../../08_Jurisprudence/08_Contentieux_Clause_Penale/00_INDEX.md`
 
+> ⚠️ **RÉFORME PROCÉDURALE — vérifié le 23/08/2026** : le nouveau Code de procédure civile (**loi n° 58-25**, BO n°7485 du 23/02/2026) entre en vigueur le **24 août 2026** et abroge l'ancien CPC de 1974 ; les règles procédurales des lois **53-95 / 41-90 / 80-03** y sont intégrées (les juridictions subsistent, un seul code civil/commercial/administratif). Les références « CPC » ci-dessous valent pour les **affaires engagées avant cette date** (art. 641 : non-rétroactivité) ; pour toute nouvelle procédure, re-vérifier chaque article sous la loi 58-25. Détail + calendrier : `00_START_HERE/12_VEILLE_LEGALE_2025_2026.md`.
+
 ## Objectifs
 - Décider en moins de 15 minutes si un litige mérite d'être poursuivi, transigé ou refusé — avec un arbre reproductible.
 - Valider vos acquis par le QCM du module (3 questions) et les six fiches mémo.

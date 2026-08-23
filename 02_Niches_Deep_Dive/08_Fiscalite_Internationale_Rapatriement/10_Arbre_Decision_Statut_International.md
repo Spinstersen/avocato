@@ -16,8 +16,8 @@ START: Es-tu salarié hors Maroc ?
 ## Raccourci rapatriement
 
 *   <200k → AE
-*   200k-1M + 1 client EU → SARL 5,900
-*   >1M ou 3 pays → SARL + veille PE `07_Etablissement_Stable`
+*   200k-500k + 1 client EU → SARL 5,900
+*   >500k ou 3 pays → SARL + veille PE `07_Etablissement_Stable`
 
 ## Question filtre avant pack
 

@@ -9,7 +9,7 @@ Déclinaison fiscal/juridique du Numbers Sheet : chaque chiffre porte sa valeur,
 | Chiffre | Valeur | Base légale | Source + date vérif | Procédure MAJ |
 | :--- | :--- | :--- | :--- | :--- |
 | AE plafond service | **500 000 DH HT/an** | Loi 114-13 art.4 | sgg.gov.ma, BO 01/01/2025 | PLF déposé **01/10** → vérifier sgg.gov.ma ; si modifié, éditer le master seul puis propager par renvoi |
-| AE plafond commerce | **1 000 000 DH HT/an** | Loi 114-13 art.4 | sgg.gov.ma, 01/01/2025 | Idem — échéance **PLF 01/10** |
+| AE plafond commerce | **500 000 DH HT/an** (services : **200 000 DH**) | Loi 114-13 art.4 | sgg.gov.ma, 23/08/2026 | Idem — échéance **PLF 01/10** |
 | TVA standard | **20%** | CGI art.92 I | sgg.gov.ma, CGI 01/01/2025 | CGI rectifié au **01/01** après promulgation du PLF |
 | TVA export services | **0% si 3 conditions cumulatives** : prestation consommée hors Maroc + paiement en devises + rapatriement 30j | CGI art.92 I-1° + IGOC 2024 | sgg.gov.ma + oc.gov.ma, 15/07/2024 | Volet TVA : **CGI 01/01** ; volet change (rapatriement) : **IGOC 15/07** sur oc.gov.ma |
 | Amende Loi 09-08 | **300 000–500 000 DH + 6 mois emprisonnement** | Loi 09-08 art.52 | cndp.ma guide sanctions, 01/03/2025 | Veille CNDP **trimestrielle** (délibérations nouvelles + guide à jour) |
@@ -23,7 +23,7 @@ Déclinaison fiscal/juridique du Numbers Sheet : chaque chiffre porte sa valeur,
 
 ## Mini-checklist échéances
 
-- [ ] **01/10** — PLF déposé (sgg.gov.ma) : plafonds AE 500k service / 1M commerce + barème IS ≤300k
+- [ ] **01/10** — PLF déposé (sgg.gov.ma) : plafonds AE 200k service / 500k commerce + barème IS ≤300k
 - [ ] **01/01** — CGI / loi de finances promulguée(s) : TVA 20% + art.92 I et I-1°
 - [ ] **Mensuel** — ompic.ma / directompic.ma : taxe 1 200 DH/classe, frais CRI ~2k, délai 7-14j
 - [ ] **Trimestriel** — cndp.ma : art.52 (300k–500k + 6 mois) et délib. 40-22 (30j/45j)

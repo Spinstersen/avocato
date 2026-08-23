@@ -42,7 +42,7 @@ SPIN (écouter 30m) → Challenger (enseigner 10m) → Anchoring prix (5m) → S
 - [ ] BATNA personnel chiffré (seuil plancher) noté avant call
 - [ ] Notion Prospect → note 7 catégories prête (<2 min après DM)
 
-**Renvoi glossaire :** `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §09 AE plafond 500k/1M + §06 Loi 09-08 amende + §10 Provision (anchoring) + §04 TVA art.92.
+**Renvoi glossaire :** `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §09 AE plafond 500k/200k + §06 Loi 09-08 amende + §10 Provision (anchoring) + §04 TVA art.92.
 
 **Interaction dossier :** Se prolonge dans `03_Sales_Without_Selling/02_Script_Diagnostic_40min.md` (verbatim) et `07_Sharp_Legal_Mind/01_Issue_Spotting.md` (7 catégories).
 

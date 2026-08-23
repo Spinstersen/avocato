@@ -4,6 +4,8 @@
 >
 > **Liens :** `01_CPC_Fondamentaux_Juridictions.md` · `06_Injonction_De_Payer_TribCom.md` · `../../08_Jurisprudence/03_Contrats_DOC/00_INDEX.md`
 
+> ⚠️ **RÉFORME PROCÉDURALE — vérifié le 23/08/2026** : le nouveau Code de procédure civile (**loi n° 58-25**, BO n°7485 du 23/02/2026) entre en vigueur le **24 août 2026** et abroge l'ancien CPC de 1974 ; les règles procédurales des lois **53-95 / 41-90 / 80-03** y sont intégrées (les juridictions subsistent, un seul code civil/commercial/administratif). Les références « CPC » ci-dessous valent pour les **affaires engagées avant cette date** (art. 641 : non-rétroactivité) ; pour toute nouvelle procédure, re-vérifier chaque article sous la loi 58-25. Détail + calendrier : `00_START_HERE/12_VEILLE_LEGALE_2025_2026.md`.
+
 ## Objectifs
 - Identifier les situations qui justifient une procédure rapide (urgence, péril, conservation de preuves) plutôt qu'une action au fond.
 - Rédiger une demande d'ordonnance/référé convaincante : urgence démontrée, mesures précises, pas de décision sur le fond.

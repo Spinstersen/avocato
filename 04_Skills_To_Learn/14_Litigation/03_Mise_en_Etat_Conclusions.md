@@ -4,6 +4,8 @@
 >
 > **Liens :** `02_Requete_Introductive_Assignation_Modele.md` · `04_Audience_Plaidoirie_PV.md` · `../../08_Jurisprudence/08_Contentieux_Clause_Penale/00_INDEX.md`
 
+> ⚠️ **RÉFORME PROCÉDURALE — vérifié le 23/08/2026** : le nouveau Code de procédure civile (**loi n° 58-25**, BO n°7485 du 23/02/2026) entre en vigueur le **24 août 2026** et abroge l'ancien CPC de 1974 ; les règles procédurales des lois **53-95 / 41-90 / 80-03** y sont intégrées (les juridictions subsistent, un seul code civil/commercial/administratif). Les références « CPC » ci-dessous valent pour les **affaires engagées avant cette date** (art. 641 : non-rétroactivité) ; pour toute nouvelle procédure, re-vérifier chaque article sous la loi 58-25. Détail + calendrier : `00_START_HERE/12_VEILLE_LEGALE_2025_2026.md`.
+
 ## Objectifs
 - Comprendre la phase de mise en état : échange contradictoire des conclusions, communication des pièces, clôture.
 - Rédiger des conclusions qui répondent point par point à l'adversaire au lieu de réciter un cours.

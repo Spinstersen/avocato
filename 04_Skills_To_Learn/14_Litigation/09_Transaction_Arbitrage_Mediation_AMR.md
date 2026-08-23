@@ -4,6 +4,8 @@
 >
 > **Liens :** `07_Execution_Jugement_Saisies.md` · `10_Honoraires_Contentieux_Cout_Proces.md` · `../15_Client_Psy/00_INDEX.md`
 
+> ⚠️ **RÉFORME PROCÉDURALE — vérifié le 23/08/2026** : le nouveau Code de procédure civile (**loi n° 58-25**, BO n°7485 du 23/02/2026) entre en vigueur le **24 août 2026** et abroge l'ancien CPC de 1974 ; les règles procédurales des lois **53-95 / 41-90 / 80-03** y sont intégrées (les juridictions subsistent, un seul code civil/commercial/administratif). Les références « CPC » ci-dessous valent pour les **affaires engagées avant cette date** (art. 641 : non-rétroactivité) ; pour toute nouvelle procédure, re-vérifier chaque article sous la loi 58-25. Détail + calendrier : `00_START_HERE/12_VEILLE_LEGALE_2025_2026.md`.
+
 ## Objectifs
 - Utiliser la transaction (DOC art.1055 et s.) comme instrument de clôture sécurisée d'un litige, pas comme capitulation.
 - Repérer les clauses d'arbitrage au contrat et conseiller utilement sur la voie CIMAC/CRCM (Loi 08-05) avec sentences exécutoires.

@@ -37,7 +37,7 @@ La niche 1 est la **niche pilote recommandée** pour un avocat trilingue tech-sa
 
 ### 3.1 Le statut (auto-entrepreneur vs SARL)
 
-- L'auto-entrepreneur a un plafond de CA annuel (200 000 DH pour services, 1 million pour achat-revente) — au-delà, bascule obligatoire en SARL ou autre.
+- L'auto-entrepreneur a un plafond de CA annuel (200 000 DH pour services, 500 000 DH pour achat-revente) — au-delà, bascule obligatoire en SARL ou autre.
 - L'auto-entrepreneur paie l'IR au taux libératoire (1-3% pour les services, 0,5-1% pour le commerce). Au-delà de 200 000 DH/an, la fiscalité devient moins intéressante.
 - La SARL permet de déduire les charges (salaires, frais, investissements), de protéger le patrimoine, de facturer offshore avec TVA exonérée.
 - Le passage AE → SARL a des conséquences (transfert de clientèle, comptabilité, statut du gérant).

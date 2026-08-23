@@ -4,6 +4,8 @@
 >
 > **Liens :** `03_Mise_en_Etat_Conclusions.md` · `08_Voies_Recours_Opposition_Appel_Cassation.md` · `../15_Client_Psy/00_INDEX.md`
 
+> ⚠️ **RÉFORME PROCÉDURALE — vérifié le 23/08/2026** : le nouveau Code de procédure civile (**loi n° 58-25**, BO n°7485 du 23/02/2026) entre en vigueur le **24 août 2026** et abroge l'ancien CPC de 1974 ; les règles procédurales des lois **53-95 / 41-90 / 80-03** y sont intégrées (les juridictions subsistent, un seul code civil/commercial/administratif). Les références « CPC » ci-dessous valent pour les **affaires engagées avant cette date** (art. 641 : non-rétroactivité) ; pour toute nouvelle procédure, re-vérifier chaque article sous la loi 58-25. Détail + calendrier : `00_START_HERE/12_VEILLE_LEGALE_2025_2026.md`.
+
 ## Objectifs
 - Préparer et conduire une audience civile/commerciale sans faux pas : ponctualité, tenue, adresse au tribunal, gestion des renvois.
 - Délivrer une plaidoirie courte qui renforce les conclusions au lieu de les répéter.

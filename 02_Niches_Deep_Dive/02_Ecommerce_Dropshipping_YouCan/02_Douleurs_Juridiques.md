@@ -94,7 +94,7 @@ CMI (Centre Monétique Interbancaire) et MoPay exigent des **mentions spécifiqu
 
 ## 5. Statut flou (AE vs SARL)
 
-- AE plafond : 1 million DH/an pour commerce.
+- AE plafond : 500 000 DH/an pour commerce (200 000 DH services).
 - Au-delà, bascule en SARL ou autre.
 - Beaucoup d'e-commerçants dépassent le plafond sans le savoir.
 

@@ -27,7 +27,7 @@ Visio 45 min. Évaluation :
 - Mentions 09-08 manquantes → amende CNDP possible.
 - CMI bloque pour défaut de CGV.
 - Factures non conformes.
-- Statut AE avec CA 360 k DH/an (sous plafond commerce 1 million DH).
+- Statut AE avec CA 360 k DH/an (sous plafond commerce 500 000 DH).
 
 ## 5. Proposition de mission (J-0)
 

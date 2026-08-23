@@ -2,6 +2,8 @@
 
 > **Dossier maître — Stratégie n°6.** Ce dossier encyclopédique traite la **déontologie pratique** de l'avocat au Maroc : convention d'honoraires, secret professionnel, conflits d'intérêts, indépendance, confraternité, discipline. Il complète le dossier `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/` qui traitait de la publicité ; ici on traite du reste — l'opérationnel quotidien d'un avocat déontologiquement conforme.
 
+> ⚖️ **NOUVEAU — loi n° 66.23 relative à l'organisation de la profession d'avocat** (dahir n° 1-26-75 du 18/08/2026, BO n°7536 du 20/08/2026 ; application immédiate [vérifier art. 146] ; décision de la Cour constitutionnelle pendante). À intégrer : **traçabilité des honoraires**, procédure disciplinaire réformée, gouvernance des barreaux (mandats limités), stage porté à 2 ans. Détail : `00_START_HERE/12_VEILLE_LEGALE_2025_2026.md`.
+
 ## TL;DR exécutif
 
 - **Convention d'honoraires écrite obligatoire** pour toute mission (art. 30 Loi 28-08).

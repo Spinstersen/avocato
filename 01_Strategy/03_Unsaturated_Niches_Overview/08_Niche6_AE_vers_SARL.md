@@ -25,7 +25,7 @@ La niche 6 est une niche de **transition** : les auto-entrepreneurs marocains en
 ### 3.1 Plafond CA auto-entrepreneur atteint
 
 - 200 000 DH/an pour services → bascule obligatoire en SARL ou autre.
-- 1 million DH/an pour commerce → idem.
+- 500 000 DH/an pour commerce (services : 200 000 DH) → idem.
 - Risque : taxation rétroactive, redressement fiscal.
 
 ### 3.2 Fiscalité moins favorable au-delà du plafond

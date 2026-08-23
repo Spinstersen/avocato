@@ -5,7 +5,7 @@
 | # | Chiffre | Valeur 2025 | Base légale exacte | Source + date vérif | Procédure MAJ |
 |---|---|---|---|---|---|
 | 1 | AE service plafond | **500 000 DH** HT/an | Loi 114-13 art.4, PLF 2025 | sgg.gov.ma BO 01/01/2025 | Vérifier PLF octobre (sgg.gov.ma) — si PLF 2026 modifie, MAJ ici seul |
-| 2 | AE commerce plafond | **1 000 000 DH** HT/an | Loi 114-13 art.4 | sgg.gov.ma 01/01/2025 | Idem PLF octobre |
+| 2 | AE commerce plafond | **500 000 DH** HT/an (services : 200 000 DH) | Loi 114-13 art.4 | sgg.gov.ma 23/08/2026 | Idem PLF octobre |
 | 3 | TVA standard | **20%** | CGI art.92 I | sgg.gov.ma CGI 01/01/2025 | Vérifier CGI 1er janvier (PLF) |
 | 4 | TVA export exon 0% | **0% si 3 conditions cumulatives** : service hors Maroc + paiement devises + rapatriement 30j | CGI art.92 I-1° + IGOC 2024 | sgg.gov.ma + oc.gov.ma IGOC juillet 2024 | Vérifier IGOC 15 juillet (oc.gov.ma) |
 | 5 | Amende Loi 09-08 | **300 000–500 000 DH + 6 mois prison** | Loi 09-08 art.52 | cndp.ma guide sanctions 01/03/2025 | Vérifier cndp.ma + Loi 09-08 sgg |
@@ -29,7 +29,7 @@
 - `cndp.ma` → délibérations 40-22 + guide sanctions art.52
 
 **Quand :**
-- **1er octobre** — PLF déposé (vérif plafonds AE 500k/1M + IS)
+- **1er octobre** — PLF déposé (vérif plafonds AE 500k/200k + IS)
 - **15 juillet** — IGOC mise à jour (Office des Changes)
 - **1er janvier** — CGI/PLF promulguée (TVA 20% / art.92)
 - Rythme : **01/01, 01/04, 01/07, 01/10** — rappel Notion récurrent.
@@ -66,7 +66,7 @@ Usage : glisser 1 chiffre maximum par phase Implication, toujours avec base lég
 ## Footer — checklist MAJ + sources + renvoi
 
 **Checklist MAJ trimestrielle (cocher à chaque échéance) :**
-- [ ] 01/10 PLF ouvert (sgg.gov.ma) — plafonds AE 500k/1M vérifiés
+- [ ] 01/10 PLF ouvert (sgg.gov.ma) — plafonds AE 500k/200k vérifiés
 - [ ] 15/07 IGOC ouvert (oc.gov.ma) — rapatriement 30j confirmé
 - [ ] 01/01 CGI ouvert (sgg.gov.ma) — TVA 20% / art.92 inchangé
 - [ ] cndp.ma ouvert — délib 40-22 (30j/45j) + art.52 inchangé
