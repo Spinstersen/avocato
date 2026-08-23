@@ -1,0 +1,31 @@
+/* Glossaire cliquable AVOCATO — [terme, définition courte, document de référence]
+   Les termes sont surlignés automatiquement dans les documents (1re occurrence par doc). */
+window.GLOSSARY = [
+  ['183 jours', 'Critère de résidence fiscale : ≥183j au Maroc ou foyer = résident (CGI art.23).', '00_START_HERE/03_Glossaire_12_Concepts_Cles.md'],
+  ['foyer', 'Foyer (conjoint/enfants) au Maroc = résident même <183j ; primautaire en convention.', '00_START_HERE/03_Glossaire_12_Concepts_Cles.md'],
+  ['établissement stable', 'Salarié/signataire à l\u2019étranger >6 mois = PE : bénéfices taxés là-bas ET au Maroc.', '02_Niches_Deep_Dive/08_Fiscalite_Internationale_Rapatriement/07_Etablissement_Stable_Prix_Transfert.md'],
+  ['Convention France-Maroc du 29 mai 1970', 'Convention fiscale FR-MA en vigueur (jamais «1959») : résidence, PE, dividende 10 %, élimination art.27.', '08_Jurisprudence/06_Fiscalite_Internationale/00_INDEX.md'],
+  ['art. 27', 'Élimination de la double imposition par crédit d\u2019impôt — formulaire 5000-F obligatoire avant versement.', '08_Jurisprudence/06_Fiscalite_Internationale/00_INDEX.md'],
+  ['TVA art.92', 'Exonération TVA à l\u2019export : preuve export + paiement devises + rapatriement 30j IGOC.', '00_START_HERE/03_Glossaire_12_Concepts_Cles.md'],
+  ['provision', 'Somme versée à la signature (usuelle 50 %), convenue dans la convention écrite (art.30 Loi 28-08).', '05_Document_Bank/templates/06_Recu_Provision_Facture.md'],
+  ['DOC', 'Code de commerce : art.230 (preuve), 258 (astreinte), 264 (clause pénale), 443 (facture), 618 (réserve).', '08_Jurisprudence/03_Contrats_DOC/00_INDEX.md'],
+  ['ICE', 'Identifiant Commun de l\u2019Entreprise (15 chiffres) — mention obligatoire facture/CGV.', '05_Document_Bank/09_Fiche_Verification_19_Points.md'],
+  ['OMPIC', 'Office de la PI : marque 1 200 DH/classe, dépôt 72h, opposition tiers 2 mois.', '02_Niches_Deep_Dive/07_Propriete_Intellectuelle/00_INDEX.md'],
+  ['CNDP', 'Commission contrôle données personnelles : déclaration 30j, registre, sanction 10k-300k DH.', '08_Jurisprudence/01_Loi_09-08/00_INDEX.md'],
+  ['registre 5 colonnes', 'Registre traitements Loi 09-08 : finalité, base légale, durée, destinataires… première pièce demandée en contrôle.', '08_Jurisprudence/01_Loi_09-08/01_Texte_Source.md'],
+  ['IGOC', 'Instruction générale Office des Changes (juillet 2024) : dotations 15k/100k, rapatriement 30j.', '02_Niches_Deep_Dive/09_Office_Changes_Dotation_IGOC2024/00_INDEX.md'],
+  ['dotation e-commerce', '15 000 DH/an pour payer SaaS/abonnements étrangers (IGOC 2024).', '02_Niches_Deep_Dive/09_Office_Changes_Dotation_IGOC2024/03_Dotation_Ecommerce_15k.md'],
+  ['500 000 DH', 'Plafond CA annuel AE commerce/industrie/artisanat (loi 114-13).', '00_START_HERE/03_Glossaire_12_Concepts_Cles.md'],
+  ['200 000 DH', 'Plafond CA annuel AE prestations de services (loi 114-13).', '00_START_HERE/03_Glossaire_12_Concepts_Cles.md'],
+  ['CPU', 'Contribution Professionnelle Unique (CGI art.40-I) : IR libératoire CA×coeff×10 % — palier entre AE et société.', '01_Strategy/07_Formes_Juridiques_2026/02_CPU_CGI_art40-I.md'],
+  ['SAS', 'Société par Actions Simplifiée (loi 19-20) : zéro capital min, 1 associé, pactes libres, BSA/OCA pour lever.', '01_Strategy/07_Formes_Juridiques_2026/01_SAS_SASU_Loi19-20.md'],
+  ['IS 20 %', 'Taux unifié LF 2026 (loi 50-25) pour bénéfice net <100M MAD ; 35 % au-delà.', '00_START_HERE/12_VEILLE_LEGALE_2025_2026.md'],
+  ['CNSS', 'Cotisations sociales ≈27,83 % (21,09 patronal + 6,74 salarial) + AMO.', '08_Jurisprudence/07_Droit_Social_CNSS/00_INDEX.md'],
+  ['clause pénale', 'Indemnité forfaitaire de retard — juge peut réduire si manifestement excessive (DOC art.264).', '08_Jurisprudence/08_Contentieux_Clause_Penale/00_INDEX.md'],
+  ['astreinte', 'Peine par jour de retard pour forcer exécution (ex. 500 DH/j après mise en demeure) — DOC art.258 + CPC.', '08_Jurisprudence/08_Contentieux_Clause_Penale/03_Grille_Sanctions_Procedure.md'],
+  ['réserve de propriété', 'Livrables restent propriété du prestataire jusqu\u2019au paiement intégral (DOC art.618).', '04_Skills_To_Learn/15_Client_Psy/06_Impayes_Prevention_Balises_Contrat.md'],
+  ['injonction de payer', 'Procédure rapide pour créance certaine documentée : pas d\u2019audience initiale.', '04_Skills_To_Learn/14_Litigation/06_Injonction_De_Payer_TribCom.md'],
+  ['facturation électronique', 'Facture structurée validée par la DGI avant envoi (Clearance, UBL) — déploiement progressif dès 2026.', '04_Skills_To_Learn/21_Facturation_Electronique/00_INDEX.md'],
+  ['radiation', 'Dépassement plafond AE 2 années consécutives = sortie forcée vers le régime réel.', '02_Niches_Deep_Dive/06_Autoentrepreneur_to_SARL_Scaling/00_INDEX.md'],
+  ['client unique', 'AE services : fraction >80 000 DH chez un même client taxée 30 % (LF 2023).', '00_START_HERE/12_VEILLE_LEGALE_2025_2026.md']
+];

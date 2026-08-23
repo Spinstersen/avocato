@@ -18,6 +18,7 @@
     font: LS.get('font', 'md'),
     read: new Set(LS.get('read', [])),
     checks: LS.get('checks', {}),
+    qcm: LS.get('qcm', {}),
     foldersOpen: LS.get('folders', {}),
     charts: [],
     spy: null,
@@ -131,6 +132,7 @@
     });
 
     enhanceQcm(tmp);
+    markQcmStructure(tmp);
 
     $$('table', tmp).forEach(t => {
       const wrap = document.createElement('div');
@@ -140,6 +142,82 @@
     });
 
     return { html: tmp.innerHTML, toc };
+  }
+
+  /* QCM interactifs : détecte les questions structurées (tracks) et marque les options */
+  function markQcmStructure(tmp) {
+    let qIdx = 0;
+    $$('strong', tmp).forEach(strong => {
+      if (!/^Q\d+\s*[.:)]/.test((strong.textContent || '').trim())) return;
+      const qEl = strong.closest('p, li') || strong.parentElement;
+      if (!qEl || qEl.dataset.qcmDone) return;
+      qEl.dataset.qcmDone = '1';
+      // options = éléments suivants commençant par A./B./C./D.
+      const opts = [];
+      let sib = qEl.nextElementSibling;
+      while (sib && opts.length < 6) {
+        const t = (sib.textContent || '').trim();
+        const m = t.match(/^([A-D])[.)]\s/);
+        if (m && !sib.querySelector('strong')) {
+          sib.classList.add('qcm-opt');
+          sib.dataset.k = m[1];
+          opts.push(sib);
+          sib = sib.nextElementSibling;
+        } else break;
+      }
+      if (opts.length < 2) return;
+      // réponse : le details.qcm-answer qui suit
+      let ans = null, scan = opts[opts.length - 1].nextElementSibling;
+      while (scan && !ans) {
+        if (scan.matches('details.qcm-answer')) ans = scan;
+        else if (/^Q\d+/.test((scan.textContent || '').trim())) break;
+        scan = scan.nextElementSibling;
+      }
+      const am = ans ? (ans.textContent || '').match(/R[ée]ponses?\s*[:：]?\s*\**\s*([A-D])\b/i) : null;
+      const key = 'q' + (qIdx++);
+      opts.forEach(o => { o.classList.add('qcm-opt'); o.dataset.qkey = key; o.tabIndex = 0; });
+      qEl.classList.add('qcm-q');
+      qEl.dataset.qkey = key;
+      if (am) opts[0].dataset.correct = am[1].toUpperCase();
+    });
+  }
+
+  /* Glossaire cliquable : surligne la 1re occurrence de chaque terme */
+  function applyGlossary(rootEl) {
+    const G = window.GLOSSARY || [];
+    if (!G.length || !rootEl) return;
+    const used = new Set();
+    let budget = 60;
+    const skipTags = new Set(['A', 'CODE', 'PRE', 'SCRIPT', 'STYLE', 'BUTTON', 'H1']);
+    const walker = document.createTreeWalker(rootEl, NodeFilter.SHOW_TEXT, {
+      acceptNode(n) {
+        if (!n.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+        const p = n.parentElement;
+        if (!p || skipTags.has(p.tagName) || p.closest('.gl,.toc,.qcm-answer,a,button')) return NodeFilter.FILTER_REJECT;
+        return NodeFilter.FILTER_ACCEPT;
+      }
+    });
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    for (const node of nodes) {
+      if (budget <= 0) break;
+      for (const [term, tip, ref] of G) {
+        if (used.has(term)) continue;
+        const idx = node.nodeValue.indexOf(term);
+        if (idx === -1) continue;
+        const span = document.createElement('span');
+        span.className = 'gl';
+        span.textContent = term;
+        span.dataset.tip = tip;
+        span.dataset.ref = ref;
+        span.tabIndex = 0;
+        const after = node.splitText(idx + term.length);
+        node.parentNode.insertBefore(span, after);
+        used.add(term);
+        budget--;
+        break; // ce nœud texte a été découpé ; il sera re-scané au prochain cycle si besoin
+      }
+    }
   }
 
   function bindContentEvents(root) {
@@ -155,6 +233,39 @@
         if (li) li.classList.toggle('checked', cb.checked);
       });
     });
+    // QCM : restauration + réponse cliquable (verrouillée après choix)
+    $$('.qcm-opt', root).forEach(opt => {
+      const key = opt.dataset.qkey;
+      const correct = (opt.parentElement.querySelector('.qcm-opt[data-correct]') || {}).dataset
+        ? opt.parentElement.querySelector('.qcm-opt[data-correct]').dataset.correct
+        : (opt.dataset.correct || '');
+      const saved = state.qcm[key];
+      const allOpts = Array.from(opt.parentElement.querySelectorAll('.qcm-opt')).filter(o => o.dataset.qkey === key);
+      const paint = () => {
+        allOpts.forEach(o => {
+          const isCorrect = o.dataset.k === correct;
+          o.classList.toggle('correct', !!state.qcm[key] && isCorrect);
+          if (state.qcm[key]) {
+            if (o === opt && !state.qcm[key].ok) o.classList.add('ko');
+            else if (!isCorrect) o.classList.add('dim');
+            o.style.pointerEvents = 'none';
+          }
+        });
+      };
+      paint();
+      opt.addEventListener('click', () => {
+        if (state.qcm[key] || !correct) return;
+        state.qcm[key] = { p: opt.dataset.k, ok: opt.dataset.k === correct };
+        LS.set('qcm', state.qcm);
+        const det = (opt.closest('.doc-content') || root).querySelector('.qcm-answer');
+        if (det) det.open = true;
+        paint();
+      });
+    });
+    // glossaire : clic -> document de référence
+    $$('.gl', root).forEach(g => g.addEventListener('click', () => {
+      if (g.dataset.ref) openDoc(g.dataset.ref);
+    }));
     $$('a[href]', root).forEach(a => {
       const href = a.getAttribute('href');
       if (href && href.endsWith('.md')) {
@@ -352,6 +463,7 @@
       </div>`;
 
     bindContentEvents(main);
+    applyGlossary($('.doc-content', main));
     $$('.chart-box', main).forEach(renderChartBox);
     setupTableCharts(main);
     $$('.doc-footer-nav [data-go]', main).forEach(b =>
@@ -484,6 +596,28 @@
     const lastDoc = DATA.find(d => d.id === lastId);
     const nextUp = ORDERED.find(d => !state.read.has(d.id)) || ORDERED[0];
 
+    // agrégats QCM par domaine
+    const qcmByDomain = {};
+    Object.entries(state.qcm).forEach(([k, v]) => {
+      const docId = k.split('#')[0];
+      const doc = DATA.find(d => d.id === docId);
+      if (!doc) return;
+      const dId = docDomain(doc).id;
+      (qcmByDomain[dId] = qcmByDomain[dId] || { ok: 0, n: 0 });
+      qcmByDomain[dId].n++; if (v.ok) qcmByDomain[dId].ok++;
+    });
+    const qcmTotal = Object.values(state.qcm).length;
+    const qcmOk = Object.values(state.qcm).filter(v => v.ok).length;
+    const masteryRows = Object.keys(qcmByDomain).map(dId => {
+      const s = qcmByDomain[dId];
+      const dom = ORDERED_DOMAINS.find(x => x.id === dId) || { label: dId };
+      const p = Math.round(100 * s.ok / s.n);
+      return `<div class="dash-progress-row">
+        <div class="pl"><span>${esc(dom.label)}</span><span>${s.ok}/${s.n} · ${p}%</span></div>
+        <div class="bar"><div class="fill ${p >= 80 ? 'good' : ''}" style="width:${p}%"></div></div>
+      </div>`;
+    }).join('');
+
     const cards = ORDERED_DOMAINS.map((dom, i) => {
       const docs = dom.groups.flatMap(g => g.docs);
       const n = docs.filter(d => state.read.has(d.id)).length;
@@ -509,8 +643,8 @@
               ${ringSvg(pct)}
               <div class="stat-line">
                 📚 <strong>${readCount}</strong> / ${total} documents lus<br>
-                ✅ ${doneChecks} tâches cochées<br>
-                🗂️ ${ORDERED_DOMAINS.length} domaines de savoir
+                🧠 QCM : <strong>${qcmOk}</strong>/${qcmTotal} réponses justes<br>
+                ✅ ${doneChecks} tâches cochées · 🗂️ ${ORDERED_DOMAINS.length} domaines
               </div>
             </div>
             <div style="margin-top:16px">
@@ -524,6 +658,11 @@
             <button class="btn btn-primary" id="btnResumeGo">${lastDoc && state.read.size ? 'Ouvrir le document' : 'Démarrer le module'}</button>
           </div>
         </div>
+
+        ${qcmTotal ? `<div class="panel" style="margin-top:16px">
+          <h3>🎓 Maîtrise QCM par domaine — objectif ≥ 80 %</h3>
+          ${masteryRows}
+        </div>` : ''}
 
         <div class="panel" style="margin-top:16px">
           <h3>🗺️ Les 8 domaines — dans l'ordre du curriculum</h3>
@@ -569,6 +708,85 @@
     highlightTree();
     updateReadBtn();
     window.scrollTo({ top: 0 });
+  }
+
+  /* ---------- échéances légales ---------- */
+  function pad(n){return String(n).padStart(2,'0');}
+  function iso(d){return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate());}
+  function nextDate(month, day){
+    const t=new Date(); let d;
+    if(month==null){d=new Date(t.getFullYear(),t.getMonth(),day);if(d<t)d=new Date(t.getFullYear(),t.getMonth()+1,day);}
+    else{d=new Date(t.getFullYear(),month-1,day);if(d<t)d=new Date(t.getFullYear()+1,month-1,day);}
+    return iso(d);
+  }
+  function nextQuarterEnd(){
+    const t=new Date();
+    const cands=[[2,31],[5,30],[8,30],[11,31]].map(([m,d])=>new Date(t.getFullYear(),m,d));
+    cands.push(new Date(t.getFullYear()+1,2,31));
+    return iso(cands.find(d=>d>=t)||cands[0]);
+  }
+  const RECURRING=[
+    {key:'plf',icon:'📜',label:'PLF — vérifier barèmes IS / TVA / IR',when:()=>nextDate(10,1),link:'04_Skills_To_Learn/17_Finance_Op/03_IS_Bareme_PLF_Checklist.md'},
+    {key:'igoc',icon:'🏦',label:'Circulaire IGOC annuelle (dotations, rapatriement)',when:()=>nextDate(7,15),link:'02_Niches_Deep_Dive/09_Office_Changes_Dotation_IGOC2024/00_INDEX.md'},
+    {key:'veillejuri',icon:'⚖️',label:'Veille jurisprudence mensuelle (CNDP + Cassation)',when:()=>nextDate(null,20),link:'08_Jurisprudence/09_Veille_Mensuelle.md'},
+    {key:'factdecret',icon:'🧾',label:'Suivi mensuel : décret facturation électronique',when:()=>nextDate(null,5),link:'04_Skills_To_Learn/21_Facturation_Electronique/02_Calendrier_Deploiement_Seances.md'},
+    {key:'revueveille',icon:'🛡️',label:'Revue trimestrielle de la veille légale complète',when:()=>nextQuarterEnd(),link:'00_START_HERE/12_VEILLE_LEGALE_2025_2026.md'}
+  ];
+  const ONSHOT=[
+    {key:'cpc5825',date:'2026-08-24',icon:'⚖️',label:'Loi 58-25 : le nouveau Code de procédure civile entre en vigueur',link:'00_START_HERE/12_VEILLE_LEGALE_2025_2026.md'}
+  ];
+
+  function openDeadlines(){
+    state.current=null;
+    if(state.spy){state.spy.disconnect();state.spy=null;}
+    $('#readProgress').style.width='0%';
+    const main=$('#content');
+    const doneMap=LS.get('dlDone',{});
+    const t=new Date();t.setHours(0,0,0,0);
+    const items=[
+      ...ONSHOT.map(o=>({...o,iso:o.date,recur:false})),
+      ...RECURRING.map(r=>({key:r.key+'@'+r.when(),icon:r.icon,label:r.label,iso:r.when(),link:r.link,recur:true}))
+    ].filter(x=>{const d=new Date(x.iso);return d>=new Date(t.getTime()-45*864e5);})
+     .sort((a,b)=>a.iso.localeCompare(b.iso));
+
+    const rows=items.map(x=>{
+      const d=new Date(x.iso);const diff=Math.round((d-t)/864e5);
+      const dk='dl:'+x.key+':'+x.iso;
+      const done=!!doneMap[dk];
+      const badge=diff===0?'<span class="dl-badge today">Aujourd\u2019hui</span>'
+        :diff<0?`<span class="dl-badge late">Retard ${-diff} j</span>`
+        :`<span class="dl-badge">J-${diff}</span>`;
+      return `<div class="deadline-card ${done?'done':''}">
+        <span class="dl-icon">${x.icon||'📌'}</span>
+        <div class="dl-body">
+          <div class="dl-title">${esc(x.label)}</div>
+          <div class="dl-meta">${x.iso} ${badge}${x.recur?' <span class="dl-recur">récurrent</span>':''}</div>
+        </div>
+        <button class="btn ${done?'':'btn-primary'} dl-done" data-dk="${esc(dk)}">${done?'✓ Fait':'Marquer fait'}</button>
+        ${x.link?`<a class="btn" href="#${encodeURIComponent(x.link)}">Ouvrir</a>`:''}
+      </div>`;
+    }).join('');
+
+    main.innerHTML=`<div class="dash">
+      <div class="dash-hero"><h1>⏰ Échéances légales</h1>
+      <p>Rappels actifs issus du rituel de veille — cochez quand c'est fait, les récurrences repartent automatiquement.</p></div>
+      <div class="dl-list">${rows}</div>
+      <p style="font-size:12px;color:var(--text-faint);margin-top:16px">Source : `+
+      `<code>00_START_HERE/12_VEILLE_LEGALE_2025_2026.md</code> §5 · dernière vérification globale : 23/08/2026.</p>
+    </div>`;
+
+    $$('.dl-done',main).forEach(b=>b.addEventListener('click',()=>{
+      const m=LS.get('dlDone',{});const k=b.dataset.dk;
+      if(m[k])delete m[k];else m[k]=true;
+      LS.set('dlDone',m);openDeadlines();
+    }));
+    $$('a[href^="#"]',main).forEach(a=>a.addEventListener('click',e=>{
+      const id=decodeURIComponent((a.getAttribute('href')||'').slice(1));
+      if(DATA.some(d=>d.id===id)){e.preventDefault();openDoc(id);}
+    }));
+
+    $('#crumbs').innerHTML='<span class="cur">Échéances légales & veille</span>';
+    highlightTree();updateReadBtn();window.scrollTo({top:0});
   }
 
   /* ---------- actions topbar ---------- */
@@ -645,6 +863,10 @@
       applyTheme();
     });
 
+    $('#btnDeadlines').addEventListener('click', () => {
+      openDeadlines();
+      document.body.classList.remove('sidebar-open');
+    });
     document.addEventListener('keydown', e => {
       if (e.target.matches('input, textarea')) return;
       if (e.key === '/') { e.preventDefault(); sInput.focus(); }
