@@ -1,6 +1,6 @@
 ﻿# Roadmap Next Steps — Continuer sans perdre la vision
 
-> **Dernière mise à jour : 21/08/2026 — commit dd3519d**
+> **Dernière mise à jour : 23/08/2026 - fusion V1+V2 P0-P5, voir 09_PLAN_Fusion_V1_V2_Reprise.md**
 > **Objectif :** Tracer ce qui est fait, ce qui reste, et le nouveau volet fiscal pour reprise en 1 fichier. Ouvrez ce fichier à chaque reprise — pas besoin de relire tout l'audit.
 
 ---
@@ -31,6 +31,17 @@ Ordre diagnostic : 01 Résidence 183j → 09 AE/SARL → 02 PE 6m → 07 Convent
 - **Miroir skills** `04_Skills_To_Learn/13_Ingenierie_Fiscale_Avancee/00_INDEX.md` (parcours 12 étapes, zéro duplication).
 - **Cross-links** ajoutés dans 08/10/11 vers dossier 12.
 - Chiffres vérifiés en ligne : registre BO (Loi 43-05/12-18, décret 2.21.708, amendes 5k-50k/10k-100k), CGI art.213 II + art.214-III LF 2021, CRS Maroc non opérationnel ≤2028.
+
+---
+
+## 2bis. Fusion V1+V2 - TERMINEE le 23/08/2026 (voir 09_PLAN_Fusion_V1_V2_Reprise.md)
+
+- **Port des 178 fichiers V2-only** : tracks skills 14-19 (+Moot, Numbers splits 03a/b/c), dossiers jurisprudence x6 + veille mensuelle, fiches trilingues AR, templates 09-11, Shadow Sprint, curriculum 05-08 (Methode_Curriculum, Glossaire_Trilingue_50, Table_Matieres + atlas Mermaid, FAQ_30).
+- **Corrections appliquees partout** : convention France-Maroc du **29 mai 1970** (jamais 1959), provision 50% convenue art.30 (jamais art.32 impose), personas fil rouges coherents (Yassine/Salma/Karim/Hicham/Lena).
+- **08_Jurisprudence restructuree** : 8 dossiers canoniques x7 fichiers (dont 06_Source_V1_Corrige) ; flats retires.
+- **Appendices dupliques dedupliques** : blocs uniques dans _Annexes.md (03_Acquisition, 02_Niches) ; QCM finaux des tracks conserves.
+- **Webapp 3 modes** Base / Curriculum / Cabinet OS avec fix bindContentEvents.
+- **Build : 680 docs / data.js ~3,4 MB.**
 
 ---
 

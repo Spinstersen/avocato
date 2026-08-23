@@ -1,4 +1,4 @@
-# 09 — Plan Fusion V1+V2 v2.0 : vault unifié applicable (reprendre en 1 fichier)
+﻿# 09 — Plan Fusion V1+V2 v2.0 : vault unifié applicable (reprendre en 1 fichier)
 
 > **Version 2.0 — 23/08/2026.** Remplace intégralement la v1 (obsolète : écrite avant l'exécution des Options A+B+C dans V2).
 > **Recensement vérifié par script le 23/08 :** V1 = 504 md · V2 = 683 md working tree (commit interne `8ff6d90`) · **504 chemins communs** (39 identiques / **192 préfixes purs** V2⊇V1 / **273 divergés**) · **178 fichiers uniquement dans V2** · 1 uniquement dans V1 (ce plan). Manifestes : `%TEMP%\opencode\fusion\manifest_complet.csv` (+ 4 CSV par catégorie).
@@ -107,7 +107,8 @@ Réécriture niche-par-niche des 12 fiches AR génériques (registre 5 colonnes,
 | | **Phase 2** | 48 fichiers strippés des appendices (9,5→2,2 KB/fichier) · vérifié : noyaux dossiers ⊇ substance des flats (faits chiffrés normalisés) · chaque dossier reçoit `06_Source_V1_Corrige.md` (flat V1 verbatim, 0 perte) · 8 index de dossier MAJ (7 fichiers) · `00_Index` racine réécrit (dossiers canoniques + veille) · 8 flats supprimés · 33 refs croisées remappées (23 fichiers) · build 678 docs / 3,47 MB · «1959» restant dans 08 = avertissement pédagogique uniquement | ✅ |
 | | **Phase 3** | constaté : blocs appendice présents des DEUX côtés (88 racines dont 71 tracks) · tracks 14-19 intouchées (QCM finaux conçus, 0 appendice) · 17 racines non-track strippées au premier marqueur (bug PS5.1 Sort-Object hashtable corrigé entre-temps) · QCM-junk («Réponses 1-a,2-a,3-a») filtrés par signature · 13 blocs uniques ≥400c → `_Annexes.md` (03_Acquisition ×12, 02_Niches ×1) + pointeurs dans les 6 flats canaux · cas spéciaux 03_Offre niches 03/04 vérifiés : deltas V2 = ancienne phraséologie déjà corrigée en V1, aucun merge manuel · passe globale 1959 (31 lignes, protections «jamais 1959» + fichiers plan) · reste à faire lot webapp P4 | ✅ |
 | | **Phase 4** | diff complets : app.js V1 = V2 + fix uniquement → V1 conservé (bindContentEvents L96, appelé L306/L541) · index.html + cabinet.js ← V2 (3 modes Base/Curriculum/Cabinet, hint curriculum) · cabinet.js audit : rend ses vues sur conteneur attaché (pas de bug tmp) et délègue les docs à app.js via hashchange → aucun port nécessaire · vendor/styles identiques · node --check OK ×2 · build 680 docs / 3,4 MB | ✅ |
-| | Phase 5 | cohérence + QA + suppression V2 | ⬜ |
-| | Phase 6 | backlog AR fiches / secteurs / Loom | ⬜ |
+| | **Phase 5** | README (680 docs, 3 modes, 19 tracks, 11 templates) · ROADMAP §2bis fusion + header 23/08 · MASTER_INDEX +section tracks 13-19 · liens 07_Table_Matieres : 0 mort · QA finale : 1959=0 / art32=doc seulement / SPaced=doc seulement / U+FFFD=0 / appendices hors tracks+annexes=0 / build 680 docs · test checklist en navigateur = à faire manuellement (toggle→reload, Base et Cabinet) | ✅ |
+| | **Final** | bundle déplacé hors repo, avocato-V2/ supprimé | ⬜ |
+| | Phase 6 | backlog : fiches AR par niche, secteurs sante/immo/educ 19_Sectors, videos Loom, decisions Level-2 (voir 10_PLAN_Next_Skills.md) | ouverte |
 
 > **Suivant immédiat : Phase 1** — copier les 178 ONLY_V2 depuis le manifeste, passe de correction, build, commit.
