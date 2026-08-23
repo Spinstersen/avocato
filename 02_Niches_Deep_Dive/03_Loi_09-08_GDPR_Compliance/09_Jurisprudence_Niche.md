@@ -6,7 +6,7 @@
 
 ### 1. CNDP — Absence registre 5 colonnes (cas étalon e-commerce)
 
-- **Réf :** CNDP Délib. n° D-2023-045 du 12/04/2023 — cndp.ma, `08_Jurisprudence/01_Loi_09-08_CNDP_Sanctions.md:5`.
+- **Réf :** CNDP Délib. n° D-2023-045 du 12/04/2023 — cndp.ma, `08_Jurisprudence/01_Loi_09-08/00_INDEX.md:5`.
 - **Faits :** PME e-commerce 50 cmd/j collectait 12 000 contacts (nom/tél/adresse) sans registre, sans information préalable art.14, sans durée de conservation.
 - **Solution :** Mise en demeure 45j constituer registre 5 colonnes art.14+23 Loi 09-08 — traitement/finalité/base légale/durée/destinataires — sous astreinte, amende 10k-300k art.52 si inexécution.
 - **Takeaway diagnostic :** « 1 email collecté = registre obligatoire — on le livre en 48h avec 5 colonnes, sinon vous êtes en faute au 1er contrôle CNDP. »

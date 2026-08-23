@@ -2,7 +2,7 @@
 
 > Split 2.0 du master `03_Numbers_Sheet.md` — source vérité inchangée. Ne dupliquez pas ailleurs.
 
-Déclinaison droit social du Numbers Sheet : coût réel d'un salarié, coût réel d'une non-déclaration. Jurisprudence d'appui documentée dans `08_Jurisprudence/07_Droit_Social_CNSS.md` — ne citez jamais un taux sans sa source datée.
+Déclinaison droit social du Numbers Sheet : coût réel d'un salarié, coût réel d'une non-déclaration. Jurisprudence d'appui documentée dans `08_Jurisprudence/07_Droit_Social_CNSS/00_INDEX.md` — ne citez jamais un taux sans sa source datée.
 
 ## Tableau social
 
@@ -37,7 +37,7 @@ Déclinaison droit social du Numbers Sheet : coût réel d'un salarié, coût r�
 
 **Sources primaires seules :** `cnss.ma` (taux, DAMANCOM, AT), `sgg.gov.ma` (Code travail art.370, DOC art.230), `courdecassation.ma` (requalifications Cass. soc.). Aucune source secondaire.
 
-**Renvoi master :** master `03_Numbers_Sheet.md` (source unique) ; jurisprudence détaillée `08_Jurisprudence/07_Droit_Social_CNSS.md` ; splits frères `03a_Numbers_Fiscal.md`, `03c_Numbers_Change.md`.
+**Renvoi master :** master `03_Numbers_Sheet.md` (source unique) ; jurisprudence détaillée `08_Jurisprudence/07_Droit_Social_CNSS/00_INDEX.md` ; splits frères `03a_Numbers_Fiscal.md`, `03c_Numbers_Change.md`.
 
 > Devoir d'information art.59 Loi 28-08 : information doctrinale générale, pas consultation individualisée ; diagnostic préalable 45 min + convention art.30 ; tout chiffrage exact relève de l'expert-comptable agréé.
 

@@ -4,7 +4,7 @@
 
 **Temps de lecture : ~11 min** · **Niveau : opérationnel** · **Prérequis : [05_Contrat marchand](05_Contrat_Marchand_Acquisition_CMI.md)**
 
-**Liens croisés :** [Jurisprudence Loi 31-08](../../../08_Jurisprudence/02_Loi_31-08_Protection_Consommateur.md) · [Contrat marchand CMI](05_Contrat_Marchand_Acquisition_CMI.md) · [Glossaire](../../../00_START_HERE/03_Glossaire_12_Concepts_Cles.md)
+**Liens croisés :** [Jurisprudence Loi 31-08](../../../08_Jurisprudence/02_Loi_31-08/00_INDEX.md) · [Contrat marchand CMI](05_Contrat_Marchand_Acquisition_CMI.md) · [Glossaire](../../../00_START_HERE/03_Glossaire_12_Concepts_Cles.md)
 
 ## Objectifs
 
@@ -57,7 +57,7 @@ Un **chargeback** permet au porteur de contester un débit auprès de sa banque 
 
 ### Prévention : 6 réflexes gagnants
 
-1. CGV conformes 31-08 affichées avant commande (voir [jurisprudence 31-08](../../../08_Jurisprudence/02_Loi_31-08_Protection_Consommateur.md)).
+1. CGV conformes 31-08 affichées avant commande (voir [jurisprudence 31-08](../../../08_Jurisprudence/02_Loi_31-08/00_INDEX.md)).
 2. Preuve d'acceptation des CGV horodatée et versionnée.
 3. Descriptifs produits fidèles, photos réelles.
 4. Confirmation de commande automatique.

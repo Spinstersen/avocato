@@ -8,18 +8,23 @@
 2. En diagnostic, glissez : "La CNDP a sanctionné en 2023 un e-commerçant pour absence de registre — 20.000 DH d'amende" → crédibilité instantanée.
 3. Mettez à jour après chaque veille (CNDP.ma, JORF Maroc, Cass. com.).
 
-## Dossiers
+## Dossiers (structure canonique — 8 dossiers × 7 fichiers)
 
-| Fichier | Contenu | Mission liée |
+Chaque dossier : `00_INDEX` (plan) · `01_Texte_Source` (articles exacts) · `02_Decisions_Commentées` · `03_Grille_Sanctions_Procedure` · `04_Phrase_Diagnostic` (FR/EN/AR) · `05_Fiches_Pratiques` · `06_Source_V1_Corrige` (contenu V1 corrigé verbatim : décisions accentuées, missions liées, grilles détaillées).
+
+| Dossier | Contenu | Mission liée |
 | :--- | :--- | :--- |
-| `01_Loi_09-08_CNDP_Sanctions.md` | 4 décisions CNDP + grille sanctions | Mission 3 — Conformité 09-08 |
-| `02_Loi_31-08_Protection_Consommateur.md` | 3 jugements + art. clés CGV/rétractation | Mission 3 — Conformité e-commerce |
-| `03_Contrats_Commerce.md` | 3 arrêts Cass. sur clauses pénales, réserve de propriété, force majeure | Mission 2 — Contrats |
-| `04_Office_Changes_Sanctions.md` | 4 décisions Office + IGOC 2024 (rapatriement, dotations) | Mission 9 — Change |
-| `05_Propriete_Intellectuelle_OMPIC.md` | 4 décisions OMPIC/Cass. (opposition 2m, contrefaçon, cession) | Mission 7 — PI |
-| `06_Fiscalite_Internationale_Conventions.md` | 4 décisions DGI/conv. (183j, PE 6 mois — au-delà de 6 mois = PE, prix transfert, dividende conventionnel) | Mission 8 — Fiscalité |
-| `07_Droit_Social_CNSS.md` | 4 décisions CNSS/Cass. soc. (requalification, travail dissimulé) | Mission freelance — CNSS 27,83% |
-| `08_Contentieux_Clause_Penale.md` | 4 décisions Cass. (clause 10%, astreinte, réserve art.618) — approfondit 03 | Mission 2 — Contrats |
+| `01_Loi_09-08/` | 4 décisions CNDP + grille sanctions | Mission 3 — Conformité 09-08 |
+| `02_Loi_31-08/` | 3 jugements + art. clés CGV/rétractation | Mission 3 — Conformité e-commerce |
+| `03_Contrats_DOC/` | 3 arrêts Cass. sur clauses pénales, réserve de propriété, force majeure | Mission 2 — Contrats |
+| `04_Office_Changes/` | 4 décisions Office + IGOC 2024 (rapatriement, dotations) | Mission 9 — Change |
+| `05_Propriete_Intellectuelle/` | 4 décisions OMPIC/Cass. (opposition 2m, contrefaçon, cession) | Mission 7 — PI |
+| `06_Fiscalite_Internationale/` | 4 décisions DGI/conv. France–Maroc du **29 mai 1970** (183j, PE, prix transfert, dividende conventionnel) | Mission 8 — Fiscalité |
+| `07_Droit_Social_CNSS/` | 4 décisions CNSS/Cass. soc. (requalification, travail dissimulé) | Mission freelance — CNSS 27,83% |
+| `08_Contentieux_Clause_Penale/` | 4 décisions Cass. (clause 10%, astreinte, réserve art.618) — approfondit 03 | Mission 2 — Contrats |
+| `09_Veille_Mensuelle.md` | Veille mensuelle cndp.ma + courdecassation.ma — édition n°001, prochaine n°002 septembre 2026 | Toutes missions |
+
+> Les anciens fichiers plats (`01_Loi_09-08_CNDP_Sanctions.md`, etc.) ont été retirés : leur contenu corrigé vit désormais dans le `06_Source_V1_Corrige.md` de chaque dossier.
 
 ## Cartographie transversale — quel dossier pour quel client ?
 

@@ -2,7 +2,7 @@
 
 > Skills n°14 Litigation Mastery — l'échange des conclusions et des pièces : 70% du résultat d'un procès écrit se décide avant la plaidoirie. Temps de lecture : ~30 min.
 >
-> **Liens :** `02_Requete_Introductive_Assignation_Modele.md` · `04_Audience_Plaidoirie_PV.md` · `../../08_Jurisprudence/08_Contentieux_Clause_Penale.md`
+> **Liens :** `02_Requete_Introductive_Assignation_Modele.md` · `04_Audience_Plaidoirie_PV.md` · `../../08_Jurisprudence/08_Contentieux_Clause_Penale/00_INDEX.md`
 
 ## Objectifs
 - Comprendre la phase de mise en état : échange contradictoire des conclusions, communication des pièces, clôture.
@@ -11,7 +11,7 @@
 
 ## Prérequis
 - Requête/assignation déjà déposée : `02_Requete_Introductive_Assignation_Modele.md`.
-- Maîtrise du fond contractuel : `../../08_Jurisprudence/03_Contrats_Commerce.md`.
+- Maîtrise du fond contractuel : `../../08_Jurisprudence/03_Contrats_DOC/00_INDEX.md`.
 - Calendrier cabinet tenu à jour (rappels audiences et délais).
 
 ## TL;DR

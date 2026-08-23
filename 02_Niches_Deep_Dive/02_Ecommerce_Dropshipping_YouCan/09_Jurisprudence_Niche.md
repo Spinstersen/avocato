@@ -6,7 +6,7 @@
 
 ### 1. CNDP — E-commerce 50 commandes/jour sans registre 5 colonnes
 
-- **Réf :** CNDP Délib. n° D-2023-045 du 12/04/2023 — cndp.ma, publiée `08_Jurisprudence/01_Loi_09-08_CNDP_Sanctions.md:5`.
+- **Réf :** CNDP Délib. n° D-2023-045 du 12/04/2023 — cndp.ma, publiée `08_Jurisprudence/01_Loi_09-08/00_INDEX.md:5`.
 - **Faits :** Boutique YouCan/Shopify à 50 cmd/j collectait noms/tél/adresses + prospection WhatsApp sans registre, sans information clients, sans consentement traçable.
 - **Solution :** Mise en demeure 45j de constituer registre 5 colonnes (traitement/finalité/base légale/durée/destinataires) art.14 + art.23 Loi 09-08, amende 10k-300k DH art.52 en cas d'inexécution.
 - **Takeaway diagnostic :** « Sans registre 5 colonnes vous êtes en infraction dès le 1er email — on le constitue en 48h, sinon amende 10k-300k au contrôle. »

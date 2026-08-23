@@ -10,7 +10,7 @@
 - Décider honnêtement avec le client entre agir, transiger ou arbitrer, avec des fourchettes de coûts et de délais assumés.
 
 ## Prérequis
-- Bases DOC (contrats, clause pénale, résiliation) : voir `../../08_Jurisprudence/03_Contrats_Commerce.md`.
+- Bases DOC (contrats, clause pénale, résiliation) : voir `../../08_Jurisprudence/03_Contrats_DOC/00_INDEX.md`.
 - Feuille des chiffres clés : `../07_Sharp_Legal_Mind/03_Numbers_Sheet.md`.
 - Gestion du client anxieux en litige : `../15_Client_Psy/00_INDEX.md`.
 - Convention d'honoraires prête à signer : `../../05_Document_Bank/templates/01_Convention_Honoraires_Modele.md`.

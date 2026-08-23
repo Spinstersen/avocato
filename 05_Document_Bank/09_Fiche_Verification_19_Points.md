@@ -30,7 +30,7 @@ Chaque point suit la même structure : **Question → Base légale → Pièce à
 | # | Vérification | Base | Pièce / Test | Si oublié |
 |---|---|---|---|---|
 | 5 | **Statut actuel** : AE, SARL, SARL-AU, succursale ? Plafond AE 500k commerce / 200k services (Loi 114-13 art. 4) dépassé ? | Loi 114-13, Loi 20-19 art. 50–70 | RC, ICE, IF, attestation AE, CA 12 mois | AE au-delà du plafond = redressement + requalification |
-| 6 | **PE 6 mois — test du salarié/pouvoir de conclure** : avez-vous un salarié/agent en France >6 mois qui signe ? | Conv. art. 5 + 7 (PE = installation fixe OU agent dépendant avec pouvoir de conclure) | Contrat travail FR, pouvoirs, durée mission | 1 salarié Paris 7 mois qui signe = PE = 20k € d'IS France en plus (cf. `08_Jurisprudence/06_Fiscalite_Internationale_Conventions.md` cas 2) |
+| 6 | **PE 6 mois — test du salarié/pouvoir de conclure** : avez-vous un salarié/agent en France >6 mois qui signe ? | Conv. art. 5 + 7 (PE = installation fixe OU agent dépendant avec pouvoir de conclure) | Contrat travail FR, pouvoirs, durée mission | 1 salarié Paris 7 mois qui signe = PE = 20k € d'IS France en plus (cf. `08_Jurisprudence/06_Fiscalite_Internationale/00_INDEX.md` cas 2) |
 | 7 | **PE — chantier/prestation >6 mois sur place ?** | Conv. art. 5 §3 | Contrats chantier, feuilles de temps | Chantier 7 mois = PE même sans bureau |
 | 8 | **Prix de transfert — facturation intra-groupe au prix de marché ?** (filiale Casa ↔ Paris) | CGI art. 213 (LF 2021, seuil 50 MMAD, CbCR 8,136 MMDH) | Devis concurrents, comparables, dossier prix de transfert | Sous-facturation 1k au lieu de 5k = redressement + pénalités 30% |
 

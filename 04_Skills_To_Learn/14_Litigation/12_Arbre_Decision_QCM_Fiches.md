@@ -2,7 +2,7 @@
 
 > Skills n°14 Litigation Mastery — le fichier de synthèse : un arbre décisionnel à imprimer, un QCM d'auto-évaluation, six fiches mémo et votre programme d'intégration sur 30 jours. Temps de lecture : ~35 min.
 >
-> **Liens :** `00_INDEX.md` · `../07_Sharp_Legal_Mind/03_Numbers_Sheet.md` · `../../08_Jurisprudence/08_Contentieux_Clause_Penale.md`
+> **Liens :** `00_INDEX.md` · `../07_Sharp_Legal_Mind/03_Numbers_Sheet.md` · `../../08_Jurisprudence/08_Contentieux_Clause_Penale/00_INDEX.md`
 
 ## Objectifs
 - Décider en moins de 15 minutes si un litige mérite d'être poursuivi, transigé ou refusé — avec un arbre reproductible.

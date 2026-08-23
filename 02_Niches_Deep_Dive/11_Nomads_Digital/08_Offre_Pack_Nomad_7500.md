@@ -37,7 +37,7 @@ Le client n'achète pas un paquet standardisé. Il confie un problème (copie de
 
 **Aucun honoraire n'est un prix catalogue** : L'art. 30 Loi 28-08 exige une convention écrite préalable qui précise l'objet, le temps prévisible, la spécialité, et les débours. La provision usuelle de 50% à la signature est convenue dans la convention (art. 30) Le chiffre indicatif HT sert à la transparence, pas à la vente.
 
-**Pédagogie** : Expliquer que 3 500 DH HT pour 12 clauses, c'est 290 DH par clause rédigée, relue, et expliquée en Loom — à comparer avec le coût d'une clause pénale mal rédigée (30% jugée abusive, Cass. com. 2022/123, `08_Jurisprudence/08_Contentieux_Clause_Penale.md`).
+**Pédagogie** : Expliquer que 3 500 DH HT pour 12 clauses, c'est 290 DH par clause rédigée, relue, et expliquée en Loom — à comparer avec le coût d'une clause pénale mal rédigée (30% jugée abusive, Cass. com. 2022/123, `08_Jurisprudence/08_Contentieux_Clause_Penale/00_INDEX.md`).
 
 **Hors périmètre** : Le comptable chiffre, l'avocat qualifie. La co-traitance tripartite (`08_Fiscalite_Internationale_Rapatriement/12_Fiches_Checklist_CoTraitance_Comptable.md`) évite l'exercice illégal.
 

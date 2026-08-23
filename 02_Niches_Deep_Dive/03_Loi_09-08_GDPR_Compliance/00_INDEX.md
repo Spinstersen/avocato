@@ -39,7 +39,7 @@ Niche montée en gamme. Persona Hicham, cofondateur SaaS B2B marocain. Pack cœu
 
 - Vue d'ensemble : `01_Strategy/03_Unsaturated_Niches_Overview/05_Niche3_Conformite_09-08.md`.
 - Templates : `05_Document_Bank/templates/05_Registre_09-08_Modele.md`.
-- Jurisprudence : `08_Jurisprudence/01_Loi_09-08_CNDP_Sanctions.md`.
+- Jurisprudence : `08_Jurisprudence/01_Loi_09-08/00_INDEX.md`.
 
 ---
 

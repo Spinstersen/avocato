@@ -9,7 +9,7 @@
 L'auto-entrepreneur (AE) est plafonné : **200 000 DH/an services** / **500 000 DH/an commerce** (art. 4 Loi 114-13). Au-delà, 3 risques cumulatifs :
 
 1. **Redressement fiscal** : requalification en SARL de fait → IS (15% <300k / 20% 300k–1M / 30% >1M, CGI art. 19, LF annuelle) + pénalités 30% + intérêts.
-2. **Requalification CNSS** : si l'AE n'a qu'un seul donneur d'ordre, requalification en contrat de travail → cotisations 27,83% + dommages-intérêts (`08_Jurisprudence/07_Droit_Social_CNSS.md`).
+2. **Requalification CNSS** : si l'AE n'a qu'un seul donneur d'ordre, requalification en contrat de travail → cotisations 27,83% + dommages-intérêts (`08_Jurisprudence/07_Droit_Social_CNSS/00_INDEX.md`).
 3. **Blocage bancaire & Office** : encaissements > plafond sans RC/ICE/IF → banque gèle, Office exige justificatifs.
 
 Le diagnostic AE vs SARL permet de **chiffrer avant de transformer** — avec le comptable, pas seul.
@@ -155,7 +155,7 @@ R : Tolérance zéro. Dès 200 001 DH services, vous êtes hors AE. Ne jouez pas
 
 **Hors périmètre** : Le comptable chiffre (IS, CNSS, TVA), l'avocat qualifie (statut, statuts, convention). La co-traitance tripartite (`08_Fiscalite_Internationale_Rapatriement/12_Fiches_Checklist_CoTraitance_Comptable.md`) évite l'exercice illégal.
 
-> Références : `01_Strategy/06_Deontologie_Pratique_Avocat_Maroc/01_Convention_Honoraires.md`, `05_Document_Bank/templates/01_Convention_Honoraires_Modele.md`, `08_Jurisprudence/07_Droit_Social_CNSS.md`.
+> Références : `01_Strategy/06_Deontologie_Pratique_Avocat_Maroc/01_Convention_Honoraires.md`, `05_Document_Bank/templates/01_Convention_Honoraires_Modele.md`, `08_Jurisprudence/07_Droit_Social_CNSS/00_INDEX.md`.
 
 ---
 

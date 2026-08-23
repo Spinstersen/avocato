@@ -104,7 +104,7 @@ Réécriture niche-par-niche des 12 fiches AR génériques (registre 5 colonnes,
 | 23/08/2026 | recensement | 504 communs (39 id / 192 préfixe / 273 divergés), 178 V2-only, webapps divergentes (V2 3 modes sans fix bind) | ✅ |
 | 23/08/2026 | **Phase 0** | snapshot V2 `8ff6d90` · bundle 3,08 MB · 5 CSV · `10_PLAN_Next_Skills.md` copié · plan v2.0 écrit · **snapshot V1 `753f727`** (les 152 corrections n'étaient PAS commitées dans le repo principal — gelées avant toute écriture) | ✅ |
 | | **Phase 1** | port ONLY_V2 : 178 copiés · doublons Fiche_Complete dédupliqués (5 supprimés, contenu identique) · «1959»→29 mai 1970 sur ports (3 fichiers, 0 restant) · art.32 absent des ports · Yassine = persona fil rouge légitime (0 remplacement) · 3 U+FFFD réparés («à la signature») · 17 index MAJ (+4 adoptés V2) · build.js ignore désormais avocato-V2 · build 678 docs / 3,84 MB | ✅ |
-| | Phase 2 | 08 dossiers canoniques + flats retirés | ⬜ |
+| | **Phase 2** | 48 fichiers strippés des appendices (9,5→2,2 KB/fichier) · vérifié : noyaux dossiers ⊇ substance des flats (faits chiffrés normalisés) · chaque dossier reçoit `06_Source_V1_Corrige.md` (flat V1 verbatim, 0 perte) · 8 index de dossier MAJ (7 fichiers) · `00_Index` racine réécrit (dossiers canoniques + veille) · 8 flats supprimés · 33 refs croisées remappées (23 fichiers) · build 678 docs / 3,47 MB · «1959» restant dans 08 = avertissement pédagogique uniquement | ✅ |
 | | Phase 3 | dédup appendices 192+273 → _Annexes | ⬜ |
 | | Phase 4 | webapp 3 modes + fix bindContentEvents | ⬜ |
 | | Phase 5 | cohérence + QA + suppression V2 | ⬜ |

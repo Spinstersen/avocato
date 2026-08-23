@@ -49,9 +49,9 @@ Règle de remplissage : 3 lignes maximum, chaque ligne doit exister quelque part
 
 | # | Décision ou texte | Base légale | Source + date vérif |
 |---|---|---|---|
-| 1 | Clause pénale excessive 30% réduite à 10% — impayé freelance (Cass. com. 2022/123) : le juge réduit sans annuler, contrat maintenu + 10% dû | DOC art.264 | `08_Jurisprudence/08_Contentieux_Clause_Penale.md` §1 — courdecassation.ma, vérifié 20/08/2026 |
-| 2 | Redressement CNSS — 3 salariés non déclarés, contrôle DAMANCOM (2023) : rappel cotisations sur toute la période + majorations, AT non couvert | Taux CNSS 27,83% brut (6,74% salariale + 21,09% patronale) + majoration 3%/mois | `08_Jurisprudence/07_Droit_Social_CNSS.md` §1 — cnss.ma, vérifié 20/08/2026 |
-| 3 | Réserve de propriété inopposable — matériel 100k DH impayé (Cass. com. 2021) : clause valable seulement si écrite avant livraison, sinon créancier chirographaire | DOC art.618 | `08_Jurisprudence/08_Contentieux_Clause_Penale.md` §3 — courdecassation.ma, vérifié 20/08/2026 |
+| 1 | Clause pénale excessive 30% réduite à 10% — impayé freelance (Cass. com. 2022/123) : le juge réduit sans annuler, contrat maintenu + 10% dû | DOC art.264 | `08_Jurisprudence/08_Contentieux_Clause_Penale/00_INDEX.md` §1 — courdecassation.ma, vérifié 20/08/2026 |
+| 2 | Redressement CNSS — 3 salariés non déclarés, contrôle DAMANCOM (2023) : rappel cotisations sur toute la période + majorations, AT non couvert | Taux CNSS 27,83% brut (6,74% salariale + 21,09% patronale) + majoration 3%/mois | `08_Jurisprudence/07_Droit_Social_CNSS/00_INDEX.md` §1 — cnss.ma, vérifié 20/08/2026 |
+| 3 | Réserve de propriété inopposable — matériel 100k DH impayé (Cass. com. 2021) : clause valable seulement si écrite avant livraison, sinon créancier chirographaire | DOC art.618 | `08_Jurisprudence/08_Contentieux_Clause_Penale/00_INDEX.md` §3 — courdecassation.ma, vérifié 20/08/2026 |
 
 **3 takeaways :**
 
@@ -69,7 +69,7 @@ Règle de remplissage : 3 lignes maximum, chaque ligne doit exister quelque part
 |---|---|---|
 | `05_Document_Bank/templates/03_Pack_Freelance_Contrat.md` | Vérifier clause pénale à 10% (jamais 30%) + mention réserve art.618 dans contrat et facture | ✅ conforme, rien à changer |
 | `04_Skills_To_Learn/07_Sharp_Legal_Mind/03b_Numbers_Social.md` | Taux 27,83% + majoration 3%/mois repris — relire à chaque loi de finances | ⚠️ point de vigilance annuel |
-| `08_Jurisprudence/03_Contrats_Commerce.md` + `08_Jurisprudence/08_Contentieux_Clause_Penale.md` | Décisions sources déjà documentées et à jour dans le vault | ❌ aucune action requise |
+| `08_Jurisprudence/03_Contrats_DOC/00_INDEX.md` + `08_Jurisprudence/08_Contentieux_Clause_Penale/00_INDEX.md` | Décisions sources déjà documentées et à jour dans le vault | ❌ aucune action requise |
 
 ---
 

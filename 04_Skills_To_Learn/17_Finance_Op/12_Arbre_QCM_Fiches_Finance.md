@@ -2,7 +2,7 @@
 
 > **Cockpit opérateur — module 12/13.** Sous pression, on ne cherche pas la bonne fiche : on suit l'arbre. Cinq branches (statut, mandat, facturation, décaissements, pilotage), chaque nœud renvoie au module qui détaille. Ensuite, le QCM consolidé teste les réflexes acquis sur toute la piste.
 
-**Liens :** [Index piste](00_INDEX.md) · [Arbre prix mission (pricing)](../12_Finance_Cabinet_OS/00_INDEX.md) · [Numbers Sheet](../07_Sharp_Legal_Mind/03_Numbers_Sheet.md) · [Droit social CNSS](../../08_Jurisprudence/07_Droit_Social_CNSS.md)
+**Liens :** [Index piste](00_INDEX.md) · [Arbre prix mission (pricing)](../12_Finance_Cabinet_OS/00_INDEX.md) · [Numbers Sheet](../07_Sharp_Legal_Mind/03_Numbers_Sheet.md) · [Droit social CNSS](../../08_Jurisprudence/07_Droit_Social_CNSS/00_INDEX.md)
 
 ## Objectifs
 1. Disposer d'un arbre décisionnel unique couvrant 90 % des questions financières du quotidien.

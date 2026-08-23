@@ -10,7 +10,7 @@
 - Éviter les fins de non-recevoir de compétence qui font perdre des mois au client.
 
 ## Prérequis
-- Notions DOC de base (contrat, obligation, inexécution) : `../../08_Jurisprudence/03_Contrats_Commerce.md`.
+- Notions DOC de base (contrat, obligation, inexécution) : `../../08_Jurisprudence/03_Contrats_DOC/00_INDEX.md`.
 - Avoir lu `00_INDEX.md` pour la cartographie générale du module.
 
 ## TL;DR

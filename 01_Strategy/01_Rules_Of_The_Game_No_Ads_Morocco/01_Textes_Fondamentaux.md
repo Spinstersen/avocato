@@ -78,7 +78,7 @@ Quand l'avocat exploite un site web, collecte des contacts, des leads via formul
 - Recueillir le consentement pour les données collectées.
 - Garantir la sécurité et la confidentialité.
 
-Voir `08_Jurisprudence/01_Loi_09-08_CNDP_Sanctions.md` et `02_Niches_Deep_Dive/03_Loi_09-08_GDPR_Compliance/`.
+Voir `08_Jurisprudence/01_Loi_09-08/00_INDEX.md` et `02_Niches_Deep_Dive/03_Loi_09-08_GDPR_Compliance/`.
 
 ### 4.2 Loi 31-08 (protection du consommateur)
 

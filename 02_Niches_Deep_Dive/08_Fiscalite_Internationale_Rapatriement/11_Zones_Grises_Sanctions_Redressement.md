@@ -18,7 +18,7 @@
 
 ## Jurisprudence (à citer `08_Jurisprudence/`)
 
-*   CNDP 2023: e-com 50 cmd/j sans registre → mise en demeure 45j (voir `08_Jurisprudence/01_Loi_09-08_CNDP_Sanctions.md`).
+*   CNDP 2023: e-com 50 cmd/j sans registre → mise en demeure 45j (voir `08_Jurisprudence/01_Loi_09-08/00_INDEX.md`).
 *   Cass. com 2022: clause PE 6 mois + stock = PE requalifié → IS France.
 
 ## Protocole récupération

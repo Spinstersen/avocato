@@ -2,7 +2,7 @@
 
 > Split 2.0 du master `03_Numbers_Sheet.md` — source vérité inchangée. Ne dupliquez pas ailleurs.
 
-Déclinaison change du Numbers Sheet : l'Office des Changes ne contrôle pas le montant mais **la chaîne** — contrat FR/EN → facture art.92 → SWIFT → dépôt sous 30j → compte convertible. Un maillon manquant = TVA redressée + sanction Office (voir `08_Jurisprudence/04_Office_Changes_Sanctions.md`).
+Déclinaison change du Numbers Sheet : l'Office des Changes ne contrôle pas le montant mais **la chaîne** — contrat FR/EN → facture art.92 → SWIFT → dépôt sous 30j → compte convertible. Un maillon manquant = TVA redressée + sanction Office (voir `08_Jurisprudence/04_Office_Changes/00_INDEX.md`).
 
 ## Tableau change
 
@@ -39,7 +39,7 @@ Déclinaison change du Numbers Sheet : l'Office des Changes ne contrôle pas le 
 
 **Sources primaires seules :** `oc.gov.ma` (IGOC 2024, circulaires), `sgg.gov.ma` (Loi 19-06, CGI art.92), `bkam.ma` (comptes devises/convertibles). Aucune source secondaire.
 
-**Renvoi master :** master `03_Numbers_Sheet.md` (source unique) ; jurisprudence détaillée `08_Jurisprudence/04_Office_Changes_Sanctions.md` ; glossaire §03, §04, §12 ; splits frères `03a_Numbers_Fiscal.md`, `03b_Numbers_Social.md`.
+**Renvoi master :** master `03_Numbers_Sheet.md` (source unique) ; jurisprudence détaillée `08_Jurisprudence/04_Office_Changes/00_INDEX.md` ; glossaire §03, §04, §12 ; splits frères `03a_Numbers_Fiscal.md`, `03b_Numbers_Social.md`.
 
 > Devoir d'information art.59 Loi 28-08 : information doctrinale générale, pas consultation individualisée ; diagnostic préalable 45 min + convention art.30 ; co-traitance expert-comptable obligatoire pour le volet change.
 

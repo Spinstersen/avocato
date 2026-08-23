@@ -2,7 +2,7 @@
 
 > **Cockpit opérateur — module 05/13.** Embaucher n'est pas une décision RH, c'est une décision financière : le coût réel d'un salarié n'est jamais son salaire brut. Part patronale 21,09 %, majorations de retard 3 %/mois, indemnité de licenciement à provisionner — ce module chiffre tout, puis déroule l'onboarding CNSS sans faute.
 
-**Liens :** [Index piste](00_INDEX.md) · [03b_Numbers_Social](../07_Sharp_Legal_Mind/03b_Numbers_Social.md) · [Droit social & CNSS](../../08_Jurisprudence/07_Droit_Social_CNSS.md) · [Scaling AE→SARL](../../02_Niches_Deep_Dive/06_Autoentrepreneur_to_SARL_Scaling/00_INDEX.md)
+**Liens :** [Index piste](00_INDEX.md) · [03b_Numbers_Social](../07_Sharp_Legal_Mind/03b_Numbers_Social.md) · [Droit social & CNSS](../../08_Jurisprudence/07_Droit_Social_CNSS/00_INDEX.md) · [Scaling AE→SARL](../../02_Niches_Deep_Dive/06_Autoentrepreneur_to_SARL_Scaling/00_INDEX.md)
 
 ## Objectifs
 1. Décomposer les cotisations : 6,74 % salarié + 21,09 % patronal ≈ 27,83 % du brut.

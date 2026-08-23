@@ -2,7 +2,7 @@
 
 > Skills n°14 Litigation Mastery — geler une situation en jours, pas en années : mesures provisoires, ordonnances sur requête et référés devant les juridictions marocaines. Temps de lecture : ~30 min.
 >
-> **Liens :** `01_CPC_Fondamentaux_Juridictions.md` · `06_Injonction_De_Payer_TribCom.md` · `../../08_Jurisprudence/03_Contrats_Commerce.md`
+> **Liens :** `01_CPC_Fondamentaux_Juridictions.md` · `06_Injonction_De_Payer_TribCom.md` · `../../08_Jurisprudence/03_Contrats_DOC/00_INDEX.md`
 
 ## Objectifs
 - Identifier les situations qui justifient une procédure rapide (urgence, péril, conservation de preuves) plutôt qu'une action au fond.
