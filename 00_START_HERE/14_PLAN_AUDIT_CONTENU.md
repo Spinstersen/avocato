@@ -117,3 +117,20 @@ Dossier sain (aucun <3KB). Passe légère :
 - 23/08/2026 · **P3 Acquisition** : décision « enrichir individuellement » appliquée — 6 fichiers `10_FAQ_30_Canal` remplis avec vraies Q/R (LinkedIn 25Q, SEO 11Q, Partenariats 12Q, WhatsApp 11Q, Conférences 10Q, Referral 9Q), placeholders « ...30 Q/R » supprimés ; chemins vérifiés OK après fusion
 - 23/08/2026 · **P4 Niches 09-12** : `11_Nomads/07_Change_Rapatriement` réécrit en clair (règle 30j expliquée, tableau étapes, cas Lena) ; `10_MRE/10_Cas_Pratiques` réécrit (3 cas détaillés tableaux, retenue dividende corrigée 15%→10% avec 5000-F) ; **erreur factuelle « IS 45% lié à la dotation voyage » éradiquée** (02_Dotation_Voyage réécrit + glossaire + arbre + INDEX niche 09 — la dotation voyage est personnelle, sans condition d'IS) ; `04_Dotation_Investissement_100M` réécrit (plafonds PM/PB séparés, dossier RC1 détaillé) ; niche 12 Shell VALIDÉE telle quelle (positionnement déontologique exemplaire malgré taille)
 - 23/08/2026 · **P5 Skills — grand nettoyage placeholders** : **138 blocs « Cas pratique détaillé / adapter l'exemple au sujet du fichier » supprimés** (instructions d'IA oubliées, visibles dans 125 fichiers Skills+START_HERE — passe 1 : sections header, passe 2 : lignes injectées en plein contenu) ; **erreur « SARL-AU IS 10 % <500k » corrigée** en IS 20 % LF 2026 (`07_Sharp_Legal_Mind/05_Deal`) ; track 14_Litigation vérifiée : bannières CPC 58-25 présentes partout ✓
+- 23/08/2026 · **P6 Strategy/ADHD/90Day** : bannières abrogation posées sur **9 sous-fichiers déontologie** supplémentaires citant art.30/32/33-35 loi 28-08 (total vault : 16 fichiers bannérés + veille) ; `07_90Day_Plan/00_Overview` enrichi (vue calendrier 13 semaines + jalons de sortie de phase + rappels légaux 66.23/facturation élec/IGOC) ; Daily Checklist VALIDÉE courte par design (template imprimable)
+- 23/08/2026 · **P7 Jurisprudence — contrôle final** : les 8 dossiers suivent tous la structure canonique complète (00_INDEX → 01_Texte_Source → 02_Decisions → 03_Grille → 04_Phrase → 05_Fiches → 06_Source_V1_Corrige) ✓ ; veille mensuelle Édition 002 à jour ✓
+
+## Statut des passes (fin de session 23/08/2026)
+
+| Passe | Statut |
+|---|---|
+| P0 Loi 66.23 | 🟡 Bannières ✓ · veille ✓ · re-mapping articles ⏳ bloqué sur texte consolidé SGG |
+| P1 Liens morts | ✅ 0 lien mort restant |
+| P2 START_HERE | ✅ |
+| P3 Acquisition | ✅ FAQ ×6 remplies |
+| P4 Niches 09-12 | ✅ (+ erreur IS 45% éradiquée) |
+| P5 Skills | ✅ (138 placeholders + IS 10%) |
+| P6 Strategy/ADHD/90Day | ✅ (9 bannières + overview enrichi) |
+| P7 Jurisprudence | ✅ structure validée |
+
+**Suivi externe restant :** assemblée ABM 05/09 · texte consolidé loi 66.23 (SGG) · textes réglementaires CPC 58-25 · décret facturation électronique · décision CC fond (nouvelle saisine éventuelle).

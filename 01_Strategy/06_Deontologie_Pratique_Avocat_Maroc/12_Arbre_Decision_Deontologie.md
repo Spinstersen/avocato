@@ -1,5 +1,8 @@
 # 12 ΓÇö Arbre de D├⌐cision D├⌐ontologique (2 min avant toute action)
 
+> ⚠️ **MISE À JOUR 23/08/2026 — Loi n° 66.23 en vigueur (BO n°7536 du 20/08/2026) : la loi 28-08 est ABROGÉE.** Les articles cités ci-dessous (art. 30, 32, 33-35, 59…) renvoient à l'ancien texte ; **re-mapping des équivalences vers la loi 66.23 en cours** (traçabilité honoraires, stage 2 ans, discipline réformée). Détail : `00_START_HERE/12_VEILLE_LEGALE_2025_2026.md` §A2.
+
+
 > **Version encyclop├⌐dique ΓÇö 22/08/2026 ΓÇö ├Ç afficher ├á c├┤t├⌐ de l'├⌐cran. Plastifier A5.**
 > **But:** R├⌐pondre en 2 min "est-ce que je peux faire X sans sanction ?" sans recherche externe.
 > **Base:** Loi 28-08 art.30-36 + RI Barreau + `01_Rules/11_Arbre_Decision_Avant_Action.md`

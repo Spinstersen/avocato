@@ -32,6 +32,25 @@ You don't need to hit exact numbers. Hit actions, numbers follow.
 
 Daily: 10h-11:30 Deep Work (delivery), 11:30-12h shallow, 18h review.
 
+## Vue calendrier — 13 semaines d'un coup d'œil
+
+```
+S1  S2  │ S3  S4  S5  S6  │ S7  S8  S9  S10 │ S11 S12 S13
+FOUNDATION│   TRACTION      │    SYSTEMIZE    │   SCALE
+pack+profil│3 clients+atelier│5-8 clients+ret. │2 partners+niche 2
+```
+
+Jalons de sortie de phase (si tu ne les atteins pas → prolonge la phase, ne saute pas) :
+* Fin S2 : pack défini + profil LinkedIn propre + 3 comptables contactés
+* Fin S6 : **1er client payé** + 1 atelier fait + routine contenu tenue
+* Fin S10 : 5 clients actifs + 1 partenaire qui renvoie + 1 retainer proposé
+* Fin S13 : 30k+ DH/mois récurrents + décision niche suivante prise
+
+⚠️ **Rappels légaux pendant ton 90 jours** (veille : `../00_START_HERE/12_VEILLE_LEGALE_2025_2026.md`) :
+* Loi 66.23 en vigueur depuis le 20/08/2026 — convention honoraires à jour des équivalences (bannières dans le vault)
+* Facturation électronique : AE/PME >500k CA visées dès 2027 — prépare ton diagnostic maintenant (`04_Skills_To_Learn/21_Facturation_Electronique/`)
+* IGOC 2026 appliqué depuis le 01/01/2026 si tu touches au change
+
 ## Files
 
 - `01_Phase1_Foundation_Weeks1-2.md` — detailed daily checklist

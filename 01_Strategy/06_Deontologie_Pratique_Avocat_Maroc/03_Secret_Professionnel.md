@@ -1,5 +1,8 @@
 # 03 — Le secret professionnel (art. 33-35 Loi 28-08)
 
+> ⚠️ **MISE À JOUR 23/08/2026 — Loi n° 66.23 en vigueur (BO n°7536 du 20/08/2026) : la loi 28-08 est ABROGÉE.** Les articles cités ci-dessous (art. 30, 32, 33-35, 59…) renvoient à l'ancien texte ; **re-mapping des équivalences vers la loi 66.23 en cours** (traçabilité honoraires, stage 2 ans, discipline réformée). Détail : `00_START_HERE/12_VEILLE_LEGALE_2025_2026.md` §A2.
+
+
 Le secret professionnel est l'obligation la plus ancienne et la plus sacrée de la profession d'avocat. Ce fichier détaille le champ, les exceptions, et les pièges modernes (réseaux sociaux, IA, données numériques).
 
 ## 1. Le cadre légal
