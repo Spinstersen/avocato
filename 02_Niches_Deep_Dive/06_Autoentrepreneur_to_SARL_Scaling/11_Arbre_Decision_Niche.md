@@ -8,30 +8,34 @@ Rester AE au-delà du plafond 2 ans = radiation + redressement. D'où : **CA 200
 
 ```
 [Q1] CA 12m glissants > plafond ? §09 Loi 114-13 (200k service / 500k commerce)
- ├─ NON (<180k) → AE 1j IR 1 % service /1% commerce §09 → stay AE + registre 09-08 §06 si collecte
- └─ OUI → [Q2] Résident 183j / foyer ? §01 CGI art.23
-           ├─ >183j résident → IS mondial 20 % (LF 2026) §09 + rapatriement 30j §03 obligatoire
-           └─ <183j non-résident → IS source §07
-                └─ [Q3] Client étranger payé devises + 3 cond. art.92 ? §04
-                     ├─ OUI → SARL 10k capital 7-14j §09 → facture 0% TVA + compte convertible §12
-                     └─ NON (client MA) → TVA 20% → [Q4] Véhicule ?
-                          ├─ AE plafonné → SARL 15% §09
-                          └─ Besoin tester sans SARL → Portage 8% (pas de PE §02) → SARL ensuite
+ ├─ NON (<180k serv / <450k com) → AE 1j IR 0,5 % commerce / 1 % services (CGI art.73-II) → stay AE + registre 09-08 §06 si collecte
+ └─ OUI → [Q1bis] Charges faibles (<50 % CA) ET sous plafonds CPU ?
+           ├─ OUI → **CPU** CGI art.40-I (services <500k / commerce <2M ; coeff ×10 % ≈ 2-3 %)
+           │         → dossier dédié : `01_Strategy/07_Formes_Juridiques_2026/02_CPU_CGI_art40-I.md`
+           └─ NON / besoin TVA-crédit / salariat → [Q2] Résident 183j / foyer ? §01 CGI art.23
+                     ├─ >183j résident → IS mondial 20 % (LF 2026) §09 + rapatriement 30j §03 obligatoire
+                     └─ <183j non-résident → IS source §07
+                          └─ [Q3] Client étranger payé devises + 3 cond. art.92 ? §04
+                               ├─ OUI → SARL 10k capital 7-14j §09 → facture 0% TVA + compte convertible §12
+                               └─ NON (client MA) → TVA 20% → [Q4] Véhicule ?
+                                    ├─ Levée de fonds / pacte prévue ? → **SAS/SASU** loi 19-20 (`07_Formes_Juridiques_2026/01`)
+                                    ├─ Sinon → SARL 20 % (LF 2026) §09
+                                    └─ Besoin tester sans société → Portage 8% (pas de PE §02) → SARL ensuite
 ```
 
 ## Tableau décision — 4 branches
 
 | Branche | Condition | Base légale | Procédure (renvoi Glossaire) | Sortie |
 |---------|-----------|-------------|------------------------------|--------|
-| A — Plafond | CA 12m glissants >200k serv /500k com | Loi 114-13 §09 | Suivre CA mensuel glissant → si > plafond 2 ans → radiation AE + IS 15% + IR 38% §09 | AE ou sortie AE |
+| A — Plafond | CA 12m glissants >200k serv /500k com | Loi 114-13 §09 | Suivre CA mensuel glissant → si > plafond 2 ans → radiation AE + bascule résultat réel + pénalités §09 | AE ou sortie AE |
 | B — Résidence | 183j / foyer détermine IS | CGI art.23 §01 + §07 art.27 | Compter 365j glissants → attestation DGI 30j §01 → si résident 210j + SARL = carte 1 an §08 | Mondial vs source |
-| C — TVA | Export hors MA + devises + 30j | CGI art.92/144 §04 + IGOC §03 | SARL seule permet exon 0% §04 → mention art.92 + SWIFT 30j §03 → sinon TVA 20% + 15% pénalités | 0% ou 20% |
-| D — Véhicule | AE vs SARL 15% vs portage 8% | §09 + §02 PE + §12 | Si <200k → AE 2% (3k sur 150k) ; si >200k → SARL 10k 7-14j IS 15% (15k sur 100k bénéf) ; si PE risque FR §02 → portage 8% transitoire | Choix chiffré |
+| C — TVA | Export hors MA + devises + 30j | CGI art.92/144 §04 + IGOC §03 | SARL/SAS seule permet exon 0% §04 → mention art.92 + SWIFT 30j §03 → sinon TVA 20% + 15% pénalités | 0% ou 20% |
+| D — Véhicule | AE vs **CPU** vs SARL/SAS 20% vs portage 8% | §09 + CGI art.40-I + §02 PE + §12 | Si <200k → AE (0,5-1%) ; si >200k services charges faibles → CPU ~2-3% du CA ; si charges >50 % ou TVA-crédit → SARL/SAS IS 20 % (LF 2026) ; si PE risque FR §02 → portage 8% transitoire ; levée prévue → SAS | Choix chiffré |
 
 ## Cas chiffrés
 
-* **Bilal, dev AE 190k service, 210j Casa, client Berlin payé EUR** : Plafond OK (<200k) mais croissance → SARL anticipée : AE 190k×2% =3,8k IR vs SARL 60k bénéf×15% =9k IS ; mais AE ne permet pas exon art.92 propre §04 → TVA 0% via SARL + rapatriement 30j §03 → SARL dès 200k franchi, pas après radiation.
-* **Fatima, e-com AE 520k commerce** : >500k → AE radiée §09 → redressement IS 15% sur marge + pénalités 30% ; passage SARL 10k 7-14j → IS 20 % (LF 2026) → si bénéf 80k → 12k IS vs 5,2k IR AE (520k×1%) → surcoût 6,8k mais conformité + CMI + dotation 15k §03 débloquée.
+* **Bilal, dev AE 190k service, 210j Casa, client Berlin payé EUR** : Plafond OK (<200k) mais croissance → palier CPU envisageable si charges faibles (CPU coeff 25 % = 4,75k sur 190k, libératoire + plafond 500k) vs SARL IS 20 % sur bénéfice ; mais AE/CPU ne permettent pas exon art.92 propre §04 → TVA 0% via SARL/SAS + rapatriement 30j §03 → société dès le besoin export récurrent, pas après radiation.
+* **Fatima, e-com AE 520k commerce** : >500k → AE radiée §09 → redressement résultat réel + pénalités 30 % ; options : **CPU commerce** (coeff ~12 % → ~6,2k, plafond 2M) si charges faibles, ou SARL 10k 7-14j → IS 20 % (LF 2026) → si bénéf 80k → 16k IS vs CPU 6,2k → arbitrage charges/marge ; CMI + dotation 15k §03 débloquées par la société.
 * **Younes, 40j MA, AE 180k, client Paris via closer Paris 7 mois** : PE OUI §02 → AE + PE = IS FR 25% → portage 8% (14,4k sur 180k) évite PE le temps de créer SARL Casa sans salarié signataire §02 → économie 30k.
 
 ## Erreurs / pièges
@@ -50,4 +54,4 @@ Rester AE au-delà du plafond 2 ans = radiation + redressement. D'où : **CA 200
 
 Pour AE→SARL, l'arbre commence par le plafond glissant, pas par l'envie de SARL — le statut est une conséquence fiscale. L'ordre plafond → 183j → TVA → véhicule évite de créer une SARL à 190k qui coûte plus cher qu'AE, ou de rester AE à 520k et se faire radier. Chaque branche renvoie à une mission avec convention provision 50% §10 et preuve DOC art.443 §11 + registre §06 + marque §05. Vérifiez PLF et IGOC à J-0.
 
-> Diagnostic 45 min + comptable + banque : chiffrage AE 1-2% vs SARL 15/20/32% PLF exacte.
+> Diagnostic 45 min + comptable + banque : chiffrage AE 0,5-1 % vs CPU art.40-I vs SARL/SAS IS 20 % (LF 2026). Dossier complet statuts : `01_Strategy/07_Formes_Juridiques_2026/`.

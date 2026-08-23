@@ -101,6 +101,7 @@ Introduite par **loi n° 19-20** modifiant la loi 17-95 (**dahir n° 1-21-75 du 
 - Fiscalité : IS de droit commun (donc **20 %** LF 2026), CM 0,5 % min 3 000 DH ; **pas d'option IR**.
 - Points de friction pratiques : certaines administrations n'ont pas mis à jour leurs systèmes (« SAS » absente de certains formulaires) ; **décret seuils CAC toujours non publié** (CAC facultatif en pratique).
 - Positionnement vs SARL : préférer la SAS dès qu'il y a investisseurs/BSA ou pacte ; SARL reste adaptée aux structures simples familiales.
+- ✅ **Dossier complet créé** : `01_Strategy/07_Formes_Juridiques_2026/` (SAS + **CPU art.40-I** — le palier intermédiaire oublié — arbre statutaire 2026, comparatifs chiffrés, packs).
 - Impact vault : enrichir `06_AE_vers_SARL_Scaling` (option SAS manquante) — sprint suggéré.
 
 ### C2. Ce qui ne change pas (socle stable, re-vérifié)
