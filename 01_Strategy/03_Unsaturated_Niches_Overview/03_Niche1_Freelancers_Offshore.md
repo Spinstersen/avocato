@@ -76,7 +76,7 @@ La niche 1 est la **niche pilote recommandée** pour un avocat trilingue tech-sa
 
 ### 3.6 Les conventions fiscales
 
-- Convention Maroc-France (1959, modifiée) : éviter la double imposition.
+- Convention Maroc-France (29 mai 1970) : éviter la double imposition.
 - Convention Maroc-Belgique : idem.
 - Le MRE freelance qui vit à l'étranger et facture des clients au Maroc ou inversement a une situation fiscale complexe.
 
