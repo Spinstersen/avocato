@@ -23,13 +23,17 @@
 
     <div class="mode-switch" role="tablist" aria-label="Mode">
       <button class="mode-btn active" data-mode="vault" role="tab" aria-selected="true">📚 Base</button>
+      <button class="mode-btn" data-mode="curriculum" role="tab" aria-selected="false">🎓 Curriculum</button>
       <button class="mode-btn" data-mode="cabinet" role="tab" aria-selected="false">⚖️ Cabinet OS</button>
     </div>
 
     <label class="search-wrap" id="searchWrap">
       <span class="search-icon" aria-hidden="true">⌕</span>
-      <input id="searchInput" type="search" placeholder="Rechercher… ( / )" autocomplete="off">
+      <input id="searchInput" type="search" placeholder="Rechercher… ( / ) — FR/EN/AR" autocomplete="off">
     </label>
+    <div class="curriculum-hint" id="curriculumHint" hidden style="padding:8px 12px;font-size:12px;color:#5a6b7b;background:#f5f1e8;border-radius:8px;margin:8px 0;">
+      🎓 Curriculum: 00→01→08→02→03→05→04→06→07 • FR fait foi, EN/AR dans <code>06_Glossaire_Trilingue</code> • QCM en bas de chaque fichier
+    </div>
 
     <nav class="tree" id="tree" aria-label="Documents"></nav>
     <!-- Cabinet nav is rendered into #tree when mode=cabinet -->

@@ -62,7 +62,9 @@
       b.classList.toggle('active', on);
       b.setAttribute('aria-selected', on ? 'true' : 'false');
     });
-    const isBase = m === 'vault';
+    const isVault = m === 'vault';
+    const isCurriculum = m === 'curriculum';
+    const isBase = isVault || isCurriculum;
     $('#tree').hidden = !isBase;
     $('#searchWrap').hidden = !isBase;
     $('#btnDashboard').hidden = !isBase;
@@ -70,6 +72,15 @@
     $('#prevBtn').hidden = !isBase;
     $('#nextBtn').hidden = !isBase;
     $('#readBtn').hidden = !isBase;
+    const hint = document.getElementById('curriculumHint');
+    if (hint) hint.hidden = !isCurriculum;
+    if (isCurriculum) {
+      // auto-filter hint: ensure tree shows curriculum order, no extra filter
+      // could highlight curriculum path via CSS class
+      document.body.dataset.curriculum = '1';
+    } else {
+      delete document.body.dataset.curriculum;
+    }
     if (isBase) {
       // restore Base view (trigger app.js to re-render tree if needed)
       const h = location.hash && decodeURIComponent(location.hash.slice(1));
