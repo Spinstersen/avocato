@@ -74,3 +74,7 @@ One good comptable partner = 2-4 clients/month without any content. That's 8k-12
 Same pitch but offer: "Atelier mensuel pour vos startups: Pacte d'associés & Loi 09-08" — you become "their" lawyer, they recommend you to every cohort.
 
 **ADHD Tip:** Partnership outreach is batchable: 1h on Tuesday/Thursday to send 5 messages + follow up. Use template, don't craft each from scratch.
+
+---
+
+> **Annexes :** procédure trilingue du canal déplacée dans [_Annexes.md](03_Acquisition_Without_Ads/_Annexes.md).

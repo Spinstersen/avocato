@@ -1,6 +1,6 @@
 # 10 — Comparatif International Loi 09-08 vs RGPD / GDPR (Maroc / France / Espagne-Belgique)
 
-> **Sources primaires :** `sgg.gov.ma` Loi 09-08 art.7/12/14/20/24/43/52, `cndp.ma` guide registre + délib.40-22, `cnil.fr` RGPD art.5/6/28/35/44/46/83, Bofip Conv. 1959 art.27, `oc.gov.ma` IGOC si transfert financier. **Glossaire :** `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §01-§12 (central §06).
+> **Sources primaires :** `sgg.gov.ma` Loi 09-08 art.7/12/14/20/24/43/52, `cndp.ma` guide registre + délib.40-22, `cnil.fr` RGPD art.5/6/28/35/44/46/83, Bofip Conv. 29 mai 1970 art.27, `oc.gov.ma` IGOC si transfert financier. **Glossaire :** `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §01-§12 (central §06).
 
 ## Tableau comparatif conformité données — 5 colonnes
 

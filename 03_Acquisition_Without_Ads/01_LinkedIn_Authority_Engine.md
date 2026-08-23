@@ -83,3 +83,7 @@ Week 3: Launch lead magnet + DM 10
 Week 4: 3 diagnostics → 1 pack sale (first win)
 
 **Next:** Create your first carousel tomorrow: Pick ONE error from your niche doc.
+
+---
+
+> **Annexes :** procédure trilingue du canal déplacée dans [_Annexes.md](03_Acquisition_Without_Ads/_Annexes.md).

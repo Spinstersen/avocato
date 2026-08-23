@@ -1,6 +1,6 @@
 # 10 — Comparatif International E-commerce & Dropshipping YouCan (Maroc / France / Belgique-Espagne)
 
-> **Sources primaires :** `sgg.gov.ma` (Loi 31-08 art.36-38, Loi 09-08 art.12-14/43, Loi 17-97 art.133/148, CGI art.19/92/144, Loi 114-13 AE, IGOC 2024 `oc.gov.ma`), `cndp.ma`, `cnil.fr` RGPD, Bofip Conv. 1959/1972. **Glossaire :** `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §01-§12.
+> **Sources primaires :** `sgg.gov.ma` (Loi 31-08 art.36-38, Loi 09-08 art.12-14/43, Loi 17-97 art.133/148, CGI art.19/92/144, Loi 114-13 AE, IGOC 2024 `oc.gov.ma`), `cndp.ma`, `cnil.fr` RGPD, Bofip Conv. 29 mai 1970/1972. **Glossaire :** `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §01-§12.
 
 ## Tableau comparatif e-commerce — 5 colonnes
 
@@ -42,7 +42,7 @@ Maroc : dépôt 35 protège boutique, mais **pas le SaaS/app (classes 9+42)** �
 
 1. **CGV 31-08 d'abord** : 7j rétractation + preuve commande art.443 §11 avant encaissement — sinon contrat nul.
 2. **Registre CNDP** : 5 colonnes art.14 + déclaration 30j cndp.ma + CTT Shopify US art.43 (§06) — sinon CMI refuse contrat.
-3. **Attestation résidence DGI 30j** (passeport+bail+RC) pour dividende boutique → activer Conv. 1959/1972 (§01 §07).
+3. **Attestation résidence DGI 30j** (passeport+bail+RC) pour dividende boutique → activer Conv. 29 mai 1970/1972 (§01 §07).
 4. **5000-F Bofip** visé DGI → banque FR/BE avant virement dividende YouCan : retenue **15% BE /10% FR** vs 30% PFU → **15k économisés/100k** (Cas C).
 5. **Compte devise MRE 72h** (si <183j) transférable FR vs convertible 48h (si résident) §12 — choisir avant 1er virement.
 
@@ -61,4 +61,4 @@ Maroc : dépôt 35 protège boutique, mais **pas le SaaS/app (classes 9+42)** �
 Le 500k AE commerce Maroc (1% sur CA brut) n'est pas le micro 188k FR (12,3%+23% sur CA brut) — assiette et plafond diffèrent. La CGV 7j Maroc Loi 31-08 n'est pas la CGV 14j France L221-18 (délai, remboursement 15j vs 14j). Le crédit art.27 ne s'applique que via 5000-F + attestation — sans, double imposition 15k+25k. Expliquez au client YouCan pourquoi copier ses CGV France expose à clause abusive et pourquoi OMPIC 1 200 DH/classe n'est pas INPI 190€ (portée territoriale).
 
 ---
-> Sources à vérifier à J-0 : `sgg.gov.ma` Loi 31-08/09-08/17-97, CGI art.92, `oc.gov.ma` IGOC 2024, `cndp.ma` délib.40-22, Bofip Conv. FR-MA 1959 art.27. Le 7j marocain n'est pas le 14j français : expliquez la base légale au client MRE qui veut copier ses CGV France.
+> Sources à vérifier à J-0 : `sgg.gov.ma` Loi 31-08/09-08/17-97, CGI art.92, `oc.gov.ma` IGOC 2024, `cndp.ma` délib.40-22, Bofip Conv. FR-MA du 29 mai 1970 art.27. Le 7j marocain n'est pas le 14j français : expliquez la base légale au client MRE qui veut copier ses CGV France.

@@ -1,19 +1,19 @@
-# Niche: Nomads Digital — Playbook 7j (Encyclopedie)
+# Niche: Nomads Digital ΓÇö Playbook 7j (Encyclopedie)
 
-> **Version encyclopedique — 22/08/2026 — FR fait foi — Verifie sgg.gov.ma / oc.gov.ma**
-> **Pack: 2.500-5.000 HT — Base: Loi02-03 carte 1 an, AE 500k/200k, 09-08 registre — Vitesse 2-4 sem**
+> **Version encyclopedique ΓÇö 22/08/2026 ΓÇö FR fait foi ΓÇö Verifie sgg.gov.ma / oc.gov.ma**
+> **Pack: 2.500-5.000 HT ΓÇö Base: Loi02-03 carte 1 an, AE 500k/200k, 09-08 registre ΓÇö Vitesse 2-4 sem**
 
 ## TL;DR
 
-- **Qui:** Nomads Digital — voir dossier complet 13 fichiers dans 02_Niches_Deep_Dive/11_Nomads_Digital/
-- **Douleur:** Loi02-03 carte 1 an, AE 500k/200k, 09-08 registre — cout 15k-300k si non traite
-- **Offre:** 2.500-5.000 HT — provision 50% art30, TVA20% ou 0% export art92, 7j apres provision+pieces
+- **Qui:** Nomads Digital ΓÇö voir dossier complet 13 fichiers dans 02_Niches_Deep_Dive/11_Nomads_Digital/
+- **Douleur:** Loi02-03 carte 1 an, AE 500k/200k, 09-08 registre ΓÇö cout 15k-300k si non traite
+- **Offre:** 2.500-5.000 HT ΓÇö provision 50% art30, TVA20% ou 0% export art92, 7j apres provision+pieces
 - **Acquisition:** Scripts FR/EN/AR Darija permission (pas demarchage art31)
-- **Livrable:** Voir dossier 13 fichiers — contrat/statuts/registre + Loom 15 min
+- **Livrable:** Voir dossier 13 fichiers ΓÇö contrat/statuts/registre + Loom 15 min
 
 ## Douleur detaillee
 
-Loi02-03 carte 1 an, AE 500k/200k, 09-08 registre — detail dans 02_Douleurs_Juridiques.md du dossier. Voir aussi 08_Jurisprudence/04_Office et 03_Glossaire.
+Loi02-03 carte 1 an, AE 500k/200k, 09-08 registre ΓÇö detail dans 02_Douleurs_Juridiques.md du dossier. Voir aussi 08_Jurisprudence/04_Office et 03_Glossaire.
 
 ## Offre productisee
 
@@ -29,147 +29,10 @@ Pack 2.500-5.000 HT 4h redaction marge 70pct provision 50pct. Ex: freelance 2.90
 
 ## Trilingue
 
-FR fait foi, EN mirror, AR Darija oral. Ex: rapatriement 30j / repatriation / الارجاع.
+FR fait foi, EN mirror, AR Darija oral. Ex: rapatriement 30j / repatriation / ╪º┘ä╪º╪▒╪¼╪º╪╣.
 
 ## Sources
 
 sgg.gov.ma, oc.gov.ma IGOC 2024, cndp.ma, ompic.ma, cnss.ma, rbe BO, Bofip, OECD.
 
 > Devoir art59 information doctrinale diagnostic 45 min + comptable.
-
----
-
-## Appendice — Procedure & Trilingue
-
-FR: diagnostic 45 min + convention sans engagement. EN: 45-min diagnostic. AR: تشخيص 45 دقيقة.
-
-Verifiez Numbers_Sheet et rebuild webapp.
-
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.
-
-> Complement encyclopedique: voir dossier 13 fichiers pour procedure detaillee + QCM.

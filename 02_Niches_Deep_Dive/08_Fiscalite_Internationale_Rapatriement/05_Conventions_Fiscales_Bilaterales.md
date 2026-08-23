@@ -2,7 +2,7 @@
 
 ## Cadre général (OCDE)
 
-*   Maroc = 40 conventions (France 1959 modifiée 1972/1989/2008, Belgique 1972, Espagne 1985, US 1977). Principe: éviter double imposition art.27.
+*   Maroc = 40 conventions (France 29 mai 1970 1972/1989/2008, Belgique 1972, Espagne 1985, US 1977). Principe: éviter double imposition art.27.
 *   **3 articles clés à connaître par cœur** (comme `08_Jurisprudence/00_Index.md:15`):
 
 | Article | Sujet | Usage MRE/nomad |
@@ -53,7 +53,7 @@
 
 | Pays client | Convention | Dividende retenue | Besoin attestation |
 |---|---|---|---|
-| France | 1959 | 10% | Oui 5000-F |
+| France | 29 mai 1970 | 10% | Oui 5000-F |
 | Belgique | 1972 | 15% | Oui |
 | Espagne | 1985 | 10% | Oui |
 | US | 1977 | 15% | Oui + FTC |

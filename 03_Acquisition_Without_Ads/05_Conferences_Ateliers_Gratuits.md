@@ -71,3 +71,7 @@ Do 1x/month = 7k extra + authority + comptable relationship.
 - Energy: Schedule atelier Tuesday/Wednesday 18h (peak energy, not Monday).
 
 **Next:** Pick date 3 weeks from now + message 2 potential co-hosts TODAY.
+
+---
+
+> **Annexes :** procédure trilingue du canal déplacée dans [_Annexes.md](03_Acquisition_Without_Ads/_Annexes.md).

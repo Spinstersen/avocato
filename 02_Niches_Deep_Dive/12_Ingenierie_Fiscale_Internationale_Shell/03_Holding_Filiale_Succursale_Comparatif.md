@@ -1,6 +1,6 @@
 # 03 — Holding / Filiale / Succursale : Comparatif 5 Colonnes
 
-> **Pratique → limite → sanction → parade.** Trois structures, trois régimes. Le mauvais choix coûte plus que le mauvais pays. Sources : sgg.gov.ma Loi 5-96/17-95, conventions Maroc-France 1959 art.10, Maroc-UAE 2022, Bofip, oc.gov.ma IGOC 2024.
+> **Pratique → limite → sanction → parade.** Trois structures, trois régimes. Le mauvais choix coûte plus que le mauvais pays. Sources : sgg.gov.ma Loi 5-96/17-95, conventions Maroc-France (29 mai 1970 art.10, Maroc-UAE 2022, Bofip, oc.gov.ma IGOC 2024.
 
 ## TL;DR
 
@@ -15,7 +15,7 @@
 |---|---|---|---|---|---|
 | Personnalité juridique | Oui (société UAE) | Oui (SAS/SARL FR) | Non (même personne) | Oui (OÜ) | Oui (LLC) |
 | IS local | 9% >375k AED | 25% (+ impôts locaux) | IS France 25% sur bénéfice PE | 20% à distribution seulement | Pass-through : 0 fédéral si non-résident |
-| Dividende vers Maroc | Convention MA-UAE 2022 art.10 | Conv. FR-MA 1959 art.10 : 10% | N/A (pas de dividende) | Pas de convention Maroc → droit commun | Conv. US-MA 1977 art.10 : 15% |
+| Dividende vers Maroc | Convention MA-UAE 2022 art.10 | Conv. FR-MA du 29 mai 1970 art.10 : 10% | N/A (pas de dividende) | Pas de convention Maroc → droit commun | Conv. US-MA 1977 art.10 : 15% |
 | Substance exigée pour taux réduit | Bureau + 2 salariés réels | N/A (activité réelle) | N/A | Conseil local réel | Activité + EIN + banque US |
 | CRS | Actif (données depuis 2019) | Actif UE | Actif UE | Actif UE | FATCA + CRS partiel |
 | Risque principal | Shell requalifié (PPT) | Coût total 25%+ | Double imposition immédiate | Pas de convention = pas de crédit Maroc | Qualification fiscale FR/Maroc incertaine |
@@ -43,7 +43,7 @@ Activité commerciale RÉELLE dans le pays cible ?
 ## Chiffres à vérifier à chaque diagnostic
 
 *   IS France 25% (PLF annuelle), IS Maroc 15% <300k bénéfice (CGI art.19, PLF).
-   *   Retenue dividende : FR→MA 10% (conv. 1959 art.10), UAE→MA selon conv. 2022, US→MA 15% (conv. 1977) — vérifier protocoles en vigueur.
+   *   Retenue dividende : FR→MA 10% (conv. 29 mai 1970 art.10), UAE→MA selon conv. 2022, US→MA 15% (conv. 1977) — vérifier protocoles en vigueur.
 *   UAE corporate tax 9% au-delà de 375k AED (décret-loi 47/2022) — vérifier FTA.
 *   Estonia : 20/80 à distribution (0 tant que réinvesti) — vérifier eesti.ee.
 

@@ -31,7 +31,7 @@
 ## Procédure — dividende vers un résident français (5000-F)
 
 1. Avant versement : le bénéficiaire dépose le 5000-F auprès de l'établissement payeur (Bofip).
-2. Retenue source au taux conventionnel (conv. FR-MA 1959 art.10 : 10%) au lieu du droit commun.
+2. Retenue source au taux conventionnel (conv. FR-MA du 29 mai 1970 art.10 : 10%) au lieu du droit commun.
 3. Sans 5000-F déposé : retenue droit commun (souvent supérieure) — récupération longue via crédit d'impôt art.27.
 4. Garder : accusé dépôt + bordereau retenue + SWIFT.
 

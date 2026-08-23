@@ -71,3 +71,7 @@ Table `Referrals`:
 - Dopamine: Track referral count on whiteboard. Each referral = check.
 
 **Next:** Create referral image Canva today + add "Ask referral" to your delivery checklist.
+
+---
+
+> **Annexes :** procédure trilingue du canal déplacée dans [_Annexes.md](03_Acquisition_Without_Ads/_Annexes.md).

@@ -102,7 +102,7 @@ Stripe n'est pas directement disponible au Maroc. Les freelances offshore utilis
 
 ## 6. Les conventions fiscales
 
-### Maroc-France (1959 modifiée)
+### Maroc-France (29 mai 1970)
 
 - Éviter la double imposition.
 - Article 4 : résidence fiscale (foyer, séjour, lieu d'activité).

@@ -1,6 +1,6 @@
 # 10 — Comparatif International MRE & Foreign Investors (Maroc / France / Belgique-Espagne)
 
-> **Sources primaires :** `sgg.gov.ma` (Loi 5-96 SARL, CGI art.19/23/92/144, Loi 02-03 art.13, Loi 17-97, IGOC 2024 `oc.gov.ma`, Loi 09-08), Bofip Conv. FR-MA 1959 art.4/7/10/27, BE-MA 1972, ES-MA 1985, `cndp.ma`, `ompic.ma`. **Glossaire :** `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §01-§12.
+> **Sources primaires :** `sgg.gov.ma` (Loi 5-96 SARL, CGI art.19/23/92/144, Loi 02-03 art.13, Loi 17-97, IGOC 2024 `oc.gov.ma`, Loi 09-08), Bofip Conv. FR-MA du 29 mai 1970 art.4/7/10/27, BE-MA 1972, ES-MA 1985, `cndp.ma`, `ompic.ma`. **Glossaire :** `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §01-§12.
 
 ## Tableau comparatif MRE investisseur — 5 colonnes
 
@@ -8,7 +8,7 @@
 |---|---|---|---|---|
 | **Création société à distance** | **SARL-AU 10 000 DH capital**, CRI **7-14j**, dossier **à distance via procuration apostillée** : statuts + PV + RC/ICE/IF + blocage capital ; **honoraires 7 500 HT** + débours OMPIC/CRI ~2 000 DH (Loi 5-96 art.50-70) | **SASU 1€ capital**, INPI **7j ~1 000€** (greffe+annonce+KBIS) ; procuration notariée si à distance | BE SRL 6 200€ capital 4j 1 500€ ; ES SL 3 000€ capital 12j 800€ | **Maroc 7 500 HT + Apostille 14j (Convention Haye)** vs FR 1 000€ : Maroc plus lourd mais **capital libérable 25% seulement** + pas d'extrait Kbis apostillé pour banque FR. Verdict : prévoir **Apostille + traduction assermentée 7j**. → §09 §10 §11 |
 | **IS sur bénéfice** | **15% <300k DH bénéfice** (≈27k€), 20% 300k-1M, 32% >1M — CGI art.19, sur **bénéfice après charges déductibles** (loyer, salaires, pub) | **15% <42 500€ bénéfice** puis **25%** ; charges déductibles | BE **20% <100k€** puis 25% ; ES **15% startup 2 ans** puis 25% | **Maroc tranche 15% plus étroite en € mais assiette = bénéfice net** : MRE avec 400k DH bénéfice → 60k IS MA (15%) vs 100k FR (25%) = **40k économie** si PE évité §02. → §09 §07 |
-| **Dividende & convention** | Retenue source Maroc **10% FR (1959 art.10), 15% BE (1972), 10% ES (1985)** + **crédit art.27** élimination double imposition | Sans convention **PFU 30%** FR (Bofip 12,8% IR +17,2% PS) sur dividende étranger | BE précompte 30% ; ES 19% | **10% FR vs 30% PFU = 20k économisés /100k dividende** : besoin **attestation résidence DGI 30j** (art.4) + **formulaire 5000-F** Bofip avant virement. → §07 §01 §12 |
+| **Dividende & convention** | Retenue source Maroc **10% FR (29 mai 1970 art.10), 15% BE (1972), 10% ES (1985)** + **crédit art.27** élimination double imposition | Sans convention **PFU 30%** FR (Bofip 12,8% IR +17,2% PS) sur dividende étranger | BE précompte 30% ; ES 19% | **10% FR vs 30% PFU = 20k économisés /100k dividende** : besoin **attestation résidence DGI 30j** (art.4) + **formulaire 5000-F** Bofip avant virement. → §07 §01 §12 |
 | **Compte & change** | **Compte devise MRE 72h** (non-résident <183j) **transférable à l'étranger** sans plafond IGOC ; **Compte convertible 48h** (résident >183j) plafonné dotations ; alimenté par **rapatriement 30j** si export art.92 | Compte FR (BNP/SG) sans restriction UE | Compte BE/ES UE | **Devise MRE = clé MRE** : dividende 10% FR versé sur devise MRE → transfert Paris 72h sans Office ; convertible bloquerait transfert. Erreur = blocage 6 mois. → §12 §03 §04 |
 | **TVA & carte séjour** | TVA **20%** si client Maroc, **0% art.92** si client hors MA + devises + SWIFT 30j ; **carte séjour 1 an 200 DH** (Loi 02-03 art.13) si >90j, gérant SARL | TVA 20% FR, exon export art.262 ; **Titre séjour Talent 4 ans 300€** | TVA 21% ; ES Digital Nomad 1 an | **Carte 1 an MA 200 DH/30j** vs Talent FR 4 ans mais exige CA >SMIC×2. MRE 40j/an = pas de carte, pas de résidence fiscale 183j → IS source only. → §08 §04 §01 |
 
@@ -42,7 +42,7 @@ PE caractérisé art.5/7 Conv. ES-MA 1985 → bénéfice rattaché ES **200k DH 
 
 1. **Résidence** : compter 365j glissants (cachets) + foyer — 40j ≠ non-résident automatique si foyer Casa (§01).
 2. **Apostille 14j** : procuration FR/BE → Cour d'appel + traduction assermentée 7j avant CRI 7-14j (§10 §11).
-3. **Attestation DGI 30j** (art.4) : passeport + bail + RC — active Conv. 1959/1972/1985 (§07).
+3. **Attestation DGI 30j** (art.4) : passeport + bail + RC — active Conv. 29 mai 1970/1972/1985 (§07).
 4. **5000-F Bofip** : faire viser DGI Maroc, remettre à banque FR/BE/ES **avant virement** dividende → retenue **10% FR /15% BE /10% ES** vs 30% PFU → **20k économisés/100k** (Cas A) (§07).
 5. **Compte devise MRE 72h** (si <183j) transférable sans plafond IGOC vs convertible 48h si >183j (§12) — choisir avant 1er rapatriement (§03).
 
@@ -61,4 +61,4 @@ PE caractérisé art.5/7 Conv. ES-MA 1985 → bénéfice rattaché ES **200k DH 
 SARL 10k DH CRI 7-14j avec Apostille 14j n'est pas SASU 1€ 7j France — procédure, capital libérable, RC/ICE et banque diffèrent. IS 15% <300k Maroc sur bénéfice après charges Casa (loyer 3k DH) n'est pas IS 15% <42,5k€ France sur bénéfice Paris (loyer ×4). Le 10% dividende FR n'existe que via 5000-F + attestation DGI — sans, PFU 30% automatique. Expliquez au MRE pourquoi son KBIS français ne vaut pas RC marocain et pourquoi devise MRE ≠ convertible.
 
 ---
-> MRE : ne copiez pas la SASU France au Maroc — capital, IS sur bénéfice vs CA, TVA art.92 conditionnelle, et Apostille 14j changent tout. Le 10% dividende FR n'existe que via 5000-F + attestation DGI. Vérifiez `sgg.gov.ma` CGI art.19/23 + `oc.gov.ma` IGOC + Bofip Conv. 1959 à chaque dossier dividende.
+> MRE : ne copiez pas la SASU France au Maroc — capital, IS sur bénéfice vs CA, TVA art.92 conditionnelle, et Apostille 14j changent tout. Le 10% dividende FR n'existe que via 5000-F + attestation DGI. Vérifiez `sgg.gov.ma` CGI art.19/23 + `oc.gov.ma` IGOC + Bofip Conv. 29 mai 1970 à chaque dossier dividende.

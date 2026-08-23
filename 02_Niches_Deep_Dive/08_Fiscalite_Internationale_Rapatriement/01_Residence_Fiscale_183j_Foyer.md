@@ -3,7 +3,7 @@
 ## Cadre CGI art.23 + convention art.4
 
 *   **CGI art.23:** Résident fiscal Maroc = **séjour >183j / an** OU **foyer d'habitation permanent** au Maroc OU **centre intérêts économiques**.
-*   **Convention fiscale Maroc-France art.4 (1959 modifiée):** Si résident des 2 États → foyer permanent → liens personnels/économiques → séjour habituel → nationalité. L'ordre est hiérarchique.
+*   **Convention fiscale Maroc-France art.4 (29 mai 1970):** Si résident des 2 États → foyer permanent → liens personnels/économiques → séjour habituel → nationalité. L'ordre est hiérarchique.
 *   **Attestation résidence fiscale:** DGI Maroc délivre attestation si >183j + foyer — indispensable pour appliquer convention (sinon double imposition).
 
 ## 4 Tests hiérarchiques (faire dans l'ordre)

@@ -69,3 +69,7 @@ You can rank nationally because nobody writes in ENGLISH about Moroccan law. Wri
 Don't write from scratch. Dictate article via voice note 10 min → ChatGPT cleans → you add legal accuracy → design PDF. 2h per article, batch 2 on Sunday.
 
 **Next:** Create Tally form for ONE lead magnet + write first article outline.
+
+---
+
+> **Annexes :** procédure trilingue du canal déplacée dans [_Annexes.md](03_Acquisition_Without_Ads/_Annexes.md).
