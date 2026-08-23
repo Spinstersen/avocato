@@ -369,12 +369,13 @@
   }
 
   function baseChartOpts(type, th, legend) {
+    const narrow = window.matchMedia('(max-width: 700px)').matches;
     return {
       responsive: true, maintainAspectRatio: false,
-      plugins: { legend: legend ? { display: true, position: 'right', labels: { color: th.ticks, font: { size: 11 } } } : { display: false } },
+      plugins: { legend: legend ? { display: true, position: narrow ? 'bottom' : 'right', labels: { color: th.ticks, font: { size: 11 }, boxWidth: narrow ? 12 : 16 } } : { display: false } },
       scales: (type === 'doughnut' || type === 'polarArea') ? undefined : {
-        x: { ticks: { color: th.ticks }, grid: { color: th.grid } },
-        y: { beginAtZero: true, ticks: { color: th.ticks }, grid: { color: th.grid } }
+        x: { ticks: { color: th.ticks, maxRotation: narrow ? 60 : 0, font: { size: narrow ? 10 : 11 } }, grid: { color: th.grid } },
+        y: { beginAtZero: true, ticks: { color: th.ticks, font: { size: narrow ? 10 : 11 } }, grid: { color: th.grid } }
       }
     };
   }

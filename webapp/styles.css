@@ -550,6 +550,112 @@ details.qcm-answer[open] summary::before { content: '📖'; }
 }
 .gl:hover::after, .gl:focus-visible::after { opacity: 1; visibility: visible; transform: translateY(0); }
 
+/* ==========================================================================
+   13. MOBILE FIRST-CLASS — cible : Samsung S24 / Chrome Android (~412 px)
+   ========================================================================== */
+
+/* Base tactile universelle */
+body {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  overflow-x: clip;
+  overscroll-behavior-y: contain; /* pas de rechargement accidentel en tirant vers le bas */
+}
+html { height: -webkit-fill-available; }
+
+/* Hauteur dynamique : la barre d'adresse Chrome Android qui se replie */
+.sidebar { height: 100vh; }
+@supports (height: 100dvh) { .sidebar { height: 100dvh; } }
+
+/* Zones de geste (barre système basse) */
+.content-wrap { padding-bottom: calc(var(--sp-6) + env(safe-area-inset-bottom, 0px)); }
+.dlg { margin-bottom: env(safe-area-inset-bottom, 0px); }
+
+/* Cibles tactiles ≥ 42 px sur pointeur grossier */
+@media (pointer: coarse) {
+  .icon-btn { min-width: 42px; height: 42px; }
+  .tree-folder, .cab-nav-item { padding-top: 10px; padding-bottom: 10px; }
+  .tree-item { padding: 9px var(--sp-2); }
+  .path-chip { padding: 6px 12px; font-size: 12px; }
+  .btn { min-height: 44px; padding: 10px 16px; }
+  .qcm-opt { padding: 13px 14px; font-size: 15px; margin: 6px 0; }
+  .search-wrap input { font-size: 16px; } /* anti-zoom iOS/Android */
+  .form-grid input, .form-grid select, .form-grid textarea { font-size: 16px; }
+  details.qcm-answer summary { padding: 12px 14px; }
+}
+
+/* ---------- ≤ 760 px : topbar compacte + lecture serrée ---------- */
+@media (max-width: 760px) {
+  /* Topbar : menu + fil d'ariane + prev/next/read/theme suffisent */
+  #fontDec, #fontInc { display: none; }
+
+  .topbar { gap: var(--sp-2); padding: 0 var(--sp-3); height: auto; min-height: var(--topbar-h); }
+  .topbar-actions { gap: 0; }
+  .icon-btn { min-width: 40px; height: 40px; }
+
+  .content-wrap { padding: var(--sp-3); padding-bottom: calc(var(--sp-5) + env(safe-area-inset-bottom, 0px)); }
+  .doc-layout { gap: 0; }
+  .doc { padding: var(--sp-4); border-radius: var(--r-md); box-shadow: none; }
+  .doc-content { font-size: 16.5px; line-height: 1.72; }
+  body[data-font="lg"] .doc-content { font-size: 17.5px; }
+  body[data-font="sm"] .doc-content { font-size: 15.5px; }
+
+  /* Sidebar overlay plus étroite que l'écran */
+  .sidebar { width: min(88vw, 330px); }
+
+  /* Accueil */
+  .dash-hero h1 { font-size: 20px; }
+  .dash-hero p { font-size: 13px; }
+  .hero-card { padding: var(--sp-4); }
+  .ring-row { gap: var(--sp-3); }
+  .panel { padding: var(--sp-4); border-radius: var(--r-md); }
+
+  /* Cartes domaines : 2 colonnes confortables */
+  .path-cards { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: var(--sp-2); }
+  .path-card { padding: var(--sp-3); }
+
+  /* Graphiques : hauteur réduite, lisibilité conservée */
+  .chart-canvas-wrap { height: 210px; }
+
+  /* Navigation footer doc : boutons pleine largeur empilés si étroit */
+  .doc-footer-nav { flex-direction: column; gap: var(--sp-2); }
+  .doc-footer-nav button, .doc-footer-nav a.btn { width: 100%; }
+  .doc-footer-nav .next { align-items: flex-end; margin-left: 0; }
+
+  /* Tableaux : scroll horizontal avec bord indicateur */
+  .table-scroll { position: relative; }
+  .table-scroll::after {
+    content: '→'; position: sticky; right: 4px; display: block;
+    color: var(--text-faint); font-size: 14px; text-align: right;
+    pointer-events: none; height: 0;
+  }
+
+  /* QCM */
+  .qcm-opt:hover { transform: none; } /* pas de déplacement au doigt */
+
+  /* Dialogues plein écran utile */
+  .dlg { max-width: none; width: calc(100vw - 16px); }
+
+  /* Échéances : cartes empilées */
+  .deadline-card { align-items: flex-start; }
+  .deadline-card .dl-done, .deadline-card .btn { width: 100%; justify-content: center; }
+
+  /* TOC inline : repliée par défaut sur mobile */
+  details.toc[open] ul { columns: 1; }
+}
+
+/* ---------- ≤ 400 px : très étroit ---------- */
+@media (max-width: 400px) {
+  .path-cards { grid-template-columns: 1fr; }
+  .crumbs { font-size: 12px; }
+}
+
+/* Chart.js : légende en bas sur écran étroit (géré aussi en JS) */
+@media (max-width: 700px) {
+  .chart-canvas-wrap canvas { max-width: 100%; }
+}
+
 /* ---------- 12. F2 : recherche surlignée + PWA ---------- */
 mark.hl {
   background: #fde68a; color: inherit;
