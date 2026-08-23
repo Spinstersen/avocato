@@ -30,8 +30,6 @@ Cas YouCan_0908 = boutique YouCan/Shopify marocaine typique (30k CA/mois, 50 com
 6. **J7 GSC + preuve (30 min)** : Soumets 3 articles GSC 03 → index 48h. Archive dossier : registre + récépissé CNDP + politique + clauses → envoie CNDP réponse mise en demeure 45j.
 7. **J30 suivi** : Récépissé CNDP reçu → classe. GSC pos J30 : "registre CNDP" pos 11 (110 imp), 2 leads 2900.
 
-**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
-
 | Client | Situation J0 | Solution 7j | Prix |
 |---|---|---|---|
 | **Fatima**, YouCan 30k, mise en demeure 45j, 2000 mails | 0 registre, case pré-cochée, pas de politique | Registre 5 col + déclaration CNDP + politique + 3 articles SEO | **Option 2900 DH** : registre + déclaration + politique template. **Option 5900 DH** : + 3 articles 2500 mots + clauses art.43 + Loom + dépôt CNDP assisté. Délai 7j après provision 50% |

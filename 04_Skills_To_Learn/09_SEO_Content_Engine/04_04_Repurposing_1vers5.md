@@ -16,7 +16,6 @@ Repurposing 1→5 = transformer 1 article pilier 2500 mots (02) en 5 formats nat
 **3 piliers repurposing :**
 1. **Natif** : chaque format respecte codes canal (pas copier-coller 2500 mots sur LinkedIn)
 2. **Boucle** : chaque dérivé renvoie à l'article (SEO juice) + collecte mail (09-08 consentement)
-**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 
 ## Procédure pas-à-pas chiffrée (45 min chrono)
 
@@ -51,7 +50,6 @@ Yassine (210j Casa, hésite AE 350k) voit carrousel → clique article → conve
 - [ ] Loom 3 min enregistré + titre SEO + lien article description
 - [ ] Newsletter 350 mots + bouton lead magnet + objet <45c
 - [ ] Chaque dérivé renvoie à URL article (backlink interne)
-**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 - [ ] Consentement 09-08 sur formulaire (case non cochée + durée 3 ans)
 - [ ] 5 dérivés planifiés J+1 à J+7 (Buffer/Brevo)
 - [ ] Log Notion rempli (source + 5 URLs + dates)

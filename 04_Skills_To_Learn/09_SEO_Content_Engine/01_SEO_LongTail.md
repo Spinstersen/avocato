@@ -29,8 +29,6 @@ Long-tail = requête ≥4 mots, volume 10-150/mois, difficulté KD <15, intent t
 5. **Tableau final (15 min)** : 20 keywords triés par score. Choisis 1 keyword = 1 article (voir 10_Arbre_Choix_MotCle).
 6. **Validation GSC (10 min)** : Après publication, vérifie impressions J+7 dans GSC → si <5 impressions ajuste title H1.
 
-**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
-
 | Client | Keyword choisi | Volume/KD | Intent | Offre |
 |---|---|---|---|---|
 | **Yassine**, freelance 600k DH offshore, 210j Casa | "contrat prestation freelance Maroc modèle Word" | 38 / 6 | Achat 10/10 | **Option 2900 DH** : article 2500 mots + modèle Word FR/EN + checklist 09-08. **Option 5900 DH** : + audit 45min + registre 5 colonnes + dépôt CNDP assisté. Délai 7j après provision 50% art.30. |

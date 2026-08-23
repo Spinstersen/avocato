@@ -21,7 +21,6 @@ Ordre diagnostic : 01 Résidence 183j → 09 AE/SARL → 02 PE 6m → 07 Convent
 - **08_Jurisprudence/00_Index.md:13** corrigé + cartographie transversale
 - **04_Skills 09-12 (41 fichiers)** : SEO 11 + Public Speaking 10 + Négociation 10 + Finance 10 — tous passés de 20l à 78-89l
 - **07_Sharp_Legal_Mind/03_Numbers_Sheet.md:1** source de vérité 6 colonnes + procédure MAJ 01/10 PLF + 15/07 IGOC
-**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 - **webapp/data.js** rebuild 488 docs / 1956 KB
 
 ### Volet 12 — Ingénierie fiscale (fait le 21/08/2026, même jour)

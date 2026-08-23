@@ -153,8 +153,6 @@ Mission : [type]
 
 ## Approfondissement Encyclopédique (Bonus)
 
-### Cas pratique détaillé
-**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 -> overwhelm

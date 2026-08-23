@@ -28,8 +28,6 @@ Harvard PON (Fisher/Ury) = **négocier sur intérêts (pourquoi) pas positions (
 5. **13'-15' close win-win (2 min)** : "Si on fait 2900 sans dépôt CNDP (vous déposez, je corrige), vous économisez 3000 vs 5900 + conforme 7j. Provision 50% art.30 → 1450 aujourd'hui. On part là-dessus ?" Win-win.
 6. **Log (1 min)** : Note intérêts 3 + option choisie + critère art.
 
-**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
-
 | Client | Position | Intérêts (Voss) | Harvard solution | Prix |
 |---|---|---|---|---|
 | **Fatima** "1500 max, 300k faux" | 1500 | CA 30k serré + peur 300k + Shopify US + veut vite 7j | 2900 sans dépôt (elle dépose J1, tu corriges 10 min) → win : elle économise, tu sauves 2h, conforme 7j | **2900** (au lieu de no deal) |

@@ -4,7 +4,7 @@
 
 Prends 1 cas `02_Niches_Deep_Dive/` → écris 150 mots: meilleure structure? Risque? Prix?
 
-Exemple: "Yassine 600k AE US → SARL-AU (IS 10% <500k), contrat FR/EN, exon TVA art92, provision 50%, 5900 DH, délai 7j"
+Exemple: "Yassine 600k AE US → SARL-AU (IS 20 % LF 2026), contrat FR/EN, exon TVA art92, provision 50%, 5900 DH, délai 7j"
 
 ## Grille correction
 
@@ -19,8 +19,6 @@ Faire 1/sem → vitesse conseil ×2 en 90j.
 
 ## Approfondissement Encyclopédique (Bonus)
 
-### Cas pratique détaillé
-**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 -> overwhelm

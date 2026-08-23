@@ -28,8 +28,6 @@ Formules : `BATNA = revenu alternatif / temps` ; `ZOPA = [ton 2900 , son budget 
 5. **Décision binaire (1 min)** : Si ≥2900 → oui + provision 50% art.30 (glossaire §10). Si <2900 → "non merci, voici modèle gratuit + reviens quand budget 2900" → garde relation (09_09 arbre).
 6. **Log (2 min)** : Notion "Négo Log" : client / offre / BATNA / ZOPA / décision / temps économisé.
 
-**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
-
 | Client | Offre | Ta BATNA | ZOPA | Décision | 2 options prix |
 |---|---|---|---|---|---|
 | **Yassine** freelance 600k, veut "contrat freelance 1500 DH vite" | 1500 | SEO 4h → 2900 (725/h) → 1500 < BATNA | Vide (1500<2900) | **Refuse** : "1500 = 4h à 375/h < mon 725/h SEO. Je propose 2900 modèle + 45 min, ou modèle gratuit seul. Tu choisis ?" | **Option 2900** : modèle + 45 min audit. **Option 5900** : + registre + dépôt CNDP. Délai 7j après provision 50% |

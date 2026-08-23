@@ -51,7 +51,6 @@ Tally intake → Zapier crée Notion Prospect → Calendly book → Meet → Not
 - [ ] Créer workspace `Cabinet [Nom]`
 - [ ] Créer 6 BDD vides + 1 entrée test par BDD
 - [ ] Créer Dashboard + lier vues
-**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 - [ ] Tester flow: créer prospect → mission → archiver
 
 ---
@@ -65,7 +64,6 @@ Tally intake → Zapier crée Notion Prospect → Calendly book → Meet → Not
 
 **Checklist 6 points — Notion prêt à l'emploi :**
 - [ ] Workspace `Cabinet [Nom]` créé + Dashboard lié aux 6 BDD
-**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 - [ ] Templates 5 créés + bouton "Dupliquer en post LinkedIn" (Zapier)
 - [ ] Workflow Tally → Prospect Notion → Calendly → Mission → Yousign testé
 - [ ] Vues Kanban/Timeline/Table configurées + filtre échéances

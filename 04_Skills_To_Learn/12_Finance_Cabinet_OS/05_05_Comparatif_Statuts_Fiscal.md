@@ -21,7 +21,6 @@ Comparatif statuts = **tableau AE vs SARL vs Portage** pour choisir statut selon
 
 ## Procédure pas-à-pas chiffrée (20 min diagnostic)
 
-**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 2. **Teste AE vs SARL IS (5 min)** : CA 150k service → AE IR 150k×1%=1,5k vs SARL bénéfice 80k×20%=16k → AE gagne ~14,5k. CA 350k service (>plafond 200k) → AE radié, bascule obligatoire ; SARL bénéfice 150k×20%=30k → SARL seule voie conforme.
 3. **Vérifie PE 6 mois (3 min)** : Salarié/bureau Paris >6 mois ? Si oui → PE France IS 25% même en SARL → portage 8% ou filiale (glossaire §02). Sinon SARL Casa taxée au Maroc seul — 20 % (LF 2026).
 4. **Vérifie TVA 0% besoin (3 min)** : Client export MRE Paris ? Besoin exon art.92 → SARL seule (AE non assujetti ne facture pas TVA 0%). Si besoin → SARL.
@@ -63,8 +62,6 @@ Comparatif statuts = **tableau AE vs SARL vs Portage** pour choisir statut selon
 - Glossaire `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §09 (AE/SARL), §01 (183j), §02 (PE 6m), §03 (30j), §07 (dividende 10%)
 
 ## Plan d'action 30 jours
-**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
-**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 - **S3 J22-30** : MRR SARL IS 20 % (LF 2026) vs AE 0,5-1 % chiffré, 2 closes 5900 SARL, 1 AE 2900, retro statuts, template v2
 - Tracker : Notion "Statuts" + PLF juillet reminder, habit "CA 12 mois glissants"
 

@@ -5,7 +5,6 @@
 1. **Copier** texte source dans note temporaire
 2. **Remplacer:** noms→[CLIENT A], montants→[MONTANT X], dates→[DATE], ville→[VILLE], RC/ICE→[ID]
 3. **Supprimer:** pièces identité, contrats signés
-**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 5. **Envoyer** à IA
 
 ## Exemple
@@ -26,9 +25,6 @@ Noter dans registre 09-08: "IA externe utilisée, données anonymisées, pas de 
 ---
 
 ## Approfondissement Encyclopédique (Bonus)
-
-### Cas pratique détaillé
-**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 -> overwhelm

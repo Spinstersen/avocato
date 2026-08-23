@@ -13,9 +13,6 @@
 
 ## Approfondissement Encyclopédique (Bonus)
 
-### Cas pratique détaillé
-**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
-
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 -> overwhelm
 2. Négliger 09-08/CNDP -> sanction 300k
@@ -52,7 +49,6 @@ J1 30m input, J2 output, J3 test Feynman, J4 feedback, J5 publish, J6 spaced J3,
 3 piliers, 7 categories, tableaux, scripts verbatim, decision tree, FAQ, checklist 12 points.
 
 ### Exemple Maroc 2025
-**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 
 ### Sources
 sgg.gov.ma, cndp.ma, ompic.ma, jep.ma. Citer art exact.

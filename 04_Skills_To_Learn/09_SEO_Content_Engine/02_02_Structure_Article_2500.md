@@ -15,7 +15,6 @@ Un article SEO avocat qui ranke = **2500 mots (±10%)**, **H1 unique + 5-7 H2**,
 | 1. Hook + définition (H1) | 200 | Définit concept en 2 phrases + sanction chiffrée |
 | 2. Base légale tableau | 350 | Art exact sgg.gov.ma + 3 conditions |
 | 3. Procédure pas-à-pas | 600 | 5 étapes numérotées, délais 30j/7j, coûts 1200 DH |
-**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 | 5. Erreurs Top 3 | 300 | Erreur → coût → correction |
 | 6. Checklist 12 points | 250 | Cases à cocher contextuelles |
 | 7. FAQ 3 Q + CTA | 400 | Schema FAQ + renvoi glossaire |
@@ -55,7 +54,6 @@ Risque si non fait : art.52 Loi 09-08 → amende 10k-300k + mise en demeure 45j 
 - [ ] Title 55-60c + meta 150-155c avec chiffre (300k, 30j)
 - [ ] URL courte sans stop words
 - [ ] 1 tableau base légale (art + source sgg.gov.ma)
-**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 - [ ] 3 internal links (vers 01, 03, autre article)
 - [ ] 1 lead magnet avec consentement 09-08
 - [ ] LanguageTool 0 faute FR + FR juridique vérifié

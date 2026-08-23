@@ -16,7 +16,6 @@ Atelier 60 min avocat = **45 min contenu + 15 min QA**, **0 pitch commercial** (
 |---|---|---|
 | 1. Hook SCQA | 0-7 min | Situation-Complication-Question-Answer + sanction 300k |
 | 2. 3 piliers | 7-30 min | 3 tableaux base légale (art.14, art.92, art.30) 7 min/pilier |
-**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 | 4. Erreurs Top 3 | 45-52 min | 3 erreurs + fix 48h (interactif vote main) |
 | 5. QA + CTA soft | 52-60 min | 8 min QA difficile (05) + slide "Prochains pas 2900/5900" |
 
@@ -49,7 +48,6 @@ Taux attendu : 18 présents → 6 demandes audit 2900 (33%) → 2 clos 5900 = 11
 - [ ] Sujet = 1 KW SEO top 10 (09_10 arbre) validé
 - [ ] Script 5 actes 1200 mots + art exact sgg
 - [ ] 10 slides max (03) + 1 tableau/pilier
-**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 - [ ] Live modèle 5 colonnes / CGV (pas screenshot)
 - [ ] Erreurs Top 3 avec vote main préparé
 - [ ] CTA soft 2900/5900 + QR code slide finale (pas pitch)

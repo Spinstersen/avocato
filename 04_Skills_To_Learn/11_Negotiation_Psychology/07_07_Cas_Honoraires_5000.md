@@ -16,9 +16,7 @@ Cas Honoraires 5000 = **scénario réel où client a budget 5000 (entre 2900 et 
 ## Procédure pas-à-pas chiffrée (15 min)
 
 1. **0'-2' budget 5000 détecté (1 min)** : Calendly "budget 5000" ou "5000 max ?" → miroir "5000 ?" (4s) → étiquette "Il semble que 5000 soit le max pour ce projet ?" → il confirme 5000 + peur.
-**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 3. **5'-8' ancre 5900 + perte (2 min)** : "2 options : 5900 complet (SARL 10k + IS 20 % (LF 2026) + dépôt OMPIC 7-14j, évite 68k) ou 2900 essentiel (contrat seul). 5900 =8% de 68k, 2900 =4%. La plupart avec 68k prennent 5900 (preuve Yassine 600k 7j)." Silence 4s.
-**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 5. **12'-15' close 5000 → 5900 (3 min)** : "Avec 5000, on peut faire 5900 en 2× : 2500 provision art.30 aujourd'hui + 2500 solde J7 + 900 J30 (étalé). Ou 2900 aujourd'hui si budget bloqué. On bloque 5900 étalé ou 2900 ?" Offre étalé = lève friction 5000→5900.
 6. **J0 provision (5 min)** : Yousign convention honoraires art.30 + facture provision 50% 2950 → Stripe 48h → J7 livraison.
 
@@ -50,7 +48,6 @@ Moyenne 5000 → 4900 clos (upsell 5900 66%).
 - [ ] Ratio ticket/prix >10× vérifié → 5900 justifié
 - [ ] Ancre 5900→2900 + silence 4s (02)
 - [ ] Perte 68k/300k citée (2900=1-4%)
-**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 - [ ] Étalé 2500+2500+900 proposé si 5000→5900 friction
 - [ ] 2 options 2900/5900 + 1 gratuite Harvard (06)
 - [ ] Provision 50% art.30 2950 J0 (Yousign)
@@ -64,7 +61,6 @@ Moyenne 5000 → 4900 clos (upsell 5900 66%).
 - Glossaire `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §09, §06, §10, §07
 
 ## Plan d'action 30 jours
-**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 - **S2 J8-21** : 3 calls budget 5000 (2×5900 étalé, 1×2900), ticket 68k/300k chiffré 100%, MRR 14 700 (2×5900+2900)
 - **S3 J22-30** : 100% 5000 → 5900 étalé si ratio >10×, log 6 cas, template 5000 v2, réutilisé 12_Finance 01
 - Tracker : Notion "5000 Log" budget→ticket→clos, habit "ticket >10× ? →5900"

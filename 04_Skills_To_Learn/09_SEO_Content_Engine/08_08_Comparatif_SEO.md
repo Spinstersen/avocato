@@ -25,8 +25,6 @@ Comparatif SEO = tableau décisionnel qui oppose 3 voies pour ranker en long-tai
 4. **Hybride test (si besoin)** : Brief freelance (Malt/Upwork) : "2500 mots + art sgg exact + tableau 5 colonnes + 2 options 2900/5900". Teste 1 article 1500 DH. Relis 45 min. Si art faux → retour solo.
 5. **Décision arbre** : <3h + budget 0 → hybride 2/mois. 3h+ + exigence 09-08 → solo. Budget 10k/mois + 0 temps → agence mais audit 07 mensuel.
 
-**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
-
 | Profil | Choix | Justif chiffrée | Offre avocat |
 |---|---|---|---|
 | **Yassine**, 600k, 210j Casa, 4h/sem dispo, exige art 09-08 exact | **Solo** | 30h/90j vs 18k freelance, qualité 9/10, pos 8 J60 | **Option 2900 DH** : formation solo 2h + templates 02/04/05. **Option 5900 DH** : formation + 3 articles done-for-you + GSC setup. |

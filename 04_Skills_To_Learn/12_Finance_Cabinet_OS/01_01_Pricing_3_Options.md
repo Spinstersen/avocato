@@ -22,8 +22,6 @@ Pricing 3 options = **menu 2 prix actifs + 1 leurre** : Essentiel 2900 (ancrage 
 5. **Call 15 min Voss (15 min)** : Ancre 9900→5900 + perte 300k + preuve Fatima 7j (11_02) → close 5900 60%.
 6. **Log MRR (3 min)** : Notion "Pricing" : option choisie / temps / MRR → 5900 = MRR cible.
 
-**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
-
 | Client | Option choisie | Pourquoi | Prix HT + TVA |
 |---|---|---|---|
 | **Fatima** 30k 2000 mails YouCan | **5900 Complet** (70% cas) | Shopify US art.43 + 2000 mails → 2 livrables >2900, 9900 trop | 5900 +20% =7080 TTC Maroc, 5900 HT 0% si MRE export art.92 |

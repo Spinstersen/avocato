@@ -15,8 +15,6 @@ MRR, ticket moyen, closing, referrals, churn. Cible M6: 30k DH/mois, 6 missions,
 
 ## Approfondissement Encyclopédique (Bonus)
 
-### Cas pratique détaillé
-**Contexte Maroc 2025 :** cas d'usage illustratif de la compétence — adapter l'exemple au sujet du fichier (voir fiches pratiques du dossier).
 
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 -> overwhelm
