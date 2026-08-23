@@ -2,6 +2,9 @@
 
 > **Pratique → limite → sanction → parade.** Le cas de référence du dossier : 1 000 000 DH de bénéfice annuel, gérant résident fiscal marocain. Trois scénarios chiffrés sur 5 ans. Sources : CGI art.19/213 (`sgg.gov.ma`), décret-loi UAE 47/2022 (`tax.gov.ae`), conv. MA-UAE 2022, IGOC 2024 (`oc.gov.ma`).
 
+
+> 🟡 **FISCALITÉ 2026 — vérifié le 23/08/2026** : la **LF 2026 (loi 50-25, BO n°7465 bis du 16/12/2025)** a unifié l’IS au taux de **20 %** pour tout bénéfice net <100M MAD (35 % au-delà ; financier 40 %). L’ancien barème transitoire «15 % <300k / 20 % / 31-32 %» cité ci-dessous est **obsolète depuis le 01/01/2026** — chiffres conservés pour historique/comparatif, à requalifier en diagnostic. Détail : 
+_VEILLE_LEGALE_2025_2026.md §B1.
 ## TL;DR
 
 *   **Scénario A — SARL Casa seule :** IS 20 % (LF 2026)+ 20% au-delà → ~170k d'IS. Simple, indestructible.
