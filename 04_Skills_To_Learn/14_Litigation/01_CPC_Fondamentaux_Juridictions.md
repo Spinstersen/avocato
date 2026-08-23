@@ -4,7 +4,7 @@
 >
 > **Liens :** `02_Requete_Introductive_Assignation_Modele.md` · `08_Voies_Recours_Opposition_Appel_Cassation.md` · `../07_Sharp_Legal_Mind/03_Numbers_Sheet.md`
 
-> ⚠️ **RÉFORME PROCÉDURALE — vérifié le 23/08/2026** : le nouveau Code de procédure civile (**loi n° 58-25**, BO n°7485 du 23/02/2026) entre en vigueur le **24 août 2026** et abroge l'ancien CPC de 1974 ; les règles procédurales des lois **53-95 / 41-90 / 80-03** y sont intégrées (les juridictions subsistent, un seul code civil/commercial/administratif). Les références « CPC » ci-dessous valent pour les **affaires engagées avant cette date** (art. 641 : non-rétroactivité) ; pour toute nouvelle procédure, re-vérifier chaque article sous la loi 58-25. Détail + calendrier : `00_START_HERE/12_VEILLE_LEGALE_2025_2026.md`.
+> ✅ **EN VIGUEUR DEPUIS LE 24 AOÛT 2026** : le nouveau Code de procédure civile (**loi n° 58-25**, BO n°7485 du 23/02/2026) s’applique — l’ancien CPC de 1974 ne vaut que pour les **affaires engagées avant cette date** (art. 641). Ancres vérifiées : requête écrite **ou électronique** (art. 76) · bonne foi processuelle (art. 10) · médiation/conciliation encouragées (art. 6-9) · notification par adresse CIN en dernier recours (art. 86) · digitalisation (art. 623-634) · **voies de recours selon la valeur du litige**. Les mentions « Loi 53-95 » ci-dessous désignent des règles désormais intégrées au nouveau code (les juridictions subsistent). Modalités d’audiences à distance : texte réglementaire attendu [suivre]. Détail : `00_START_HERE/12_VEILLE_LEGALE_2025_2026.md`.
 
 ## Objectifs
 - Situer le CPC (Dahir n°1-74-338 du 28 septembre 1974) dans l'architecture processuelle marocaine et connaître sa logique (compétence → instance → jugement → exécution).
@@ -16,7 +16,7 @@
 - Avoir lu `00_INDEX.md` pour la cartographie générale du module.
 
 ## TL;DR
-- Le CPC de 1974 organise tout le procès civil/commercial marocain : compétence, assignation/requête, mise en état, audience, jugement, voies de recours, exécution.
+- Depuis le 24/08/2026, la loi n° 58-25 organise tout le procès civil, commercial ET administratif dans un code unique (644 articles) : principes directeurs, requête écrite ou électronique, mise en état renforcée, audience (y compris à distance encadrée), jugement, voies de recours graduées selon la valeur du litige, exécution.
 - Les tribunaux de commerce (Loi 53-95) sont compétents pour les litiges commerciaux et disposent de procédures rapides ; ils sont le terrain naturel du contentieux B2B.
 - La juridiction de proximité (Loi 42-20) absorbe les petits litiges ≤5.000 DH [vérifier seuil] — utile pour les micro-créances de clients e-com comme Salma.
 - La compétence se vérifie AVANT de rédiger : matière + territoire. Une erreur = exception d'incompétence adverse + renvoi + délais perdus.
@@ -26,7 +26,7 @@
 
 | Règle | Base | Source+date vérif |
 |---|---|---|
-| Code de procédure civile et commerciale | Dahir n°1-74-338 du 28 septembre 1974 (« CPC ») | sgg.gov.ma — vérifié 23/08/2026 |
+| Code de procédure civile et commerciale | Loi n° 58-25 (nouveau CPC, BO 7485) · ancien CPC 1974 si affaire antérieure | sgg.gov.ma — vérifié 23/08/2026 |
 | Création des tribunaux de commerce, compétence commerciale, procédures rapides | Loi 53-95 | oc.gov.ma (IGOC 2024), justice.gov.ma |
 | Juridiction de proximité, litiges ≤5.000 DH [vérifier seuil] | Loi 42-20 | justice.gov.ma — vérifié 23/08/2026 |
 | Appel : délai 30 jours [vérifier article CPC] | CPC | sgg.gov.ma |
@@ -98,7 +98,7 @@ A. Le Dahir n°1-74-338 du 28 septembre 1974, applicable au civil et au commerci
 B. Une circulaire de 1997 du ministère de la Justice.
 C. La loi 53-95 elle-même.
 
-> **Réponse : A —** Le CPC est codifié par le Dahir n°1-74-338 du 28 septembre 1974. La Loi 53-95 crée les tribunaux de commerce et leurs procédures rapides : deux textes complémentaires, jamais confondus.
+> **Réponse : A —** Depuis le 24/08/2026, le code de procédure civile est la loi n° 58-25 (BO n°7485) ; avant cette date, il était codifié par le dahir du 28 septembre 1974. La Loi 53-95 crée les tribunaux de commerce et leurs procédures rapides : deux textes complémentaires, jamais confondus.
 
 ## Fiches révision
 

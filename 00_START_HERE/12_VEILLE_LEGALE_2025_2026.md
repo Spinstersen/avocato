@@ -106,7 +106,7 @@ Introduite par **loi n° 19-20** modifiant la loi 17-95 (**dahir n° 1-21-75 du 
 
 ### C2. Ce qui ne change pas (socle stable, re-vérifié)
 
-Loi 5-96 SARL (capital 10k, gérance) · DOC art.230/258/264/443/618/1055 (contrats, astreinte, clause pénale, preuve, réserve, transaction) — **droit de fond intact malgré la réforme procédurale** · Loi 114-13 AE (plafonds ci-dessus) · Loi 17-97 PI (OMPIC 1 200 DH/classe, opposition 2 mois) · Loi 02-00 droits d'auteur · Loi 08-05 arbitrage/AMR · Loi 15-06 échange · IGOC juillet 2024 (dotations 15k/100k, rapatriement 30j) — **surveiller la circulaire Office 2025/2026**.
+Loi 5-96 SARL (capital 10k, gérance) · DOC art.230/258/264/443/618/1055 (contrats, astreinte, clause pénale, preuve, réserve, transaction) — **droit de fond intact malgré la réforme procédurale** · Loi 114-13 AE (plafonds ci-dessus) · Loi 17-97 PI (OMPIC 1 200 DH/classe, opposition 2 mois) · Loi 02-00 droits d'auteur · Loi 08-05 arbitrage/AMR · Loi 15-06 échange · **IGOC 2026 en vigueur depuis le 01/01/2026** (start-ups ADD 10M étranger, marchés 15 %, étrangers résidents 2M, MRE immo 80 %, SARF/E-ID — voir `09_Office_Changes_Dotation_IGOC2024/00_INDEX`).
 
 ---
 
@@ -124,9 +124,17 @@ Loi 09-08 : registre 5 colonnes, déclaration CNDP (récepissé 30j), transfert 
 
 Conseil des ministres **14/05/2026** ; vote parlementaire attendu automne 2026 ; **entrée en vigueur prévue 01/01/2027**. Contenu annoncé : télétravail légalisé (droit explicite, plafond indicatif 3 j/sem, indemnité ~250 DH/mois) · CDD jusqu'à 3 ans renouvelable 2× (start-ups <3 ans incluses) · congés payés +3 jours · **statut des travailleurs de plateformes** (livraison/VTC) · harcèlement moral défini + signalement obligatoire >50 salariés (amendes 30k-150k) · libertés syndicales élargies. ⚠️ Chiffres = projets soumis à négociation/vote : ne PAS les citer aux clients avant promulgation. Impact vault : `07_Droit_Social_CNSS`, packs employeur — sprint post-promulgation.
 
-### D4. Actifs numériques / crypto — cadre en construction
+### D4. Actifs numériques / crypto — cadre RESTRICTIF maintenu *(vérifié 23/08/2026)*
 
-Un cadre réglementaire pour les crypto-actifs (BAM/parties prenantes) a été annoncé dans la presse économique 2024-2025 mais **aucune loi promulguée au 23/08/2026** trouvée lors de cette vérification. Freelances payés en stablecoins : rester sur la prudence Office des Changes (rapatriement 30j, compte convertible) et suivre BAM. Point à re-vérifier chaque trimestre.
+**Aucune loi promulguée** : le **projet de loi n° 42-25** sur les crypto-actifs (double pilotage AMMC/BAM, agréments PSAN, exclusion minage/NFT/MNBC/DeFi) poursuit son processus d’adoption (rapport stabilité financière, juillet 2026) mais n’est pas en vigueur.
+
+**Position officielle actuelle (à citer telle quelle aux clients) :**
+- Mise au point **Office des Changes du 11/03/2026** : transactions via monnaies virtuelles = **infraction à la réglementation des changes**, passible de sanctions/amendes.
+- **Mise en garde commune BAM/AMMC/Office du 15/04/2026** : usage des monnaies virtuelles non autorisé.
+- Aucune plateforme d’échange agréée au Maroc à ce jour ; simple détention sur wallet personnel non expressément pénalisée [zone grise].
+
+**Implication pratique freelances payés en stablecoins** : risque Office réel — recommander circuits bancaires agréés (comptes devises/convertibles, rapatriement 30j) tant que le cadre n’est pas adopté. Suivi trimestriel : promulgation loi 42-25 + textes d’application.
+- Track dédiée créée : `04_Skills_To_Learn/22_Actifs_Numeriques_Crypto/`.
 
 ---
 

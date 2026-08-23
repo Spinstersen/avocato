@@ -4,8 +4,9 @@
 >
 > **Liens :** `02_Requete_Introductive_Assignation_Modele.md` · `04_Audience_Plaidoirie_PV.md` · `../../08_Jurisprudence/08_Contentieux_Clause_Penale/00_INDEX.md`
 
-> ⚠️ **RÉFORME PROCÉDURALE — vérifié le 23/08/2026** : le nouveau Code de procédure civile (**loi n° 58-25**, BO n°7485 du 23/02/2026) entre en vigueur le **24 août 2026** et abroge l'ancien CPC de 1974 ; les règles procédurales des lois **53-95 / 41-90 / 80-03** y sont intégrées (les juridictions subsistent, un seul code civil/commercial/administratif). Les références « CPC » ci-dessous valent pour les **affaires engagées avant cette date** (art. 641 : non-rétroactivité) ; pour toute nouvelle procédure, re-vérifier chaque article sous la loi 58-25. Détail + calendrier : `00_START_HERE/12_VEILLE_LEGALE_2025_2026.md`.
+> ✅ **EN VIGUEUR DEPUIS LE 24 AOÛT 2026** : le nouveau Code de procédure civile (**loi n° 58-25**, BO n°7485 du 23/02/2026) s’applique — l’ancien CPC de 1974 ne vaut que pour les **affaires engagées avant cette date** (art. 641). Ancres vérifiées : requête écrite **ou électronique** (art. 76) · bonne foi processuelle (art. 10) · médiation/conciliation encouragées (art. 6-9) · notification par adresse CIN en dernier recours (art. 86) · digitalisation (art. 623-634) · **voies de recours selon la valeur du litige**. Les mentions « Loi 53-95 » ci-dessous désignent des règles désormais intégrées au nouveau code (les juridictions subsistent). Modalités d’audiences à distance : texte réglementaire attendu [suivre]. Détail : `00_START_HERE/12_VEILLE_LEGALE_2025_2026.md`.
 
+> 💡 **Nouveau** : juge de la mise en état aux pouvoirs renforcés — accélération de l’instruction et sanction des manœuvres dilatoires (bonne foi processuelle, art. 10).
 ## Objectifs
 - Comprendre la phase de mise en état : échange contradictoire des conclusions, communication des pièces, clôture.
 - Rédiger des conclusions qui répondent point par point à l'adversaire au lieu de réciter un cours.
@@ -27,7 +28,7 @@
 
 | Règle | Base | Source+date vérif |
 |---|---|---|
-| Déroulement de l'instance, échanges de conclusions | Dahir n°1-74-338 du 28 septembre 1974 (« CPC ») | sgg.gov.ma — vérifié 23/08/2026 |
+| Déroulement de l'instance, échanges de conclusions | Loi n° 58-25 (nouveau CPC, BO 7485) · ancien CPC 1974 si affaire antérieure | sgg.gov.ma — vérifié 23/08/2026 |
 | Tribunaux de commerce : instance et procédures rapides | Loi 53-95 | oc.gov.ma (IGOC 2024) |
 | Clause pénale manifestement excessive → réduction par le juge (~10% plafond crédible) | DOC art.264 + jurisprudence Cass. com. | courdecassation.ma |
 | Astreinte pour contraindre à exécuter (ex. 500 DH/jour après mise en demeure) | DOC art.258 + CPC | sgg.gov.ma |

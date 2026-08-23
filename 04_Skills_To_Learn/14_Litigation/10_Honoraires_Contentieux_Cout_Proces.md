@@ -4,7 +4,7 @@
 >
 > **Liens :** `../../05_Document_Bank/templates/01_Convention_Honoraires_Modele.md` · `07_Execution_Jugement_Saisies.md` · `../07_Sharp_Legal_Mind/03_Numbers_Sheet.md`
 
-> ⚠️ **RÉFORME PROCÉDURALE — vérifié le 23/08/2026** : le nouveau Code de procédure civile (**loi n° 58-25**, BO n°7485 du 23/02/2026) entre en vigueur le **24 août 2026** et abroge l'ancien CPC de 1974 ; les règles procédurales des lois **53-95 / 41-90 / 80-03** y sont intégrées (les juridictions subsistent, un seul code civil/commercial/administratif). Les références « CPC » ci-dessous valent pour les **affaires engagées avant cette date** (art. 641 : non-rétroactivité) ; pour toute nouvelle procédure, re-vérifier chaque article sous la loi 58-25. Détail + calendrier : `00_START_HERE/12_VEILLE_LEGALE_2025_2026.md`.
+> ✅ **EN VIGUEUR DEPUIS LE 24 AOÛT 2026** : le nouveau Code de procédure civile (**loi n° 58-25**, BO n°7485 du 23/02/2026) s’applique — l’ancien CPC de 1974 ne vaut que pour les **affaires engagées avant cette date** (art. 641). Ancres vérifiées : requête écrite **ou électronique** (art. 76) · bonne foi processuelle (art. 10) · médiation/conciliation encouragées (art. 6-9) · notification par adresse CIN en dernier recours (art. 86) · digitalisation (art. 623-634) · **voies de recours selon la valeur du litige**. Les mentions « Loi 53-95 » ci-dessous désignent des règles désormais intégrées au nouveau code (les juridictions subsistent). Modalités d’audiences à distance : texte réglementaire attendu [suivre]. Détail : `00_START_HERE/12_VEILLE_LEGALE_2025_2026.md`.
 
 ## Objectifs
 - Construire une convention d'honoraires de litige complète : phases, montants, provisions, débours, critères de sortie.

@@ -4,7 +4,7 @@
 >
 > **Liens :** `01_CPC_Fondamentaux_Juridictions.md` · `06_Injonction_De_Payer_TribCom.md` · `../../08_Jurisprudence/03_Contrats_DOC/00_INDEX.md`
 
-> ⚠️ **RÉFORME PROCÉDURALE — vérifié le 23/08/2026** : le nouveau Code de procédure civile (**loi n° 58-25**, BO n°7485 du 23/02/2026) entre en vigueur le **24 août 2026** et abroge l'ancien CPC de 1974 ; les règles procédurales des lois **53-95 / 41-90 / 80-03** y sont intégrées (les juridictions subsistent, un seul code civil/commercial/administratif). Les références « CPC » ci-dessous valent pour les **affaires engagées avant cette date** (art. 641 : non-rétroactivité) ; pour toute nouvelle procédure, re-vérifier chaque article sous la loi 58-25. Détail + calendrier : `00_START_HERE/12_VEILLE_LEGALE_2025_2026.md`.
+> ✅ **EN VIGUEUR DEPUIS LE 24 AOÛT 2026** : le nouveau Code de procédure civile (**loi n° 58-25**, BO n°7485 du 23/02/2026) s’applique — l’ancien CPC de 1974 ne vaut que pour les **affaires engagées avant cette date** (art. 641). Ancres vérifiées : requête écrite **ou électronique** (art. 76) · bonne foi processuelle (art. 10) · médiation/conciliation encouragées (art. 6-9) · notification par adresse CIN en dernier recours (art. 86) · digitalisation (art. 623-634) · **voies de recours selon la valeur du litige**. Les mentions « Loi 53-95 » ci-dessous désignent des règles désormais intégrées au nouveau code (les juridictions subsistent). Modalités d’audiences à distance : texte réglementaire attendu [suivre]. Détail : `00_START_HERE/12_VEILLE_LEGALE_2025_2026.md`.
 
 ## Objectifs
 - Identifier les situations qui justifient une procédure rapide (urgence, péril, conservation de preuves) plutôt qu'une action au fond.
@@ -27,7 +27,7 @@
 
 | Règle | Base | Source+date vérif |
 |---|---|---|
-| Ordonnances sur requête / mesures urgentes | Dahir n°1-74-338 du 28 septembre 1974 (« CPC ») | sgg.gov.ma — vérifié 23/08/2026 |
+| Ordonnances sur requête / mesures urgentes | Loi n° 58-25 (nouveau CPC, BO 7485) · ancien CPC 1974 si affaire antérieure | sgg.gov.ma — vérifié 23/08/2026 |
 | Présidents des tribunaux de commerce : procédures rapides | Loi 53-95 | oc.gov.ma (IGOC 2024) |
 | Astreinte pour forcer l'exécution d'une obligation | DOC art.258 + CPC (ex. 500 DH/jour après mise en demeure) | sgg.gov.ma |
 | Mesures provisoires ≠ jugement au fond | CPC (caractère provisoire) | sgg.gov.ma |

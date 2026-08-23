@@ -2,6 +2,8 @@
 
 > **Dossier maître — Niche 9 (nouvelle, vide avant: Select-String dotation:0 hit).** 13 fichiers profondeur max. Source primaire **IGOC 2024 Office des Changes** + Loi 19-06 change. Pont vers `08_Fiscalite_Internationale_Rapatriement/06_Rapatriement_Dividendes_Salaires_Change.md`.
 
+> 🔴 **IGOC 2026 EN VIGUEUR DEPUIS LE 01/01/2026** (remplace l’IGOC 2024 — oc.gov.ma, vérifié 23/08/2026). Nouveautés clés : **start-ups labellisées ADD** → investissement à l’étranger jusqu’à **10 MDH/an** sans condition d’ancienneté · titulaires de marchés à l’étranger : comptes devises/convertibles alimentables à hauteur de **15 % du marché** · étrangers résidents : transfert revenus **≤2 MDH/an** sans justificatifs devises si investissement >10 ans · garanties actif/passif lors de cessions aux non-résidents · crédits immobiliers MRE portés à **80 %** du bien (biens illimités) · dotations voyages refondues (base 100k + complément 30 % IR N-1, plafond 500k/an) · plateforme SARF (15/06/2026) et OC CONNECT avec E-ID.
+
 ## TL;DR
 
 *   **IGOC 2024:** Instruction Générale des Opérations de Change — bible 300p qui libéralise 6 dotations + rapatriement 30j + comptes devises.
