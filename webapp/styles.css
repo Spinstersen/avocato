@@ -462,6 +462,30 @@ pre code { background: none; padding: 0; }
   #printArea { display: block; position: absolute; inset: 0; padding: 24px; background: #fff; color: #000; }
 }
 
+/* Kanban pipeline */
+.kan-board { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(215px, 1fr); gap: 10px; overflow-x: auto; padding-bottom: 12px; align-items: start; }
+.kan-col { background: var(--bg-3); border-radius: var(--r-lg); padding: 8px; min-height: 120px; border: 2px dashed transparent; transition: border-color .15s, background .15s; }
+.kan-col.kan-over { border-color: var(--accent); background: var(--accent-soft); }
+.kan-head { display: flex; justify-content: space-between; align-items: center; font-size: 11.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: var(--text-dim); padding: 2px 4px 8px; }
+.kan-head span { background: var(--bg-2); border-radius: 999px; padding: 1px 7px; font-size: 10.5px; }
+.kan-card { display: flex; align-items: stretch; gap: 4px; background: var(--bg-2); border-radius: var(--r-md); margin-bottom: 6px; box-shadow: var(--shadow-1); cursor: grab; }
+.kan-card.dragging { opacity: .5; }
+.kan-card.kan-late { outline: 2px solid var(--err); }
+.kan-body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; padding: 7px 2px; cursor: pointer; }
+.kan-body strong { font-size: 12.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.kan-meta { font-size: 10.5px; color: var(--text-dim); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.kan-money { font-size: 10.5px; color: var(--accent-text); font-family: ui-monospace, monospace; }
+.kan-move { border: 0; background: transparent; color: var(--text-faint); cursor: pointer; padding: 0 6px; font-size: 13px; min-width: 26px; min-height: 42px; }
+.kan-move:hover { color: var(--accent-text); background: var(--bg-3); border-radius: var(--r-sm); }
+.kan-empty { font-size: 11px; color: var(--text-faint); text-align: center; padding: 8px 0; }
+
+/* Timeline journal */
+.timeline { list-style: none; margin: 0; padding: 0; }
+.timeline li { display: flex; gap: 8px; align-items: baseline; padding: 5px 0; border-bottom: 1px solid var(--border); font-size: 12.5px; }
+.timeline li:last-child { border-bottom: 0; }
+.tl-icon { flex: none; }
+.tl-ts { color: var(--text-faint); font-size: 11px; flex: none; }
+
 /* ---------- 8. Responsive ---------- */
 .scrim { position: fixed; inset: 0; background: rgba(8, 12, 16, .5); z-index: 40; backdrop-filter: blur(1px); }
 .sidebar-close { display: none; }

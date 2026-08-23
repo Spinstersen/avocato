@@ -116,6 +116,7 @@
   function renderCabinet() {
     $$('.cab-nav-item').forEach(b => b.classList.toggle('active', b.dataset.view === cabView));
     if (cabView === 'dashboard') renderCabDashboard();
+    else if (cabView === 'pipeline') renderKanban();
     else if (cabView === 'dossiers') renderDossiers();
     else if (cabView === 'conventions') renderConventions();
     else if (cabView === 'factures') renderFactures();
@@ -300,6 +301,85 @@
     });
   }
 
+  /* ---------- Pipeline Kanban ---------- */
+  const STATUTS = ['Prospect', 'Convention envoyée', 'Convention signée', 'En cours', 'Livré - solde dû', 'Clôturé', 'Abandonné'];
+
+  function moveStatut(id, delta) {
+    const d = STORE.dossiers.find(x => x.id === id);
+    if (!d) return;
+    const i = STATUTS.indexOf(d.statut || 'Prospect');
+    const ni = Math.min(STATUTS.length - 1, Math.max(0, i + delta));
+    if (ni === i) return;
+    d.statut = STATUTS[ni];
+    d.updatedAt = todayISO();
+    STORE.dossiers = STORE.dossiers;
+    logEvent(id, 'statut', 'Statut → ' + d.statut);
+    renderKanban();
+  }
+
+  function setStatutDrop(id, statut) {
+    const d = STORE.dossiers.find(x => x.id === id);
+    if (!d || d.statut === statut) return;
+    d.statut = statut;
+    d.updatedAt = todayISO();
+    STORE.dossiers = STORE.dossiers;
+    logEvent(id, 'statut', 'Statut → ' + statut);
+    renderKanban();
+  }
+
+  function renderKanban() {
+    const dossiers = STORE.dossiers;
+    const content = $('#content');
+    const cards = (statut) => dossiers.filter(d => (d.statut || 'Prospect') === statut).map(d => {
+      const overdueEch = STORE.echeances.some(e => e.dossierId === d.id && !e.done && e.date && e.date < todayISO());
+      return `<div class="kan-card ${overdueEch ? 'kan-late' : ''}" draggable="true" data-kid="${esc(d.id)}">
+        <button class="kan-move" data-mv="${esc(d.id)}" data-d="-1" title="Reculer" aria-label="Reculer">◀</button>
+        <div class="kan-body" data-open="${esc(d.id)}" title="Ouvrir le dossier">
+          <strong>${esc(d.client)}</strong>
+          <span class="kan-meta">${esc((d.mission || '').split('(')[0].trim())}</span>
+          <span class="kan-money">${fmtMoney(d.honoraires)} HT${d.echeance ? ' · ⏰ ' + esc(fmtDate(d.echeance)) : ''}${overdueEch ? ' · 🔴 retard' : ''}</span>
+        </div>
+        <button class="kan-move" data-mv="${esc(d.id)}" data-d="1" title="Avancer" aria-label="Avancer">▶</button>
+      </div>`;
+    }).join('') || '<div class="kan-empty">—</div>';
+
+    content.innerHTML = `
+      <div class="cab">
+        <h2>Pipeline</h2>
+        <p class="sub">${dossiers.length} dossier(s) — glisse les cartes sur desktop, ◀▶ sur mobile. Clique le centre pour ouvrir.</p>
+      </div>
+      <div class="kan-board">
+        ${STATUTS.map(s => `<div class="kan-col" data-col="${esc(s)}"><div class="kan-head">${esc(s)}<span>${dossiers.filter(d => (d.statut || 'Prospect') === s).length}</span></div>${cards(s)}</div>`).join('')}
+      </div>`;
+    $('#crumbs').innerHTML = '<span class="cur">Cabinet — Pipeline</span>';
+
+    $$('.kan-move').forEach(b => b.addEventListener('click', () => moveStatut(b.dataset.mv, Number(b.dataset.d))));
+    $$('.kan-body').forEach(b => b.addEventListener('click', () => viewDossier(b.dataset.open)));
+    // drag & drop desktop
+    let dragId = null;
+    $$('.kan-card').forEach(card => card.addEventListener('dragstart', () => { dragId = card.dataset.kid; card.classList.add('dragging'); }));
+    cardDragEnd();
+    function cardDragEnd() { $$('.kan-card').forEach(c => c.addEventListener('dragend', () => c.classList.remove('dragging'))); }
+    $$('.kan-col').forEach(col => {
+      col.addEventListener('dragover', (e) => { e.preventDefault(); col.classList.add('kan-over'); });
+      col.addEventListener('dragleave', () => col.classList.remove('kan-over'));
+      col.addEventListener('drop', (e) => {
+        e.preventDefault(); col.classList.remove('kan-over');
+        if (dragId) setStatutDrop(dragId, col.dataset.col);
+        dragId = null;
+      });
+    });
+  }
+
+  /* ---------- Timeline (journal) ---------- */
+  function renderTimeline(dossierId) {
+    const events = STORE.journal.filter(e => e.dossierId === dossierId).slice(-20).reverse();
+    if (!events.length) return '<p style="color:var(--text-dim);font-size:13px">Aucun événement encore. Le journal se remplit automatiquement (conventions, factures, changements de statut).</p>';
+    const ICON = { convention: '📝', facture: '💳', statut: '🔄', echeance: '⏰', dossier: '📁' };
+    return `<ul class="timeline">${events.map(e => `
+      <li><span class="tl-icon">${ICON[e.type] || '•'}</span><span class="tl-ts mono">${esc(e.ts)}</span><span>${esc(e.label)}</span></li>`).join('')}</ul>`;
+  }
+
   /* ---------- Dossiers ---------- */
   function renderDossiers() {
     const dossiers = STORE.dossiers.slice().sort((a, b) => (b.updatedAt || '').localeCompare(a.updatedAt || ''));
@@ -396,6 +476,7 @@
             ${echeances.length ? '<table class="cab-table"><thead><tr><th>Date</th><th>Intitulé</th><th>✓</th></tr></thead><tbody>' + echeances.map(e => `<tr><td class="mono">${esc(e.date || '')}</td><td>${esc(e.intitule || e.type)}</td><td><input type="checkbox" ${e.done ? 'checked' : ''} data-eid="${esc(e.id)}"></td></tr>`).join('') + '</tbody></table>' : '<p style="color:var(--text-dim);font-size:13px">Aucune échéance.</p>'}
           </div>
         </div>
+        <div class="dash-panel" style="margin-top:16px"><h3>Journal du dossier</h3>${renderTimeline(id)}</div>
         <div class="dash-panel" style="margin-top:16px"><h3>Conventions (${convs.length})</h3>
           ${convs.length ? '<table class="cab-table"><thead><tr><th>N°</th><th>Date</th><th>Honoraires</th><th>Provision</th></tr></thead><tbody>' + convs.map(cc => `<tr><td class="mono">${esc(cc.num)}</td><td>${esc(cc.date)}</td><td>${fmtMoney(cc.ht)} HT</td><td>${fmtMoney(cc.provision)}</td></tr>`).join('') + '</tbody></table>' : '<p style="color:var(--text-dim);font-size:13px">Aucune convention générée.</p>'}
         </div>
@@ -414,7 +495,12 @@
     $$('[data-act="del"]').forEach(b => b.addEventListener('click', () => delDossier(b.dataset.id)));
     $$('input[data-eid]').forEach(cb => cb.addEventListener('change', () => {
       const e = STORE.echeances.find(x => x.id === cb.dataset.eid);
-      if (e) { e.done = cb.checked; STORE.echeances = STORE.echeances; viewDossier(id); }
+      if (e) {
+        e.done = cb.checked;
+        STORE.echeances = STORE.echeances;
+        logEvent(id, 'echeance', (cb.checked ? '✓ Échéance faite : ' : '↩ Échéance réouverte : ') + (e.intitule || e.type || ''));
+        viewDossier(id);
+      }
     }));
   }
 
@@ -457,11 +543,15 @@
     const now = todayISO();
     if (editingId) {
       const idx = STORE.dossiers.findIndex(d => d.id === editingId);
+      const oldStatut = STORE.dossiers[idx]?.statut;
       if (idx >= 0) STORE.dossiers[idx] = { ...STORE.dossiers[idx], ...obj, updatedAt: now };
+      if (oldStatut && obj.statut && obj.statut !== oldStatut) logEvent(editingId, 'statut', 'Statut → ' + obj.statut);
+      else logEvent(editingId, 'dossier', 'Dossier modifié');
     } else {
       STORE.dossiers = [...STORE.dossiers, { id: uid(), ...obj, createdAt: now, updatedAt: now, statut: obj.statut || 'Prospect' }];
       // auto échéance if date provided
       const newId = STORE.dossiers[STORE.dossiers.length - 1].id;
+      logEvent(newId, 'dossier', 'Dossier créé (' + fmtMoney(obj.honoraires) + ' HT)');
       if (obj.echeance) {
         STORE.echeances = [...STORE.echeances, { id: uid(), dossierId: newId, date: obj.echeance, type: 'Remise livrables', intitule: 'Remise V1 + Loom', done: false }];
       }
