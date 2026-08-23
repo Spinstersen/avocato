@@ -8,7 +8,7 @@ Besoin = payer SaaS/ads ?
     └─ NON → Besoin = rapatrier export 5k$ ?
         ├─ OUI → Compte convertible + justif 30j (contrat+facture+SWIFT)
         └─ NON → Besoin = voyage perso ?
-            └─ OUI → Voyage 100k + 45% IS
+            └─ OUI → Voyage 100k/an (dotation personnelle)
 ```
 
 ## Choix compte

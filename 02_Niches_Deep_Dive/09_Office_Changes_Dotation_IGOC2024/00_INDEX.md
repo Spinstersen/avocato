@@ -34,7 +34,7 @@
 
 | Dotation | Plafond 2024 | Bénéficiaire | Justif | Formulaire |
 |---|---|---|---|---|
-| Voyage | 100,000 DH/an/pers + 45% IS /an | Pers. physique | Billet + passeport | Banque |
+| Voyage | 100,000 DH/an/pers (dotation personnelle) | Pers. physique | Billet + passeport | Banque |
 | E-commerce | 15,000 DH/an/carte | Pers./SARL | Factures SaaS | Banque |
 | Études | 50,000 DH/an | Étudiant | Inscription | Banque |
 | Investissement étranger | 100M DH/an (personne morale) | SARL | Dossier Office | Office RC1 |

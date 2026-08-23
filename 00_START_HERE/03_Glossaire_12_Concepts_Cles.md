@@ -69,7 +69,7 @@
 **Définition simple :** L'Office des Changes contrôle les flux devises via l'**IGOC 2024** (Instruction Générale des Opérations de Change). 3 règles pour avocat :
 - **Rapatriement 30j :** Tout export de service payé en devises doit être rapatrié au Maroc sous 30j (avis SWIFT gardé)
 - **Dotation e-commerce 15 000 DH/an :** Plafond pour payer SaaS étranger (GitHub, Vercel, Stripe)
-- **Dotation voyage 100 000 DH/an :** Pour déplacements, +45% IS si non justifiée
+- **Dotation voyage 100 000 DH/an :** dotation personnelle du résident pour déplacements (IGOC 2026) — aucune condition d'IS ; justificatif de revenus éventuel à l'appréciation de la banque
 
 **Base légale :** IGOC 2024 (oc.gov.ma), Loi 19-06 sanctions change.
 
