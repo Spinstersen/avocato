@@ -31,7 +31,7 @@
 *   `templates/03_Pack_Freelance_Contrat.md` — contrat service FR fait foi + cession PI Loi 2-00 + réserve art.618
 *   `templates/06_Recu_Provision_Facture.md` — HT/TVA 20% ou 0% export + mention rapatriement 30j
 *   `templates/07_Lettre_Mission_Planning.md` — planning 7-14j, dépendance pièces + provision
-*   `templates/09_Politique_Confidentialite_09-08_Modele.md` — registre 5 colonnes si collecte leads
+*   `templates/12_Politique_Confidentialite_09-08_Modele.md` — registre 5 colonnes si collecte leads
 
 ## Plan 7j — Freelance Offshore
 

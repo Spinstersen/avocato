@@ -27,10 +27,10 @@
 
 ## Modèles `05_Document_Bank` à joindre
 
-*   `templates/13_Procuration_Apostille_MRE_Modele.md` — procuration FR/AR Apostille 1961 + DHL + validité 1 an
-*   `templates/14_Statuts_SARL_5-96_MRE_Modele.md` — statuts SARL 10k + attestation blocage + PV gérance
+*   `templates/18_Procuration_Apostille_MRE_Modele.md` — procuration FR/AR Apostille 1961 + DHL + validité 1 an
+*   `templates/18_Procuration_Apostille_MRE_Modele.md` — statuts SARL 10k + attestation blocage + PV gérance
 *   `templates/06_Recu_Provision_Facture.md` — HT/TVA + débours OMPIC 2 000 DH + Apostille en sus
-*   `templates/15_Formulaire_5000-F_Dividende_Modele.md` — dividende 10% FR /15% BE + attestation DGI
+*   `templates/19_Guide_Formulaire_5000-F_Dividende.md` — dividende 10% FR /15% BE + attestation DGI
 *   `templates/01_Convention_Honoraires_Modele.md` — tripartite FR fait foi + provision 50% + planning 7j
 
 ## Plan 7j — MRE Investisseur

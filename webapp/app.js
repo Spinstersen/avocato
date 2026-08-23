@@ -22,7 +22,8 @@
     foldersOpen: LS.get('folders', {}),
     charts: [],
     spy: null,
-    autoReadDone: false
+    autoReadDone: false,
+    domainFilter: 'all'
   };
   const THEMES = ['system', 'light', 'dark'];
 
@@ -551,7 +552,8 @@
         art.insertBefore(bar, $('.doc-meta', art));
         $('#hlClear', main).addEventListener('click', () => {
           $('#searchInput').value = '';
-          renderTree('');
+    renderTree('');
+    renderDomainFilter();
           clearHighlights($('#content'));
         });
       }
@@ -674,6 +676,21 @@
         stroke-linecap="round" stroke-dasharray="${c}" stroke-dashoffset="${off}" transform="rotate(-90 43 43)"/>
       <text x="43" y="49" text-anchor="middle" fill="#fff" font-size="19" font-weight="800" font-family="inherit">${pct}%</text>
     </svg>`;
+  }
+
+  /* filtre par domaine */
+  function renderDomainFilter() {
+    const wrap = $('#domainFilter');
+    if (!wrap) return;
+    wrap.innerHTML = `<button class="df-chip ${state.domainFilter === 'all' ? 'active' : ''}" data-df="all">Tout</button>` +
+      ORDERED_DOMAINS.map((dom, i) =>
+        `<button class="df-chip ${state.domainFilter === dom.id ? 'active' : ''}" data-df="${esc(dom.id)}" title="${esc(dom.label)}">${i + 1}</button>`
+      ).join('');
+    $$('.df-chip', wrap).forEach(ch => ch.addEventListener('click', () => {
+      state.domainFilter = ch.dataset.df;
+      renderTree($('#searchInput').value.trim().toLowerCase());
+      document.body.classList.remove('sidebar-open');
+    }));
   }
 
   function openDashboard() {
@@ -968,6 +985,7 @@
       applyTheme();
     });
 
+    $('#printBtn').addEventListener('click', () => window.print());
     $('#btnDeadlines').addEventListener('click', () => {
       openDeadlines();
       document.body.classList.remove('sidebar-open');
@@ -979,6 +997,7 @@
       else if (e.key === ']') step(1);
       else if (e.key.toLowerCase() === 'd') { $('#themeBtn').click(); }
       else if (e.key.toLowerCase() === 'l') toggleRead();
+      else if (e.key.toLowerCase() === 'p' && state.current) window.print();
       else if (e.key === 'Escape') document.body.classList.remove('sidebar-open');
     });
 

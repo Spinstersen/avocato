@@ -29,9 +29,13 @@
 
     <label class="search-wrap" id="searchWrap">
       <span class="search-icon" aria-hidden="true">⌕</span>
-      <input id="searchInput" type="search" placeholder="Rechercher dans 680 docs…" autocomplete="off">
+      <input id="searchInput" type="search" placeholder="Rechercher dans 698 docs…" autocomplete="off">
       <span class="search-key">/</span>
     </label>
+
+    <nav style="padding:0 8px 4px;display:flex;flex-wrap:wrap;gap:4px;" id="domainFilter">
+      <button class="df-chip" data-df="all">Tout</button>
+    </nav>
 
     <nav class="curriculum-path" id="pathChips" aria-label="Parcours curriculum"></nav>
 
@@ -55,6 +59,7 @@
         <button class="icon-btn" id="prevBtn" title="Leçon précédente [ [" aria-label="Document précédent">←</button>
         <button class="icon-btn" id="nextBtn" title="Leçon suivante ] ]" aria-label="Document suivant">→</button>
         <button class="icon-btn" id="readBtn" title="Marquer lu ( l )" aria-label="Marquer comme lu">✓</button>
+        <button class="icon-btn" id="printBtn" title="Imprimer / PDF ( p )" aria-label="Imprimer">🖨</button>
         <button class="icon-btn" id="fontDec" title="Réduire la police" aria-label="Réduire la police">A−</button>
         <button class="icon-btn" id="fontInc" title="Augmenter la police" aria-label="Agrandir la police">A+</button>
         <button class="icon-btn" id="themeBtn" title="Thème : clair / sombre / système ( d )" aria-label="Changer de thème">🌙</button>

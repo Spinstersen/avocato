@@ -27,11 +27,11 @@
 
 ## Modèles `05_Document_Bank` à joindre
 
-*   `templates/16_Radiation_AE_Quitus_Modele.md` — demande radiation portail AE + quitus DGI + déclaration finale
-*   `templates/14_Statuts_SARL_5-96_MRE_Modele.md` — statuts SARL 10k + PV AGE + attestation blocage 48h
+*   `templates/20_Radiation_AE_Quitus_Modele.md` — demande radiation portail AE + quitus DGI + déclaration finale
+*   `templates/18_Procuration_Apostille_MRE_Modele.md` — statuts SARL 10k + PV AGE + attestation blocage 48h
 *   `templates/03_Pack_Freelance_Contrat.md` — contrats clients migrés SARL FR/EN + PI Loi 2-00 + art.618
 *   `templates/01_Convention_Honoraires_Modele.md` — provision 50% + planning 7-14j + co-traitance comptable
-*   `templates/09_Politique_Confidentialite_09-08_Modele.md` — MAJ registre 09-08 migration AE→SARL
+*   `templates/12_Politique_Confidentialite_09-08_Modele.md` — MAJ registre 09-08 migration AE→SARL
 
 ## Plan 7j — AE → SARL
 

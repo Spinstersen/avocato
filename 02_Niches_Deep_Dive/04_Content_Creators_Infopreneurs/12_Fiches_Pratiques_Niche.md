@@ -27,10 +27,10 @@
 
 ## Modèles `05_Document_Bank` à joindre
 
-*   `templates/11_CGV_Formation_31-08_Modele.md` — CGV formation : accès/durée/7j rétractation/15j remboursement + DOC 443
-*   `templates/12_Contrat_Sponsor_PI_Loi2-00_Modele.md` — sponsor/affiliation : rémunération HT + cession limitée art.11 + PI + art.618
-*   `templates/05_Depot_Marque_OMPIC_Modele.md` — dépôt cl.41+35+9, recherche antériorité + opposition 2 mois
-*   `templates/09_Politique_Confidentialite_09-08_Modele.md` — registre leads 5 colonnes + bannière + art.24/43
+*   `templates/15_CGV_Formation_31-08_Modele.md` — CGV formation : accès/durée/7j rétractation/15j remboursement + DOC 443
+*   `templates/16_Contrat_Sponsor_PI_Loi2-00.md` — sponsor/affiliation : rémunération HT + cession limitée art.11 + PI + art.618
+*   `templates/17_Depot_Marque_OMPIC_Checklist.md` — dépôt cl.41+35+9, recherche antériorité + opposition 2 mois
+*   `templates/12_Politique_Confidentialite_09-08_Modele.md` — registre leads 5 colonnes + bannière + art.24/43
 *   `templates/06_Recu_Provision_Facture.md` — HT/TVA + débours OMPIC 1 200 DH/classe en sus
 
 ## Plan 7j — Content Creator

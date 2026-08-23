@@ -27,9 +27,9 @@
 
 ## Modèles `05_Document_Bank` à joindre
 
-*   `templates/09_Politique_Confidentialite_09-08_Modele.md` — politique + registre 5 colonnes + durées 3 ans + droits 30j + transfert art.43
-*   `templates/04_Contrat_Sous_Traitant_09-08_art24.md` — clauses art.24 + CTT transfert + sécurité + audit
-*   `templates/10_DPIA_Modele_CNDP.md` — DPIA art.20 : description/risques/mesures + avis DPO
+*   `templates/12_Politique_Confidentialite_09-08_Modele.md` — politique + registre 5 colonnes + durées 3 ans + droits 30j + transfert art.43
+*   `templates/13_Contrat_Sous_Traitant_09-08_art24.md` — clauses art.24 + CTT transfert + sécurité + audit
+*   `templates/14_DPIA_Modele_CNDP.md` — DPIA art.20 : description/risques/mesures + avis DPO
 *   `templates/01_Convention_Honoraires_Modele.md` — provision 50% + planning 7j + co-traitance RSSI
 *   `templates/07_Lettre_Mission_Planning.md` — planning 7j, dépendance inventaire traitements
 
