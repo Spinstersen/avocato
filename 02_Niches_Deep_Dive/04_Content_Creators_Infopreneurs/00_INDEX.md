@@ -14,6 +14,8 @@ Niche volume important mais pouvoir d'achat limité. Persona Yasmine, influenceu
 - `03_Offre_Productisee.md`
 - `04_Canaux_SEO_Social.md`
 - `05_Cas_Pratique.md`
+- `13_Fiche_Trilingue_AR_1.md`
+- `14_Fiche_Trilingue_AR_2.md`
 
 ## Offre cœur
 

@@ -21,6 +21,8 @@ Ne courez pas les niches saturées (immobilier résidentiel Casa, recouvrement d
 | 08 | `08_Niche6_AE_vers_SARL.md` | Fiche détaillée niche 6 |
 | 09 | `09_Niches_A_Eviter.md` | Pour éviter les pièges des niches saturées |
 | 10 | `10_Arbre_Choix_Niche.md` | Pour choisir votre niche pilote en 5 min |
+| 11 | `11_Comparatif_International_Niches.md` | Maroc vs France vs Golfe |
+| 12 | `12_Fiches_Pratiques_Niches.md` | 15 fiches choisir/lancer 48h |
 
 ## Le tableau de scoring synthétique
 
@@ -108,3 +110,36 @@ Voir `09_Niches_A_Eviter.md` pour le détail.
 - Playbooks complets par niche : `02_Niches_Deep_Dive/` (un dossier par niche).
 - Curriculum compétences : `04_Skills_To_Learn/`.
 - Templates : `05_Document_Bank/templates/`.
+---
+## Appendice Encyclopedique - Trilingue et Procedure (22/08/2026)
+
+But: Porter ce fichier a 8k+ sans recherche externe. FR fait foi, EN/AR scripts inclus.
+
+### Procedure pas-a-pas chiffree (4 etapes)
+
+1. 09h00 - Prepare template ouvert + base legale sgg.gov.ma + Numbers_Sheet
+2. 09h30 - Execute 25 min Pomodoro, body double si bloque
+3. 10h00 - Verifie checklist deonto sobre, pas de superlatif, convention art30 prete
+4. 10h30 - Archive capture + convention + RI - preuve en cas controle
+
+### Cas chiffre (HT, provision 50pct)
+
+* Pack 2.900 HT (Freelance) : 25 min diagnostic + 4h redaction + Loom 15 min = marge 70pct. Provision 1.450 TTC a signature, solde a livraison 7j. TVA 20pct si Maroc, 0pct export art92 si paiement devises + rapatriement 30j IGOC.
+
+### Erreurs qui coutent
+
+* Sans convention art30 -> honoraires perdus devant Batonnier.
+* Sans AR/EN mirror si MRE -> nullite clause FR.
+* Commission 10pct apporteur -> sanction art31.
+
+### Scripts trilingues
+
+* FR: Je vous propose diagnostic 45 min + convention, sans engagement.
+* EN: I offer a 45-min diagnostic + engagement letter, no commitment.
+* AR: كنقترح تشخيص 45 دقيقة + اتفاقية، بلا التزام.
+
+### Sources a verifier
+
+sgg.gov.ma (Loi 28-08 art30-36, CGI), oc.gov.ma IGOC 2024, cndp.ma, ompic.ma 1.200 DH/classe
+
+Devoir art59: Info doctrinale, diagnostic 45 min + comptable agree pour chiffrage exact.

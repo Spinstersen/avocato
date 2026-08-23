@@ -9,7 +9,7 @@ const ROOT = path.resolve(__dirname, '..', '..');
 const OUT_DIR = path.resolve(__dirname, '..');
 const OUT = path.join(OUT_DIR, 'data.js');
 
-const IGNORE_DIRS = new Set(['webapp', 'node_modules', '.git', '.obsidian', 'avocato']);
+const IGNORE_DIRS = new Set(['webapp', 'node_modules', '.git', '.obsidian', 'avocato', 'avocato-V2']);
 
 function walk(dir, base, results) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {

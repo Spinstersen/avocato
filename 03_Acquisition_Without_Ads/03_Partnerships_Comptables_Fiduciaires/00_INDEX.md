@@ -13,6 +13,7 @@ Le comptable est le partenaire n°1. Il a les PME en portefeuille et connaît le
 - `02_Prise_Contact.md` — Comment aborder
 - `03_Co_Intervention.md` — Coopération concrète
 - `04_Entretien_Reseau.md` — Maintenir
+- `04_Fiche_Complete_Partenariats.md` - Fiche complète du canal (encyclopédie)
 
 ## Le principe
 

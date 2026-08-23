@@ -27,6 +27,8 @@
 | 08 | `08_Secret_Banque_Donnees.md` | Sur la conservation des données |
 | 09 | `09_Fiches_Pratiques.md` | Outils prêts à l'emploi |
 | 10 | `10_Cas_Pratiques.md` | Exemples concrets anonymisés |
+| 11 | `11_Comparatif_International_France_Belgique.md` | Comparatif déontologique FR/BE (art.31 vs RIN 10.3) |
+| 12 | `12_Arbre_Decision_Deontologie.md` | Arbre décision avant toute action sensible |
 
 ## Liens vers les autres dossiers
 

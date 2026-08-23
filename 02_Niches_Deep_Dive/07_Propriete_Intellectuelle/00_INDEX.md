@@ -22,6 +22,11 @@
 | 05 | `05_Canaux_Incubateurs_Comptables.md` | OMPIC + comptables + Technopark + LinkedIn |
 | 06 | `06_Scripts_DM_WhatsApp.md` | 12 scripts FR/EN + diagnostic 20 min |
 | 07 | `07_Cas_Pratique_Complet.md` | Cas Startup Casa 360° de A à Z |
+| 08 | `08_Fiche_Trilingue_AR_1.md` | Fiche trilingue FR/EN/AR (Darija) |
+| 09 | `09_Fiche_Trilingue_AR_2.md` | Fiche trilingue FR/EN/AR (Darija) |
+| 10 | `10_Fiche_Trilingue_AR_3.md` | Fiche trilingue FR/EN/AR (Darija) |
+| 11 | `11_Fiche_Trilingue_AR_4.md` | Fiche trilingue FR/EN/AR (Darija) |
+| 12 | `12_Fiche_Trilingue_AR_5.md` | Fiche trilingue FR/EN/AR (Darija) |
 
 ## Matrice risque
 

@@ -28,6 +28,7 @@ J+3 à J+7 après la livraison de la mission, quand le client est enchanté.
 
 - 30-50% des clients satisfaits envoient au moins 1 filleul.
 - 20-30% des filleuls deviennent clients.
+- `04_Fiche_Complete_Referral.md` - Fiche complète du canal (encyclopédie)
 
 ---
 

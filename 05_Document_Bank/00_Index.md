@@ -17,6 +17,9 @@
 | 06 | `templates/06_Recu_Provision_Facture.md` | Reçu provision + Facture solde | — |
 | 07 | `templates/07_Lettre_Mission_Planning.md` | Planning joint à la convention | — |
 | 08 | `templates/08_PV_Remise_Cloture.md` | PV de remise & clôture | — |
+| 09 | `templates/09_Checklist_Review_Contrat_19pts.md` | Template Gym - revue de contrat 19 points (A-E) | Avant signature client |
+| 10 | `templates/10_Email_Recouvrement_Amiable_Modele.md` | Recouvrement amiable - séquence relances J+7/J+15/J+30 | Impayé J+7 |
+| 11 | `templates/11_Calculateur_Provision_TVA_Offline.md` | Calculateur provision 50% / TVA art.91-92 offline | Chiffrage mission |
 
 ## Fiches opérationnelles — prêtes (mémoire externe art. 59)
 

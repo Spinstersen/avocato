@@ -17,6 +17,7 @@ Niche montée en gamme. Persona Hicham, cofondateur SaaS B2B marocain. Pack cœu
 | 04 | `04_Mots_Cles_SEO.md` | SEO et calendrier |
 | 05 | `05_Canaux_Acquisition.md` | LinkedIn, ateliers, partenariats IT |
 | 06 | `06_Cas_Pratique_Complet.md` | Mission type pour Hicham |
+| 13 | `13_Fiche_Trilingue_AR_1.md` | Fiche trilingue FR/EN/AR (Darija) |
 
 ## Offre cœur
 

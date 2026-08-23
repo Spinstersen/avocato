@@ -32,6 +32,7 @@ L'atelier gratuit est l'un des canaux les plus puissants. Sujet informatif, pas 
 - ❌ Pas de sous-vente agressive pendant l'atelier.
 - ✅ Distribution d'une fiche contact sobre à l'issue.
 - ✅ Suivi post-atelier (email informatif, proposition de diagnostic).
+- `04_Fiche_Complete_Conferences.md` - Fiche complète du canal (encyclopédie)
 
 Voir `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/03_Actes_Permis_Cadre_Legal.md`.
 
