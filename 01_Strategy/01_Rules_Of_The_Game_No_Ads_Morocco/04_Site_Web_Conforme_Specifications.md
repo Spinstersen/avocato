@@ -1,5 +1,8 @@
 # 04 — Spécifications du site web conforme (déontologie + UX + SEO)
 
+> ⚠️ **MISE À JOUR 23/08/2026 — Loi n° 66.23 promulguée (dahir 1-26-75 du 18/08/2026) et publiée au BO n° 7536 du 20/08/2026 : la loi 28-08 est ABROGÉE.** Les numéros d'articles ci-dessous (art. 30, 32, 36…) renvoient à l'ancien texte ; **re-vérifier les équivalences dans la loi 66.23** (traçabilité honoraires, stage 2 ans, mandats limités, discipline réformée) avant tout usage en pratique. Détail : `00_START_HERE/12_VEILLE_LEGALE_2025_2026.md` §A2.
+
+
 Le site web est l'acte permis le plus stratégiquement rentable. Ce fichier donne les spécifications complètes : obligations déontologiques, structure d'arborescence, contenu-type de chaque page, sobriété du design, conformité Loi 09-08, et bonifications SEO.
 
 ## 1. Obligations déontologiques applicables au site

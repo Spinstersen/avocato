@@ -1,5 +1,8 @@
 # 04 — Recadrage du scope creep : avenants chiffrés
 
+> ⚠️ **MISE À JOUR 23/08/2026 — Loi n° 66.23 promulguée (dahir 1-26-75 du 18/08/2026) et publiée au BO n° 7536 du 20/08/2026 : la loi 28-08 est ABROGÉE.** Les numéros d'articles ci-dessous (art. 30, 32, 36…) renvoient à l'ancien texte ; **re-vérifier les équivalences dans la loi 66.23** (traçabilité honoraires, stage 2 ans, mandats limités, discipline réformée) avant tout usage en pratique. Détail : `00_START_HERE/12_VEILLE_LEGALE_2025_2026.md` §A2.
+
+
 > Skills n°15 Client Psychology & Retention — module 04/11 : dire non sans perdre le client, et transformer chaque demande hors périmètre en avenant payant. Temps de lecture : ~9 min.
 >
 > **Liens :** `01_Cycle_Vie_Client_Onboarding_7j.md` · `05_Profiles_Client_Difficile_Protocoles.md` · convention + avenant `../../05_Document_Bank/templates/01_Convention_Honoraires_Modele.md` · grille `../07_Sharp_Legal_Mind/03_Numbers_Sheet.md`

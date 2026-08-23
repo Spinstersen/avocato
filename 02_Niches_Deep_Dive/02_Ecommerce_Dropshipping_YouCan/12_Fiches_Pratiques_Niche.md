@@ -27,7 +27,7 @@
 
 ## Modèles `05_Document_Bank` à joindre
 
-*   `templates/08_CGV_Ecommerce_31-08_Modele.md` — CGV FR/AR art.36-38 + rétractation 7j + livraison + pénalité 10%
+*   `templates/22_CGV_Ecommerce_31-08_Modele.md` — CGV FR/AR art.36-38 + rétractation 7j + livraison + pénalité 10%
 *   `templates/12_Politique_Confidentialite_09-08_Modele.md` — registre 5 colonnes + bannière + transfert art.43 + droits 09-08
 *   `templates/13_Contrat_Sous_Traitant_09-08_art24.md` — YouCan/livreur/pixel, clauses CTT CNDP
 *   `templates/06_Recu_Provision_Facture.md` — HT/TVA 20% Maroc + débours OMPIC 1 200 DH/classe

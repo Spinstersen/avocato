@@ -80,10 +80,10 @@ body[data-app="cabinet"] {
   --accent-soft: rgba(37, 99, 235, .10); --accent-text: #2563eb;
   --ring: rgba(37, 99, 235, .35);
 }
-body[data-app="cabinet"][data-theme="dark"], 
-@media (prefers-color-scheme: dark) { body[data-app="cabinet"][data-theme="system"] {
-  --accent-text: #7fb0ff;
-}}
+body[data-app="cabinet"][data-theme="dark"] { --accent-text: #7fb0ff; }
+@media (prefers-color-scheme: dark) {
+  body[data-app="cabinet"][data-theme="system"] { --accent-text: #7fb0ff; }
+}
 
 /* ---------- 2. Reset & base ---------- */
 * { box-sizing: border-box; }

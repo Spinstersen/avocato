@@ -32,9 +32,15 @@ Promulguée par **dahir n° 1-26-07 du 11/02/2026**, publiée au **BO n° 7485 d
 
 ### A2. Loi n° 66.23 — Organisation de la profession d'avocat *(vérifié 24/08/2026)*
 
-**Dahir n° 1-26-75 du 18/08/2026**, **BO n° 7536 du 20/08/2026** ; application immédiate (art. 146) [vérifier]. **Remplace la loi n° 28-08** (2008, organisation de la profession d’avocat). Contexte : grève ~100 jours des barreaux, maintenue après la publication.
+**Dahir n° 1-26-75 du 18/08/2026**, **BO n° 7536 du 20/08/2026** ; application immédiate (art. 146) [vérifier]. **Remplace et ABROGE la loi n° 28-08** (2008, organisation de la profession d’avocat). Contexte : grève ~100 jours des barreaux, **maintenue après la publication** ; assemblée extraordinaire de l’Association des barreaux du Maroc le **05/09/2026 à Rabat** pour décider des suites.
 
-⚖️ **Cour constitutionnelle — décision n° 277/26 M.D. (dossier 317/26) du 10/08/2026** : la Cour se déclare dans l’**impossibilité de statuer** sur la conformité à la Constitution — vice de saisine (le dossier ne comportait pas le texte définitif adopté par la Chambre des conseillers le 07/07). La décision **ne valide ni n’invalide** les dispositions contestées ; la loi a ensuite été promulguée (18/08) et publiée (20/08) **sans contrôle constitutionnel sur le fond**. Nouvelle saisine corrigée possible tant que le dossier suit son cours. Sources : article19.ma, Maroc Hebdo, TelQuel, Le360, libe.ma (10-11/08/2026).
+**Entrée en vigueur différée pour 3 dispositions** : art. 12, art. 39 et §11 de l’art. 121 n’entrent en vigueur qu’après publication de leurs textes réglementaires d’application [suivre BO].
+
+**Transitoire organique (art. 137)** : les organes des barreaux en fonction à la date d’entrée en vigueur continuent jusqu’à l’élection des nouveaux organes, prévue au cours du **décembre suivant** l’entrée en vigueur.
+
+⚖️ **Cour constitutionnelle — décision n° 277/26 M.D. (dossier 317/26) du 10/08/2026** : la Cour se déclare dans l’**impossibilité de statuer** sur la conformité à la Constitution — vice de saisine (le dossier ne comportait pas le texte définitif adopté par la Chambre des conseillers le 07/07). La décision **ne valide ni n’invalide** les dispositions contestées ; la loi a ensuite été promulguée (18/08) et publiée (20/08) **sans contrôle constitutionnel sur le fond**. Sources : article19.ma, Maroc Hebdo, TelQuel, Le360, libe.ma, Medias24 (10-21/08/2026).
+
+⚠️ **Conséquence vault immédiate** : toutes les citations « art. 30 / 32 / 36 loi 28-08 » du vault (convention honoraires, secret professionnel, fixation des honoraires, discipline) renvoient désormais à un texte **abrogé** — bannières posées sur les fichiers concernés ; **re-mapping des équivalences art. 66.23 ↔ art. 28-08 = chantier prioritaire de l’audit** (dès parution du texte consolidé au BO/SGG).
 
 **Ce qui change** : master obligatoire avant CAPA · institut de formation dédié · **stage 2 ans** · mandats des organes du barreau limités · représentation minimale des femmes · encadrement des cabinets étrangers · **traçabilité des honoraires** · contrôle Cour des comptes des caisses du barreau · discipline réformée.
 Impact vault : `06_Deontologie/*`, template convention, scripts annonce honoraires (bannière posée — voir audit §3).

@@ -1,5 +1,8 @@
 # 01 — Cycle de vie client : onboarding 7 jours
 
+> ⚠️ **MISE À JOUR 23/08/2026 — Loi n° 66.23 promulguée (dahir 1-26-75 du 18/08/2026) et publiée au BO n° 7536 du 20/08/2026 : la loi 28-08 est ABROGÉE.** Les numéros d'articles ci-dessous (art. 30, 32, 36…) renvoient à l'ancien texte ; **re-vérifier les équivalences dans la loi 66.23** (traçabilité honoraires, stage 2 ans, mandats limités, discipline réformée) avant tout usage en pratique. Détail : `00_START_HERE/12_VEILLE_LEGALE_2025_2026.md` §A2.
+
+
 > Skills n°15 Client Psychology & Retention — module 01/11 : transformer une signature en relation de travail solide en sept jours, avant que la psychologie ne se retourne contre vous. Temps de lecture : ~9 min.
 >
 > **Liens :** `02_Annonce_Honoraires_Scripts_FR_AR_EN.md` · `03_Gestion_Attentes_Rappels_Etapes.md` · convention modèle `../../05_Document_Bank/templates/01_Convention_Honoraires_Modele.md` · acquisition `../03_Sales_Without_Selling/00_INDEX.md`

@@ -1,5 +1,8 @@
 # 06 — Impayés : prévention par balises contractuelles
 
+> ⚠️ **MISE À JOUR 23/08/2026 — Loi n° 66.23 promulguée (dahir 1-26-75 du 18/08/2026) et publiée au BO n° 7536 du 20/08/2026 : la loi 28-08 est ABROGÉE.** Les numéros d'articles ci-dessous (art. 30, 32, 36…) renvoient à l'ancien texte ; **re-vérifier les équivalences dans la loi 66.23** (traçabilité honoraires, stage 2 ans, mandats limités, discipline réformée) avant tout usage en pratique. Détail : `00_START_HERE/12_VEILLE_LEGALE_2025_2026.md` §A2.
+
+
 > Skills n°15 Client Psychology & Retention — module 06/11 : l'impayé se prévient à la signature, pas à l'échéance. Chaque livrable adossé à un paiement. Temps de lecture : ~9 min.
 >
 > **Liens :** `07_Recouvrement_Amiable_Sequence_Scripts.md` · `../14_Litigation/00_INDEX.md` · convention modèle `../../05_Document_Bank/templates/01_Convention_Honoraires_Modele.md` · reçu provision `../../05_Document_Bank/templates/06_Recu_Provision_Facture.md`

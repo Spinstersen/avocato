@@ -1,5 +1,8 @@
 # 03 — Scénarios 06–10 (Diagnostic, anonymisés)
 
+> ⚠️ **MISE À JOUR 23/08/2026 — Loi n° 66.23 promulguée (dahir 1-26-75 du 18/08/2026) et publiée au BO n° 7536 du 20/08/2026 : la loi 28-08 est ABROGÉE.** Les numéros d'articles ci-dessous (art. 30, 32, 36…) renvoient à l'ancien texte ; **re-vérifier les équivalences dans la loi 66.23** (traçabilité honoraires, stage 2 ans, mandats limités, discipline réformée) avant tout usage en pratique. Détail : `00_START_HERE/12_VEILLE_LEGALE_2025_2026.md` §A2.
+
+
 **Mode d'emploi :** identique à `02_Scenarios_01-05_Diagnostic.md` — brief lu deux fois, 15 minutes enregistrées, 3 questions piège traitées, scoring sur `01_Grille_Notation_SPIN_20pts.md`, réponses modèles lues APRÈS la session. Le scénario 10 est un test déontologique : le «bon» réflexe n'est pas de vendre.
 
 ---

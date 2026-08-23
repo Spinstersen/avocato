@@ -1,4 +1,4 @@
-ï»¿# Phase 1: Foundation (Weeks 1-2) â€” Build the Machine
+# Phase 1: Foundation (Weeks 1-2) — Build the Machine
 
 > Goal: Not clients yet. Goal: Be ready to receive clients.
 
@@ -6,13 +6,13 @@
 
 **Day 1 (Monday): Positioning & Niche**
 - [ ] 1h: Read `00_START_HERE/00_READ_ME_FIRST.md` + `01_Strategy/03_Unsaturated_Niches_Overview/00_INDEX.md`
-- [ ] 30 min: Choose ONE niche (Freelance OR Ecom recommended) â€” write down why on paper.
+- [ ] 30 min: Choose ONE niche (Freelance OR Ecom recommended) — write down why on paper.
 - [ ] 1h: Write positioning sentence + update LinkedIn headline + WhatsApp Business description + Google Business description.
 
 **Day 2: Offer & Price**
 - [ ] 1h: Read deep dive for chosen niche (ex: `02_Niches_Deep_Dive/01_Freelancers...`)
-- [ ] 1h: Choose pack to sell (ex: Mission Contrats - Formule Essentielle 2,900 DH HT) â€” define its 5 deliverables.
-- [ ] 30 min: Create devis template in Canva (copy from `05_Document_Bank/templates/01_Devis_Template.md`)
+- [ ] 1h: Choose pack to sell (ex: Mission Contrats - Formule Essentielle 2,900 DH HT) — define its 5 deliverables.
+- [ ] 30 min: Create devis template in Canva (copy from `05_Document_Bank/templates/21_Devis_Pack_Modele.md`)
 
 **Day 3: Lead Magnet**
 - [ ] 2h: Create ONE lead magnet (Checklist 12 clauses OR Quiz Tally). Design in Canva 1 page.
@@ -21,11 +21,11 @@
 **Day 4: Profiles**
 - [ ] 1h: Makeover LinkedIn profile (banner, headline, featured) + Google Business Profile optimization.
 - [ ] 1h: WhatsApp Business setup: catalogue 1 pack + accueil message + labels.
-- [ ] 30 min: Carrd 1-page basics (who you help, pack, WhatsApp button) â€” don't overthink, v1 ugly ok.
+- [ ] 30 min: Carrd 1-page basics (who you help, pack, WhatsApp button) — don't overthink, v1 ugly ok.
 
 **Day 5: Partnership List**
 - [ ] 1h: List 15 comptables/fiduciaires (Google Maps around city + LinkedIn). Name, WhatsApp, type.
-- [ ] 1h: Send 5 first messages (script in `03_Acquisition_Without_Ads/03_Partnerships...`) â€” batch.
+- [ ] 1h: Send 5 first messages (script in `03_Acquisition_Without_Ads/03_Partnerships...`) — batch.
 
 **Weekend: Batch Content**
 - [ ] Sunday 10-12h: Write 3 LinkedIn posts for next week (use AI prompts). Schedule.
@@ -38,8 +38,8 @@
 - [ ] Reply all DMs at 11:30/18h.
 
 **Day 10: Delivery System**
-- [ ] Create Notion CRM (1 table Leads as in `06_ADHD_System/02_Notion...`) â€” 30 min.
-- [ ] Prepare Loom + contract/CGV template skeleton (copy structure from document bank) â€” 2h with AI.
+- [ ] Create Notion CRM (1 table Leads as in `06_ADHD_System/02_Notion...`) — 30 min.
+- [ ] Prepare Loom + contract/CGV template skeleton (copy structure from document bank) — 2h with AI.
 - [ ] Test delivery: send yourself a fake pack (PDF + Loom).
 
 **Day 11-12: Atelier Prep (Optional but high ROI)**
