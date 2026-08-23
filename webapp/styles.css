@@ -486,6 +486,36 @@ pre code { background: none; padding: 0; }
 .tl-icon { flex: none; }
 .tl-ts { color: var(--text-faint); font-size: 11px; flex: none; }
 
+/* Recherche globale cabinet */
+.cab-globalsearch { position: relative; flex: 1; max-width: 340px; margin-left: auto; }
+.cab-globalsearch input {
+  width: 100%; padding: 7px 12px; border-radius: 999px; border: 1px solid var(--border);
+  background: var(--bg-2); color: var(--text); font-size: 13px;
+}
+.cab-globalsearch input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--ring); }
+.gs-results { position: absolute; top: calc(100% + 6px); left: 0; right: 0; z-index: 60; background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r-lg); box-shadow: var(--shadow-2); overflow: hidden; }
+.gs-item { display: flex; flex-direction: column; gap: 1px; width: 100%; text-align: left; padding: 9px 12px; background: transparent; border: 0; border-bottom: 1px solid var(--border); cursor: pointer; font-size: 12.5px; color: var(--text); }
+.gs-item:last-child { border-bottom: 0; }
+.gs-item:hover, .gs-item:focus-visible { background: var(--accent-soft); }
+.gs-item span { color: var(--text-faint); font-size: 11px; }
+.gs-none { cursor: default; color: var(--text-dim); }
+
+/* Tables → cartes empilées (mobile) */
+@media (max-width: 700px) {
+  .cab-table-wrap .cab-table thead { display: none; }
+  .cab-table-wrap .cab-table tr {
+    display: block; background: var(--bg-2); border-radius: var(--r-md); margin: 8px 4px; padding: 6px 10px; box-shadow: var(--shadow-1); border: 0;
+  }
+  .cab-table-wrap .cab-table td {
+    display: flex; justify-content: space-between; align-items: center; gap: 12px;
+    padding: 5px 0; border: 0; text-align: right; min-height: 34px; white-space: normal;
+  }
+  .cab-table-wrap .cab-table td::before {
+    content: attr(data-label); text-align: left; font-weight: 600; font-size: 11px; color: var(--text-faint); text-transform: uppercase; letter-spacing: .04em;
+  }
+  .cab-globalsearch { max-width: none; order: 3; flex-basis: 100%; margin-top: 6px; }
+}
+
 /* ---------- 8. Responsive ---------- */
 .scrim { position: fixed; inset: 0; background: rgba(8, 12, 16, .5); z-index: 40; backdrop-filter: blur(1px); }
 .sidebar-close { display: none; }

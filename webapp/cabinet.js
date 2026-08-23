@@ -443,13 +443,13 @@
       const c = calcTTC(d.honoraires, d.tva);
       const prov = Math.round(c.ttc * (Number(d.provisionPct) || 0) / 100);
       return `<tr data-id="${esc(d.id)}">
-                <td><strong>${esc(d.client)}</strong><br><span style="color:var(--text-dim);font-size:11px">${esc(d.type || '')} ${d.ice ? '· ICE ' + esc(d.ice) : ''}</span></td>
-                <td style="max-width:180px;white-space:normal;font-size:12px">${esc(d.mission || '')}</td>
-                <td class="mono">${fmtMoney(c.ht)}<br><span style="color:var(--text-dim)">${d.tva == 0 ? 'TVA 0%' : 'TTC ' + fmtMoney(c.ttc)}</span></td>
-                <td class="mono">${fmtMoney(prov)}<br><span style="color:var(--text-dim)">${d.provisionPct || 50}%</span></td>
-                <td>${badge(d.statut || 'Prospect')}</td>
-                <td class="mono">${esc(d.echeance ? fmtDate(d.echeance) : '—')}</td>
-                <td><button class="btn" data-act="view" data-id="${esc(d.id)}">Voir</button> <button class="btn" data-act="edit" data-id="${esc(d.id)}">Éditer</button></td>
+                <td data-label="Client"><strong>${esc(d.client)}</strong><br><span style="color:var(--text-dim);font-size:11px">${esc(d.type || '')} ${d.ice ? '· ICE ' + esc(d.ice) : ''}</span></td>
+                <td data-label="Mission" style="max-width:180px;white-space:normal;font-size:12px">${esc(d.mission || '')}</td>
+                <td data-label="Honoraires" class="mono">${fmtMoney(c.ht)}<br><span style="color:var(--text-dim)">${d.tva == 0 ? 'TVA 0%' : 'TTC ' + fmtMoney(c.ttc)}</span></td>
+                <td data-label="Provision" class="mono">${fmtMoney(prov)}<br><span style="color:var(--text-dim)">${d.provisionPct || 50}%</span></td>
+                <td data-label="Statut">${badge(d.statut || 'Prospect')}</td>
+                <td data-label="Échéance" class="mono">${esc(d.echeance ? fmtDate(d.echeance) : '—')}</td>
+                <td data-label="Actions"><button class="btn" data-act="view" data-id="${esc(d.id)}">Voir</button> <button class="btn" data-act="edit" data-id="${esc(d.id)}">Éditer</button></td>
               </tr>`;
     }).join('')}</tbody>
           </table>
@@ -758,7 +758,7 @@
         <div class="cab-table-wrap"><table class="cab-table"><thead><tr><th>N°</th><th>Date</th><th>Client</th><th>Type</th><th>TTC</th><th>Statut</th><th>Actions</th></tr></thead><tbody>
           ${facts.map(f => {
       const d = dossiers.find(x => x.id === f.dossierId);
-      return `<tr><td class="mono">${esc(f.num)}</td><td>${esc(f.date)}</td><td>${esc(d ? d.client : '—')}</td><td>${esc(f.type)}</td><td>${fmtMoney(f.ttc)}</td><td>${esc(f.statut)}</td><td><button class="btn" data-viewfact="${esc(f.id)}">Voir</button> <button class="btn" data-encaisse="${esc(f.id)}">${f.statut === 'Encaissée' ? '✓' : 'Encaisser'}</button></td></tr>`;
+      return `<tr><td data-label="N°" class="mono">${esc(f.num)}</td><td data-label="Date">${esc(f.date)}</td><td data-label="Client">${esc(d ? d.client : '—')}</td><td data-label="Type">${esc(f.type)}</td><td data-label="TTC" class="mono">${fmtMoney(f.ttc)}</td><td data-label="Statut">${esc(f.statut)}${f.encaisseeLe ? ' · ' + esc(f.encaisseeLe) : ''}</td><td data-label="Actions"><button class="btn" data-viewfact="${esc(f.id)}">Voir</button> <button class="btn" data-encaisse="${esc(f.id)}">${f.statut === 'Encaissée' ? '↩' : 'Encaisser'}</button></td></tr>`;
     }).join('')}
         </tbody></table>${facts.length === 0 ? '<div class="empty-state" style="padding:20px">Aucune facture. Générez depuis un dossier.</div>' : ''}</div>
       </div>`;
@@ -828,11 +828,11 @@
       const d = dossiers.find(x => x.id === e.dossierId);
       const overdue = !e.done && e.date && e.date < todayISO();
       return `<tr data-eid="${esc(e.id)}" data-done="${e.done ? '1' : '0'}" data-overdue="${overdue ? '1' : '0'}" style="${overdue ? 'background:#fff1f1' : ''}">
-                <td class="mono">${esc(e.date || '')} ${overdue ? '⚠️' : ''}</td>
-                <td>${esc(d ? d.client : '—')}</td>
-                <td><span class="badge">${esc(e.type || '')}</span></td>
-                <td style="white-space:normal">${esc(e.intitule || '')}</td>
-                <td><input type="checkbox" ${e.done ? 'checked' : ''} data-eid="${esc(e.id)}"></td>
+                <td data-label="Date" class="mono">${esc(e.date || '')} ${overdue ? '⚠️' : ''}</td>
+                <td data-label="Dossier">${esc(d ? d.client : '—')}</td>
+                <td data-label="Type"><span class="badge">${esc(e.type || '')}</span></td>
+                <td data-label="Intitulé" style="white-space:normal">${esc(e.intitule || '')}</td>
+                <td data-label="Fait"><input type="checkbox" ${e.done ? 'checked' : ''} data-eid="${esc(e.id)}"></td>
                 <td><button class="btn btn-danger" data-del-eid="${esc(e.id)}">×</button></td>
               </tr>`;
     }).join('')}
@@ -883,49 +883,103 @@
   $('#btnCancelEcheance').addEventListener('click', () => $('#dlgEcheance').close());
 
   /* ---------- Bibliothèque ---------- */
+  const BIBLIO = [
+    ['01_Convention_Honoraires_Modele.md', "Convention d'honoraires", 'Obligatoire chaque mission — provision + HT/TTC'],
+    ['02_Scripts_DM_WhatsApp.md', 'Scripts prise de contact', 'Comptables / prospects — déontologiques'],
+    ['03_Pack_Freelance_Contrat.md', 'Contrat prestation FR/EN', 'Mission Contrats — 12 clauses + annexes'],
+    ['04_Pack_Ecommerce_CGV.md', 'Trame CGV/CGU e-commerce', 'Mission Conformité — loi 31-08 + 09-08'],
+    ['05_Registre_09-08_Modele.md', 'Registre Loi 09-08', 'Mission 09-08 — 5 onglets + CNDP'],
+    ['06_Recu_Provision_Facture.md', 'Reçu provision & Facture solde', 'Reçu numéroté (loi 66.23) + facture finale'],
+    ['07_Lettre_Mission_Planning.md', 'Lettre de mission & Planning', 'Jointe à la convention — jalons J0 à J+5'],
+    ['08_PV_Remise_Cloture.md', 'PV de remise & Clôture', 'Preuve de remise des livrables'],
+    ['09_Checklist_Review_Contrat_19pts.md', 'Checklist revue contrat 19 pts', 'Avant signature client'],
+    ['10_Email_Recouvrement_Amiable_Modele.md', 'Email recouvrement amiable', 'Séquence J+7 / J+15 / J+30'],
+    ['11_Calculateur_Provision_TVA_Offline.md', 'Calculateur provision / TVA', 'Chiffrage mission offline'],
+    ['12_Politique_Confidentialite_09-08_Modele.md', 'Politique de confidentialité', 'Loi 09-08 · site/app client'],
+    ['13_Contrat_Sous_Traitant_09-08_art24.md', 'Contrat sous-traitance art.24', 'Loi 09-08 · données'],
+    ['14_DPIA_Modele_CNDP.md', 'Analyse d\u2019impact (DPIA)', 'Loi 09-08 · délib CNDP'],
+    ['15_CGV_Formation_31-08_Modele.md', 'CGV formation en ligne', 'Rétractation 7 jours (loi 31-08)'],
+    ['16_Contrat_Sponsor_PI_Loi2-00.md', 'Contrat sponsor / influenceur', 'Cession PI — loi 2-00 · d.o.c.'],
+    ['17_Depot_Marque_OMPIC_Checklist.md', 'Checklist dépôt marque OMPIC', 'Loi 17-97 · opposition 2 mois'],
+    ['18_Procuration_Apostille_MRE_Modele.md', 'Procuration apostillée MRE', 'Création société à distance'],
+    ['19_Guide_Formulaire_5000-F_Dividende.md', 'Guide formulaire 5000-F', 'Dividende conventionnel FR→MA 10 %'],
+    ['20_Radiation_AE_Quitus_Modele.md', 'Radiation AE & quitus DGI', 'Ordre strict avant SARL'],
+    ['21_Devis_Pack_Modele.md', 'Devis / proposition pack', 'Avant convention d\u2019honoraires'],
+    ['22_CGV_Ecommerce_31-08_Modele.md', 'CGV e-commerce clé en main', 'Loi 31-08 — rétractation 7 j, livraison ≤30 j']
+  ];
+
   function renderBibliotheque() {
-    const templates = [
-      { file: '01_Convention_Honoraires_Modele.md', title: 'Convention d\'honoraires (art. 30)', desc: 'Obligatoire pour chaque mission — provision + honoraires HT/TTC', folder: '05_Document_Bank/templates' },
-      { file: '06_Recu_Provision_Facture.md', title: 'Reçu provision & Facture solde', desc: 'Reçu à l\'encaissement + facture finale', folder: '05_Document_Bank/templates' },
-      { file: '07_Lettre_Mission_Planning.md', title: 'Lettre de mission & Planning', desc: 'Jointe à la convention — jalons J0 à J+5', folder: '05_Document_Bank/templates' },
-      { file: '08_PV_Remise_Cloture.md', title: 'PV de remise & Clôture', desc: 'Preuve de remise des livrables', folder: '05_Document_Bank/templates' },
-      { file: '03_Pack_Freelance_Contrat.md', title: 'Trame Contrat prestation FR/EN', desc: 'Mission Contrats — 12 clauses + annexes', folder: '05_Document_Bank/templates' },
-      { file: '04_Pack_Ecommerce_CGV.md', title: 'Trame CGV/CGU e-commerce', desc: 'Mission Conformité — Loi 31-08 + 09-08', folder: '05_Document_Bank/templates' },
-      { file: '05_Registre_09-08_Modele.md', title: 'Registre Loi 09-08 (Excel/Notion)', desc: 'Mission 09-08 — 5 onglets + CNDP', folder: '05_Document_Bank/templates' },
-      { file: '02_Scripts_DM_WhatsApp.md', title: 'Scripts prise de contact', desc: 'Messages comptables / prospects — déontologiques', folder: '05_Document_Bank/templates' }
-    ];
     const content = $('#content');
     content.innerHTML = `
       <div class="cab">
         <h2>Bibliothèque de modèles</h2>
-        <p class="sub">8 modèles — cliquez pour ouvrir dans le Base. Tous avec mention déontologique en pied de page.</p>
-        <div class="dash-grid" style="grid-template-columns:repeat(auto-fill,minmax(260px,1fr))">
-          ${templates.map(t => `
-            <div class="dash-panel" style="cursor:pointer" data-open="${esc(t.folder + '/' + t.file)}">
-              <h3 style="font-size:14px;margin:0 0 6px">📄 ${esc(t.title)}</h3>
-              <p style="font-size:12px;color:var(--text-dim);margin:0 0 10px">${esc(t.desc)}</p>
-              <span style="font-size:11px;color:var(--accent-2)">${esc(t.file)} →</span>
+        <p class="sub">${BIBLIO.length} modèles — cliquez pour ouvrir dans AVOCATO Learn.</p>
+        <div class="dash-grid" style="grid-template-columns:repeat(auto-fill,minmax(250px,1fr))">
+          ${BIBLIO.map(([file, title, desc]) => `
+            <div class="dash-panel" style="cursor:pointer" data-open="05_Document_Bank/templates/${esc(file)}">
+              <h3 style="font-size:13.5px;margin:0 0 6px">📄 ${esc(title)}</h3>
+              <p style="font-size:12px;color:var(--text-dim);margin:0 0 8px">${esc(desc)}</p>
+              <span style="font-size:11px;color:var(--accent-2)">${esc(file)} →</span>
             </div>`).join('')}
         </div>
-        <div class="dash-panel" style="margin-top:16px">
-          <h3>Doctrine & Jurisprudence</h3>
-          <p style="font-size:13px;color:var(--text-dim)">3 fiches prêtes à citer en diagnostic :</p>
-          <ul style="font-size:13px">
-            <li><a href="#" data-open-juris="08_Jurisprudence/01_Loi_09-08/00_INDEX.md">Loi 09-08 — 4 décisions CNDP + grille sanctions</a></li>
-            <li><a href="#" data-open-juris="08_Jurisprudence/02_Loi_31-08/00_INDEX.md">Loi 31-08 — 3 jugements CGV / rétractation</a></li>
-            <li><a href="#" data-open-juris="08_Jurisprudence/03_Contrats_DOC/00_INDEX.md">Contrats — 3 arrêts Cass. (pénale, réserve, force majeure)</a></li>
-            <li><a href="#" data-open-juris="01_Strategy/06_Deontologie_Pratique_Avocat_Maroc/00_INDEX.md">Déontologie pratique — Loi 28-08 (checklist)</a></li>
-          </ul>
+        <div class="dash-grid" style="margin-top:16px;grid-template-columns:repeat(auto-fill,minmax(280px,1fr))">
+          <div class="dash-panel" style="cursor:pointer" data-open="01_Strategy/13_Loi_66-23_Nouvelle_Loi_Avocats/00_INDEX.md">
+            <h3 style="font-size:14px;margin:0 0 6px">⚖️ Loi 66.23 — nouvelle loi avocats</h3>
+            <p style="font-size:12px;color:var(--text-dim);margin:0">En vigueur 20/08/2026 : cash interdit >10k, reçus numérotés, élections décembre. Checklist cabinet incluse.</p>
+          </div>
+          <div class="dash-panel"><h3>Doctrine & Jurisprudence</h3>
+            <ul style="font-size:13px;margin:0;padding-left:18px">
+              <li><a href="#" data-open-juris="08_Jurisprudence/01_Loi_09-08/00_INDEX.md">Loi 09-08 — décisions CNDP + grille sanctions</a></li>
+              <li><a href="#" data-open-juris="08_Jurisprudence/02_Loi_31-08/00_INDEX.md">Loi 31-08 — CGV / rétractation 7 j</a></li>
+              <li><a href="#" data-open-juris="08_Jurisprudence/03_Contrats_DOC/00_INDEX.md">Contrats DOC — arrêts Cass.</a></li>
+              <li><a href="#" data-open-juris="01_Strategy/06_Deontologie_Pratique_Avocat_Maroc/00_INDEX.md">Déontologie pratique</a></li>
+            </ul>
+          </div>
         </div>
       </div>`;
     $('#crumbs').innerHTML = '<span class="cur">Cabinet — Bibliothèque</span>';
-    $$('[data-open]').forEach(el => el.addEventListener('click', () => {
-      openInLearn(el.dataset.open);
-    }));
-    $$('[data-open-juris]').forEach(a => a.addEventListener('click', (e) => {
-      e.preventDefault();
-      openInLearn(a.dataset.openJuris);
-    }));
+    $$('[data-open]').forEach(el => el.addEventListener('click', () => openInLearn(el.dataset.open)));
+    $$('[data-open-juris]').forEach(a => a.addEventListener('click', (e) => { e.preventDefault(); openInLearn(a.dataset.openJuris); }));
+  }
+
+  /* ---------- Recherche globale ---------- */
+  function initGlobalSearch() {
+    const input = $('#globalSearch'), res = $('#gsResults');
+    if (!input || !res) return;
+    input.addEventListener('input', () => {
+      const q = (input.value || '').trim().toLowerCase();
+      if (q.length < 2) { res.hidden = true; res.innerHTML = ''; return; }
+      const hits = [];
+      STORE.dossiers.forEach(d => {
+        if ([d.client, d.ice, d.mission, d.type].join(' ').toLowerCase().includes(q))
+          hits.push({ grp: 'Dossiers', label: d.client, sub: d.mission, go: () => viewDossier(d.id) });
+      });
+      STORE.conventions.forEach(c => {
+        const d = STORE.dossiers.find(x => x.id === c.dossierId);
+        if ((c.num + ' ' + c.mission).toLowerCase().includes(q))
+          hits.push({ grp: 'Conventions', label: c.num, sub: d ? d.client : '', go: () => { if (d) previewConvention(c, d); } });
+      });
+      STORE.factures.forEach(f => {
+        const d = STORE.dossiers.find(x => x.id === f.dossierId);
+        if ((f.num + ' ' + f.type).toLowerCase().includes(q))
+          hits.push({ grp: 'Factures', label: f.type + ' ' + f.num, sub: d ? d.client : '' + ' · ' + fmtMoney(f.ttc), go: () => { if (d) previewFacture(f, d); } });
+      });
+      STORE.echeances.forEach(e => {
+        if ((e.intitule + ' ' + e.type).toLowerCase().includes(q))
+          hits.push({ grp: 'Échéances', label: e.intitule, sub: e.date, go: () => { cabView = 'echeances'; LS.set('cabinetView', 'echeances'); renderCabinet(); } });
+      });
+      res.innerHTML = hits.slice(0, 12).map((h, i) =>
+        `<button class="gs-item" data-gs="${i}"><strong>${esc(h.label)}</strong><span>${esc(h.grp)}${h.sub ? ' · ' + esc(h.sub) : ''}</span></button>`
+      ).join('') || '<div class="gs-item gs-none">Aucun résultat</div>';
+      res.hidden = false;
+      $$('.gs-item[data-gs]', res).forEach(b => b.addEventListener('click', () => {
+        const h = hits[Number(b.dataset.gs)];
+        res.hidden = true; input.value = '';
+        document.body.classList.remove('sidebar-open');
+        if (h) h.go();
+      }));
+    });
+    document.addEventListener('click', (e) => { if (!$('#gsWrap').contains(e.target)) res.hidden = true; });
   }
 
   /* ---------- Init ---------- */
@@ -936,6 +990,7 @@
     $('#menuBtn').addEventListener('click', () => document.body.classList.add('sidebar-open'));
     $('#sidebarClose').addEventListener('click', () => document.body.classList.remove('sidebar-open'));
     $('#scrim').addEventListener('click', () => document.body.classList.remove('sidebar-open'));
+    initGlobalSearch();
     $$('.cab-nav-item').forEach(b => b.addEventListener('click', () => {
       const v = b.dataset.view;
       if (v === 'new-dossier') { openDlgDossier(); return; }
