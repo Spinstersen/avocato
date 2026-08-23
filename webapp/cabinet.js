@@ -1,4 +1,4 @@
-﻿/* Cabinet OS — Dossiers / Conventions / Factures / Échéances / Bibliothèque
+/* Cabinet OS — Dossiers / Conventions / Factures / Échéances / Bibliothèque
    Offline, localStorage only. No server. */
 (function () {
   'use strict';
@@ -26,8 +26,7 @@
     set echeances(v) { LS.set('echeances', v); }
   };
 
-  let mode = LS.get('mode', 'vault');
-  if (mode === 'Base') { mode = 'vault'; LS.set('mode', 'vault'); }
+  let mode = 'cabinet';
   let cabView = LS.get('cabinetView', 'dashboard');
   let editingId = null;
 
@@ -53,57 +52,25 @@
     return { ht, tva: tv, ttc: ht + tv };
   }
 
-  /* ---------- Mode switch ---------- */
-  function setMode(m) {
-    mode = m;
-    LS.set('mode', m);
-    $$('.mode-btn').forEach(b => {
-      const on = b.dataset.mode === m;
-      b.classList.toggle('active', on);
-      b.setAttribute('aria-selected', on ? 'true' : 'false');
-    });
-    const isVault = m === 'vault';
-    const isCurriculum = m === 'curriculum';
-    const isBase = isVault || isCurriculum;
-    $('#tree').hidden = !isBase;
-    $('#searchWrap').hidden = !isBase;
-    $('#btnDashboard').hidden = !isBase;
-    $('#cabinetNav').hidden = isBase;
-    $('#prevBtn').hidden = !isBase;
-    $('#nextBtn').hidden = !isBase;
-    $('#readBtn').hidden = !isBase;
-    const hint = document.getElementById('curriculumHint');
-    if (hint) hint.hidden = !isCurriculum;
-    if (isCurriculum) {
-      // auto-filter hint: ensure tree shows curriculum order, no extra filter
-      // could highlight curriculum path via CSS class
-      document.body.dataset.curriculum = '1';
-    } else {
-      delete document.body.dataset.curriculum;
-    }
-    if (isBase) {
-      // restore Base view (trigger app.js to re-render tree if needed)
-      const h = location.hash && decodeURIComponent(location.hash.slice(1));
-      const data = window.VAULT_DATA || [];
-      if (h && data.some(d => d.id === h)) {
-        // let app.js handle via hashchange, or directly call openDoc if exposed
-        // app.js exposes openDoc globally? No, so we dispatch hashchange
-        window.dispatchEvent(new HashChangeEvent('hashchange'));
-      } else {
-        const last = LS.get('last', null);
-        if (last && data.some(d => d.id === last)) {
-          location.hash = '#' + encodeURIComponent(last);
-        } else {
-          // show Base dashboard via app.js: dispatch to trigger openDashboard
-          // simplest: clear hash and reload Base dashboard by calling the global if available
-          if (typeof window.openDashboard === 'function') window.openDashboard();
-          else location.hash = '';
-        }
-      }
-    } else {
-      // cabinet
-      renderCabinet();
-    }
+  /* ---------- Thème (indépendant de l'app Learn) ---------- */
+  function applyTheme() {
+    const t = localStorage.getItem('avocato:cabTheme') || 'system';
+    document.body.dataset.theme = t;
+    const btn = $('#themeBtn');
+    if (btn) btn.textContent = t === 'dark' ? '☀️' : (t === 'light' ? '🌙' : '💻');
+  }
+  function cycleTheme() {
+    const order = ['light', 'dark'];
+    const cur = localStorage.getItem('avocato:cabTheme') || 'system';
+    const next = order[(order.indexOf(cur) + 1) % order.length] || 'light';
+    try { localStorage.setItem('avocato:cabTheme', next); } catch {}
+    document.body.dataset.theme = next;
+    const btn = $('#themeBtn');
+    if (btn) btn.textContent = next === 'dark' ? '☀️' : '🌙';
+  }
+
+  function openInLearn(id) {
+    location.href = 'index.html#' + encodeURIComponent(id);
   }
 
   function renderCabinet() {
@@ -666,47 +633,42 @@
           <h3>Doctrine & Jurisprudence</h3>
           <p style="font-size:13px;color:var(--text-dim)">3 fiches prêtes à citer en diagnostic :</p>
           <ul style="font-size:13px">
-            <li><a href="#" data-open-juris="08_Jurisprudence/01_Loi_09-08_CNDP_Sanctions.md">Loi 09-08 — 4 décisions CNDP + grille sanctions</a></li>
-            <li><a href="#" data-open-juris="08_Jurisprudence/02_Loi_31-08_Protection_Consommateur.md">Loi 31-08 — 3 jugements CGV / rétractation</a></li>
-            <li><a href="#" data-open-juris="08_Jurisprudence/03_Contrats_Commerce.md">Contrats — 3 arrêts Cass. (pénale, réserve, force majeure)</a></li>
+            <li><a href="#" data-open-juris="08_Jurisprudence/01_Loi_09-08/00_INDEX.md">Loi 09-08 — 4 décisions CNDP + grille sanctions</a></li>
+            <li><a href="#" data-open-juris="08_Jurisprudence/02_Loi_31-08/00_INDEX.md">Loi 31-08 — 3 jugements CGV / rétractation</a></li>
+            <li><a href="#" data-open-juris="08_Jurisprudence/03_Contrats_DOC/00_INDEX.md">Contrats — 3 arrêts Cass. (pénale, réserve, force majeure)</a></li>
             <li><a href="#" data-open-juris="01_Strategy/06_Deontologie_Pratique_Avocat_Maroc/00_INDEX.md">Déontologie pratique — Loi 28-08 (checklist)</a></li>
           </ul>
         </div>
       </div>`;
     $('#crumbs').innerHTML = '<span class="cur">Cabinet — Bibliothèque</span>';
     $$('[data-open]').forEach(el => el.addEventListener('click', () => {
-      const id = el.dataset.open;
-      // switch to Base and open doc
-      setMode('vault');
-      setTimeout(() => { location.hash = '#' + encodeURIComponent(id); window.dispatchEvent(new HashChangeEvent('hashchange')); }, 50);
+      openInLearn(el.dataset.open);
     }));
     $$('[data-open-juris]').forEach(a => a.addEventListener('click', (e) => {
       e.preventDefault();
-      const id = a.dataset.openJuris;
-      setMode('vault');
-      setTimeout(() => { location.hash = '#' + encodeURIComponent(id); window.dispatchEvent(new HashChangeEvent('hashchange')); }, 50);
+      openInLearn(a.dataset.openJuris);
     }));
   }
 
   /* ---------- Init ---------- */
   function initCabinet() {
-    $$('.mode-btn').forEach(b => b.addEventListener('click', () => setMode(b.dataset.mode)));
+    applyTheme();
+    const tb = $('#themeBtn');
+    if (tb) tb.addEventListener('click', cycleTheme);
+    $('#menuBtn').addEventListener('click', () => document.body.classList.add('sidebar-open'));
+    $('#sidebarClose').addEventListener('click', () => document.body.classList.remove('sidebar-open'));
+    $('#scrim').addEventListener('click', () => document.body.classList.remove('sidebar-open'));
     $$('.cab-nav-item').forEach(b => b.addEventListener('click', () => {
       const v = b.dataset.view;
       if (v === 'new-dossier') { openDlgDossier(); return; }
       cabView = v;
       LS.set('cabinetView', v);
       renderCabinet();
+      document.body.classList.remove('sidebar-open');
     }));
-    // restore mode
-    setMode(mode);
-    // ensure cabinet nav reflects view
-    if (mode === 'cabinet') renderCabinet();
+    renderCabinet();
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initCabinet);
   else initCabinet();
-
-  // expose for app.js mode sync
-  window.Cabinet = { setMode, renderCabinet };
 })();

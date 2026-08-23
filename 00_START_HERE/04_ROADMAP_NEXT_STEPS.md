@@ -97,5 +97,6 @@ sgg.gov.ma (CGI, Loi 5-96, Loi 17-97, Loi 09-08, Loi 114-13, Loi 19-06), oc.gov.
 |---|---|---|---|---|
 | 21/08/2026 | Audit + Fix 105 fichiers | Glossaire + niches + jurisprudence + skills | 692064b | Salade mots-clés traitée |
 | 21/08/2026 | Volet 12 complet (Phases 0-4) | Glossaire §13-15 + dossier 12 (13 fichiers) + miroir skills 13 + cross-links 08/10/11 + roadmap | (ce push) | Décisions tranchées : Dubai/Estonia/US LLC, Pack 12k HT. Chiffres vérifiés en ligne (BO, CRS ≤2028, PT 50 MMAD). Robocopy inutile : cwd = repo avocato |
+| 23/08/2026 | Webapp v3 : separation Learn (index.html) / Cabinet OS (cabinet.html), design system tokens clair/sombre/systeme, progression+curriculum+QCM interactifs, TOC scroll-spy, fix bindContentEvents conserve | (ce commit) | UX basee Coursera/Duolingo/Khan Academy/docs-as-code |
 | | Phase 0 prochaine | Ce roadmap | | |
 | | | | | |
