@@ -23,8 +23,48 @@
     get factures() { return LS.get('factures', []); },
     set factures(v) { LS.set('factures', v); },
     get echeances() { return LS.get('echeances', []); },
-    set echeances(v) { LS.set('echeances', v); }
+    set echeances(v) { LS.set('echeances', v); },
+    get settings() { return LS.get('cabSettings', {}); },
+    set settings(v) { LS.set('cabSettings', v); },
+    get counters() { return LS.get('cabCounters', {}); },
+    set counters(v) { LS.set('cabCounters', v); },
+    get journal() { return LS.get('cabJournal', []); },
+    set journal(v) { LS.set('cabJournal', v); }
   };
+
+  /* Journal / timeline — événements auto-loggés */
+  function logEvent(dossierId, type, label) {
+    const j = STORE.journal;
+    j.push({ id: uid(), ts: new Date().toISOString().slice(0, 16).replace('T', ' '), dossierId: dossierId || '', type, label });
+    if (j.length > 500) STORE.journal = j.slice(-400);
+    else STORE.journal = j;
+  }
+
+  /* Numérotation séquentielle persistante (fin des collisions) */
+  function nextNum(prefix) {
+    const c = STORE.counters;
+    const n = (c[prefix] || 0) + 1;
+    STORE.counters = { ...c, [prefix]: n };
+    return prefix + '-' + new Date().getFullYear() + '-' + String(n).padStart(3, '0');
+  }
+
+  /* En-tête cabinet dynamique (loi 66.23 — identité complète) */
+  function settingsComplete() {
+    const s = STORE.settings;
+    return !!(s.nomAvocat && s.barreau);
+  }
+  function cabHeaderLines() {
+    const s = STORE.settings;
+    const l1 = s.nomAvocat ? ('Me ' + s.nomAvocat + ' — Avocat au Barreau de ' + s.barreau) : '[Compléter votre identité dans ⚙️ Paramètres]';
+    const bits = [];
+    if (s.ice) bits.push('ICE ' + s.ice);
+    if (s.if_) bits.push('IF ' + s.if_);
+    if (s.rc) bits.push('RC ' + s.rc);
+    if (s.adresse) bits.push(s.adresse);
+    if (s.tel) bits.push('Tél ' + s.tel);
+    if (s.email) bits.push(s.email);
+    return { l1, l2: bits.join(' — ') || '', ribLine: (s.rib && s.banque) ? ('RIB ' + s.rib + ' — ' + s.banque) : (s.rib ? 'RIB ' + s.rib : '') };
+  }
 
   let mode = 'cabinet';
   let cabView = LS.get('cabinetView', 'dashboard');
@@ -81,6 +121,7 @@
     else if (cabView === 'factures') renderFactures();
     else if (cabView === 'echeances') renderEcheances();
     else if (cabView === 'bibliotheque') renderBibliotheque();
+    else if (cabView === 'settings') renderSettings();
     else if (cabView === 'new-dossier') { cabView = 'dossiers'; renderDossiers(); openDlgDossier(); }
   }
 
@@ -99,7 +140,8 @@
     content.innerHTML = `
       <div class="cab">
         <h2>Tableau de bord Cabinet</h2>
-        <p class="sub">Dossiers en localStorage — offline. Provision et solde suivent la convention d'honoraires (art. 30 Loi 28-08).</p>
+        <p class="sub">Dossiers en localStorage — offline. Provision et solde suivent la convention d'honoraires (loi n° 66.23).</p>
+        ${!settingsComplete() ? '<div class="dash-panel" style="border-left:4px solid var(--warn);margin-bottom:14px"><h3>⚙️ Configure ta fiche cabinet</h3><p style="font-size:13px;color:var(--text-dim)">Nom + Barreau requis pour que les conventions/factures sortent à ton nom (sinon placeholders).</p><button class="btn btn-primary" id="cabGoSettings">Ouvrir les Paramètres</button></div>' : ''}
         <div class="dash-cards">
           <div class="dash-card"><div class="num">${total}</div><div class="lbl">Dossiers</div></div>
           <div class="dash-card"><div class="num">${fmtMoney(caHT)}</div><div class="lbl">CA HT total (missions)</div></div>
@@ -156,6 +198,7 @@
     }, 30);
 
     $('#cabNewDossier2').addEventListener('click', openDlgDossier);
+    const goSet = $('#cabGoSettings'); if (goSet) goSet.addEventListener('click', () => { cabView = 'settings'; LS.set('cabinetView', 'settings'); renderCabinet(); });
     $('#cabSample').addEventListener('click', loadSample);
     $('#cabExport').addEventListener('click', exportJSON);
     $('#cabImport').addEventListener('change', importJSON);
@@ -198,6 +241,65 @@
     r.readAsText(file);
   }
 
+  /* ---------- Impression isolée : seul le document part au PDF ---------- */
+  function printDoc(html) {
+    const area = $('#printArea');
+    area.innerHTML = html;
+    document.body.classList.add('printing-doc');
+    const done = () => { document.body.classList.remove('printing-doc'); window.removeEventListener('afterprint', done); };
+    window.addEventListener('afterprint', done);
+    setTimeout(() => { window.print(); setTimeout(done, 2000); }, 60);
+  }
+
+  /* ---------- Paramètres cabinet (identité injectée dans les documents) ---------- */
+  const SETTINGS_FIELDS = [
+    ['nomAvocat', 'Nom & prénom *', 'Ex: Yassine El Amrani', 'text'],
+    ['barreau', 'Barreau *', 'Ex: Casablanca', 'text'],
+    ['ice', 'ICE', '15 chiffres', 'text'],
+    ['if_', 'Identifiant fiscal (IF)', 'IF 12345678', 'text'],
+    ['rc', 'RC (si SCP)', 'Ex: RC Casa 123456', 'text'],
+    ['adresse', 'Adresse cabinet', 'Rue, ville', 'text'],
+    ['tel', 'Téléphone / WhatsApp', '06 XX XX XX XX', 'tel'],
+    ['email', 'Email professionnel', 'contact@cabinet.ma', 'email'],
+    ['rib', 'RIB (24 chiffres)', '', 'text'],
+    ['banque', 'Banque', 'Ex: Attijariwafa Bank', 'text']
+  ];
+
+  function renderSettings() {
+    const s = STORE.settings;
+    const content = $('#content');
+    const ok = settingsComplete();
+    content.innerHTML = `
+      <div class="cab" style="max-width:720px">
+        <h2>Paramètres du cabinet</h2>
+        <p class="sub">Ces informations sont injectées dans les conventions, reçus et factures générés. Stockées uniquement en localStorage (offline).</p>
+        ${ok ? '<p style="color:var(--ok);font-weight:600;font-size:13px">✓ Identité configurée — vos documents sortent prêts à signer.</p>' : '<p style="color:var(--warn);font-weight:600;font-size:13px">⚠️ Nom et Barreau requis pour générer des documents propres.</p>'}
+        <form id="formSettings" class="dash-panel">
+          <div class="form-grid">
+            ${SETTINGS_FIELDS.map(([k, lbl, ph, type]) => `<label>${lbl}<input name="${esc(k)}" type="${type}" value="${esc(s[k] || '')}" placeholder="${ph}"></label>`).join('')}
+          </div>
+          <div class="cab-toolbar" style="margin-top:12px">
+            <button type="submit" class="btn btn-primary">💾 Enregistrer</button>
+            ${ok ? '<button type="button" class="btn btn-danger" id="btnResetSettings">Effacer</button>' : ''}
+          </div>
+        </form>
+      </div>`;
+    $('#crumbs').innerHTML = '<span class="cur">Cabinet — Paramètres</span>';
+    $('#formSettings').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const fd = new FormData(e.target);
+      const obj = Object.fromEntries(fd.entries());
+      STORE.settings = obj;
+      renderSettings();
+    });
+    const rst = $('#btnResetSettings');
+    if (rst) rst.addEventListener('click', () => {
+      if (!confirm('Effacer la fiche cabinet ?')) return;
+      STORE.settings = {};
+      renderSettings();
+    });
+  }
+
   /* ---------- Dossiers ---------- */
   function renderDossiers() {
     const dossiers = STORE.dossiers.slice().sort((a, b) => (b.updatedAt || '').localeCompare(a.updatedAt || ''));
@@ -205,7 +307,7 @@
     content.innerHTML = `
       <div class="cab">
         <h2>Dossiers</h2>
-        <p class="sub">${dossiers.length} dossier(s) — Honoraires HT, provision (art. 30 Loi 28-08). Cliquez sur un dossier pour agir.</p>
+        <p class="sub">${dossiers.length} dossier(s) — Honoraires HT, provision — loi n° 66.23 : reçu numéroté, paiement >10 000 DH par chèque/virement. Cliquez sur un dossier pour agir.</p>
         <div class="cab-toolbar">
           <input id="dossierSearch" placeholder="Rechercher client, ICE, mission..." style="flex:1;min-width:180px">
           <select id="dossierFilterStatut"><option value="">Tous statuts</option><option>Prospect</option><option>Convention envoyée</option><option>Convention signée</option><option>En cours</option><option>Livré - solde dû</option><option>Clôturé</option><option>Abandonné</option></select>
@@ -374,27 +476,29 @@
   function genConvention(dossierId) {
     const d = STORE.dossiers.find(x => x.id === dossierId);
     if (!d) return;
+    if (!settingsComplete() && !confirm('Ta fiche cabinet (nom/barreau) est incomplète.\nGénérer quand même avec des placeholders ?')) return;
     const c = calcTTC(d.honoraires, d.tva);
     const prov = Math.round(c.ttc * (Number(d.provisionPct) || 50) / 100);
-    const num = 'CH-' + new Date().getFullYear() + '-' + String(STORE.conventions.length + 1).padStart(3, '0');
-    const conv = { id: uid(), dossierId, num, date: todayISO(), mission: d.mission, ht: c.ht, tva: c.tva, ttc: c.ttc, provision: prov, provisionPct: d.provisionPct || 50 };
+    const conv = { id: uid(), dossierId, num: nextNum('CH'), date: todayISO(), mission: d.mission, ht: c.ht, tva: c.tva, ttc: c.ttc, provision: prov, provisionPct: d.provisionPct || 50 };
     STORE.conventions = [...STORE.conventions, conv];
+    logEvent(dossierId, 'convention', 'Convention ' + conv.num + ' générée');
     previewConvention(conv, d);
   }
 
   function previewConvention(conv, dossier) {
+    const hd = cabHeaderLines();
     const content = $('#content');
     content.innerHTML = `
       <div class="cab">
         <button class="btn" id="backConv">← Retour</button>
         <div class="doc" id="convPrint" style="max-width:750px;margin:16px auto">
-          <div style="text-align:center;border-bottom:2px solid #0f2a44;padding-bottom:10px;margin-bottom:16px">
-            <div style="font-weight:700;font-size:16px">Me [Nom Prénom] — Avocat au Barreau de [Ville]</div>
-            <div style="font-size:12px;color:#5a6b7b">Avocat d'Affaires | Droit de l'Entreprise & Numérique — ICE [X] — Tél [06 XX XX XX XX]</div>
+          <div style="text-align:center;border-bottom:2px solid #1d4ed8;padding-bottom:10px;margin-bottom:16px">
+            <div style="font-weight:700;font-size:16px">${esc(hd.l1)}</div>
+            <div style="font-size:12px;color:#5a6b7b">${esc(hd.l2)}</div>
           </div>
           <h2 style="text-align:center;margin:0">CONVENTION D'HONORAIRES N° ${esc(conv.num)}</h2>
-          <p style="text-align:center;font-size:12px;color:#5a6b7b">Art. 30 Loi 28-08 — Date : ${esc(conv.date)}</p>
-          <p><strong>Entre :</strong> Me [Nom], Avocat au Barreau de [Ville], ci-après "l'Avocat"<br>
+          <p style="text-align:center;font-size:12px;color:#5a6b7b">Établie en application de la loi n° 66.23 relative à l'organisation de la profession d'avocat — Date : ${esc(conv.date)}</p>
+          <p><strong>Entre :</strong> ${esc(hd.l1)}, ci-après "l'Avocat"<br>
           <strong>Et :</strong> ${esc(dossier.client)} ${dossier.ice ? '(ICE ' + esc(dossier.ice) + ')' : ''}, ci-après "le Client"</p>
           <p><strong>Objet :</strong> ${esc(conv.mission || dossier.mission || '')}</p>
           <table style="width:100%;border-collapse:collapse;font-size:13px;margin:12px 0" border="1" cellpadding="8">
@@ -405,12 +509,14 @@
             <tr style="background:#e4f2f0"><td>Provision à la signature (${conv.provisionPct}%)</td><td style="text-align:right;font-weight:700">${fmtMoney(conv.provision)} TTC</td></tr>
             <tr><td>Solde à la remise</td><td style="text-align:right">${fmtMoney(conv.ttc - conv.provision)} TTC</td></tr>
           </table>
-          <p style="font-size:12px"><strong>Modalités :</strong> Provision exigible à la signature (reçu délivré). Solde exigible à la remise des livrables avant envoi final. Délai prévisionnel : 3-10 jours ouvrés à compter de la provision + pièces complètes. Débours en sus. Résiliation : honoraires au prorata du travail accompli.</p>
+          <p style="font-size:12px"><strong>Modalités de paiement :</strong> conformément à la loi n° 66.23, tout paiement supérieur à 10 000 DH est réglé par chèque ou moyen de paiement électronique. Un reçu daté, signé et numéroté est délivré pour toute somme reçue.</p>
+          <p style="font-size:12px"><strong>Exécution :</strong> provision exigible à la signature. Solde exigible à la remise des livrables avant envoi final. Délai prévisionnel : 3-10 jours ouvrés à compter de la provision et des pièces complètes. Débours en sus. Résiliation : honoraires au prorata du travail accompli.</p>
+          ${hd.ribLine ? `<p style="font-size:12px"><strong>Coordonnées bancaires :</strong> ${esc(hd.ribLine)}</p>` : ''}
           <div style="display:flex;justify-content:space-between;margin-top:30px;font-size:13px">
             <div>L'Avocat<br><br>__________________<br>Signature & cachet</div>
             <div>Le Client (lu et approuvé)<br><br>__________________<br>${esc(dossier.client)}</div>
           </div>
-          <p style="font-size:9px;color:#5a6b7b;text-align:center;margin-top:20px">Document établi en application de la Loi 28-08. Ne constitue pas une consultation sans diagnostic individuel.</p>
+          <p style="font-size:9px;color:#5a6b7b;text-align:center;margin-top:20px">Document établi en application de la loi n° 66.23 relative à l'organisation de la profession d'avocat (BO n°7536 du 20/08/2026). Ne constitue pas une consultation sans diagnostic individuel.</p>
         </div>
         <div class="cab-toolbar" style="justify-content:center">
           <button class="btn btn-primary" id="btnPrintConv">🖨️ Imprimer / PDF</button>
@@ -420,7 +526,7 @@
     $('#crumbs').innerHTML = '<span class="cur">Convention ' + esc(conv.num) + '</span>';
     $('#backConv').addEventListener('click', renderConventions);
     $('#btnBackConv2').addEventListener('click', () => viewDossier(dossier.id));
-    $('#btnPrintConv').addEventListener('click', () => window.print());
+    $('#btnPrintConv').addEventListener('click', () => printDoc($('#convPrint').outerHTML));
   }
 
   function renderConventions() {
@@ -430,7 +536,7 @@
     content.innerHTML = `
       <div class="cab">
         <h2>Conventions d'honoraires</h2>
-        <p class="sub">${convs.length} convention(s) — Art. 30 Loi 28-08. Générez depuis un dossier.</p>
+        <p class="sub">${convs.length} convention(s) — loi n° 66.23. Générez depuis un dossier.</p>
         <div class="cab-toolbar">
           <select id="convDossierSel"><option value="">— Choisir un dossier —</option>${dossiers.map(d => `<option value="${esc(d.id)}">${esc(d.client)} — ${esc(d.mission || '')}</option>`).join('')}</select>
           <button class="btn btn-primary" id="btnGenConv">Générer convention</button>
@@ -459,26 +565,29 @@
   function genFacture(dossierId, type) {
     const d = STORE.dossiers.find(x => x.id === dossierId);
     if (!d) return;
+    if (!settingsComplete() && !confirm('Ta fiche cabinet (nom/barreau) est incomplète.\nGénérer quand même avec des placeholders ?')) return;
     const c = calcTTC(d.honoraires, d.tva);
     const prov = Math.round(c.ttc * (Number(d.provisionPct) || 50) / 100);
-    const num = (type === 'provision' ? 'RP-' : 'FH-') + new Date().getFullYear() + '-' + String(STORE.factures.length + 1).padStart(3, '0');
+    const num = nextNum(type === 'provision' ? 'RP' : 'FH');
     const montant = type === 'provision' ? prov : c.ttc - prov;
     const ttc = montant;
-    const ht = d.tva == 0 ? ttc : Math.round(ttc / 1.2);
+    const ht = d.tva == 0 ? ttc : Math.round(ttc / (1 + d.tva / 100));
     const tva = ttc - ht;
     const f = { id: uid(), dossierId, num, date: todayISO(), type: type === 'provision' ? 'Reçu provision' : 'Facture solde', ht, tva, ttc, statut: 'Émise' };
     STORE.factures = [...STORE.factures, f];
+    logEvent(dossierId, 'facture', f.type + ' ' + f.num + ' émis (' + fmtMoney(ttc) + ')');
     previewFacture(f, d);
   }
 
   function previewFacture(f, dossier) {
+    const hd = cabHeaderLines();
     const content = $('#content');
     content.innerHTML = `
       <div class="cab">
         <button class="btn" id="backFact">← Retour</button>
-        <div class="doc" style="max-width:750px;margin:16px auto">
-          <div style="display:flex;justify-content:space-between;border-bottom:2px solid #0f2a44;padding-bottom:10px">
-            <div><strong>Me [Nom]</strong><br><span style="font-size:11px;color:#5a6b7b">Avocat au Barreau de [Ville] — ICE [X]</span></div>
+        <div class="doc" id="factPrint" style="max-width:750px;margin:16px auto">
+          <div style="display:flex;justify-content:space-between;border-bottom:2px solid #1d4ed8;padding-bottom:10px">
+            <div><strong>${esc(hd.l1)}</strong><br><span style="font-size:11px;color:#5a6b7b">${esc(hd.l2)}</span></div>
             <div style="text-align:right"><strong>${esc(f.type)} N° ${esc(f.num)}</strong><br><span style="font-size:12px">${esc(f.date)}</span></div>
           </div>
           <p><strong>Client :</strong> ${esc(dossier.client)} ${dossier.ice ? '(ICE ' + esc(dossier.ice) + ')' : ''}</p>
@@ -489,13 +598,15 @@
             <tr><td>TVA ${dossier.tva}%</td><td style="text-align:right">${fmtMoney(f.tva)}</td></tr>
             <tr style="font-weight:700;background:#e4f2f0"><td>${f.type === 'Reçu provision' ? 'Provision encaissée' : 'Net à payer (solde)'}</td><td style="text-align:right">${fmtMoney(f.ttc)} TTC</td></tr>
           </table>
-          <p style="font-size:12px">Échéance : à réception — RIB [24 chiffres]. ${dossier.tva == 0 ? 'TVA non applicable, art. 91 CGI.' : ''}</p>
+          <p style="font-size:12px">Échéance : à réception.${hd.ribLine ? ' ' + esc(hd.ribLine) + '.' : ''} ${dossier.tva == 0 ? 'TVA non applicable, art. 91 CGI.' : ''}</p>
+          <p style="font-size:11px;color:#5a6b7b">Reçu daté, signé et numéroté délivré conformément à la loi n° 66.23 relative à l'organisation de la profession d'avocat. Tout paiement supérieur à 10 000 DH par chèque ou moyen de paiement électronique.</p>
         </div>
-        <div class="cab-toolbar" style="justify-content:center"><button class="btn btn-primary" onclick="window.print()">🖨️ Imprimer / PDF</button> <button class="btn" id="btnBackFact2">Retour</button></div>
+        <div class="cab-toolbar" style="justify-content:center"><button class="btn btn-primary" id="btnPrintFact">🖨️ Imprimer / PDF</button> <button class="btn" id="btnBackFact2">Retour</button></div>
       </div>`;
     $('#crumbs').innerHTML = '<span class="cur">' + esc(f.type) + ' ' + esc(f.num) + '</span>';
     $('#backFact').addEventListener('click', renderFactures);
     $('#btnBackFact2').addEventListener('click', () => viewDossier(dossier.id));
+    $('#btnPrintFact').addEventListener('click', () => printDoc($('#factPrint').outerHTML));
   }
 
   function renderFactures() {
