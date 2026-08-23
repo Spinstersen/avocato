@@ -23,7 +23,7 @@ C'est ici que vous allez gagner :
 | Action autorisée | Comment l'utiliser pour obtenir des clients |
 | :--- | :--- |
 | **Plaque professionnelle** | Standard. Faites-la mais elle ne vous apportera pas de clients en ligne. |
-| **Site web informatif** | ESSENTIEL. Non pas « Engagez-moi » mais « Guide Loi 09-08 pour PME ». Le référencement naturel apporte des clients. Voir `03_Acquisition_Without_Ads/02_SEO_Google_Business.md` |
+| **Site web informatif** | ESSENTIEL. Non pas « Engagez-moi » mais « Guide Loi 09-08 pour PME ». Le référencement naturel apporte des clients. Voir `03_Acquisition_Without_Ads/02_SEO_Google_Business_Educational_Content.md` |
 | **Articles & Publications juridiques** | Publiez sur LinkedIn/Medium : « 5 clauses qui manquent dans vos contrats de prestation ». C'est de la pédagogie, pas de la publicité. |
 | **Conférences & Ateliers gratuits** | « Atelier gratuit : Comment protéger juridiquement sa boutique YouCan.shop » dans un espace de coworking ou une CCI. Pure information. |
 | **Annuaire du Barreau** | Soyez-y. Basique. |

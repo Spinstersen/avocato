@@ -59,6 +59,6 @@ Es-tu résident 183j Maroc ?
 
 *   Préalable: `01_Strategy/01_Rules/` + `09_Office_Changes_Dotation_IGOC2024/` (délais rapatriement)
 *   MRE: `10_MRE_Entrepreneurs/` + `11_Nomads_Digital/` (2 dossiers séparés)
-*   Change: `09_Office_Changes_Dotation_IGOC2024/07_Rapatriement_Obligations.md`
+*   Change: `../09_Office_Changes_Dotation_IGOC2024/07_Obligations_Rapatriement_Justificatifs.md`
 *   Skills: `04_Skills_To_Learn/07_Sharp_Legal_Mind/03_Numbers_Sheet.md` (10 chiffres fiscaux)
 *   Montages internationaux (holding/shell/substance) : `12_Ingenierie_Fiscale_Internationale_Shell/` — ligne rouge BEPS + cas chiffré 1M

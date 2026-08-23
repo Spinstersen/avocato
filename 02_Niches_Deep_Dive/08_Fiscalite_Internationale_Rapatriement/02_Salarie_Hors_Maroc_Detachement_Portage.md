@@ -27,7 +27,7 @@ Client 1: **Société marocaine veut salarié à Paris** (remote). Client 2: **S
 *   **Montage:** Freelance Yassine (Casa) → portage `MABC Portage` (Paris) → client US → portage facture 5k€ → verse salaire 3,5k€ net + cotis 45% → solde 0.
 *   **Avantage fiscal:** Portage gère TVA, IR, CNSS — Yassine reste résident Maroc 340j → IR Maroc mais cotis FR (A1).
 *   **Contrat:** `Contrat travail portage` + `Convention portage` (3 parties) — modèle `05_Document_Bank/templates/`.
-*   **Dotation Office:** Portage = prestation service export → rapatriement 30j IGOC `09_Office_Changes_Dotation_IGOC2024/07_Rapatriement_Obligations.md`.
+*   **Dotation Office:** Portage = prestation service export → rapatriement 30j IGOC `../09_Office_Changes_Dotation_IGOC2024/07_Obligations_Rapatriement_Justificatifs.md`.
 
 ## Contrat local (MRE crée filiale)
 
