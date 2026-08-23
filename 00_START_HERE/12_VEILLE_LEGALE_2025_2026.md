@@ -30,9 +30,11 @@ Promulguée par **dahir n° 1-26-07 du 11/02/2026**, publiée au **BO n° 7485 d
 - **Transitoire** (art. 641-643) : affaires engagées avant le 24/08 restent sous l'ancien code ; délais ouverts ne repartent pas ; jugements antérieurs → anciens recours.
 - Impact vault : track `14_Litigation` banniérée (voir audit §2).
 
-### A2. Loi n° 66.23 — Organisation de la profession d'avocat *(vérifié 23/08/2026)*
+### A2. Loi n° 66.23 — Organisation de la profession d'avocat *(vérifié 24/08/2026)*
 
-**Dahir n° 1-26-75 du 18/08/2026**, **BO n° 7536 du 20/08/2026** ; application immédiate (art. 146) [vérifier]. Remplace la loi 27-11 (2012). Contexte : grève ~100 jours ; **saisine Cour constitutionnelle pendante** (surveiller).
+**Dahir n° 1-26-75 du 18/08/2026**, **BO n° 7536 du 20/08/2026** ; application immédiate (art. 146) [vérifier]. **Remplace la loi n° 28-08** (2008, organisation de la profession d’avocat). Contexte : grève ~100 jours des barreaux, maintenue après la publication.
+
+⚖️ **Cour constitutionnelle — décision n° 277/26 M.D. (dossier 317/26) du 10/08/2026** : la Cour se déclare dans l’**impossibilité de statuer** sur la conformité à la Constitution — vice de saisine (le dossier ne comportait pas le texte définitif adopté par la Chambre des conseillers le 07/07). La décision **ne valide ni n’invalide** les dispositions contestées ; la loi a ensuite été promulguée (18/08) et publiée (20/08) **sans contrôle constitutionnel sur le fond**. Nouvelle saisine corrigée possible tant que le dossier suit son cours. Sources : article19.ma, Maroc Hebdo, TelQuel, Le360, libe.ma (10-11/08/2026).
 
 **Ce qui change** : master obligatoire avant CAPA · institut de formation dédié · **stage 2 ans** · mandats des organes du barreau limités · représentation minimale des femmes · encadrement des cabinets étrangers · **traçabilité des honoraires** · contrôle Cour des comptes des caisses du barreau · discipline réformée.
 Impact vault : `06_Deontologie/*`, template convention, scripts annonce honoraires (bannière posée — voir audit §3).
@@ -116,7 +118,7 @@ Loi 5-96 SARL (capital 10k, gérance) · DOC art.230/258/264/443/618/1055 (contr
 
 Vente à distance : **rétractation 7 jours francs (art.36)**, remboursement sous 15 jours, exceptions art.38 (dont contenu numérique exécuté avec consentement exprès). CGV obligatoires FR/AR, ICE/RC/IF, livraison, SAV. Clause abusive → nullité (art.15+19) + DOC art.264. Ne jamais copier les CGV françaises (14j L221-18).
 
-### D2. Données personnelles — 09-08 / 28-08 *(base stable, vigilance CNDP)*
+### D2. Données personnelles — loi 09-08 *(base stable, vigilance CNDP)*
 
 Loi 09-08 : registre 5 colonnes, déclaration CNDP (récepissé 30j), transfert hors Maroc art.43-44 (autorisation/CCT), sanctions 10k-300k + art.52. Délibération cookies 40-22 (bandeau, 13 mois). **À surveiller** : activité répressive CNDP croissante (veille mensuelle `08_Jurisprudence/09_Veille_Mensuelle.md`) et tout projet de refonte alignant le cadre marocain sur les standards RGPD — aucune promulgation connue au 23/08/2026.
 

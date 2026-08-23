@@ -63,5 +63,5 @@ Ne constitue pas une consultation sans diagnostic personnalisé.
 - [ ] ICE du client vérifié
 - [ ] Mission cochée, livrables en 5 bullets max
 - [ ] Provision chiffrée en TTC, RIB correct
-- [ ] Délai réaliste + mention "pièces complètes"> ⚖️ **NOUVEAU — loi n° 66.23 relative à l'organisation de la profession d'avocat** (dahir n° 1-26-75 du 18/08/2026, BO n°7536 du 20/08/2026 ; application immédiate [vérifier art. 146] ; décision de la Cour constitutionnelle pendante). À intégrer : **traçabilité des honoraires**, procédure disciplinaire réformée, gouvernance des barreaux (mandats limités), stage porté à 2 ans. Détail : `00_START_HERE/12_VEILLE_LEGALE_2025_2026.md`.
+- [ ] Délai réaliste + mention "pièces complètes"> ⚖️ **NOUVEAU — loi n° 66.23 relative à l'organisation de la profession d'avocat** (dahir n° 1-26-75 du 18/08/2026, BO n°7536 du 20/08/2026 ; application immédiate [vérifier art. 146] ; CC décision n°277/26 du 10/08/2026 : impossibilité de statuer (vice de saisine) — promulguée sans contrôle sur le fond). À intégrer : **traçabilité des honoraires**, procédure disciplinaire réformée, gouvernance des barreaux (mandats limités), stage porté à 2 ans. Détail : `00_START_HERE/12_VEILLE_LEGALE_2025_2026.md`.
 
