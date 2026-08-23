@@ -2,6 +2,28 @@
 
 Format : [version] — date · type de changement
 
+## [v3.1] — 2026-08-23 · Cabinet OS refondu
+
+### C1 — Conformité loi 66.23 + identité cabinet
+- **Vue Paramètres** : fiche cabinet (nom, barreau, ICE, IF, RC, adresse, tél, email, RIB) persistée et injectée dans tous les documents
+- Conventions/reçus/factures au **format loi 66.23** : cash interdit >10 000 DH, reçu numéroté obligatoire, plus aucune référence à l'art.30/loi 28-08 abrogée
+- **Impression isolée** : seul le document part au PDF (`#printArea`), sidebar/topbar exclues
+- Numérotation séquentielle persistante CH/RP/FH (fin des collisions)
+
+### C2 — Pipeline visuel
+- Vue **Kanban** 7 colonnes par statut : drag & drop desktop + boutons ◀▶ mobile
+- **Timeline/journal** automatique par dossier (création, conventions, factures, statuts, échéances)
+
+### C3 — Finance
+- **Encaissements réels datés** → dashboard « encaissé vs attendu »
+- Récap **TVA collectée par trimestre** avec sélecteur d'année
+- **Export CSV comptable** (UTF-8 BOM, prêt Excel)
+
+### C4 — Mobile & polish
+- Tables transformées en **cartes empilées** <700px (labels intégrés)
+- **Recherche globale** topbar : dossiers, conventions, factures, échéances
+- Bibliothèque : les **22 templates** + carte loi 66.23
+
 ## [v3.0] — 2026-08-23
 
 ### Loi 66.23 (réforme profession avocat) — EN VIGUEUR
