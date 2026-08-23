@@ -1,5 +1,5 @@
 ﻿/* AVOCATO Learn — logique applicative (marqué + Chart.js, 100% offline)
-   Design v3 : progression visible, feedback immédiat, lecture longue soignée. */
+   Navigation v4 : Domaine (grand titre) › Dossier (sous-titre) › Documents */
 (function () {
   'use strict';
 
@@ -14,7 +14,7 @@
   /* ---------- état ---------- */
   const state = {
     current: null,
-    themeIdx: 0,                       // 0=system 1=light 2=dark
+    themeIdx: 0,
     font: LS.get('font', 'md'),
     read: new Set(LS.get('read', [])),
     checks: LS.get('checks', {}),
@@ -25,64 +25,56 @@
   };
   const THEMES = ['system', 'light', 'dark'];
 
-  /* ---------- curriculum ---------- */
-  const CURRICULUM = [
-    '00_START_HERE',
-    '01_Strategy',
-    '08_Jurisprudence',
-    '02_Niches_Deep_Dive/01_Freelancers_Agencies_Offshore',
-    '02_Niches_Deep_Dive/02_Ecommerce_Dropshipping_YouCan',
-    '02_Niches_Deep_Dive/03_Loi_09-08_GDPR_Compliance',
-    '02_Niches_Deep_Dive/04_Content_Creators_Infopreneurs',
-    '02_Niches_Deep_Dive/05_MRE_Foreign_Investors',
-    '02_Niches_Deep_Dive/06_Autoentrepreneur_to_SARL_Scaling',
-    '02_Niches_Deep_Dive/07_Propriete_Intellectuelle',
-    '02_Niches_Deep_Dive/08_Fiscalite_Internationale_Rapatriement',
-    '02_Niches_Deep_Dive/09_Office_Changes_Dotation_IGOC2024',
-    '02_Niches_Deep_Dive/10_MRE_Entrepreneurs',
-    '02_Niches_Deep_Dive/11_Nomads_Digital',
-    '02_Niches_Deep_Dive/12_Ingenierie_Fiscale_Internationale_Shell',
-    '03_Acquisition_Without_Ads',
-    '05_Document_Bank',
-    '04_Skills_To_Learn',
-    '06_ADHD_System',
-    '07_90Day_Plan'
+  /* ---------- domaines > dossiers ---------- */
+  /* Grand titre = domaine ; sous-titre = dossier ; puis documents. */
+  const DOMAINS = [
+    { id: 'start',      label: 'Démarrage',               icon: '🚀', match: ['00_START_HERE', '(root)'] },
+    { id: 'strategy',   label: 'Stratégie & déontologie', icon: '🧭', match: ['01_Strategy'] },
+    { id: 'juris',      label: 'Jurisprudence citable',   icon: '⚖️', match: ['08_Jurisprudence'] },
+    { id: 'niches',     label: 'Niches métier',           icon: '🎯', match: ['02_Niches_Deep_Dive'] },
+    { id: 'acqui',      label: 'Acquisition sans pub',    icon: '📣', match: ['03_Acquisition_Without_Ads'] },
+    { id: 'skills',     label: 'Compétences · 19 tracks', icon: '🧠', match: ['04_Skills_To_Learn'] },
+    { id: 'bank',       label: 'Modèles & checklists',    icon: '🗂️', match: ['05_Document_Bank'] },
+    { id: 'system',     label: 'Système & plan 90 jours', icon: '🗓️', match: ['06_ADHD_System', '07_90Day_Plan'] }
   ];
   const FOLDER_LABELS = {
-    '00_START_HERE': '🚀 Commencer ici',
-    '01_Strategy': '🧭 Stratégie & déontologie',
-    '08_Jurisprudence': '⚖️ Jurisprudence citable',
-    '03_Acquisition_Without_Ads': '📣 Acquisition sans pub',
-    '04_Skills_To_Learn': '🧠 Compétences (19 tracks)',
-    '05_Document_Bank': '🗂️ Modèles & checklists',
-    '06_ADHD_System': '⚡ Système ADHD',
-    '07_90Day_Plan': '🗓️ Plan 90 jours',
-    '(root)': '📄 Racine'
+    '(root)': 'Vue d\'ensemble',
+    '00_START_HERE': 'Commencer ici'
   };
-  function getGroupKey(d) {
-    const parts = d.id.split('/');
-    if (parts[0] === '02_Niches_Deep_Dive' && parts.length > 2) return parts.slice(0, 2).join('/');
-    return d.folder;
-  }
-  function humanize(seg) {
-    return seg.replace(/^\d+[_-]/, '').replace(/[_-]+/g, ' ');
-  }
-  function groupLabel(g) {
-    if (FOLDER_LABELS[g]) return FOLDER_LABELS[g];
-    const seg = g.split('/').pop();
+  function humanize(seg) { return seg.replace(/^\d+[_-]/, '').replace(/[_-]+/g, ' '); }
+  function folderLabel(key) {
+    if (FOLDER_LABELS[key]) return FOLDER_LABELS[key];
+    const seg = key.split('/').pop();
     return humanize(seg).replace(/\b\w/g, c => c.toUpperCase());
   }
-  function groupNum(g) { return (g.split('/').pop().match(/^(\d+)/) || [])[1] || ''; }
+  function groupNum(key) { return (key.split('/').pop().match(/^(\d+)/) || [])[1] || ''; }
 
-  /* Liste plate ordonnée : groupes curriculum, fichiers triés */
+  function domainOf(groupKey) {
+    const rootSeg = groupKey.split('/')[0];
+    return DOMAINS.find(d => d.match.includes(rootSeg)) || DOMAINS[DOMAINS.length - 1];
+  }
+
+  /* Groupe = sous-dossier si profondeur ≥ 2, sinon dossier racine */
+  function getGroupKey(d) {
+    const parts = d.id.split('/');
+    return parts.length > 2 ? parts.slice(0, 2).join('/') : d.folder;
+  }
+
   const GROUPS = {};
   DATA.forEach(d => { const g = getGroupKey(d); (GROUPS[g] = GROUPS[g] || []).push(d); });
   Object.values(GROUPS).forEach(a => a.sort((x, y) => x.id.localeCompare(y.id, 'fr')));
-  const ORDERED_GROUPS = [
-    ...CURRICULUM.filter(g => GROUPS[g]),
-    ...Object.keys(GROUPS).filter(g => !CURRICULUM.includes(g))
-  ];
-  const ORDERED = ORDERED_GROUPS.flatMap(g => GROUPS[g]);
+
+  /* Ordre : domaines dans l'ordre pédagogique, dossiers triés dedans */
+  const ORDERED_DOMAINS = DOMAINS
+    .map(dom => ({
+      ...dom,
+      groups: Object.keys(GROUPS)
+        .filter(g => domainOf(g).id === dom.id)
+        .sort((a, b) => a.localeCompare(b, 'fr', { numeric: true }))
+        .map(key => ({ key, docs: GROUPS[key] }))
+    }))
+    .filter(dom => dom.groups.length);
+  const ORDERED = ORDERED_DOMAINS.flatMap(d => d.groups.flatMap(g => g.docs));
 
   /* ---------- helpers ---------- */
   function esc(s) { return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
@@ -94,6 +86,7 @@
     const n = parseFloat(t);
     return isNaN(n) ? NaN : (k ? n * 1000 : n);
   }
+  function docDomain(doc) { return domainOf(getGroupKey(doc)); }
 
   /* ---------- markdown ---------- */
   const renderer = {
@@ -146,7 +139,6 @@
       wrap.appendChild(t);
     });
 
-    // checkboxes + liens internes : bindés APRÈS insertion dans le DOM réel
     return { html: tmp.innerHTML, toc };
   }
 
@@ -279,7 +271,7 @@
     });
   }
 
-  /* ---------- lecture : barre de progression + scroll-spy + lu-auto ---------- */
+  /* ---------- lecture : progression + scroll-spy + lu-auto ---------- */
   function onScroll() {
     const barEl = $('#readProgress');
     if (!state.current) { barEl.style.width = '0%'; return; }
@@ -335,18 +327,18 @@
         toc.map(t => `<li class="lvl-${t.tag}"><a href="#${t.id}">${esc(t.text)}</a></li>`).join('') +
         `</ul></details>` : '';
 
-    const gi = ORDERED_GROUPS.indexOf(getGroupKey(doc));
-    const pos = `${ORDERED.filter(d => getGroupKey(d) === getGroupKey(doc)).findIndex(d => d.id === id) + 1}/${GROUPS[getGroupKey(doc)].length}`;
+    const dom = docDomain(doc);
+    const gKey = getGroupKey(doc);
+    const pos = `${GROUPS[gKey].findIndex(d => d.id === id) + 1}/${GROUPS[gKey].length}`;
 
     main.innerHTML = `
       <div class="doc-layout">
         <div class="doc-col">
           <article class="doc">
             <div class="doc-meta">
-              ${gi >= 0 ? `<span class="pill folder">Leçon ${gi + 1} · ${pos}</span>` : ''}
-              <span class="pill folder">${esc(doc.title)}</span>
+              <span class="pill folder">${esc(dom.label)}</span>
+              <span class="pill">${esc(folderLabel(gKey))} · ${pos}</span>
               <span class="pill">${doc.words} mots · ~${Math.max(1, Math.round(doc.words / 180))} min</span>
-              <span class="pill">${esc(doc.file)}</span>
             </div>
             ${inlineToc}
             <div class="doc-content">${html}</div>
@@ -366,7 +358,7 @@
       b.addEventListener('click', () => openDoc(b.dataset.go)));
 
     $('#crumbs').innerHTML =
-      `${esc(groupLabel(getGroupKey(doc)))} <span aria-hidden="true">/</span> <span class="cur">${esc(doc.title)}</span>`;
+      `${esc(dom.icon)} ${esc(dom.label)} <span aria-hidden="true">/</span> ${esc(folderLabel(gKey))} <span aria-hidden="true">/</span> <span class="cur">${esc(doc.title)}</span>`;
     highlightTree();
     updateReadBtn();
     if (location.hash !== '#' + encodeURIComponent(id)) {
@@ -381,43 +373,64 @@
     $$('.tree-item').forEach(b => b.classList.toggle('active', b.dataset.id === state.current));
   }
 
-  /* ---------- arbre ---------- */
+  /* ---------- arbre : Domaine › Dossier › Documents ---------- */
   function renderTree(filter) {
     const tree = $('#tree');
+    const f = (filter || '').toLowerCase();
     let html = '';
-    ORDERED_GROUPS.forEach(folder => {
-      const all = GROUPS[folder];
-      const items = all.filter(d =>
-        !filter ||
-        d.title.toLowerCase().includes(filter) ||
-        d.file.toLowerCase().includes(filter) ||
-        d.content.toLowerCase().includes(filter)
-      );
-      if (filter && !items.length) return;
-      const readCount = all.filter(d => state.read.has(d.id)).length;
-      const pct = all.length ? Math.round(100 * readCount / all.length) : 0;
-      const isOpen = filter ? true : state.foldersOpen[folder] !== false;
 
-      html += `<div class="tree-section">
-        <button class="tree-folder ${isOpen ? 'open' : ''}" data-folder="${esc(folder)}">
-          <span class="caret">▶</span><span>${esc(groupLabel(folder))}</span>
-          <span class="folder-meta">${readCount}/${all.length}</span>
-          <span class="progress-mini"><span class="fill" style="width:${pct}%"></span></span>
-        </button>
-        <div class="tree-items" style="display:${isOpen ? '' : 'none'}">
-          ${items.map(d => `
-            <button class="tree-item ${state.read.has(d.id) ? 'read' : ''} ${state.current === d.id ? 'active' : ''}" data-id="${esc(d.id)}">
-              <span class="read-dot" aria-hidden="true"></span>
-              <span class="fname">${esc(d.title)}</span>
-            </button>`).join('')}
+    ORDERED_DOMAINS.forEach(dom => {
+      const domDocs = dom.groups.flatMap(g => g.docs);
+      const domRead = domDocs.filter(d => state.read.has(d.id)).length;
+
+      let domHtml = '';
+      let domHasVisible = false;
+
+      dom.groups.forEach(({ key, docs }) => {
+        const items = !f ? docs : docs.filter(d =>
+          d.title.toLowerCase().includes(f) ||
+          d.file.toLowerCase().includes(f) ||
+          d.content.toLowerCase().includes(f));
+        if (f && !items.length) return;
+        domHasVisible = true;
+        const readCount = docs.filter(d => state.read.has(d.id)).length;
+        const pct = docs.length ? Math.round(100 * readCount / docs.length) : 0;
+        const isOpen = f ? true : state.foldersOpen[key] !== false;
+
+        domHtml += `<div class="tree-section">
+          <button class="tree-folder ${isOpen ? 'open' : ''}" data-folder="${esc(key)}">
+            <span class="caret">▸</span><span>${esc(folderLabel(key))}</span>
+            <span class="folder-meta">${readCount}/${docs.length}</span>
+            <span class="progress-mini"><span class="fill" style="width:${pct}%"></span></span>
+          </button>
+          <div class="tree-items" style="display:${isOpen ? '' : 'none'}">
+            ${items.map(d => `
+              <button class="tree-item ${state.read.has(d.id) ? 'read' : ''} ${state.current === d.id ? 'active' : ''}" data-id="${esc(d.id)}">
+                <span class="read-dot" aria-hidden="true"></span>
+                <span class="fname">${esc(d.title)}</span>
+              </button>`).join('')}
+          </div>
+        </div>`;
+      });
+
+      if (!domHasVisible && f) return;
+      const pctAll = domDocs.length ? Math.round(100 * domRead / domDocs.length) : 0;
+
+      html += `<div class="tree-domain">
+        <div class="tree-domain-head" title="${pctAll}% lu">
+          <span class="td-icon">${dom.icon}</span>
+          <span class="td-label">${esc(dom.label)}</span>
+          <span class="td-count">${domRead}/${domDocs.length}</span>
         </div>
+        ${domHtml}
       </div>`;
     });
+
     tree.innerHTML = html || '<div class="empty-state">Aucun résultat 😕</div>';
 
     $$('.tree-folder', tree).forEach(btn => btn.addEventListener('click', () => {
-      const f = btn.dataset.folder;
-      state.foldersOpen[f] = !(btn.classList.contains('open'));
+      const fk = btn.dataset.folder;
+      state.foldersOpen[fk] = !(btn.classList.contains('open'));
       LS.set('folders', state.foldersOpen);
       btn.classList.toggle('open');
       const items = btn.nextElementSibling;
@@ -434,12 +447,14 @@
   function renderPathChips() {
     const wrap = $('#pathChips');
     if (!wrap) return;
-    wrap.innerHTML = CURRICULUM.filter(g => GROUPS[g]).map((g, i) =>
-      `<button class="path-chip" data-g="${esc(g)}" title="${esc(groupLabel(g))}">${groupNum(g) || i + 1}</button>`
+    wrap.innerHTML = ORDERED_DOMAINS.map((dom, i) =>
+      `<button class="path-chip" data-d="${esc(dom.id)}" title="${esc(dom.label)}">${i + 1}</button>`
     ).join('');
     $$('.path-chip', wrap).forEach(ch => ch.addEventListener('click', () => {
-      const firstUnread = GROUPS[ch.dataset.g].find(d => !state.read.has(d.id)) || GROUPS[ch.dataset.g][0];
-      openDoc(firstUnread.id);
+      const dom = ORDERED_DOMAINS.find(x => x.id === ch.dataset.d);
+      const all = dom.groups.flatMap(g => g.docs);
+      const target = all.find(d => !state.read.has(d.id)) || all[0];
+      openDoc(target.id);
       document.body.classList.remove('sidebar-open');
     }));
   }
@@ -469,14 +484,14 @@
     const lastDoc = DATA.find(d => d.id === lastId);
     const nextUp = ORDERED.find(d => !state.read.has(d.id)) || ORDERED[0];
 
-    const cards = ORDERED_GROUPS.map((g, i) => {
-      const items = GROUPS[g];
-      const n = items.filter(d => state.read.has(d.id)).length;
-      const p = Math.round(100 * n / items.length);
-      return `<button class="path-card" data-g="${esc(g)}">
-        <div class="pc-num">MODULE ${groupNum(g) || i + 1}</div>
-        <div class="pc-title">${esc(groupLabel(g))}</div>
-        <div class="pc-desc">${items.length} documents · ${n} lus</div>
+    const cards = ORDERED_DOMAINS.map((dom, i) => {
+      const docs = dom.groups.flatMap(g => g.docs);
+      const n = docs.filter(d => state.read.has(d.id)).length;
+      const p = Math.round(100 * n / docs.length);
+      return `<button class="path-card" data-d="${esc(dom.id)}">
+        <div class="pc-num">${dom.icon} DOMAINE ${i + 1}${groupNum(dom.groups[0].key) ? ' · ' + esc(dom.groups.map(g => groupNum(g.key)).filter(Boolean)[0] || '') : ''}</div>
+        <div class="pc-title">${esc(dom.label)}</div>
+        <div class="pc-desc">${dom.groups.length} dossier${dom.groups.length > 1 ? 's' : ''} · ${docs.length} documents · ${n} lus</div>
         <div class="pc-bar"><span class="fill" style="width:${p}%"></span></div>
       </button>`;
     }).join('');
@@ -485,7 +500,7 @@
       <div class="dash">
         <div class="dash-hero">
           <h1>Bon retour 👋</h1>
-          <p>Formation juridique Maroc — 680 documents · FR fait foi · chaque ✓ compte vers votre maîtrise.</p>
+          <p>Formation juridique Maroc — ${total} documents · FR fait foi · chaque ✓ compte.</p>
         </div>
         <div class="learn-grid">
           <div class="hero-card">
@@ -495,7 +510,7 @@
               <div class="stat-line">
                 📚 <strong>${readCount}</strong> / ${total} documents lus<br>
                 ✅ ${doneChecks} tâches cochées<br>
-                🎓 ${ORDERED_GROUPS.length} modules au curriculum
+                🗂️ ${ORDERED_DOMAINS.length} domaines de savoir
               </div>
             </div>
             <div style="margin-top:16px">
@@ -505,13 +520,13 @@
           <div class="panel" style="margin-bottom:0">
             <h3>${lastDoc && state.read.size ? '⏯️ Reprendre où vous étiez' : '🎯 Premier pas recommandé'}</h3>
             <p style="font-size:14px;color:var(--text-dim);margin:0 0 6px">${esc(lastDoc && state.read.size ? lastDoc.title : nextUp.title)}</p>
-            <p style="font-size:12.5px;color:var(--text-faint);margin:0 0 14px">${esc(lastDoc && state.read.size ? groupLabel(lastDoc.folder) : groupLabel(nextUp.folder))} · ~${Math.max(1, Math.round((lastDoc || nextUp).words / 180))} min de lecture</p>
+            <p style="font-size:12.5px;color:var(--text-faint);margin:0 0 14px">${esc(docDomain(lastDoc && state.read.size ? lastDoc : nextUp).label)} · ~${Math.max(1, Math.round((lastDoc || nextUp).words / 180))} min de lecture</p>
             <button class="btn btn-primary" id="btnResumeGo">${lastDoc && state.read.size ? 'Ouvrir le document' : 'Démarrer le module'}</button>
           </div>
         </div>
 
         <div class="panel" style="margin-top:16px">
-          <h3>🗺️ Parcours curriculum — dans l'ordre</h3>
+          <h3>🗺️ Les 8 domaines — dans l'ordre du curriculum</h3>
           <div class="path-cards">${cards}</div>
         </div>
 
@@ -521,7 +536,7 @@
             <div class="chart-canvas-wrap"><canvas id="dashRevenue"></canvas></div>
           </div>
           <div class="panel" style="margin:0">
-            <h3>⚡ Répartition du contenu</h3>
+            <h3>⚡ Répartition par domaine</h3>
             <div class="chart-canvas-wrap"><canvas id="dashDistribution"></canvas></div>
           </div>
         </div>
@@ -530,9 +545,9 @@
     $('#btnContinue').addEventListener('click', () => openDoc(lastDoc && state.read.size ? lastDoc.id : nextUp.id));
     $('#btnResumeGo').addEventListener('click', () => openDoc(lastDoc && state.read.size ? lastDoc.id : nextUp.id));
     $$('.path-card', main).forEach(c => c.addEventListener('click', () => {
-      const g = c.dataset.g;
-      const target = GROUPS[g].find(d => !state.read.has(d.id)) || GROUPS[g][0];
-      openDoc(target.id);
+      const dom = ORDERED_DOMAINS.find(x => x.id === c.dataset.d);
+      const all = dom.groups.flatMap(g => g.docs);
+      openDoc(all.find(d => !state.read.has(d.id)) || all[0].id);
     }));
 
     const th = chartTheme();
@@ -544,8 +559,8 @@
     state.charts.push(new Chart($('#dashDistribution'), {
       type: 'doughnut',
       data: {
-        labels: ORDERED_GROUPS.map(groupLabel),
-        datasets: [{ data: ORDERED_GROUPS.map(g => GROUPS[g].length), backgroundColor: ['#0f766e', '#155e75', '#b4552d', '#7a5aa8', '#3a7ca5', '#c98f2e', '#5f8a52', '#a34d77'], borderColor: th.ticks, borderWidth: 1 }]
+        labels: ORDERED_DOMAINS.map(d => d.label),
+        datasets: [{ data: ORDERED_DOMAINS.map(d => d.groups.flatMap(g => g.docs).length), backgroundColor: ['#0f766e', '#155e75', '#b4552d', '#7a5aa8', '#3a7ca5', '#c98f2e', '#5f8a52', '#a34d77'], borderColor: th.ticks, borderWidth: 1 }]
       },
       options: baseChartOpts('doughnut', th, true)
     }));
@@ -650,8 +665,6 @@
     const last = LS.get('last', null);
     if (location.hash && DATA.some(d => d.id === decodeURIComponent(location.hash.slice(1)))) {
       openDoc(decodeURIComponent(location.hash.slice(1)));
-    } else if (last && DATA.some(d => d.id === last)) {
-      openDashboard();               // l'accueil propose « Reprendre »
     } else {
       openDashboard();
     }
