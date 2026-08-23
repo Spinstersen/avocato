@@ -91,7 +91,7 @@ P.J. : 6 pièces listées ci-dessus
 
 **Mentions obligatoires à ne pas oublier :**
 - Numéro ICE/RC/CIN exact (rejet si erroné).
-- Convention visée avec **date exacte** : France–Maroc du **29 mai 1970** (pas 1959), Belgique–Maroc du **4 mai 1972** — vérifier sgg.gov.ma.
+- Convention visée avec **date exacte** : France–Maroc du **29 mai 1970** (pas 29 mai 1970), Belgique–Maroc du **4 mai 1972** — vérifier sgg.gov.ma.
 - Case cochée (183j / foyer / centre) — la DGI vérifie la bonne case, pas les trois.
 
 ---
@@ -133,7 +133,7 @@ P.J. : copies passeport (cachets)
 ## 6. Erreurs qui coûtent 10–20k DH
 
 1. **Promettre 72h** → DGI = 30j incompressible. Prévoir dans la convention : « Attestation sous 30j, mission fiscale sous réserve de son obtention. »
-2. **Mauvaise convention citée** (1959 au lieu du 29 mai 1970) → rejet DGI / fisc FR, 30j perdus.
+2. **Mauvaise convention citée** (29 mai 1970 au lieu du 29 mai 1970) → rejet DGI / fisc FR, 30j perdus.
 3. **Oublier les cachets passeport** → DGI ne peut pas vérifier 183j, demande complément = 15j de plus.
 4. **Chiffrer le crédit art. 27 sans comptable** → taux faux (PLF annuelle), redressement 3 ans.
 
