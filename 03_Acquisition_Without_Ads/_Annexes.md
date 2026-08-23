@@ -29,7 +29,7 @@ Procedure 30 min/j: 10 min contenu + 10 min DM permission + 10 min relance J+4 +
 Scripts FR/EN/AR: voir 02_Prise_Contact / 02_Scripts.
 Devoir art59 information doctrinale.
 
-> Complement: Verifier Numbers_Sheet + rebuild webapp.
+ + rebuild webapp.
 
 ---
 
@@ -43,7 +43,7 @@ Procedure 30 min/j: 10 min contenu + 10 min DM permission + 10 min relance J+4 +
 Scripts FR/EN/AR: voir 02_Prise_Contact / 02_Scripts.
 Devoir art59 information doctrinale.
 
-> Complement: Verifier Numbers_Sheet + rebuild webapp.
+ + rebuild webapp.
 
 ---
 
@@ -57,7 +57,7 @@ Procedure 30 min/j: 10 min contenu + 10 min DM permission + 10 min relance J+4 +
 Scripts FR/EN/AR: voir 02_Prise_Contact / 02_Scripts.
 Devoir art59 information doctrinale.
 
-> Complement: Verifier Numbers_Sheet + rebuild webapp.
+ + rebuild webapp.
 
 ---
 
@@ -71,7 +71,7 @@ Procedure 30 min/j: 10 min contenu + 10 min DM permission + 10 min relance J+4 +
 Scripts FR/EN/AR: voir 02_Prise_Contact / 02_Scripts.
 Devoir art59 information doctrinale.
 
-> Complement: Verifier Numbers_Sheet + rebuild webapp.
+ + rebuild webapp.
 
 ---
 
@@ -85,7 +85,7 @@ Procedure 30 min/j: 10 min contenu + 10 min DM permission + 10 min relance J+4 +
 Scripts FR/EN/AR: voir 02_Prise_Contact / 02_Scripts.
 Devoir art59 information doctrinale.
 
-> Complement: Verifier Numbers_Sheet + rebuild webapp.
+ + rebuild webapp.
 ---
 
 ---
@@ -100,7 +100,7 @@ Procedure 30 min/j: 10 min contenu + 10 min DM permission + 10 min relance J+4 +
 Scripts FR/EN/AR: voir 02_Prise_Contact / 02_Scripts.
 Devoir art59 information doctrinale.
 
-> Complement: Verifier Numbers_Sheet + rebuild webapp.
+ + rebuild webapp.
 
 ---
 
@@ -114,7 +114,7 @@ Procedure 30 min/j: 10 min contenu + 10 min DM permission + 10 min relance J+4 +
 Scripts FR/EN/AR: voir 02_Prise_Contact / 02_Scripts.
 Devoir art59 information doctrinale.
 
-> Complement: Verifier Numbers_Sheet + rebuild webapp.
+ + rebuild webapp.
 ---
 
 ---
@@ -129,7 +129,7 @@ Procedure 30 min/j: 10 min contenu + 10 min DM permission + 10 min relance J+4 +
 Scripts FR/EN/AR: voir 02_Prise_Contact / 02_Scripts.
 Devoir art59 information doctrinale.
 
-> Complement: Verifier Numbers_Sheet + rebuild webapp.
+ + rebuild webapp.
 ---
 
 ---
@@ -144,7 +144,7 @@ Procedure 30 min/j: 10 min contenu + 10 min DM permission + 10 min relance J+4 +
 Scripts FR/EN/AR: voir 02_Prise_Contact / 02_Scripts.
 Devoir art59 information doctrinale.
 
-> Complement: Verifier Numbers_Sheet + rebuild webapp.
+ + rebuild webapp.
 
 ---
 
@@ -158,7 +158,7 @@ Procedure 30 min/j: 10 min contenu + 10 min DM permission + 10 min relance J+4 +
 Scripts FR/EN/AR: voir 02_Prise_Contact / 02_Scripts.
 Devoir art59 information doctrinale.
 
-> Complement: Verifier Numbers_Sheet + rebuild webapp.
+ + rebuild webapp.
 ---
 
 ---
@@ -173,6 +173,5 @@ Procedure 30 min/j: 10 min contenu + 10 min DM permission + 10 min relance J+4 +
 Scripts FR/EN/AR: voir 02_Prise_Contact / 02_Scripts.
 Devoir art59 information doctrinale.
 
-> Complement: Verifier Numbers_Sheet + rebuild webapp.
+ + rebuild webapp.
 ---
-

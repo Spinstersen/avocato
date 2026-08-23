@@ -72,84 +72,84 @@ sgg.gov.ma Loi 28-08 art.30-31, RI Barreau, 01_Rules/00_INDEX, 06_Deontologie/12
 
 > Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
 
-> Complement: Verifier Numbers_Sheet + 01_Rules/11_Arbre avant publier.
+ + 01_Rules/11_Arbre avant publier.
