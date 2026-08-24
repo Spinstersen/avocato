@@ -145,12 +145,12 @@
         <h2>Tableau de bord Cabinet</h2>
         <p class="sub">Dossiers en localStorage — offline. Provision et solde suivent la convention d'honoraires (loi n° 66.23).</p>
         ${!settingsComplete() ? '<div class="dash-panel" style="border-left:4px solid var(--warn);margin-bottom:14px"><h3>⚙️ Configure ta fiche cabinet</h3><p style="font-size:13px;color:var(--text-dim)">Nom + Barreau requis pour que les conventions/factures sortent à ton nom (sinon placeholders).</p><button class="btn btn-primary" id="cabGoSettings">Ouvrir les Paramètres</button></div>' : ''}
-        <div class="dash-cards">
-          <div class="dash-card"><div class="num">${fmtMoney(fin.encaisse)}</div><div class="lbl">Encaissé réel (TTC)</div></div>
-          <div class="dash-card"><div class="num">${fmtMoney(fin.attendu)}</div><div class="lbl">Attendu (émis non encaissé)</div></div>
+        <div class="bento">
+          <div class="dash-card bento-hero"><div class="num">${fmtMoney(fin.encaisse)}</div><div class="lbl">Encaissé réel TTC</div></div>
+          <div class="dash-card" style="grid-column:span 3"><div class="num">${fmtMoney(fin.attendu)}</div><div class="lbl">Attendu — émis non encaissé</div></div>
           <div class="dash-card"><div class="num">${total}</div><div class="lbl">Dossiers</div></div>
           <div class="dash-card"><div class="num">${enCours}</div><div class="lbl">En cours / livrés</div></div>
-          <div class="dash-card"><div class="num" style="${overdue ? 'color:var(--err)' : ''}">${overdue}</div><div class="lbl">Échéances en retard</div></div>
+          <div class="dash-card"><div class="num" style="${overdue ? 'color:var(--err)' : 'color:var(--ok)'}">${overdue}</div><div class="lbl">Échéances en retard</div></div>
         </div>
         <div class="dash-grid">
           <div class="dash-panel"><h3>Dossiers par statut</h3><div class="chart-canvas-wrap" style="height:220px"><canvas id="cabStatut"></canvas></div></div>
@@ -318,7 +318,8 @@
         <h2>Paramètres du cabinet</h2>
         <p class="sub">Ces informations sont injectées dans les conventions, reçus et factures générés. Stockées uniquement en localStorage (offline).</p>
         ${ok ? '<p style="color:var(--ok);font-weight:600;font-size:13px">✓ Identité configurée — vos documents sortent prêts à signer.</p>' : '<p style="color:var(--warn);font-weight:600;font-size:13px">⚠️ Nom et Barreau requis pour générer des documents propres.</p>'}
-        <form id="formSettings" class="dash-panel">
+        <form id="formSettings" class="dash-panel" style="padding:18px">
+          <h3>Identité & coordonnées</h3>
           <div class="form-grid">
             ${SETTINGS_FIELDS.map(([k, lbl, ph, type]) => `<label>${lbl}<input name="${esc(k)}" type="${type}" value="${esc(s[k] || '')}" placeholder="${ph}"></label>`).join('')}
           </div>

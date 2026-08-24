@@ -2,7 +2,7 @@
    Stratégie :
    - data.js + pages : réseau d'abord (mises à jour rapides après push), repli cache
    - librairies/styles/icônes : cache d'abord, mise à jour en arrière-plan */
-const CACHE = 'avocato-v2';
+const CACHE = 'avocato-v3';
 const PRECACHE = [
   './',
   './index.html',
