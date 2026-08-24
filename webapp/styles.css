@@ -964,3 +964,210 @@ mark.hl {
   font-size: 10px; font-weight: 700; color: var(--accent-text);
   background: var(--accent-soft); border-radius: 999px; padding: 1px 7px;
 }
+
+
+/* ---------- 15. Learn — style law firm (même langage que Cabinet OS) ---------- */
+
+/* Tokens */
+body[data-app="learn"] {
+  --gold: #a8894e; --gold-soft: rgba(168, 137, 78, .16);
+  --ink: #1b2430;
+  --accent: #1f2a44; --accent-strong: #16203a;
+  --accent-soft: rgba(31, 42, 68, .055);
+  --accent-text: #1f2a44;
+  --ring: rgba(31, 42, 68, .18);
+  --ease-lux: cubic-bezier(.45, 0, .2, 1);
+  --font-display: "Palatino Linotype", "Book Antiqua", Palatino, Georgia, "Times New Roman", serif;
+}
+@media (prefers-color-scheme: light) {
+  body[data-app="learn"][data-theme="system"] {
+    --bg: #f2efe8; --bg-2: #faf8f3; --bg-3: #ebe7dc;
+    --text: #1b2430; --text-dim: #5a6472; --text-faint: #9099a4;
+    --border: rgba(27, 36, 48, .13); --border-strong: rgba(27, 36, 48, .26);
+    --code-bg: #f0ede4; --quote-bg: #f4f1e9;
+    --accent-text: #1f2a44;
+  }
+}
+body[data-app="learn"][data-theme="light"] {
+  --bg: #f2efe8; --bg-2: #faf8f3; --bg-3: #ebe7dc;
+  --text: #1b2430; --text-dim: #5a6472; --text-faint: #9099a4;
+  --border: rgba(27, 36, 48, .13); --border-strong: rgba(27, 36, 48, .26);
+  --code-bg: #f0ede4; --quote-bg: #f4f1e9;
+  --accent-text: #1f2a44;
+}
+body[data-app="learn"][data-theme="dark"] {
+  --bg: #12151c; --bg-2: #171b24; --bg-3: #212734;
+  --text: #e9e4d6; --text-dim: #a49e8e; --text-faint: #6f6a5e;
+  --border: rgba(233, 228, 214, .12); --border-strong: rgba(233, 228, 214, .24);
+  --code-bg: #1a1f2a; --quote-bg: #191d27;
+  --accent: #d8bb82; --accent-strong: #c9a76a;
+  --accent-soft: rgba(201, 167, 106, .08);
+  --accent-text: #e2c78e;
+  --ring: rgba(201, 167, 106, .22);
+  --gold: #c9a76a; --gold-soft: rgba(201, 167, 106, .14);
+}
+@media (prefers-color-scheme: dark) {
+  body[data-app="learn"][data-theme="system"] {
+  --bg: #12151c; --bg-2: #171b24; --bg-3: #212734;
+  --text: #e9e4d6; --text-dim: #a49e8e; --text-faint: #6f6a5e;
+  --border: rgba(233, 228, 214, .12); --border-strong: rgba(233, 228, 214, .24);
+  --code-bg: #1a1f2a; --quote-bg: #191d27;
+  --accent: #d8bb82; --accent-strong: #c9a76a;
+  --accent-soft: rgba(201, 167, 106, .08);
+  --accent-text: #e2c78e;
+  --ring: rgba(201, 167, 106, .22);
+  --gold: #c9a76a; --gold-soft: rgba(201, 167, 106, .14);
+  }
+}
+
+/* Marque : monogramme AV */
+body[data-app="learn"] .brand-mark {
+  border-radius: 2px; font-family: var(--font-display); font-size: 15px; font-weight: 700; letter-spacing: .06em;
+  background: linear-gradient(135deg, #1f2a44, #16203a); color: #c9a76a;
+  box-shadow: none; border: 1px solid rgba(27,36,48,.3);
+}
+body[data-app="learn"] .brand strong { font-family: var(--font-display); font-size: 16px; letter-spacing: .1em; }
+body[data-app="learn"] .brand-sub { font-size: 10.5px; letter-spacing: .2em; text-transform: uppercase; color: var(--text-faint); }
+
+/* Topbar + recherche : filets d'encre, focus or */
+body[data-app="learn"] .topbar { border-bottom: 1px solid var(--border); box-shadow: none; background: color-mix(in srgb, var(--bg-2) 70%, transparent); backdrop-filter: blur(8px); }
+body[data-app="learn"] .search-wrap {
+  background: var(--bg-2); border: 1px solid var(--border); border-radius: 3px;
+  transition: border-color .3s;
+}
+body[data-app="learn"] .search-wrap:focus-within { border-color: var(--gold); box-shadow: 0 0 0 1px var(--gold); }
+body[data-app="learn"] .search-icon { color: var(--gold); }
+body[data-app="learn"] .search-key { border: 1px solid var(--border); border-radius: 2px; }
+body[data-app="learn"] .icon-btn { border: 1px solid var(--border); border-radius: 3px; background: transparent; }
+body[data-app="learn"] .icon-btn:hover { border-color: var(--gold); box-shadow: inset 0 -2px 0 var(--gold); }
+body[data-app="learn"] .icon-btn.active { background: var(--accent); color: #f3ecde; border-color: var(--accent); }
+
+/* Chips domaine : régleur fin */
+body[data-app="learn"] .df-chip {
+  border: 1px solid var(--border); border-radius: 2px; background: transparent; color: var(--text-dim);
+  font-size: 10px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; padding: 4px 10px;
+  transition: background .25s, color .25s, border-color .25s;
+}
+body[data-app="learn"] .df-chip:hover { border-color: var(--gold); color: var(--text); }
+body[data-app="learn"] .df-chip.active { background: var(--accent); color: #f3ecde; border-color: var(--accent); }
+
+/* Arbre : hiérarchie d'encre, filet or actif */
+body[data-app="learn"] .tree-folder {
+  border-radius: 3px; font-size: 12.5px; font-weight: 600; letter-spacing: .01em;
+  border-left: 2px solid transparent; transition: background .25s;
+}
+body[data-app="learn"] .tree-folder:hover { background: rgba(168,137,78,.07); }
+body[data-app="learn"] .tree-folder.open { color: var(--text); }
+body[data-app="learn"] .tree-folder .caret { color: var(--gold); }
+body[data-app="learn"] .folder-meta { font-size: 10.5px; letter-spacing: .06em; font-variant-numeric: tabular-nums; }
+body[data-app="learn"] .progress-mini { height: 3px; border-radius: 1px; background: var(--bg-3); }
+body[data-app="learn"] .progress-mini .fill { background: var(--gold); }
+body[data-app="learn"] .tree-items { border-left-color: rgba(168,137,78,.35); }
+body[data-app="learn"] .tree-item {
+  border-radius: 3px; font-size: 12.5px; color: var(--text-dim);
+  border-left: 2px solid transparent; transition: background .2s, color .2s;
+}
+body[data-app="learn"] .tree-item:hover { color: var(--text); background: rgba(168,137,78,.06); }
+body[data-app="learn"] .tree-item.active { color: var(--accent-text); background: var(--accent-soft); border-left-color: var(--gold); font-weight: 600; }
+body[data-app="learn"] .tree-item.read .fname { color: var(--text-faint); }
+body[data-app="learn"] .read-dot {
+  width: 7px; height: 7px; border-radius: 50%; border: 1px solid var(--border-strong); background: transparent;
+}
+body[data-app="learn"] .tree-item.read .read-dot { background: var(--gold); border-color: var(--gold); }
+
+/* Domaines : monogrammes serif or */
+body[data-app="learn"] .tree-domain-head { border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+body[data-app="learn"] .td-icon {
+  width: 26px; height: 26px; display: grid; place-items: center; flex: none; align-self: center;
+  font-family: var(--font-display); font-size: 10.5px; font-weight: 700; letter-spacing: .05em;
+  color: var(--gold); border: 1px solid var(--gold-soft); border-radius: 2px; background: var(--gold-soft);
+}
+body[data-app="learn"] .td-label { letter-spacing: .16em; font-size: 10px; }
+body[data-app="learn"] .td-count { font-size: 10px; font-variant-numeric: tabular-nums; }
+
+/* Hero dashboard : encrier + or */
+body[data-app="learn"] .hero-card {
+  background: linear-gradient(150deg, #1f2a44, #16203a 75%);
+  border: 1px solid rgba(27,36,48,.35); border-radius: 3px;
+  box-shadow: 0 24px 60px -34px rgba(16,20,28,.6); position: relative; overflow: hidden;
+}
+body[data-app="learn"] .hero-card::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(255,255,255,.07), transparent 40%); pointer-events: none; }
+body[data-app="learn"] .hero-card .over { color: var(--gold); opacity: 1; font-weight: 700; }
+body[data-app="learn"] .hero-card h2 { font-family: var(--font-display); letter-spacing: -.01em; color: #f3ecde; }
+body[data-app="learn"] .hero-card p { color: rgba(243,236,222,.85); }
+body[data-app="learn"] .hero-card .btn { border-radius: 3px; background: rgba(243,236,222,.1); border: 1px solid rgba(243,236,222,.3); }
+body[data-app="learn"] .hero-card .btn:hover { border-color: var(--gold); box-shadow: inset 0 -2px 0 var(--gold); }
+body[data-app="learn"] .stat-line { color: rgba(243,236,222,.9); }
+body[data-app="learn"] .stat-chip { background: rgba(243,236,222,.08); border: 1px solid rgba(243,236,222,.18); }
+
+/* Panneaux & cartes parcours : papier + filet or */
+body[data-app="learn"] .panel, body[data-app="learn"] .path-card {
+  background: var(--bg-2); border: 1px solid var(--border); border-radius: 3px;
+  box-shadow: none; position: relative;
+}
+body[data-app="learn"] .panel > h3, body[data-app="learn"] .panel h3 {
+  font-family: var(--font-display); font-size: 14.5px; letter-spacing: .01em;
+  display: flex; align-items: center; gap: 10px;
+}
+body[data-app="learn"] .panel > h3::before, body[data-app="learn"] .panel h3::before { content: ''; width: 22px; height: 1px; background: var(--gold); }
+body[data-app="learn"] .path-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--gold-soft); }
+body[data-app="learn"] .path-card:hover { border-color: var(--border-strong); transform: translateY(-2px); box-shadow: 0 16px 34px -28px rgba(27,36,48,.5); }
+body[data-app="learn"] .pc-num { color: var(--gold); letter-spacing: .14em; }
+body[data-app="learn"] .pc-bar, body[data-app="learn"] .bar { height: 3px; border-radius: 1px; background: var(--bg-3); }
+body[data-app="learn"] .pc-bar .fill, body[data-app="learn"] .bar .fill { background: var(--gold); }
+body[data-app="learn"] .dash-progress-row .pl { letter-spacing: .02em; }
+
+/* Boutons Learn : carrés, filet or au survol (cohérence Cabinet OS) */
+body[data-app="learn"] .btn {
+  border-radius: 3px; font-size: 12.5px; font-weight: 600; letter-spacing: .02em;
+  border: 1px solid var(--border-strong); background: transparent; color: var(--text);
+  transition: background .25s, border-color .25s, box-shadow .3s;
+}
+body[data-app="learn"] .btn:hover { border-color: var(--gold); box-shadow: inset 0 -2px 0 var(--gold); }
+body[data-app="learn"] .btn-primary { background: var(--accent); border-color: var(--accent); color: #f3ecde; }
+body[data-app="learn"] .btn-primary:hover { background: var(--accent-strong); box-shadow: inset 0 -2px 0 var(--gold); color: #fff; }
+
+/* Document : titres serif, filets fins, citations or */
+body[data-app="learn"] .doc { border: 1px solid var(--border); border-radius: 3px; background: var(--bg-2); box-shadow: none; }
+body[data-app="learn"] .doc-content h1, body[data-app="learn"] .doc-content h2, body[data-app="learn"] .doc-content h3,
+body[data-app="learn"] .doc-content h4 {
+  font-family: var(--font-display); letter-spacing: -.01em;
+}
+body[data-app="learn"] .doc-content h1 { font-size: 1.7em; }
+body[data-app="learn"] .doc-content h2 { border-top: 1px solid var(--border); }
+body[data-app="learn"] .doc-content h2::before { content: none; }
+body[data-app="learn"] .doc-content blockquote {
+  background: var(--quote-bg); border-left: 3px solid var(--gold);
+  border-radius: 0 2px 2px 0; color: var(--text-dim);
+}
+body[data-app="learn"] .doc-content table { border: 1px solid var(--border); border-radius: 2px; }
+body[data-app="learn"] .doc-content th {
+  font-size: 10px; letter-spacing: .18em; text-transform: uppercase; color: var(--text-faint);
+  background: var(--bg-3);
+}
+body[data-app="learn"] .doc-content code, body[data-app="learn"] .doc-content pre { background: var(--code-bg); border-radius: 2px; }
+body[data-app="learn"] .doc-meta { border-bottom: 1px solid var(--border); }
+
+/* QCM : options réglées, correction sobre */
+body[data-app="learn"] details.qcm-answer { border: 1px solid var(--border); border-radius: 3px; background: var(--bg-3); }
+body[data-app="learn"] details.qcm-answer summary::before {
+  content: 'R'; font-family: var(--font-display); font-weight: 700; font-size: 10px; color: var(--gold);
+  width: 20px; height: 20px; display: grid; place-items: center; border: 1px solid var(--gold-soft); border-radius: 2px;
+}
+body[data-app="learn"] details.qcm-answer[open] summary::before { content: '?'; }
+body[data-app="learn"] .qcm-q { background: var(--bg-3); border-radius: 2px; border-left: 2px solid var(--gold); }
+body[data-app="learn"] .qcm-opt {
+  border: 1px solid var(--border); border-radius: 3px; background: var(--bg-2);
+  transition: border-color .25s, transform .3s var(--ease-lux), background .25s;
+}
+body[data-app="learn"] .qcm-opt:hover { border-color: var(--gold); transform: translateX(3px); }
+body[data-app="learn"] .qcm-opt.correct { border-color: #2e7d4f; background: rgba(21,128,61,.07); }
+body[data-app="learn"] .qcm-opt.ko { border-color: #a4403a; background: rgba(164,64,58,.06); }
+
+/* Progression lecture : trait d'or */
+#readProgress { background: linear-gradient(90deg, var(--gold), var(--accent)); }
+
+/* Surlignage recherche : encre dorée */
+mark.hl { background: var(--gold-soft); color: var(--text); border-radius: 2px; padding: 0 2px; }
+body[data-theme="dark"] mark.hl, body[data-theme="dark"] mark.hl-color { background: rgba(201,167,106,.3); color: #f3ecde; }
+

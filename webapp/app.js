@@ -30,14 +30,14 @@
   /* ---------- domaines > dossiers ---------- */
   /* Grand titre = domaine ; sous-titre = dossier ; puis documents. */
   const DOMAINS = [
-    { id: 'start',      label: 'Démarrage',               icon: '🚀', match: ['00_START_HERE', '(root)'] },
-    { id: 'strategy',   label: 'Stratégie & déontologie', icon: '🧭', match: ['01_Strategy'] },
-    { id: 'juris',      label: 'Jurisprudence citable',   icon: '⚖️', match: ['08_Jurisprudence'] },
-    { id: 'niches',     label: 'Niches métier',           icon: '🎯', match: ['02_Niches_Deep_Dive'] },
-    { id: 'acqui',      label: 'Acquisition sans pub',    icon: '📣', match: ['03_Acquisition_Without_Ads'] },
-    { id: 'skills',     label: 'Compétences · 19 tracks', icon: '🧠', match: ['04_Skills_To_Learn'] },
-    { id: 'bank',       label: 'Modèles & checklists',    icon: '🗂️', match: ['05_Document_Bank'] },
-    { id: 'system',     label: 'Système & plan 90 jours', icon: '🗓️', match: ['06_ADHD_System', '07_90Day_Plan'] }
+    { id: 'start',      label: 'Démarrage',               icon: 'ST', match: ['00_START_HERE', '(root)'] },
+    { id: 'strategy',   label: 'Stratégie & déontologie', icon: 'NT', match: ['01_Strategy'] },
+    { id: 'juris',      label: 'Jurisprudence citable',   icon: 'JU', match: ['08_Jurisprudence'] },
+    { id: 'niches',     label: 'Niches métier',           icon: 'NC', match: ['02_Niches_Deep_Dive'] },
+    { id: 'acqui',      label: 'Acquisition sans pub',    icon: 'AC', match: ['03_Acquisition_Without_Ads'] },
+    { id: 'skills',     label: 'Compétences · 19 tracks', icon: 'CP', match: ['04_Skills_To_Learn'] },
+    { id: 'bank',       label: 'Modèles & checklists',    icon: 'DB', match: ['05_Document_Bank'] },
+    { id: 'system',     label: 'Système & plan 90 jours', icon: '90', match: ['06_ADHD_System', '07_90Day_Plan'] }
   ];
   const FOLDER_LABELS = {
     '(root)': 'Vue d\'ensemble',
@@ -928,7 +928,7 @@
   /* ---------- thème & police ---------- */
   function applyTheme() {
     document.body.dataset.theme = THEMES[state.themeIdx];
-    $('#themeBtn').textContent = document.body.dataset.theme === 'dark' ? '☀️' : (document.body.dataset.theme === 'light' ? '🌙' : '💻');
+    $('#themeBtn').textContent = document.body.dataset.theme === 'dark' ? '☀' : (document.body.dataset.theme === 'light' ? '☾' : '◐');
     state.charts.forEach(c => { try { c.destroy(); } catch {} });
     state.charts = [];
     if (state.current) {
