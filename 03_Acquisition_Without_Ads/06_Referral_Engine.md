@@ -1,77 +1,77 @@
-# Acquisition #6: Referral Engine (Bouche-à-oreille Systématisé)
+# Acquisition #6 : Moteur de recommandations (bouche-à-oreille systématisé)
 
-> **Most lawyers wait for referrals. You will ENGINEER them. 1 happy client → 2 more, without asking awkwardly.**
+> **La plupart des avocats attendent les recommandations. Vous allez les INGÉNIEURER. 1 client heureux → 2 de plus, sans demander de façon gênante.**
 
-## Why Referrals are King in Morocco
-- Moroccan business is trust-first, especially in small cities. "Mon comptable m'a recommandé Me X" > 100 LinkedIn posts.
-- 100% allowed, most compliant channel. Barreau cannot sanction bouche-à-oreille.
-- Cheapest: 0 time after system setup.
+## Pourquoi les recommandations sont essentielles au Maroc
+- Le business marocain est basé sur la confiance, surtout en petite ville. « Mon comptable m'a recommandé Me X » > 100 posts LinkedIn.
+- 100 % autorisé, le canal le plus conforme. Un barreau ne sanctionne pas le bouche-à-oreille.
+- Le moins cher : 0 temps après l'installation du système.
 
-## Why Most Lawyers Fail at Referrals
-They do good work but never ASK. Or they ask awkwardly: "Vous connaissez quelqu'un?" Too vague. Client says "non" and forgets.
+## Pourquoi la plupart des avocats échouent avec les recommandations
+Ils font du bon travail mais ne DEMANDENT jamais. Ou ils demandent maladroitement : « Vous connaissez quelqu'un ? » Trop vague. Le client dit « non » et oublie.
 
-You will ask **specifically, at the right moment, with a tool.**
+Vous allez demander **précisément, au bon moment, avec un outil.**
 
-## The 3 Moments to Ask
+## Les 3 moments pour demander
 
-### 1. After Delivery + WOW Effect (J+1)
-Don't ask at payment. Ask after you delivered Loom + docs and client says "Waw clair!"
+### 1. Après livraison + effet WAOUH (J+1)
+Ne demandez pas au paiement. Demandez après avoir livré Loom + docs et que le client dit « Waw clair ! »
 
-Script WhatsApp:
-> Super [Prénom], content que le pack soit clair! Petite faveur: je cherche à aider 2 autres [freelances comme toi qui facturent à l'étranger] ce mois-ci. Tu penses à 1-2 personnes qui galèrent avec [même problème que toi au début]? Je peux juste leur envoyer la même checklist que toi, sans engagement. Tu me mets en contact WhatsApp si tu veux bien?
+Script WhatsApp :
+> Super [Prénom], content que le pack soit clair ! Petite faveur : je cherche à aider 2 autres [freelances comme toi qui facturent à l'étranger] ce mois-ci. Tu penses à 1-2 personnes qui galèrent avec [le même problème que toi au début] ? Je peux juste leur envoyer la même checklist que toi, sans engagement. Tu me mets en contact WhatsApp si tu veux bien ?
 
-Why it works: Specific (1-2, profile exact), low effort (just put in contact), gift (checklist, not sales pitch).
+Pourquoi ça marche : spécifique (1-2, profil exact), effort faible (juste mettre en contact), cadeau (la checklist, pas un pitch de vente).
 
-### 2. One Week Follow-up (J+7)
-Automated WhatsApp:
-> Salam [Prénom], comment ça avance avec [contrat/CGV]? Tu as pu l'utiliser? Au fait, si tu as un groupe WhatsApp/Telegram de [freelances/ecom], je peux partager la checklist gratuitement si tu veux m'y inviter.
+### 2. Relance une semaine plus tard (J+7)
+WhatsApp automatisé :
+> Salam [Prénom], comment ça avance avec [contrat/CGV] ? Tu as pu l'utiliser ? Au fait, si tu as un groupe WhatsApp/Telegram de [freelances/ecom], je peux partager la checklist gratuitement si tu veux m'y inviter.
 
-### 3. For Non-Clients (Diagnostic but no sale)
-Even if they didn't buy pack, they liked diagnosis. Ask:
+### 3. Pour les non-clients (diagnostic sans vente)
+Même s'ils n'ont pas acheté le pack, ils ont aimé le diagnostic. Demandez :
 > Merci pour ton temps [Prénom], même si ce n'est pas le bon moment pour toi, si tu connais quelqu'un qui a besoin d'un diagnostic similaire, n'hésite pas à lui partager mon WhatsApp. Je lui ferai le même diagnostic gratuit.
 
-30% will refer.
+30 % recommanderont.
 
-## Give Them a Tool to Share
+## Donnez-leur un outil à partager
 
-Create a **Referral Card** (Canva, digital + printable):
-- Title: "Checklist offerte pour [Niche]"
-- QR code to Tally form / WhatsApp
-- Footer: "Offert par Me [Nom] — Avocat d'Affaires — Information juridique"
-Client just forwards image on WhatsApp. No awkward explanation needed.
+Créez une **carte de recommandation** (Canva, digital + imprimable) :
+- Titre : « Checklist offerte pour [Niche] »
+- QR code vers le formulaire Tally / WhatsApp
+- Pied : « Offert par Me [Nom] — Avocat d'Affaires — Information juridique »
+Le client n'a qu'à transférer l'image sur WhatsApp. Pas d'explication gênante.
 
-## Reciprocity for B2B Partners
+## Réciprocité avec les partenaires B2B
 
-For comptables/incubateurs, don't ask for 1 referral, propose **reciprocal**:
+Pour les comptables/incubateurs, ne demandez pas 1 recommandation, proposez la **réciprocité** :
 
-> Je t'envoie 2 clients/mois qui cherchent un comptable sérieux, tu m'en envoies 1-2 qui ont besoin de juridique. On se fait un point WhatsApp vocal 5 min chaque lundi, ça te va?
+> Je t'envoie 2 clients/mois qui cherchent un comptable sérieux, tu m'en envoies 1-2 qui ont besoin de juridique. On se fait un point WhatsApp vocal 5 min chaque lundi, ça te va ?
 
-Weekly 5-min check keeps top-of-mind (ADHD-friendly, short).
+Le check hebdo de 5 min garde la présence dans les esprits (adapté TDAH, court).
 
-## Tracking (Notion)
+## Suivi (Notion)
 
-Table `Referrals`:
-| Date | From Whom | To Whom | Status | Pack Sold | Thank You Sent |
-- Thank you: After referral converts, send WhatsApp + small gift (e.g., extra template, not money). And inform referrer: "Grâce à toi, [Prénom] est maintenant conforme. Merci!"
+Table `Referrals` :
+| Date | De qui | Vers qui | Statut | Pack vendu | Remerciement envoyé |
+- Remerciement : après conversion de la recommandation, envoyer WhatsApp + petit cadeau (ex : template bonus, pas d'argent). Et informer le recommandeur : « Grâce à toi, [Prénom] est maintenant conforme. Merci ! »
 
-## The Math
-- 10 clients * 0.5 avg referrals = 5 new leads/month
-- Close 40% = 2 extra clients/month = 7k DH/month free.
-- Compounds: Month 3, referrals bring referrals.
+## Les maths
+- 10 clients × 0,5 recommandation en moyenne = 5 nouveaux leads/mois
+- Conclure 40 % = 2 clients extra/mois = 7k DH/mois gratuits.
+- Effet cumulé : mois 3, les recommandations amènent des recommandations.
 
-## What NOT to Do (Deontology)
-- Never pay commission per client to non-lawyer (interdit). You can thank with gift, not % of fees.
-- Never promise "Je te donne 10% si tu m'envoies un client". Forbidden (pacte de quota litis with non-lawyer + fee sharing).
-- Sober thanks only.
+## Ce qu'il ne faut PAS faire (déontologie)
+- Jamais de commission par client à un non-avocat (interdit). Vous pouvez remercier avec un cadeau, pas avec un % d'honoraires.
+- Jamais de promesse « Je te donne 10 % si tu m'envoies un client ». Interdit (pacte de quota litis avec un non-avocat + partage d'honoraires).
+- Merci sobre uniquement.
 
-## ADHD Implementation
+## Implémentation TDAH
+- Ajouter « Demander la recommandation » comme étape finale de votre checklist de livraison (pour ne pas oublier).
+- Script template sauvegardé en réponse rapide WhatsApp « /referral »
+- Dopamine : compter les recommandations sur un tableau blanc. Chaque recommandation = un coche.
 
-- Add "Ask referral" as final step in your delivery checklist (so you don't forget).
-- Template script saved as WhatsApp Quick Reply "/referral"
-- Dopamine: Track referral count on whiteboard. Each referral = check.
-
-**Next:** Create referral image Canva today + add "Ask referral" to your delivery checklist.
+**Suite :** créez l'image de recommandation Canva aujourd'hui + ajoutez « Demander la recommandation » à votre checklist de livraison.
 
 ---
 
 > **Annexes :** procédure trilingue du canal déplacée dans [_Annexes.md](03_Acquisition_Without_Ads/_Annexes.md).
+> قاموس سريع : توصية (recommandation) · شكر (remerciement) · بطاقة توصية (carte de recommandation) · رضا (satisfaction)

@@ -30,7 +30,7 @@
 
 | # | Fichier | Temps | Langue | Dépend |
 |---|---|---|---|---|
-| 00 | `00_READ_ME_FIRST.md` | 15 min | FR | — |
+| 00 | `00_READ_ME_FIRST.md` | 15 min | FR (traduit de l'EN) | — |
 | 01 | `01_ADHD_QuickStart_Today.md` | 20 min + 2h exec | FR | 00 |
 | 02 | `02_Guide_Francais_Vault_FR.md` | 15 min | FR | 00 |
 | 03 | `03_Glossaire_12_Concepts_Cles.md` | 45 min (référence) | FR (EN/AR termes) | — |

@@ -1,70 +1,65 @@
-﻿# Acquisition #4: WhatsApp — Your Real CRM in Morocco
+﻿# Acquisition #4 : WhatsApp — votre vrai CRM au Maroc
 
-> **In Morocco, WhatsApp IS your website. Email is secondary. Master WhatsApp funnel.**
+> **Au Maroc, WhatsApp EST votre site web. L'email est secondaire. Maîtrisez le tunnel WhatsApp.**
 
-## Why WhatsApp
-- 95% of your clients prefer WhatsApp to email. They will ghost email but reply WhatsApp in 5 min.
-- You can build Status → Group → Broadcast → 1-1 funnel without ads.
-- Allowed: Informational status, group education.
+## Pourquoi WhatsApp
+- 95 % de vos clients préfèrent WhatsApp à l'email. Ils ignorent les emails mais répondent sur WhatsApp en 5 min.
+- Vous pouvez construire Statut → Groupe → Diffusion → 1-1 sans pub.
+- Autorisé : statuts informatifs, éducation en groupe.
 
-## Funnel
+## Le tunnel
 
-### 1. WhatsApp Business Setup (30 min)
-- Photo pro, description: Use positioning sentence + hours.
-- Catalogue: Create 3 products: "Mission Contrats 2,900 DH HT", "Pack E-com 3,500 DH HT", "Diagnostic 20 min gratuit"
-- Message d'accueil: "Salam, merci pour votre message. Je réponds entre 11h-12h et 17h-18h. Pour une réponse rapide, envoyez votre question + votre activité."
+### 1. Setup WhatsApp Business (30 min)
+- Photo pro, description : phrase de positionnement + horaires.
+- Catalogue : créer 3 produits : « Mission Contrats 2 900 DH HT », « Pack E-com 3 500 DH HT », « Diagnostic 20 min gratuit »
+- Message d'accueil : « Salam, merci pour votre message. Je réponds entre 11h-12h et 17h-18h. Pour une réponse rapide, envoyez votre question + votre activité. »
 - Message d'absence.
-- Labels: `New Lead` / `Diagnostic fait` / `Devis envoyé` / `Client` / `Partenaire`
+- Étiquettes : `Nouveau lead` / `Diagnostic fait` / `Devis envoyé` / `Client` / `Partenaire`
 
-### 2. Status Strategy (Daily, 1 min)
-Post 1 status/day (image + text) educational:
-- Monday: Tip juridique 1 phrase + visuel Canva
-- Wednesday: Mini case study anonymized "Freelance X a évité impayé grâce à clause Y"
-- Friday: FAQ "Peut-on encaisser en USD avec AE?"
-Your contacts (clients + prospects + comptables) see it daily → top of mind, without spamming.
+### 2. Stratégie statuts (quotidien, 1 min)
+Poster 1 statut/jour (image + texte) éducatif :
+- Lundi : conseil juridique 1 phrase + visuel Canva
+- Mercredi : mini cas anonymisé « Le freelance X a évité un impayé grâce à la clause Y »
+- Vendredi : FAQ « Peut-on encaisser en USD avec l'AE ? »
+Vos contacts (clients + prospects + comptables) le voient quotidiennement → vous êtes présent dans leur tête, sans spam.
 
-### 3. Community / Group (Optional but powerful)
-Create **WhatsApp Community** (not just group) : "Club Juridique Entrepreneurs [Ville/Niche]"
-- Rules: No spam, 1 tip/day from you, members can ask 1 question/week.
-- Value: You answer 1 question/day (5 min) → 30 people see you as expert.
-- Growth: Link in LinkedIn bio, after diagnostic, at atelier.
-- Conversion: Monthly you post: "Ce mois, 5 diagnostics gratuits pour membres du groupe, répondez 'DIAG' en privé"
+### 3. Communauté / Groupe (optionnel mais puissant)
+Créez une **Communauté WhatsApp** (pas juste un groupe) : « Club Juridique Entrepreneurs [Ville/Niche] »
+- Règles : pas de spam, 1 conseil/jour de votre part, les membres peuvent poser 1 question/semaine.
+- Valeur : vous répondez à 1 question/jour (5 min) → 30 personnes vous voient comme expert.
+- Croissance : lien dans la bio LinkedIn, après diagnostic, à l'atelier.
+- Conversion : chaque mois vous postez : « Ce mois-ci, 5 diagnostics gratuits pour les membres du groupe, répondez "DIAG" en privé »
 
-### 4. Broadcast Lists (Not Group)
-Create lists: "Leads Freelance", "Leads Ecom", "Clients"
-Send 1 broadcast/week (not daily): New guide, atelier invitation, deadline rappel (ex: "Dernier délai CNDP...")
-Must be valuable, not "Achetez mon pack".
+### 4. Listes de diffusion (pas un groupe)
+Créez : « Leads Freelance », « Leads Ecom », « Clients »
+Envoyez 1 diffusion/semaine (pas quotidien) : nouveau guide, invitation atelier, rappel d'échéance (ex : « Dernier délai CNDP... »)
+Doit être utile, pas « Achetez mon pack ».
 
 ### 5. Scripts
 
-**After lead magnet download (auto via Tally):**
-> Salam [Prénom], c'est Me [Nom], merci pour le téléchargement de la checklist [X]. Tu l'as bien reçue? Dis-moi ton activité en 1 phrase et je te dis les 2 points les plus urgents pour toi.
+**Après téléchargement du lead magnet (auto via Tally) :**
+> Salam [Prénom], c'est Me [Nom], merci pour le téléchargement de la checklist [X]. Tu l'as bien reçue ? Dis-moi ton activité en 1 phrase et je te dis les 2 points les plus urgents pour toi.
 
-**Relance devis (J+3):**
-> Salam [Prénom], j'espère que le devis est clair. Tu as pu y réfléchir? On cale 10 min si tu as des questions, ou je te laisse tranquille si ce n'est pas le bon moment. Dis-moi.
+**Relance devis (J+3) :**
+> Salam [Prénom], j'espère que le devis est clair. Tu as pu y réfléchir ? On cale 10 min si tu as des questions, ou je te laisse tranquille si ce n'est pas le bon moment. Dis-moi.
 
-**After delivery, referral ask:**
-> Content que tout est clair [Prénom]! Si tu connais 1-2 [freelances] qui galèrent avec [même problème], je peux leur envoyer la même checklist. Tu me mets en contact?
+**Après livraison, demande de recommandation :**
+> Content que tout soit clair [Prénom] ! Si tu connais 1-2 [freelances] qui galèrent avec [le même problème], je peux leur envoyer la même checklist. Tu me mets en contact ?
 
-## Rules & Deontology
-- Never add people to group without consent.
-- Broadcast only to people who gave WhatsApp (via form).
-- No unsolicited promo. Always informational.
-- Respect opt-out.
+## Règles & déontologie
+- Jamais ajouter quelqu'un à un groupe sans consentement.
+- Diffuser uniquement à ceux qui ont donné leur WhatsApp (via formulaire).
+- Pas de promo non sollicitée. Toujours informatif.
+- Respecter l'opt-out.
 
-## ADHD System
-- Check WhatsApp Business ONLY 2x/day (11h, 18h) — not permanently.
-- Use labels to not forget who is where (visual).
-- Use quick replies: "/diag" "/relance" "/packfreelance" templates.
+## Système TDAH
+- Vérifier WhatsApp Business UNIQUEMENT 2×/jour (11h, 18h) — pas en permanence.
+- Utiliser les étiquettes pour ne pas oublier qui est où (visuel).
+- Utiliser les réponses rapides : templates « /diag » « /relance » « /packfreelance ».
 
-**Next:** Setup WhatsApp Business catalogue today + create 5 status visuals in Canva.
-
----
-
-## Note de méthode professionnelle
-
-Ce document s'inscrit dans la démarche `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/` : information sobre, références primaires (`sgg.gov.ma`, `oc.gov.ma`, `cndp.ma`), devoir d'information art. 59, secret art. 36, convention art. 30. Le chiffre n'est jamais jeté sans sa base légale et sa date de vérification.
+**Suite :** configurer le catalogue WhatsApp Business aujourd'hui + créer 5 visuels de statut dans Canva.
 
 ---
 
 > **Annexes :** procédure trilingue du canal déplacée dans [_Annexes.md](03_Acquisition_Without_Ads/_Annexes.md).
+> قاموس سريع : حالة (statut) · قائمة بث (liste de diffusion) · مجتمع (communauté) · قالب (template) · ملصق (étiquette)

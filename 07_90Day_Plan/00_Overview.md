@@ -1,62 +1,66 @@
-﻿# 90-Day Plan — From 0 to 5-10 Clients/Month
+﻿# Plan 90 jours — de 0 à 5-10 clients/mois
 
-> ADHD-friendly: weekly sprints, not massive goals. Each week has 3 MITs only.
+> Amical TDAH : sprints hebdomadaires, pas d'objectifs massifs. Chaque semaine n'a que 3 MITs.
 
-## Revenue Trajectory (Objectif)
+## Trajectoire de chiffre d'affaires (objectif)
 
 ```chart:line
 Phase,Objectif CA mensuel (kDH)
-Fin Semaine 2,0
-Fin Semaine 6,12
-Fin Semaine 10,30
-Fin Semaine 13,50
+Fin semaine 2,0
+Fin semaine 6,12
+Fin semaine 10,30
+Fin semaine 13,50
 ```
 
-## Overview Timeline
+## Ligne des temps
 
-| Phase | Weeks | Goal | Revenue Target |
+| Phase | Semaines | Objectif | Cible CA |
 | :--- | :--- | :--- | :--- |
-| **Foundation** | 1-2 | Positioning, 1 niche, 1 pack, profile, 3 partners contacted | 0 DH HT (setup) |
-| **Traction** | 3-6 | First 3 clients, first atelier, LinkedIn 3x/week, SEO 2 articles | 6k-12k DH |
-| **Systemize** | 7-10 | 5-8 clients, referral engine, retainer offer, 1 comptable partner active | 15k-30k DH |
-| **Scale** | 11-13 | 8-12 clients/month, 2 partners, 1 retainer, choose next niche | 30k-50k DH |
+| **Fondations** | 1-2 | Positionnement, 1 niche, 1 pack, profil, 3 partenaires contactés | 0 DH HT (setup) |
+| **Traction** | 3-6 | 3 premiers clients, 1er atelier, LinkedIn 3×/sem, SEO 2 articles | 6k-12k DH |
+| **Systématisation** | 7-10 | 5-8 clients, moteur de recommandations, offre récurrente, 1 comptable partenaire actif | 15k-30k DH |
+| **Montée en échelle** | 11-13 | 8-12 clients/mois, 2 partenaires, 1 récurrent, choisir la niche suivante | 30k-50k DH |
 
-You don't need to hit exact numbers. Hit actions, numbers follow.
+Vous n'avez pas besoin d'atteindre les chiffres exacts. Atteignez les actions, les chiffres suivent.
 
-## Weekly Sprint Structure (Repeat)
+## Structure du sprint hebdomadaire (à répéter)
 
-- **Monday 10h:** Plan 3 MITs for week
-- **Sunday 10-12h:** Batch content (3 posts)
-- **Tuesday/Thursday 11h:** Outreach block (5 messages)
-- **Friday 16h:** Review + reward
+- **Lundi 10h :** planifier les 3 MITs de la semaine
+- **Dimanche 10h-12h :** batch de contenu (3 posts)
+- **Mardi/Jeudi 11h :** bloc outreach (5 messages)
+- **Vendredi 16h :** revue + récompense
 
-Daily: 10h-11:30 Deep Work (delivery), 11:30-12h shallow, 18h review.
+Quotidien : 10h-11h30 travail profond (livraison), 11h30-12h léger, 18h revue.
 
 ## Vue calendrier — 13 semaines d'un coup d'œil
 
 ```
 S1  S2  │ S3  S4  S5  S6  │ S7  S8  S9  S10 │ S11 S12 S13
-FOUNDATION│   TRACTION      │    SYSTEMIZE    │   SCALE
-pack+profil│3 clients+atelier│5-8 clients+ret. │2 partners+niche 2
+FONDATIONS│    TRACTION     │  SYSTÉMATISATION│  ÉCHELLE
+pack+profil│3 clients+atelier│5-8 clients+ret.│2 partenaires+niche 2
 ```
 
-Jalons de sortie de phase (si tu ne les atteins pas → prolonge la phase, ne saute pas) :
+Jalons de sortie de phase (si non atteints → prolongez la phase, ne sautez pas) :
 * Fin S2 : pack défini + profil LinkedIn propre + 3 comptables contactés
 * Fin S6 : **1er client payé** + 1 atelier fait + routine contenu tenue
-* Fin S10 : 5 clients actifs + 1 partenaire qui renvoie + 1 retainer proposé
-* Fin S13 : 30k+ DH/mois récurrents + décision niche suivante prise
+* Fin S10 : 5 clients actifs + 1 partenaire qui vous renvoie + 1 offre récurrente proposée
+* Fin S13 : 30k+ DH/mois récurrents + décision de niche suivante prise
 
-⚠️ **Rappels légaux pendant ton 90 jours** (veille : `../00_START_HERE/12_VEILLE_LEGALE_2025_2026.md`) :
-* Loi 66.23 en vigueur depuis le 20/08/2026 — convention honoraires à jour des équivalences (bannières dans le vault)
-* Facturation électronique : AE/PME >500k CA visées dès 2027 — prépare ton diagnostic maintenant (`04_Skills_To_Learn/21_Facturation_Electronique/`)
-* IGOC 2026 appliqué depuis le 01/01/2026 si tu touches au change
+⚠️ **Rappels légaux pendant vos 90 jours** (veille : `../00_START_HERE/12_VEILLE_LEGALE_2025_2026.md`) :
+* Loi 66.23 en vigueur depuis le 20/08/2026 — convention d'honoraires à jour des équivalences (bannières dans le vault)
+* Facturation électronique : AE/PME >500k CA visées dès 2027 — préparez votre diagnostic maintenant (`04_Skills_To_Learn/21_Facturation_Electronique/`)
+* IGOC 2026 appliqué depuis le 01/01/2026 si vous touchez au change
 
-## Files
+## Fichiers
 
-- `01_Phase1_Foundation_Weeks1-2.md` — detailed daily checklist
+- `01_Phase1_Foundation_Weeks1-2.md` — checklist quotidienne détaillée
 - `02_Phase2_Traction_Weeks3-6.md`
 - `03_Phase3_Systemize_Weeks7-10.md`
 - `04_Phase4_Scale_Weeks11-13.md`
-- `05_Daily_Checklist_Template.md` — print this
+- `05_Daily_Checklist_Template.md` — imprimer ceci
 
-**Rule:** Don't read all phases now. Read only Phase 1 today. When you finish week 2, open Phase 2.
+**Règle :** ne lisez pas toutes les phases maintenant. Lisez uniquement la Phase 1 aujourd'hui. Quand vous terminez la semaine 2, ouvrez la Phase 2.
+
+---
+
+> قاموس سريع / Mini-glossaire AR : مرحلة (phase) · أهداف (objectifs) · عملاء (clients) · تدفق إيرادات (chiffre d'affaires) · أسبوع (semaine)

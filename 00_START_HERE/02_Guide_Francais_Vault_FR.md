@@ -1,27 +1,27 @@
-# 02 — Guide Vault 100% Français (FR — sauf ADHD EN)
+# 02 — Guide Vault — Langue unique : FRANÇAIS + ARABE (homogène)
 
-> **Vault FR** sauf `06_ADHD_System/` + `07_90Day_Plan/` qui restent **EN** (ton choix #4). Contrats `05_Document_Bank/templates/` FR+EN — FR fait foi.
-> Mis à jour 23/08/2026 : nouvelles tracks skills 14-22, niche 12, dossier formes juridiques 2026.
+> **Décision du 23/08/2026 : le vault tout entier est en FRANÇAIS, avec l'ARABE là où il sert (fiches trilingues, scripts clients, glossaires).** Les dernières sections anglaises (README, système TDAH, plan 90 jours, playbooks acquisition/skills) ont été traduites.
 
 ## Langue par dossier
 
-| Dossier | Langue | Notes |
-|---|---|---|
-| 00_START_HERE | FR (README en EN) | |
-| 01_Strategy | FR | incl. `07_Formes_Juridiques_2026/` (SAS/CPU) |
-| 02_Niches (01-12) | FR | fiches trilingues AR incluses dans chaque niche |
-| 03_Acquisition (01-06) | FR | titres francisés |
-| 04_Skills (01-22) | FR | tracks récentes : 14_Litigation, 15_Client_Psy, 18_AI_Auto, 21_Facturation_Electronique, 22_Actifs_Numeriques_Crypto |
-| 05_Document_Bank | FR+EN côte-à-côte | 22 templates ; FR fait foi |
-| 06_ADHD_System | **EN** | |
-| 07_90Day_Plan | **EN** | |
-| 08_Jurisprudence | FR | dossiers canoniques ×8 + veille mensuelle |
+| Dossier | Langue |
+|---|---|
+| 00_START_HERE | FR (README traduit) |
+| 01_Strategy | FR |
+| 02_Niches (01-12) | FR + fiches trilingues FR/AR |
+| 03_Acquisition (01-06) | FR (playbooks plats traduits) |
+| 04_Skills (01-22) | FR (playbooks plats traduits ; track 16_LE_Drafting garde ses exemples EN : la pédagogie est FR, les clauses-modèles EN sont le livrable — apprentissage du drafting anglais) |
+| 05_Document_Bank | FR+EN côte-à-côte (contrats FR fait foi) |
+| 06_ADHD_System | **FR** (traduit) |
+| 07_90Day_Plan | **FR** (traduit) |
+| 08_Jurisprudence | FR |
 
-## Règle FR
+## Règles du vault
 
-* Tout nouveau fichier est **FR** avec mention `FR fait foi` si une version EN légère existe (cas nomad/MRE US).
-* ADHD reste EN pour cohérence système `01_Strategy/05_ADHD_Operating_System_Overview/`.
-* Les termes juridiques techniques gardent leur forme française officielle même dans les fichiers EN (ex : « auto-entrepreneur », « registre de traitement »).
+* **FRANÇAIS = langue unique** de la pédagogie, la stratégie et les documents.
+* **ARABE** : matière intégrée où le client marocain l'attend — fiches trilingues par niche, scripts WhatsApp/ateliers (FR + darija), glossaires FR/AR en pied des fichiers récents, titres de fiches.
+* **ANGLAIS** : conservé uniquement quand il est le produit (contrats EN draftés, track 16_LE_Drafting pour dicter des clauses USA/EU — la pédagogie reste FR), et les noms propres (LinkedIn, Canva...).
+* Toute nouvelle section créée : FR, avec AR en renfort si orientée client final.
 
 ## Références légales — convention d'écriture
 
@@ -29,5 +29,4 @@ Le vault cite les lois au format « loi n° XX-XX » avec date BO quand critique
 
 ## Prochaine étape
 
-* Suivre `00_READ_ME_FIRST.md` (EN) puis ce guide FR.
-* Puis lancer le chrono : `01_ADHD_QuickStart_Today.md`.
+* Suivre `00_READ_ME_FIRST.md` puis lancer le chrono : `01_ADHD_QuickStart_Today.md`.

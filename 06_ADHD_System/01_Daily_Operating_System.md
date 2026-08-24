@@ -1,79 +1,83 @@
-# ADHD Daily Operating System
+# Système d'exploitation quotidien TDAH
 
-> Designed to avoid overwhelm and create dopamine. Not a rigid prison.
+> Conçu pour éviter la surcharge et créer la dopamine. Pas une prison rigide.
 
-## Morning Startup (10 min, same time daily, with coffee + music)
+## Démarrage matinal (10 min, à fixe heure chaque jour, avec café + musique)
 
-**1. Brain Dump (3 min):** Write EVERYTHING on paper/Notion: "Appeler client X, finir CGV, payer facture..." Get out of head.
+**1. Vide-tête (3 min) :** écrivez TOUT sur papier/Notion : « Appeler client X, finir CGV, payer facture... » Sortir tout de la tête.
 
-**2. Pick 3 MITs (Most Important Tasks) (2 min):**
-- MIT 1: Revenue (ex: diagnostic call, envoyer devis, outreach comptable)
-- MIT 2: Visibility (ex: 1 LinkedIn post, 5 comments)
-- MIT 3: Delivery (ex: finir contrat client Y)
-Only 3. Not 10. Cross others to "Later".
+**2. Choisir 3 MIT (Most Important Tasks / Tâches les plus importantes) (2 min) :**
+- MIT 1 : Chiffre d'affaires (ex : appel diagnostic, envoyer devis, outreach comptable)
+- MIT 2 : Visibilité (ex : 1 post LinkedIn, 5 commentaires)
+- MIT 3 : Livraison (ex : finir le contrat client Y)
+Seulement 3. Pas 10. Les autres passent en « Plus tard ».
 
-**3. Timebox in Calendar (5 min):**
-Block:
-- 10:00-11:30 Deep Work (MIT 3, phone in other room, Pomodoro 25+5)
-- 11:30-12:00 Admin shallow (WhatsApp replies)
-- 15:00-16:00 Outreach/Content
-- 18:00-18:30 Review + plan tomorrow
+**3. Timebox dans le calendrier (5 min) :**
+Bloquer :
+- 10h00-11h30 Deep Work (MIT 3, téléphone dans une autre pièce, Pomodoro 25+5)
+- 11h30-12h00 Admin léger (réponses WhatsApp)
+- 15h00-16h00 Outreach/Contenu
+- 18h00-18h30 Revue + plan demain
 
-## Deep Work Rules (For ADHD)
+## Règles de Deep Work (pour TDAH)
 
-- **Pomodoro 25/5:** 25 min work, 5 min walk/stretch. After 3 cycles, 15 min reward. Use timer (Forest app / phone).
-- **Body Doubling:** If stuck, go to café or put YouTube "Study with me" on second screen. Presence helps.
-- **2-Minute Rule:** If task <2 min, do immediately (don't add to list).
-- **Friction killers:** Templates open, Canva open, Notion CRM open BEFORE starting. No searching during deep work.
-- **Music:** Lofi / brown noise (no lyrics) or "ADHD focus music" YouTube.
+- **Pomodoro 25/5 :** 25 min de travail, 5 min de marche/étirement. Après 3 cycles, 15 min de récompense. Minuteur (app Forest / téléphone).
+- **Body Double :** si bloqué, allez au café ou mettez une vidéo YouTube « Study with me » sur un second écran. La présence aide.
+- **Règle des 2 minutes :** si la tâche < 2 min, faites-la tout de suite (ne l'ajoutez pas à la liste).
+- **Tueurs de friction :** templates ouverts, Canva ouvert, CRM Notion ouvert AVANT de commencer. Pas de recherche pendant le deep work.
+- **Musique :** Lofi / bruit brun (sans paroles) ou « musique focus ADHD » YouTube.
 
-## Two Windows for Shallow (Not All Day)
+## Deux fenêtres pour le travail léger (pas toute la journée)
 
-**11:30-12:00 and 18:00-18:30 ONLY:** Check WhatsApp Business, LinkedIn DMs, email.
-Outside these windows: notifications OFF. This prevents doom scrolling + anxiety.
+**UNIQUEMENT 11h30-12h00 et 18h00-18h30 :** vérifier WhatsApp Business, DM LinkedIn, emails.
+Hors de ces fenêtres : notifications OFF. Cela évite le doom scrolling + l'anxiété.
 
-If you check every 10 min, you never enter deep work.
+Si vous vérifiez toutes les 10 min, vous n'entrez jamais dans le deep work.
 
-## Evening Shutdown (5 min, important for ADHD sleep)
+## Clôture du soir (5 min, important pour le sommeil TDAH)
 
-- [ ] Check 3 MITs: done? If not, move to tomorrow, no guilt.
-- [ ] Write 3 MITs for TOMORROW (so brain doesn't ruminate at night).
-- [ ] Mark habit tracker X (streak).
-- [ ] Close laptop, physical shutdown ritual (clear desk).
+- [ ] Vérifier les 3 MIT : faits ? Sinon, les déplacer à demain, sans culpabilité.
+- [ ] Écrire les 3 MIT de DEMAIN (pour que le cerveau ne rumine pas la nuit).
+- [ ] Cocher le suivi d'habitudes X (streak).
+- [ ] Fermer l'ordinateur, rituel physique de shutdown (bureau rangé).
 
-## Habit Tracker (Print & Put on Wall)
+## Suivi d'habitudes (imprimer & accrocher au mur)
 
-| Habit | L | M | M | J | V | S | D |
+| Habitude | L | M | M | J | V | S | D |
 |---|---|---|---|---|---|---|---|
 | 3 MITs choisis | | | | | | | |
-| 1 Post / 5 comments | | | | | | | |
-| 5 outreach messages | | | | | | | |
+| 1 post / 5 commentaires | | | | | | | |
+| 5 messages outreach | | | | | | | |
 | Deep work 90 min | | | | | | | |
-| Inbox 2x only | | | | | | | |
+| Boîte mail 2× seulement | | | | | | | |
 
-Goal: Don't break chain 5 days in a row.
+Objectif : ne pas casser la chaîne 5 jours de suite.
 
-## Energy Management
+## Gestion de l'énergie
 
-- **High energy (10-12h):** Deep work (rédaction contrats, création pack)
-- **Medium (15-16h):** Outreach, calls
-- **Low (after 17h):** Admin, Canva, scheduling
-- **Bad ADHD day:** Do "Minimum Viable Day" (see Strategy/05): 45 min = win. Don't zero out.
+- **Énergie haute (10h-12h) :** Deep work (rédaction contrats, création de packs)
+- **Moyenne (15h-16h) :** outreach, appels
+- **Basse (après 17h) :** admin, Canva, planification
+- **Mauvaise journée TDAH :** faites la « Journée minimum viable » (voir `01_Strategy/05_ADHD_Operating_System_Overview/`) : 45 min = victoire. Ne pas finir à zéro.
 
-## Weekly Review (Friday 16h, 30 min)
+## Revue hebdomadaire (vendredi 16h, 30 min)
 
-- [ ] How many diagnostics? Packs sold? Revenue?
-- [ ] What worked? What drained?
-- [ ] What to keep/stop/start next week?
-- [ ] Plan next week's atelier/content batch?
+- [ ] Combien de diagnostics ? Packs vendus ? Chiffre d'affaires ?
+- [ ] Qu'est-ce qui a marché ? Qu'est-ce qui a drainé ?
+- [ ] Que garder/arrêter/commencer la semaine prochaine ?
+- [ ] Prévoir l'atelier/le batch de contenu de la semaine prochaine ?
 
-Reward after review: something you love (hammam, game, etc.)
+Récompense après la revue : quelque chose que vous aimez (hammam, jeu, etc.)
 
-## Tools
+## Outils
 
-- **Calendar:** Google Calendar (timeblocks color-coded: Deep=red, Call=blue, Admin=grey)
-- **Tasks:** Notion OR paper. Not both. Pick one.
-- **Focus:** Forest app (plant tree), Freedom.to (block sites), phone in other room
-- **Notes:** Notion second brain (see next doc)
+- **Calendrier :** Google Calendar (blocs colorés : Deep=rouge, Appel=bleu, Admin=gris)
+- **Tâches :** Notion OU papier. Pas les deux. Choisissez-en un.
+- **Focus :** app Forest (planter un arbre), Freedom.to (bloquer les sites), téléphone dans une autre pièce
+- **Notes :** second cerveau Notion (voir le doc suivant)
 
-**Next:** Setup Notion Second Brain (`02_Notion_Second_Brain.md`)
+**Suite :** configurer le second cerveau Notion (`02_Notion_Second_Brain.md`)
+
+---
+
+> قاموس سريع / Mini-glossaire AR : مهمة (tâche) · تركيز (focus) · عمل عميق (deep work) · مكافأة (récompense) · طاقة (énergie) · عادة (habitude)
