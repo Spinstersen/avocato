@@ -2,6 +2,19 @@
 
 Format : [version] — date · type de changement
 
+## [v3.2] — 2026-08-23 · Cabinet OS — refonte UI/UX
+
+### Design system dédié (principes high-end + UX enterprise)
+- Palette « éditoriale » chaude : ivory `#f5f3ee` en clair, hairlines translucides au lieu de bordures grises
+- **Cartes double-bezel** (coquille + cœur), KPI en chiffres tabulaires display tracking serré
+- Boutons **pilules** avec physique de pression (scale .97, ombres douces, bezier `.32,.72,0,1`)
+- **Dashboard bento asymétrique** : carte héro « Encaissé » en gradient bleu
+- **Cascade d'entrée** sur chaque vue : fade-up + blur staggeré
+- Kanban verre : cartes lift hover, rotation -2° pendant le drag, colonnes accentuées au drop
+- Badges à pastille · tables hairline avec hover accent · focus rings 4px
+- Titres de vue en police display système, sous-titres espacés
+- Papeterie des documents générés : double filet bleu, papier ivory, blocs signature propres
+
 ## [v3.1] — 2026-08-23 · Cabinet OS refondu
 
 ### C1 — Conformité loi 66.23 + identité cabinet
