@@ -27,7 +27,7 @@ Pas besoin de publicité. Pas besoin de cold call. Pas besoin de démarchage. Be
 ## La flywheel en 5 maillons
 
 ```
-    ┌─────────────────────────────────────────────┐
+    ┌────────────────────────────────────────────Ŀ
     │                                             │
     │   [1] CONTENU ÉDUCATIF                       │
     │       (LinkedIn / article / vidéo)          │

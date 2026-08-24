@@ -23,9 +23,9 @@ Objet : [Entourer / préciser]
 [ ] Mission 4 — Création / Structuration (statuts, PV, formalités CRI/OMPIC)
 [ ] Mission 5 — Secrétariat juridique (abonnement mensuel)
 
-┌─────────────────────────────────────────────────────────────────┐
+┌────────────────────────────────────────────────────────────────Ŀ
 │ Détail de la mission et honoraires (HT)                         │
-├─────────────────────────────────────────────────────────────────┤
+├────────────────────────────────────────────────────────────────Ĵ
 │ Désignation                  │ Contenu                           │ Honoraires HT │
 │ Mission [X] - [Formule]      │ • [Lister 3-5 livrables précis]   │ [XXXX] DH HT │
 │                              │ • 1 présentation Loom 15 min      │              │

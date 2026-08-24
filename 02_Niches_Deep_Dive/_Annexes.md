@@ -1,4 +1,4 @@
-﻿# _Annexes — 02_Niches_Deep_Dive
+# _Annexes — 02_Niches_Deep_Dive
 
 > Blocs uniques extraits des appendices lors de la fusion V1+V2 (23/08/2026). FR fait foi.
 
@@ -6,9 +6,9 @@
 
 ## Source : `02_Niches_Deep_Dive\08_Fiscalite_Internationale_Rapatriement`
 
-## Appendice ΓÇö Procedure & Trilingue
+## Appendice — Procedure & Trilingue
 
-FR: diagnostic 45 min + convention sans engagement. EN: 45-min diagnostic. AR: ╪¬╪┤╪«┘è╪╡ 45 ╪»┘é┘è┘é╪⌐.
+FR: diagnostic 45 min + convention sans engagement. EN: 45-min diagnostic. AR: تشخيص 45 دقيقة.
 
 Verifiez Numbers_Sheet et rebuild webapp.
 

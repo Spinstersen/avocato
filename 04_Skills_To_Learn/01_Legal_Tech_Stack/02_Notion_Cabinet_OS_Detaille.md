@@ -1,14 +1,14 @@
-﻿# 02 — Notion Cabinet OS Détaillé (Cœur du Système)
+# 02 — Notion Cabinet OS Détaillé (Cœur du Système)
 
 > Inspire de `01_Strategy/05_ADHD_Operating_System_Overview/04_Second_Brain_Notion.md` mais spécialisé avocat d'affaires.
 
 ## Dashboard (page d'accueil Notion)
 
 ```
-┌─ 3 MITs du jour (checkbox) ─────────────────┐
+┌─ 3 MITs du jour (checkbox) ────────────────Ŀ
 │ [ ] Rédiger contrat Yassine [ ] Publier post │
-├─ Calendrier semaine (vue Calendar) ──────────┤
-├─ Bases de données ───────────────────────────┤
+├─ Calendrier semaine (vue Calendar) ─────────Ĵ
+├─ Bases de données ──────────────────────────Ĵ
 │ CLIENTS (12 props)  MISSIONS (15) CONTENT (8)│
 │ PROSPECTS  PARTENAIRES  TEMPLATES  VEILLE KPI│
 └─────────────────────────────────────────────┘

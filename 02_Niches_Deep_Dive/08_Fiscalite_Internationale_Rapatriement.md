@@ -1,19 +1,19 @@
-# Niche: Fiscalite Internationale & Rapatriement 30j ΓÇö Playbook 7j (Encyclopedie)
+# Niche: Fiscalite Internationale & Rapatriement 30j — Playbook 7j (Encyclopedie)
 
-> **Version encyclopedique ΓÇö 22/08/2026 ΓÇö FR fait foi ΓÇö Verifie sgg.gov.ma / oc.gov.ma**
-> **Pack: 5.900 HT ΓÇö Base: IGOC 30j, TVA92, CGI 183j, Conv art27 10pct, dotation 15k ΓÇö Vitesse 2-4 sem**
+> **Version encyclopedique — 22/08/2026 — FR fait foi — Verifie sgg.gov.ma / oc.gov.ma**
+> **Pack: 5.900 HT — Base: IGOC 30j, TVA92, CGI 183j, Conv art27 10pct, dotation 15k — Vitesse 2-4 sem**
 
 ## TL;DR
 
-- **Qui:** Fiscalite Internationale & Rapatriement 30j ΓÇö voir dossier complet 13 fichiers dans 02_Niches_Deep_Dive/08_Fiscalite_Internationale_Rapatriement/
-- **Douleur:** IGOC 30j, TVA92, CGI 183j, Conv art27 10pct, dotation 15k ΓÇö cout 15k-300k si non traite
-- **Offre:** 5.900 HT ΓÇö provision 50% art30, TVA20% ou 0% export art92, 7j apres provision+pieces
+- **Qui:** Fiscalite Internationale & Rapatriement 30j — voir dossier complet 13 fichiers dans 02_Niches_Deep_Dive/08_Fiscalite_Internationale_Rapatriement/
+- **Douleur:** IGOC 30j, TVA92, CGI 183j, Conv art27 10pct, dotation 15k — cout 15k-300k si non traite
+- **Offre:** 5.900 HT — provision 50% art30, TVA20% ou 0% export art92, 7j apres provision+pieces
 - **Acquisition:** Scripts FR/EN/AR Darija permission (pas demarchage art31)
-- **Livrable:** Voir dossier 13 fichiers ΓÇö contrat/statuts/registre + Loom 15 min
+- **Livrable:** Voir dossier 13 fichiers — contrat/statuts/registre + Loom 15 min
 
 ## Douleur detaillee
 
-IGOC 30j, TVA92, CGI 183j, Conv art27 10pct, dotation 15k ΓÇö detail dans 02_Douleurs_Juridiques.md du dossier. Voir aussi 08_Jurisprudence/04_Office et 03_Glossaire.
+IGOC 30j, TVA92, CGI 183j, Conv art27 10pct, dotation 15k — detail dans 02_Douleurs_Juridiques.md du dossier. Voir aussi 08_Jurisprudence/04_Office et 03_Glossaire.
 
 ## Offre productisee
 
@@ -29,7 +29,7 @@ Pack 5.900 HT 4h redaction marge 70pct provision 50pct. Ex: freelance 2.900 = 58
 
 ## Trilingue
 
-FR fait foi, EN mirror, AR Darija oral. Ex: rapatriement 30j / repatriation / ╪º┘ä╪º╪▒╪¼╪º╪╣.
+FR fait foi, EN mirror, AR Darija oral. Ex: rapatriement 30j / repatriation / الارجاع.
 
 ## Sources
 

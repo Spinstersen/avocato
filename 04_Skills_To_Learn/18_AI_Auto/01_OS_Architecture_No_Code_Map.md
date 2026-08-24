@@ -29,32 +29,32 @@ Sept étages : **Tally capte → Notion centralise → Calendly qualifie (diag 4
 ```text
                     [ VISITEUR / PROSPECT ]
                               │
-              ┌───────────────▼────────────────┐
+              ┌───────────────▼───────────────Ŀ
    ÉTAGE 1    │ TALLY — formulaire intake      │  consentement + finalité affichés
               └───────────────┬────────────────┘
                               │ Zap 1 : création fiche
-              ┌───────────────▼────────────────┐
+              ┌───────────────▼───────────────Ŀ
    ÉTAGE 2    │ NOTION CRM — source unique     │  statut : Prospect
               └───────┬───────────────┬────────┘
                       │ Zap : lien Calendly    │ email auto
-              ┌───────▼────────┐               │
+              ┌───────▼───────Ŀ               │
    ÉTAGE 3    │ CALENDLY       │◄──────────────┘
               │ diag 45 min    │  rappels J-2 / J-1 automatiques
               └───────┬────────┘
                       │ diagnostic OK
-              ┌───────▼────────┐
+              ┌───────▼───────Ŀ
    ÉTAGE 4    │ YOUSIGN        │  convention d'honoraires signée électroniquement
               └───────┬────────┘  PDF signé → archivé Drive + statut Notion "Signé"
                       │
-              ┌───────▼────────┐
+              ┌───────▼───────Ŀ
    ÉTAGE 5    │ STRIPE         │  provision 50 % — commission ~2,9%+3 DH carte
               └───────┬────────┘  internationale [vérifier tarifs Stripe Maroc]
                       │ paiement confirmé
-              ┌───────▼────────┐
+              ┌───────▼───────Ŀ
    ÉTAGE 6    │ LOOM           │  vidéos de suivi hebdo, lien posé dans Notion
               └───────┬────────┘
                       │ clôture mission
-              ┌───────▼────────┐
+              ┌───────▼───────Ŀ
    ÉTAGE 7    │ GOOGLE DRIVE   │  AAAA-MMJJ_Client-Matiere — purge planifiée
               └────────────────┘  selon durées du registre 09-08
 ```

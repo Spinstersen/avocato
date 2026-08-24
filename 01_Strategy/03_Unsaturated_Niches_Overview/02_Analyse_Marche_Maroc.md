@@ -15,7 +15,7 @@ Pour scoriger et choisir une niche, il faut connaître le **contexte économique
 ### 1.2 Répartition sectorielle des entreprises marocaines
 
 ```
-┌──────────────────────────────────────────────┐
+┌─────────────────────────────────────────────Ŀ
 │  Commerce (gros + détail)        ~25%        │
 │  Services                       ~30%        │
 │  BTP                             ~15%        │

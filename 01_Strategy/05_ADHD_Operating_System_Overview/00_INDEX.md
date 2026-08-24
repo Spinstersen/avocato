@@ -1,71 +1,71 @@
-# Syst├¿me d'op├⌐ration ADHD pour avocat ΓÇö Vue d'ensemble
+# Système d'opération ADHD pour avocat — Vue d'ensemble
 
-> **Dossier ma├«tre ΓÇö Strat├⌐gie n┬░5.** Ce dossier encyclop├⌐dique d├⌐crit le syst├¿me d'op├⌐ration quotidien, hebdomadaire et mensuel adapt├⌐ au fonctionnement c├⌐r├⌐bral ADHD d'un avocat d'affaires en exercice autonome. Il articule les 4 r├¿gles fondamentales (externalisation, timeboxing, dopamines intentionnelles, r├⌐duction de friction) avec un syst├¿me concret de routines, d'outils et de protocoles de r├⌐cup├⌐ration.
+> **Dossier maître — Stratégie n°5.** Ce dossier encyclopédique décrit le système d'opération quotidien, hebdomadaire et mensuel adapté au fonctionnement cérébral ADHD d'un avocat d'affaires en exercice autonome. Il articule les 4 règles fondamentales (externalisation, timeboxing, dopamines intentionnelles, réduction de friction) avec un système concret de routines, d'outils et de protocoles de récupération.
 
-## TL;DR ex├⌐cutif
+## TL;DR exécutif
 
-Le cerveau ADHD n'est pas paresseux ΓÇö il fonctionne ├á la **dopamine** et ├á la **structure externe**, pas ├á la motivation interne ni ├á l'habitude. Les r├¿gles du cabinet classique (t├óches ouvertes, admin long, absence de r├⌐compense, dispersion) ├⌐chouent. Ce dossier propose un syst├¿me alternatif bas├⌐ sur : **externaliser tout, timeboxer, dopaminer ├á dessein, r├⌐duire la friction au d├⌐marrage**.
+Le cerveau ADHD n'est pas paresseux — il fonctionne à la **dopamine** et à la **structure externe**, pas à la motivation interne ni à l'habitude. Les règles du cabinet classique (tâches ouvertes, admin long, absence de récompense, dispersion) échouent. Ce dossier propose un système alternatif basé sur : **externaliser tout, timeboxer, dopaminer à dessein, réduire la friction au démarrage**.
 
 ## Comment lire ce dossier
 
 | # | Fichier | Quand le consulter |
 | :--- | :--- | :--- |
 | 00 | `00_INDEX.md` | Plan du dossier |
-| 01 | `01_Theorie_ADHD_Avocat.md` | Comprendre le fonctionnement c├⌐r├⌐bral ADHD |
-| 02 | `02_Pourquoi_Pratiq ue_Classique_Echoue.md` | Diagnostiquer les pi├¿ges du cabinet classique |
-| 03 | `03_Regles_Fondamentales.md` | Les 4 r├¿gles pivot |
+| 01 | `01_Theorie_ADHD_Avocat.md` | Comprendre le fonctionnement cérébral ADHD |
+| 02 | `02_Pourquoi_Pratiq ue_Classique_Echoue.md` | Diagnostiquer les pièges du cabinet classique |
+| 03 | `03_Regles_Fondamentales.md` | Les 4 règles pivot |
 | 04 | `04_Second_Brain_Notion.md` | Construire le second cerveau |
-| 05 | `05_Routine_Quotidienne.md` | Le syst├¿me du jour |
-| 06 | `06_Routine_Hebdomadaire.md` | Le syst├¿me de la semaine |
-| 07 | `07_Routine_Mensuelle.md` | Le syst├¿me du mois |
+| 05 | `05_Routine_Quotidienne.md` | Le système du jour |
+| 06 | `06_Routine_Hebdomadaire.md` | Le système de la semaine |
+| 07 | `07_Routine_Mensuelle.md` | Le système du mois |
 | 08 | `08_Protocoles_Recuperation.md` | Les jours bas, les burnout |
-| 09 | `09_Outils_Stack_Tech.md` | Les outils recommand├⌐s |
-| 10 | `10_Fiches_Pratiques.md` | Outils pr├¬ts ├á l'emploi (checklists, prompts) |
+| 09 | `09_Outils_Stack_Tech.md` | Les outils recommandés |
+| 10 | `10_Fiches_Pratiques.md` | Outils prêts à l'emploi (checklists, prompts) |
 | 11 | `11_FAQ_ADHD_Avocat.md` | 30 questions ADHD sans recherche |
-| 12 | `12_Plan_30_Jours_ADHD.md` | 4 semaines externaliserΓåÆfriction z├⌐ro |
+| 12 | `12_Plan_30_Jours_ADHD.md` | 4 semaines externaliser→friction zéro |
 
-## Les 4 r├¿gles fondamentales
+## Les 4 règles fondamentales
 
 ```
-ΓöîΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÉ
-Γöé  1. EXTERNALISER TOUT                          Γöé
-Γöé     (Ne pas garder en t├¬te)                    Γöé
-Γöé                                                Γöé
-Γöé  2. TIMEBOXER, NE PAS TASK-LISTER              Γöé
-Γöé     (Le calendrier est loi)                    Γöé
-Γöé                                                Γöé
-Γöé  3. DOPAMINER ├Ç DESSEIN                        Γöé
-Γöé     (Micro-victoires, body double, cha├«ne)     Γöé
-Γöé                                                Γöé
-Γöé  4. R├ëDUIRE LA FRICTION AU D├ëMARRAGE           Γöé
-Γöé     (Templates, 5-minute rule, environnement) Γöé
-ΓööΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÿ
+┌────────────────────────────────────────────────┐
+│  1. EXTERNALISER TOUT                          │
+│     (Ne pas garder en tête)                    │
+│                                                │
+│  2. TIMEBOXER, NE PAS TASK-LISTER              │
+│     (Le calendrier est loi)                    │
+│                                                │
+│  3. DOPAMINER À DESSEIN                        │
+│     (Micro-victoires, body double, chaîne)     │
+│                                                │
+│  4. RÉDUIRE LA FRICTION AU DÉMARRAGE           │
+│     (Templates, 5-minute rule, environnement) │
+└────────────────────────────────────────────────┘
 ```
 
 ## Le jour minimum viable (45 min)
 
 Les jours bas (fatigue, charge mentale, mauvaise nuit), se contenter de :
 
-- [ ] 10 min : r├⌐pondre ├á 3 commentaires/DMs
-- [ ] 20 min : r├⌐diger un brouillon de post LinkedIn (avec prompt IA)
-- [ ] 15 min : 1 message ├á un comptable/partenaire
+- [ ] 10 min : répondre à 3 commentaires/DMs
+- [ ] 20 min : rédiger un brouillon de post LinkedIn (avec prompt IA)
+- [ ] 15 min : 1 message à un comptable/partenaire
 
-Total : 45 min. Streak maintenu. Pas de culpabilit├⌐.
+Total : 45 min. Streak maintenu. Pas de culpabilité.
 
 ## Le jour complet type (1h30)
 
 - 30 min : batch de contenu (post + recyclage)
-- 20 min : r├⌐ponses DMs et emails (11h)
-- 45 min : 1 visio diagnostic (si programm├⌐e)
+- 20 min : réponses DMs et emails (11h)
+- 45 min : 1 visio diagnostic (si programmée)
 - 15 min : 1 MIT de production (article, mission, atelier)
 
-## Le jour ┬½ off ┬╗ sacr├⌐
+## Le jour « off » sacré
 
-Un jour par semaine sans r├⌐seau, sans email, sans travail. Non n├⌐gociable.
+Un jour par semaine sans réseau, sans email, sans travail. Non négociable.
 
 ## Liens vers les autres dossiers
 
-- Syst├¿me complet : `06_ADHD_System/` (routine, Notion, ├⌐nergie).
-- Syst├¿me d'acquisition : `01_Strategy/04_Client_Acquisition_System_No_Ads/`.
-- Comp├⌐tences : `04_Skills_To_Learn/`.
+- Système complet : `06_ADHD_System/` (routine, Notion, énergie).
+- Système d'acquisition : `01_Strategy/04_Client_Acquisition_System_No_Ads/`.
+- Compétences : `04_Skills_To_Learn/`.
 - Plan 90 jours : `07_90Day_Plan/`.

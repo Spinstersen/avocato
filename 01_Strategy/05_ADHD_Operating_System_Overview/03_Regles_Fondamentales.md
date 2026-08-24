@@ -128,7 +128,7 @@ Pour réduire la friction des bonnes actions, **l'augmenter pour les mauvaises**
 ## La synthèse des 4 règles
 
 ```
-┌─────────────────────────────────────────────┐
+┌────────────────────────────────────────────Ŀ
 │  EXTERNALISER → Second brain, calendrier    │
 │       ↓                                      │
 │  TIMEBOXER → Créneaux précis, calendrier   │

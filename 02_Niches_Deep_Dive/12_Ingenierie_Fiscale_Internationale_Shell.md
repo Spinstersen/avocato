@@ -1,19 +1,19 @@
-# Niche: Ingenierie Fiscale & Shell ΓÇö Playbook 7j (Encyclopedie)
+# Niche: Ingenierie Fiscale & Shell — Playbook 7j (Encyclopedie)
 
-> **Version encyclopedique ΓÇö 22/08/2026 ΓÇö FR fait foi ΓÇö Verifie sgg.gov.ma / oc.gov.ma**
-> **Pack: 12.000 HT ΓÇö Base: Substance 4 criteres, CRS BO 25pct, prix transfert 50MMAD ΓÇö Vitesse 2-4 sem**
+> **Version encyclopedique — 22/08/2026 — FR fait foi — Verifie sgg.gov.ma / oc.gov.ma**
+> **Pack: 12.000 HT — Base: Substance 4 criteres, CRS BO 25pct, prix transfert 50MMAD — Vitesse 2-4 sem**
 
 ## TL;DR
 
-- **Qui:** Ingenierie Fiscale & Shell ΓÇö voir dossier complet 13 fichiers dans 02_Niches_Deep_Dive/12_Ingenierie_Fiscale_Internationale_Shell/
-- **Douleur:** Substance 4 criteres, CRS BO 25pct, prix transfert 50MMAD ΓÇö cout 15k-300k si non traite
-- **Offre:** 12.000 HT ΓÇö provision 50% art30, TVA20% ou 0% export art92, 7j apres provision+pieces
+- **Qui:** Ingenierie Fiscale & Shell — voir dossier complet 13 fichiers dans 02_Niches_Deep_Dive/12_Ingenierie_Fiscale_Internationale_Shell/
+- **Douleur:** Substance 4 criteres, CRS BO 25pct, prix transfert 50MMAD — cout 15k-300k si non traite
+- **Offre:** 12.000 HT — provision 50% art30, TVA20% ou 0% export art92, 7j apres provision+pieces
 - **Acquisition:** Scripts FR/EN/AR Darija permission (pas demarchage art31)
-- **Livrable:** Voir dossier 13 fichiers ΓÇö contrat/statuts/registre + Loom 15 min
+- **Livrable:** Voir dossier 13 fichiers — contrat/statuts/registre + Loom 15 min
 
 ## Douleur detaillee
 
-Substance 4 criteres, CRS BO 25pct, prix transfert 50MMAD ΓÇö detail dans 02_Douleurs_Juridiques.md du dossier. Voir aussi 08_Jurisprudence/04_Office et 03_Glossaire.
+Substance 4 criteres, CRS BO 25pct, prix transfert 50MMAD — detail dans 02_Douleurs_Juridiques.md du dossier. Voir aussi 08_Jurisprudence/04_Office et 03_Glossaire.
 
 ## Offre productisee
 
@@ -29,7 +29,7 @@ Pack 12.000 HT 4h redaction marge 70pct provision 50pct. Ex: freelance 2.900 = 5
 
 ## Trilingue
 
-FR fait foi, EN mirror, AR Darija oral. Ex: rapatriement 30j / repatriation / ╪º┘ä╪º╪▒╪¼╪º╪╣.
+FR fait foi, EN mirror, AR Darija oral. Ex: rapatriement 30j / repatriation / الارجاع.
 
 ## Sources
 

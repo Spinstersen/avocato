@@ -22,7 +22,7 @@ Inconvénients du funnel pour un avocat :
 ## 2. Le modèle alternatif : la flywheel
 
 ```
-┌──────────────────────────────────────────────────┐
+┌─────────────────────────────────────────────────Ŀ
 │                                                  │
 │  [1] CONTENT  →  [2] LEAD MAGNET                │
 │                       ↓                          │

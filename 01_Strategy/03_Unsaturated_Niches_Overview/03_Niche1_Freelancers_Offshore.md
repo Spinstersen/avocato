@@ -155,7 +155,7 @@ Voir `01_Strategy/02_Positioning_Trilingual_Tech_Lawyer/08_Persona_Prospect_Idea
 ## 8. Les canaux d'acquisition pour la niche
 
 ```
-┌────────────────────────────────────────────┐
+┌───────────────────────────────────────────Ŀ
 │ 1. SEO (12 articles en 12 semaines)         │
 │    → Google Search Console                  │
 │         ↓                                    │
