@@ -142,6 +142,10 @@ hr { border: 0; border-top: 1px solid var(--border); }
 }
 .brand strong { display: block; font-size: 15px; letter-spacing: .04em; }
 .brand-sub { display: block; font-size: 11px; color: var(--text-dim); letter-spacing: .02em; }
+/* Cabinet : marque éditoriale */
+body[data-app="cabinet"] .brand-mark { border-radius: 14px; box-shadow: 0 8px 18px -8px var(--ring); }
+body[data-app="cabinet"] .brand strong { font-family: var(--font-display); letter-spacing: .06em; font-size: 14.5px; }
+body[data-app="cabinet"] .topbar { border-bottom: 1px solid var(--border); box-shadow: none; }
 
 .search-wrap {
   display: flex; align-items: center; gap: var(--sp-2); margin: var(--sp-2) var(--sp-4);

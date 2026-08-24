@@ -625,18 +625,21 @@
     content.innerHTML = `
       <div class="cab">
         <button class="btn" id="backConv">← Retour</button>
-        <div class="doc" id="convPrint" style="max-width:750px;margin:16px auto">
-          <div style="text-align:center;border-bottom:2px solid #1d4ed8;padding-bottom:10px;margin-bottom:16px">
-            <div style="font-weight:700;font-size:16px">${esc(hd.l1)}</div>
-            <div style="font-size:12px;color:#5a6b7b">${esc(hd.l2)}</div>
+        <div class="doc" id="convPrint" style="max-width:750px;margin:16px auto;padding:44px 48px;background:#fffdf9;color:#20242b;border:1px solid #e6e1d5;box-shadow:0 24px 60px -30px rgba(20,26,34,.35);border-radius:4px">
+          <div style="display:flex;justify-content:space-between;align-items:flex-end;border-bottom:3px double #2c4bc4;padding-bottom:14px;margin-bottom:22px">
+            <div>
+              <div style="font-weight:700;font-size:16.5px;letter-spacing:-.01em">${esc(hd.l1)}</div>
+              <div style="font-size:11.5px;color:#68727e;margin-top:3px;line-height:1.55">${esc(hd.l2)}</div>
+            </div>
+            <div style="font-family:'Avenir Next','Segoe UI Variable Display',sans-serif;font-weight:700;font-size:11px;letter-spacing:.28em;color:#2c4bc4">AVOCAT</div>
           </div>
-          <h2 style="text-align:center;margin:0">CONVENTION D'HONORAIRES N° ${esc(conv.num)}</h2>
-          <p style="text-align:center;font-size:12px;color:#5a6b7b">Établie en application de la loi n° 66.23 relative à l'organisation de la profession d'avocat — Date : ${esc(conv.date)}</p>
+          <h2 style="text-align:center;margin:0 0 2px;font-size:17px;letter-spacing:.06em;font-weight:700">CONVENTION D'HONORAIRES N° ${esc(conv.num)}</h2>
+          <p style="text-align:center;font-size:11.5px;color:#68727e;margin:0 0 20px">Établie en application de la loi n° 66.23 relative à l'organisation de la profession d'avocat — Fait à ${esc(STORE.settings.barreau || '…')} , le ${esc(conv.date)}</p>
           <p><strong>Entre :</strong> ${esc(hd.l1)}, ci-après "l'Avocat"<br>
           <strong>Et :</strong> ${esc(dossier.client)} ${dossier.ice ? '(ICE ' + esc(dossier.ice) + ')' : ''}, ci-après "le Client"</p>
           <p><strong>Objet :</strong> ${esc(conv.mission || dossier.mission || '')}</p>
-          <table style="width:100%;border-collapse:collapse;font-size:13px;margin:12px 0" border="1" cellpadding="8">
-            <tr style="background:#efece4"><th>Désignation</th><th>Honoraires HT</th></tr>
+          <table style="width:100%;border-collapse:collapse;font-size:12.5px;margin:16px 0" border="1" cellpadding="9" cellspacing="0" bordercolor="#d8d2c4">
+            <tr style="background:#f2efe6"><th style="text-align:left;letter-spacing:.04em;font-size:11px;text-transform:uppercase">Désignation</th><th style="text-align:right;letter-spacing:.04em;font-size:11px;text-transform:uppercase">Honoraires HT</th></tr>
             <tr><td>${esc(conv.mission || '')}<br><span style="font-size:11px;color:#5a6b7b">1 présentation Loom 15 min + 1 révision sous 7 jours</span></td><td style="text-align:right">${fmtMoney(conv.ht)} HT</td></tr>
             <tr><td>TVA ${dossier.tva}%</td><td style="text-align:right">${fmtMoney(conv.tva)}</td></tr>
             <tr style="font-weight:700"><td>TOTAL TTC</td><td style="text-align:right">${fmtMoney(conv.ttc)} TTC</td></tr>
@@ -646,11 +649,11 @@
           <p style="font-size:12px"><strong>Modalités de paiement :</strong> conformément à la loi n° 66.23, tout paiement supérieur à 10 000 DH est réglé par chèque ou moyen de paiement électronique. Un reçu daté, signé et numéroté est délivré pour toute somme reçue.</p>
           <p style="font-size:12px"><strong>Exécution :</strong> provision exigible à la signature. Solde exigible à la remise des livrables avant envoi final. Délai prévisionnel : 3-10 jours ouvrés à compter de la provision et des pièces complètes. Débours en sus. Résiliation : honoraires au prorata du travail accompli.</p>
           ${hd.ribLine ? `<p style="font-size:12px"><strong>Coordonnées bancaires :</strong> ${esc(hd.ribLine)}</p>` : ''}
-          <div style="display:flex;justify-content:space-between;margin-top:30px;font-size:13px">
-            <div>L'Avocat<br><br>__________________<br>Signature & cachet</div>
-            <div>Le Client (lu et approuvé)<br><br>__________________<br>${esc(dossier.client)}</div>
+          <div style="display:flex;justify-content:space-between;margin-top:38px;font-size:12.5px;gap:24px">
+            <div style="flex:1">L'Avocat<br><span style="color:#9aa3ad;font-size:10px">(signature & cachet)</span><br><br><br><div style="border-top:1px solid #cfd5dd;width:180px;padding-top:4px">${esc(hd.l1.split('—')[0])}</div></div>
+            <div style="flex:1">Le Client <span style="font-size:11px;color:#68727e">(lu et approuvé)</span><br><br><br><div style="border-top:1px solid #cfd5dd;width:180px;padding-top:4px">${esc(dossier.client)}</div></div>
           </div>
-          <p style="font-size:9px;color:#5a6b7b;text-align:center;margin-top:20px">Document établi en application de la loi n° 66.23 relative à l'organisation de la profession d'avocat (BO n°7536 du 20/08/2026). Ne constitue pas une consultation sans diagnostic individuel.</p>
+          <p style="font-size:9.5px;color:#8b95a0;text-align:center;margin-top:26px;border-top:1px solid #e6e1d5;padding-top:10px">Document établi en application de la loi n° 66.23 relative à l'organisation de la profession d'avocat (BO n°7536 du 20/08/2026). Ne constitue pas une consultation sans diagnostic individuel.</p>
         </div>
         <div class="cab-toolbar" style="justify-content:center">
           <button class="btn btn-primary" id="btnPrintConv">🖨️ Imprimer / PDF</button>
@@ -719,10 +722,13 @@
     content.innerHTML = `
       <div class="cab">
         <button class="btn" id="backFact">← Retour</button>
-        <div class="doc" id="factPrint" style="max-width:750px;margin:16px auto">
-          <div style="display:flex;justify-content:space-between;border-bottom:2px solid #1d4ed8;padding-bottom:10px">
-            <div><strong>${esc(hd.l1)}</strong><br><span style="font-size:11px;color:#5a6b7b">${esc(hd.l2)}</span></div>
-            <div style="text-align:right"><strong>${esc(f.type)} N° ${esc(f.num)}</strong><br><span style="font-size:12px">${esc(f.date)}</span></div>
+        <div class="doc" id="factPrint" style="max-width:750px;margin:16px auto;padding:44px 48px;background:#fffdf9;color:#20242b;border:1px solid #e6e1d5;box-shadow:0 24px 60px -30px rgba(20,26,34,.35);border-radius:4px">
+          <div style="display:flex;justify-content:space-between;align-items:flex-end;border-bottom:3px double #2c4bc4;padding-bottom:14px">
+            <div>
+              <div style="font-weight:700;font-size:15.5px;letter-spacing:-.01em">${esc(hd.l1)}</div>
+              <div style="font-size:11.5px;color:#68727e;margin-top:3px;line-height:1.55">${esc(hd.l2)}</div>
+            </div>
+            <div style="text-align:right"><strong style="font-size:13.5px">${esc(f.type)} N° ${esc(f.num)}</strong><br><span style="font-size:11.5px;color:#68727e">${esc(f.date)}</span></div>
           </div>
           <p><strong>Client :</strong> ${esc(dossier.client)} ${dossier.ice ? '(ICE ' + esc(dossier.ice) + ')' : ''}</p>
           <p><strong>Dossier :</strong> ${esc(dossier.mission || '')}</p>
