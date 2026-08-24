@@ -55,7 +55,7 @@
   }
   function cabHeaderLines() {
     const s = STORE.settings;
-    const l1 = s.nomAvocat ? ('Me ' + s.nomAvocat + ' — Avocat au Barreau de ' + s.barreau) : '[Compléter votre identité dans ⚙️ Paramètres]';
+    const l1 = s.nomAvocat ? ('Me ' + s.nomAvocat + ' — Avocat au Barreau de ' + s.barreau) : '[Compléter votre identité dans Paramètres]';
     const bits = [];
     if (s.ice) bits.push('ICE ' + s.ice);
     if (s.if_) bits.push('IF ' + s.if_);
@@ -142,9 +142,9 @@
     const content = $('#content');
     content.innerHTML = `
       <div class="cab">
-        <h2>Tableau de bord Cabinet</h2>
+        <p class="eyebrow">Cabinet</p><h2>Tableau de bord</h2>
         <p class="sub">Dossiers en localStorage — offline. Provision et solde suivent la convention d'honoraires (loi n° 66.23).</p>
-        ${!settingsComplete() ? '<div class="dash-panel" style="border-left:4px solid var(--warn);margin-bottom:14px"><h3>⚙️ Configure ta fiche cabinet</h3><p style="font-size:13px;color:var(--text-dim)">Nom + Barreau requis pour que les conventions/factures sortent à ton nom (sinon placeholders).</p><button class="btn btn-primary" id="cabGoSettings">Ouvrir les Paramètres</button></div>' : ''}
+        ${!settingsComplete() ? '<div class="dash-panel" style="border-left:4px solid var(--warn);margin-bottom:14px"><h3>Configure ta fiche cabinet</h3><p style="font-size:13px;color:var(--text-dim)">Nom + Barreau requis pour que les conventions/factures sortent à ton nom (sinon placeholders).</p><button class="btn btn-primary" id="cabGoSettings">Ouvrir les Paramètres</button></div>' : ''}
         <div class="bento">
           <div class="dash-card bento-hero"><div class="num">${fmtMoney(fin.encaisse)}</div><div class="lbl">Encaissé réel TTC</div></div>
           <div class="dash-card" style="grid-column:span 3"><div class="num">${fmtMoney(fin.attendu)}</div><div class="lbl">Attendu — émis non encaissé</div></div>
@@ -174,7 +174,7 @@
         <div class="dash-panel" style="margin-bottom:16px">
           <h3>Actions rapides</h3>
           <div class="cab-toolbar">
-            <button class="btn btn-primary" id="cabNewDossier2">＋ Nouveau dossier</button>
+            <button class="btn btn-primary" id="cabNewDossier2">Nouveau dossier</button>
             <button class="btn" id="cabSample">Charger 3 dossiers d'exemple</button>
             <button class="btn" id="cabExport">Exporter JSON</button>
             <label class="btn" style="cursor:pointer">Importer JSON <input type="file" id="cabImport" accept=".json" hidden></label>
@@ -315,7 +315,7 @@
     const ok = settingsComplete();
     content.innerHTML = `
       <div class="cab" style="max-width:720px">
-        <h2>Paramètres du cabinet</h2>
+        <p class="eyebrow">Configuration</p><h2>Paramètres du cabinet</h2>
         <p class="sub">Ces informations sont injectées dans les conventions, reçus et factures générés. Stockées uniquement en localStorage (offline).</p>
         ${ok ? '<p style="color:var(--ok);font-weight:600;font-size:13px">✓ Identité configurée — vos documents sortent prêts à signer.</p>' : '<p style="color:var(--warn);font-weight:600;font-size:13px">⚠️ Nom et Barreau requis pour générer des documents propres.</p>'}
         <form id="formSettings" class="dash-panel" style="padding:18px">
@@ -324,7 +324,7 @@
             ${SETTINGS_FIELDS.map(([k, lbl, ph, type]) => `<label>${lbl}<input name="${esc(k)}" type="${type}" value="${esc(s[k] || '')}" placeholder="${ph}"></label>`).join('')}
           </div>
           <div class="cab-toolbar" style="margin-top:12px">
-            <button type="submit" class="btn btn-primary">💾 Enregistrer</button>
+            <button type="submit" class="btn btn-primary">Enregistrer</button>
             ${ok ? '<button type="button" class="btn btn-danger" id="btnResetSettings">Effacer</button>' : ''}
           </div>
         </form>
@@ -381,7 +381,7 @@
         <div class="kan-body" data-open="${esc(d.id)}" title="Ouvrir le dossier">
           <strong>${esc(d.client)}</strong>
           <span class="kan-meta">${esc((d.mission || '').split('(')[0].trim())}</span>
-          <span class="kan-money">${fmtMoney(d.honoraires)} HT${d.echeance ? ' · ⏰ ' + esc(fmtDate(d.echeance)) : ''}${overdueEch ? ' · 🔴 retard' : ''}</span>
+          <span class="kan-money">${fmtMoney(d.honoraires)} HT${d.echeance ? ' · ' + esc(fmtDate(d.echeance)) : ''}${overdueEch ? ' · 🔴 retard' : ''}</span>
         </div>
         <button class="kan-move" data-mv="${esc(d.id)}" data-d="1" title="Avancer" aria-label="Avancer">▶</button>
       </div>`;
@@ -389,7 +389,7 @@
 
     content.innerHTML = `
       <div class="cab">
-        <h2>Pipeline</h2>
+        <p class="eyebrow">Vue d'ensemble</p><h2>Pipeline</h2>
         <p class="sub">${dossiers.length} dossier(s) — glisse les cartes sur desktop, ◀▶ sur mobile. Clique le centre pour ouvrir.</p>
       </div>
       <div class="kan-board">
@@ -419,9 +419,9 @@
   function renderTimeline(dossierId) {
     const events = STORE.journal.filter(e => e.dossierId === dossierId).slice(-20).reverse();
     if (!events.length) return '<p style="color:var(--text-dim);font-size:13px">Aucun événement encore. Le journal se remplit automatiquement (conventions, factures, changements de statut).</p>';
-    const ICON = { convention: '📝', facture: '💳', statut: '🔄', echeance: '⏰', dossier: '📁' };
+    const ICON = { convention: 'C', facture: 'F', statut: 'S', echeance: 'E', dossier: 'D' };
     return `<ul class="timeline">${events.map(e => `
-      <li><span class="tl-icon">${ICON[e.type] || '•'}</span><span class="tl-ts mono">${esc(e.ts)}</span><span>${esc(e.label)}</span></li>`).join('')}</ul>`;
+      <li><span class="tl-icon">${ICON[e.type] || '\u00B7'}</span><span class="tl-ts mono">${esc(e.ts)}</span><span>${esc(e.label)}</span></li>`).join('')}</ul>`;
   }
 
   /* ---------- Dossiers ---------- */
@@ -430,12 +430,12 @@
     const content = $('#content');
     content.innerHTML = `
       <div class="cab">
-        <h2>Dossiers</h2>
+        <p class="eyebrow">Activité</p><h2>Dossiers</h2>
         <p class="sub">${dossiers.length} dossier(s) — Honoraires HT, provision — loi n° 66.23 : reçu numéroté, paiement >10 000 DH par chèque/virement. Cliquez sur un dossier pour agir.</p>
         <div class="cab-toolbar">
           <input id="dossierSearch" placeholder="Rechercher client, ICE, mission..." style="flex:1;min-width:180px">
           <select id="dossierFilterStatut"><option value="">Tous statuts</option><option>Prospect</option><option>Convention envoyée</option><option>Convention signée</option><option>En cours</option><option>Livré - solde dû</option><option>Clôturé</option><option>Abandonné</option></select>
-          <button class="btn btn-primary" id="btnNewDossier">＋ Nouveau dossier</button>
+          <button class="btn btn-primary" id="btnNewDossier">Nouveau dossier</button>
         </div>
         <div class="cab-table-wrap">
           <table class="cab-table" id="tblDossiers">
@@ -450,7 +450,7 @@
                 <td data-label="Provision" class="mono">${fmtMoney(prov)}<br><span style="color:var(--text-dim)">${d.provisionPct || 50}%</span></td>
                 <td data-label="Statut">${badge(d.statut || 'Prospect')}</td>
                 <td data-label="Échéance" class="mono">${esc(d.echeance ? fmtDate(d.echeance) : '—')}</td>
-                <td data-label="Actions"><button class="btn" data-act="view" data-id="${esc(d.id)}">Voir</button> <button class="btn" data-act="edit" data-id="${esc(d.id)}">Éditer</button></td>
+                <td data-label="Actions"><button class="btn" data-act="view" data-id="${esc(d.id)}">Voir</button> <button class="btn" data-act="edit" data-id="${esc(d.id)}">Modifier</button></td>
               </tr>`;
     }).join('')}</tbody>
           </table>
@@ -499,12 +499,12 @@
           <div class="dash-card"><div class="num">${esc(fmtDate(d.echeance))}</div><div class="lbl">Échéance</div></div>
         </div>
         <div class="cab-toolbar">
-          <button class="btn btn-primary" data-act="conv" data-id="${esc(d.id)}">📝 Générer convention</button>
-          <button class="btn" data-act="fact-prov" data-id="${esc(d.id)}">💳 Reçu provision</button>
-          <button class="btn" data-act="fact-solde" data-id="${esc(d.id)}">💳 Facture solde</button>
-          <button class="btn" data-act="echeance" data-id="${esc(d.id)}">⏰ + Échéance</button>
-          <button class="btn" data-act="edit2" data-id="${esc(d.id)}">✏️ Éditer</button>
-          <button class="btn btn-danger" data-act="del" data-id="${esc(d.id)}">🗑 Supprimer</button>
+          <button class="btn btn-primary" data-act="conv" data-id="${esc(d.id)}">Générer la convention</button>
+          <button class="btn" data-act="fact-prov" data-id="${esc(d.id)}">Reçu de provision</button>
+          <button class="btn" data-act="fact-solde" data-id="${esc(d.id)}">Facture de solde</button>
+          <button class="btn" data-act="echeance" data-id="${esc(d.id)}">Échéance</button>
+          <button class="btn" data-act="edit2" data-id="${esc(d.id)}">Éditer</button>
+          <button class="btn btn-danger" data-act="del" data-id="${esc(d.id)}">Supprimer</button>
         </div>
         <div class="dash-grid">
           <div class="dash-panel"><h3>Informations</h3>
@@ -656,7 +656,7 @@
           <p style="font-size:9.5px;color:#8b95a0;text-align:center;margin-top:26px;border-top:1px solid #e6e1d5;padding-top:10px">Document établi en application de la loi n° 66.23 relative à l'organisation de la profession d'avocat (BO n°7536 du 20/08/2026). Ne constitue pas une consultation sans diagnostic individuel.</p>
         </div>
         <div class="cab-toolbar" style="justify-content:center">
-          <button class="btn btn-primary" id="btnPrintConv">🖨️ Imprimer / PDF</button>
+          <button class="btn btn-primary" id="btnPrintConv">Imprimer / PDF</button>
           <button class="btn" id="btnBackConv2">Retour dossier</button>
         </div>
       </div>`;
@@ -672,7 +672,7 @@
     const content = $('#content');
     content.innerHTML = `
       <div class="cab">
-        <h2>Conventions d'honoraires</h2>
+        <p class="eyebrow">Documents</p><h2>Conventions d'honoraires</h2>
         <p class="sub">${convs.length} convention(s) — loi n° 66.23. Générez depuis un dossier.</p>
         <div class="cab-toolbar">
           <select id="convDossierSel"><option value="">— Choisir un dossier —</option>${dossiers.map(d => `<option value="${esc(d.id)}">${esc(d.client)} — ${esc(d.mission || '')}</option>`).join('')}</select>
@@ -741,7 +741,7 @@
           <p style="font-size:12px">Échéance : à réception.${hd.ribLine ? ' ' + esc(hd.ribLine) + '.' : ''} ${dossier.tva == 0 ? 'TVA non applicable, art. 91 CGI.' : ''}</p>
           <p style="font-size:11px;color:#5a6b7b">Reçu daté, signé et numéroté délivré conformément à la loi n° 66.23 relative à l'organisation de la profession d'avocat. Tout paiement supérieur à 10 000 DH par chèque ou moyen de paiement électronique.</p>
         </div>
-        <div class="cab-toolbar" style="justify-content:center"><button class="btn btn-primary" id="btnPrintFact">🖨️ Imprimer / PDF</button> <button class="btn" id="btnBackFact2">Retour</button></div>
+        <div class="cab-toolbar" style="justify-content:center"><button class="btn btn-primary" id="btnPrintFact">Imprimer / PDF</button> <button class="btn" id="btnBackFact2">Retour</button></div>
       </div>`;
     $('#crumbs').innerHTML = '<span class="cur">' + esc(f.type) + ' ' + esc(f.num) + '</span>';
     $('#backFact').addEventListener('click', renderFactures);
@@ -755,7 +755,7 @@
     const content = $('#content');
     content.innerHTML = `
       <div class="cab">
-        <h2>Factures & Provisions</h2>
+        <p class="eyebrow">Documents</p><h2>Factures & Provisions</h2>
         <p class="sub">${facts.length} document(s) — Reçus de provision (art. 30) + factures solde.</p>
         <div class="cab-toolbar">
           <select id="factDossierSel"><option value="">— Dossier —</option>${dossiers.map(d => `<option value="${esc(d.id)}">${esc(d.client)}</option>`).join('')}</select>
@@ -824,7 +824,7 @@
     const content = $('#content');
     content.innerHTML = `
       <div class="cab">
-        <h2>Échéances</h2>
+        <p class="eyebrow">Suivi</p><h2>Échéances</h2>
         <p class="sub">${echeances.length} échéance(s) — Retards en rouge. Cochez quand fait.</p>
         <div class="cab-toolbar">
           <button class="btn btn-primary" id="btnNewEcheance">＋ Nouvelle échéance</button>
@@ -919,12 +919,12 @@
     const content = $('#content');
     content.innerHTML = `
       <div class="cab">
-        <h2>Bibliothèque de modèles</h2>
+        <p class="eyebrow">Ressources</p><h2>Bibliothèque de modèles</h2>
         <p class="sub">${BIBLIO.length} modèles — cliquez pour ouvrir dans AVOCATO Learn.</p>
         <div class="dash-grid" style="grid-template-columns:repeat(auto-fill,minmax(250px,1fr))">
           ${BIBLIO.map(([file, title, desc]) => `
             <div class="dash-panel" style="cursor:pointer" data-open="05_Document_Bank/templates/${esc(file)}">
-              <h3 style="font-size:13.5px;margin:0 0 6px">📄 ${esc(title)}</h3>
+              <h3 style="font-size:13.5px;margin:0 0 6px">${esc(title)}</h3>
               <p style="font-size:12px;color:var(--text-dim);margin:0 0 8px">${esc(desc)}</p>
               <span style="font-size:11px;color:var(--accent-2)">${esc(file)} →</span>
             </div>`).join('')}
