@@ -2,6 +2,25 @@
 
 Format : [version] — date · type de changement
 
+## [v3.3] — 2026-08-23 · Refonte visuelle globale « law firm »
+
+### Cabinet OS (corporate)
+- Palette **encrier `#1f2a44` / parchemin `#f2efe8` / or `#a8894e`** (clair + sombre)
+- Monogramme AV serif, nav en petites capitales par sections + filet or sur l'actif
+- Boutons carrés sobres (surlignage or au survol), zéro emoji
+- KPI serif tabulaires avec filet or, panneaux papier, kanban « réglé » (lettrage espacé, compteurs or)
+- Badges monogramme (statuts en petites capitales), timeline en registre avec médaillons C/F/S/E
+
+### AVOCATO Learn (harmonisé)
+- Mêmes tokens encrier/parchemin/or — light & dark
+- Domaines en **monogrammes serif** (ST, NT, JU, NC, AC, CP, DB, 90) dans des médaillons or
+- Arbre : filets d'encre, item actif à filet or, pastilles de lu dorées
+- Hero dashboard : dégradé encrier avec accroche or, chiffres serif
+- Document : titres serif Palatino, citations à filet or, tables lettrage espacé
+- QCM sobre (options réglées, R comprenant la réponse en médaillon serif)
+- Barre de progression lecture en dégradé or, surlignage recherche encre dorée
+- Boutons/focus : surlignage or 2px, plus d'emoji (PDF / ◐ pour le thème)
+
 ## [v3.2] — 2026-08-23 · Cabinet OS — refonte UI/UX
 
 ### Design system dédié (principes high-end + UX enterprise)
