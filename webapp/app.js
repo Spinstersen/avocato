@@ -45,6 +45,17 @@
   };
   const FOLDER_ORDER = Object.keys(FOLDER_LABELS);
 
+  const COHORTS = [
+    { key: 'start', label: 'Commencer ici', match: f => f === '00_START_HERE' },
+    { key: 'niches', label: 'Niches', match: f => f.indexOf('02_Niches') === 0 },
+    { key: 'strategie', label: 'Stratégie & Acquisition', match: f => /^(01|03|04)_/.test(f) },
+    { key: 'pratique', label: 'Pratique du cabinet', match: f => /^(05|06|07|08)_/.test(f) || f === '(root)' }
+  ];
+  function cohortOf(folder) {
+    const c = COHORTS.find(x => x.match(folder));
+    return c ? c.key : 'pratique';
+  }
+
   /* ---------- helpers ---------- */
   function esc(s) { return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
   function parseNum(s) {
@@ -158,7 +169,7 @@
   function renderChartBox(box) {
     const type = box.dataset.ctype || 'bar';
     const data = parseCsvData(decodeURIComponent(box.dataset.cdata));
-    if (!data) { box.innerHTML = '<p class="chart-title">⚠️ Données de graphique invalides</p>'; return; }
+    if (!data) { box.innerHTML = '<p class="chart-title">' + ico('x') + ' Données de graphique invalides</p>'; return; }
     const th = chartTheme();
     const wrap = document.createElement('div');
     wrap.className = 'chart-canvas-wrap';
@@ -221,7 +232,7 @@
       if (!info) return;
       const btn = document.createElement('button');
       btn.className = 'chart-toggle';
-      btn.textContent = '📊 Voir en graphique';
+      btn.innerHTML = ico('chart') + ' Voir en graphique';
       const chartEl = document.createElement('div');
       chartEl.className = 'chart-box';
       chartEl.style.display = 'none';
@@ -235,7 +246,7 @@
       btn.addEventListener('click', () => {
         if (chartEl.style.display === 'none') {
           chartEl.style.display = '';
-          btn.textContent = '📋 Voir le tableau';
+          btn.innerHTML = ico('table') + ' Voir le tableau';
           if (!chart) {
             const th = chartTheme();
             const canvas = document.createElement('canvas');
@@ -262,7 +273,7 @@
           }
         } else {
           chartEl.style.display = 'none';
-          btn.textContent = '📊 Voir en graphique';
+          btn.innerHTML = ico('chart') + ' Voir en graphique';
         }
       });
     });
@@ -270,9 +281,9 @@
 
   /* ---------- document rendering ---------- */
   const DOC_HINTS = {
-    '00_START_HERE/00_READ_ME_FIRST.md': '🚀 Commencez ici — 5 minutes',
-    '07_90Day_Plan/00_Overview.md': '🗓️ Vue d\'ensemble du plan',
-    '01_Strategy/03_Unsaturated_Niches_Overview/00_INDEX.md': '🎯 Choisir une niche'
+    '00_START_HERE/00_READ_ME_FIRST.md': 'Commencez ici — 5 minutes',
+    '07_90Day_Plan/00_Overview.md': 'Vue d\'ensemble du plan',
+    '01_Strategy/03_Unsaturated_Niches_Overview/00_INDEX.md': 'Choisir une niche'
   };
 
   function openDoc(id) {
@@ -284,7 +295,7 @@
     const { html, toc } = renderMarkdown(doc.content);
 
     const tocHtml = toc.length > 1
-      ? `<details class="toc" open><summary>📑 Sommaire (${toc.length})</summary><ul>` +
+      ? `<details class="toc" ${toc.length > 4 ? '' : 'open'}><summary>Sommaire (${toc.length})</summary><ul>` +
         toc.map(t => `<li class="lvl-${t.tag}"><a href="#${t.id}">${esc(t.text)}</a></li>`).join('') +
         `</ul></details>` : '';
 
@@ -319,6 +330,7 @@
     }
     window.scrollTo({ top: 0 });
     LS.set('last', id);
+    updateResumeChip();
   }
 
   function updateCrumbs(doc) {
@@ -333,6 +345,12 @@
     if (parts[0] === '02_Niches_Deep_Dive' && parts.length > 2) return parts.slice(0, 2).join('/');
     return d.folder;
   }
+  function folderIsOpen(folder, filter) {
+    if (filter) return true;
+    if (state.foldersOpen[folder] !== undefined) return !!state.foldersOpen[folder];
+    return cohortOf(folder) === 'start';
+  }
+
   function renderTree(filter) {
     const tree = $('#tree');
     if (filter && DATA.length && DATA[0]._lc === undefined) {
@@ -341,11 +359,15 @@
     const groups = {};
     DATA.forEach(d => { const g = getGroupKey(d); (groups[g] = groups[g] || []).push(d); });
     const folders = Object.keys(groups).sort((a, b) => {
+      const ca = COHORTS.findIndex(x => x.match(a)), cb = COHORTS.findIndex(x => x.match(b));
+      if (ca !== cb) return (ca === -1 ? 99 : ca) - (cb === -1 ? 99 : cb);
       const ia = FOLDER_ORDER.indexOf(a), ib = FOLDER_ORDER.indexOf(b);
       return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
     });
 
     let html = '';
+    let lastCohort = null;
+    let collapsedCount = 0;
     folders.forEach(folder => {
       const items = groups[folder].filter(d =>
         !filter ||
@@ -353,14 +375,21 @@
         d._lcC.includes(filter)
       );
       if (filter && !items.length) return;
+      const cohort = cohortOf(folder);
+      if (!filter && cohort !== lastCohort) {
+        lastCohort = cohort;
+        const cl = (COHORTS.find(c => c.key === cohort) || {}).label || '';
+        html += `<div class="tree-cohort">${esc(cl)}</div>`;
+      }
       const total = groups[folder].length;
       const readCount = groups[folder].filter(d => state.read.has(d.id)).length;
-      const isOpen = filter ? true : state.foldersOpen[folder] !== false;
+      const isOpen = folderIsOpen(folder, filter);
+      if (!isOpen) collapsedCount++;
       const pct = total ? Math.round(100 * readCount / total) : 0;
 
       html += `<div class="tree-section">
-        <button class="tree-folder ${isOpen ? 'open' : ''}" data-folder="${esc(folder)}">
-          <span class="caret">▶</span><span>${esc(folderLabel(folder))}</span>
+        <button class="tree-folder ${isOpen ? 'open' : ''}" data-folder="${esc(folder)}" aria-expanded="${isOpen}">
+          <span class="caret" aria-hidden="true">▶</span><span>${esc(folderLabel(folder))}</span>
           <span class="folder-meta">${readCount}/${total}</span>
           <span class="progress-mini"><span class="bar"><span class="fill" style="width:${pct}%"></span></span></span>
         </button>
@@ -373,20 +402,44 @@
         </div>
       </div>`;
     });
-    tree.innerHTML = html || '<div class="empty-state">Aucun résultat 😕</div>';
+    if (!filter && collapsedCount > 0) {
+      html += `<button class="tree-expand" id="treeExpandAll">Voir tout (${DATA.length} documents)</button>`;
+    }
+    tree.innerHTML = html || '<div class="empty-state">Aucun résultat</div>';
 
     $$('.tree-folder', tree).forEach(btn => btn.addEventListener('click', () => {
       const f = btn.dataset.folder;
-      state.foldersOpen[f] = !(btn.classList.contains('open'));
+      const open = !btn.classList.contains('open');
+      state.foldersOpen[f] = open;
       LS.set('folders', state.foldersOpen);
-      btn.classList.toggle('open');
+      btn.classList.toggle('open', open);
+      btn.setAttribute('aria-expanded', String(open));
       const items = btn.nextElementSibling;
-      items.style.display = items.style.display === 'none' ? '' : 'none';
+      items.style.display = open ? '' : 'none';
+      if (!$$('.tree-folder:not(.open)', tree).length && $('#treeExpandAll', tree)) $('#treeExpandAll', tree).hidden = true;
     }));
     $$('.tree-item', tree).forEach(btn => btn.addEventListener('click', () => {
       openDoc(btn.dataset.id);
       document.body.classList.remove('sidebar-open');
     }));
+    const exp = $('#treeExpandAll', tree);
+    if (exp) exp.addEventListener('click', () => {
+      Object.keys(groups).forEach(f => { state.foldersOpen[f] = true; });
+      LS.set('folders', state.foldersOpen);
+      renderTree('');
+    });
+  }
+
+  function updateResumeChip() {
+    const chip = $('#resumeChip');
+    if (!chip) return;
+    const last = LS.get('last', null);
+    const doc = last ? DATA.find(d => d.id === last) : null;
+    if (!doc || (window.Cabinet && window.Cabinet.getMode && window.Cabinet.getMode() === 'cabinet')) { chip.hidden = true; return; }
+    const pct = DATA.length ? Math.round(100 * state.read.size / DATA.length) : 0;
+    $('#resumeName', chip).textContent = doc.file;
+    $('#resumePct', chip).textContent = pct + '% lu';
+    chip.hidden = false;
   }
 
   function highlightTree() {
@@ -437,26 +490,26 @@
         </div>
         <div class="dash-cards">
           <div class="dash-card"><div class="num">${total}</div><div class="lbl">Documents</div></div>
-          <div class="dash-card"><div class="num">${Object.keys(groups).length}</div><div class="lbl">Dossiers</div></div>
+          <div class="dash-card"><div class="num">${Object.keys(groups).length}</div><div class="lbl">Rubriques</div></div>
           <div class="dash-card"><div class="num">${readCount}</div><div class="lbl">Lus (${pct}%)</div></div>
           <div class="dash-card"><div class="num">${doneChecks}</div><div class="lbl">✓ Tâches cochées (${totalChecks})</div></div>
         </div>
         <div class="dash-grid">
           <div class="dash-panel">
-            <h3>🎯 Objectif de revenus (Plan 90 jours)</h3>
+            <h3>${ico('bolt')} Objectif de revenus (Plan 90 jours)</h3>
             <div class="chart-canvas-wrap" style="height:220px"><canvas id="dashRevenue"></canvas></div>
           </div>
           <div class="dash-panel">
-            <h3>⚡ Répartition du contenu</h3>
+            <h3>${ico('gauge')} Répartition du contenu</h3>
             <div class="chart-canvas-wrap" style="height:220px"><canvas id="dashDistribution"></canvas></div>
           </div>
         </div>
         <div class="dash-panel" style="margin-bottom:16px">
-          <h3>📚 Progression par dossier</h3>
+          <h3>${ico('book')} Progression par rubrique</h3>
           <div class="dash-progress">${progressRows}</div>
         </div>
         <div class="dash-panel">
-          <h3>🚀 Démarrage rapide</h3>
+          <h3>${ico('bolt')} Démarrage rapide</h3>
           <div class="dash-quick">${quick}</div>
         </div>
       </div>`;
@@ -519,6 +572,7 @@
     else state.read.add(state.current);
     LS.set('read', Array.from(state.read));
     updateReadBtn();
+    updateResumeChip();
     renderTree($('#searchInput').value.trim().toLowerCase());
   }
 
@@ -533,7 +587,7 @@
   function applyTheme() {
     document.body.dataset.theme = state.theme;
     document.body.classList.toggle('dark', state.theme === 'dark');
-    $('#themeBtn').textContent = state.theme === 'dark' ? '☀️' : '🌙';
+    $('#themeBtn').innerHTML = window.ico(state.theme === 'dark' ? 'sun' : 'moon');
     state.charts.forEach(c => { try { c.destroy(); } catch {} });
     state.charts = [];
     if (state.current) {
@@ -547,7 +601,8 @@
         if (toc.length > 1 && !tocEl) {
           const d = document.createElement('details');
           d.className = 'toc';
-          d.innerHTML = `<summary>📑 Sommaire (${toc.length})</summary><ul>` + toc.map(t => `<li class="lvl-${t.tag}"><a href="#${t.id}">${esc(t.text)}</a></li>`).join('') + '</ul>';
+          if (toc.length <= 4) d.open = true;
+          d.innerHTML = `<summary>Sommaire (${toc.length})</summary><ul>` + toc.map(t => `<li class="lvl-${t.tag}"><a href="#${t.id}">${esc(t.text)}</a></li>`).join('') + '</ul>';
           article.insertBefore(d, contentEl);
         }
         $$('.chart-box', contentEl).forEach(renderChartBox);
@@ -566,7 +621,10 @@
   let searchTimer = null;
   function onSearch(q) {
     clearTimeout(searchTimer);
-    searchTimer = setTimeout(() => renderTree(q.trim().toLowerCase()), 120);
+    searchTimer = setTimeout(() => {
+      if (window.Cabinet && window.Cabinet.getMode && window.Cabinet.getMode() === 'cabinet') return;
+      renderTree(q.trim().toLowerCase());
+    }, 120);
   }
 
   /* ---------- boot ---------- */
@@ -574,6 +632,11 @@
     applyTheme();
     applyFont();
     renderTree('');
+    updateResumeChip();
+    $('#resumeBtn').addEventListener('click', () => {
+      const last = LS.get('last', null);
+      if (last && DATA.some(d => d.id === last)) openDoc(last);
+    });
     $('#menuBtn').addEventListener('click', () => document.body.classList.add('sidebar-open'));
     $('#sidebarClose').addEventListener('click', () => document.body.classList.remove('sidebar-open'));
     $('#scrim').addEventListener('click', () => document.body.classList.remove('sidebar-open'));
@@ -614,4 +677,6 @@
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
   else init();
+
+  window.App = { renderTree, openDoc, openDashboard };
 })();

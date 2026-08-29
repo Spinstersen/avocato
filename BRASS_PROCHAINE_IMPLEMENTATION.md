@@ -4,6 +4,8 @@
 
 **Fichiers cibles :** `webapp/index.html` · `webapp/styles.css` · `webapp/app.js` · `webapp/cabinet.js` · `webapp/scripts/build.js` (BOM fix déjà fait) · `DESIGN.md`/` .impeccable/design.json` après.
 
+> **MAJ 2026-08-29 :** les 5 lots (P1×3 + P2×2) sont implémentés — cases cochées ci-dessous. Reste à faire manuellement : vérification navigateur (hard refresh, acceptance visuelle) et re-run `critique`. Règle 2-a respectée : plaque/sweep/encrier/double-filet intouchés, palette et typo inchangées.
+
 **Comment utiliser :** Ouvre `webapp/index.html` double-clic ou `python -m http.server 8766 --directory webapp` puis coche chaque `- [ ]`. Hard refresh `Ctrl+Shift+R` après chaque lot CSS/JS.
 
 ---
@@ -22,18 +24,18 @@
 
 ### À faire — `webapp/index.html:120`
 
-- [ ] **Aide inline collée au champ** `Provision %` : ajouter sous `<input name="provisionPct">` un `<span class="field-help">ⓘ Exigible avant démarrage — reçu immédiat, art.30 Loi 28-08. Solde à la remise.</span>` `11px #6b6a63` avec `aria-describedby`.
-- [ ] **Calcul live miroir** : au-dessus du bouton `Enregistrer dossier` ajouter `<div id="provisionLive" class="mono" aria-live="polite"></div>` qui affiche `HT 3 500 → TTC 4 200 · Provision 50% = 2 100 TTC` mis à jour `input` `honoraires`, `tva`, `provisionPct` (`calcTTC` même formule que `cabinet.js:49`). `font 12px tabular`.
+- [x] **Aide inline collée au champ** `Provision %` : ajouter sous `<input name="provisionPct">` un `<span class="field-help">ⓘ Exigible avant démarrage — reçu immédiat, art.30 Loi 28-08. Solde à la remise.</span>` `11px #6b6a63` avec `aria-describedby`.
+- [x] **Calcul live miroir** : au-dessus du bouton `Enregistrer dossier` ajouter `<div id="provisionLive" class="mono" aria-live="polite"></div>` qui affiche `HT 3 500 → TTC 4 200 · Provision 50% = 2 100 TTC` mis à jour `input` `honoraires`, `tva`, `provisionPct` (`calcTTC` même formule que `cabinet.js:49`). `font 12px tabular`.
 
 ### À faire — `webapp/cabinet.js:49` `calcTTC` + `openDlgDossier` + `genConvention`
 
-- [ ] **Hydrater identité plaque** : dans `genConvention` `previewConvention`, remplacer `[Nom]/[Ville]/[X]` par valeurs plaque `Me Alami` / `Barreau` lues depuis `plaque-meta` ou `localStorage avocato:plaque` (fallback `Me [Nom]` si vide). Injecter `dossier.client` + `ICE` déjà fait, mais ajouter `dossier.contact` tel.
-- [ ] **Miroir param mission** : remplacer lorem `"1 présentation Loom 15 min + 1 révision sous 7 jours"` par mapping mission → texte (ex: `Diagnostic → 1 restitution Loom 15min + 1 correctif J+7`, `Loi 09-08 → Registre 5 onglets + dépôt CNDP`). Si mission inconnue, garder générique mais sans crochets.
-- [ ] **Lien visuel provision** : dans preview table, ligne `Provision 50% = 2 100 TTC` doit reprendre exactement la valeur du live ci-dessus (même `calcTTC` + `provisionPct`). Ajouter microcopy sous table `12px #6b6a63` : `Provision encaissée à la signature — protège art.30, solde verrouillé à la remise. RIB 24 chiffres en pied.`
+- [x] **Hydrater identité plaque** : dans `genConvention` `previewConvention`, remplacer `[Nom]/[Ville]/[X]` par valeurs plaque `Maître Ayoub` / `Barreau` lues depuis `plaque-meta` ou `localStorage avocato:plaque` (fallback `Maître [Nom]` si vide). Injecter `dossier.client` + `ICE` déjà fait, mais ajouter `dossier.contact` tel.
+- [x] **Miroir param mission** : remplacer lorem `"1 présentation Loom 15 min + 1 révision sous 7 jours"` par mapping mission → texte (ex: `Diagnostic → 1 restitution Loom 15min + 1 correctif J+7`, `Loi 09-08 → Registre 5 onglets + dépôt CNDP`). Si mission inconnue, garder générique mais sans crochets.
+- [x] **Lien visuel provision** : dans preview table, ligne `Provision 50% = 2 100 TTC` doit reprendre exactement la valeur du live ci-dessus (même `calcTTC` + `provisionPct`). Ajouter microcopy sous table `12px #6b6a63` : `Provision encaissée à la signature — protège art.30, solde verrouillé à la remise. RIB 24 chiffres en pied.`
 
 **Acceptance :**
 - Saisir `3 500 HT / TVA 20% / 50%` → live affiche `2 100 TTC` et preview identique.
-- Ouvrir un dossier existant → convention montre `Me Alami` pas `[Nom]`.
+- Ouvrir un dossier existant → convention montre `Maître Ayoub` pas `[Nom]`.
 - Pas de crochets restants dans la feuille imprimable.
 
 **Commande suggérée :** `/impeccable clarify webapp/index.html`
@@ -46,13 +48,13 @@
 
 ### À faire — `webapp/app.js:326` `renderTree`
 
-- [ ] **Collapse par défaut en 4 cohortes** : grouper `FOLDER_ORDER` en `Commencer ici (00)` / `Niches (02)` / `Acquisition (03) + Stratégie (01)` / `ADHD/90j (06/07)` + `Jurisprudence (08)` + `Banque (05)`. Au boot, `isOpen = filter ? true : (cohorte === 'Commencer' ? true : false)` puis `Voir tout (490)` `<button>` qui `foldersOpen[folder]=true` pour tous. Persister `foldersOpen` déjà fait.
-- [ ] **Chip reprise** : sticky au-dessus de `#tree` : `<div id="resumeChip"><span>Dernier: 00_READ_ME_FIRST.md</span><button>Reprendre</button></div>` lisant `LS.get('last')` + `read` progression `23%`. Clic → `openDoc(last)`.
-- [ ] **TOC disclosure** : passer `toc` de `open` à `details` fermé par défaut si `toc.length > 4`, bouton `Sommaire (6)` `11px uppercase`.
+- [x] **Collapse par défaut en 4 cohortes** : grouper `FOLDER_ORDER` en `Commencer ici (00)` / `Niches (02)` / `Acquisition (03) + Stratégie (01)` / `ADHD/90j (06/07)` + `Jurisprudence (08)` + `Banque (05)`. Au boot, `isOpen = filter ? true : (cohorte === 'Commencer' ? true : false)` puis `Voir tout (490)` `<button>` qui `foldersOpen[folder]=true` pour tous. Persister `foldersOpen` déjà fait.
+- [x] **Chip reprise** : sticky au-dessus de `#tree` : `<div id="resumeChip"><span>Dernier: 00_READ_ME_FIRST.md</span><button>Reprendre</button></div>` lisant `LS.get('last')` + `read` progression `23%`. Clic → `openDoc(last)`.
+- [x] **TOC disclosure** : passer `toc` de `open` à `details` fermé par défaut si `toc.length > 4`, bouton `Sommaire (6)` `11px uppercase`.
 
 ### À faire — `webapp/index.html:94` `dlgDossier`
 
-- [ ] **Dialog en 2 steps** : step1 `Prospect (3 champs)` `Client/ICE`, `Type`, `Mission` + `Honoraires` + `Continuer`. Step2 `Avancé` `TVA`, `Provision %` (avec aide ci-dessus), `Statut`, `Échéance`, `Contact`, `Notes` + `Enregistrer`. Garder `1fr 1fr` mais masquer step2 `hidden` jusqu'à `Continuer`. Validation `honoraires` garde `required`, pas de blocage step1 si `tva/provision` vides (défauts 20/50).
+- [x] **Dialog en 2 steps** : step1 `Prospect (3 champs)` `Client/ICE`, `Type`, `Mission` + `Honoraires` + `Continuer`. Step2 `Avancé` `TVA`, `Provision %` (avec aide ci-dessus), `Statut`, `Échéance`, `Contact`, `Notes` + `Enregistrer`. Garder `1fr 1fr` mais masquer step2 `hidden` jusqu'à `Continuer`. Validation `honoraires` garde `required`, pas de blocage step1 si `tva/provision` vides (défauts 20/50).
 
 **Acceptance :**
 - Premier affichage : ≤4 cohortes ouvertes, `Voir tout (490)` visible, `Reprendre` chip fonctionnel.
@@ -68,9 +70,9 @@
 
 ### À faire — `webapp/index.html:34` + `webapp/cabinet.js:57` `setMode`
 
-- [ ] **FAB primaire** : en Cabinet, afficher `button#fabNewDossier` `position:fixed bottom 18px right 18px` `ink/brass` `＋ Nouveau dossier` `N` shortcut. Même action que `openDlgDossier()`, `aria-label`.
-- [ ] **Recherche cross-mode** : garder `#searchWrap` visible en Cabinet mais filtrer `STORE.dossiers` (`client/ICE/mission`) via `filterDossiers()` au lieu de masquer `hidden`. Placeholder `Rechercher dossier… ( / )`.
-- [ ] **Crumbs dernier doc** : en Cabinet `crumbs` ajout `<span class="pill mono" id="lastDocChip">Dernier: 00_READ_ME_FIRST</span>` clic → `setMode('vault')`.
+- [x] **FAB primaire** : en Cabinet, afficher `button#fabNewDossier` `position:fixed bottom 18px right 18px` `ink/brass` `＋ Nouveau dossier` `N` shortcut. Même action que `openDlgDossier()`, `aria-label`.
+- [x] **Recherche cross-mode** : garder `#searchWrap` visible en Cabinet mais filtrer `STORE.dossiers` (`client/ICE/mission`) via `filterDossiers()` au lieu de masquer `hidden`. Placeholder `Rechercher dossier… ( / )`.
+- [x] **Crumbs dernier doc** : en Cabinet `crumbs` ajout `<span class="pill mono" id="lastDocChip">Dernier: 00_READ_ME_FIRST</span>` clic → `setMode('vault')`.
 
 **Acceptance :**
 - En Cabinet, `N` ouvre dialog, `/` focus search dossiers, `lastDocChip` ramène Base.
@@ -85,9 +87,9 @@
 
 ### À faire — `webapp/styles.css:136` `icon-btn` + `webapp/index.html:54` `cab-nav-item .glyph`
 
-- [ ] **Cibles 40px** : passer `icon-btn` `34→40px` `border-radius 2px`, `tree-folder caret` zone `24px`.
-- [ ] **Labels visibles** : ajouter `title` déjà présent + `aria-label` ok, mais ajouter `span.visually-hidden` sous icône `12px` `Prèc/Suiv/Lu` en `sm` breakpoint caché, tooltip `focus` persistant `::after`.
-- [ ] **Contraste** : `11px`→`12px` pour `brand-sub/build-hint/plaque-desc`, `--text-dim #6b6a63→#4a4642` sur `parchment #f6f0e3` (vérifier AA 4.5:1), `--line rgba(.26)→rgba(.32)` pour hairline.
+- [x] **Cibles 40px** : passer `icon-btn` `34→40px` `border-radius 2px`, `tree-folder caret` zone `24px`.
+- [x] **Labels visibles** : ajouter `title` déjà présent + `aria-label` ok, mais ajouter `span.visually-hidden` sous icône `12px` `Prèc/Suiv/Lu` en `sm` breakpoint caché, tooltip `focus` persistant `::after`.
+- [x] **Contraste** : `11px`→`12px` pour `brand-sub/build-hint/plaque-desc`, `--text-dim #6b6a63→#4a4642` sur `parchment #f6f0e3` (vérifier AA 4.5:1), `--line rgba(.26)→rgba(.32)` pour hairline.
 
 **Acceptance :**
 - Lighthouse a11y `aria-*` 100, contraste AA, cibles `44pt` mobile pass.
@@ -102,9 +104,9 @@
 
 ### À faire — `webapp/index.html` + `webapp/cabinet.js:591` `LS.set`
 
-- [ ] **Région toast** : ajouter en `index.html` fin `main` : `<div id="toastRegion" aria-live="polite" aria-atomic="true"></div>` `fixed bottom 14px left 50% translateX` `1px brass` `surface` `2px` `shadow 18px`. Fonction `toast(msg, {undo})` 3s + bouton `Annuler` 30s qui restore `Abandonné` fallback.
-- [ ] **Remplacer confirm/alert** : `delDossier(id)` → toast `Dossier supprimé — Annuler` au lieu de `confirm`. `importJSON` `JSON invalide` → inline `field-error` sous `input[type=file]` pas `alert`.
-- [ ] **Célébration Clôturé** : en `viewDossier` statut `Clôturé` ajouter classe `seal` qui déclenche `encrier` scale `0.9→1` + `border brass 2px` 600ms (respect `prefers-reduced-motion`).
+- [x] **Région toast** : ajouter en `index.html` fin `main` : `<div id="toastRegion" aria-live="polite" aria-atomic="true"></div>` `fixed bottom 14px left 50% translateX` `1px brass` `surface` `2px` `shadow 18px`. Fonction `toast(msg, {undo})` 3s + bouton `Annuler` 30s qui restore `Abandonné` fallback.
+- [x] **Remplacer confirm/alert** : `delDossier(id)` → toast `Dossier supprimé — Annuler` au lieu de `confirm`. `importJSON` `JSON invalide` → inline `field-error` sous `input[type=file]` pas `alert`.
+- [x] **Célébration Clôturé** : en `viewDossier` statut `Clôturé` ajouter classe `seal` qui déclenche `encrier` scale `0.9→1` + `border brass 2px` 600ms (respect `prefers-reduced-motion`).
 
 **Acceptance :**
 - Enregistrer dossier → toast `Dossier enregistré` + `Annuler` 3s, pas de `alert`.
@@ -116,15 +118,15 @@
 
 ## Vérification finale (après les 5 lots)
 
-- [ ] `node webapp/scripts/build.js` → `490 docs` titres propres (BOM strip), `DESIGN.md` `(root)` exclu si tu veux (ajouter `IGNORE_DIRS` `DESIGN.md`).
+- [x] `node webapp/scripts/build.js` → `493 docs` titres propres (BOM strip) — rebuild OK 2026-08-29.
 - [ ] Hard refresh `Ctrl+Shift+R` file:// + `python -m http.server 8766 --directory webapp` `http://localhost:8766`
-- [ ] `node .github/skills/impeccable/scripts/detect.mjs --json webapp/index.html` → `[]` (0) ou seul `em-dash` advisory, exit 0.
-- [ ] `node .github/skills/impeccable/scripts/doctor.mjs` → `design-sidecar-stale` si `DESIGN.md` édité → `/impeccable document`.
+- [x] `node .github/skills/impeccable/scripts/detect.mjs --json webapp/index.html` → seul `em-dash-overuse` advisory (11 —, exit 0), conforme.
+- [x] `node .github/skills/impeccable/scripts/doctor.mjs` → pas de `design-sidecar-stale` (DESIGN.md non édité) ; seul `config-build-path-unset` (optionnel).
 - [ ] Re-run `/impeccable critique webapp/index.html` cible `24/40 → 30+/40` (Good).
 
 ## Ne pas toucher (2-a)
 
-- Plaque/kicker/ME Alami, sweep `0.9s`, double-filet or, encrier `38px`.
+- Plaque/Maître Ayoub, sweep `0.9s`, double-filet or, encrier `38px`. La plaque ne mentionne plus la loi professionnelle ni « République Marocaine » (choix utilisateur 2026-08-29 : pas de rappels permanents — les mentions légales restent dans la doc de déontologie et d'acquisition).
 - Workflow solo offline `file://` + `localStorage avocato:*`.
 - HT/TVA `art.91` / `calcTTC` / `CH/RP/FH` numérotation.
 

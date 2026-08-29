@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AVOCATO — Base documentaire & Cabinet OS — Bureau Plaque & Encrier</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%23070e1c'/%3E%3Ctext x='8' y='12' font-family='Georgia,serif' font-size='11' fill='%23c5a46a' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,700;1,500&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
@@ -21,19 +22,17 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
 
   <aside class="sidebar" id="sidebar" aria-label="Navigation bureau">
     <div class="plaque" role="banner">
-      <div class="plaque-kicker">République Marocaine <span></span> Barreau</div>
       <div class="plaque-title">
         <strong>AVOCATO</strong><em>Bureau</em>
         <span class="brand-sub">Base documentaire & Cabinet OS</span>
       </div>
-      <p class="plaque-desc">Sans publicité, loi professionnelle 66-23 (ex-28-08). Tenue sur parchemin, scellée à l'encre — offline, localStorage.</p>
-      <div class="plaque-meta"><span>Me <b>Alami</b></span> · <span>ICE 001234567000018</span></div>
-      <button class="icon-btn sidebar-close" id="sidebarClose" aria-label="Fermer la navigation">✕</button>
+      <div class="plaque-meta"><span>Maître <b>Ayoub</b></span></div>
+      <button class="icon-btn sidebar-close" id="sidebarClose" aria-label="Fermer la navigation"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="m4.2 4.2 7.6 7.6M11.8 4.2l-7.6 7.6"/></svg></button>
     </div>
 
     <div class="mode-switch" role="tablist" aria-label="Mode">
-      <button class="mode-btn active" data-mode="vault" role="tab" aria-selected="true">📚 Base</button>
-      <button class="mode-btn" data-mode="cabinet" role="tab" aria-selected="false">⚖️ Cabinet OS</button>
+      <button class="mode-btn active" data-mode="vault" role="tab" aria-selected="true"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3.6C6.6 2.6 4.3 2.5 2.7 3v9.8c1.6-.5 3.9-.4 5.3.6 1.4-1 3.7-1.1 5.3-.6V3c-1.6-.5-3.9-.4-5.3.6Z"/><path d="M8 3.6v9.8"/></svg> Base</button>
+      <button class="mode-btn" data-mode="cabinet" role="tab" aria-selected="false"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2.6v10.8M5.5 13.4h5M3 4.8h10"/><path d="M3 4.8 1.7 7.9a1.55 1.55 0 0 0 2.6 0L3 4.8ZM13 4.8l-1.3 3.1a1.55 1.55 0 0 0 2.6 0L13 4.8Z"/></svg> Cabinet OS</button>
     </div>
 
     <label class="search-wrap" id="searchWrap">
@@ -41,28 +40,29 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
       <input id="searchInput" type="search" placeholder="Rechercher… ( / )" autocomplete="off">
     </label>
 
+    <div id="resumeChip" hidden>
+      <span class="rc-label">Dernier :</span> <span class="rc-name mono" id="resumeName"></span> <span class="rc-pct mono" id="resumePct"></span>
+      <button type="button" id="resumeBtn">Reprendre</button>
+    </div>
+
     <nav class="tree" id="tree" aria-label="Documents"></nav>
 
     <nav class="cabinet-nav" id="cabinetNav" hidden>
-      <button class="cab-nav-item active" data-view="dashboard"><span class="glyph">◈</span> Tableau de bord</button>
-      <button class="cab-nav-item" data-view="dossiers"><span class="glyph">▣</span> Dossiers</button>
-      <button class="cab-nav-item" data-view="conventions"><span class="glyph">✎</span> Conventions</button>
-      <button class="cab-nav-item" data-view="factures"><span class="glyph">₪</span> Factures & Provisions</button>
-      <button class="cab-nav-item" data-view="echeances"><span class="glyph">◐</span> Échéances</button>
-      <button class="cab-nav-item" data-view="bibliotheque"><span class="glyph">⧉</span> Bibliothèque</button>
+      <button class="cab-nav-item" data-view="today"><span class="glyph"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M9 1.8 4.4 9h3l-1 5.2L11.6 7h-3l.4-5.2Z"/></svg></span> Aujourd'hui</button>
+      <button class="cab-nav-item active" data-view="dashboard"><span class="glyph"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="5.8"/><path d="M8 8l2.8-2.8M8 2.2v.9M13.8 8h-.9M8 13.8v-.9M2.2 8h.9"/></svg></span> Tableau de bord</button>
+      <button class="cab-nav-item" data-view="pipeline"><span class="glyph"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 13.6V2.6M4 3.2c3-1.2 5 1.2 8 0v5.6c-3 1.2-5-1.2-8 0"/></svg></span> Pipeline</button>
+      <button class="cab-nav-item" data-view="dossiers"><span class="glyph"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 12.5V4h4.3l1.4 1.8H14v6.7H2Z"/><path d="M2 7.4h12"/></svg></span> Dossiers</button>
+      <button class="cab-nav-item" data-view="conventions"><span class="glyph"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2.2 12.8 7 8.8 13.6H7.2L3.2 7 8 2.2Z"/><circle cx="8" cy="8" r="1.1"/><path d="M8 9.1v4.5"/></svg></span> Conventions</button>
+      <button class="cab-nav-item" data-view="factures"><span class="glyph"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.2 2h7.6v12l-1.9-1.1-1.9 1.1-1.9-1.1L4.2 14V2Z"/><path d="M6.3 5.4h3.4M6.3 8h3.4"/></svg></span> Factures & Provisions</button>
+      <button class="cab-nav-item" data-view="echeances"><span class="glyph"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><rect x="2.4" y="3.6" width="11.2" height="10" rx="1"/><path d="M2.4 6.6h11.2M5.4 2.1v2.8M10.6 2.1v2.8"/><path d="M5.5 9.4h1.2M8 9.4h1.2M5.5 11.4h1.2"/></svg></span> Échéances</button>
+      <button class="cab-nav-item" data-view="bibliotheque"><span class="glyph"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13.4V3.8h2.7v9.6H3ZM6.6 13.4V3.8h2.7v9.6H6.6Z"/><path d="m10.6 13.6.9-9.4 2.4.3-1.1 9.3-2.2-.2Z"/></svg></span> Bibliothèque</button>
       <hr class="cab-sep">
-      <button class="cab-nav-item" data-view="new-dossier">＋ Nouveau dossier</button>
+      <button class="cab-nav-item" data-view="new-dossier"><span class="glyph"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10M3 8h10"/></svg></span> Nouveau dossier <span class="mono-key" aria-hidden="true">N</span></button>
     </nav>
 
     <div class="sidebar-foot">
-      <div class="encrier-row">
-        <div class="encrier" aria-hidden="true"></div>
-        <div>
-          <strong>Provision 50% à l'encre.</strong>
-          <p>Reçu délivré, solde à la remise — HT + TVA claire. Offline.</p>
-        </div>
-      </div>
-      <button class="btn btn-ghost btn-block" id="btnDashboard">🏠 Base — Tableau de bord</button>
+      <button class="btn btn-ghost btn-block" id="btnDashboard"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M2.6 7.6 8 2.6l5.4 5M4.6 6.4V13h6.8V6.4"/><path d="M7 13v-3.4h2V13"/></svg> Base — Tableau de bord</button>
+      <button class="btn btn-ghost btn-block" id="btnPalette" aria-label="Recherche globale ( Ctrl+K )"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7.2" cy="7.2" r="4.2"/><path d="m10.4 10.4 3 3"/></svg> Rechercher tout <span class="mono-key" aria-hidden="true">Ctrl K</span></button>
       <div class="build-hint">Base: <code>node scripts/build.js</code> après modif .md</div>
       <div class="build-hint">Cabinet: données en localStorage</div>
     </div>
@@ -71,15 +71,15 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
 
   <main class="main" id="main">
     <header class="topbar" id="topbar">
-      <button class="icon-btn" id="menuBtn" aria-label="Ouvrir la navigation">☰</button>
+      <button class="icon-btn" id="menuBtn" aria-label="Ouvrir la navigation"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M2.6 4.6h10.8M2.6 8h10.8M2.6 11.4h6.8"/></svg></button>
       <div class="crumbs" id="crumbs"></div>
       <div class="topbar-actions">
-        <button class="icon-btn" id="prevBtn" title="Précédent [ [ ]" aria-label="Document précédent">←</button>
-        <button class="icon-btn" id="nextBtn" title="Suivant [ ] ]" aria-label="Document suivant">→</button>
-        <button class="icon-btn" id="readBtn" title="Marquer lu" aria-label="Marquer comme lu">✓</button>
-        <button class="icon-btn" id="fontDec" title="Réduire la police" aria-label="Réduire la police">A−</button>
-        <button class="icon-btn" id="fontInc" title="Augmenter la police" aria-label="Augmenter la police">A+</button>
-        <button class="icon-btn" id="themeBtn" title="Thème ( d )" aria-label="Changer de thème">🌙</button>
+        <button class="icon-btn" id="prevBtn" data-tip="Précédent" title="Précédent [ [ ]" aria-label="Document précédent"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M9.8 3 5 8l4.8 5"/></svg></button>
+        <button class="icon-btn" id="nextBtn" data-tip="Suivant" title="Suivant [ ] ]" aria-label="Document suivant"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M6.2 3 11 8l-4.8 5"/></svg></button>
+        <button class="icon-btn" id="readBtn" data-tip="Lu" title="Marquer lu" aria-label="Marquer comme lu"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="m3.2 8.6 3.4 3.4L12.8 4.4"/></svg></button>
+        <button class="icon-btn" id="fontDec" data-tip="A− police" title="Réduire la police" aria-label="Réduire la police">A−</button>
+        <button class="icon-btn" id="fontInc" data-tip="A+ police" title="Augmenter la police" aria-label="Augmenter la police">A+</button>
+        <button class="icon-btn" id="themeBtn" data-tip="Thème" title="Thème ( d )" aria-label="Changer de thème"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M9.8 2.4a6.1 6.1 0 1 0 3.8 9.3A6.7 6.7 0 0 1 9.8 2.4Z"/></svg></button>
       </div>
     </header>
 
@@ -87,12 +87,24 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
   </main>
 </div>
 
+<button id="fabNewDossier" hidden aria-label="Nouveau dossier ( N )"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10M3 8h10"/></svg> Nouveau dossier<span class="fab-key mono" aria-hidden="true">N</span></button>
+<div id="toastRegion" aria-live="polite" aria-atomic="true"></div>
+
+<dialog id="paletteDlg" class="dlg dlg-palette" aria-label="Recherche globale">
+  <div class="pal-input-wrap">
+    <svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7.2" cy="7.2" r="4.2"/><path d="m10.4 10.4 3 3"/></svg>
+    <input id="palInput" type="text" placeholder="Aller à un dossier, un document, une action…" autocomplete="off" spellcheck="false">
+    <span class="pal-esc mono">Esc</span>
+  </div>
+  <ul id="palResults" class="pal-results" role="listbox" aria-label="Résultats"></ul>
+</dialog>
+
 <!-- Cabinet dialogs -->
 <dialog id="dlgDossier" class="dlg">
   <form method="dialog" id="formDossier">
     <h3 id="dlgDossierTitle">Nouveau dossier</h3>
-    <div class="form-grid">
-      <label>Client / Société *<input name="client" required placeholder="Ex: SARL Atlas - M. Alami"></label>
+    <div class="form-grid" id="dlgStep1">
+      <label>Client / Société *<input name="client" required placeholder="Ex: SARL Atlas - M. Benali"></label>
       <label>ICE (si société)<input name="ice" placeholder="ICE 15 chiffres"></label>
       <label>Type *<select name="type" required>
         <option value="">— Choisir —</option>
@@ -114,10 +126,16 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
         <option>Abonnement - Secrétariat juridique (2.500-6.000 DH HT/mois)</option>
       </select></label>
       <label>Honoraires HT (DH) *<input name="honoraires" type="number" min="0" required placeholder="2900"></label>
+      <div class="span-2 dlg-step-nav"><button type="button" class="btn btn-primary" id="btnDlgNext">Continuer vers l'avancé →</button></div>
+    </div>
+    <div class="form-grid" id="dlgStep2" hidden>
+      <div class="span-2 dlg-step-nav"><button type="button" class="btn btn-ghost2" id="btnDlgBack">← Retour aux infos client</button><span class="step-tag mono">Étape 2 / 2 — Avancé</span></div>
       <label>TVA
         <select name="tva"><option value="20">20% (assujetti)</option><option value="0">0% (non assujetti, art. 91 CGI)</option></select>
       </label>
-      <label>Provision %<input name="provisionPct" type="number" min="0" max="100" value="50"></label>
+      <label>Provision %<input name="provisionPct" type="number" min="0" max="100" value="50" aria-describedby="provHelp">
+        <span class="field-help" id="provHelp">ⓘ Exigible avant démarrage — reçu immédiat, art. 30. Solde à la remise.</span>
+      </label>
       <label>Statut<select name="statut">
         <option>Prospect</option>
         <option>Convention envoyée</option>
@@ -131,6 +149,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
       <label>Contact (tél/WhatsApp)<input name="contact" placeholder="06 XX XX XX XX"></label>
       <label class="span-2">Notes<textarea name="notes" rows="2" placeholder="Source: comptable X, diagnostic du JJ/MM, risques identifiés..."></textarea></label>
     </div>
+    <div id="provisionLive" class="mono" aria-live="polite"></div>
     <div class="dlg-actions">
       <button type="button" class="btn" id="btnCancelDossier">Annuler</button>
       <button type="submit" class="btn btn-primary">Enregistrer dossier</button>
@@ -166,8 +185,10 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
 
 <script src="vendor/marked.min.js"></script>
 <script src="vendor/chart.umd.min.js"></script>
+<script src="icons.js"></script>
 <script src="data.js"></script>
 <script src="app.js"></script>
 <script src="cabinet.js"></script>
+<script src="palette.js"></script>
 </body>
 </html>
