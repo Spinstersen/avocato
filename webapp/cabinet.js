@@ -1,4 +1,4 @@
-/* Cabinet OS — Dossiers / Conventions / Factures / Échéances / Bibliothèque
+﻿/* Cabinet OS — Dossiers / Conventions / Factures / Échéances / Bibliothèque
    Offline, localStorage only. No server. */
 (function () {
   'use strict';
@@ -23,50 +23,11 @@
     get factures() { return LS.get('factures', []); },
     set factures(v) { LS.set('factures', v); },
     get echeances() { return LS.get('echeances', []); },
-    set echeances(v) { LS.set('echeances', v); },
-    get settings() { return LS.get('cabSettings', {}); },
-    set settings(v) { LS.set('cabSettings', v); },
-    get counters() { return LS.get('cabCounters', {}); },
-    set counters(v) { LS.set('cabCounters', v); },
-    get journal() { return LS.get('cabJournal', []); },
-    set journal(v) { LS.set('cabJournal', v); }
+    set echeances(v) { LS.set('echeances', v); }
   };
 
-  /* Journal / timeline — événements auto-loggés */
-  function logEvent(dossierId, type, label) {
-    const j = STORE.journal;
-    j.push({ id: uid(), ts: new Date().toISOString().slice(0, 16).replace('T', ' '), dossierId: dossierId || '', type, label });
-    if (j.length > 500) STORE.journal = j.slice(-400);
-    else STORE.journal = j;
-  }
-
-  /* Numérotation séquentielle persistante (fin des collisions) */
-  function nextNum(prefix) {
-    const c = STORE.counters;
-    const n = (c[prefix] || 0) + 1;
-    STORE.counters = { ...c, [prefix]: n };
-    return prefix + '-' + new Date().getFullYear() + '-' + String(n).padStart(3, '0');
-  }
-
-  /* En-tête cabinet dynamique (loi 66.23 — identité complète) */
-  function settingsComplete() {
-    const s = STORE.settings;
-    return !!(s.nomAvocat && s.barreau);
-  }
-  function cabHeaderLines() {
-    const s = STORE.settings;
-    const l1 = s.nomAvocat ? ('Me ' + s.nomAvocat + ' — Avocat au Barreau de ' + s.barreau) : '[Compléter votre identité dans Paramètres]';
-    const bits = [];
-    if (s.ice) bits.push('ICE ' + s.ice);
-    if (s.if_) bits.push('IF ' + s.if_);
-    if (s.rc) bits.push('RC ' + s.rc);
-    if (s.adresse) bits.push(s.adresse);
-    if (s.tel) bits.push('Tél ' + s.tel);
-    if (s.email) bits.push(s.email);
-    return { l1, l2: bits.join(' — ') || '', ribLine: (s.rib && s.banque) ? ('RIB ' + s.rib + ' — ' + s.banque) : (s.rib ? 'RIB ' + s.rib : '') };
-  }
-
-  let mode = 'cabinet';
+  let mode = LS.get('mode', 'vault');
+  if (mode === 'Base') { mode = 'vault'; LS.set('mode', 'vault'); }
   let cabView = LS.get('cabinetView', 'dashboard');
   let editingId = null;
 
@@ -92,37 +53,56 @@
     return { ht, tva: tv, ttc: ht + tv };
   }
 
-  /* ---------- Thème (indépendant de l'app Learn) ---------- */
-  function applyTheme() {
-    const t = localStorage.getItem('avocato:cabTheme') || 'system';
-    document.body.dataset.theme = t;
-    const btn = $('#themeBtn');
-    if (btn) btn.textContent = t === 'dark' ? '☀️' : (t === 'light' ? '🌙' : '💻');
-  }
-  function cycleTheme() {
-    const order = ['light', 'dark'];
-    const cur = localStorage.getItem('avocato:cabTheme') || 'system';
-    const next = order[(order.indexOf(cur) + 1) % order.length] || 'light';
-    try { localStorage.setItem('avocato:cabTheme', next); } catch {}
-    document.body.dataset.theme = next;
-    const btn = $('#themeBtn');
-    if (btn) btn.textContent = next === 'dark' ? '☀️' : '🌙';
-  }
-
-  function openInLearn(id) {
-    location.href = 'index.html#' + encodeURIComponent(id);
+  /* ---------- Mode switch ---------- */
+  function setMode(m) {
+    mode = m;
+    LS.set('mode', m);
+    $$('.mode-btn').forEach(b => {
+      const on = b.dataset.mode === m;
+      b.classList.toggle('active', on);
+      b.setAttribute('aria-selected', on ? 'true' : 'false');
+    });
+    const isBase = m === 'vault';
+    $('#tree').hidden = !isBase;
+    $('#searchWrap').hidden = !isBase;
+    $('#btnDashboard').hidden = !isBase;
+    $('#cabinetNav').hidden = isBase;
+    $('#prevBtn').hidden = !isBase;
+    $('#nextBtn').hidden = !isBase;
+    $('#readBtn').hidden = !isBase;
+    if (isBase) {
+      // restore Base view (trigger app.js to re-render tree if needed)
+      const h = location.hash && decodeURIComponent(location.hash.slice(1));
+      const data = window.VAULT_DATA || [];
+      if (h && data.some(d => d.id === h)) {
+        // let app.js handle via hashchange, or directly call openDoc if exposed
+        // app.js exposes openDoc globally? No, so we dispatch hashchange
+        window.dispatchEvent(new HashChangeEvent('hashchange'));
+      } else {
+        const last = LS.get('last', null);
+        if (last && data.some(d => d.id === last)) {
+          location.hash = '#' + encodeURIComponent(last);
+        } else {
+          // show Base dashboard via app.js: dispatch to trigger openDashboard
+          // simplest: clear hash and reload Base dashboard by calling the global if available
+          if (typeof window.openDashboard === 'function') window.openDashboard();
+          else location.hash = '';
+        }
+      }
+    } else {
+      // cabinet
+      renderCabinet();
+    }
   }
 
   function renderCabinet() {
     $$('.cab-nav-item').forEach(b => b.classList.toggle('active', b.dataset.view === cabView));
     if (cabView === 'dashboard') renderCabDashboard();
-    else if (cabView === 'pipeline') renderKanban();
     else if (cabView === 'dossiers') renderDossiers();
     else if (cabView === 'conventions') renderConventions();
     else if (cabView === 'factures') renderFactures();
     else if (cabView === 'echeances') renderEcheances();
     else if (cabView === 'bibliotheque') renderBibliotheque();
-    else if (cabView === 'settings') renderSettings();
     else if (cabView === 'new-dossier') { cabView = 'dossiers'; renderDossiers(); openDlgDossier(); }
   }
 
@@ -136,45 +116,27 @@
     const soldeDu = caHT - provEnc;
     const enCours = dossiers.filter(d => ['Convention signée', 'En cours', 'Livré - solde dû'].includes(d.statut)).length;
     const overdue = echeances.filter(e => !e.done && e.date && e.date < todayISO()).length;
-    const fin = financeAggregates();
-    const anneeCourante = new Date().getFullYear();
 
     const content = $('#content');
     content.innerHTML = `
       <div class="cab">
-        <p class="eyebrow">Cabinet</p><h2>Tableau de bord</h2>
-        <p class="sub">Dossiers en localStorage — offline. Provision et solde suivent la convention d'honoraires (loi n° 66.23).</p>
-        ${!settingsComplete() ? '<div class="dash-panel" style="border-left:4px solid var(--warn);margin-bottom:14px"><h3>Configure ta fiche cabinet</h3><p style="font-size:13px;color:var(--text-dim)">Nom + Barreau requis pour que les conventions/factures sortent à ton nom (sinon placeholders).</p><button class="btn btn-primary" id="cabGoSettings">Ouvrir les Paramètres</button></div>' : ''}
-        <div class="bento">
-          <div class="dash-card bento-hero"><div class="num">${fmtMoney(fin.encaisse)}</div><div class="lbl">Encaissé réel TTC</div></div>
-          <div class="dash-card" style="grid-column:span 3"><div class="num">${fmtMoney(fin.attendu)}</div><div class="lbl">Attendu — émis non encaissé</div></div>
+        <h2>Tableau de bord Cabinet</h2>
+        <p class="sub">Dossiers en localStorage — offline. Provision et solde suivent la convention d'honoraires (art. 30 Loi 28-08).</p>
+        <div class="dash-cards">
           <div class="dash-card"><div class="num">${total}</div><div class="lbl">Dossiers</div></div>
+          <div class="dash-card"><div class="num">${fmtMoney(caHT)}</div><div class="lbl">CA HT total (missions)</div></div>
+          <div class="dash-card"><div class="num">${fmtMoney(provEnc)}</div><div class="lbl">Provisions (50% théorique)</div></div>
           <div class="dash-card"><div class="num">${enCours}</div><div class="lbl">En cours / livrés</div></div>
-          <div class="dash-card"><div class="num" style="${overdue ? 'color:var(--err)' : 'color:var(--ok)'}">${overdue}</div><div class="lbl">Échéances en retard</div></div>
+          <div class="dash-card"><div class="num">${overdue}</div><div class="lbl">Échéances en retard</div></div>
         </div>
         <div class="dash-grid">
           <div class="dash-panel"><h3>Dossiers par statut</h3><div class="chart-canvas-wrap" style="height:220px"><canvas id="cabStatut"></canvas></div></div>
           <div class="dash-panel"><h3>CA par mission</h3><div class="chart-canvas-wrap" style="height:220px"><canvas id="cabMission"></canvas></div></div>
         </div>
-        <div class="dash-grid">
-          <div class="dash-panel">
-            <h3>TVA collectée — ${anneeCourante} <select id="tvaYear" style="margin-left:auto;font-size:12px;padding:2px 6px"></select></h3>
-            <table class="cab-table"><thead><tr><th>Trimestre</th><th>Base HT</th><th>TVA collectée</th></tr></thead><tbody id="tvaBody">
-            ${tvaParTrimestre(anneeCourante).map(r => `<tr><td>${r.q}</td><td>${fmtMoney(r.ht)}</td><td class="mono">${fmtMoney(r.tva)}</td></tr>`).join('')}
-            </tbody></table>
-            <p style="font-size:11px;color:var(--text-faint);margin-top:8px">Base = factures émises (provisions + soldes). Vérifier le régime déclaratif avec ton comptable.</p>
-          </div>
-          <div class="dash-panel">
-            <h3>Export comptable</h3>
-            <p style="font-size:13px;color:var(--text-dim)">Fichier CSV (dossiers + factures) prêt à transmettre au comptable pour la déclaration.</p>
-            <button class="btn btn-primary" id="btnExportCSV">⬇️ Exporter CSV ${anneeCourante}</button>
-            <p style="font-size:11px;color:var(--text-faint);margin-top:8px">Colonnes : type, numéro, date, client, ICE, mission, HT, TVA, TTC, statut, encaissé le.</p>
-          </div>
-        </div>
         <div class="dash-panel" style="margin-bottom:16px">
           <h3>Actions rapides</h3>
           <div class="cab-toolbar">
-            <button class="btn btn-primary" id="cabNewDossier2">Nouveau dossier</button>
+            <button class="btn btn-primary" id="cabNewDossier2">＋ Nouveau dossier</button>
             <button class="btn" id="cabSample">Charger 3 dossiers d'exemple</button>
             <button class="btn" id="cabExport">Exporter JSON</button>
             <label class="btn" style="cursor:pointer">Importer JSON <input type="file" id="cabImport" accept=".json" hidden></label>
@@ -216,36 +178,9 @@
     }, 30);
 
     $('#cabNewDossier2').addEventListener('click', openDlgDossier);
-    const goSet = $('#cabGoSettings'); if (goSet) goSet.addEventListener('click', () => { cabView = 'settings'; LS.set('cabinetView', 'settings'); renderCabinet(); });
     $('#cabSample').addEventListener('click', loadSample);
     $('#cabExport').addEventListener('click', exportJSON);
     $('#cabImport').addEventListener('change', importJSON);
-    $('#btnExportCSV').addEventListener('click', exportCSV);
-    // sélecteur année TVA
-    const ySel = $('#tvaYear');
-    const years = [...new Set(STORE.factures.map(f => (f.date || '').slice(0, 4)).filter(Boolean))].sort().reverse();
-    if (years.length) {
-      ySel.innerHTML = years.map(y => `<option ${y === String(anneeCourante) ? 'selected' : ''}>${y}</option>`).join('');
-      ySel.addEventListener('change', () => {
-        const rows = tvaParTrimestre(Number(ySel.value));
-        $('#tvaBody').innerHTML = rows.map(r => `<tr><td>${r.q}</td><td>${fmtMoney(r.ht)}</td><td class="mono">${fmtMoney(r.tva)}</td></tr>`).join('');
-      });
-    } else { ySel.disabled = true; }
-  }
-
-  function exportCSV() {
-    const annee = new Date().getFullYear();
-    const escCsv = (v) => '"' + String(v ?? '').replace(/"/g, '""') + '"';
-    const lines = ['type;numero;date;client;ice;mission;ht;tva;ttc;statut;encaisse_le'];
-    STORE.factures.forEach(f => {
-      const d = STORE.dossiers.find(x => x.id === f.dossierId) || {};
-      lines.push([escCsv(f.type), escCsv(f.num), escCsv(f.date), escCsv(d.client), escCsv(d.ice), escCsv(d.mission), f.ht, f.tva, f.ttc, escCsv(f.statut), escCsv(f.encaisseeLe || '')].join(';'));
-    });
-    STORE.dossiers.forEach(d => {
-      lines.push(['DOSSIER', '', escCsv(d.createdAt), escCsv(d.client), escCsv(d.ice), escCsv(d.mission), d.honoraires, calcTTC(d.honoraires, d.tva).tva, calcTTC(d.honoraires, d.tva).ttc, escCsv(d.statut), ''].join(';'));
-    });
-    const blob = new Blob(['\uFEFF' + lines.join('\r\n')], { type: 'text/csv;charset=utf-8' });
-    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'comptable-' + annee + '.csv'; a.click(); URL.revokeObjectURL(a.href);
   }
 
   function loadSample() {
@@ -285,157 +220,18 @@
     r.readAsText(file);
   }
 
-  /* ---------- Impression isolée : seul le document part au PDF ---------- */
-  function printDoc(html) {
-    const area = $('#printArea');
-    area.innerHTML = html;
-    document.body.classList.add('printing-doc');
-    const done = () => { document.body.classList.remove('printing-doc'); window.removeEventListener('afterprint', done); };
-    window.addEventListener('afterprint', done);
-    setTimeout(() => { window.print(); setTimeout(done, 2000); }, 60);
-  }
-
-  /* ---------- Paramètres cabinet (identité injectée dans les documents) ---------- */
-  const SETTINGS_FIELDS = [
-    ['nomAvocat', 'Nom & prénom *', 'Ex: Yassine El Amrani', 'text'],
-    ['barreau', 'Barreau *', 'Ex: Casablanca', 'text'],
-    ['ice', 'ICE', '15 chiffres', 'text'],
-    ['if_', 'Identifiant fiscal (IF)', 'IF 12345678', 'text'],
-    ['rc', 'RC (si SCP)', 'Ex: RC Casa 123456', 'text'],
-    ['adresse', 'Adresse cabinet', 'Rue, ville', 'text'],
-    ['tel', 'Téléphone / WhatsApp', '06 XX XX XX XX', 'tel'],
-    ['email', 'Email professionnel', 'contact@cabinet.ma', 'email'],
-    ['rib', 'RIB (24 chiffres)', '', 'text'],
-    ['banque', 'Banque', 'Ex: Attijariwafa Bank', 'text']
-  ];
-
-  function renderSettings() {
-    const s = STORE.settings;
-    const content = $('#content');
-    const ok = settingsComplete();
-    content.innerHTML = `
-      <div class="cab" style="max-width:720px">
-        <p class="eyebrow">Configuration</p><h2>Paramètres du cabinet</h2>
-        <p class="sub">Ces informations sont injectées dans les conventions, reçus et factures générés. Stockées uniquement en localStorage (offline).</p>
-        ${ok ? '<p style="color:var(--ok);font-weight:600;font-size:13px">✓ Identité configurée — vos documents sortent prêts à signer.</p>' : '<p style="color:var(--warn);font-weight:600;font-size:13px">⚠️ Nom et Barreau requis pour générer des documents propres.</p>'}
-        <form id="formSettings" class="dash-panel" style="padding:18px">
-          <h3>Identité & coordonnées</h3>
-          <div class="form-grid">
-            ${SETTINGS_FIELDS.map(([k, lbl, ph, type]) => `<label>${lbl}<input name="${esc(k)}" type="${type}" value="${esc(s[k] || '')}" placeholder="${ph}"></label>`).join('')}
-          </div>
-          <div class="cab-toolbar" style="margin-top:12px">
-            <button type="submit" class="btn btn-primary">Enregistrer</button>
-            ${ok ? '<button type="button" class="btn btn-danger" id="btnResetSettings">Effacer</button>' : ''}
-          </div>
-        </form>
-      </div>`;
-    $('#crumbs').innerHTML = '<span class="cur">Cabinet — Paramètres</span>';
-    $('#formSettings').addEventListener('submit', (e) => {
-      e.preventDefault();
-      const fd = new FormData(e.target);
-      const obj = Object.fromEntries(fd.entries());
-      STORE.settings = obj;
-      renderSettings();
-    });
-    const rst = $('#btnResetSettings');
-    if (rst) rst.addEventListener('click', () => {
-      if (!confirm('Effacer la fiche cabinet ?')) return;
-      STORE.settings = {};
-      renderSettings();
-    });
-  }
-
-  /* ---------- Pipeline Kanban ---------- */
-  const STATUTS = ['Prospect', 'Convention envoyée', 'Convention signée', 'En cours', 'Livré - solde dû', 'Clôturé', 'Abandonné'];
-
-  function moveStatut(id, delta) {
-    const d = STORE.dossiers.find(x => x.id === id);
-    if (!d) return;
-    const i = STATUTS.indexOf(d.statut || 'Prospect');
-    const ni = Math.min(STATUTS.length - 1, Math.max(0, i + delta));
-    if (ni === i) return;
-    d.statut = STATUTS[ni];
-    d.updatedAt = todayISO();
-    STORE.dossiers = STORE.dossiers;
-    logEvent(id, 'statut', 'Statut → ' + d.statut);
-    renderKanban();
-  }
-
-  function setStatutDrop(id, statut) {
-    const d = STORE.dossiers.find(x => x.id === id);
-    if (!d || d.statut === statut) return;
-    d.statut = statut;
-    d.updatedAt = todayISO();
-    STORE.dossiers = STORE.dossiers;
-    logEvent(id, 'statut', 'Statut → ' + statut);
-    renderKanban();
-  }
-
-  function renderKanban() {
-    const dossiers = STORE.dossiers;
-    const content = $('#content');
-    const cards = (statut) => dossiers.filter(d => (d.statut || 'Prospect') === statut).map(d => {
-      const overdueEch = STORE.echeances.some(e => e.dossierId === d.id && !e.done && e.date && e.date < todayISO());
-      return `<div class="kan-card ${overdueEch ? 'kan-late' : ''}" draggable="true" data-kid="${esc(d.id)}">
-        <button class="kan-move" data-mv="${esc(d.id)}" data-d="-1" title="Reculer" aria-label="Reculer">◀</button>
-        <div class="kan-body" data-open="${esc(d.id)}" title="Ouvrir le dossier">
-          <strong>${esc(d.client)}</strong>
-          <span class="kan-meta">${esc((d.mission || '').split('(')[0].trim())}</span>
-          <span class="kan-money">${fmtMoney(d.honoraires)} HT${d.echeance ? ' · ' + esc(fmtDate(d.echeance)) : ''}${overdueEch ? ' · 🔴 retard' : ''}</span>
-        </div>
-        <button class="kan-move" data-mv="${esc(d.id)}" data-d="1" title="Avancer" aria-label="Avancer">▶</button>
-      </div>`;
-    }).join('') || '<div class="kan-empty">—</div>';
-
-    content.innerHTML = `
-      <div class="cab">
-        <p class="eyebrow">Vue d'ensemble</p><h2>Pipeline</h2>
-        <p class="sub">${dossiers.length} dossier(s) — glisse les cartes sur desktop, ◀▶ sur mobile. Clique le centre pour ouvrir.</p>
-      </div>
-      <div class="kan-board">
-        ${STATUTS.map(s => `<div class="kan-col" data-col="${esc(s)}"><div class="kan-head">${esc(s)}<span>${dossiers.filter(d => (d.statut || 'Prospect') === s).length}</span></div>${cards(s)}</div>`).join('')}
-      </div>`;
-    $('#crumbs').innerHTML = '<span class="cur">Cabinet — Pipeline</span>';
-
-    $$('.kan-move').forEach(b => b.addEventListener('click', () => moveStatut(b.dataset.mv, Number(b.dataset.d))));
-    $$('.kan-body').forEach(b => b.addEventListener('click', () => viewDossier(b.dataset.open)));
-    // drag & drop desktop
-    let dragId = null;
-    $$('.kan-card').forEach(card => card.addEventListener('dragstart', () => { dragId = card.dataset.kid; card.classList.add('dragging'); }));
-    cardDragEnd();
-    function cardDragEnd() { $$('.kan-card').forEach(c => c.addEventListener('dragend', () => c.classList.remove('dragging'))); }
-    $$('.kan-col').forEach(col => {
-      col.addEventListener('dragover', (e) => { e.preventDefault(); col.classList.add('kan-over'); });
-      col.addEventListener('dragleave', () => col.classList.remove('kan-over'));
-      col.addEventListener('drop', (e) => {
-        e.preventDefault(); col.classList.remove('kan-over');
-        if (dragId) setStatutDrop(dragId, col.dataset.col);
-        dragId = null;
-      });
-    });
-  }
-
-  /* ---------- Timeline (journal) ---------- */
-  function renderTimeline(dossierId) {
-    const events = STORE.journal.filter(e => e.dossierId === dossierId).slice(-20).reverse();
-    if (!events.length) return '<p style="color:var(--text-dim);font-size:13px">Aucun événement encore. Le journal se remplit automatiquement (conventions, factures, changements de statut).</p>';
-    const ICON = { convention: 'C', facture: 'F', statut: 'S', echeance: 'E', dossier: 'D' };
-    return `<ul class="timeline">${events.map(e => `
-      <li><span class="tl-icon">${ICON[e.type] || '\u00B7'}</span><span class="tl-ts mono">${esc(e.ts)}</span><span>${esc(e.label)}</span></li>`).join('')}</ul>`;
-  }
-
   /* ---------- Dossiers ---------- */
   function renderDossiers() {
     const dossiers = STORE.dossiers.slice().sort((a, b) => (b.updatedAt || '').localeCompare(a.updatedAt || ''));
     const content = $('#content');
     content.innerHTML = `
       <div class="cab">
-        <p class="eyebrow">Activité</p><h2>Dossiers</h2>
-        <p class="sub">${dossiers.length} dossier(s) — Honoraires HT, provision — loi n° 66.23 : reçu numéroté, paiement >10 000 DH par chèque/virement. Cliquez sur un dossier pour agir.</p>
+        <h2>Dossiers</h2>
+        <p class="sub">${dossiers.length} dossier(s) — Honoraires HT, provision (art. 30 Loi 28-08). Cliquez sur un dossier pour agir.</p>
         <div class="cab-toolbar">
           <input id="dossierSearch" placeholder="Rechercher client, ICE, mission..." style="flex:1;min-width:180px">
           <select id="dossierFilterStatut"><option value="">Tous statuts</option><option>Prospect</option><option>Convention envoyée</option><option>Convention signée</option><option>En cours</option><option>Livré - solde dû</option><option>Clôturé</option><option>Abandonné</option></select>
-          <button class="btn btn-primary" id="btnNewDossier">Nouveau dossier</button>
+          <button class="btn btn-primary" id="btnNewDossier">＋ Nouveau dossier</button>
         </div>
         <div class="cab-table-wrap">
           <table class="cab-table" id="tblDossiers">
@@ -444,13 +240,13 @@
       const c = calcTTC(d.honoraires, d.tva);
       const prov = Math.round(c.ttc * (Number(d.provisionPct) || 0) / 100);
       return `<tr data-id="${esc(d.id)}">
-                <td data-label="Client"><strong>${esc(d.client)}</strong><br><span style="color:var(--text-dim);font-size:11px">${esc(d.type || '')} ${d.ice ? '· ICE ' + esc(d.ice) : ''}</span></td>
-                <td data-label="Mission" style="max-width:180px;white-space:normal;font-size:12px">${esc(d.mission || '')}</td>
-                <td data-label="Honoraires" class="mono">${fmtMoney(c.ht)}<br><span style="color:var(--text-dim)">${d.tva == 0 ? 'TVA 0%' : 'TTC ' + fmtMoney(c.ttc)}</span></td>
-                <td data-label="Provision" class="mono">${fmtMoney(prov)}<br><span style="color:var(--text-dim)">${d.provisionPct || 50}%</span></td>
-                <td data-label="Statut">${badge(d.statut || 'Prospect')}</td>
-                <td data-label="Échéance" class="mono">${esc(d.echeance ? fmtDate(d.echeance) : '—')}</td>
-                <td data-label="Actions"><button class="btn" data-act="view" data-id="${esc(d.id)}">Voir</button> <button class="btn" data-act="edit" data-id="${esc(d.id)}">Modifier</button></td>
+                <td><strong>${esc(d.client)}</strong><br><span style="color:var(--text-dim);font-size:11px">${esc(d.type || '')} ${d.ice ? '· ICE ' + esc(d.ice) : ''}</span></td>
+                <td style="max-width:180px;white-space:normal;font-size:12px">${esc(d.mission || '')}</td>
+                <td class="mono">${fmtMoney(c.ht)}<br><span style="color:var(--text-dim)">${d.tva == 0 ? 'TVA 0%' : 'TTC ' + fmtMoney(c.ttc)}</span></td>
+                <td class="mono">${fmtMoney(prov)}<br><span style="color:var(--text-dim)">${d.provisionPct || 50}%</span></td>
+                <td>${badge(d.statut || 'Prospect')}</td>
+                <td class="mono">${esc(d.echeance ? fmtDate(d.echeance) : '—')}</td>
+                <td><button class="btn" data-act="view" data-id="${esc(d.id)}">Voir</button> <button class="btn" data-act="edit" data-id="${esc(d.id)}">Éditer</button></td>
               </tr>`;
     }).join('')}</tbody>
           </table>
@@ -499,12 +295,12 @@
           <div class="dash-card"><div class="num">${esc(fmtDate(d.echeance))}</div><div class="lbl">Échéance</div></div>
         </div>
         <div class="cab-toolbar">
-          <button class="btn btn-primary" data-act="conv" data-id="${esc(d.id)}">Générer la convention</button>
-          <button class="btn" data-act="fact-prov" data-id="${esc(d.id)}">Reçu de provision</button>
-          <button class="btn" data-act="fact-solde" data-id="${esc(d.id)}">Facture de solde</button>
-          <button class="btn" data-act="echeance" data-id="${esc(d.id)}">Échéance</button>
-          <button class="btn" data-act="edit2" data-id="${esc(d.id)}">Éditer</button>
-          <button class="btn btn-danger" data-act="del" data-id="${esc(d.id)}">Supprimer</button>
+          <button class="btn btn-primary" data-act="conv" data-id="${esc(d.id)}">📝 Générer convention</button>
+          <button class="btn" data-act="fact-prov" data-id="${esc(d.id)}">💳 Reçu provision</button>
+          <button class="btn" data-act="fact-solde" data-id="${esc(d.id)}">💳 Facture solde</button>
+          <button class="btn" data-act="echeance" data-id="${esc(d.id)}">⏰ + Échéance</button>
+          <button class="btn" data-act="edit2" data-id="${esc(d.id)}">✏️ Éditer</button>
+          <button class="btn btn-danger" data-act="del" data-id="${esc(d.id)}">🗑 Supprimer</button>
         </div>
         <div class="dash-grid">
           <div class="dash-panel"><h3>Informations</h3>
@@ -520,7 +316,6 @@
             ${echeances.length ? '<table class="cab-table"><thead><tr><th>Date</th><th>Intitulé</th><th>✓</th></tr></thead><tbody>' + echeances.map(e => `<tr><td class="mono">${esc(e.date || '')}</td><td>${esc(e.intitule || e.type)}</td><td><input type="checkbox" ${e.done ? 'checked' : ''} data-eid="${esc(e.id)}"></td></tr>`).join('') + '</tbody></table>' : '<p style="color:var(--text-dim);font-size:13px">Aucune échéance.</p>'}
           </div>
         </div>
-        <div class="dash-panel" style="margin-top:16px"><h3>Journal du dossier</h3>${renderTimeline(id)}</div>
         <div class="dash-panel" style="margin-top:16px"><h3>Conventions (${convs.length})</h3>
           ${convs.length ? '<table class="cab-table"><thead><tr><th>N°</th><th>Date</th><th>Honoraires</th><th>Provision</th></tr></thead><tbody>' + convs.map(cc => `<tr><td class="mono">${esc(cc.num)}</td><td>${esc(cc.date)}</td><td>${fmtMoney(cc.ht)} HT</td><td>${fmtMoney(cc.provision)}</td></tr>`).join('') + '</tbody></table>' : '<p style="color:var(--text-dim);font-size:13px">Aucune convention générée.</p>'}
         </div>
@@ -539,12 +334,7 @@
     $$('[data-act="del"]').forEach(b => b.addEventListener('click', () => delDossier(b.dataset.id)));
     $$('input[data-eid]').forEach(cb => cb.addEventListener('change', () => {
       const e = STORE.echeances.find(x => x.id === cb.dataset.eid);
-      if (e) {
-        e.done = cb.checked;
-        STORE.echeances = STORE.echeances;
-        logEvent(id, 'echeance', (cb.checked ? '✓ Échéance faite : ' : '↩ Échéance réouverte : ') + (e.intitule || e.type || ''));
-        viewDossier(id);
-      }
+      if (e) { e.done = cb.checked; STORE.echeances = STORE.echeances; viewDossier(id); }
     }));
   }
 
@@ -587,15 +377,11 @@
     const now = todayISO();
     if (editingId) {
       const idx = STORE.dossiers.findIndex(d => d.id === editingId);
-      const oldStatut = STORE.dossiers[idx]?.statut;
       if (idx >= 0) STORE.dossiers[idx] = { ...STORE.dossiers[idx], ...obj, updatedAt: now };
-      if (oldStatut && obj.statut && obj.statut !== oldStatut) logEvent(editingId, 'statut', 'Statut → ' + obj.statut);
-      else logEvent(editingId, 'dossier', 'Dossier modifié');
     } else {
       STORE.dossiers = [...STORE.dossiers, { id: uid(), ...obj, createdAt: now, updatedAt: now, statut: obj.statut || 'Prospect' }];
       // auto échéance if date provided
       const newId = STORE.dossiers[STORE.dossiers.length - 1].id;
-      logEvent(newId, 'dossier', 'Dossier créé (' + fmtMoney(obj.honoraires) + ' HT)');
       if (obj.echeance) {
         STORE.echeances = [...STORE.echeances, { id: uid(), dossierId: newId, date: obj.echeance, type: 'Remise livrables', intitule: 'Remise V1 + Loom', done: false }];
       }
@@ -610,60 +396,53 @@
   function genConvention(dossierId) {
     const d = STORE.dossiers.find(x => x.id === dossierId);
     if (!d) return;
-    if (!settingsComplete() && !confirm('Ta fiche cabinet (nom/barreau) est incomplète.\nGénérer quand même avec des placeholders ?')) return;
     const c = calcTTC(d.honoraires, d.tva);
     const prov = Math.round(c.ttc * (Number(d.provisionPct) || 50) / 100);
-    const conv = { id: uid(), dossierId, num: nextNum('CH'), date: todayISO(), mission: d.mission, ht: c.ht, tva: c.tva, ttc: c.ttc, provision: prov, provisionPct: d.provisionPct || 50 };
+    const num = 'CH-' + new Date().getFullYear() + '-' + String(STORE.conventions.length + 1).padStart(3, '0');
+    const conv = { id: uid(), dossierId, num, date: todayISO(), mission: d.mission, ht: c.ht, tva: c.tva, ttc: c.ttc, provision: prov, provisionPct: d.provisionPct || 50 };
     STORE.conventions = [...STORE.conventions, conv];
-    logEvent(dossierId, 'convention', 'Convention ' + conv.num + ' générée');
     previewConvention(conv, d);
   }
 
   function previewConvention(conv, dossier) {
-    const hd = cabHeaderLines();
     const content = $('#content');
     content.innerHTML = `
       <div class="cab">
         <button class="btn" id="backConv">← Retour</button>
-        <div class="doc" id="convPrint" style="max-width:750px;margin:16px auto;padding:44px 48px;background:#fffdf9;color:#20242b;border:1px solid #e6e1d5;box-shadow:0 24px 60px -30px rgba(20,26,34,.35);border-radius:4px">
-          <div style="display:flex;justify-content:space-between;align-items:flex-end;border-bottom:3px double #2c4bc4;padding-bottom:14px;margin-bottom:22px">
-            <div>
-              <div style="font-weight:700;font-size:16.5px;letter-spacing:-.01em">${esc(hd.l1)}</div>
-              <div style="font-size:11.5px;color:#68727e;margin-top:3px;line-height:1.55">${esc(hd.l2)}</div>
-            </div>
-            <div style="font-family:'Avenir Next','Segoe UI Variable Display',sans-serif;font-weight:700;font-size:11px;letter-spacing:.28em;color:#2c4bc4">AVOCAT</div>
+        <div class="doc" id="convPrint" style="max-width:750px;margin:16px auto">
+          <div style="text-align:center;border-bottom:2px solid #0f2a44;padding-bottom:10px;margin-bottom:16px">
+            <div style="font-weight:700;font-size:16px">Me [Nom Prénom] — Avocat au Barreau de [Ville]</div>
+            <div style="font-size:12px;color:#5a6b7b">Avocat d'Affaires | Droit de l'Entreprise & Numérique — ICE [X] — Tél [06 XX XX XX XX]</div>
           </div>
-          <h2 style="text-align:center;margin:0 0 2px;font-size:17px;letter-spacing:.06em;font-weight:700">CONVENTION D'HONORAIRES N° ${esc(conv.num)}</h2>
-          <p style="text-align:center;font-size:11.5px;color:#68727e;margin:0 0 20px">Établie en application de la loi n° 66.23 relative à l'organisation de la profession d'avocat — Fait à ${esc(STORE.settings.barreau || '…')} , le ${esc(conv.date)}</p>
-          <p><strong>Entre :</strong> ${esc(hd.l1)}, ci-après "l'Avocat"<br>
+          <h2 style="text-align:center;margin:0">CONVENTION D'HONORAIRES N° ${esc(conv.num)}</h2>
+          <p style="text-align:center;font-size:12px;color:#5a6b7b">Art. 30 Loi 28-08 — Date : ${esc(conv.date)}</p>
+          <p><strong>Entre :</strong> Me [Nom], Avocat au Barreau de [Ville], ci-après "l'Avocat"<br>
           <strong>Et :</strong> ${esc(dossier.client)} ${dossier.ice ? '(ICE ' + esc(dossier.ice) + ')' : ''}, ci-après "le Client"</p>
           <p><strong>Objet :</strong> ${esc(conv.mission || dossier.mission || '')}</p>
-          <table style="width:100%;border-collapse:collapse;font-size:12.5px;margin:16px 0" border="1" cellpadding="9" cellspacing="0" bordercolor="#d8d2c4">
-            <tr style="background:#f2efe6"><th style="text-align:left;letter-spacing:.04em;font-size:11px;text-transform:uppercase">Désignation</th><th style="text-align:right;letter-spacing:.04em;font-size:11px;text-transform:uppercase">Honoraires HT</th></tr>
+          <table style="width:100%;border-collapse:collapse;font-size:13px;margin:12px 0" border="1" cellpadding="8">
+            <tr style="background:#efece4"><th>Désignation</th><th>Honoraires HT</th></tr>
             <tr><td>${esc(conv.mission || '')}<br><span style="font-size:11px;color:#5a6b7b">1 présentation Loom 15 min + 1 révision sous 7 jours</span></td><td style="text-align:right">${fmtMoney(conv.ht)} HT</td></tr>
             <tr><td>TVA ${dossier.tva}%</td><td style="text-align:right">${fmtMoney(conv.tva)}</td></tr>
             <tr style="font-weight:700"><td>TOTAL TTC</td><td style="text-align:right">${fmtMoney(conv.ttc)} TTC</td></tr>
             <tr style="background:#e4f2f0"><td>Provision à la signature (${conv.provisionPct}%)</td><td style="text-align:right;font-weight:700">${fmtMoney(conv.provision)} TTC</td></tr>
             <tr><td>Solde à la remise</td><td style="text-align:right">${fmtMoney(conv.ttc - conv.provision)} TTC</td></tr>
           </table>
-          <p style="font-size:12px"><strong>Modalités de paiement :</strong> conformément à la loi n° 66.23, tout paiement supérieur à 10 000 DH est réglé par chèque ou moyen de paiement électronique. Un reçu daté, signé et numéroté est délivré pour toute somme reçue.</p>
-          <p style="font-size:12px"><strong>Exécution :</strong> provision exigible à la signature. Solde exigible à la remise des livrables avant envoi final. Délai prévisionnel : 3-10 jours ouvrés à compter de la provision et des pièces complètes. Débours en sus. Résiliation : honoraires au prorata du travail accompli.</p>
-          ${hd.ribLine ? `<p style="font-size:12px"><strong>Coordonnées bancaires :</strong> ${esc(hd.ribLine)}</p>` : ''}
-          <div style="display:flex;justify-content:space-between;margin-top:38px;font-size:12.5px;gap:24px">
-            <div style="flex:1">L'Avocat<br><span style="color:#9aa3ad;font-size:10px">(signature & cachet)</span><br><br><br><div style="border-top:1px solid #cfd5dd;width:180px;padding-top:4px">${esc(hd.l1.split('—')[0])}</div></div>
-            <div style="flex:1">Le Client <span style="font-size:11px;color:#68727e">(lu et approuvé)</span><br><br><br><div style="border-top:1px solid #cfd5dd;width:180px;padding-top:4px">${esc(dossier.client)}</div></div>
+          <p style="font-size:12px"><strong>Modalités :</strong> Provision exigible à la signature (reçu délivré). Solde exigible à la remise des livrables avant envoi final. Délai prévisionnel : 3-10 jours ouvrés à compter de la provision + pièces complètes. Débours en sus. Résiliation : honoraires au prorata du travail accompli.</p>
+          <div style="display:flex;justify-content:space-between;margin-top:30px;font-size:13px">
+            <div>L'Avocat<br><br>__________________<br>Signature & cachet</div>
+            <div>Le Client (lu et approuvé)<br><br>__________________<br>${esc(dossier.client)}</div>
           </div>
-          <p style="font-size:9.5px;color:#8b95a0;text-align:center;margin-top:26px;border-top:1px solid #e6e1d5;padding-top:10px">Document établi en application de la loi n° 66.23 relative à l'organisation de la profession d'avocat (BO n°7536 du 20/08/2026). Ne constitue pas une consultation sans diagnostic individuel.</p>
+          <p style="font-size:9px;color:#5a6b7b;text-align:center;margin-top:20px">Document établi en application de la Loi 28-08. Ne constitue pas une consultation sans diagnostic individuel.</p>
         </div>
         <div class="cab-toolbar" style="justify-content:center">
-          <button class="btn btn-primary" id="btnPrintConv">Imprimer / PDF</button>
+          <button class="btn btn-primary" id="btnPrintConv">🖨️ Imprimer / PDF</button>
           <button class="btn" id="btnBackConv2">Retour dossier</button>
         </div>
       </div>`;
     $('#crumbs').innerHTML = '<span class="cur">Convention ' + esc(conv.num) + '</span>';
     $('#backConv').addEventListener('click', renderConventions);
     $('#btnBackConv2').addEventListener('click', () => viewDossier(dossier.id));
-    $('#btnPrintConv').addEventListener('click', () => printDoc($('#convPrint').outerHTML));
+    $('#btnPrintConv').addEventListener('click', () => window.print());
   }
 
   function renderConventions() {
@@ -672,8 +451,8 @@
     const content = $('#content');
     content.innerHTML = `
       <div class="cab">
-        <p class="eyebrow">Documents</p><h2>Conventions d'honoraires</h2>
-        <p class="sub">${convs.length} convention(s) — loi n° 66.23. Générez depuis un dossier.</p>
+        <h2>Conventions d'honoraires</h2>
+        <p class="sub">${convs.length} convention(s) — Art. 30 Loi 28-08. Générez depuis un dossier.</p>
         <div class="cab-toolbar">
           <select id="convDossierSel"><option value="">— Choisir un dossier —</option>${dossiers.map(d => `<option value="${esc(d.id)}">${esc(d.client)} — ${esc(d.mission || '')}</option>`).join('')}</select>
           <button class="btn btn-primary" id="btnGenConv">Générer convention</button>
@@ -702,33 +481,27 @@
   function genFacture(dossierId, type) {
     const d = STORE.dossiers.find(x => x.id === dossierId);
     if (!d) return;
-    if (!settingsComplete() && !confirm('Ta fiche cabinet (nom/barreau) est incomplète.\nGénérer quand même avec des placeholders ?')) return;
     const c = calcTTC(d.honoraires, d.tva);
     const prov = Math.round(c.ttc * (Number(d.provisionPct) || 50) / 100);
-    const num = nextNum(type === 'provision' ? 'RP' : 'FH');
+    const num = (type === 'provision' ? 'RP-' : 'FH-') + new Date().getFullYear() + '-' + String(STORE.factures.length + 1).padStart(3, '0');
     const montant = type === 'provision' ? prov : c.ttc - prov;
     const ttc = montant;
-    const ht = d.tva == 0 ? ttc : Math.round(ttc / (1 + d.tva / 100));
+    const ht = d.tva == 0 ? ttc : Math.round(ttc / 1.2);
     const tva = ttc - ht;
     const f = { id: uid(), dossierId, num, date: todayISO(), type: type === 'provision' ? 'Reçu provision' : 'Facture solde', ht, tva, ttc, statut: 'Émise' };
     STORE.factures = [...STORE.factures, f];
-    logEvent(dossierId, 'facture', f.type + ' ' + f.num + ' émis (' + fmtMoney(ttc) + ')');
     previewFacture(f, d);
   }
 
   function previewFacture(f, dossier) {
-    const hd = cabHeaderLines();
     const content = $('#content');
     content.innerHTML = `
       <div class="cab">
         <button class="btn" id="backFact">← Retour</button>
-        <div class="doc" id="factPrint" style="max-width:750px;margin:16px auto;padding:44px 48px;background:#fffdf9;color:#20242b;border:1px solid #e6e1d5;box-shadow:0 24px 60px -30px rgba(20,26,34,.35);border-radius:4px">
-          <div style="display:flex;justify-content:space-between;align-items:flex-end;border-bottom:3px double #2c4bc4;padding-bottom:14px">
-            <div>
-              <div style="font-weight:700;font-size:15.5px;letter-spacing:-.01em">${esc(hd.l1)}</div>
-              <div style="font-size:11.5px;color:#68727e;margin-top:3px;line-height:1.55">${esc(hd.l2)}</div>
-            </div>
-            <div style="text-align:right"><strong style="font-size:13.5px">${esc(f.type)} N° ${esc(f.num)}</strong><br><span style="font-size:11.5px;color:#68727e">${esc(f.date)}</span></div>
+        <div class="doc" style="max-width:750px;margin:16px auto">
+          <div style="display:flex;justify-content:space-between;border-bottom:2px solid #0f2a44;padding-bottom:10px">
+            <div><strong>Me [Nom]</strong><br><span style="font-size:11px;color:#5a6b7b">Avocat au Barreau de [Ville] — ICE [X]</span></div>
+            <div style="text-align:right"><strong>${esc(f.type)} N° ${esc(f.num)}</strong><br><span style="font-size:12px">${esc(f.date)}</span></div>
           </div>
           <p><strong>Client :</strong> ${esc(dossier.client)} ${dossier.ice ? '(ICE ' + esc(dossier.ice) + ')' : ''}</p>
           <p><strong>Dossier :</strong> ${esc(dossier.mission || '')}</p>
@@ -738,15 +511,13 @@
             <tr><td>TVA ${dossier.tva}%</td><td style="text-align:right">${fmtMoney(f.tva)}</td></tr>
             <tr style="font-weight:700;background:#e4f2f0"><td>${f.type === 'Reçu provision' ? 'Provision encaissée' : 'Net à payer (solde)'}</td><td style="text-align:right">${fmtMoney(f.ttc)} TTC</td></tr>
           </table>
-          <p style="font-size:12px">Échéance : à réception.${hd.ribLine ? ' ' + esc(hd.ribLine) + '.' : ''} ${dossier.tva == 0 ? 'TVA non applicable, art. 91 CGI.' : ''}</p>
-          <p style="font-size:11px;color:#5a6b7b">Reçu daté, signé et numéroté délivré conformément à la loi n° 66.23 relative à l'organisation de la profession d'avocat. Tout paiement supérieur à 10 000 DH par chèque ou moyen de paiement électronique.</p>
+          <p style="font-size:12px">Échéance : à réception — RIB [24 chiffres]. ${dossier.tva == 0 ? 'TVA non applicable, art. 91 CGI.' : ''}</p>
         </div>
-        <div class="cab-toolbar" style="justify-content:center"><button class="btn btn-primary" id="btnPrintFact">Imprimer / PDF</button> <button class="btn" id="btnBackFact2">Retour</button></div>
+        <div class="cab-toolbar" style="justify-content:center"><button class="btn btn-primary" onclick="window.print()">🖨️ Imprimer / PDF</button> <button class="btn" id="btnBackFact2">Retour</button></div>
       </div>`;
     $('#crumbs').innerHTML = '<span class="cur">' + esc(f.type) + ' ' + esc(f.num) + '</span>';
     $('#backFact').addEventListener('click', renderFactures);
     $('#btnBackFact2').addEventListener('click', () => viewDossier(dossier.id));
-    $('#btnPrintFact').addEventListener('click', () => printDoc($('#factPrint').outerHTML));
   }
 
   function renderFactures() {
@@ -755,7 +526,7 @@
     const content = $('#content');
     content.innerHTML = `
       <div class="cab">
-        <p class="eyebrow">Documents</p><h2>Factures & Provisions</h2>
+        <h2>Factures & Provisions</h2>
         <p class="sub">${facts.length} document(s) — Reçus de provision (art. 30) + factures solde.</p>
         <div class="cab-toolbar">
           <select id="factDossierSel"><option value="">— Dossier —</option>${dossiers.map(d => `<option value="${esc(d.id)}">${esc(d.client)}</option>`).join('')}</select>
@@ -765,7 +536,7 @@
         <div class="cab-table-wrap"><table class="cab-table"><thead><tr><th>N°</th><th>Date</th><th>Client</th><th>Type</th><th>TTC</th><th>Statut</th><th>Actions</th></tr></thead><tbody>
           ${facts.map(f => {
       const d = dossiers.find(x => x.id === f.dossierId);
-      return `<tr><td data-label="N°" class="mono">${esc(f.num)}</td><td data-label="Date">${esc(f.date)}</td><td data-label="Client">${esc(d ? d.client : '—')}</td><td data-label="Type">${esc(f.type)}</td><td data-label="TTC" class="mono">${fmtMoney(f.ttc)}</td><td data-label="Statut">${esc(f.statut)}${f.encaisseeLe ? ' · ' + esc(f.encaisseeLe) : ''}</td><td data-label="Actions"><button class="btn" data-viewfact="${esc(f.id)}">Voir</button> <button class="btn" data-encaisse="${esc(f.id)}">${f.statut === 'Encaissée' ? '↩' : 'Encaisser'}</button></td></tr>`;
+      return `<tr><td class="mono">${esc(f.num)}</td><td>${esc(f.date)}</td><td>${esc(d ? d.client : '—')}</td><td>${esc(f.type)}</td><td>${fmtMoney(f.ttc)}</td><td>${esc(f.statut)}</td><td><button class="btn" data-viewfact="${esc(f.id)}">Voir</button> <button class="btn" data-encaisse="${esc(f.id)}">${f.statut === 'Encaissée' ? '✓' : 'Encaisser'}</button></td></tr>`;
     }).join('')}
         </tbody></table>${facts.length === 0 ? '<div class="empty-state" style="padding:20px">Aucune facture. Générez depuis un dossier.</div>' : ''}</div>
       </div>`;
@@ -779,42 +550,8 @@
     }));
     $$('[data-encaisse]').forEach(b => b.addEventListener('click', () => {
       const f = STORE.factures.find(x => x.id === b.dataset.encaisse);
-      if (!f) return;
-      if (f.statut === 'Encaissée') {
-        f.statut = 'Émise'; f.encaisseeLe = '';
-        logEvent(f.dossierId, 'facture', f.type + ' ' + f.num + ' repassée à Émise');
-      } else {
-        const d = prompt('Date d\'encaissement (AAAA-MM-JJ) :', todayISO());
-        if (d === null) return;
-        f.statut = 'Encaissée'; f.encaisseeLe = d || todayISO();
-        logEvent(f.dossierId, 'facture', f.type + ' ' + f.num + ' ENCAISSÉE (' + fmtMoney(f.ttc) + ')');
-      }
-      STORE.factures = STORE.factures; renderFactures();
+      if (f) { f.statut = f.statut === 'Encaissée' ? 'Émise' : 'Encaissée'; STORE.factures = STORE.factures; renderFactures(); }
     }));
-  }
-
-  /* ---------- Finance : agrégats ---------- */
-  function financeAggregates() {
-    const facts = STORE.factures;
-    const encaisse = facts.filter(f => f.statut === 'Encaissée').reduce((s, f) => s + (Number(f.ttc) || 0), 0);
-    const attendu = facts.filter(f => f.statut !== 'Encaissée').reduce((s, f) => s + (Number(f.ttc) || 0), 0);
-    const dossiers = STORE.dossiers.filter(d => !['Prospect', 'Abandonné'].includes(d.statut));
-    const portefeuille = dossiers.reduce((s, d) => {
-      const c = calcTTC(d.honoraires, d.tva);
-      return s + c.ttc;
-    }, 0);
-    return { encaisse, attendu, portefeuille };
-  }
-  function tvaParTrimestre(annee) {
-    const map = {};
-    STORE.factures.forEach(f => {
-      if (!f.date || !f.date.startsWith(String(annee))) return;
-      const q = 'T' + Math.floor((Number(f.date.slice(5, 7)) - 1) / 3) + 1;
-      map[q] = map[q] || { tva: 0, ht: 0 };
-      map[q].tva += Number(f.tva) || 0;
-      map[q].ht += Number(f.ht) || 0;
-    });
-    return ['T1', 'T2', 'T3', 'T4'].map(q => ({ q, ...(map[q] || { tva: 0, ht: 0 }) }));
   }
 
   /* ---------- Échéances ---------- */
@@ -824,7 +561,7 @@
     const content = $('#content');
     content.innerHTML = `
       <div class="cab">
-        <p class="eyebrow">Suivi</p><h2>Échéances</h2>
+        <h2>Échéances</h2>
         <p class="sub">${echeances.length} échéance(s) — Retards en rouge. Cochez quand fait.</p>
         <div class="cab-toolbar">
           <button class="btn btn-primary" id="btnNewEcheance">＋ Nouvelle échéance</button>
@@ -835,11 +572,11 @@
       const d = dossiers.find(x => x.id === e.dossierId);
       const overdue = !e.done && e.date && e.date < todayISO();
       return `<tr data-eid="${esc(e.id)}" data-done="${e.done ? '1' : '0'}" data-overdue="${overdue ? '1' : '0'}" style="${overdue ? 'background:#fff1f1' : ''}">
-                <td data-label="Date" class="mono">${esc(e.date || '')} ${overdue ? '⚠️' : ''}</td>
-                <td data-label="Dossier">${esc(d ? d.client : '—')}</td>
-                <td data-label="Type"><span class="badge">${esc(e.type || '')}</span></td>
-                <td data-label="Intitulé" style="white-space:normal">${esc(e.intitule || '')}</td>
-                <td data-label="Fait"><input type="checkbox" ${e.done ? 'checked' : ''} data-eid="${esc(e.id)}"></td>
+                <td class="mono">${esc(e.date || '')} ${overdue ? '⚠️' : ''}</td>
+                <td>${esc(d ? d.client : '—')}</td>
+                <td><span class="badge">${esc(e.type || '')}</span></td>
+                <td style="white-space:normal">${esc(e.intitule || '')}</td>
+                <td><input type="checkbox" ${e.done ? 'checked' : ''} data-eid="${esc(e.id)}"></td>
                 <td><button class="btn btn-danger" data-del-eid="${esc(e.id)}">×</button></td>
               </tr>`;
     }).join('')}
@@ -890,125 +627,75 @@
   $('#btnCancelEcheance').addEventListener('click', () => $('#dlgEcheance').close());
 
   /* ---------- Bibliothèque ---------- */
-  const BIBLIO = [
-    ['01_Convention_Honoraires_Modele.md', "Convention d'honoraires", 'Obligatoire chaque mission — provision + HT/TTC'],
-    ['02_Scripts_DM_WhatsApp.md', 'Scripts prise de contact', 'Comptables / prospects — déontologiques'],
-    ['03_Pack_Freelance_Contrat.md', 'Contrat prestation FR/EN', 'Mission Contrats — 12 clauses + annexes'],
-    ['04_Pack_Ecommerce_CGV.md', 'Trame CGV/CGU e-commerce', 'Mission Conformité — loi 31-08 + 09-08'],
-    ['05_Registre_09-08_Modele.md', 'Registre Loi 09-08', 'Mission 09-08 — 5 onglets + CNDP'],
-    ['06_Recu_Provision_Facture.md', 'Reçu provision & Facture solde', 'Reçu numéroté (loi 66.23) + facture finale'],
-    ['07_Lettre_Mission_Planning.md', 'Lettre de mission & Planning', 'Jointe à la convention — jalons J0 à J+5'],
-    ['08_PV_Remise_Cloture.md', 'PV de remise & Clôture', 'Preuve de remise des livrables'],
-    ['09_Checklist_Review_Contrat_19pts.md', 'Checklist revue contrat 19 pts', 'Avant signature client'],
-    ['10_Email_Recouvrement_Amiable_Modele.md', 'Email recouvrement amiable', 'Séquence J+7 / J+15 / J+30'],
-    ['11_Calculateur_Provision_TVA_Offline.md', 'Calculateur provision / TVA', 'Chiffrage mission offline'],
-    ['12_Politique_Confidentialite_09-08_Modele.md', 'Politique de confidentialité', 'Loi 09-08 · site/app client'],
-    ['13_Contrat_Sous_Traitant_09-08_art24.md', 'Contrat sous-traitance art.24', 'Loi 09-08 · données'],
-    ['14_DPIA_Modele_CNDP.md', 'Analyse d\u2019impact (DPIA)', 'Loi 09-08 · délib CNDP'],
-    ['15_CGV_Formation_31-08_Modele.md', 'CGV formation en ligne', 'Rétractation 7 jours (loi 31-08)'],
-    ['16_Contrat_Sponsor_PI_Loi2-00.md', 'Contrat sponsor / influenceur', 'Cession PI — loi 2-00 · d.o.c.'],
-    ['17_Depot_Marque_OMPIC_Checklist.md', 'Checklist dépôt marque OMPIC', 'Loi 17-97 · opposition 2 mois'],
-    ['18_Procuration_Apostille_MRE_Modele.md', 'Procuration apostillée MRE', 'Création société à distance'],
-    ['19_Guide_Formulaire_5000-F_Dividende.md', 'Guide formulaire 5000-F', 'Dividende conventionnel FR→MA 10 %'],
-    ['20_Radiation_AE_Quitus_Modele.md', 'Radiation AE & quitus DGI', 'Ordre strict avant SARL'],
-    ['21_Devis_Pack_Modele.md', 'Devis / proposition pack', 'Avant convention d\u2019honoraires'],
-    ['22_CGV_Ecommerce_31-08_Modele.md', 'CGV e-commerce clé en main', 'Loi 31-08 — rétractation 7 j, livraison ≤30 j']
-  ];
-
   function renderBibliotheque() {
+    const templates = [
+      { file: '01_Convention_Honoraires_Modele.md', title: 'Convention d\'honoraires (art. 30)', desc: 'Obligatoire pour chaque mission — provision + honoraires HT/TTC', folder: '05_Document_Bank/templates' },
+      { file: '06_Recu_Provision_Facture.md', title: 'Reçu provision & Facture solde', desc: 'Reçu à l\'encaissement + facture finale', folder: '05_Document_Bank/templates' },
+      { file: '07_Lettre_Mission_Planning.md', title: 'Lettre de mission & Planning', desc: 'Jointe à la convention — jalons J0 à J+5', folder: '05_Document_Bank/templates' },
+      { file: '08_PV_Remise_Cloture.md', title: 'PV de remise & Clôture', desc: 'Preuve de remise des livrables', folder: '05_Document_Bank/templates' },
+      { file: '03_Pack_Freelance_Contrat.md', title: 'Trame Contrat prestation FR/EN', desc: 'Mission Contrats — 12 clauses + annexes', folder: '05_Document_Bank/templates' },
+      { file: '04_Pack_Ecommerce_CGV.md', title: 'Trame CGV/CGU e-commerce', desc: 'Mission Conformité — Loi 31-08 + 09-08', folder: '05_Document_Bank/templates' },
+      { file: '05_Registre_09-08_Modele.md', title: 'Registre Loi 09-08 (Excel/Notion)', desc: 'Mission 09-08 — 5 onglets + CNDP', folder: '05_Document_Bank/templates' },
+      { file: '02_Scripts_DM_WhatsApp.md', title: 'Scripts prise de contact', desc: 'Messages comptables / prospects — déontologiques', folder: '05_Document_Bank/templates' }
+    ];
     const content = $('#content');
     content.innerHTML = `
       <div class="cab">
-        <p class="eyebrow">Ressources</p><h2>Bibliothèque de modèles</h2>
-        <p class="sub">${BIBLIO.length} modèles — cliquez pour ouvrir dans AVOCATO Learn.</p>
-        <div class="dash-grid" style="grid-template-columns:repeat(auto-fill,minmax(250px,1fr))">
-          ${BIBLIO.map(([file, title, desc]) => `
-            <div class="dash-panel" style="cursor:pointer" data-open="05_Document_Bank/templates/${esc(file)}">
-              <h3 style="font-size:13.5px;margin:0 0 6px">${esc(title)}</h3>
-              <p style="font-size:12px;color:var(--text-dim);margin:0 0 8px">${esc(desc)}</p>
-              <span style="font-size:11px;color:var(--accent-2)">${esc(file)} →</span>
+        <h2>Bibliothèque de modèles</h2>
+        <p class="sub">8 modèles — cliquez pour ouvrir dans le Base. Tous avec mention déontologique en pied de page.</p>
+        <div class="dash-grid" style="grid-template-columns:repeat(auto-fill,minmax(260px,1fr))">
+          ${templates.map(t => `
+            <div class="dash-panel" style="cursor:pointer" data-open="${esc(t.folder + '/' + t.file)}">
+              <h3 style="font-size:14px;margin:0 0 6px">📄 ${esc(t.title)}</h3>
+              <p style="font-size:12px;color:var(--text-dim);margin:0 0 10px">${esc(t.desc)}</p>
+              <span style="font-size:11px;color:var(--accent-2)">${esc(t.file)} →</span>
             </div>`).join('')}
         </div>
-        <div class="dash-grid" style="margin-top:16px;grid-template-columns:repeat(auto-fill,minmax(280px,1fr))">
-          <div class="dash-panel" style="cursor:pointer" data-open="01_Strategy/13_Loi_66-23_Nouvelle_Loi_Avocats/00_INDEX.md">
-            <h3 style="font-size:14px;margin:0 0 6px">⚖️ Loi 66.23 — nouvelle loi avocats</h3>
-            <p style="font-size:12px;color:var(--text-dim);margin:0">En vigueur 20/08/2026 : cash interdit >10k, reçus numérotés, élections décembre. Checklist cabinet incluse.</p>
-          </div>
-          <div class="dash-panel"><h3>Doctrine & Jurisprudence</h3>
-            <ul style="font-size:13px;margin:0;padding-left:18px">
-              <li><a href="#" data-open-juris="08_Jurisprudence/01_Loi_09-08/00_INDEX.md">Loi 09-08 — décisions CNDP + grille sanctions</a></li>
-              <li><a href="#" data-open-juris="08_Jurisprudence/02_Loi_31-08/00_INDEX.md">Loi 31-08 — CGV / rétractation 7 j</a></li>
-              <li><a href="#" data-open-juris="08_Jurisprudence/03_Contrats_DOC/00_INDEX.md">Contrats DOC — arrêts Cass.</a></li>
-              <li><a href="#" data-open-juris="01_Strategy/06_Deontologie_Pratique_Avocat_Maroc/00_INDEX.md">Déontologie pratique</a></li>
-            </ul>
-          </div>
+        <div class="dash-panel" style="margin-top:16px">
+          <h3>Doctrine & Jurisprudence</h3>
+          <p style="font-size:13px;color:var(--text-dim)">3 fiches prêtes à citer en diagnostic :</p>
+          <ul style="font-size:13px">
+            <li><a href="#" data-open-juris="08_Jurisprudence/01_Loi_09-08_CNDP_Sanctions.md">Loi 09-08 — 4 décisions CNDP + grille sanctions</a></li>
+            <li><a href="#" data-open-juris="08_Jurisprudence/02_Loi_31-08_Protection_Consommateur.md">Loi 31-08 — 3 jugements CGV / rétractation</a></li>
+            <li><a href="#" data-open-juris="08_Jurisprudence/03_Contrats_Commerce.md">Contrats — 3 arrêts Cass. (pénale, réserve, force majeure)</a></li>
+            <li><a href="#" data-open-juris="01_Strategy/06_Deontologie_Pratique_Avocat_Maroc/00_INDEX.md">Déontologie pratique — Loi 28-08 (checklist)</a></li>
+          </ul>
         </div>
       </div>`;
     $('#crumbs').innerHTML = '<span class="cur">Cabinet — Bibliothèque</span>';
-    $$('[data-open]').forEach(el => el.addEventListener('click', () => openInLearn(el.dataset.open)));
-    $$('[data-open-juris]').forEach(a => a.addEventListener('click', (e) => { e.preventDefault(); openInLearn(a.dataset.openJuris); }));
-  }
-
-  /* ---------- Recherche globale ---------- */
-  function initGlobalSearch() {
-    const input = $('#globalSearch'), res = $('#gsResults');
-    if (!input || !res) return;
-    input.addEventListener('input', () => {
-      const q = (input.value || '').trim().toLowerCase();
-      if (q.length < 2) { res.hidden = true; res.innerHTML = ''; return; }
-      const hits = [];
-      STORE.dossiers.forEach(d => {
-        if ([d.client, d.ice, d.mission, d.type].join(' ').toLowerCase().includes(q))
-          hits.push({ grp: 'Dossiers', label: d.client, sub: d.mission, go: () => viewDossier(d.id) });
-      });
-      STORE.conventions.forEach(c => {
-        const d = STORE.dossiers.find(x => x.id === c.dossierId);
-        if ((c.num + ' ' + c.mission).toLowerCase().includes(q))
-          hits.push({ grp: 'Conventions', label: c.num, sub: d ? d.client : '', go: () => { if (d) previewConvention(c, d); } });
-      });
-      STORE.factures.forEach(f => {
-        const d = STORE.dossiers.find(x => x.id === f.dossierId);
-        if ((f.num + ' ' + f.type).toLowerCase().includes(q))
-          hits.push({ grp: 'Factures', label: f.type + ' ' + f.num, sub: d ? d.client : '' + ' · ' + fmtMoney(f.ttc), go: () => { if (d) previewFacture(f, d); } });
-      });
-      STORE.echeances.forEach(e => {
-        if ((e.intitule + ' ' + e.type).toLowerCase().includes(q))
-          hits.push({ grp: 'Échéances', label: e.intitule, sub: e.date, go: () => { cabView = 'echeances'; LS.set('cabinetView', 'echeances'); renderCabinet(); } });
-      });
-      res.innerHTML = hits.slice(0, 12).map((h, i) =>
-        `<button class="gs-item" data-gs="${i}"><strong>${esc(h.label)}</strong><span>${esc(h.grp)}${h.sub ? ' · ' + esc(h.sub) : ''}</span></button>`
-      ).join('') || '<div class="gs-item gs-none">Aucun résultat</div>';
-      res.hidden = false;
-      $$('.gs-item[data-gs]', res).forEach(b => b.addEventListener('click', () => {
-        const h = hits[Number(b.dataset.gs)];
-        res.hidden = true; input.value = '';
-        document.body.classList.remove('sidebar-open');
-        if (h) h.go();
-      }));
-    });
-    document.addEventListener('click', (e) => { if (!$('#gsWrap').contains(e.target)) res.hidden = true; });
+    $$('[data-open]').forEach(el => el.addEventListener('click', () => {
+      const id = el.dataset.open;
+      // switch to Base and open doc
+      setMode('vault');
+      setTimeout(() => { location.hash = '#' + encodeURIComponent(id); window.dispatchEvent(new HashChangeEvent('hashchange')); }, 50);
+    }));
+    $$('[data-open-juris]').forEach(a => a.addEventListener('click', (e) => {
+      e.preventDefault();
+      const id = a.dataset.openJuris;
+      setMode('vault');
+      setTimeout(() => { location.hash = '#' + encodeURIComponent(id); window.dispatchEvent(new HashChangeEvent('hashchange')); }, 50);
+    }));
   }
 
   /* ---------- Init ---------- */
   function initCabinet() {
-    applyTheme();
-    const tb = $('#themeBtn');
-    if (tb) tb.addEventListener('click', cycleTheme);
-    $('#menuBtn').addEventListener('click', () => document.body.classList.add('sidebar-open'));
-    $('#sidebarClose').addEventListener('click', () => document.body.classList.remove('sidebar-open'));
-    $('#scrim').addEventListener('click', () => document.body.classList.remove('sidebar-open'));
-    initGlobalSearch();
+    $$('.mode-btn').forEach(b => b.addEventListener('click', () => setMode(b.dataset.mode)));
     $$('.cab-nav-item').forEach(b => b.addEventListener('click', () => {
       const v = b.dataset.view;
       if (v === 'new-dossier') { openDlgDossier(); return; }
       cabView = v;
       LS.set('cabinetView', v);
       renderCabinet();
-      document.body.classList.remove('sidebar-open');
     }));
-    renderCabinet();
+    // restore mode
+    setMode(mode);
+    // ensure cabinet nav reflects view
+    if (mode === 'cabinet') renderCabinet();
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initCabinet);
   else initCabinet();
+
+  // expose for app.js mode sync
+  window.Cabinet = { setMode, renderCabinet };
 })();

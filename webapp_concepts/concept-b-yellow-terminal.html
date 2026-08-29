@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AVOCATO — Concept B · Terminal Yellow (Wayfinding)</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --yellow:#ffcc00;
+    --yellow-deep:#e6b800;
+    --black:#0b0b0b;
+    --black-2:#141414;
+    --white:#ffffff;
+    --steel:#e6e8eb;
+    --line:#d8dbe0;
+    --text:#111214;
+    --text-dim:#5a5e66;
+    --accent:#0b0b0b;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:#f2f3f5;
+    color:var(--text);
+    font-family:Helvetica, Arial, "Inter", system-ui, sans-serif;
+    line-height:1.45;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit}
+  ::selection{background:var(--yellow)}
+  :focus-visible{outline:2px solid var(--black); outline-offset:2px}
+  /* Overhead sign system */
+  .sign-rail{
+    position:sticky; top:0; z-index:20;
+    background:var(--yellow);
+    border-bottom:4px solid var(--black);
+    box-shadow:0 6px 18px rgba(0,0,0,.12);
+  }
+  .sign-band{
+    max-width:1280px; margin:0 auto; display:flex; align-items:stretch; gap:0;
+    border-left:4px solid var(--black); border-right:4px solid var(--black);
+  }
+  .sign-main{
+    flex:1; display:flex; flex-wrap:wrap; align-items:center; gap:0;
+    padding:10px 14px 10px 0;
+  }
+  .sign-brand{
+    background:var(--black); color:var(--white); display:flex; align-items:center; gap:10px;
+    padding:14px 18px; margin:-10px 14px -10px 0; flex:0 0 auto;
+  }
+  .sign-brand b{font:800 18px/1 "Inter", Helvetica, sans-serif; letter-spacing:.14em}
+  .sign-brand span{font:600 10px/1.2 "Inter"; letter-spacing:.14em; opacity:.75}
+  .sign-pict{
+    width:36px;height:36px; background:var(--black); color:var(--white); display:grid; place-items:center;
+    font-size:18px; border:2px solid var(--black); flex:0 0 36px;
+  }
+  .sign-pict.white{background:var(--white); color:var(--black); border-color:var(--black)}
+  .sign-msg{font:700 13px/1.1 "Inter", Helvetica, sans-serif; letter-spacing:.01em; text-transform:uppercase; color:var(--black); display:flex; align-items:center; gap:8px}
+  .sign-msg .arrow{width:26px; height:26px; border:2px solid var(--black); display:grid; place-items:center; font-weight:800; background:var(--white)}
+  .sign-msg .gate{font:800 22px/1 "Inter"; letter-spacing:-.02em; background:var(--black); color:var(--yellow); padding:4px 8px; border-radius:2px}
+  .sign-sub{font:500 11px "Inter"; letter-spacing:.06em; color:rgba(11,11,11,.62); text-transform:uppercase; margin-left:6px}
+  .sign-right{
+    flex:0 0 290px; background:var(--black); color:var(--white); display:flex; align-items:center; gap:10px; padding:10px 14px;
+  }
+  .sign-right .big{font:800 28px/1 "Inter"; letter-spacing:-.02em}
+  .sign-right small{font:600 10px/1.2 "Inter"; letter-spacing:.12em; opacity:.7; text-transform:uppercase}
+
+  .app{max-width:1280px; margin:0 auto; display:flex; gap:16px; padding:16px 16px 40px}
+  .col-nav{flex:0 0 280px}
+  .col-main{flex:1; min-width:0}
+
+  .panel{
+    background:var(--white); border:2px solid var(--black); border-radius:2px; box-shadow:0 2px 0 rgba(11,11,11,.08);
+  }
+  .panel-head{
+    background:var(--black); color:var(--white); padding:9px 12px; display:flex; align-items:center; gap:8px;
+    font:700 11px "Inter"; letter-spacing:.12em; text-transform:uppercase;
+  }
+  .panel-head .dot{width:8px;height:8px; background:var(--yellow); border-radius:50%}
+  .nav-junction{
+    padding:10px; display:grid; gap:8px;
+  }
+  .junction-btn{
+    display:flex; align-items:center; gap:10px; width:100%; text-align:left;
+    background:var(--yellow); border:2px solid var(--black); padding:10px 11px; cursor:pointer;
+    font:700 12.5px "Inter"; text-transform:uppercase; letter-spacing:.02em;
+  }
+  .junction-btn .ic{width:28px;height:28px; background:var(--black); color:var(--white); display:grid; place-items:center; font-size:14px; flex:0 0 28px}
+  .junction-btn .arrow{margin-left:auto; width:26px;height:26px; background:var(--white); border:2px solid var(--black); display:grid; place-items:center; font-weight:800}
+  .junction-btn.active{background:var(--black); color:var(--white); border-color:var(--black)}
+  .junction-btn.active .ic{background:var(--white); color:var(--black)}
+  .junction-btn.active .arrow{background:var(--yellow); color:var(--black)}
+  .junction-btn.dim{background:var(--white); color:var(--text-dim); border-color:var(--line)}
+  .junction-btn.dim .ic{background:var(--line); color:var(--text-dim)}
+
+  .hero-board{
+    background:var(--black); color:var(--white); border:2px solid var(--black); border-radius:2px; overflow:hidden;
+  }
+  .hero-board .board-head{
+    display:flex; align-items:center; gap:10px; padding:10px 14px; background:#1a1a1a; border-bottom:1px solid #2a2a2a;
+    font:700 10px "Inter"; letter-spacing:.16em; text-transform:uppercase; color:rgba(255,255,255,.6)
+  }
+  .board-grid{display:grid; grid-template-columns:1fr auto; gap:0}
+  .board-left{padding:22px 22px 18px; border-right:1px solid #2a2a2a}
+  .board-left h2{margin:0; font:800 38px/0.9 "Inter"; letter-spacing:-.03em; text-transform:uppercase}
+  .board-left h2 span{color:var(--yellow)}
+  .board-left p{margin:10px 0 0; max-width:54ch; color:rgba(255,255,255,.68); font:400 13.5px/1.6 "Inter"}
+  .board-right{padding:18px; background:#111; display:grid; gap:10px; min-width:240px}
+  .gate-pill{
+    background:var(--yellow); color:var(--black); padding:10px 12px; border-radius:2px; display:flex; align-items:baseline; gap:8px;
+  }
+  .gate-pill b{font:800 26px/1 "Inter"; letter-spacing:-.02em}
+  .gate-pill span{font:700 11px "Inter"; letter-spacing:.1em; text-transform:uppercase}
+  .metric-row{display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin-top:14px}
+  .metric{background:#1a1a1a; border:1px solid #2a2a2a; border-radius:2px; padding:10px 11px}
+  .metric .n{font:800 20px/1 "Inter"; color:var(--yellow)}
+  .metric .l{font:600 10px "Inter"; letter-spacing:.1em; text-transform:uppercase; color:rgba(255,255,255,.55); margin-top:2px}
+
+  .decision-strip{
+    margin-top:12px; background:var(--yellow); border:2px solid var(--black); border-radius:2px; padding:10px 12px;
+    display:flex; flex-wrap:wrap; gap:8px; align-items:center;
+    font:700 11px "Inter"; letter-spacing:.08em; text-transform:uppercase;
+  }
+  .decision-strip b{text-decoration:underline; text-underline-offset:3px}
+  .mono{font-family:"JetBrains Mono", monospace; font-variant-numeric:tabular-nums}
+
+  .table-head{display:flex; align-items:center; gap:10px; padding:14px 16px 0}
+  .table-head h3{margin:0; font:800 13px "Inter"; letter-spacing:.08em; text-transform:uppercase}
+  .table-wrap{overflow:auto; margin:12px 16px 16px; border:2px solid var(--black); background:var(--white)}
+  table{width:100%; border-collapse:collapse; font-size:13px; min-width:720px}
+  th{font:700 10px "Inter"; letter-spacing:.12em; text-transform:uppercase; text-align:left; padding:10px 10px; background:var(--black); color:var(--white); white-space:nowrap}
+  td{padding:10px 10px; border-bottom:1px solid var(--line); vertical-align:top}
+  tr:hover td{background:#fff8c2}
+  .status{border:2px solid var(--black); padding:3px 8px; font:800 10px "Inter"; letter-spacing:.08em; text-transform:uppercase; border-radius:2px; display:inline-block}
+  .s-prospect{background:var(--white); color:var(--black)}
+  .s-signee{background:#0b6a2b; color:var(--white); border-color:#0b6a2b}
+  .s-encours{background:var(--yellow); color:var(--black)}
+  .s-retard{background:#c3002f; color:var(--white); border-color:#c3002f}
+
+  .vault-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:12px; margin:14px 16px 16px}
+  .vault-card{border:2px solid var(--black); background:var(--white); border-radius:2px; padding:14px 14px 12px; position:relative}
+  .vault-card:before{content:""; position:absolute; left:0; top:0; bottom:0; width:6px; background:var(--yellow); border-right:2px solid var(--black)}
+  .vault-card h4{margin:0 0 4px 8px; font:800 12px "Inter"; text-transform:uppercase; letter-spacing:.06em}
+  .vault-card p{margin:0 0 0 8px; font:400 12.5px/1.5 "Inter"; color:var(--text-dim)}
+
+  @media (max-width:980px){
+    .app{flex-direction:column}
+    .col-nav{flex:auto}
+    .sign-band{flex-direction:column; border-left:0; border-right:0}
+    .sign-right{flex:auto; border-top:2px solid var(--black)}
+    .board-grid{grid-template-columns:1fr}
+    .vault-grid{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+<!-- THESIS: Wayfinding, not dashboard — every corniche only shows the next decision with distance. OWN-WORLD: Schiphol yellow #ffcc00 + black humanist sans + white pictograms on black inset squares, arrows locked to edge, gate numbers monumental, chain of decision points. STORY: Avocat arrives at junction, sees three gates (Dossiers/Conventions/Échéances) with minutes (days) until departure, follows yellow band to gate. FIRST VIEWPORT: Sticky overhead sign bands (yellow/black/white) + monumental gate AV-14 — decision strip stays highlighted band to band. FORM: Challenger 1 fused (wayfinding-terminal-yellow) vs assigned brass — competitive on clarity, raised scale + edge-arrow discipline. FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance -->
+<div class="sign-rail" role="banner">
+  <div class="sign-band">
+    <div class="sign-brand">
+      <div class="sign-pict" aria-hidden="true">⚖</div>
+      <div><b>AVOCATO</b><br><span>Base & Cabinet OS · Sans publicité</span></div>
+    </div>
+    <div class="sign-main">
+      <div class="sign-msg"><span class="sign-pict white">▣</span> Dossiers <span class="gate">12</span> <span class="sign-sub">Gates A1—A12 · 2 min</span> <span class="arrow">→</span></div>
+      <div class="sign-msg"><span class="sign-pict">✎</span> Conventions <span class="gate" style="background:var(--white); color:var(--black); border:2px solid var(--black)">4</span> <span class="sign-sub">Art.30 · 5 min</span></div>
+      <div class="sign-msg"><span class="sign-pict">◐</span> Échéances <span class="gate" style="background:#c3002f; color:white">3</span> <span class="sign-sub">En retard</span> <span class="arrow">↗</span></div>
+    </div>
+    <div class="sign-right">
+      <div class="big mono">AV-14</div>
+      <div><div style="font:800 12px Inter; text-transform:uppercase; letter-spacing:.08em">Next gate</div><small>Provision 50% · HT+TVA</small></div>
+      <div style="margin-left:auto; width:32px;height:32px; background:var(--yellow); color:var(--black); display:grid; place-items:center; font-weight:800">→</div>
+    </div>
+  </div>
+</div>
+
+<div class="app">
+  <div class="col-nav">
+    <div class="panel">
+      <div class="panel-head"><span class="dot"></span> Junction — Choose next gate</div>
+      <div class="nav-junction">
+        <button class="junction-btn active"><span class="ic">▣</span> Dossiers — En cours <span style="margin-left:auto; font:700 11px 'JetBrains Mono'">12</span><span class="arrow">→</span></button>
+        <button class="junction-btn"><span class="ic">✎</span> Conventions Art.30 <span style="margin-left:auto" class="mono">CH-2026-014</span><span class="arrow">→</span></button>
+        <button class="junction-btn"><span class="ic">₪</span> Factures & Provisions <span class="arrow">→</span></button>
+        <button class="junction-btn dim"><span class="ic">⧉</span> Bibliothèque (8 modèles) <span class="arrow">↗</span></button>
+        <div style="font:600 10px Inter; letter-spacing:.12em; text-transform:uppercase; color:var(--text-dim); margin-top:4px">Every path re-signs itself after each turn — closed routes drop off.</div>
+      </div>
+    </div>
+
+    <div class="panel" style="margin-top:12px">
+      <div class="panel-head">Board information</div>
+      <div style="padding:14px 14px 12px; font:400 12.5px/1.6 Inter; color:var(--text-dim)">
+        <b style="color:var(--text)">Règle jaune :</b> jaune = chemin seulement. Jamais fond décoratif, jamais bouton. Le noir porte tout le reste. La destination suivie reste surlignée de bande en bande.
+      </div>
+      <div style="padding:0 14px 14px; display:flex; gap:8px">
+        <span class="status s-encours">En cours</span><span class="status s-signee">Signée</span><span class="status s-retard">Retard</span>
+      </div>
+    </div>
+
+    <div class="panel" style="margin-top:12px">
+      <div class="panel-head">Distances (minutes = jours)</div>
+      <div style="padding:10px 14px; display:grid; gap:8px; font:500 12px Inter">
+        <div style="display:flex; justify-content:space-between; border-bottom:1px solid var(--line); padding:6px 0"><span>SARL Atlas → Remise V1</span><span class="mono" style="font-weight:800">0 min ⚠</span></div>
+        <div style="display:flex; justify-content:space-between; border-bottom:1px solid var(--line); padding:6px 0"><span>Clinique → Dépôt CNDP</span><span class="mono">3 min</span></div>
+        <div style="display:flex; justify-content:space-between; padding:6px 0"><span>Lina Shop → Relance</span><span class="mono">5 min</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-main">
+    <div class="hero-board">
+      <div class="board-head"><span>●</span> Concourse board — Live departures · Hash routing, file://, localStorage</div>
+      <div class="board-grid">
+        <div class="board-left">
+          <h2>Follow the<br><span>yellow band.</span></h2>
+          <p>Chaque jonction ne montre que les choix devant vous. Pas de dashboard fourre-tout : une bande, une décision, une distance. Le bandeau jaune reste — les couloirs défilent dessous.</p>
+          <div class="metric-row">
+            <div class="metric"><div class="n mono">27k</div><div class="l">DH HT en cours</div></div>
+            <div class="metric"><div class="n mono">13.5k</div><div class="l">Provisions 50%</div></div>
+            <div class="metric"><div class="n mono" style="color:#ff6b6b">3</div><div class="l">En retard</div></div>
+          </div>
+        </div>
+        <div class="board-right">
+          <div class="gate-pill"><b class="mono">GATE A7</b><span>· SARL Atlas Digital</span></div>
+          <div style="font:600 10px Inter; letter-spacing:.12em; text-transform:uppercase; color:rgba(255,255,255,.55)">Now boarding · Convention signée</div>
+          <div style="display:grid; gap:6px; font:500 12px Inter">
+            <div style="display:flex; justify-content:space-between"><span>Honoraires</span><span class="mono">3 500 DH HT / 4 200 TTC</span></div>
+            <div style="display:flex; justify-content:space-between"><span>Provision 50%</span><span class="mono" style="color:var(--yellow)">2 100 TTC</span></div>
+            <div style="display:flex; justify-content:space-between"><span>Échéance</span><span class="mono">Aujourd'hui 17:00</span></div>
+          </div>
+          <button style="margin-top:4px; background:var(--yellow); color:var(--black); border:2px solid var(--yellow); padding:10px; font:800 12px Inter; text-transform:uppercase; letter-spacing:.06em; cursor:pointer">→ Ouvrir dossier A7</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="decision-strip">Next decision: <b>Dossiers → Conventions (Art.30) → Facture solde</b> <span style="margin-left:auto; background:var(--black); color:var(--yellow); padding:4px 8px; border-radius:2px" class="mono">A7 → CH-2026-014 → FH-2026-014</span></div>
+
+    <div class="panel" style="margin-top:12px">
+      <div class="table-head"><h3>Live rows — ranked by time</h3><span style="margin-left:auto; font:600 10px Inter; letter-spacing:.1em; text-transform:uppercase; color:var(--text-dim)">Flap cascade on update · Semantic table beneath</span></div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Gate</th><th>Client / ICE</th><th>Mission</th><th style="text-align:right">Honoraires</th><th>Statut</th><th>→</th></tr></thead>
+          <tbody>
+            <tr><td class="mono" style="font-weight:800">A7</td><td><b>SARL Atlas Digital</b><br><span style="color:var(--text-dim); font-size:11px">ICE 0012 · Offshore</span></td><td>Contrats Essentielle<br><span style="color:var(--text-dim); font-size:11px">Réserve propriété</span></td><td class="mono" style="text-align:right">3 500 <span style="color:var(--text-dim)">HT</span></td><td><span class="status s-signee">Signée</span></td><td style="text-align:center">→</td></tr>
+            <tr><td class="mono">A8</td><td><b>Lina Shop — YouCan</b></td><td>Conformité e-commerce</td><td class="mono" style="text-align:right">4 200 HT</td><td><span class="status s-encours">En cours</span></td><td style="text-align:center">→</td></tr>
+            <tr style="background:#ffe9e9"><td class="mono">A9</td><td><b>Clinique El Amal</b><br><span style="color:var(--text-dim); font-size:11px">09-08 · AWS</span></td><td>Registre 5 onglets</td><td class="mono" style="text-align:right">18 000 HT</td><td><span class="status s-retard">Retard J+2</span></td><td style="text-align:center">↗</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="panel" style="margin-top:12px">
+      <div class="table-head"><h3>Vault — Information juridique (éduquer, pas publiciser)</h3><span class="mono" style="margin-left:auto; font-size:11px; color:var(--text-dim)">177 docs · Search / · TOC</span></div>
+      <div class="vault-grid">
+        <div class="vault-card"><h4>00 Commencer ici — 5 min</h4><p>READ_ME + ADHD QuickStart. Une niche, un canal — ne pas lire linéaire.</p></div>
+        <div class="vault-card"><h4>03 Acquisition — 6 canaux sans pub</h4><p>LinkedIn authority, SEO éducationnel, partenariats comptables, WhatsApp, ateliers, referral.</p></div>
+        <div class="vault-card"><h4>02 Niches — 07 PI · 08 Fisc · 09 Office</h4><p>Packs 2 500–28 000 DH HT, provision 50%, trilingue FR/AR/EN, MRE/Nomads.</p></div>
+        <div class="vault-card" style="border-color:#c3002f"><h4 style="color:#c3002f">08 Jurisprudence — À citer</h4><p>09-08 CNDP 4 déc., 31-08 3 jug., Contrats 3 arrêts Cass. — grille sanctions prête.</p></div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

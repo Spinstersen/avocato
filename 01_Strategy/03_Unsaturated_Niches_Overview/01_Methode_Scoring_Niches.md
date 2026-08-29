@@ -117,9 +117,9 @@ La différenciation est la **capacité de l'avocat à se démarquer durablement*
 Pour chaque niche, remplir le tableau :
 
 ```
-┌────────────────────────────────────────────────────────────Ŀ
+┌─────────────────────────────────────────────────────────────┐
 │  NICHE : [nom]                                              │
-├────────────────────────────────────────────────────────────Ĵ
+├─────────────────────────────────────────────────────────────┤
 │  Critère              Score /10  Justification              │
 │  Douleur              X          [raison]                   │
 │  Concurrence          X          [raison]                   │
@@ -208,7 +208,7 @@ Re-scoring tous les 12 mois pour identifier les niches qui se saturent et celles
 ## 14. Le schéma de décision global
 
 ```
-┌─────────────────────────────────────────────────Ŀ
+┌──────────────────────────────────────────────────┐
 │ 1. Scoring composite (4 critères, /40)            │
 │         ↓                                         │
 │ 2. Score ≥ 25 ?                                   │

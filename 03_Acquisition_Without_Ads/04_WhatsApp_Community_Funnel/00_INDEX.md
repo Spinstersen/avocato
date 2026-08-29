@@ -33,7 +33,6 @@ WhatsApp est central au Maroc. Usage professionnel toléré mais sous conditions
 - ✅ Réponse aux messages reçus.
 - ✅ Suivi client en cours (avec accord).
 - ✅ Statut WhatsApp informatif (article, astuce juridique).
-- `03_Fiche_Complete_WhatsApp.md` - Fiche complète du canal (encyclopédie)
 
 Voir `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/05_Reseaux_Sociaux_LinkedIn_Cadre.md`.
 

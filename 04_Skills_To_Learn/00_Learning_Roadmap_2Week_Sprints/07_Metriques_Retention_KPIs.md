@@ -13,7 +13,7 @@
 ## Dopamine Board Learning (inspiré `01_Strategy/04_Client_Acquisition_System_No_Ads/08_Metrics_Dopamine_Board.md`)
 
 ```
-Sprints 1-12: [███۰░░░░░░░] 33% (4/12)
+Sprints 1-12: [████░░░░░░░░] 33% (4/12)
 Streak actuel: 5 jours 🔥
 J30 Recall score: 7/10
 ```
@@ -35,6 +35,8 @@ J30 Recall score: 7/10
 
 ## Approfondissement Encyclopédique (Bonus)
 
+### Cas pratique détaillé
+**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
 
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 -> overwhelm

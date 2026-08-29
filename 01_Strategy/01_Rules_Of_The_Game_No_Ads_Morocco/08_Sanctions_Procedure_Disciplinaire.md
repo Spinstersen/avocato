@@ -1,8 +1,5 @@
 # 08 — Sanctions et procédure disciplinaire
 
-> ⚠️ **MISE À JOUR 23/08/2026 — Loi n° 66.23 promulguée (dahir 1-26-75 du 18/08/2026) et publiée au BO n° 7536 du 20/08/2026 : la loi 28-08 est ABROGÉE.** Les numéros d'articles ci-dessous (art. 30, 32, 36…) renvoient à l'ancien texte ; **re-vérifier les équivalences dans la loi 66.23** (traçabilité honoraires, stage 2 ans, mandats limités, discipline réformée) avant tout usage en pratique. Détail : `00_START_HERE/12_VEILLE_LEGALE_2025_2026.md` §A2.
-
-
 Comprendre la procédure disciplinaire est essentiel pour deux raisons : (1) savoir à quoi s'attendre en cas de signalement, (2) mesurer le risque réel d'une décision avant de la prendre. La procédure disciplinaire des avocats au Maroc est régie par la loi 28-08, le RIO national et les RIO locaux. Ce fichier détaille les fautes, l'échelle des sanctions, la procédure, les voies de recours, et la jurisprudence pratique.
 
 ## 1. Les fautes disciplinaires

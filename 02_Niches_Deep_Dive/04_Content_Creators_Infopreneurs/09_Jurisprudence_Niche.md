@@ -1,59 +1,49 @@
 # 09 — Jurisprudence & Doctrine (04_Content_Creators_Infopreneurs)
 
-> Réplique `08_Jurisprudence/00_Index.md:15` + `01_Strategy/01_Rules/09_Jurisprudence_Ordre_Decisions.md` — Renvois Glossaire §05, §11, §06 — vérif sgg.gov.ma / ompic.ma / cndp.ma à date du diagnostic.
+> Réplique `08_Jurisprudence/00_Index.md` — **règle de vérifiabilité (28/08/2026)** : les « décisions » génériques du vault (CNDP 2023-045, Cass. com 2022/123, OMPIC HRFlow) étaient des illustrations sans précédent publié — retirées. Pour cette niche, le matériau citable est ailleurs : dans le texte, les chiffres publics et la presse documentée.
 
-## 3 Décisions à citer en diagnostic 04_Content_Creators_Infopreneurs
+## 1. Le vide juridique influenceurs — l'état du droit documenté (2026)
 
-### 1. Cass. com. — Cession droits d'auteur freelance non écrite = nulle
+*   **Fait vérifiable et sourçable** : analyse de presse eco (Médias24, 19/02/2026 — « Publicité des influenceurs au Maroc : un vide juridique à combler ») : aucune loi marocaine n'impose la mention « collaboration commerciale » ; pas de régime spécifique enfants-influenceurs ; contrastes avec la loi française du 9 juin 2023 (mention obligatoire, sanctions pénales).
+*   **Fait de contrôle vérifiable** : le ministère en charge de la Jeunesse et des Sports a porté plainte contre **36 créateurs de contenu** pour publicité illicite (campagnes de sites de paris sportifs — décembre 2025, presse). → Argument : « le vide de la loi sur les mentions ne couvre pas la publicité pour un service interdit. »
+*   **Ce que ça change en contrat** : une marque française mandate avec ses propres obligations (mention, conformité) → ces obligations atterrissent dans le contrat de Yasmine par la clause de compliance. C'est là que l'avocat sert : lire ce que la marque impose « chez elle » et le traduire en clauses chiffrées.
 
-- **Réf :** Cass. com. n° 642 du 11/05/2022 — courdecassation.ma, Loi 2-00 art.11.
-- **Faits :** Infopreneur avait payé 40k DH à un monteur freelance pour 20 vidéos YouTube sans contrat de cession écrit, freelance revendique droits après succès chaîne 200k abonnés.
-- **Solution :** Cession nulle — art.11 Loi 2-00 droits d'auteur exige écrit + mention rémunération + durée + territoire distinct par droit cédé, à défaut l'auteur reste propriétaire.
-- **Takeaway diagnostic :** « Vidéo payée sans cession écrite = vous ne possédez rien — on signe cession Loi 2-00 avant paiement, 1 page par prestataire. »
-- **Mission liée :** Contrat freelance + cession PI Loi 2-00 + dépôt OMPIC classe 41 — pack créateur 7j.
-- **Glossaire :** §11 DOC art.443 (écrit >10k) + §05 OMPIC (dépôt après cession).
+## 2. Les textes qui font déjà jurisdiction sur les créateurs
 
-### 2. OMPIC — Rejet marque « MindCasa » classe 41 défaut distinctivité
+*   **Droit d'auteur — loi 2-00** (modifiée/complétée 34-05) : œuvre protégée dès la fixation (art. 1) ; cession par écrit, droit par droit, avec étendue de destination (art. 9 et s., à confirmer au texte consolidé `sgg.gov.ma`) → l'argument contre la clause « cession totale » : elle est souvent nulle dans son excès de généralité pour défaut d'individualisation des droits cédés.
+*   **Consommation — loi 31-08** : vente à distance (art. 26 s.), rétractation **7 jours** (art. 36), exceptions (art. 38), remboursement (art. 37), preuve au professionnel (art. 34), clauses abusives **nulles** (art. 15-19) — ces articles sont les armes contre le créateur-vendeur, pas pour le créateur-prestataire.
+*   **Change** : IGOC édition courante (`oc.gov.ma`) — encaissement des revenus de plateformes étrangères, comptes non déclarés : la matière est administrative et bancaire, pas jurisprudentielle.
+*   **Marque personnelle** : **CA com Casablanca 2024 « NOUR DAR/ALNOUR »** (marque 231440) — annulation de la décision d'opposition OMPIC pour dépassement du délai de l'art. 148-3 ; « position constante » des cours d'appel de commerce et de la Cour de cassation sur ces délais (source : `jurisprudence.ma`). → Pour les créateurs : les droits sur le nom vivent dans la procédure (dépôt, opposition 2 mois), pas dans la notoriété ressentie.
 
-- **Réf :** OMPIC Décision n° 2023-201 du 19/10/2023 — ompic.ma Bulletin n° 410, Loi 17-97 art.133-134.
-- **Faits :** Créateur dépose « MindCasa » pour formation/coaching classe 41 — terme descriptif + déjà 2 marques « MIND » en 41, sans preuve usage distinctif.
-- **Solution :** Rejet art.133-134 Loi 17-97 — signe descriptif/générique non distinctif + risque confusion art.148, même après publication Bulletin 4-6 mois.
-- **Takeaway diagnostic :** « Marque générique classe 41 = rejet + 1 200 DH perdus — on teste distinctivité + dépôt 35+41 avant lancement pub. »
-- **Mission liée :** Recherche antériorité directompic.ma 2h + dépôt classe 41 + 35 (pub) + 9 (si app) 72h + surveillance 2 mois.
-- **Glossaire :** §05 OMPIC 1 200 DH/classe 2 mois opposition + §06 logo avec visage = donnée perso.
+## 3. Ce qui est tentant et interdit de citer
 
-### 3. Trib. com. Rabat — CGV formation « non remboursable » abusive
+*   Un « arrêt de la Cour de cassation marocaine sur l'influence » **introuvable** : il y en a dans les articles SEO français ou les lives de « legalfluencers » — le vault en contenait trois types, tous retirés. Une référence non ouverte n'existe pas.
+*   Une jurisprudence CNIL/CJUE « qui s'applique au Maroc » : elle ne s'applique qu'aux personnes UE (et aux contrats qui l'importent) — l'argument se dit « GDPR art. 3(2) » ou « clause contractuelle », pas « la CNIL a décidé ».
+*   Les cas médiatisés marocains (diffamation, mœurs, atteintes à la vie privée entre créateurs) : pénaux, souvent sans publication accessible en français — on peut les raconter comme **fait divers professionnel** (« plusieurs procédures ont visé la publicité de paris en ligne ») sans inventer d'arrêt.
 
-- **Réf :** Trib. com. Rabat Jugt n° 1893 du 04/07/2023 — greffe Rabat, Loi 31-08 art.15+18.
-- **Faits :** Infopreneur vendait formation 9 000 DH « accès immédiat non remboursable » sans rétractation 7j, sans info support, client demande remboursement J+3.
-- **Solution :** Clause abusive annulée art.15+19 Loi 31-08 + art.264 DOC — rétractation 7j art.36 Loi 31-08 applicable formation à distance, remboursement 15j sous astreinte.
-- **Takeaway diagnostic :** « Formation “non remboursable” = clause nulle — on écrit CGV 31-08 avec 7j rétractation + garantie 15j, sinon remboursement forcé. »
-- **Mission liée :** CGV formation 31-08 + mentions légales + politique 09-08 opt-in + contrat cession — pack 10j.
-- **Glossaire :** §11 DOC art.264 pénalité abusive + §06 consentement 09-08 (emails prospects).
-
-## Fiche Notion modèle — à dupliquer (vide)
+## Fiche Notion modèle
 
 ```
-Réf: [ex: Cass. com. 642 du 11/05/2022 — courdecassation.ma / OMPIC 2023-201]
-Faits: 1 phrase contextualisée creator/infopreneur/formation
-Solution: 1 phrase + base légale exacte (art.11 Loi 2-00 / art.133 Loi 17-97 / art.36 Loi 31-08)
-Takeaway client: 1 phrase actionnable + chiffre (1 200 DH / 7j / 2 mois)
-Mission liée: Cession PI / Dépôt 41 / CGV — délai 7-10j
-Source vérifiable: courdecassation.ma / ompic.ma / sgg.gov.ma — date vérif: __/__/2026
+Réf: Loi 2-00 art. 9 (cession = écrit, droit par droit) + DOC 443 (preuve >10k)
+Faits: type — « cession totale perpétuelle » signée en DM, sans détail des droits
+Solution: nullité de la cession pour défaut d'individualisation + preuve du périmètre oral quasi impossible
+Article: 2-00 ; DOC
+Takeaway client: "Votre clause 'tout nous appartient' ne vaut rien — mais elle vous coûte cher sans procès"
+Source: sgg.gov.ma (consolidé) ; banque 08_Jurisprudence/05...
 ```
-
-## Interactions avec autres niches
-
-- **Niche 02 E-commerce :** Creator avec boutique Shopify formation = même CGV 7j + registre 09-08 50 cmd/j §06/§11.
-- **Niche 01 Freelance :** Freelance monteur sans cession = même risque que Niche 01 impayé art.443 — contrat + cession avant facturation §11.
-- **Niche 03 Loi 09-08 :** Base emails prospects formation = opt-in D-2024-012 — sans consentement purge base §06.
-
-## Sources & Renvois glossaire
-
-- sgg.gov.ma : Loi 2-00 art.11 cession, Loi 17-97 art.133-134-148, Loi 31-08 art.15/18/36, DOC art.443/264.
-- courdecassation.ma : Cass. com. 642/2022.
-- ompic.ma : Décision 2023-201 Bull.410 — guide classes Nice 41/35/09.
-- Glossaire : §05 (OMPIC 2 mois/10 ans), §11 (preuve/cession), §06 (registre), §10 (provision 50%).
 
 ---
-> Méthode : Vérifier Bulletin OMPIC 4-6 mois + jurisprudence Loi 2-00 sur sgg.gov.ma — dépôt au nom SARL §09, pas personne physique.
+
+## Lecture doctrinale — la particularité de cette niche : citer le régime, pas le précédent
+
+Dans une niche où la loi spécifique n'existe pas encore, le positionnement de l'avocat n'est pas « je connais l'arrêt X » mais **« je sais lire le droit existant là où personne ne l'a appliqué »** : la cession non individualisée (2-00), la revente de base de données (09-08 art. 64), l'exclusivité bornée par le DOC, la compliance importée par contrat depuis la France. Cette supériorité analytique se vérifie dans la note de négociation livrée en 72h — pas dans un numéro d'arrêt.
+
+**Doctrine à suivre (veille active)** : propositions de loi influenceurs / initiatives du ministère de tutelle / doctrine BMDA sur l'exploitation en ligne / décisions OMPIC publiées au bulletin. Le jour où la loi arrive, ses premiers clients seront ceux déjà en conformité — c'est l'argument de vente long terme de la niche, sans avoir besoin de jurisprudence pour l'instant.
+
+---
+
+## Méthode de lecture d'une décision
+
+**Ne jamais citer le dispositif sans les faits — et jamais les faits sans le texte.** Pour la marque : arrêt NOUR DAR (produit, fait, solution, source ouverte). Pour 31-08/2-00 : le texte de loi (articles cités, brochure officielle). Pour le reste : les chiffres publics (plaintes CNDP, dossiers MDJS). La fiche Notion (`08_Jurisprudence/00_Index.md`) garde la colonne « Réf » obligatoire — case vide = pas de citation.
+
+> Sources : `sgg.gov.ma`, `dgssi.gov.ma` (brochure 31-08), `ompic.ma`, `cndp.ma`, presse eco documentée (Médias24 déc. 2025-fév. 2026), `jurisprudence.ma`. Dernière vérification : 28/08/2026.

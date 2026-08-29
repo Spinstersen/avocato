@@ -43,7 +43,7 @@ La niche 4 est **énorme en volume, encore embryonnaire en maturité juridique**
 ### 3.4 CGV formations en ligne absentes
 
 - Vente de formations en ligne = prestation de services → CGV obligatoires (Loi 31-08).
-- Droit de rétractation 7 jours (art.36 loi 31-08 ; exceptions art.38 dont contenu numérique avec consentement exprès).
+- Droit de rétractation 14 jours (sauf exception pour les biens numériques dématérialisés).
 
 ### 3.5 Mentions légales chaîne YouTube/TikTok non conformes
 

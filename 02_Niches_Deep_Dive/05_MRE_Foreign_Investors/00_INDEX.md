@@ -14,8 +14,6 @@ Niche haut de gamme, meilleur score composite (32/40) mais accessibilité résea
 - `03_Offre_Productisee.md`
 - `04_Canaux_Acquisition_EN.md`
 - `05_Cas_Pratique.md`
-- `13_Fiche_Trilingue_AR_1.md`
-- `14_Fiche_Trilingue_AR_2.md`
 
 ## Persona — Karim
 

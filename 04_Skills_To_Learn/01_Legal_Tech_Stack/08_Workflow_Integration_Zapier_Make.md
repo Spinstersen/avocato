@@ -1,4 +1,4 @@
-﻿# 08 — Workflow & Intégration Zapier/Make (No-Code)
+# 08 — Workflow & Intégration Zapier/Make (No-Code)
 
 ## 3 Zaps indispensables (2h setup, 5h/mois gagnées)
 
@@ -30,6 +30,8 @@ Si budget 0: chaque matin 10 min batch: Tally → copier/coller Notion, Calendly
 
 ## Approfondissement Encyclopédique (Bonus)
 
+### Cas pratique détaillé
+**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
 
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 -> overwhelm

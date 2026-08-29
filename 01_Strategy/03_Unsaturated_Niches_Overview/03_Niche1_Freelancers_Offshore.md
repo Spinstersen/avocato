@@ -37,7 +37,7 @@ La niche 1 est la **niche pilote recommandée** pour un avocat trilingue tech-sa
 
 ### 3.1 Le statut (auto-entrepreneur vs SARL)
 
-- L'auto-entrepreneur a un plafond de CA annuel (200 000 DH pour services, 500 000 DH pour achat-revente) — au-delà, bascule obligatoire en SARL ou autre.
+- L'auto-entrepreneur a un plafond de CA annuel (200 000 DH pour services, 1 million pour achat-revente) — au-delà, bascule obligatoire en SARL ou autre.
 - L'auto-entrepreneur paie l'IR au taux libératoire (1-3% pour les services, 0,5-1% pour le commerce). Au-delà de 200 000 DH/an, la fiscalité devient moins intéressante.
 - La SARL permet de déduire les charges (salaires, frais, investissements), de protéger le patrimoine, de facturer offshore avec TVA exonérée.
 - Le passage AE → SARL a des conséquences (transfert de clientèle, comptabilité, statut du gérant).
@@ -76,7 +76,7 @@ La niche 1 est la **niche pilote recommandée** pour un avocat trilingue tech-sa
 
 ### 3.6 Les conventions fiscales
 
-- Convention Maroc-France (29 mai 1970) : éviter la double imposition.
+- Convention Maroc-France (1959, modifiée) : éviter la double imposition.
 - Convention Maroc-Belgique : idem.
 - Le MRE freelance qui vit à l'étranger et facture des clients au Maroc ou inversement a une situation fiscale complexe.
 
@@ -155,7 +155,7 @@ Voir `01_Strategy/02_Positioning_Trilingual_Tech_Lawyer/08_Persona_Prospect_Idea
 ## 8. Les canaux d'acquisition pour la niche
 
 ```
-┌───────────────────────────────────────────Ŀ
+┌────────────────────────────────────────────┐
 │ 1. SEO (12 articles en 12 semaines)         │
 │    → Google Search Console                  │
 │         ↓                                    │

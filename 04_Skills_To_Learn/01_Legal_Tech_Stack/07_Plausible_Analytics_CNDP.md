@@ -36,23 +36,37 @@ Même avec Plausible, tenir registre simplifié `05_Document_Bank/templates/05_R
 
 ---
 
-## À retenir + checklist + suite — Plausible & CNDP
+## Approfondissement Encyclopédique (Bonus)
 
-**3 points clés de ce fichier :**
-- GA4 = transfert US → sanction CNDP possible (délib 40-22) + bandeau cookie friction → bannir.
-- Plausible UE (Allemagne) : 0 cookie, IP hashée, script 1kb, $9/10k vues, pas de bandeau si 0 cookie.
-- Même avec Plausible, registre 09-08 simplifié obligatoire (finalité audience, base légitime, durée 13 mois, contact@cabinet.ma).
+### Cas pratique détaillé
+**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
 
-**Checklist 6 points — analytics conforme :**
-- [ ] Compte Plausible créé + domaine `cabinet.ma` + script `plausible.io/js/script.js` posé
-- [ ] Dashboard temps réel vérifié (vues / sources / pages / pays)
-- [ ] Registre 09-08 créé (`05_Document_Bank/templates/05_Registre_09-08_Modele.md`) — 5 colonnes
-- [ ] Politique confidentialité mentionne Plausible + transfert UE (pas US) + durée 13 mois
-- [ ] KPI hebdo 10 min : top 3 articles, source top, rebond >70% → article trop court
-- [ ] Alternative Matomo on-prem OVH évaluée si >50k vues
+### Erreurs fréquentes (Top 5)
+1. Vouloir tout faire J1 -> overwhelm
+2. Négliger 09-08/CNDP -> sanction 300k
+3. Omettre provision art30 -> impayé
+4. Publier sans relecture -> faute FR + hallucination
+5. Pas de métrique -> 0 amélioration
 
-**Renvoi glossaire :** `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §06 Loi 09-08 registre 5 colonnes + transfert art.43-44 (hébergement UE vs US).
+### Checklist encyclopédique (12 points)
+- [ ] Anonymisation / 09-08 OK
+- [ ] Déontologie RIO vérifiée
+- [ ] Template prêt veille
+- [ ] Loom 3 min si livrable
+- [ ] LanguageTool 0 faute
+- [ ] Plausible/Yousign si besoin
+- [ ] Notion archivé
+- [ ] Feedback humain obtenu
+- [ ] Repurposing 1->5 fait
+- [ ] KPI mis à jour
+- [ ] Spaced J3/J7 planifié
+- [ ] Prochain sprint choisi
 
-**Interaction dossier :** Données Plausible alimentent `03_Sales_Without_Selling/07_Metriques_Taux_Conversion.md` (funnel 1000 vues → 1 diag/sem) et `06_French_Communication/03_Structure_SCQA.md` (contenu qui convertit).
+### Ressources Maroc
+- sgg.gov.ma, cndp.ma, ompic.ma, jep.ma, rbm.ma
+- YouTube: OMPIC, CNDP webinars, SPIN 15m, Canva School
 
-**Sources spécifiques :** plausible.io/docs (EU hosting), cndp.ma guide registre + délib 40-22, cnil.fr/cookies (référence UE) — vérif 20/08/2026.
+### Plan 7 jours ultra-concret
+J1 30m input, J2 output, J3 test Feynman, J4 feedback, J5 publish, J6 spaced J3, J7 review.
+
+> Philosophie: Sobre, chiffré, vendable en 7j. Mieux vaut 70% publié que 95% parfait jamais livré.

@@ -1,64 +1,37 @@
-# 10 — Comparatif International E-commerce & Dropshipping YouCan (Maroc / France / Belgique-Espagne)
+# 10 — Comparatif International (02_Ecommerce_Dropshipping_YouCan)
 
-> **Sources primaires :** `sgg.gov.ma` (Loi 31-08 art.36-38, Loi 09-08 art.12-14/43, Loi 17-97 art.133/148, CGI art.19/92/144, Loi 114-13 AE, IGOC 2024 `oc.gov.ma`), `cndp.ma`, `cnil.fr` RGPD, Bofip Conv. 29 mai 1970/1972. **Glossaire :** `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §01-§12.
+> Réplique `01_Strategy/01_Rules/10_Comparatif_International_France_Belgique.md`, version e-commerce. Ce comparatif sert à une chose : tuer le réflexe « copier les CGV françaises » — les délais marocains ne sont PAS européens.
 
-## Tableau comparatif e-commerce — 5 colonnes
+## Le comparatif qui compte pour un e-commerçant marocain
 
-| Critère | Maroc | France | Belgique / Espagne | Verdict + base légale + renvoi glossaire |
-|---|---|---|---|---|
-| **Statut & plafond vente en ligne** | AE commerce **500 000 DH** HT (≈45k€) IR **1%** libératoire ; au-delà SARL IS **20 % unifié** (LF 2026 ; CGI art.19) | Micro **188 700€** commerce, IR **12,3%** + URSSAF **23%** ; au-delà SASU IS **15% <42,5k€** puis 25% | BE indépendant **20,5%** cotis. ; ES Autónomo quota fixe + IS startup 15% 2 ans | **AE 500k Maroc >> micro 77k service mais < micro 188k commerce** : sur 400k DH CA, AE 4k DH vs FR 140k DH prélèvements. Au-delà 500k → SARL 7-14j 5 500 HT. → §09 §01 |
-| **CGV / droit rétractation** | **Loi 31-08 art.36-38** : CGV FR/AR obligatoires, droit rétractation **7 jours** (art.36), remboursement **15j**, info précontractuelle + preuve commande DOC art.443 | **Code conso L221-18** : rétractation **14 jours**, remboursement 14j, mentions CNIL/RGPD | BE/ES : 14j UE (Directive 2011/83) | **Maroc 7j vs FR 14j** : CGV YouCan doit afficher 7j Maroc (pas copier 14j FR) sous peine de clause abusive. Verdict : rédiger CGV 31-08 4h + case acceptation horodatée. → §11 §06 |
-| **Loi 09-08 / CNIL-RGPD** | Registre **5 colonnes art.14**, déclaration en ligne **cndp.ma 30j** récépissé, amende **10k-300k DH + 6 mois prison** art.52, transfert art.43-44 = clauses CNDP | RGPD : registre interne + CNIL, amende **jusqu'à 20M€ ou 4% CA** (art.83), transfert art.46 = SCC UE | BE/ES : même RGPD 20M€ | **Sanction FR 66× plus lourde mais contrôle CNDP plus rapide (45j mise en demeure)** : boutique 50 cmd/j sans registre = sanction CNDP 2023-045. → §06 §11 |
-| **Paiement & marque** | **CMI Maroc 7j** (dossier banque + RC + CGV + 09-08), commission **2,8%**, YouCan/MoPay ; **OMPIC 1 200 DH/classe** 72h, opposition **2 mois** art.148 Loi 17-97 | **Stripe 48h** + 1,5% UE, **INPI 190€/classe** 4j, opposition 2 mois | Mollie ES/BE 1,8% | **CMI 7j vs Stripe instantané** : sans CMI + registre CNDP, banque refuse contrat monétique ; OMPIC 1 200 DH (≈110€) moins cher que INPI 190€ mais protection MA seulement → déposer 35+9+42 si SaaS. → §05 §12 §03 |
-| **TVA & dividende** | TVA **20%** si client Maroc (art.144) ; **exon art.92 0%** si client hors MA + devises + rapatriement 30j IGOC | TVA **20%** FR, seuil franchise **91 900€** commerce vs 36 800€ service ; exon export art.262 | BE TVA 21% ; ES 21% | **Même IS 20 % (LF 2026) mais TVA art.92 conditionne marge dropshipping : client Casa → TVA 20% due (100k×20%=20k), client Paris → 0% si SWIFT 30j. Dividende 10% FR/15% BE via 5000-F → économise 15k sur 100k. → §04 §07 §03 |
+| Critère | Maroc (loi 31-08/09-08) | France/UE (Code conso + GDPR) | Ce que ça change pour vous |
+|---|---|---|---|
+| Rétractation vente à distance | **7 jours** (art. 36), 30 si info non confirmée par écrit | **14 jours** (dir. 2011/83/UE) | CGV traduites du français = engagement au-delà du légal ; CGV recopiées du « ni repris ni échangé » américain = illégal ici. On écrit du droit marocain. |
+| Exceptions rétractation | Liste art. 38 (services commencés, biens personnalisés, descellés...) — fermée | Liste similaire (art. L221-28) | Un « cosmétique ouvert = refus » ne se défend qu'avec mention précontractuelle + scellement prouvé. |
+| Remboursement | 15 jours (art. 37) | 14 jours (UE) | Le délai court dès la rétractation, pas dès le retour du colis. |
+| Charge de la preuve | **Sur le fournisseur** (art. 34) | Sur le professionnel (info précontractuelle) | Sans CGV horodatées + case opt-in, vous perdez par construction. D'où archive des consentements. |
+| TVA sur les ventes | 20%/10% (convergence 2026 : 20/10/0) ; AE hors champ | TVA + OSS/IOSS pour import <150€ | Dropshipping Chine→Maroc : frais/douane à la livraison = litige client si non annoncé AVANT paiement (mention art. 3). |
+| Registre données clients | Formalités CNDP ; amende 10k-100k (art. 64) | RGPD : registre art. 30, DPA client | Le module Shopify/YouCan « RGPD ready » ne déclare RIEN à la CNDP. |
+| Marque de boutique | 1ᵉʳ déposant (loi 17-97) ; ≈1 800 DH/classe ; opposition 2 mois | Idem système dépôt + EU Trade Mark | Le concurrent qui dépose votre nom ROMARIN-protégé vous évince ; le veille bulletin à 2 mois est votre assurance. |
+| Statut vendeur | AE commerce 500k / 0,5% puis SARL IS 20% | Micro 77k services/83k vente puis EI/IS | Le seuil bas du AE est une étape normale, pas un plafond de croissance. |
 
-## 3 cas chiffrés comparatifs — e-commerce YouCan
+## Verdict 02_Ecommerce_Dropshipping_YouCan
 
-**Cas A — Dropshipper 420k DH CA commerce (~38k€), 100% clients France, bénéfice 90k DH :**
-Maroc AE commerce 1% = **4 200 DH (380€)**, net ≈85,8k DH + TVA 0% art.92 (rapatriement 30j). France micro 12,3%+23% sur 38k€ = **13 400€**, net ≈24,6k€ → **écart ≈9k€** en faveur Maroc. Mais AE commerce plafonné 500k : à 520k → radiation + IS 20 % (LF 2026) → prévoir SARL dès 450k.
-
-**Cas B — Boutique YouCan 50 cmd/j, 15k emails collectés sans registre CNDP, hébergement Shopify US :**
-Maroc : mise en demeure CNDP 45j → amende **10k-300k DH** (art.52) + transfert art.43 sans CTT = infraction ; régularisation : registre 5 colonnes + déclaration cndp.ma 30j (gratuit) + CTT Shopify art.43. France : même base mais amende CNIL **20M€** ; transfert RGPD art.46 SCC. **Levier avocat : pack 09-08 12k-28k DH HT** évite 300k amende — ROI 10×. Sans CGV 31-08 7j, litige « non livré » → remboursement 15j imposé.
-
-**Cas C — Marque « CasaDrop » déposée OMPIC classe 35 seule à 1 200 DH, concurrent dépose 35+9+42 :**
-Maroc : dépôt 35 protège boutique, mais **pas le SaaS/app (classes 9+42)** → concurrent bloque app → rebrand 40k DH. France : INPI 190€/classe mais même risque si 1 classe. Dividende si bénéfice 200k DH vers associé Paris : retenue **10% FR =20k** via 5000-F vs **30% PFU =60k** sans convention → **économie 40k DH** + compte devise MRE 72h.
-
-## Verdict e-commerce
-
-*   **CGV** : Ne jamais copier CGV France 14j sur YouCan Maroc — mentionner **7j rétractation Loi 31-08 art.36** + 15j remboursement + preuve commande art.443 §11. Rédaction 4h facturable 3 500 HT.
-*   **09-08** : Registre 5 colonnes + déclaration CNDP 30j avant d'encaisser 1€ (même 5 emails) ; si Shopify/AWS US → **transfert art.43-44 CTT CNDP** vs RGPD art.46 SCC — dossier 30j. Sanction 10k-300k DH vs 20M€ FR : même rigueur, échelle différente.
-*   **Paiement & IS** : CMI 7j exige RC+CGV+registre — anticiper. AE 500k (1%) imbattable pour tester, puis SARL IS 20 % (LF 2026) (pas CA) pour scaler ; TVA 20% si client Maroc, 0% art.92 si export tracé 30j.
-*   **Procédure crédit art.27 :** Dividende YouCan SARL → associé BE : retenue **15% BE (1972)** via attestation DGI 30j + 5000-F → crédit 15k sur 100k bénéfice (IS MA crédité IR BE). Sans 5000-F = double imposition 15k+25k. → §07
-
-## Interactions
-
-*   §11 DOC + §05 OMPIC : Contrat fournisseur Chine art.443 + réserve propriété art.618 avant dépôt marque 35/9/42 — sinon fournisseur garde PI.
-*   §06 09-08 → §05 OMPIC : Logo avec visage = donnée personnelle → registre avant dépôt marque.
-*   §04 TVA + §03 Rapatriement + §12 Compte : client Paris payé EUR → facture art.92 + SWIFT 30j → compte convertible crédité 48h → sinon TVA 20% due.
-*   §09 AE/SARL → §10 Provision : AE 500k dépassé 2 ans = radiation → convention provision 50% Loi 28-08 avant transformation SARL 4 900 HT.
-*   §07 Convention + §01 Résidence : dividende 10% FR uniquement si attestation résidence DGI (résident 183j) — sinon 30% PFU.
-
-## Procédure crédit art.27 + 5000-F (détail e-commerce)
-
-1. **CGV 31-08 d'abord** : 7j rétractation + preuve commande art.443 §11 avant encaissement — sinon contrat nul.
-2. **Registre CNDP** : 5 colonnes art.14 + déclaration 30j cndp.ma + CTT Shopify US art.43 (§06) — sinon CMI refuse contrat.
-3. **Attestation résidence DGI 30j** (passeport+bail+RC) pour dividende boutique → activer Conv. 29 mai 1970/1972 (§01 §07).
-4. **5000-F Bofip** visé DGI → banque FR/BE avant virement dividende YouCan : retenue **15% BE /10% FR** vs 30% PFU → **15k économisés/100k** (Cas C).
-5. **Compte devise MRE 72h** (si <183j) transférable FR vs convertible 48h (si résident) §12 — choisir avant 1er virement.
+*   Vendre au Maroc = droit marocain, pas une traduction du français. Les 4 lignes qui tuent un business importé : rétractation 7 (pas 14), exceptions fermées (art. 38), preuve à votre charge (art. 34), douane annoncée avant paiement.
+*   Vendre aux Émirats/UE (expansion de Salma plus tard) = vous devenez le « vendeur étranger » qu'on auditait : GDPR art. 3(2), TVA OSS — voir `03_Loi_09-08_GDPR_Compliance/10_Comparatif_International.md`.
 
 ## Checklist comparatif
 
-*   [ ] CGV 31-08 7j FR/AR + case acceptation horodatée + remboursement 15j §11
-*   [ ] Registre 09-08 5 col. + déclaration CNDP 30j + CTT transfert US art.43 §06
-*   [ ] AE 500k suivi 12m glissants — si >450k → devis SARL 7-14j §09
-*   [ ] CMI dossier 7j (RC+CGV+registre) + OMPIC 35+9+42 1 200 DH/classe §05 §12
-*   [ ] Facture art.144 + art.92 si export + SWIFT 30j → convertible §04 §03
-*   [ ] Attestation DGI 30j + 5000-F visé + crédit art.27 ligne 2047 §07 §01
-*   [ ] Dotation e-com 15k DH/an si pub Meta US + voyage 100k IGOC §03
-
-## Lecture comparative — pourquoi comparer sans copier
-
-Le 500k AE commerce Maroc (1% sur CA brut) n'est pas le micro 188k FR (12,3%+23% sur CA brut) — assiette et plafond diffèrent. La CGV 7j Maroc Loi 31-08 n'est pas la CGV 14j France L221-18 (délai, remboursement 15j vs 14j). Le crédit art.27 ne s'applique que via 5000-F + attestation — sans, double imposition 15k+25k. Expliquez au client YouCan pourquoi copier ses CGV France expose à clause abusive et pourquoi OMPIC 1 200 DH/classe n'est pas INPI 190€ (portée territoriale).
+*   [ ] CGV : délais marocains écrits (7/15/30), pas copiés-collés d'EU ?
+*   [ ] Frais de douane et délais d'expédition (dropshipping) affichés AVANT le bouton payer ?
+*   [ ] Politique « descellés/hygiène » adossée à l'art. 38, pas à un panneau « ni repris ni échangé » ?
+*   [ ] Registre 09-08 de la boutique (clients, concours, pixels) constitué ?
+*   [ ] Marque déposée en classes 3 (cosmétiques) + 35 (vente au détail) — ROMARIN vierge ?
 
 ---
-> Sources à vérifier à J-0 : `sgg.gov.ma` Loi 31-08/09-08/17-97, CGI art.92, `oc.gov.ma` IGOC 2024, `cndp.ma` délib.40-22, Bofip Conv. FR-MA du 29 mai 1970 art.27. Le 7j marocain n'est pas le 14j français : expliquez la base légale au client MRE qui veut copier ses CGV France.
+
+## Comparer pour expliquer, pas pour copier
+
+Le comparatif n'a d'intérêt que s'il explique la logique des délais : 7 jours marocains contre 14 européens, ce n'est pas « moins protecteur » — c'est un texte de 2011 calibré sur un marché COD naissant, dont la vraie force est ailleurs (exceptions fermées, preuve au fournisseur). L'erreur classique : un e-commerçant qui affiche 14 jours par ignorance du droit local, puis refuse un retour J+9 « hors délai » — deux fautes symétriques, l'engagement commercial dépassant le légal n'interdit pas l'exception légale mal appliquée. Et inverse : le « modèle gratuit » trouvé en ligne avec « 30-day return policy » n'est pas du droit marocain, c'est une clause qui engagera le juge marocain contre vous.
+
+> Références : loi 31-08 (dahir 1-11-03, brochure `dgssi.gov.ma`), directive UE 2011/83/UE (eur-lex), loi 09-08 + `cndp.ma`, loi 17-97 + `ompic.ma`/ROMARIN, CGI (LF2026 n° 50-25, `tax.gov.ma`) — dernière vérification 28/08/2026.

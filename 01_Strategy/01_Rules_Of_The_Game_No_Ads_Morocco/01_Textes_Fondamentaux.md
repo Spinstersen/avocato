@@ -1,8 +1,5 @@
 # 01 — Textes fondamentaux : sources du droit applicable à la publicité de l'avocat
 
-> ⚠️ **MISE À JOUR 23/08/2026 — Loi n° 66.23 promulguée (dahir 1-26-75 du 18/08/2026) et publiée au BO n° 7536 du 20/08/2026 : la loi 28-08 est ABROGÉE.** Les numéros d'articles ci-dessous (art. 30, 32, 36…) renvoient à l'ancien texte ; **re-vérifier les équivalences dans la loi 66.23** (traçabilité honoraires, stage 2 ans, mandats limités, discipline réformée) avant tout usage en pratique. Détail : `00_START_HERE/12_VEILLE_LEGALE_2025_2026.md` §A2.
-
-
 Avant d'analyser ce qui est permis ou interdit, il faut connaître les sources exactes. La déontologie de l'avocat marocain n'est pas un texte unique mais un empilement de normes dont la hiérarchie compte : un principe posé par la loi ne peut pas être contredit par un règlement intérieur de barreau, mais un barreau peut avoir une interprétation plus stricte qu'un autre sur une zone grise.
 
 ## 1. Hiérarchie des normes applicables
@@ -81,7 +78,7 @@ Quand l'avocat exploite un site web, collecte des contacts, des leads via formul
 - Recueillir le consentement pour les données collectées.
 - Garantir la sécurité et la confidentialité.
 
-Voir `08_Jurisprudence/01_Loi_09-08/00_INDEX.md` et `02_Niches_Deep_Dive/03_Loi_09-08_GDPR_Compliance/`.
+Voir `08_Jurisprudence/01_Loi_09-08_CNDP_Sanctions.md` et `02_Niches_Deep_Dive/03_Loi_09-08_GDPR_Compliance/`.
 
 ### 4.2 Loi 31-08 (protection du consommateur)
 

@@ -21,8 +21,6 @@ Arrêtez de concourir avec 200 généralistes de votre ville sur « divorce, imm
 | 08 | `08_Persona_Prospect_Ideal.md` | Pour savoir à qui vous parlez |
 | 09 | `09_Positionnement_Niches.md` | Pour adapter le positionnement par niche |
 | 10 | `10_Plan_30_Jours.md` | Pour déployer le positionnement en 30 jours |
-| 11 | `11_Arbre_Decision_Positionnement.md` | Pour choisir ta catégorie en 5 min |
-| 12 | `12_Fiches_Pratiques_Positionnement.md` | 15 fiches copier-coller FR/EN/AR |
 
 ## La phrase fondatrice
 

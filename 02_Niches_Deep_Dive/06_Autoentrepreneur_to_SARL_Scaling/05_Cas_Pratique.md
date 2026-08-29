@@ -8,10 +8,10 @@ Tarik, 38 ans, consultant marketing à Casablanca. AE depuis 5 ans, 350 k DH/an 
 
 Calcul comparatif :
 
-- AE (commerce, plafond 500k) : 350 k × 0,5 % = 1 750 DH IR + CNSS forfaitaire 500 DH ≈ 2 250 DH/an.
-- SARL : IS 20 % (LF 2026) sur bénéfice (350 k - charges 200 k = 150 k × 20 % = 30 000 DH IS + comptabilité 15 000 DH/an + salaire dirigeant 60 k DH/an → charges sociales 30 k DH = total 135 000 DH/an.
+- AE : 350 k × 2% = 7 000 DH IR + CNSS forfaitaire 500 DH = 7 500 DH/an.
+- SARL : IS 15% sur bénéfice (350 k - charges 200 k = 150 k bénéfice × 15% = 22 500 DH IS + comptabilité 15 000 DH/an + salaire dirigeant 60 k DH/an → charges sociales 30 k DH = total 127 500 DH/an.
 
-Conclusion : SARL plus chère globalement (135 000 vs 2 250), mais avec salaire + protection + scalabilité. À décider selon objectifs.
+Conclusion : SARL plus chère globalement (127 500 vs 7 500), mais avec salaire + protection + scalabilité. À décider selon objectifs.
 
 ## 3. Proposition
 

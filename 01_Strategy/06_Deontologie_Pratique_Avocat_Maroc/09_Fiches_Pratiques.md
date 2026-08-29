@@ -1,8 +1,5 @@
 # 09 — Fiches pratiques déontologiques
 
-> ⚠️ **MISE À JOUR 23/08/2026 — Loi n° 66.23 en vigueur (BO n°7536 du 20/08/2026) : la loi 28-08 est ABROGÉE.** Les articles cités ci-dessous (art. 30, 32, 33-35, 59…) renvoient à l'ancien texte ; **re-mapping des équivalences vers la loi 66.23 en cours** (traçabilité honoraires, stage 2 ans, discipline réformée). Détail : `00_START_HERE/12_VEILLE_LEGALE_2025_2026.md` §A2.
-
-
 Ce fichier rassemble les checklists, modèles-type, et arbres de décision déontologiques.
 
 ## 1. La checklist avant toute mission

@@ -27,7 +27,7 @@ Visio 45 min. Évaluation :
 - Mentions 09-08 manquantes → amende CNDP possible.
 - CMI bloque pour défaut de CGV.
 - Factures non conformes.
-- Statut AE avec CA 360 k DH/an (sous plafond commerce 500 000 DH).
+- Statut AE avec CA 360 k DH/an (sous le plafond commerce de 500 k — marge à surveiller, pic Ramadan).
 
 ## 5. Proposition de mission (J-0)
 
@@ -46,7 +46,7 @@ Convention Yousign. Paiement provision 3 700 DH.
 
 - CGV conformes (Loi 31-08 + COD + mentions 09-08).
 - Politique de confidentialité.
-- Politique de retour (7 jours, art.36 loi 31-08).
+- Politique de retour : minimum légal rétractation 7 jours (art. 36) ; politique commerciale affichée 14 jours (choix attractif, licite).
 - Registre 09-08 vierge.
 - Modèle de facture conforme.
 - Modèle de devis.

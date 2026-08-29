@@ -1,4 +1,4 @@
-﻿# 10 — Arbre de Décision : Quel Sprint Faire Ensuite ?
+# 10 — Arbre de Décision : Quel Sprint Faire Ensuite ?
 
 ```
 START: As-tu vendu 3 packs freelance ce mois ?
@@ -33,6 +33,8 @@ START: As-tu vendu 3 packs freelance ce mois ?
 
 ## Approfondissement Encyclopédique (Bonus)
 
+### Cas pratique détaillé
+**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
 
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 -> overwhelm

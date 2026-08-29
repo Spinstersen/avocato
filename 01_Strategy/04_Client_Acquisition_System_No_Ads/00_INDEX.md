@@ -21,13 +21,11 @@ Pas besoin de publicité. Pas besoin de cold call. Pas besoin de démarchage. Be
 | 08 | `08_Metrics_Dopamine_Board.md` | Les KPI à suivre |
 | 09 | `09_Anti_Burnout_ADHD.md` | La préservation de l'énergie |
 | 10 | `10_Plan_90_Jours.md` | Le déploiement en 90 jours |
-| 11 | `11_Arbre_Decision_Canal.md` | Choisir 1 canal en 3 min |
-| 12 | `12_Fiches_Pratiques_Acquisition.md` | 12 fiches 30 min/jour |
 
 ## La flywheel en 5 maillons
 
 ```
-    ┌────────────────────────────────────────────Ŀ
+    ┌─────────────────────────────────────────────┐
     │                                             │
     │   [1] CONTENU ÉDUCATIF                       │
     │       (LinkedIn / article / vidéo)          │

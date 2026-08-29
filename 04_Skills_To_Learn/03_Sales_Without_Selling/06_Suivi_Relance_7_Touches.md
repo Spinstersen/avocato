@@ -1,4 +1,4 @@
-﻿# 06 — Suivi & Relance 7 Touches (Sans Harcèlement)
+# 06 — Suivi & Relance 7 Touches (Sans Harcèlement)
 
 ## Séquence post-diagnostic (si pas de réponse)
 
@@ -28,6 +28,8 @@ Jamais 2 relances sans valeur. Toujours apporter (article, checklist). Stop à J
 
 ## Approfondissement Encyclopédique (Bonus)
 
+### Cas pratique détaillé
+**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
 
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 -> overwhelm

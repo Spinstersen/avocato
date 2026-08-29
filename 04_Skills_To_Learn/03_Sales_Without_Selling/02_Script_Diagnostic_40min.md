@@ -35,23 +35,37 @@ Template `07_Sharp_Legal_Mind/02_Cas_Grades.md` — 1 page, 3 risques H/M/B + 1 
 
 ---
 
-## À retenir + checklist + suite — Script Diagnostic 40 min
+## Approfondissement Encyclopédique (Bonus)
 
-**3 points clés de ce fichier :**
-- Structure 0-40 : Accueil 5m + SPIN S+P 10m + SPIN I 10m (quantifier) + SPIN N + Teach 10m + 2 options 5m.
-- Verbatim ouverture : cadre 40m + "pas de vente, diagnostic + note risques" + silence 10 sec après prix.
-- Livrable 24h : note risques 1 page (3 risques H/M/B + 1 phrase client) via `07_Sharp_Legal_Mind/02_Cas_Grades.md`.
+### Cas pratique détaillé
+**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
 
-**Checklist 6 points — diagnostic sans vente forcée :**
-- [ ] Calendly 40m + rappel 24h envoyé + SPIN notes 7 catégories prêtes
-- [ ] Questions par niche listées (freelance: facturation/paiement/contrat/IP / ecom: CGV/09-08/CNSS)
-- [ ] Quantification coût faite : "Combien coûterait litige IP 20k€ / redressement 120k TVA ?"
-- [ ] 2 options ancrées : Essentielle 2900 DH vs Étendue 5900 DH + "pas besoin décider maintenant"
-- [ ] Note risques template prête + envoi Yousign J+1 + convention art.30
-- [ ] Suivi J3 relance prévue (`06_French_Communication/04_Modeles_5_Emails.md` modèle 2)
+### Erreurs fréquentes (Top 5)
+1. Vouloir tout faire J1 -> overwhelm
+2. Négliger 09-08/CNDP -> sanction 300k
+3. Omettre provision art30 -> impayé
+4. Publier sans relecture -> faute FR + hallucination
+5. Pas de métrique -> 0 amélioration
 
-**Renvoi glossaire :** `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §04 TVA art.92 (ex. verbatim freelance) + §06 09-08 + §09 AE plafond + §10 Provision 50%.
+### Checklist encyclopédique (12 points)
+- [ ] Anonymisation / 09-08 OK
+- [ ] Déontologie RIO vérifiée
+- [ ] Template prêt veille
+- [ ] Loom 3 min si livrable
+- [ ] LanguageTool 0 faute
+- [ ] Plausible/Yousign si besoin
+- [ ] Notion archivé
+- [ ] Feedback humain obtenu
+- [ ] Repurposing 1->5 fait
+- [ ] KPI mis à jour
+- [ ] Spaced J3/J7 planifié
+- [ ] Prochain sprint choisi
 
-**Interaction dossier :** Données SPIN → `07_Sharp_Legal_Mind/01_Issue_Spotting.md` (7 catégories) et `07_Sharp_Legal_Mind/03_Numbers_Sheet.md` (chiffres ROI 50×).
+### Ressources Maroc
+- sgg.gov.ma, cndp.ma, ompic.ma, jep.ma, rbm.ma
+- YouTube: OMPIC, CNDP webinars, SPIN 15m, Canva School
 
-**Sources spécifiques :** `07_Sharp_Legal_Mind/03_Numbers_Sheet.md` (500k/300k/5900), modèle `05_Document_Bank/templates/01_Convention` — vérif 20/08/2026.
+### Plan 7 jours ultra-concret
+J1 30m input, J2 output, J3 test Feynman, J4 feedback, J5 publish, J6 spaced J3, J7 review.
+
+> Philosophie: Sobre, chiffré, vendable en 7j. Mieux vaut 70% publié que 95% parfait jamais livré.

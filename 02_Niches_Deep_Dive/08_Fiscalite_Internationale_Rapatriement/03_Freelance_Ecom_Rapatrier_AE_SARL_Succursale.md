@@ -7,8 +7,8 @@
 | Statut | Plafond CA | Création | IS/IR | TVA export art.92 `01_Freelancers.../02_Douleurs_Juridiques.md:40` | Rapatriement 30j Office | Compte | Pour qui |
 |---|---|---|---|---|---|---|---|
 | **AE service** | 200k DH/an `06_Autoentrepreneur.../02_Douleurs_Juridiques.md:7` | 1j gratuit | IR 1-3% libératoire | Exon si client hors Maroc + justif export | Virement perso (pas pro séparé) | Perso | Test <200k, 1 client |
-| **AE commerce** | 500k DH/an | 1j | IR 0.5-1% | Idem | Idem | Perso | Ecom <400k test |
-| **SARL/SARL-AU** | Illimité | 7-14j OMPIC `05_MRE.../02_Douleurs_Juridiques.md:8`, capital 10k min | IS 20 % unique (LF 2026 : benefice net <100M MAD ; 35 % au-dela)à | Exon art.92 | Dividende/salaire via compte pro convertible, déclar 30j IGOC `09_Office_Changes_IGOC2024/07_Rapatriement_Obligations.md` | Pro convertible | Freelance >200k, ecom >400k, PME |
+| **AE commerce** | 1M DH/an | 1j | IR 0.5-1% | Idem | Idem | Perso | Ecom <1M test |
+| **SARL/SARL-AU** | Illimité | 7-14j OMPIC `05_MRE.../02_Douleurs_Juridiques.md:8`, capital 10k min | IS 15% <300k bénéf, 31% au-delà | Exon art.92 | Dividende/salaire via compte pro convertible, déclar 30j IGOC `09_Office_Changes_IGOC2024/07_Rapatriement_Obligations.md` | Pro convertible | Freelance >200k, ecom >1M, PME |
 | **Succursale** (art.379 loi 17-95) | Illimité | 14j RC + Office | IS sur bénéf Maroc seulement | Exon | Maison mère → succursale (Office) | Pro succursale | Ecom étranger (Dubai) veut Maroc |
 | **Auto-entrepreneur → SARL scaling** | Passage obligé plafond | `06_Autoentrepreneur_to_SARL_Scaling/02_Douleurs_Juridiques.md:7` | Transition IR→IS | Idem | Idem | Pro | Atteint plafond |
 
@@ -30,13 +30,13 @@
 ## Cas chiffré Yassine 600k DH (freelance dev US)
 
 *   AE 600k >200k plafond → redressement 30% + IS rétro 31% = 180k DH si contrôle.
-*   **Solution SARL:** IS 20 % (LF 2026) sur bénéfice net ≈ 200k = 40k DH + CNSS 25k ; IR AE libératoire impossible (plafond 200k services dépassé) → **SG: SARL coûte +42k mais légal + embauche**.
+*   **Solution SARL:** IS 15% sur bénéfice 400k (après charges 200k) = 60k DH + CNSS 25k vs IR AE 3%×600k=18k mais limité plafond → **SG: SARL coûte +42k mais légal + embauche**.
 *   **Pack:** SARL 7-14j (OMPIC) + contrat FR/EN + TVA exon + compte convertible = `08_Missions_Pack_International_Fiscal.md:5,900 HT`.
 
 ## Cas Salma ecom 30k DH/mois (360k/an) YouCan
 
-*   AE plafond 500k (commerce) -- mais **loi 15-06 e-commerce** + **31-08 protection consommateur** + **09-08** exigent SARL au-delà 1M → anticiper.
-*   **Solution:** AE jusqu'à 400k → bascule SARL avant 500k (prévisionnel 6 mois).
+*   AE commerce 1M plafond OK mais **loi 15-06 e-commerce** + **31-08 protection consommateur** + **09-08** exigent SARL au-delà 1M → anticiper.
+*   **Solution:** AE jusqu'à 800k → bascule SARL avant 1M (prévisionnel 6 mois).
 
 ## Checklist rapatriement
 
@@ -52,8 +52,8 @@
 ## Statut juridique pour rapatrier — réponse directe
 
 *   **<200k:** AE service suffit (1j, IR 1-3%).
-*   **200k-500k (commerce):** SARL obligatoire (ou portage si salarié hors Maroc `02_Salarie_Hors_Maroc`).
-*   **>500k ou 3 clients EU:** SARL + compte convertible + TVA exon.
+*   **200k-1M:** SARL obligatoire (ou portage si salarié hors Maroc `02_Salarie_Hors_Maroc`).
+*   **>1M ou 3 clients EU:** SARL + compte convertible + TVA exon.
 *   **Étranger veut Maroc:** succursale 14j.
 
 ---

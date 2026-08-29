@@ -1,59 +1,61 @@
 # 09 — Jurisprudence & Doctrine (03_Loi_09-08_GDPR_Compliance)
 
-> Réplique `08_Jurisprudence/00_Index.md:15` + `01_Strategy/01_Rules/09_Jurisprudence_Ordre_Decisions.md` — Cœur Glossaire §06 — vérif cndp.ma / sgg.gov.ma à date du diagnostic.
+> Réplique `08_Jurisprudence/00_Index.md` + source directe : `08_Jurisprudence/01_Loi_09-08_CNDP_Sanctions.md`. **Règle de vérifiabilité (28/08/2026) : la CNDP ne publie pas de décisions de sanction individuelles numérotées** (les « décisions CNDP 2022/2023/2024 » qui circulaient dans le vault sont des **cas types illustratifs**, pas des précédents — elles sont étiquetées comme telles ci-dessous). Les seules « décisions » citables pour cette niche : le **texte de la loi**, la **grille officielle CNDP**, la **jurisprudence CJUE publiée** (curia.europa.eu) et les **délibérations/communications** publiées sur `cndp.ma`.
 
-## 3 Décisions à citer en diagnostic 03_Loi_09-08_GDPR_Compliance
+## 1. Les bases marocaines réellement citables
 
-### 1. CNDP — Absence registre 5 colonnes (cas étalon e-commerce)
+*   **Loi 09-08** (dahir 1-09-15 du 18/02/2009, BO 5714 du 23/04/2009) + **décret 2-10-450** : formalités préalables (déclaration ; **autorisation** pour les données sensibles), registre, information des personnes, sécurité, transferts hors Maroc encadrés.
+*   **Volet pénal (chap. art. 52-65)** — les deux articles qui servent en diagnostic :
+    *   **Art. 64** : mettre en œuvre un traitement **sans avoir effectué les formalités préalables** → amende **10 000 à 100 000 DH**.
+    *   **Art. 65** : collecte par moyen **frauduleux, déloyal ou illicite** → **emprisonnement jusqu'à 3 ans** + amende.
+*   **Document officiel à bookmarker** : « Liste des infractions à la loi n°09-08 et des sanctions prévues » (`cndp.ma`, PDF) — c'est LA grille à afficher, pas un numéro de décision inventé.
+*   **Tendance vérifiable (chiffre réel)** : plaintes reçues par la CNDP : 1 (2011) → 7 (2012) → 43 (2013) → 162 (2014) → 396 (2015) → 584 (2016) → 508 (2017) — source : secrétaire général CNDP, Finances News Hebdo (2018). L'argument de risque est là, sourçable, pas dans un chiffre d'amende sensationnaliste.
+*   **Registre national CNDP** : la CNDP publie le registre national des traitements déclarés/autorisés (numéros type « D-M-XX/AAAA ») — vérifiable publiquement, utile en diagnostic (« êtes-vous dans le registre national ? »).
 
-- **Réf :** CNDP Délib. n° D-2023-045 du 12/04/2023 — cndp.ma, `08_Jurisprudence/01_Loi_09-08/00_INDEX.md:5`.
-- **Faits :** PME e-commerce 50 cmd/j collectait 12 000 contacts (nom/tél/adresse) sans registre, sans information préalable art.14, sans durée de conservation.
-- **Solution :** Mise en demeure 45j constituer registre 5 colonnes art.14+23 Loi 09-08 — traitement/finalité/base légale/durée/destinataires — sous astreinte, amende 10k-300k art.52 si inexécution.
-- **Takeaway diagnostic :** « 1 email collecté = registre obligatoire — on le livre en 48h avec 5 colonnes, sinon vous êtes en faute au 1er contrôle CNDP. »
-- **Mission liée :** Registre Notion 5 colonnes + déclaration cndp.ma (récépissé 30j) + politique confidentialité — pack 10j.
-- **Glossaire :** §06 registre 45j + §10 clause 09-08 dans convention honoraires.
+## 2. Les cas types de la banque (à raconter comme « le cas que la CNDP contrôle », jamais comme un arrêt)
 
-### 2. CNDP — Transfert AWS US sans clauses contractuelles types
+1.  **Cas type registre** — e-commerçant, 50 commandes/jour, aucune formalité, WhatsApp sans opt-in → mise en demeure + registre sous délai. Takeaway : *« Le registre est la première pièce demandée en contrôle. »* (base : `08_Jurisprudence/01_...` §1 — illustration de travail).
+2.  **Cas type données sensibles** — clinique sans autorisation → injonction + dépôt d'autorisation. Takeaway : *« Santé/biométrie = autorisation, la déclaration ne suffit pas. »* (§2, illustration).
+3.  **Cas type transfert** — SaaS hébergé AWS sans clause → régularisation clauses + information. Takeaway : *« Vos serveurs à l'étranger sont un transfert. »* (§3, illustration).
+4.  **Cas type prospection** — SMS sur base achetée, pas de preuve de consentement, STOP inopérant → amende + purge. Takeaway : *« Celui qui utilise la base répond. »* (§4, illustration).
 
-- **Réf :** CNDP Délib. n° D-2023-089 du 14/09/2023 — cndp.ma, transfert hors Maroc.
-- **Faits :** SaaS Casa hébergeait données RH/clients sur AWS us-east-1 (Virginie) + Google Cloud US sans CCT, sans info personnes concernées, sans autorisation art.43.
-- **Solution :** Injonction régulariser art.43-44 Loi 09-08 — signer CCT CNDP + mention transfert dans politique + registre destinataires US + information préalable sous 45j.
-- **Takeaway diagnostic :** « AWS US / Shopify / GCP hors Maroc = transfert art.43 — on signe CCT CNDP avant hébergement, sinon cessation traitement. »
-- **Mission liée :** Audit transfert + CCT CNDP + avenant sous-traitant art.24 + politique transfert — audit 3j.
-- **Glossaire :** §06 transfert art.43-44 + §03 rapatriement 30j ne remplace pas CCT.
+## 3. Les décisions CJUE réellement publiées (le volet UE)
 
-### 3. CNDP — Prospection WhatsApp sans consentement préalable
+5.  **CJUE C-311/18 « Schrems II » (16/07/2020)** — invalidation du Privacy Shield ; transfert vers les US = clauses contractuelles types + mesures complémentaires si le droit d'accès local menace la protection. → Pour le SaaS marocain sur cloud US : la question n'est pas « où est le serveur » mais « qui peut y accéder ». Source : curia.europa.eu.
+6.  **CJUE C-673/17 « Planet49 » (01/10/2019)** — case pré-cochée ≠ consentement ; information sur durée et catégories d'accès requise. → La bannière « continuer = accepter » ne se défend pas ; la doctrine cookies CNDP suit la même ligne. Source : curia.europa.eu.
 
-- **Réf :** CNDP Délib. n° D-2024-012 du 18/01/2024 — cndp.ma, `08_Jurisprudence/01:27-31`.
-- **Faits :** Société envoyait promos WhatsApp/SMS à base achetée 8 000 numéros sans opt-in prouvé, sans case non pré-cochée, sans STOP fonctionnel.
-- **Solution :** Amende + ordre purger base art.12 Loi 09-08 — consentement préalable, libre, spécifique, prouvable exigé + publication possible art.52.
-- **Takeaway diagnostic :** « WhatsApp promo sans preuve opt-in = sanction + purge base — on refait formulaire avec case décochée + registre consentements horodaté. »
-- **Mission liée :** Modèle formulaire consentement + registre consentements + procédure droit opposition 7j — livré avec registre.
-- **Glossaire :** §06 base légale consentement + §11 preuve art.443 (journal consentement = preuve).
-
-## Fiche Notion modèle — à dupliquer (vide)
+## Fiche Notion modèle (référence sourcée)
 
 ```
-Réf: [ex: CNDP D-2024-012 du 18/01/2024 — cndp.ma]
-Faits: 1 phrase contextualisée 09-08 (registre/transfert/prospection)
-Solution: 1 phrase + base légale exacte (art.14 / art.43-44 / art.12 Loi 09-08)
-Takeaway client: 1 phrase actionnable + chiffre (45j / 10k-300k / STOP 7j)
-Mission liée: Registre 5 colonnes / CCT transfert / Opt-in — délai 7-10j
-Source vérifiable: cndp.ma / sgg.gov.ma — date vérif: __/__/2026
+Réf: Loi 09-08 art. 64 (+ grille officielle cndp.ma « infractions-sanctions »)
+Faits: type — traitement de données clients sans formalité préalable
+Solution: amende 10 000-100 000 DH ; mise en demeure + régularisation en pratique
+Article: art. 64 (formalités) ; art. 65 (collecte frauduleuse, pénal)
+Takeaway client: "Le registre est la première pièce du contrôle — on le constitue en 10 jours"
+Source: cndp.ma PDF liste infractions ; sgg.gov.ma texte consolidé
 ```
 
-## Interactions avec autres niches
+## Sources
 
-- **Niche 01 Freelance :** Agence Notion/Payoneer US = transfert 43-44 identique SaaS — mutualiser CCT §06.
-- **Niche 02 E-commerce :** 50 cmd/j sans registre = cas D-2023-045 — vente shop sans registre = redressement 09-08 avant CGV §06+§11.
-- **Niche 04 Creators :** Formation avec emails prospects = même opt-in WhatsApp — base 8k sans consentement = purge §06.
-
-## Sources & Renvois glossaire
-
-- sgg.gov.ma : Loi 09-08 art.12/14/23/24/43-44/52 — délib. CNDP 40-22.
-- cndp.ma : Délib. D-2023-045, D-2023-089, D-2024-012 — guide registre + guide transfert 2023.
-- Glossaire : §06 intégral (déclaration vs autorisation, 45j, 10k-300k), §11 preuve, §10 convention.
-- Vérifier à chaque diagnostic : barème art.52 et modèle CCT mis à jour sur cndp.ma.
+*   `cndp.ma` (grille infractions/sanctions, formulaires, registre national, communiqués) ; `sgg.gov.ma` (09-08 + décret consolidés) ; `eur-lex.europa.eu` (GDPR, SCC 2021/914) ; `curia.europa.eu` (CJUE).
+*   **Interdits :** toute « décision CNDP n° … » sans PDF ouvert ; tout numéro d'amende sans article.
 
 ---
-> Méthode : `08_Jurisprudence/01:33-40` — grille sanctions 10k-300k = art.52 pénal, mise en demeure 45j = pratique administrative CNDP ne pas confondre.
+
+## Lecture doctrinale — comment citer sans travestir (règle renforcée 28/08/2026)
+
+**Principe 1 — pas de source, pas de citation.** La CNDP publie des lignes directrices, un registre national et des communiqués, pas un reporting de sanctions nominatives comme la CNIL. Construire un argument de vente sur une sanction « 300 000 DH » jamais publiée = travestir le droit ET fragiliser l'avocat qui la cite (le client tech vérifiera).
+
+**Principe 2 — l'argument qui tient est structurel** : (1) le texte impose formalités + registre (09-08) ; (2) la grille attache une amende étagérée (art. 64 : 10k-100k ; pénal art. 65) ; (3) le régulateur est saisi — le volume de plaintes (508 en 2017) prouve que la machine est lancée ; (4) côté UE, ce n'est pas la CNIL qui viendra à Casa : c'est le DPA du client. La séquence est réelle et vérifiable sans invented case.
+
+**Principe 3 — les cas types gardent leur valeur** : ils enseignent le pattern de contrôle (registre, autorisation, transfert, opt-in) et préparent l'audition comme un médecin prépare le tableau clinique. Mais on les annonce comme « typiquement », jamais comme « la CNDP a décidé le… ».
+
+**Exemple de bonne citation en diagnostic** : « Le texte est clair : traitement sans formalités préalables, c'est 10 000 à 100 000 DH (art. 64), et la collecte par moyen déloyal est pénale (art. 65). La CNDP reçoit des centaines de plaintes par an et le registre est la première pièce demandée. On le constitue en 10 jours. »
+
+---
+
+## Méthode de lecture d'une décision
+
+**Ne jamais citer le dispositif sans les faits — et les faits sans la source.** La fiche Notion (`08_Jurisprudence/00_Index.md`) force : Réf (texte ou arrêt ouvert), Faits 1 phrase, Solution 1 phrase, Article visé, Takeaway chiffré et sourcé, Mission liée. Côté GDPR, lire l'arrêt CJUE (curia), pas le résumé de blog ; les SCC 2021/914 et la recommandation EDPB 01/2020 (mesures complémentaires post-Schrems) sont les textes qui font le travail.
+
+**Doctrine** : `sgg.gov.ma` (textes), `cndp.ma` (grilles, registre, actualité), `eur-lex`/`curia` (UE). Vérifier annuellement : les pratiques de contrôle CNDP évoluent plus vite que le texte de 2009, et la réforme du régime (alignement GDPR) est dans l'agenda des acteurs marocains depuis 2018 (interviews CNDP) — anticiper une modernisation du cadre.

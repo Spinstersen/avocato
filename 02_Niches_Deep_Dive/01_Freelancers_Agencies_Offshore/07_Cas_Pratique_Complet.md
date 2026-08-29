@@ -16,7 +16,7 @@ Yassine découvre un article de l'avocat : « Contrat prestation freelance Maroc
 
 L'avocat répond selon le script type (voir `06_Scripts_DM_WhatsApp.md`) :
 
-- Diagnostic 45 min à 600 DH HT.
+- Diagnostic 45 min à 900 DH HT.
 - Lien Calendly.
 - Délai de réponse 24-48h respecté.
 
@@ -72,7 +72,7 @@ Convention envoyée par Yousign. Yassine signe sous 24h. Paiement de la provisio
 - Contrat FR/EN sur mesure (10 clauses).
 - CGV adaptées (mention offshore, TVA art. 92, modalités paiement).
 - Modèle de devis commercial conforme.
-- Modèle de facture conforme (mentions art. 144 CGI).
+- Modèle de facture conforme (mentions art. 145 CGI).
 - Note de choix de statut (AE vs SARL, calcul comparatif).
 - Loom d'explication 15 min.
 
@@ -112,7 +112,7 @@ Convention envoyée par Yousign. Yassine signe sous 24h. Paiement de la provisio
 
 Yassine recommande l'avocat à 3 freelances de son réseau (Samy, Mehdi, Karim). L'avocat envoie à chacun :
 
-- Diagnostic gratuit (valeur 600 DH HT).
+- Échange de qualification 20 min offert (le diagnostic complet est à 900 DH HT).
 - Le guide PDF « Contrat prestation freelance Maroc ».
 
 ### Résultat : 3 nouveaux prospects qualifiés en 6 mois, 1 mission signée (Samy, Pack Freelance 2 900 DH HT).

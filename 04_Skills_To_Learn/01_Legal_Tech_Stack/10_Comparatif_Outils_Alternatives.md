@@ -1,4 +1,4 @@
-﻿# 10 — Comparatif Outils & Alternatives
+# 10 — Comparatif Outils & Alternatives
 
 | Besoin | Recommandé | Alternative 1 | Alternative 2 | Quand switcher |
 |---|---|---|---|---|
@@ -24,6 +24,8 @@ Si barreau strict, privilégier colonne UE (Cal.com, Yousign, Plausible, Make) m
 
 ## Approfondissement Encyclopédique (Bonus)
 
+### Cas pratique détaillé
+**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
 
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 -> overwhelm

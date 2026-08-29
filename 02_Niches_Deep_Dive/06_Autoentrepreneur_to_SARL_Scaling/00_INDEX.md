@@ -14,8 +14,6 @@ Niche de transition. Persona Tarik, consultant marketing à Casablanca. Pack cœ
 - `03_Offre_Productisee.md`
 - `04_Canaux_SEO_Partenaires.md`
 - `05_Cas_Pratique.md`
-- `13_Fiche_Trilingue_AR_1.md`
-- `14_Fiche_Trilingue_AR_2.md`
 
 ## Persona — Tarik
 

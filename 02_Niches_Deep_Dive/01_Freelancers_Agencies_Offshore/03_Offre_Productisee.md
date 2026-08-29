@@ -1,14 +1,15 @@
 # 03 — Missions Professionnelles : Freelance & Agence Offshore
 
-> **Nature juridique** — Chaque mission fait l'objet d'une **convention d'honoraires écrite préalable** (art. 30 et 32 Loi 28-08, art. 12 Règlement Intérieur — Barreau de [Ville]). Honoraires indicatifs HT, provision 50% à la signature, débours en sus, TVA selon art. 91 CGI. Aucun honoraire n'est un prix fixe de type e-commerce : il est ajusté au diagnostic (art. 59). Aucune garantie de résultat.
+> **Nature juridique** — Chaque mission fait l'objet d'une **convention d'honoraires écrite préalable** (principe constant de la loi 28-08, articles 30 et 32 — **transposition en cours : la loi 66-23, promulguée août 2026, remplace la loi 28-08 ; nouveaux numéros d'articles à vérifier dès texte consolidé**, art. 12 Règlement Intérieur du barreau de [Ville]). Honoraires indicatifs HT, provision 50% à la signature, débours en sus, TVA selon art. 91 CGI. Aucun honoraire n'est un prix fixe de type e-commerce : il est ajusté au diagnostic. Aucune garantie de résultat.
 
 ## Fondement juridique commun
 
-*   **Loi 28-08** art. 30 (convention écrite), art. 32 (provision), art. 59 (devoir de conseil).
-*   **DOC** art. 230 et s. (formation du contrat), art. 443 (preuve écrite >10 000 DH), art. 618 et s. (réserve de propriété).
-*   **CGI** art. 91 (exonération TVA), art. 144 (mentions facture), art. 150 (régime AE).
-*   **Loi 20-19** art. 50-70 (SARL-AU), art. 80 et s. (SARL).
-*   **Règlement Office des Changes** IGOC 2024 (rapatriement 30j, dotation e-commerce).
+*   **Loi 66-23** (organisation de la profession d'avocat — remplace loi 28-08 depuis août 2026) : convention écrite préalable, provision, secret, devoir de conseil — principes inchangés, numéros d'articles à transposer (`00_INDEX.md` watch).
+*   **DOC** art. 230 et s. (inexécution, dommages-intérêts), art. 263-264 (évaluation de la réparation ; pénalité mesurée), art. 443 (preuve écrite >10 000 DH). Réserve de propriété : écrit convenu au plus tard à la livraison *(la référence « art. 618 » du vault était erronée — voir `09_Jurisprudence_Niche.md`)*.
+*   **CGI** art. 91 (non-assujettissement TVA), art. 92 (exonération export), art. 145 (facturation ; e-invoicing 2026), art. 42 s. (régime AE — plafonds, retenue 80k).
+*   **Loi 5-96** (SARL, SARL-AU ; SAS/SASU loi 19-20). *(« Loi 20-19 » : erreur de numérotation corrigée.)*
+*   **Loi 2-00 modifiée par loi 34-05** (cession PI par écrit, art. 9).
+*   **Règlement Office des Changes** : IGOC édition courante (2026 en vigueur au 01/01/2026 ; édition 2024 archivée) — rapatriement, justificatifs, dotations.
 
 ---
 
@@ -16,13 +17,13 @@
 
 ### Pourquoi cette mission existe
 
-Le freelance facture sans contrat écrit, sous statut AE au-delà du plafond (200 000 DH services / 500 000 DH commerce, art. 4 Loi 114-13), et rapatrie en devises sans justificatif IGOC 30j. Trois risques cumulatifs : nullité de preuve (DOC art. 443), redressement CGI, blocage bancaire. Le diagnostic permet de qualifier avant de facturer.
+Le freelance facture sans contrat écrit, sous statut AE au-delà du plafond (200 000 DH services / 500 000 DH commerce — CGI art. 42 s., statut loi 114-13), et rapatrie en devises sans justificatif IGOC. Trois risques cumulatifs : nullité de preuve (DOC art. 443), redressement CGI, blocage bancaire. Le diagnostic permet de qualifier avant de facturer.
 
 ### Ce que l'avocat fait concrètement
 
 1.  **Entretien diagnostic 45 min** (présentiel ou visio) : qualification du flux (client, pays, devise, statut actuel, CA 12 mois).
-2.  **Analyse statutaire** : AE vs SARL-AU — tableau comparatif chiffré (charges déductibles, IS 20 % unifié (LF 2026), CGI art. 19, LF annuelle à vérifier).
-3.  **Analyse contractuelle** : 10 points de contrôle (objet, prix, pénalités 10% DOC art. 258, réserve propriété art. 618, PI cession art. 9 Loi 2-00, confidentialité 09-08, résiliation, juridiction Casa, loi marocaine, force majeure).
+2.  **Analyse statutaire** : AE vs SARL-AU — tableau comparatif chiffré (charges déductibles ; IS 2026 : 20% BNF<100M / 35% ≥100M / 40% financier, réforme LF2023, CGI art. 247-XXXVII ; AE : 1%/0,5% + retenue 30% >80k/client).
+3.  **Analyse contractuelle** : 10 points de contrôle (objet, prix, pénalités mesurées 10% + intérêts (DOC art. 263-264), réserve de propriété (écrit avant livraison), PI cession art. 9 loi 2-00, confidentialité 09-08, résiliation, juridiction Casa, loi marocaine, force majeure).
 4.  **Note de risques 2 pages** : synthèse des 3 priorités + références légales + échéance recommandée.
 
 ### Livrables
@@ -47,9 +48,9 @@ Art. 443 DOC : preuve écrite exigée au-delà de 10 000 DH. Sans clause de cess
 
 ### Contenu détaillé (pas un template copié-collé)
 
-*   **Contrat 12 clauses** rédigé sur mesure : objet, obligations, livrables et critères d'acceptation, prix et pénalités (10% + 1%/mois, DOC art. 258), propriété intellectuelle (cession à paiement complet, licence d'usage avant), confidentialité et données (09-08), responsabilité et force majeure (DOC art. 269), résiliation préavis 30j, droit applicable (Maroc) et juridiction (Tribunal commerce Casa), annexes devis/facture.
+*   **Contrat 12 clauses** rédigé sur mesure : objet, obligations, livrables et critères d'acceptation, prix et pénalités (10% + 1%/mois — base DOC art. 263-264, propriété intellectuelle (cession à paiement complet, licence d'usage avant — loi 2-00 art. 9), confidentialité et données (09-08), responsabilité et force majeure (DOC art. 268 et s.), résiliation préavis 30j, droit applicable (Maroc) et juridiction (Tribunal commerce Casa), annexes devis/facture.
 *   **Version FR + traduction de courtoisie EN** (FR fait foi, mention expresse).
-*   **Modèle de facture** conforme art. 144 CGI : ICE, RC, IF, mention `Exonération TVA art. 92 CGI — prestation export — paiement devises — rapatriement 30j IGOC`.
+*   **Modèle de facture** conforme art. 145 CGI : ICE, RC, IF, mention `Exonération TVA art. 92 CGI — prestation export — paiement devises — rapatriement IGOC` (+ format e-facture selon calendrier DGI 2026).
 
 ### Méthodologie
 
@@ -65,7 +66,7 @@ Art. 443 DOC : preuve écrite exigée au-delà de 10 000 DH. Sans clause de cess
 
 ### Fondement
 
-Loi 20-19 art. 60-70 (SARL-AU, capital minimum 10 000 DH), art. 50 et s. (SARL). Au-delà de 500k commerce / 200k services, l'AE n'est plus régularisable sans risque de requalification.
+Loi 5-96 (SARL, y compris SARL à associé unique ; capital librement fixé, pas de blocage des fonds pour le capital ≤ 100 000 DH — réforme loi 21-05 et suivantes, vérifier le texte consolidé). Au-delà de 500k commerce / 200k services, l'AE n'est plus régularisable sans risque de bascule de régime.
 
 ### Contenu
 
@@ -86,7 +87,7 @@ Loi 20-19 art. 60-70 (SARL-AU, capital minimum 10 000 DH), art. 50 et s. (SARL).
 
 ### Objet
 
-Lorsque le freelance encaisse via Stripe/Wise/Payoneer non disponible au Maroc, l'analyse porte sur le montage déclarable (SARL Maroc + succursale ou portage) et non sur un contournement. **Aucun montage occulte n'est proposé** (art. 32 Loi 28-08, IGOC 2024).
+Lorsque le freelance encaisse via Stripe/Wise/Payoneer non disponible au Maroc, l'analyse porte sur le montage déclarable (SARL Maroc + succursale ou portage) et non sur un contournement. **Aucun montage occulte n'est proposé** (obligation de conseil et de légalité — loi professionnelle ; IGOC édition courante, oc.gov.ma).
 
 ### Démarche
 
@@ -110,23 +111,6 @@ Revue de contrats (5 ou 10/mois selon formule), réponse sous 48h, veille 09-08,
 *   **Facturation** : Reçu provision `05_Document_Bank/templates/06_Recu_Provision_Facture.md` à l'encaissement, facture solde à la remise.
 *   **Devoir d'information** (art. 59) : chaque livrable est accompagné d'une note explicative Loom, pas d'un envoi brut.
 *   **Secret professionnel** (art. 36) : pièces conservées 10 ans, hébergement UE (Plausible/Yousign) ou chiffrement.
-
-### Procédure convention & provision (art. 30/32 Loi 28-08) — pas-à-pas
-
-1. Diagnostic 45 min (Mission 1) — facturé séparément, **déductible** si engagement sous 30j.
-2. Convention envoyée via **Yousign** (signature électronique) : objet, honoraires HT, TVA 20% ou exon art.92 export, **provision 50%**, débours en sus, délai **7j ouvrés après provision ET pièces complètes**.
-3. Encaissement provision → reçu HT/TVA remis (`templates/06_Recu_Provision_Facture.md`).
-4. Production → livraison + facture solde. Impayé : provision acquise + clause pénale 10% (DOC art. 264, Cass. com. 2022/123).
-5. Toute variation d'honoraires = **avenant écrit** signé Yousign avant poursuite (art. 30).
-
-### Débours en sus (facturés au réel, pièce justificative fournie)
-
-| Débours | Montant indicatif | Mission concernée |
-|---|---|---|
-| Frais CRI / immatriculation SARL | ~2 000 DH (pas 5k) | Mission 3 |
-| Journal d'annonces légales (BO/JAL) | variable selon support | Mission 3 |
-| Dépôt marque OMPIC (si demandé) | **1 200 DH/classe** électronique (+200 DH papier) | Optionnelle |
-| Légalisation/notaire (procuration distance) | selon actes | Mission 3 à distance |
 
 ## FAQ
 

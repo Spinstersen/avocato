@@ -1,69 +1,58 @@
 # 12 — Fiches Pratiques + Checklist (03_Loi_09-08_GDPR_Compliance)
 
-> **Niche :** PME/startup SaaS/e-commerce qui collecte emails, cookies, héberge sur AWS US. Dès 1 donnée = registre obligatoire. Amende 10k-300k art.52.
+## Checklist 15 points conformité data (mémoire externe de mission)
 
-## Checklist 12 points — Mise en conformité Loi 09-08 / CNDP
+*   [ ] Cartographie 5 questions complétée — quelles données, chez qui, où, pourquoi, combien de temps ? (`02_Douleurs_Juridiques.md` §Lecture pro)
+*   [ ] Régime correct identifié : déclaration vs AUTORISATION (données sensibles, art. 12-14) — vérifié traitement par traitement
+*   [ ] Registre 5+ colonnes rempli et daté (traitement, finalité, base légale, catégories données/personnes, durée, destinataires, transfert) → `05_Document_Bank/templates/05_Registre_09-08_Modele.md`
+*   [ ] Dossier de déclaration CNDP déposé (récépissé archivé) — barème et formulaires sur `cndp.ma`
+*   [ ] Politique de confidentialité sur mesure FR (+ AR/EN si audience) — PAS un générateur en ligne ; mentions art. 9-10 + durée + droit d'opposition
+*   [ ] Bannière cookies : refus aussi accessible que l'acceptation, aucune case pré-cochée (Planet49) + configuration GTM livrée au dev
+*   [ ] Contrats sous-traitants signés avec clauses art. 24-25 / GDPR art. 28 (sécurité, breach 24-48h, réversibilité, pas de sous-traitance en cascade sans accord)
+*   [ ] Transferts hors Maroc encadrés : clauses types CNDP + SCC 2021/914 si volet UE + mention dans la politique (art. 43-44 ; Schrems II)
+*   [ ] Prospection : preuve de consentement par contact (case non pré-cochée + horodatage) ; « STOP » fonctionnel testé ; base achetée purgée ou gelée
+*   [ ] Procédure droits des personnes écrite : qui reçoit (adresse dédiée), sous quel délai (15j Maroc / 1 mois UE), quel registre des demandes
+*   [ ] Procédure breach : détection → qualification → notification 72h si UE (art. 33) + registre interne des incidents
+*   [ ] DPA client UE : analysés clause par clause (audit rights, liability cap, durée, sous-traitance ultérieure), contre-proposition écrite, version signée archivée
+*   [ ] Plan d'action 90 jours avec responsables nommés côté client (les chantiers techniques ne sont pas à l'avocat)
+*   [ ] Abonnement : prochaine revue trimestrielle calendée + nouveaux traitements déclarés dans le cycle
+*   [ ] Livraison design : registre + politiques en PDF, sources éditables Notion, Loom 20 min vu par le dirigeant (preuve d'appropriation en datas room)
 
-*   [ ] Registre traitement 5 colonnes art.14 Loi 09-08 — lister chaque traitement : nom/finalité/base légale/durée 3 ans/destinataires, 1 ligne = 1 traitement (prospection, RH, vidéosurveillance), mise à jour à chaque nouveau pixel → voir Glossaire §06
-*   [ ] Déclaration vs Autorisation art.12 CNDP — déclaration en ligne cndp.ma 30j récépissé pour prospection/RH/clients, autorisation lourde pour données sensibles (santé, biométrie, géolocalisation) réponse 45j → voir Glossaire §06
-*   [ ] Base légale consentement (art.4 Loi 09-08) — case NON pré-cochée + preuve log horodatée + retrait aussi simple que consentement, sinon base = contrat/intérêt légitime documentée → voir Glossaire §06
-*   [ ] Bannière cookies & traceurs délib. CNDP 40-22 — bandeau avec Accepter/Refuser/Paramétrer, blocage dépôt avant clic, durée cookies 13 mois max, registre preuve consentement → voir Glossaire §06
-*   [ ] Transfert hors Maroc art.43-44 Loi 09-08 (AWS US / Shopify / GCP) — hébergement hors Maroc = transfert → clauses contractuelles types CNDP + info préalable personnes + autorisation CNDP si pays non adéquat → voir Glossaire §06
-*   [ ] Contrat sous-traitant art.24 Loi 09-08 (hébergeur, agence, Mailchimp) — contrat écrit : instructions documentées + sécurité + confidentialité + sous-traitant n'engage pas de sous-sous-traitant sans accord, audit annuel → voir Glossaire §06
-*   [ ] DPO / Correspondant (désignation CNDP) — désigner DPO interne/externe, notifier CNDP, missions : registre + DPIA + formation + point contact réclamations 30j → voir Glossaire §06
-*   [ ] DPIA — Analyse d'impact art.20 Loi 09-08 — obligatoire si traitement à risque (profilage, données sensibles, surveillance) : décrire + nécessité + risques + mesures, valider avant lancement → voir Glossaire §06
-*   [ ] Durées conservation & purge — 3 ans après dernier contact prospection, 10 ans factures CGI art.144, RH 5 ans après départ, purge automatique + preuve suppression → voir Glossaire §06 + §04
-*   [ ] Droits des personnes art.7-11 Loi 09-08 — procédure interne : accès/rectification/opposition/effacement réponse 30j, formulaire type + vérif identité CIN, registre des demandes → voir Glossaire §06
-*   [ ] Politique confidentialité & mentions 09-08 — site/app : identité responsable + finalités + bases + durées + droits + transfert art.43 + contact DPO, MAJ à chaque nouveau traitement → voir Glossaire §06
-*   [ ] Sanctions & provision art.30 Loi 28-08 — amende 10k-300k art.52 + 6 mois prison, mise en demeure CNDP 45j, convention honoraires provision 50% avant audit, co-traitance RSSI → voir Glossaire §10 + §06
+## Scripts express (FR fait foi)
 
-> **Légende :** Chaque case = Concept (base légale) — procédure 1 ligne + chiffre 2025 + renvoi Glossaire. Ne cochez pas sans avoir lu le §.
+*   **DM entrant LinkedIn :** `Bonjour [Prénom], votre DPA bloque ? Le socle c'est registre + contrats sous-traitants + politique. Diagnostic 45 min, 1 200 HT, déduit si mission sous 14j — un créneau : [Calendly]. — [Nom], avocat barreau [Ville]`
+*   **Relance J+7 après devis :** objet `Votre conformité 09-08 — devis du [date]` ; corps sobre, une phrase de réalité (le calendrier du client UE, lui, court), pas de pression.
+*   **Réponse atelier (WhatsApp) :** les 3 lignes utiles (registre, opt-in prouvé, mentions durée) + lien diagnostic. Scripts complets : `06_Scripts_DM_WhatsApp.md`.
+*   **EN léger (prescripteur UE) :** `Your Moroccan vendor needs 09-08 filings AND GDPR-grade docs (Art.30 register, transfer clauses). We deliver both — French text prevails for the mandate.`
 
-## Scripts (FR fait foi)
+## Modèles `05_Document_Bank`
 
-*   **DM conformité :** `Bonjour [Prénom], vu ton site collecte emails/tél : dès 1 contact tu dois registre 09-08 5 colonnes + déclaration CNDP 30j + bannière non pré-cochée, sinon amende 10k-300k art.52. Je fais audit flash 1 200 HT (registre+transfert AWS art.43+bannière) + pack conformité 5 900 HT 7j (registre+politique+contrat art.24+DPIA si besoin). Checklist 1p ? — [Nom], avocat [Ville]`
-*   **Objection "on a 5 contacts" :** `La loi s'applique dès 1 donnée (art.14) — contrôle CNDP 2023-045 : 50 cmd/j sans registre = mise en demeure 45j. On régularise en 7j après provision 50% art.30.`
-*   **Objection "on est hébergé au Maroc" :** `Même hébergé Maroc, Mailchimp/AWS backup US = transfert art.43 → CTT + info. On cartographie en diag 45 min.`
+*   `05_Registre_09-08_Modele.md` — registre 5 colonnes (le livrable signature)
+*   `01_Convention_Honoraires_Modele.md` — périmètre missions 2-4, hors périmètre technique explicite
+*   `06_Recu_Provision_Facture.md` — provision 50% art. 32, débours CNDP en sus
+*   `07_Lettre_Mission_Planning.md` — atelier J+3, pré-registre J+7, livraison J+14
 
-## Modèles `05_Document_Bank` à joindre
+## Plan 7 premiers jours d'une mission type
 
-*   `templates/12_Politique_Confidentialite_09-08_Modele.md` — politique + registre 5 colonnes + durées 3 ans + droits 30j + transfert art.43
-*   `templates/13_Contrat_Sous_Traitant_09-08_art24.md` — clauses art.24 + CTT transfert + sécurité + audit
-*   `templates/14_DPIA_Modele_CNDP.md` — DPIA art.20 : description/risques/mesures + avis DPO
-*   `templates/01_Convention_Honoraires_Modele.md` — provision 50% + planning 7j + co-traitance RSSI
-*   `templates/07_Lettre_Mission_Planning.md` — planning 7j, dépendance inventaire traitements
+*   **J1 :** convention Yousign + provision + questionnaire intake 30 questions (Tally).
+*   **J3 :** atelier cartographie avec les métiers (RH, marketing, dev) — 2h, treatment par treatment.
+*   **J5 :** pré-registre envoyé au client pour commentaires (48h) + liste des sous-traitants à contractualiser.
+*   **J7 :** devis missions complémentaires (transferts, GDPR) remis avec le rapport de cartographie — décision éclairée, pas vente surprise.
 
-## Plan 7j — Conformité 09-08
+## Notion du client (livré en fin de mission)
 
-*   **J1 :** Audit 1 200 HT — cartographie traitements + registre 5 colonnes + test transfert AWS/Shopify art.43
-*   **J2 :** Provision 50% + désignation DPO + collecte contrats sous-traitants → convention Yousign 48h
-*   **J3-J4 :** Rédaction registre + politique confidentialité + bannière + contrat art.24
-*   **J5 :** Dépôt déclaration CNDP en ligne (récépissé 30j) + DPIA si profilage/données sensibles
-*   **J6 :** Relecture client + déploiement bannière + test preuve consentement loguée
-*   **J7 :** Pack 5 900 HT livré (7 500 si DPIA+transfert) → J30 récépissé CNDP + formation équipe 45 min
-*   **J45 :** Suivi mise en demeure évitée, MAJ registre à chaque nouveau traitement/pixel
+*   Base `Traitements` (vue registre exportable), base `Sous-traitants` (clause + expiry), base `Demandes droits` (entrée, délai, réponse), base `Incidents` (breach log), dashboard plan 90j avec owners.
 
-## Erreurs qui coûtent cher — Loi 09-08
+---
 
-*   Bannière pré-cochée "Accepter" → consentement invalide → amende 45k CNDP
-*   Héberger sur Shopify US sans CTT art.43 → transfert illicite → mise en demeure 45j
-*   Pas de contrat art.24 avec agence → responsable + sous-traitant co-sanctionnés
+**Fin du dossier `02_Niches_Deep_Dive/03_Loi_09-08_GDPR_Compliance/`.**
 
-## Chiffres 2025 à vérifier à chaque diag (CNDP + PLF)
-
-*   Registre 5 colonnes art.14 dès 1 donnée, déclaration CNDP 30j, autorisation 45j
-*   Consentement non pré-coché + log, bannière Accepter/Refuser 13 mois max
-*   Transfert art.43-44 = CTT CNDP + info, sous-traitant art.24 écrit + audit
-*   DPO 30j point contact, DPIA art.20 avant profilage, durées 3 ans /10 ans factures
-*   Droits réponse 30j, sanction 10k-300k + 6 mois prison, mise en demeure 45j
+**Suite logique :** `02_Niches_Deep_Dive/04_Content_Creators_Infopreneurs/` — La niche 4.
 
 ---
 
 ## Fiche comme mémoire externe, pas comme script de vente
 
-Cette fiche n'est pas un argumentaire "RGPD Maroc". C'est une mémoire pour ne rien oublier en audit 09-08 : registre 5 colonnes dès 1 email (art.14), déclaration 30j vs autorisation 45j, consentement non pré-coché logué, bannière Accepter/Refuser, transfert AWS = art.43-44 + CTT, contrat art.24 écrit obligatoire, DPO point contact 30j, DPIA avant profilage, durées 3 ans prospection / 10 ans factures, droits réponse 30j, sanction 10k-300k + prison. Ne commencez jamais par la bannière avant le registre — l'ordre est traitement → base légale → registre → bannière → transfert → CNDP. Le registre est le pivot, pas la bannière.
+La checklist 15 points n'est pas à cocher devant le client. Elle est une mémoire externe (art. 59 devoir de conseil) pour ne rien oublier : régime sensible vs déclaratif, registre, opt-in prouvé, contrats sous-traitants, transferts art. 43-44 + SCC, breach 72h, DPA analysé, plan 90j. Chaque case renvoie à une fiche détaillée du dossier, pas à un chiffre jeté. Dans cette niche plus qu'une autre, l'oublié se découvre des mois après — au contrôle ou au DPA — et l'art. 59 protège aussi l'avocat : ce qui est coché, daté et livré ne se discute pas.
 
-> Sources : `sgg.gov.ma` Loi 09-08 art.7/12/14/20/24/43/52, `cndp.ma` guide registre + délib.40-22, `oc.gov.ma` si transfert financier — vérifier annuellement. Glossaire : `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §06 (central) + §04 §10 §11.
-> Contexte niche 03 : SaaS/e-commerce avec données Maroc + cloud US = cumul registre + transfert + DPIA. Sans registre, bannière = décor.
-
-**Fin Fiches 03_Loi_09-08_GDPR_Compliance — profondeur max.**
+> Sources : `cndp.ma`, `sgg.gov.ma` (Loi 09-08, décret 2-10-450), `eur-lex.europa.eu` (GDPR, SCC), `curia.europa.eu` — vérifier annuellement, les pratiques de contrôle évoluent plus vite que les textes.

@@ -1,70 +1,66 @@
-﻿# Compétence #1 : Stack Legal Tech (petit cabinet, grande puissance)
+﻿# Skills #1: Legal Tech Stack (Small Office, Big Power)
 
-> Budget : <300 DH HT/mois. Pas besoin de bureau chic. Il faut un laptop + internet + cette stack.
+> Budget: <300 DH HT/month. No need fancy office. Need laptop + internet + this stack.
 
-## La stack minimale (commencez aujourd'hui)
+## The Minimal Stack (Start Today)
 
-| Besoin | Outil | Coût | Pourquoi |
-|---|---|---|---|
-| **Site vitrine** | Carrd (ou Notion + Super) | 19 $/an | 1 page + blog. Mieux que WordPress pour le TDAH (zéro maintenance) |
-| **Formulaires & lead magnet** | Tally.so | Gratuit | Capturer WhatsApp/email, quiz conformité |
-| **Signature électronique** | DocuSign gratuit / Yousign / PDF + WhatsApp (valable pour beaucoup de contrats, pas tous) | Gratuit-20€ | Les clients signent sans venir au cabinet |
-| **CRM** | Notion (template) ou Airtable | Gratuit | Suivre leads, clients, partenaires. Voir `06_ADHD_System/` |
-| **Visio** | Google Meet + Loom | Gratuit | Loom = enregistrer 15 min d'audit, envoyer le lien, asynchrone. Énorme gain de temps |
-| **Facturation** | Henrri (gratuit) ou facture Notion + ICE | Gratuit | Devis/facture pro avec ICE/IF |
-| **Design** | Canva Pro | 120 DH HT/an (étudiant) | Carrousels, design CGV, affiche atelier |
-| **IA** | ChatGPT Plus + Claude | 200 DH HT/mo partagé | Brouillons contrats, articles, prompts. Voir le doc suivant |
-| **WhatsApp** | WhatsApp Business | Gratuit | Catalogue, étiquettes, réponses auto |
-| **Stockage** | Google Drive | Gratuit 15 Go | Dossiers clients par année |
+| Need | Tool | Cost | Why |
+| :--- | :--- | :--- | :--- |
+| **Site vitrine** | Carrd (or Notion + Super) | $19/year | 1-page + blog. Better than WordPress for ADHD (no maintenance) |
+| **Forms & Lead Magnet** | Tally.so | Free | Capture WhatsApp/email, quiz conformité |
+| **E-signature** | DocuSign free / Yousign / PDF + WhatsApp (valid for many contracts, but not all) | Free-20€ | Clients sign without coming to office |
+| **CRM** | Notion (template) or Airtable | Free | Track leads, clients, partners. See `06_ADHD_System/` |
+| **Visio** | Google Meet + Loom | Free | Loom = record 15 min audit, send link, async. Huge time saver |
+| **Facturation** | Henrri (free) or Notion invoice + ICE | Free | Devis/facture pro with ICE/IF |
+| **Design** | Canva Pro | 120 DH HT/year (student) | Carousels, CGV design, affiche atelier |
+| **AI** | ChatGPT Plus + Claude | 200 DH HT/mo shared | Draft contracts, articles, prompts. See next doc |
+| **WhatsApp** | WhatsApp Business | Free | Catalogue, labels, auto-replies |
+| **Storage** | Google Drive | Free 15GB | Dossiers clients par année |
 
-## Priorité de mise en place (semaine 1)
+## Setup Priority (Week 1)
 
-**Jour 1 :** Carrd 1 page + catalogue WhatsApp Business
-**Jour 2 :** formulaire Tally « Checklist Freelance » + table CRM Notion
-**Jour 3 :** compte Loom + enregistrer 1 vidéo test
-**Jour 4 :** brand kit Canva (couleurs, polices)
-**Jour 5 :** template de facture Henrri avec votre ICE
+**Day 1:** Carrd 1-page + WhatsApp Business catalogue
+**Day 2:** Tally form "Checklist Freelance" + Notion CRM table
+**Day 3:** Loom account + record 1 test video
+**Day 4:** Canva brand kit (colors, fonts)
+**Day 5:** Henrri invoice template with your ICE
 
-## Structure CRM Notion (simple)
+## Notion CRM Structure (Simple)
 
-**Base « Leads » champs :**
+**Database "Leads" fields:**
 - Nom | Niche (Freelance/Ecom/09-08) | Source (LinkedIn/Comptable/Atelier) | WhatsApp | Statut (Nouveau/Diag fait/Devis/Client/Perdu) | Montant devis | Date relance
 
-**Base « Clients » champs :**
-- Nom | Pack | Date début | Docs livrés | Prochain suivi | Demande de recommandation ? (checkbox)
+**Database "Clients" fields:**
+- Nom | Pack | Date début | Docs livrés | Prochain suivi | Referral asked? (checkbox)
 
-**Base « Partenaires » :** champs comme dans le doc partenariat.
+**Database "Partenaires"** fields as in partnership doc.
 
-Commencez avec 1 table, pas 10. La friction tue le TDAH.
+Start with 1 table, not 10. Friction kills ADHD.
 
-## Workflow Loom (votre différenciateur)
+## Loom Workflow (Your Differentiator)
 
-Au lieu d'1h de réunion pour expliquer un contrat, faites :
-1. Enregistrez un Loom de 12 min : partage écran du PDF contrat, caméra face cam en bas, expliquer chaque clause : « Ici, l'article 3, ça te protège si... »
-2. Envoyez le lien via WhatsApp + le PDF.
-3. Le client regarde à ×1,5 à minuit.
-4. Le lendemain, 10 min d'appel pour les questions.
+Instead of 1h meeting to explain contract, do:
+1. Record Loom 12 min: screen share contract PDF, face cam bottom, explain each clause: "Ici, article 3, ça te protège si..."
+2. Send link via WhatsApp + PDF.
+3. Client watches at 1.5x at midnight.
+4. Next day, 10 min call to answer questions.
 
-Économise 40 min/client + valeur perçue premium. Les clients en petite ville adorent ne pas se déplacer.
+Saves 40 min/client + perceived premium value. Clients in small city love not traveling.
 
-## Légalité de la signature électronique au Maroc
-- Beaucoup de contrats B2B peuvent être signés électroniquement avec consentement, mais certains actes (statuts, cessions) exigent une signature légalisée / dépôt physique. À vérifier par acte.
-- Pour les contrats freelance/ecom, un PDF signé via Yousign + consentement email suffit souvent en pratique, mais rappelez toujours au client d'imprimer/légaliser si nécessaire pour le tribunal.
-- Votre stack : envoyer le PDF via Yousign, ils signent depuis le téléphone, vous archivez.
+## E-signature Legality in Morocco
+- Many B2B contracts can be signed electronically with consent, but some acts (statuts, cession) require signature légalisée / dépôt physique. Check per act.
+- For freelance/ecom contracts, PDF signed via Yousign + email consent is often sufficient practically, but always mention to client to print/légaliser if needed for tribunal.
+- Your stack: Send PDF via Yousign, they sign phone, you archive.
 
-## Automatisation (plus tard, mois 2)
-- Tally → Notion via Zapier/Make (ajout auto du lead)
-- Réponse auto WhatsApp avec le lien du lead magnet
-- Ne sur-automatisez pas au début ; le manuel suffit jusqu'à 20 clients/mois.
+## Automation (Later, Month 2)
+- Tally → Notion via Zapier/Make (auto-add lead)
+- WhatsApp auto-reply with lead magnet link
+- Don't over-automate early; manual is fine until 20 clients/month.
 
-## Setup du petit bureau (physique)
-- Fond pour Loom/Meet : mur propre, plante, diplôme encadré, bonne lumière (ring light 150 DH HT), pas de fond virtuel bidon.
-- Micro : les écouteurs du téléphone suffisent pour démarrer.
-- Imprimante/scanner : une HP économique 600 DH HT pour les légalisations.
-- Pas besoin d'une bibliothèque chic. Propre, minimal, professionnel.
+## Small Office Setup (Physical)
+- Background for Loom/Meet: Clean wall, plant, diplôme encadré, good light (ring light 150 DH HT), not fake virtual background.
+- Mic: phone earphones enough to start.
+- Printer/scanner: cheap HP 600 DH HT for légalisations.
+- No need for fancy library. Clean, minimal, professional.
 
-**Action :** installez Loom + enregistrez une vidéo test de 2 min « Bienvenue, voici comment je travaille à distance » et mettez-la sur Carrd.
-
----
-
-> قاموس سريع / Mini-glossaire AR : أدوات رقمية (outils numériques) · توقيع إلكتروني (signature électronique) · أتمتة (automatisation) · عميل محتمل (lead)
+**Action:** Install Loom + record 2-min test "Bienvenue, voici comment je travaille à distance" and put on Carrd.

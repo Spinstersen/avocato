@@ -1,4 +1,4 @@
-﻿# 11 — Fiches Pratiques & Checklist
+# 11 — Fiches Pratiques & Checklist
 
 ## Checklist avant envoi IA (copier-coller)
 
@@ -23,6 +23,8 @@ P11 Audit 09-08, P12 Générer FAQ, P13 Traduire clause EN→FR sobre, P14 Gén�
 
 ## Approfondissement Encyclopédique (Bonus)
 
+### Cas pratique détaillé
+**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
 
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 -> overwhelm

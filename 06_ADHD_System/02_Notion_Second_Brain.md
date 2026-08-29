@@ -1,87 +1,83 @@
-# Configurer le second cerveau Notion (15 min)
+# Notion Second Brain Setup (15 min)
 
-> Votre cerveau externe. Pour que vous n'oubliiez ni clients, ni idées, ni tâches.
+> Your external brain. So you don't forget clients, ideas, tasks.
 
-## Pourquoi Notion pour le TDAH
-- Tout au MÊME endroit (pas 5 applications)
-- Kanban visuel (glisser les cartes = dopamine)
-- Templates (pas de page blanche)
-- Gratuit
+## Why Notion for ADHD
+- Everything in ONE place (not 5 apps)
+- Visual kanban (drag cards = dopamine)
+- Templates (no blank page)
+- Free
 
-Si Notion vous submerge, utilisez **papier + Google Sheet** à la place. Plus simple, c'est mieux.
+If Notion overwhelms you, use **paper + Google Sheet** instead. Simpler is better.
 
-## Structure (créer 4 bases de données)
+## Structure (Create 4 Databases)
 
-### 1. 📥 Boîte de réception (capture)
-- Toutes les idées partent ici instantanément (Notion mobile). Ex : « Idée post LinkedIn : clause IP », « Contacter comptable Z »
-- Colonnes : Titre | Créé | Type (Idée/Tâche/Contact)
-- Quotidien : déplacer les éléments vers la bonne base (2 min pendant le shutdown)
+### 1. 📥 Inbox (Capture)
+- All ideas go here instantly (mobile Notion). Ex: "Idée post LinkedIn: clause IP", "Contacter comptable Z"
+- Columns: Title | Created | Type (Idée/Task/Contact)
+- Daily: Move inbox items to correct database (2 min during shutdown)
 
-### 2. ✅ Tâches (Kanban)
-- Vues : Board par Statut (À faire | En cours (max 3) | Fait | En attente)
-- Champs : Nom | Projet (Niche) | Priorité (P1/P2/P3) | Échéance | Énergie (Haute/Moy/Basse) | Pomodoros est.
-- Filtre : afficher seulement En cours + À faire P1 (masquer le reste pour éviter la surcharge)
+### 2. ✅ Tasks (Kanban)
+- Views: Board by Status (Todo | Doing (max 3) | Done | Waiting)
+- Fields: Name | Project (Niche) | Priority (P1/P2/P3) | Due | Energy (High/Med/Low) | Pomodoros est.
+- Filter: Show only Doing + Todo P1 (hide rest to avoid overwhelm)
 
-### 3. 👥 CRM prospects & clients (Table)
-- Champs : Nom | WhatsApp | Niche | Source | Statut (Nouveau/Diag/Devis/Client/Gagné/Perdu) | Montant | Date relance | Notes appel | Recommandé par
-- Vues : Board par Statut (pipeline visuel)
-- Bouton template : « Nouveau lead » avec checklist : Capture → Diagnostic → Devis → Relance → Close
+### 3. 👥 CRM Leads & Clients (Table)
+- Fields: Name | WhatsApp | Niche | Source | Statut (Nouveau/Diag/Devis/Client/Gagné/Perdu) | Montant | Date relance | Notes call | Referral from
+- Views: Board by Statut (visual pipeline)
+- Template button: "New Lead" with checklist: Capture → Diagnostic → Devis → Relance → Close
 
 ### 4. 🤝 Partenaires (Table)
-- Champs : Nom | Type (Comptable/Cowork/Dev) | Ville | Contact | Date approche | Statut (À contacter/Contacté/RDV/Actif) | Clients envoyés | Prochain atelier
-- Vue : Calendrier par « Prochain atelier »
+- Fields: Nom | Type (Comptable/Cowork/Dev) | Ville | Contact | Date approche | Statut (À contacter/Contacté/RDV/Actif) | Clients envoyés | Prochain atelier
+- View: Calendar by "Prochain atelier"
 
-### 5. 💡 Banque de contenu (Table)
-- Champs : Idée | Niche | Format (Carrousel/Story/Myth) | Statut (Idée/Brouillon/Publié) | Date publication | Lien
-- Gardez 10 idées d'avance pour ne jamais vous demander « quoi poster ? » le dimanche.
+### 5. 💡 Content Bank (Table)
+- Fields: Idea | Niche | Format (Carousel/Story/Myth) | Status (Idée/Brouillon/Publié) | Date publish | Link
+- Keep 10 ideas backlog so you never wonder "what to post?" on Sunday.
 
-## Templates à créer
+## Templates to Create
 
-**Template Note Quotidienne (auto chaque jour) :**
+**Daily Note Template (auto each day):**
 ```
-Date : [aujourd'hui]
-3 MITs :
-- [ ] MIT1 CA :
-- [ ] MIT2 Visibilité :
-- [ ] MIT3 Livraison :
+Date: [Today]
+3 MITs:
+- [ ] MIT1 Revenue:
+- [ ] MIT2 Visibility:
+- [ ] MIT3 Delivery:
 
-Bloc Deep Work : [10h00-11h30] Tâche : [X] Pomos : [3]
+Deep Work Block: [10:00-11:30] Task: [X] Pomos: [3]
 
-Boîte de réception à traiter : [lien]
-```
-
-**Template Checklist Livraison Client :**
-```
-Client : [Nom] | Pack : [X] | Deadline : [Date]
-- [ ] Infos collectées (CIN, ICE, ...)
-- [ ] Brouillon envoyé pour revue
-- [ ] Loom enregistré
-- [ ] PDF final envoyé + 50 % final reçus
-- [ ] Recommandation demandée (script)
-- [ ] Avis Google demandé (si autorisé)
-- [ ] Ajouté à la liste de diffusion
+Inbox to process: [link]
 ```
 
-## Étapes minimales (à faire MAINTENANT, 15 min)
+**Client Delivery Checklist Template:**
+```
+Client: [Name] | Pack: [X] | Deadline: [Date]
+- [ ] Infos collected (CIN, ICE, ... )
+- [ ] Draft sent for review
+- [ ] Loom recorded
+- [ ] Final PDF sent + 50% final payment received
+- [ ] Referral asked (script)
+- [ ] Google review asked (if allowed)
+- [ ] Added to broadcast list
+```
 
-1. Créer un compte Notion gratuit (notion.so)
-2. Créer la page « AVOCATO OS »
-3. Dedans, créer les 4 bases ci-dessus (faire /database → board/table)
-4. Ajouter 3 faux leads pour tester le drag du kanban
-5. Ajouter 5 idées de contenu depuis le doc niche
+## Minimal Setup Steps (Do Now, 15 min)
 
-Alternative si Notion est trop lourd : **Trello** (kanban plus simple) + Google Sheet CRM. Même principe, moins de configuration.
+1. Create free Notion account (notion.so)
+2. Create Page "AVOCATO OS"
+3. Inside, create 4 databases above (use /database → board/table)
+4. Add 3 fake leads to test kanban drag
+5. Add 5 content ideas from niche doc
 
-## Règle : un seul outil
-N'utilisez pas Notion + Todoist + Notes + Drive en parallèle. UN. Si vous aimez le papier, utilisez un kanban papier (post-its au mur) + Google Sheet CRM. Le TDAH adore le mouvement physique.
+Alternative if Notion too heavy: Use **Trello** (simpler kanban) + Google Sheet CRM. Same principle, less setup.
+
+## Rule: One Tool
+Don't use Notion + Todoist + Notes + Drive tasks. ONE. If you love paper, use paper kanban (sticky notes on wall) + Google Sheet CRM. ADHD loves physical movement.
 
 ## Maintenance
-- Matin : vérifier les Tâches En cours (3 max)
-- Soir : Boîte de réception → 0 (tout déplacer)
-- Vendredi : archiver Fait, revoir le pipeline CRM
+- Morning: Check Tasks Doing (3 max)
+- Evening: Inbox → 0 (move all)
+- Friday: Archive Done, review CRM pipeline
 
-**Suite :** voir `03_Energy_Accountability.md`
-
----
-
-> قاموس سريع / Mini-glossaire AR : صندوق وارد (boîte réception) · مهام (tâches) · عملاء (clients) · شركاء (partenaires) · محتوى (contenu)
+**Next:** See `03_Energy_Accountability.md`

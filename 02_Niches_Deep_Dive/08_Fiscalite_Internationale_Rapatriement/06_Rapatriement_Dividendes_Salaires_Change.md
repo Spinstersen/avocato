@@ -12,7 +12,7 @@
 
 ## Dividende MRE détaillé (cas Karim 100k bénéfice SARL Casa)
 
-1.  Bénéfice 100k → IS 20 % (LF 2026) = 20k `06_Autoentrepreneur.../02_Douleurs_Juridiques.md:15` → net 80k.
+1.  Bénéfice 100k → IS 15% (15k) `06_Autoentrepreneur.../02_Douleurs_Juridiques.md:15` → net 85k.
 2.  AG décide dividende 50k → retenue source 10% (France) = 5k → net 45k.
 3.  Banque demande: PV AG légalisé + bilan certifié comptable + quittus IS + demande Office (form. RC 1) → virement Paris 45k sous 15j.
 4.  Sans Office si >10M DH/an: dossier Office 30j (`09_Office.../04_Investissement_100M.md`).

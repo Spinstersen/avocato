@@ -1,4 +1,4 @@
-﻿# 03 — Système de Suivi Notion Learning OS
+# 03 — Système de Suivi Notion Learning OS
 
 ## La page Learning (à créer dans Notion)
 
@@ -52,6 +52,8 @@ Appliqué: plaquette cabinet v2 envoyée à 3 prospects
 
 ## Approfondissement Encyclopédique (Bonus)
 
+### Cas pratique détaillé
+**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
 
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 -> overwhelm

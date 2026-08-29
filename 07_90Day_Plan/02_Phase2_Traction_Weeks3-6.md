@@ -1,83 +1,79 @@
-﻿# Phase 2 : Traction (semaines 3-6) — obtenir les 3 premiers clients
+﻿# Phase 2: Traction (Weeks 3-6) — Get First 3 Clients
 
-> Objectif : le premier chiffre d'affaires. Apprendre en faisant, pas en planifiant.
+> Goal: First revenue. Learn by doing, not planning.
 
-## Rythme hebdomadaire (répéter semaines 3, 4, 5, 6)
+## Weekly Rhythm (Repeat Weeks 3,4,5,6)
 
-**Lundi :**
-- Planifier 3 MITs : 1 CA, 1 visibilité, 1 livraison
-- Vérifier le pipeline Notion : qui relancer ?
+**Monday:**
+- Plan 3 MITs: 1 revenue, 1 visibility, 1 delivery
+- Check Notion pipeline: who to relance?
 
-**Mardi/Jeudi 11h00-12h00 : bloc outreach (non négociable)**
-- 5 messages à comptables/leads (DM groupes FB) OU 10 commentaires LinkedIn
-- Suivre dans le CRM
+**Tuesday/Thursday 11:00-12:00: Outreach Block (non-negotiable)**
+- 5 messages to comptables/leads (FB group DMs) OR 10 LinkedIn comments
+- Track in CRM
 
-**Dimanche 10h-12h : batch de contenu**
-- Écrire 3 posts LinkedIn pour la semaine suivante
-- Recycler 1 post en statut WhatsApp
+**Sunday 10-12h: Content Batch**
+- Write 3 LinkedIn posts for next week
+- Repurpose 1 post to WhatsApp status
 
-**Quotidien 11h30 & 18h :** réponses DM
+**Daily 11:30 & 18h:** DM replies
 
-## Focus semaine par semaine
+## Week-by-Week Focus
 
-**Semaine 3 : premiers diagnostics**
-- [ ] Continuer LinkedIn 3×/sem + commentaires 10/jour
-- [ ] DM à 10 freelances/ecom avec le script de permission (offre checklist)
-- [ ] Objectif : réserver 3 diagnostics (appel Zoom/WhatsApp 20 min) avec le script de vente
-- [ ] Faire les diagnostics, même avec du stress. Enregistrer, revoir.
-- [ ] Envoyer un devis après chacun. Relancer J+3.
+**Week 3: First Diagnostics**
+- [ ] Continue LinkedIn 3x/week + comments 10/day
+- [ ] DM 10 freelancers/ecom with permission script (checklist offer)
+- [ ] Aim: Book 3 diagnostics (20 min Zoom/WhatsApp call) using sales script
+- [ ] Do diagnostics, even if nervous. Record, review.
+- [ ] Send devis after each. Follow J+3.
 
-Cible : 1 vente de pack (2 900 DH HT) → première victoire = énorme dopamine.
+Target: 1 pack sale (2,900 DH HT) → first win = huge dopamine.
 
-**Semaine 4 : optimiser l'offre**
-- [ ] Analyser : pourquoi ils ont acheté ou pas ? Prix ? Offre floue ? Besoin de paiement en 2× ?
-- [ ] Ajuster le pack ou le script (un seul changement).
-- [ ] Continuer outreach + contenu.
-- [ ] Écrire le premier article SEO (800 mots) pour le site + le publier.
+**Week 4: Optimize Offer**
+- [ ] Analyze: Why did/didn't they buy? Price? Offer unclear? Need payment 2x?
+- [ ] Adjust pack or script (one change only).
+- [ ] Continue outreach + content.
+- [ ] Write first SEO article (800 words) for site + publish.
 
-Cible : 1-2 ventes. Total 2-3 clients.
+Target: 1-2 sales. Total 2-3 clients.
 
-**Semaine 5 : premier atelier (si prêt) OU appel partenaire**
-- [ ] Animer OU finaliser l'atelier avec comptable/coworking (~20 personnes). Si pas prêt, faire 3 appels diagnostics de plus.
-- [ ] Après l'atelier : message à tous les participants J+1 avec la checklist + offre de diagnostic.
+**Week 5: First Atelier (if ready) OR Partnership Call**
+- [ ] Host OR finalize atelier with comptable/coworking (20 persons). If not ready, do 3 more diagnostic calls.
+- [ ] After atelier: message all attendees J+1 with checklist + diagnostic offer.
 
-Cible : 2 ventes issues de l'atelier ou des diagnostics.
+Target: 2 sales from atelier or diagnostics.
 
-**Semaine 6 : test de recommandation**
-- [ ] Pour chaque client (3-4 maintenant), demander le script de recommandation (1-2 noms).
-- [ ] Livrer avec un effet Loom WAOUH.
-- [ ] Collecter 2 recommandations.
+**Week 6: Referral Test**
+- [ ] For each client (3-4 now), ask referral script (1-2 names).
+- [ ] Deliver with Loom wow effect.
+- [ ] Collect 2 referrals.
 
-## Métriques à suivre chaque semaine
+## Metrics to Track Weekly
 
-| Métrique | S3 | S4 | S5 | S6 |
+| Metric | W3 | W4 | W5 | W6 |
 |---|---|---|---|---|
-| Posts publiés | 3 | 3 | 3 | 3 |
-| Commentaires | 50 | 50 | 50 | 50 |
+| Posts published | 3 | 3 | 3 | 3 |
+| Comments | 50 | 50 | 50 | 50 |
 | Outreach DMs | 20 | 20 | 20 | 20 |
-| Diagnostics réservés | 3 | 4 | 5 | 5 |
-| Packs vendus | 1 | 1 | 2 | 2 |
-| Chiffre d'affaires | 2,9k | 2,9k | 5,8k | 5,8k |
+| Diagnostics booked | 3 | 4 | 5 | 5 |
+| Packs sold | 1 | 1 | 2 | 2 |
+| Revenue | 2.9k | 2.9k | 5.8k | 5.8k |
 
-Si diagnostics <3/sem → augmenter l'outreach/commentaires, pas plus de contenu.
-Si conversion <25 % → réparer le script de vente/design du devis, pas la niche.
+If diagnostics <3/week → increase outreach/comments, not more content.
+If conversion <25% → fix sales script/devis design, not niche.
 
-## Survie TDAH en traction
+## ADHD Survival in Traction
 
-- Mauvaise semaine ? Faites la Journée minimum viable (45 min) pour garder le streak.
-- Célébrez la première vente EN GRAND (dîner, etc.) — ancre de dopamine.
-- Ne changez pas de niche si aucune vente en 2 semaines. Réparez l'outreach/vente d'abord. Changer = repartir de zéro.
-- Body double pour l'outreach (au café avec minuteur).
+- Bad week? Do Minimum Viable Day (45 min) to keep streak.
+- Celebrate first sale BIG (dinner, etc.) — dopamine anchor.
+- Don't switch niche if no sale in 2 weeks. Fix outreach/sales first. Switching resets.
+- Body doubling for outreach (do it at café with timer).
 
-## Succès fin de Phase 2
-- [ ] 3-5 clients payants, 8k-15k DH de CA total
-- [ ] 1 atelier fait ou planifié
-- [ ] 1 article SEO classé (ou indexé)
-- [ ] 1 partenaire comptable qui a envoyé au moins 1 lead
-- [ ] Le script de vente devient naturel (vous avez fait 10 diagnostics)
+## End of Phase 2 Success
+- [ ] 3-5 clients paying, 8k-15k DH revenue total
+- [ ] 1 atelier done or scheduled
+- [ ] 1 SEO article ranking (or indexed)
+- [ ] 1 comptable partner who sent at least 1 lead
+- [ ] Sales script feels natural (you've done 10 diagnostics)
 
-Si vous avez 3 clients, vous avez validé la niche. Maintenant, systématisez.
-
----
-
-> قاموس سريع / Mini-glossaire AR : جاذبية أولى (traction) · تشخيص (diagnostic) · عرض (offre) · ورشة (atelier) · توصية (recommandation) · مبيعات (ventes)
+If you have 3 clients, you've validated niche. Now systemize.

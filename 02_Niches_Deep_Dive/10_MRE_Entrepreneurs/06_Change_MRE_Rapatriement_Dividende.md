@@ -4,7 +4,7 @@
 
 ## Dividende MRE (Karim 100k bénéfice)
 
-1.  Bénéfice 100k → IS 20 % (LF 2026) = 20k → net 80k `06_Autoentrepreneur.../02_Douleurs_Juridiques.md:15`.
+1.  Bénéfice 100k → IS 15% 15k → net 85k `06_Autoentrepreneur.../02_Douleurs_Juridiques.md:15`.
 2.  AG 50k dividende → retenue source 10% France `08_Fiscalite.../05_Conventions...` =5k → net 45k.
 3.  Justif banque 30j: PV AG légalisé + bilan comptable + quittus IS + demande Office RC2 si >10M (ici <10M 0 Office).
 4.  Virement devise MRE → Paris 45k 15j.

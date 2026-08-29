@@ -1,65 +1,61 @@
-﻿# Phase 4 : Montée en échelle (semaines 11-13) — doubler ou ajouter une 2e niche
+﻿# Phase 4: Scale (Weeks 11-13) — Double Down or Add Second Niche
 
-> Objectif : 30k-50k DH/mois, décider du prochain mouvement.
+> Goal: 30k-50k DH/month, decide next move.
 
-## Options à la semaine 11 (choisir UNE)
+## Options at Week 11 (Pick ONE)
 
-**Option A : Doubler sur la même niche** (recommandé si CA <20k)
-- Augmenter le prix de 20 % (ex : Mission Contrats 2 900 → 3 500 DH HT) — vous avez la preuve.
-- Ajouter un pack premium (ex : Mission Contrats + création SARL 6 500 DH HT)
-- Recruter un petit coup de main : designer freelance pour Canva ou partenaire comptable pour l'admin (1 000 DH HT/mois).
+**Option A: Double Down Same Niche** (Recommended if revenue <20k)
+- Raise price 20% (ex: Mission Contrats 2,900 → 3,500 DH HT) — you have proof.
+- Add premium pack (ex: Mission Contrats + SARL creation 6,500 DH HT)
+- Hire small help: freelance designer for Canva or comptable partner for admin (1000 DH HT/month).
 
-**Option B : Ajouter une 2e niche** (si la première niche est saturée à 5-6 clients/mois)
-- Garder le système en marche pour la Niche 1 (1 jour/semaine de maintenance)
-- Répéter la Phase 1 pour la Niche 2 (ex : vous avez fait Freelance, ajoutez E-com ou 09-08)
-- Réutiliser les mêmes canaux, nouveau lead magnet, nouveaux partenaires comptables (type différent).
+**Option B: Add Second Niche** (If first niche saturated at 5-6 clients/month)
+- Keep system running for Niche 1 (1 day/week maintenance)
+- Repeat Phase 1 for Niche 2 (ex: you did Freelance, now add E-com or 09-08)
+- Reuse same channels, new lead magnet, new comptable partners (different type).
 
-**Option C : Passer haut de gamme** (si vous aimez le B2B)
-- Focus sur les packs Loi 09-08 à 18k DH. Moins de clients nécessaires (2/mois = 36k). Partenariat avec 3 comptables qui servent des PME de 20+ salariés.
-- Écrire 2 guides approfondis, animer une conférence CCI.
+**Option C: Go High-Ticket** (If you love B2B)
+- Focus on Loi 09-08 packs 18k DH. Need fewer clients (2/month = 36k). Partner with 3 comptables who serve PME 20+ salariés.
+- Write 2 in-depth guides, host CCI conference.
 
-## Tâches semaines 11-13
+## Weeks 11-13 Tasks
 
-- [ ] Analyser : quel canal apporte le plus de clients ? (LinkedIn vs Comptable vs SEO vs Atelier) — doubler le temps sur le gagnant, couper le perdant.
-- [ ] Créer des études de cas anonymisées : « Comment le Freelance X a sécurisé 40k DH de CA avec un contrat » — pour LinkedIn + devis comme preuve sociale.
-- [ ] Augmenter le prix ou ajouter un upsell récurrent à tous les nouveaux diagnostics.
-- [ ] Planifier le trimestre suivant : 1 atelier/mois + 1 article SEO/semaine + 5 outreach/semaine = maintenance.
+- [ ] Analyze: Which channel brings most clients? (LinkedIn vs Comptable vs SEO vs Atelier) — double budget time on winner, cut loser.
+- [ ] Create case studies anonymized: "Comment [Freelance X] a sécurisé 40k DH de CA avec contrat" — for LinkedIn + devis social proof.
+- [ ] Raise price or add retainer upsell to all new diagnostics.
+- [ ] Plan next quarter: 1 atelier/month + 1 SEO article/week + 5 outreach/week = maintenance.
 
-## Chiffres en échelle
+## Numbers at Scale
 
-- 8 packs/mois à 3 500 DH HT en moyenne = 28 000 DH HT
-- 3 récurrents à 3 000 DH HT en moyenne = 9 000 DH HT
-- Total ~37 000 DH HT/mois avec ~20h/semaine de livraison + 5h/semaine de marketing (async, remote)
-- Depuis une petite ville, faible overhead = net élevé.
+- 8 packs/month avg 3,500 DH HT = 28,000 DH HT
+- 3 retainers avg 3,000 DH HT = 9,000 DH HT
+- Total ~37,000 DH HT/month with ~20h/week delivery + 5h/week marketing (async, remote)
+- From small city, low overhead = high net.
 
-## Douve à long terme (votre avantage tech)
+## Long-Term Moat (Your Tech Edge)
 
-- Construire une boutique de templates Notion : vendre le pack checklist 290 DH HT en passif (pas du conseil juridique, que des modèles, avec disclaimer) — 2k-5k DH/mois en plus.
-- Construire une petite liste email de 500 entrepreneurs → lancer la formation « Le juriste du freelance » à 990 DH HT.
-- Garder les 3 langues : lancer du contenu EN pour les MRE/étrangers — zéro concurrence.
+- Build Notion template shop: sell checklist pack 290 DH HT passive (not legal advice, just templates, with disclaimer) — extra 2k-5k DH/month.
+- Build small email list 500 entrepreneurs → launch formation "Juriste du freelance" 990 DH HT.
+- Keep 3 languages: start English content for MRE/foreign — zero competition.
 
-## Éviter le piège de l'échelle
+## Avoid Scale Trap
 
-- N'ouvrez pas de bureau avant 50k/mois stables sur 3 mois.
-- Ne faites pas toutes les niches. 2 max.
-- N'ajoutez pas de pubs (illégal). Ajoutez de la profondeur système, pas de largeur de canaux.
+- Don't hire office before 50k/month stable 3 months.
+- Don't do all niches. Max 2.
+- Don't add ads (illegal). Add system depth, not channel breadth.
 
-## Revue des 90 jours (jour 90, 1 heure)
+## 90-Day Review (Day 90, 1 hour)
 
-Répondez :
-1. CA total 90 jours ? __
-2. Clients ? __ Récurrents ? __
-3. Meilleur canal ? __ Pire ? __
-4. Quoi arrêter ? __
-5. Les 90 prochains jours, UN objectif ? __
+Answer:
+1. Revenue total 90 days? __
+2. Clients? __ Retainers? __
+3. Best channel? __ Worst? __
+4. What to stop? __
+5. Next 90 days ONE goal? __
 
-Célébrez. Vous êtes passé de 0 à un système.
+Celebrate. You went from 0 to system.
 
-## Après les 90 jours
-- Continuez ce vault : mettre à jour les templates après chaque feedback client.
-- Relire `06_ADHD_System/` chaque mois pour éviter le burn-out.
-- Gardez les 3 MITs quotidiennement, pour toujours.
-
----
-
-> قاموس سريع / Mini-glossaire AR : توسّع (échelle) · مضاعفة (doubler) · عالية القيمة (haut de gamme) · فجوة حماية (douve) · مراجعة (revue)
+## After 90 Days
+- Continue this vault: update templates after each client feedback.
+- Re-read `06_ADHD_System/` monthly to avoid burnout.
+- Keep 3 MITs daily forever.

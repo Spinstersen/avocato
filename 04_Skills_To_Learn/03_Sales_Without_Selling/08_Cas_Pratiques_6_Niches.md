@@ -1,4 +1,4 @@
-﻿# 08 — Cas Pratiques 6 Niches (Scripts Tailored)
+# 08 — Cas Pratiques 6 Niches (Scripts Tailored)
 
 ## Niche 1 Freelance offshore (Yassine)
 
@@ -30,6 +30,8 @@ Chaque cas: 3 questions S, 1 Teach, 2 options.
 
 ## Approfondissement Encyclopédique (Bonus)
 
+### Cas pratique détaillé
+**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
 
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 -> overwhelm

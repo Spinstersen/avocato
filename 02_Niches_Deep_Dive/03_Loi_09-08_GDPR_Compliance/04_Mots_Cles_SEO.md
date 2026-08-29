@@ -1,64 +1,57 @@
-# 04 — Mots-clés SEO & calendrier 12 semaines — Loi 09-08 / GDPR Compliance
+# 04 — Mots-clés SEO et calendrier éditorial 12 semaines
 
-> Volumes **à vérifier Keyword Planner + cndp.ma**. Vérif sgg.gov.ma 20/08/2026. Mise en demeure 45j, amende 10k-300k art.52.
+## Mots-clés SEO
 
-## 1. Tableau 10 requêtes long-tail — Loi 09-08 Maroc
+| Requête | Volume/mois (est.) | Intention | Format cible |
+| :--- | :--- | :--- | :--- |
+| loi 09-08 Maroc | 500 | Information — dirigeant qui découvre l'obligation | Article pilier 2 500 mots + guide PDF |
+| CNDP déclaration Maroc | 300 | Opérationnelle — il doit déclarer maintenant | Guide étape par étape + formulaire |
+| registre loi 09-08 modèle | 200 | Opérationnelle — il veut le document | Article + lien modèle 5 colonnes |
+| politique de confidentialité Maroc | 200 | Opérationnelle — site à rendre conforme | Checkliste mentions obligatoires |
+| conformité GDPR entreprise marocaine | 100 | Commerciale cachée — client UE au portefeuille | Article « double régime » + étude de cas |
+| loi 09-08 vs GDPR | 80 | Comparaison — il hésite sur le périmètre | Tableau comparatif (base `10_Comparatif_International.md`) |
+| sanctions CNDP amende | 60 | Peur qualifiée — un concurrent est contrôlé | Article chiffres réels + grille officielle art. 64/65 |
+| données personnelles salariés Maroc | 50 | Interne RH — dossier employé, caméras | Article RH + registre-type |
+| transfert données hors Maroc AWS | 30 | Technique — son CTO pose la question | Article long + clause modèle |
 
-| # | Requête exacte | Vol/mois* | Intention | KD | Base légale |
-|---|---|---|---|---|---|
-| 1 | loi 09-08 Maroc registre traitement modèle | 520 | Achat | 15 | Loi 09-08 art.14 registre 5 col |
-| 2 | déclaration CNDP Maroc en ligne délai 30j | 310 | Achat | 13 | Loi 09-08 art.12 délib.40-22 |
-| 3 | politique confidentialité Maroc Loi 09-08 modèle | 240 | Achat | 12 | Loi 09-08 art.23 + §06 glossaire |
-| 4 | transfert données hors Maroc art 43 09-08 | 90 | Info | 9 | Loi 09-08 art.43-44 |
-| 5 | bannière cookies Maroc conforme CNDP | 140 | Achat | 11 | Loi 09-08 + guide CNDP cookies |
-| 6 | conformité GDPR PME marocaine vs Loi 09-08 | 110 | Info | 10 | RGPD art.30 vs 09-08 art.14 |
-| 7 | sous-traitant Loi 09-08 clause art 24 modèle | 70 | Achat | 8 | Loi 09-08 art.24 |
-| 8 | DPIA analyse impact Maroc CNDP | 60 | Info | 8 | Loi 09-08 art.12 autorisation |
-| 9 | sanction CNDP amende 300k Maroc jurisprudence | 80 | Info | 9 | Loi 09-08 art.52 |
-| 10 | mentions site web Loi 09-08 obligatoires | 170 | Achat | 11 | Loi 09-08 art.23 |
+Volumes estimés (outils gratuits + Search Console à 6 mois) — la niche est longue traîne à forte intention : 30 visites qui qualifient > 3 000 visites génériques.
 
-*À vérifier Keyword Planner. KD 0-100.
+## Calendrier éditorial 12 semaines
 
-## 2. Calendrier 12 semaines — 2500 mots / H2 4-6 / meta 155c
+| Sem | Sujet | Requête cible | Format |
+| :---: | :--- | :--- | :--- |
+| 1 | Loi 09-08 Maroc : qui doit déclarer à la CNDP ? (et le piège des données sensibles) | loi 09-08 Maroc | Article 2 500 mots + carrousel LinkedIn 8 slides |
+| 2 | CNDP : déclaration ou autorisation ? l'arbre en 2 minutes | CNDP déclaration Maroc | Article 1 800 mots + PDF arbre |
+| 3 | Registre des traitements 09-08 : modèle 5 colonnes à copier | registre loi 09-08 modèle | Article + modèle Notion gratuit |
+| 4 | Politique de confidentialité : les 9 mentions que la CNDP attend | politique de confidentialité Maroc | Checklist article + extrait de modèle |
+| 5 | Cookies et bannière : ce que la doctrine CNDP (et la CNIL) impose déjà au Maroc | bannière cookies Maroc | Article 1 500 mots + capture avant/après |
+| 6 | Votre sous-traitant HubSpot n'est pas couvert : contrats art. 24-25 | sous-traitant données Maroc | Article + clause commentée |
+| 7 | Vos données sur AWS : le transfert international sans y penser | transfert données hors Maroc AWS | Article long + FAQ technique |
+| 8 | Un client UE vous envoie un DPA : comment répondre sans tout signer | DPA GDPR Maroc | Article + trame de réponse |
+| 9 | Loi 09-08 vs GDPR : 7 différences qui comptent | loi 09-08 vs GDPR | Tableau + LinkedIn EN |
+| 10 | Prospection SMS/WhatsApp : ce que la CNDP contrôle en premier | prospection commerciale consentement Maroc | Article grille officielle + cas types (base `09_Jurisprudence_Niche.md`) |
+| 11 | Combien coûte un contrôle CNDP ? Grille sanctions réelle | sanctions CNDP amende | Article chiffres + mythe 300k expliqué |
+| 12 | Mettre sa PME en conformité 09-08 en 90 jours : le plan complet | conformité 09-08 PME | Guide pilier 3 000 mots + webinaire |
 
-| Sem | Sujet (H1 = requête) | Requête cible | Format + H2 | CTA |
-|---|---|---|---|---|
-| 1 | Loi 09-08 : qui doit déclarer à la CNDP (dès 1 email) | loi 09-08 registre modèle | 2500m H2:Art.14 5 col/Déclaration 30j/Sanction 300k | Excel registre 2900 HT |
-| 2 | Déclaration CNDP en ligne : dossier 30j + récépissé | déclaration CNDP en ligne | 2500m H2:Déclaration vs autorisation/5 colonnes/45j | Checklist dépôt |
-| 3 | Registre 09-08 : structure 5 colonnes validée CNDP | registre traitement modèle | 2500m H2:Traitement/Finalité/Base/Durée/Destinataires | Template Excel 5 col |
-| 4 | Politique confidentialité Maroc : modèle 09-08 + cookies | politique confidentialité Maroc | 2500m H2:Collecte/Durée 3ans/Transfert art43/Droits | Modèle Word 5900 pack |
-| 5 | Mentions site web Loi 09-08 : 4 blocs obligatoires | mentions site web Loi 09-08 | 2500m H2:Éditeur/Finalité/Cookies/Droits | Audit mentions |
-| 6 | Bannière cookies Maroc : consentement non pré-coché | bannière cookies Maroc | 2500m H2:Consentement/Refus aussi facile/Preuve | Script Plausible UE |
-| 7 | Sous-traitant art.24 : clause Mailchimp/Shopify/AWS | sous-traitant Loi 09-08 clause | 2500m H2:Art24 obligations/Transfert art43/CCT CNDP | Clause modèle |
-| 8 | Transfert hors Maroc art.43 : AWS US + Shopify | transfert données hors Maroc | 2500m H2:CCT CNDP/Consentement/Info clients | Guide transfert |
-| 9 | 09-08 vs GDPR : comparatif 7 différences PME | conformité GDPR PME marocaine | 2500m H2:Registre 5 vs 30/DPIA/Sanction 300k vs 20M | Tableau comparatif |
-| 10 | Sanctions CNDP : 45j mise en demeure + 10k-300k | sanction CNDP amende 300k | 2500m H2:Art.52 cas YouCan 2023-045/Jurisprudence | Cas réel |
-| 11 | DPIA Maroc : quand faire analyse d'impact | DPIA analyse impact Maroc | 2500m H2:Seuil/Autorisation CNDP/Modèle 6 sections | Modèle DPIA |
-| 12 | Synthèse : conformité 09-08 PME en 90 jours 7j | conformité 09-08 PME 90j | 2500m H2:Checklist 12 pts 30j/45j/90j + GSC 48h | Pack 5900 HT 7j |
+## Règles de production
 
-## 3. Repurposing 1→3 — Procédure chiffrée
+- **Un article = une douleur** de `02_Douleurs_Juridiques.md` — jamais un sujet généraliste.
+- 1 500-2 500 mots, structure SCQA (voir `04_Skills_To_Learn/06_French_Communication_With_Clients/03_Structure_SCQA.md`), H2 par question posée en diagnostic.
+- Chaque article : 1 tableau ou 1 checklist réutilisable + 1 renvoi discret au diagnostic (jamais au pack — la vente se fait au RDV).
+- **Réutilisation 1→4** : article → post LinkedIn texte → carrousel Canva 8 slides → vidéo 90s (permanence : voir `04_Skills_To_Learn/09_SEO_Content_Engine/04_04_Repurposing_1vers5.md`).
 
-1 article 2500m → **1 post LinkedIn 1200c** (hook sanction 300k + tableau 5 colonnes + question "votre registre est-il à jour ?") + **1 carrousel 1080×1080 8 slides** (slide1 sanction 10k-300k + slides 2-6 = 5 colonnes + slide8 CTA) + **1 Loom 3 min** (capture cndp.ma dépôt + Excel 5 colonnes). Mardi article, jeudi carrousel, vendredi Loom. 3h30/article cf. `04_Skills_To_Learn/09_SEO_Content_Engine/02_02_Structure_Article_2500.md` §7 blocs + `04_04_Repurposing_1vers5.md`.
+## Volet EN (le client UE du client)
 
-## 4. Procédure E-E-A-T — art.59 Loi 28-08 + Loi 09-08 Plausible
+- 4 articles EN en S9-S12 : `Morocco Data Protection Law 09-08 — What EU Clients Ask Your Moroccan Vendor` ; `GDPR and Law 09-08: dual compliance for SaaS serving the EU` ; `Signing a DPA with a Moroccan supplier` ; `Data transfers outside Morocco: what Art. 43-44 really requires`.
+- Cible : le legal/procurement UE qui recherche la conformité de son fournisseur marocain — il devient prescripteur, pas client.
 
-1. **Experience** : cas YouCan 50 cmd/j sanction 45j mise en demeure (08_Jurisprudence) rédigé avocat.
-2. **Expertise** : cite art.14, art.12, art.43-44, art.52 exact sgg.gov.ma + délib. 40-22 cndp.ma date vérif.
-3. **Authority** : renvoi `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §06 (09-08 registre 5 col), §10 (provision 50% + convention avant mission), + `02_02_Structure_Article_2500.md` framework.
-4. **Trust** : disclaimer art.59 "info doctrinale pas consultation" + 3 internal links + Plausible UE hébergé UE (conforme 09-08, pas de transfert US art.43) + consentement cookies case non pré-cochée + GSC index 48h + image <150kb.
+## FAQ ranking
 
-**Chiffres SEO** : 2500 mots ±10%, 5-6 H2, title 58c, meta 155c avec 300k/30j/45j, 3 liens internes, 1 lead magnet (Excel 5 colonnes Tally FR + Plausible), GSC J0 index 48h, image <150kb alt keyword.
-
-## 5. KPI & interaction — Suivi 48h
-
-- J0 : GSC index 48h + Plausible UE `article_0908_view` (pas GA transfert US art.43).
-- J7 : rank 10-30 sur KD<15, CTR 4% title avec 300k/45j.
-- J30 : 1 000 vues/mois M3 → 1 diagnostic 09-08/sem → pack 5900 HT 7j après provision 50%.
-- Interaction : fin d'article "Votre registre a-t-il 5 colonnes à jour ? Cochez votre score /5 en commentaire" + lead magnet Excel.
-- Renvoi : `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §06 + `04_Skills_To_Learn/09_SEO_Content_Engine/02_02_Structure_Article_2500.md` checklist 12 pts.
+- Les requêtes « modèle gratuit » (registre, politique) convertissent le download en lead qualifié : formulaire Tally 4 questions (société, effectif, traitements estimés, clients UE ?).
+- À 6 mois : mesurer positions GSC sur les 9 requêtes — objectif top 3 sur 5 requêtes, pas trafic global (voir `04_Skills_To_Learn/09_SEO_Content_Engine/06_06_Metriques_Position.md`).
 
 ---
 
 ## SEO comme information, pas comme publicité
 
-Le mot-clé `dépôt marque OMPIC prix 2025` n'est pas promesse prix fixe. L'article explique barème 1 200 DH/classe + taxe + 3h recherche, puis propose mission avec convention art.30. Info éducative art.3 RI, non pub comparative `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/05_Reseaux_Sociaux_LinkedIn_Cadre.md`.
+Le mot-clé `conformité 09-08 prix` n'est pas une promesse de tarif. L'article qui le porte explique ce que couvre un audit (registre, politique, contrats, déclaration), ce qui le fait varier (nombre de traitements, sous-traitants, volet UE), puis propose le diagnostic avec convention — pas un bouton « acheter le pack ». C'est de l'information juridique à caractère éducatif (art. 3 Règlement Intérieur), non de la publicité comparative `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/05_Reseaux_Sociaux_LinkedIn_Cadre.md`.

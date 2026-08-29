@@ -1,4 +1,4 @@
-﻿# 09 — FAQ 30 Questions Apprentissage Avocat ADHD
+# 09 — FAQ 30 Questions Apprentissage Avocat ADHD
 
 **Q1: J'ai raté 3 jours, je recommence à zéro?** Non, reprends J+1 avec 15 min. La chaîne se répare, pas se réinitialise.
 **Q2: 30 min suffisent vraiment?** Oui, 30×180j = 90h délibérées > 3h×12 dimanches = 36h avec oubli.
@@ -21,6 +21,8 @@
 
 ## Approfondissement Encyclopédique (Bonus)
 
+### Cas pratique détaillé
+**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
 
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 -> overwhelm

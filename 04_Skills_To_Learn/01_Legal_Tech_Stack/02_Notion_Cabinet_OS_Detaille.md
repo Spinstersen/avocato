@@ -5,10 +5,10 @@
 ## Dashboard (page d'accueil Notion)
 
 ```
-┌─ 3 MITs du jour (checkbox) ────────────────Ŀ
+┌─ 3 MITs du jour (checkbox) ─────────────────┐
 │ [ ] Rédiger contrat Yassine [ ] Publier post │
-├─ Calendrier semaine (vue Calendar) ─────────Ĵ
-├─ Bases de données ──────────────────────────Ĵ
+├─ Calendrier semaine (vue Calendar) ──────────┤
+├─ Bases de données ───────────────────────────┤
 │ CLIENTS (12 props)  MISSIONS (15) CONTENT (8)│
 │ PROSPECTS  PARTENAIRES  TEMPLATES  VEILLE KPI│
 └─────────────────────────────────────────────┘
@@ -51,26 +51,42 @@ Tally intake → Zapier crée Notion Prospect → Calendly book → Meet → Not
 - [ ] Créer workspace `Cabinet [Nom]`
 - [ ] Créer 6 BDD vides + 1 entrée test par BDD
 - [ ] Créer Dashboard + lier vues
+- [ ] Importer 2 clients fictifs (Yassine dev, Fatima ecom)
 - [ ] Tester flow: créer prospect → mission → archiver
 
 ---
 
-## À retenir + checklist + suite — Notion Cabinet OS
+## Approfondissement Encyclopédique (Bonus)
 
-**3 points clés de ce fichier :**
-- Dashboard Notion = 3 MITs + calendrier + 6 BDD (Clients 12 props / Missions 15 / Content / Prospects / Templates / Veille KPI).
-- BDD MISSIONS Kanban (Intake→Facturé) + vues Timeline/Table CA ; BDD Content = Idées→Recyclé.
-- 5 templates cœur : Mission Pack Freelance, Note risques 7 catégories, Post SCQA, Veille, Atelier 60m.
+### Cas pratique détaillé
+**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
 
-**Checklist 6 points — Notion prêt à l'emploi :**
-- [ ] Workspace `Cabinet [Nom]` créé + Dashboard lié aux 6 BDD
-- [ ] Templates 5 créés + bouton "Dupliquer en post LinkedIn" (Zapier)
-- [ ] Workflow Tally → Prospect Notion → Calendly → Mission → Yousign testé
-- [ ] Vues Kanban/Timeline/Table configurées + filtre échéances
-- [ ] Archivage Notion + backup export hebdo activé
+### Erreurs fréquentes (Top 5)
+1. Vouloir tout faire J1 -> overwhelm
+2. Négliger 09-08/CNDP -> sanction 300k
+3. Omettre provision art30 -> impayé
+4. Publier sans relecture -> faute FR + hallucination
+5. Pas de métrique -> 0 amélioration
 
-**Renvoi glossaire :** `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §09 AE/SARL (props Statut/CA) + §10 Provision 50% (prop Honoraires) + §06 09-08 (anonymisation BDD).
+### Checklist encyclopédique (12 points)
+- [ ] Anonymisation / 09-08 OK
+- [ ] Déontologie RIO vérifiée
+- [ ] Template prêt veille
+- [ ] Loom 3 min si livrable
+- [ ] LanguageTool 0 faute
+- [ ] Plausible/Yousign si besoin
+- [ ] Notion archivé
+- [ ] Feedback humain obtenu
+- [ ] Repurposing 1->5 fait
+- [ ] KPI mis à jour
+- [ ] Spaced J3/J7 planifié
+- [ ] Prochain sprint choisi
 
-**Interaction dossier :** Alimente `01_Legal_Tech_Stack/08_Workflow_Integration_Zapier_Make.md` (automatisation) et `03_Sales_Without_Selling/07_Metriques_Taux_Conversion.md` (KPI Notion).
+### Ressources Maroc
+- sgg.gov.ma, cndp.ma, ompic.ma, jep.ma, rbm.ma
+- YouTube: OMPIC, CNDP webinars, SPIN 15m, Canva School
 
-**Sources spécifiques :** notion.so/templates, notion.so/help/database-relations, Zapier Notion guide — vérif 20/08/2026.
+### Plan 7 jours ultra-concret
+J1 30m input, J2 output, J3 test Feynman, J4 feedback, J5 publish, J6 spaced J3, J7 review.
+
+> Philosophie: Sobre, chiffré, vendable en 7j. Mieux vaut 70% publié que 95% parfait jamais livré.

@@ -1,91 +1,87 @@
-﻿# Compétence #3 : Vendre sans vendre (pour avocats qui détestent la vente)
+﻿# Skills #3: Sales Without Selling (For Lawyers Who Hate Selling)
 
-> Vous n'êtes pas un vendeur. Vous êtes un médecin. Diagnostiquez, prescrivez, laissez-les choisir. Pas de forcing.
+> You are not a vendeur. You are a doctor. Diagnose, prescribe, let them choose. No forcing.
 
-> **UPGRADE :** voir `05_Sales_Techniques_Playbook.md` pour la version scientifique (questions SPIN, teaching Challenger, anchoring/BATNA). Ce fichier garde l'état d'esprit de base + le script d'appel ; le playbook ajoute les techniques avancées.
+> **UPGRADE:** See `05_Sales_Techniques_Playbook.md` for the science-backed version (SPIN questions, Challenger teaching, anchoring/BATNA negotiation). This file stays as the basic mindset + call script; the playbook adds the advanced techniques and negotiation rules.
 
-## Changement d'état d'esprit
-- Mauvaise vente : « Achetez mon pack, je suis le meilleur, promo limitée »
-- Bonne vente (autorisée) : « Voici votre risque, voici 2 options pour le corriger, vous choisissez. »
+## Mindset Shift
+- Bad sales: "Achetez mon pack, je suis le meilleur, promo limitée"
+- Good sales (allowed): "Voici votre risque, voici 2 options pour le corriger, vous choisissez."
 
-Les clients marocains détestent la pression, surtout venant d'un avocat. Ils adorent la clarté.
+Moroccan clients hate pushy, especially from avocat. They love clarity.
 
-## Le script de vente par diagnostic (20 min, 5 étapes)
+## The Diagnostic Sales Script (20 min, 5 Steps)
 
-**Avant l'appel :** avoir leurs réponses Tally / contexte WhatsApp. Préparer 2 options de pack.
+**Before call:** Have their Tally answers / WhatsApp context. Prepare 2 pack options.
 
-**Étape 1 : cadre (1 min)**
-> « Merci [Prénom] pour ton temps. L'objectif de cet appel de 20 min est de comprendre ta situation et te dire clairement où sont tes risques juridiques et comment les corriger. À la fin, je te proposerai 2 options, tu choisiras ou tu réfléchiras, sans pression. Ça te va ? »
+**Step 1: Cadre (1 min)**
+> "Merci [Prénom] pour ton temps. L'objectif de cet appel 20 min est de comprendre ta situation et te dire clairement où sont tes risques juridiques et comment les corriger. À la fin, je te proposerai 2 options, tu choisiras ou tu réfléchiras, sans pression. Ça te va?"
 
-**Étape 2 : découverte (7 min) — poser des questions, fermer votre bouche**
-- « Tu fais quoi exactement ? Depuis quand ? CA mensuel ? »
-- « Tu es en AE/SARL ? Pourquoi ce choix ? »
-- « Quel est le plus gros stress juridique actuel ? (impayé, boutique, contrôle) »
-- « Qu'est-ce qui s'est déjà mal passé ? »
-- « Si ce problème n'est pas réglé dans 6 mois, que se passe-t-il ? »
+**Step 2: Découverte (7 min) — Pose questions, ferme ta bouche**
+- "Tu fais quoi exactement? Depuis quand? CA mensuel?"
+- "Tu es en AE/SARL? Pourquoi ce choix?"
+- "Quel est le plus gros stress juridique actuel? (impayé, boutique, contrôle)"
+- "Qu'est-ce qui s'est déjà mal passé?"
+- "Si ce problème n'est pas réglé dans 6 mois, que se passe-t-il?"
 
-Prenez des notes. Laissez-les parler 70 %.
+Take notes. Let them talk 70%.
 
-**Étape 3 : diagnostic en direct (5 min) — montrer l'expertise**
-> « Si je résume, ton risque #1 est [X]. Concrètement, si [situation], la loi dit [article], tu risques [montant/perte]. Ton risque #2 est [Y]. »
+**Step 3: Diagnostic Live (5 min) — Show expertise**
+> "Si je résume, ton risque #1 est [X]. Concrètement, si [situation], la loi dit [article], tu risques [montant/perte]. Ton risque #2 est [Y]."
 
-Avec partage d'écran ou voix. Soyez précis, pas vague.
+Use screen share or just voice. Be specific, not vague.
 
-**Étape 4 : prescription — 2 options (5 min)**
-> « Pour corriger ça, je propose 2 niveaux :
-> **Option A — Pack Essentiel (2 900 DH HT) :** corrige le risque #1 (contrat + CGV). Délai 3 jours. Paiement 50/50. Idéal si tu veux sécuriser vite le plus urgent.
-> **Option B — Pack Complet (4 900 DH HT) :** corrige #1 + #2 + suivi 1 mois + relecture 2 contrats. Idéal si tu veux dormir tranquille 12 mois.
-> La plupart de mes clients [freelances comme toi] prennent [B] parce que [raison]. Mais A suffit si budget serré. Tu préfères lequel ? »
+**Step 4: Prescription — 2 Options (5 min)**
+> "Pour corriger ça, je propose 2 niveaux:
+> **Option A - Pack Essentiel (2,900 DH HT):** Corrige risque #1 (contrat + CGV). Délai 3 jours. Paiement 50/50. Idéal si tu veux sécuriser vite le plus urgent.
+> **Option B - Pack Complet (4,900 DH HT):** Corrige #1 + #2 + suivi 1 mois + relecture 2 contrats. Idéal si tu veux dormir tranquille 12 mois.
+> La plupart de mes clients [freelances comme toi] prennent [B] parce que [raison]. Mais A suffit si budget serré. Tu préfères lequel?"
 
-Silence. Laissez-les répondre.
+Silence. Let them answer.
 
-**Étape 5 : suite (2 min)**
-Si oui : « Parfait, je t'adresse la convention d'honoraires + lien de paiement 50 % aujourd'hui, on démarre demain. Tu préfères WhatsApp ou email ? »
-Si « je réfléchis » : « Parfait, je comprends. Je t'adresse la convention d'honoraires écrite + une vidéo Loom 5 min qui résume tout, tu la regardes tranquille. On se cale un rappel jeudi 11h ou vendredi 11h pour ta décision ? »
+**Step 5: Next Step (2 min)**
+If yes: "Parfait, je t'adresse la convention d'honoraires + lien paiement 50% aujourd'hui, on démarre demain. Tu préfères WhatsApp ou email?"
+If "Je réfléchis": "Parfait, je comprends. Je t'adresse la convention d'honoraires écrit + une vidéo Loom 5 min qui résume tout, tu le regardes tranquille. On se cale un rappel jeudi 11h ou vendredi 11h pour ta décision?"
 
-Jamais de remise en appel. Remise = dévalorisation.
+Never discount on call. Discount = devalues.
 
-## Gérer les objections
+## Handling Objections
 
-**« C'est cher »**
-> « Je comprends. Comparé à quoi ? Un impayé de 15k DH ou un blocage boutique ? Le pack est à 2 900 une fois, il te protège sur chaque contrat à 10k+ pendant 2 ans. Si tu veux, on peut faire le paiement en 2×. Ça t'aiderait ? »
+**"C'est cher"**
+> "Je comprends. Comparé à quoi? Un impayé de 15k DH ou un blocage boutique? Le pack est 2,900 une fois, il te protège sur chaque contrat à 10k+ pendant 2 ans. Si tu veux, on peut faire 2x paiement. Ça t'aiderait?"
 
-**« Je dois voir avec mon associé/comptable »**
-> « Normal. Je t'adresse la convention d'honoraires + Loom que tu peux lui transférer. On cale un appel à 3 jeudi ? »
+**"Je dois voir avec mon associé/comptable"**
+> "Normal. Je t'adresse la convention d'honoraires + Loom que tu peux lui transférer. On cale un call à 3 jeudi?"
 
-**« Je vais le faire plus tard »**
-> « Je comprends. Juste pour info, le risque [X] existe dès ton prochain contrat/client. Si tu signes un nouveau client sans clause, tu es exposé. Tu préfères sécuriser avant le prochain contrat ou après ? »
+**"Je vais le faire plus tard"**
+> "Je comprends. Juste pour info, le risque [X] existe dès ton prochain contrat/client. Si tu signes un nouveau client sans clause, tu es exposé. Tu préfères sécuriser avant le prochain contrat ou après?"
 
-## Le devis qui vend (le design compte)
+## Devis That Sells (Design Matters)
 
-N'envoyez pas Word. Envoyez un PDF Canva 1 page :
-- En-tête : Logo + « Devis #2025-012 — Valable 7 jours »
-- Nom du client + date
-- Tableau : Pack choisi | Contenu (5 bullets) | Délai | Prix HT/TTC | Modalités 50/50
-- Pied : « Validé par Me [Nom], Avocat au Barreau de X » + ICE + WhatsApp
-- Bouton next step : « Pour accepter, répondez "OK" sur WhatsApp et virement 50 % sur [RIB] »
+Don't send Word. Send PDF Canva 1 page:
+- Header: Logo + "Devis #2025-012 - Valable 7 jours"
+- Client name + date
+- Tableau: Pack choisi | Contenu (5 bullets) | Délai | Prix HT/TTC | Modalités 50/50
+- Footer: "Validé par Me [Nom], Avocat au Barreau de X" + ICE + WhatsApp
+- Next step button: "Pour accepter, répondez 'OK' sur WhatsApp et virement 50% sur [RIB]"
 
-Le design = valeur perçue. Voir `05_Document_Bank/templates/`
+Design = perceived value. See `05_Document_Bank/templates/`
 
-## Séquence de suivi (si « je réfléchis »)
+## Follow-up Sequence (If "Je réfléchis")
 
-- J+1 : envoyer un Loom de 5 min récap + devis PDF via WhatsApp
-- J+3 : « Salam [Prénom], tu as pu regarder la vidéo ? Une question ? »
-- J+7 : « Dernier message : je clos ton dossier vendredi, si tu veux le pack plus tard dis-moi, je garde ton diagnostic. »
+- J+1: Send Loom 5 min recap + devis PDF via WhatsApp
+- J+3: "Salam [Prénom], tu as pu regarder la vidéo? Une question?"
+- J+7: "Dernier message: je clos ton dossier vendredi, si tu veux le pack plus tard dis-moi, je garde ton diagnostic."
 
-Après J+7, stop. Ne harcélez pas.
+After J+7, stop. Don't harass.
 
-## Pratique (TDAH)
+## Practice (ADHD)
 
-- Script imprimé devant vous pendant l'appel.
-- Enregistrez vos appels (avec permission) et écoutez pour améliorer 1 chose.
-- Jeu de rôle avec un ami 2× avant le premier vrai diagnostic.
+- Script printed in front of you during call.
+- Record your calls (with permission) and listen to improve 1 thing.
+- Role-play with friend 2x before first real diagnostic.
 
-## Chiffres
-Attendez-vous : 10 diagnostics → 3-4 ventes (30-40 %) au début, 50 % quand vous serez bon. Donc 3 diagnostics/semaine = 1 vente/semaine = 12k DH/mois minimum.
+## Numbers
+Expect: 10 diagnostics → 3-4 sales (30-40%) at start, 50% when good. So 3 diagnostics/week = 1 sale/week = 12k DH/month minimum.
 
-**Suite :** imprimez le script, affichez-le à côté du bureau.
-
----
-
-> قاموس سريع / Mini-glossaire AR : تشخيص (diagnostic) · عرضان (2 options) · اعتراض (objection) · فاتورة/عرض سعر (devis) · متابعة (suivi)
+**Next:** Print script, put on wall next to desk.

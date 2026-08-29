@@ -1,8 +1,5 @@
 ﻿# Niche #3 : Loi 09-08 / Protection des données (CNDP) — Ticket élevé B2B
 
-> **Comment utiliser ce fichier (curriculum) :** Ce fichier est le **playbook 7 jours acquisition** — où trouver les clients, quoi dire, quel lead magnet, quel script DM. Pour le **fond juridique** (base légale exacte, offre productisée détaillée avec provision 50% / Yousign / débours OMPIC, workflow, cas pratique chiffré, zones grises, jurisprudence), ouvrez le dossier deep dive : `02_Niches_Deep_Dive/03_Loi_09-08_GDPR_Compliance/00_INDEX.md` (13 fichiers, 00_INDEX → 12_Fiches).
-> **Fondement juridique du pack cité :** Loi 09-08 art.21 (registre) + art.24 (sous-traitant) + art.52 (sanction CNDP), délib. CNDP 40-2022 (cookies), guide CNDP 2024. Vérifiez chaque chiffre sur sgg.gov.ma / cndp.ma / ompic.ma / oc.gov.ma (IGOC juillet 2024) — PLF et IGOC changent les taux.
-
 > **Verdict : TICKET LE PLUS ÉLEVÉ, closing plus lent, idéal pour abonnement + autorité. Effet de levier grâce à votre Master + IA.**
 
 ## Contexte

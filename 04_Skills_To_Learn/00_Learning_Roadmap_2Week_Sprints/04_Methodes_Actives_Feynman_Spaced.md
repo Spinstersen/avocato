@@ -1,4 +1,4 @@
-﻿# 04 — Méthodes Actives : Feynman + Spaced + Interleaving
+# 04 — Méthodes Actives : Feynman + Spaced + Interleaving
 
 ## 1. Feynman Technique (enseigner pour apprendre)
 
@@ -42,6 +42,8 @@ Règle `01_Strategy/05_ADHD_Operating_System_Overview/03_Regles_Fondamentales.md
 
 ## Approfondissement Encyclopédique (Bonus)
 
+### Cas pratique détaillé
+**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
 
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 -> overwhelm

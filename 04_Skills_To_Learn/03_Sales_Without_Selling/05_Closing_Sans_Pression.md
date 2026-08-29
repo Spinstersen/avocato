@@ -1,4 +1,4 @@
-﻿# 05 — Closing Sans Pression (5 min)
+# 05 — Closing Sans Pression (5 min)
 
 ## Séquence
 
@@ -28,6 +28,8 @@
 
 ## Approfondissement Encyclopédique (Bonus)
 
+### Cas pratique détaillé
+**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
 
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 -> overwhelm

@@ -1,4 +1,4 @@
-﻿# 10 — Psychologie Cialdini 6 Leviers Éthiques
+# 10 — Psychologie Cialdini 6 Leviers Éthiques
 
 1. **Réciprocité:** donner note risques gratuite avant vente → envie rendre.
 2. **Preuve sociale:** "12 freelances accompagnés ce trimestre" (sans nom, anonyme) → rassure.
@@ -16,6 +16,8 @@ Jamais manipuler (fausse rareté, pression). Utiliser pour clarifier valeur, pas
 
 ## Approfondissement Encyclopédique (Bonus)
 
+### Cas pratique détaillé
+**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
 
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 -> overwhelm

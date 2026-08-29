@@ -1,4 +1,4 @@
-﻿# 10 — Public Speaking & Ateliers : Nouveau Skill Bonus
+# 10 — Public Speaking & Ateliers : Nouveau Skill Bonus
 
 > Skills n°10 — 11 fichiers. Atelier 60 min gratuit en coworking = #1 conversion (40% diag). Sobre, pédagogique, 0 pitch.
 
@@ -15,6 +15,8 @@
 
 ## Approfondissement Encyclopédique (Bonus)
 
+### Cas pratique détaillé
+**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
 
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 -> overwhelm

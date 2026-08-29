@@ -4,7 +4,7 @@
 
 ## MRE 40j = non-résident
 
-*   **CGI art.23:** <183j + foyer Paris = non-résident → **IS source Maroc seulement** (bénéfice SARL Casa 20 % (LF 2026) `06_Autoentrepreneur.../02_Douleurs_Juridiques.md:15`), pas mondial.
+*   **CGI art.23:** <183j + foyer Paris = non-résident → **IS source Maroc seulement** (bénéfice SARL Casa 15% `06_Autoentrepreneur.../02_Douleurs_Juridiques.md:15`), pas mondial.
 *   **IR France:** Salarié Paris 2,800€ → IR France (pas Maroc).
 *   **Attestation:** Non besoin DGI Maroc (non-résident), besoin attestation France pour éviter double.
 

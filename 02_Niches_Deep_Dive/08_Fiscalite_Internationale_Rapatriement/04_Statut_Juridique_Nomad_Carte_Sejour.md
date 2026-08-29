@@ -17,7 +17,7 @@
 ## SARL pour nomad (recommandé >200k)
 
 *   Nomad Lena (Berlin, designer, clients US 300k DH/an) → créer SARL-AU Casa 7-14j via procuration légalisée + Apostille `10_MRE_Entrepreneurs/03_Creation_SARL_Distance_Procuration.md` → carte séjour `gérant SARL` (1 an) → compte convertible → rapatriement OK.
-*   **Avantage:** Légal 100%, TVA exon art.92, IS 20 % (LF 2026).
+*   **Avantage:** Légal 100%, TVA exon art.92, IS 15%.
 
 ## Domiciliation
 

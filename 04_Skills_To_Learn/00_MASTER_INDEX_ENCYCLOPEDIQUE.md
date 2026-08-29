@@ -55,16 +55,3 @@ Chaque fichier `<3000 chars` a déjà reçu un appendice encyclopédique. Reste 
 
 ---
 *Généré 20/08/2026 — encyclopédie vivante, mettre à jour Numbers Sheet trimestriellement.*
-## Tracks 13-19 (fusion V2, aoA>t 2026)
-
-| Track | Fichiers | Apport |
-|---|---|---|
-| `13_Ingenierie_Fiscale_Avancee/` | index | Stub - voir `02_Niches_Deep_Dive/12_Ingenierie_Fiscale_Internationale_Shell/` (dossier complet 13 fichiers) |
-| `14_Litigation/` | 13 | CPC art.345, requAte introductive, conclusions, plaidoirie, rAfArAs, injonction de payer, exAcution, voies de recours, arbitrage AMR, honoraires contentieux |
-| `15_Client_Psy/` | 12 | Cycle de vie client, annonce honoraires FR/AR/EN, scope creep, profils difficiles, impayAs, recouvrement amiable, NPS conforme, retainer rescue |
-| `16_LE_Drafting/` | 13 | Style guide EN vs FR, clause library 24 clauses FR/EN mirror, red flags 25, false friends 30, templates EN, Yousign bilingue |
-| `17_Finance_Op/` | 13 | P&L cabinet, trA@sorerie 13 semaines, IS PLF, TVA art.92 cabinet, CNSS/AMO, dirigeant/dividendes, KPI dashboard, dAbours, indexation, Darija finance |
-| `18_AI_Auto/` | 13 | OS no-code, 15 zaps prAats, pipeline Notion, Make vs Zapier, anonymisation Loi 09-08, hallucination guard, Loom SOP, Drive conforme, ROI chiffrA |
-| `19_Sectors/` | 13+ | Fintech/Paiements livrA (CMI, Atablissements de paiement, LBCFT, chargebacks) - santA/immo/Aduc en backlog |
-
-> Chaque fichier de track se termine par un QCM corrigA (sans certificat) + arbre de dAcision. Ordre curriculum : `00_START_HERE/07_Table_Matieres_Curriculum_Maitre.md`.

@@ -1,65 +1,61 @@
-# Phase 1 : Fondations (semaines 1-2) — construire la machine
+﻿# Phase 1: Foundation (Weeks 1-2) — Build the Machine
 
-> Objectif : pas encore de clients. Objectif : être prêt à recevoir des clients.
+> Goal: Not clients yet. Goal: Be ready to receive clients.
 
-## Checklist semaine 1 (3 MITs par jour, pas tout d'un coup)
+## Week 1 Checklist (Pick 3 MITs per day, not all at once)
 
-**Jour 1 (lundi) : Positionnement & niche**
-- [ ] 1h : lire `00_START_HERE/00_READ_ME_FIRST.md` + `01_Strategy/03_Unsaturated_Niches_Overview/00_INDEX.md`
-- [ ] 30 min : choisir UNE niche (Freelance OU Ecom recommandé) — écrire le pourquoi sur papier.
-- [ ] 1h : écrire la phrase de positionnement + mettre à jour titre LinkedIn + description WhatsApp Business + description Google Business.
+**Day 1 (Monday): Positioning & Niche**
+- [ ] 1h: Read `00_START_HERE/00_READ_ME_FIRST.md` + `01_Strategy/03_Unsaturated_Niches_Overview/00_INDEX.md`
+- [ ] 30 min: Choose ONE niche (Freelance OR Ecom recommended) — write down why on paper.
+- [ ] 1h: Write positioning sentence + update LinkedIn headline + WhatsApp Business description + Google Business description.
 
-**Jour 2 : Offre & prix**
-- [ ] 1h : lire le deep dive de la niche choisie (ex : `02_Niches_Deep_Dive/01_Freelancers...`)
-- [ ] 1h : choisir le pack à vendre (ex : Mission Contrats - Formule Essentielle 2 900 DH HT) — définir ses 5 livrables.
-- [ ] 30 min : créer le modèle de devis dans Canva (copier de `05_Document_Bank/templates/21_Devis_Pack_Modele.md`)
+**Day 2: Offer & Price**
+- [ ] 1h: Read deep dive for chosen niche (ex: `02_Niches_Deep_Dive/01_Freelancers...`)
+- [ ] 1h: Choose pack to sell (ex: Mission Contrats - Formule Essentielle 2,900 DH HT) — define its 5 deliverables.
+- [ ] 30 min: Create devis template in Canva (copy from `05_Document_Bank/templates/01_Devis_Template.md`)
 
-**Jour 3 : Lead magnet**
-- [ ] 2h : créer UN lead magnet (Checklist 12 clauses OU Quiz Tally). Design Canva 1 page.
-- [ ] 30 min : créer le formulaire Tally pour capturer WhatsApp + envoi auto du PDF (email/WhatsApp manuel au début).
+**Day 3: Lead Magnet**
+- [ ] 2h: Create ONE lead magnet (Checklist 12 clauses OR Quiz Tally). Design in Canva 1 page.
+- [ ] 30 min: Create Tally form to capture WhatsApp + auto-send PDF (via email/WhatsApp manual at start).
 
-**Jour 4 : Profils**
-- [ ] 1h : refonte profil LinkedIn (bannière, titre, featured) + optimisation Google Business Profile.
-- [ ] 1h : setup WhatsApp Business : catalogue 1 pack + message d'accueil + étiquettes.
-- [ ] 30 min : Carrd 1 page (qui vous aidez, pack, bouton WhatsApp) — ne pas sur-penser, v1 moche OK.
+**Day 4: Profiles**
+- [ ] 1h: Makeover LinkedIn profile (banner, headline, featured) + Google Business Profile optimization.
+- [ ] 1h: WhatsApp Business setup: catalogue 1 pack + accueil message + labels.
+- [ ] 30 min: Carrd 1-page basics (who you help, pack, WhatsApp button) — don't overthink, v1 ugly ok.
 
-**Jour 5 : Liste de partenaires**
-- [ ] 1h : lister 15 comptables/fiduciaires (Google Maps autour de la ville + LinkedIn). Nom, WhatsApp, type.
-- [ ] 1h : envoyer les 5 premiers messages (script dans `03_Acquisition_Without_Ads/03_Partnerships...`) — en batch.
+**Day 5: Partnership List**
+- [ ] 1h: List 15 comptables/fiduciaires (Google Maps around city + LinkedIn). Name, WhatsApp, type.
+- [ ] 1h: Send 5 first messages (script in `03_Acquisition_Without_Ads/03_Partnerships...`) — batch.
 
-**Week-end : batch de contenu**
-- [ ] Dimanche 10h-12h : écrire 3 posts LinkedIn pour la semaine suivante (utiliser les prompts IA). Planifier.
+**Weekend: Batch Content**
+- [ ] Sunday 10-12h: Write 3 LinkedIn posts for next week (use AI prompts). Schedule.
 
-## Checklist semaine 2
+## Week 2 Checklist
 
-**Jours 8-9 : Outreach**
-- [ ] Envoyer 5 messages comptables/jour (total 15). Suivre dans Notion.
-- [ ] Poster LinkedIn 3× (Lun/Mer/Ven) + commenter 10×/jour sur les posts de la niche (20 min).
-- [ ] Répondre à tous les DM à 11h30/18h.
+**Day 8-9: Outreach**
+- [ ] Send 5 comptable messages/day (total 15). Track in Notion.
+- [ ] Post LinkedIn 3x (Mon/Wed/Fri) + comment 10x/day on niche posts (20 min).
+- [ ] Reply all DMs at 11:30/18h.
 
-**Jour 10 : Système de livraison**
-- [ ] Créer le CRM Notion (1 table Leads comme dans `06_ADHD_System/02_Notion...`) — 30 min.
-- [ ] Préparer le squelette Loom + contrat/template CGV (copier la structure de la document bank) — 2h avec IA.
-- [ ] Tester la livraison : s'envoyer un pack fictif (PDF + Loom).
+**Day 10: Delivery System**
+- [ ] Create Notion CRM (1 table Leads as in `06_ADHD_System/02_Notion...`) — 30 min.
+- [ ] Prepare Loom + contract/CGV template skeleton (copy structure from document bank) — 2h with AI.
+- [ ] Test delivery: send yourself a fake pack (PDF + Loom).
 
-**Jours 11-12 : Préparation atelier (optionnel mais ROI élevé)**
-- [ ] Identifier le lieu + 1 co-animateur pour l'atelier des semaines 5-6. Envoyer la proposition.
-- [ ] Créer le plan de slides (12 slides, réutiliser le contenu du lead magnet).
+**Day 11-12: Atelier Prep (Optional but high ROI)**
+- [ ] Identify venue + 1 co-host for atelier in Week 5-6. Send proposal message.
+- [ ] Create atelier slides outline (12 slides, reuse content from lead magnet).
 
-**Jour 12 : Revue**
-- [ ] Vendredi 16h : vérifier les métriques : vues profil, messages envoyés, réponses, posts faits.
-- [ ] Récompense : quelque chose d'agréable. Vous avez construit les fondations.
+**Day 12: Review**
+- [ ] Friday 16h: Check metrics: profile views, messages sent, replies, posts done.
+- [ ] Reward: something nice. You built foundation.
 
-## Critères de succès fin de semaine 2
-- [ ] LinkedIn + WhatsApp + Google Business prêts
-- [ ] 1 lead magnet en ligne + formulaire
-- [ ] 1 pack défini + devis prêt
-- [ ] 15 comptables listés, 10 contactés, 2 réponses
-- [ ] 6 posts LinkedIn planifiés/édités
-- [ ] CRM Notion avec pipeline
+## Success Criteria End of Week 2
+- [ ] LinkedIn + WhatsApp + Google Business ready
+- [ ] 1 lead magnet live + form
+- [ ] 1 pack defined + devis ready
+- [ ] 15 comptables listed, 10 contacted, 2 replies
+- [ ] 6 LinkedIn posts scheduled/published
+- [ ] Notion CRM with pipeline
 
-Si vous avez 50 % de ça, c'est un succès. N'attendez pas la perfection. Passez à la Phase 2.
-
----
-
-> قاموس سريع / Mini-glossaire AR : أساس (fondations) · وضع (positionnement) · عرض (offre) · سعر (prix) · اقتراح (lead magnet) · شريك (partenaire)
+If you have 50% of this, it's success. Don't wait for perfect. Move to Phase 2.

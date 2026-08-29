@@ -1,4 +1,4 @@
-﻿# 09 — Arbre Issue-Spotting (7 Cat)
+# 09 — Arbre Issue-Spotting (7 Cat)
 
 ```
 Faits 5 min
@@ -18,6 +18,9 @@ Checklist à cocher en diag (papier).
 ---
 
 ## Approfondissement Encyclopédique (Bonus)
+
+### Cas pratique détaillé
+**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
 
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 -> overwhelm
@@ -55,6 +58,7 @@ J1 30m input, J2 output, J3 test Feynman, J4 feedback, J5 publish, J6 spaced J3,
 3 piliers, 7 categories, tableaux, scripts verbatim, decision tree, FAQ, checklist 12 points.
 
 ### Exemple Maroc 2025
+Yassine/Fatima/MRE - chiffres reels, risques H/M/B, 2 options prix 2900/5900, delai 7j.
 
 ### Sources
 sgg.gov.ma, cndp.ma, ompic.ma, jep.ma. Citer art exact.

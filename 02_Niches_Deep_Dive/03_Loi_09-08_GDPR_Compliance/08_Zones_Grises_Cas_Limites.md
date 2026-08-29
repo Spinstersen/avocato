@@ -1,66 +1,53 @@
 # 08 — Zones Grises & Cas Limites (03_Loi_09-08_GDPR_Compliance)
 
-> Niche-specifique Loi 09-08 / GDPR Compliance — complement de `00_START_HERE/03_Glossaire_12_Concepts_Cles.md`. Le gris ici est procedural : 45j de mise en demeure masquent la sanction.
+> Complément encyclopédique — réplique `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/07_Zones_Grises_Cas_Pratiques.md`, appliquée à la data.
 
-## 5 Zones grises VRAIMENT pertinentes — Loi 09-08
+## 5 Zones grises 09-08 / GDPR
 
-| Zone | Gris (tolere) | Rouge (sanction) | Procedure sortie | Base legale | Renvoi glossaire §X |
+| # | Situation | Vert | Orange | Rouge | Réf |
 |---|---|---|---|---|---|
-| 1. Transfert AWS US sans CTT | Hebergement OVH Casa tolere sans CTT | AWS US / Google Cloud / Shopify sans clauses types CNDP art.43-44 → 10k-300k | CTT CNDP signees + info clients + autorisation si sensibles | Loi 09-08 art.43-44, delib 40-22 | §6 Loi 09-08 |
-| 2. Registre 5 colonnes incomplet | Registre Excel 3 col. tolere <45j apres creation | Registre sans finalite/base/duree/destinataires art.14 → MED 45j puis sanction | Registre 5 col. art.14 : traitement/finalite/base/duree/destinataires + MAJ trimestrielle | Loi 09-08 art.14/23 | §6 Loi 09-08 |
-| 3. Banniere cookies pre-cochee | Bandeau "en continuant vous acceptez" tolere si pas plainte | Case pre-cochee + depot avant consentement = non-conformite delib 40-22 | CMP consentement prealable non pre-coche, log 3 ans, retrait 1 clic | Loi 09-08 art.23, delib CNDP 40-22 | §6 Loi 09-08 |
-| 4. Sous-traitant sans contrat art.24 | Mailchimp sans contrat tolere <30j | Sous-traitant sans art.24 (securite) → responsable = vous, 10k-300k | Contrat art.24 : finalite, securite, interdiction sous-traitance sans accord, audit | Loi 09-08 art.24/52 | §6 + §11 DOC |
-| 5. Prospection WhatsApp sans opt-in | 5 messages manuels toleres, spam non signale | Prospection WhatsApp/SMS sans consentement prealable art.23 = plainte + amende | Double opt-in horodate + preuve + STOP 1 clic, duree 3 ans post-contact | Loi 09-08 art.23, Loi 31-08 art.27 | §6 Loi 09-08 |
+| 1 | Formulaires & traitements simples (site vitrine, recrutement) | Finalité précise + info + durée définie | Collecte sans mention de durée | Base de CV conservée 5 ans sans tri ni info | 09-08 art. 3, 9-10 |
+| 2 | Cookies analytics | Auto-hébergés exemptés (Plausible/Matomo configuré) + bannière cohérente | GA4 avec consentement « tout accepter par défaut » | Pixels pub pré-cochés avant action utilisateur | Décret 2-10-450 ; CJUE C-673/17 Planet49 |
+| 3 | Hébergement hors Maroc | Pays reconnu adéquat CNDP + contrat transfert | UE (GDPR-friendly) mais accès support depuis US | AWS/GCP US sans clause ni autorisation, données clients marocains | 09-08 art. 43-44 ; CJUE C-311/18 Schrems II |
+| 4 | Prospection B2B | Appels ciblés relation d'affaires + droit d'opposition respecté | Emails pro sans opt-in mais désabonnement fonctionnel | SMS/WhatsApp sur base achetée sans consentement prouvé | 09-08 droits + opt-in ; cas type prospection (§4 banque) |
+| 5 | SaaS servant des clients UE | DPA signé + registre art. 30 + SCC si données rapatriées | DPA signé sans analyse, registre 09-08 seul | Vente active UE (prix EUR, team FR) sans aucune base GDPR ni représentant | GDPR art. 3(2), 27, 28, 44-49 |
 
-## Cas limite detaille — chiffre niche 03
+## Cas limite détaillé (à raconter en diagnostic)
 
-### Faits
-- SaaS RH Casa, 12 000 contacts (CV + mails), heberge AWS us-east-1 sans CTT.
-- Registre art.14 avec 2 colonnes ("donnees / usage"), banniere pre-cochee "tout accepter".
-- Sous-traitant Mailchimp sans contrat art.24, campagne WhatsApp 4 000 messages sans opt-in (base scrapee LinkedIn).
+*   **Faits :** SaaS B2B casablancais, 10 employés. 200 clients Maroc, 30 clients UE signés en self-service (site en FR+EN, prix en EUR, paiement Stripe EU). Hébergement AWS Irlande, CRM HubSpot US, support Zendesk US. Aucune déclaration CNDP, aucun DPA signé, politique de confidentialité copiée d'un générateur en ligne. Un client français demande un « audit data » après un incident chez un autre fournisseur.
+*   **Analyse en 3 temps :**
+    1.  **Qualification** : le site cible activement l'UE (langue, devise, vente) → GDPR applicable de plein droit au vendeur marocain (art. 3(2)), pas seulement « par ricochet via le client ». Et les données des 200 clients marocains relèvent de la 09-08 (registre + déclaration art. 12-23).
+    2.  **Risque chiffré** : côté CNDP — défaut de formalités préalables : amende **10 000-100 000 DH (art. 64)**, la collecte déloyale est pénale (art. 65), mise en demeure fréquente + transferts US sans garanties. Côté UE — le client français peut résilier pour défaut art. 28 + se retourner contre le SaaS en cas de breach ; la due diligence levée bloque. Double régime, double exposition, zéro document.
+    3.  **Parade** : registre commun 09-08/GDPR art. 30 (une seule cartographie, deux formats), pack sous-traitants + clauses de transfert (CNDP + SCC 2021), politique FR/EN régénérée, réponse DPA négociée, avis sur représentant UE (art. 27 — selon volumes, éviter ou mandater).
+*   **Solution livrée :** Pack 09-08 (12 000 HT) + Sous-traitants/transferts (5 000 HT) + Alignment GDPR (8 000 HT) = 25 000 HT sur 5 semaines ; abonnement 4 500 HT/mois ensuite. Le client UE a signé ; l'incident du fournisseur voisin est devenu l'argument interne de bouclage du budget.
 
-### Qualification
-- Transfert US sans art.43-44 → illicite des 1er octet, meme chiffre (CNDP 2023-045 sanction 45j).
-- Registre incomplet art.14 → MED CNDP 45j, passe delai amende 10k-300k art.52 + 6 mois prison possible.
-- Banniere pre-cochee → consentement invalide delib 40-22.
-- Sous-traitant sans art.24 → vous responsable fuite Mailchimp.
-- Prospection sans opt-in → art.23 viole, plainte + injonction cesser.
+## Checklist 5 zones grises (auto-diagnostic dirigeant)
 
-### Solution
-- Migration AWS eu-west-3 Paris ou CTT CNDP signees + politique transfert + info clients.
-- Registre 5 col. complet + declaration cndp.ma recepisse 30j.
-- CMP refonte consent prealable non pre-coche, log 3 ans.
-- Contrat art.24 Mailchimp + registre sous-traitant.
-- Purge base non opt-in + campagne double opt-in.
-
-### Cout
-- Diag 900 HT → Pack 09-08 complet 6 900 HT (registre+declaration+CTT+contrats art.24+CMP).
-- Amende evitee 10k-300k x5 manquements = cumul. Delai purge : registre 48h, declaration 30j, CTT 7j.
-
-## Methode qualification en 3 temps (09-08)
-
-1. **Qualification** : collectez-vous 1 donnee perso ? (mail/tel/IP) → Oui → art.14 registre obligatoire. Transfert hors Maroc ? → art.43-44.
-2. **Risque chiffre** : 45j tolerance ≠ conformite ; J46 amende 10k-300k + injonction + perte contrat B2B (due diligence).
-3. **Parade purgeante** : registre 5 col. avant collecte, CTT avant hebergement US, CMP avant pixel, contrat art.24 avant envoi, opt-in avant prospection.
-
-## Interactions (chaine 09-08)
-
-- `Collecte 1 mail` → `§6 Registre 5 col. art.14` → `§6 Transfert art.43-44 AWS` → `§6 Sous-traitant art.24` ↔ `§4 TVA facturation`.
-- `§10 Convention honoraires` (clause 09-08 obligatoire) → `§5 OMPIC` si logo avec visage = donnee. Sans registre, CTT meme signees restent inopposables.
-- Ordre diag : registre → declaration 30j → transfert → sous-traitant → banniere → prospection.
-
-## Checklist 5 zones grises
-
-- [ ] Registre 5 col. art.14 complet + MAJ trimestrielle ?
-- [ ] Transfert hors Maroc CTT art.43-44 signees ou hebergement MA ?
-- [ ] Banniere consent prealable non pre-cochee + log 3 ans ?
-- [ ] Contrat sous-traitant art.24 signe avant envoi ?
-- [ ] Opt-in horodate + STOP pour WhatsApp/SMS ?
+*   [ ] Sauriez-vous lister vos 8 traitements en 10 minutes ? (registre)
+*   [ ] Vos données sensibles (santé, biométrie, géolocalisation) ont-elles une AUTORISATION, pas juste une déclaration ? (art. 12-14)
+*   [ ] Un tiers hors Maroc (AWS, HubSpot, Zendesk) a-t-il un contrat transfert signé ? (art. 43-44)
+*   [ ] Votre base SMS/WhatsApp a-t-elle une preuve de consentement par contact ? (cas type prospection §4)
+*   [ ] Signez-vous des contrats UE sans DPA analysé ? (GDPR art. 3(2), 28)
 
 ---
 
-## Pourquoi la zone grise est opportunite pedagogique
+## Lecture professionnelle — pourquoi ces zones sont grises
 
-Le gris 09-08 nait de l'ecart entre pratique (Excel 3 col., AWS US par defaut) et texte (5 col., CTT). Tolere 45j apres MED CNDP 2023-045, mais sanctionne au-dela. L'avocat chiffre les deux branches et propose la convention qui couvre la branche prudente, renvoi `11_Arbre_Decision_Avant_Action.md`.
+**Conformité data** illustre la tension entre texte et pratique. La Loi 09-08 date de 2009, son décret de 2010 : le régulateur rattrape les usages numériques avec les outils du droit administratif (mise en demeure, injonction, amende) — d'où une exécution plus progressive qu'annoncée. Le GDPR, lui, est directement applicable aux opérateurs marocains qui ciblent l'UE, mais ses sanctions ne tombent sur Casa que par ricochet contractuel (le DPA du client). La zone grise naît de ce double décalage : obligation marocaine peu contrôlée jusqu'à la plainte, obligation européenne non contrôlée mais contractuellement imposée.
 
-> Sources : Loi 09-08 art.12/14/23/24/43-44/52, delib CNDP 40-22, cndp.ma guide registre, Glossaire `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §6. Verif cndp.ma + sgg.gov.ma.
+**Raisonnement en 3 temps** :
+1.  **Qualification** : la donnée est-elle personnelle ? sensible ? la personne est-elle au Maroc, dans l'UE, les deux ? (→ régime applicable, pas au client de choisir son camp).
+2.  **Risque** : quelle branche est active aujourd'hui — le régulateur marocain, le contractant UE, la plainte d'un individu ? Et quel coût concret (mise en demeure vs résiliation vs purge de base) ?
+3.  **Parade** : quel document purge quel risque — registre (CNDP), DPA analysé (UE), clause de transfert (les deux), consentement archivé (prospection).
+
+**Exemple pédagogique** : un dirigeant dit « nos données sont sur des serveurs européens, donc on est GDPR ». Faux deux fois : (a) l'hébergement UE n'empêche pas l'accès US du support (Schrems II), (b) le GDPR protège des personnes, pas des serveurs — et ses clients marocains à lui relèvent de la 09-08, que l'UE n'a jamais couverte. La zone grise se purge par la cartographie, pas par la géographie.
+
+> Références : `cndp.ma` (délibérations, formulaires, pays reconnus), `sgg.gov.ma` (Loi 09-08 + décret 2-10-450), EUR-Lex (GDPR, SCC 2021/914), CJUE C-311/18 et C-673/17. Dernière vérification : 20/08/2026.
+
+---
+
+## Pourquoi la zone grise est une opportunité pédagogique
+
+La zone grise n'est pas une faille à exploiter, mais un espace où la doctrine réglementaire et la pratique contractuelle n'ont pas tranché (pays « adéquats » CNDP, seuils de ciblage UE, sorts des B2B emails). L'avocat n'y répond pas par `oui/non` mais par `si ... alors ... sinon ...` : si vous vendez en EUR à des résidents UE, alors le DPA vous atteindra avant la CNIL ; si vos données clients dorment sur un SaaS US, alors la clause de transfert est le minimum, pas l'option. Chiffrage des deux branches, puis convention qui couvre la branche prudente (`01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/11_Arbre_Decision_Avant_Action.md`).
+
+**Exemple** : prospection B2B par email — tolérée comme relation d'affaires en dessous d'un optin formalisé, rouge dès que le volume passe par achat de base. L'explication porte sur la source des adresses et la preuve d'opposition, pas sur l'outil utilisé.

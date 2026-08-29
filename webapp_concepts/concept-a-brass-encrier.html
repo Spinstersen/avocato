@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AVOCATO — Concept A · Plaque & Encrier (Brass Bureau)</title>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,700;1,500&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#070e1c;
+    --ink-2:#0f2040;
+    --parchment:#f6f0e3;
+    --parchment-alt:#ece6d5;
+    --surface:#fffcf5;
+    --surface-2:#fdf8ec;
+    --brass:#c5a46a;
+    --brass-light:#e8d9b0;
+    --brass-deep:#8a6d3a;
+    --line:rgba(197,164,106,.28);
+    --line-strong:rgba(197,164,106,.55);
+    --text:#1a2332;
+    --text-dim:#6b6a63;
+    --teal:#1a8a7f;
+    --warn:#9c3a1a;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--parchment);
+    color:var(--text);
+    font-family:"Public Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  /* brass hairline double rule */
+  .double-rule{height:3px;background:linear-gradient(to right, transparent, var(--brass) 12%, var(--brass) 88%, transparent);opacity:.9}
+  .double-rule + .double-rule{margin-top:1px;height:1px;background:var(--line-strong)}
+  a{color:var(--ink);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--brass)}
+  ::selection{background:rgba(197,164,106,.28)}
+  :focus-visible{outline:2px solid var(--brass);outline-offset:3px}
+
+  .app{display:flex;min-height:100vh}
+  /* Sidebar — brass plaque wall */
+  .sidebar{
+    width:320px;flex:0 0 320px;
+    background:
+      radial-gradient(900px 400px at 0% 0%, rgba(197,164,106,.14), transparent 60%),
+      linear-gradient(180deg, #0a1430 0%, var(--ink) 55%, #0b162e 100%);
+    color:#f6f0e3;
+    border-right:1px solid var(--brass-deep);
+    position:sticky;top:0;height:100vh;
+    display:flex;flex-direction:column;
+    padding:0;
+    box-shadow:inset -1px 0 0 rgba(232,217,176,.25), 6px 0 30px rgba(7,14,28,.35);
+  }
+  .plaque{
+    margin:22px 18px 14px;
+    border:1px solid var(--brass);
+    border-radius:2px;
+    background:linear-gradient(180deg, rgba(232,217,176,.08), rgba(0,0,0,.18)), #0c1a36;
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.08), 0 8px 24px rgba(0,0,0,.35);
+    padding:18px 16px 14px;
+    position:relative;overflow:hidden;
+  }
+  .plaque:before{
+    content:"";position:absolute;inset:3px;border:1px solid rgba(232,217,176,.22);pointer-events:none;
+  }
+  .plaque:after{
+    /* light sweep */
+    content:"";position:absolute;top:-50%;left:-60%;width:50%;height:200%;
+    background:linear-gradient(100deg, transparent 30%, rgba(255,255,255,.18) 50%, transparent 70%);
+    transform:rotate(12deg) translateX(-40%);
+    transition:transform .9s cubic-bezier(.4,0,.2,1);
+  }
+  .plaque:hover:after{transform:rotate(12deg) translateX(240%)}
+  .plaque-kicker{font:600 10px/1 "Public Sans"; letter-spacing:.16em; text-transform:uppercase; color:var(--brass-light); display:flex; align-items:center; gap:8px}
+  .plaque-kicker span{flex:1;height:1px;background:linear-gradient(to right, var(--brass), transparent)}
+  .plaque h1{margin:10px 0 4px; font-family:"EB Garamond", Georgia, serif; font-weight:700; font-size:28px; letter-spacing:.01em; line-height:.95; color:#fffcf5}
+  .plaque h1 em{font-weight:500; font-style:italic; color:var(--brass-light)}
+  .plaque p{margin:0; font-size:11.5px; line-height:1.5; color:rgba(246,240,227,.72)}
+  .plaque-meta{margin-top:12px; display:flex; gap:8px; font:600 10.5px "Public Sans"; letter-spacing:.08em; text-transform:uppercase; color:var(--brass-light)}
+  .plaque-meta b{color:#fff}
+  .nav{padding:12px 14px 10px}
+  .nav-label{font:600 10px "Public Sans"; letter-spacing:.14em; text-transform:uppercase; color:rgba(232,217,176,.55); margin:14px 6px 8px}
+  .nav-item{
+    display:flex; align-items:center; gap:10px; width:100%; text-align:left;
+    background:transparent; border:1px solid transparent; color:rgba(246,240,227,.82);
+    font:500 13.5px "Public Sans"; padding:9px 10px; border-radius:2px; cursor:pointer;
+  }
+  .nav-item:hover{background:rgba(232,217,176,.07); border-color:rgba(232,217,176,.18); color:#fff}
+  .nav-item.active{
+    background:linear-gradient(180deg, rgba(197,164,106,.22), rgba(197,164,106,.12));
+    border-color:var(--brass); color:#fffcf5; box-shadow:inset 0 1px 0 rgba(255,255,255,.12);
+  }
+  .nav-item .glyph{width:22px;height:22px; border:1px solid rgba(232,217,176,.28); display:grid;place-items:center; font:700 11px "Public Sans"; color:var(--brass-light); background:rgba(0,0,0,.18)}
+  .nav-item.active .glyph{background:var(--brass); color:var(--ink); border-color:var(--brass-light)}
+  .sidebar-foot{margin-top:auto; padding:14px 18px 18px; border-top:1px solid rgba(197,164,106,.18); background:rgba(0,0,0,.18)}
+  .encrier-row{display:flex; gap:12px; align-items:center}
+  .encrier{
+    width:42px;height:42px; border-radius:50%; flex:0 0 42px;
+    background:radial-gradient(40% 30% at 30% 25%, rgba(255,255,255,.55), transparent 60%), radial-gradient(80% 80% at 50% 65%, #0a1430, #1a2332 60%, #000 100%);
+    border:1px solid rgba(232,217,176,.35); box-shadow:0 4px 12px rgba(0,0,0,.4), inset 0 1px 0 rgba(255,255,255,.2);
+    position:relative;
+  }
+  .encrier:after{content:""; position:absolute; inset:9px; border:1px solid rgba(197,164,106,.35); border-radius:50%}
+  .sidebar-foot p{margin:0; font-size:11.5px; color:rgba(246,240,227,.66); line-height:1.5}
+  .sidebar-foot strong{color:var(--brass-light)}
+
+  .main{flex:1; min-width:0}
+  .topbar{
+    position:sticky; top:0; z-index:5;
+    background:rgba(246,240,227,.86); backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line);
+    display:flex; align-items:center; gap:14px; padding:10px 22px;
+  }
+  .crumb{font:600 11px "Public Sans"; letter-spacing:.12em; text-transform:uppercase; color:var(--text-dim)}
+  .crumb b{color:var(--text); letter-spacing:.02em; text-transform:none; font-size:12.5px}
+  .top-actions{margin-left:auto; display:flex; gap:8px}
+  .btn{
+    border-radius:2px; border:1px solid var(--line); background:var(--surface); color:var(--text);
+    font:600 12.5px "Public Sans"; padding:8px 12px; cursor:pointer; letter-spacing:.01em;
+  }
+  .btn:hover{border-color:var(--brass)}
+  .btn-primary{background:var(--ink); color:var(--surface); border-color:var(--ink); box-shadow:0 2px 10px rgba(7,14,28,.18)}
+  .btn-primary:hover{background:#0f2040}
+  .pill{border-radius:999px; font:600 11px "Public Sans"; letter-spacing:.06em; padding:5px 10px; border:1px solid var(--line); background:var(--surface)}
+  .pill.brass{background:var(--ink); color:var(--brass-light); border-color:var(--brass-deep)}
+
+  .content{padding:28px 28px 80px; max-width:1160px; margin:0 auto}
+  /* Hero — parchment sheet with double filet or */
+  .hero-sheet{
+    background:var(--surface);
+    border:1px solid var(--line);
+    border-radius:2px;
+    box-shadow:0 1px 0 rgba(197,164,106,.15), 0 16px 40px rgba(26,35,50,.08);
+    padding:0; overflow:hidden;
+  }
+  .hero-inner{padding:34px 36px 28px}
+  .hero-meta{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:14px}
+  .hero h2{
+    margin:0 0 10px; font-family:"EB Garamond", Georgia, serif; font-weight:700; font-size:42px; line-height:.95; letter-spacing:-.02em; color:var(--ink);
+  }
+  .hero h2 i{font-weight:500; font-style:italic; color:var(--brass-deep)}
+  .hero p.lead{margin:0; max-width:62ch; color:var(--text-dim); font-size:14.5px; line-height:1.65}
+  .hero-grid{display:grid; grid-template-columns:1.15fr .85fr; gap:22px; margin-top:22px}
+  .ledger{
+    background:var(--surface-2); border:1px solid var(--line); border-radius:2px; padding:16px;
+  }
+  .ledger h3{margin:0 0 10px; font:700 11px "Public Sans"; letter-spacing:.14em; text-transform:uppercase; color:var(--brass-deep); display:flex; align-items:center; gap:8px}
+  .ledger h3:after{content:""; flex:1; height:1px; background:var(--line)}
+  .kpi-row{display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin-bottom:14px}
+  .kpi{background:var(--surface); border:1px solid var(--line); border-radius:2px; padding:12px 12px 10px}
+  .kpi .num{font-family:"EB Garamond", Georgia, serif; font-weight:700; font-size:22px; line-height:1; color:var(--ink)}
+  .kpi .num small{font-family:"Public Sans"; font-weight:700; font-size:12px; color:var(--brass-deep)}
+  .kpi .lbl{font:600 10px "Public Sans"; letter-spacing:.1em; text-transform:uppercase; color:var(--text-dim); margin-top:4px}
+  .mini-table{width:100%; border-collapse:collapse; font-size:12.5px}
+  .mini-table th{font:700 10px "Public Sans"; letter-spacing:.1em; text-transform:uppercase; color:var(--text-dim); text-align:left; padding:6px 8px; border-bottom:1px solid var(--line); background:rgba(246,240,227,.6)}
+  .mini-table td{padding:8px; border-bottom:1px solid rgba(197,164,106,.14); vertical-align:top}
+  .mono{font-family:"Cascadia Code", Consolas, monospace; font-variant-numeric:tabular-nums; font-size:12px}
+  .badge{border-radius:999px; padding:3px 8px; font:700 10.5px "Public Sans"; letter-spacing:.04em; border:1px solid var(--line); display:inline-block}
+  .b-prospect{background:#fff7d6; color:#6b5900; border-color:#e8d9b0}
+  .b-signee{background:#dff1e7; color:#0f4d2a; border-color:#b7d8c2}
+  .b-encours{background:#e2e7ff; color:#2a2f6e; border-color:#c2c7f0}
+
+  .section{margin-top:26px}
+  .section-head{display:flex; align-items:baseline; gap:12px; margin-bottom:12px; border-bottom:1px solid var(--line); padding-bottom:10px}
+  .section-head h3{margin:0; font-family:"EB Garamond", Georgia, serif; font-weight:700; font-size:22px; color:var(--ink)}
+  .section-head p{margin:0; font-size:12.5px; color:var(--text-dim)}
+  .cards{display:grid; grid-template-columns:repeat(3,1fr); gap:14px}
+  .card{background:var(--surface); border:1px solid var(--line); border-radius:2px; padding:16px; box-shadow:0 1px 0 rgba(197,164,106,.12)}
+  .card h4{margin:0 0 6px; font:700 12px "Public Sans"; letter-spacing:.08em; text-transform:uppercase; color:var(--brass-deep)}
+  .card p{margin:0; font-size:13px; color:var(--text-dim); line-height:1.55}
+  .card strong{color:var(--text)}
+  .vault-list{columns:2; gap:14px}
+  .vault-item{break-inside:avoid; background:var(--surface); border:1px solid var(--line); border-left:3px solid var(--brass); border-radius:2px; padding:12px 12px 11px; margin-bottom:10px}
+  .vault-item b{font:700 13px "Public Sans"; color:var(--ink)}
+  .vault-item span{font-size:12.5px; color:var(--text-dim); display:block; margin-top:2px; line-height:1.5}
+
+  /* ink footer */
+  .ink-footer{margin-top:36px; background:var(--ink); color:var(--brass-light); border-radius:2px; padding:18px 20px; display:flex; gap:18px; align-items:center; border:1px solid var(--brass-deep)}
+  .ink-footer strong{color:#fff}
+
+  @media (max-width:980px){
+    .app{flex-direction:column}
+    .sidebar{position:relative; height:auto; width:auto; flex:auto}
+    .hero-grid{grid-template-columns:1fr}
+    .cards{grid-template-columns:1fr}
+    .vault-list{columns:1}
+  }
+</style>
+</head>
+<body>
+<!-- THESIS: Le bureau est l'interface — la plaque de cuivre et l'encrier portent le cabinet, pas un dashboard SaaS. OWN-WORLD: Ink #070e1c + parchment #f6f0e3 + hammered brass #c5a46a hariline, EB Garamond + Public Sans, double-filet or, flat tonal + 1px card shadow only. STORY: Un avocat entre, reconnaît son bureau en 2s, ouvre un dossier, signe provision. FIRST VIEWPORT: Plaque cuivre gauche (320px) + feuille parchemin double-filet or avec KPI ledger et table dossiers — action "Nouveau dossier" en ink. FORM: Assigned candidate 6 of 7 (Plaque de Cuivre & Encrier) raised with yellow terminal scale, spectro hairline, Miura deployment, cyclorama band. FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance -->
+<div class="app">
+  <aside class="sidebar" aria-label="Navigation bureau">
+    <div class="plaque">
+      <div class="plaque-kicker">République Marocaine <span></span> Barreau</div>
+      <h1>AVOCATO <em>Bureau</em></h1>
+      <p>Base documentaire & Cabinet OS — Sans publicité, Loi 28-08. Tenue sur parchemin, scellée à l'encre.</p>
+      <div class="plaque-meta"><span>Me <b>Alami</b></span> · <span>ICE 001234567000018</span></div>
+    </div>
+    <div class="nav">
+      <div class="nav-label">Base documentaire · Read</div>
+      <button class="nav-item active"><span class="glyph">◈</span> Tableau de bord <span style="margin-left:auto; font:600 11px monospace; color:var(--brass-light)">32/177</span></button>
+      <button class="nav-item"><span class="glyph">≡</span> 00 Commencer ici</button>
+      <button class="nav-item"><span class="glyph">§</span> 01 Stratégie 28-08</button>
+      <button class="nav-item"><span class="glyph">⬢</span> 02 Niches (07 PI · 08 Fisc. · 09 Office)</button>
+      <div class="nav-label">Cabinet OS · Operate</div>
+      <button class="nav-item"><span class="glyph">▣</span> Dossiers <span style="margin-left:auto" class="badge b-encours">12 en cours</span></button>
+      <button class="nav-item"><span class="glyph">✎</span> Conventions Art.30</button>
+      <button class="nav-item"><span class="glyph">₪</span> Factures & Provisions</button>
+      <button class="nav-item"><span class="glyph">◐</span> Échéances <span style="margin-left:auto; color:var(--brass-light)">3 en retard</span></button>
+      <button class="nav-item"><span class="glyph">⧉</span> Bibliothèque 8 modèles</button>
+    </div>
+    <div class="sidebar-foot">
+      <div class="encrier-row">
+        <div class="encrier" aria-hidden="true"></div>
+        <p><strong>Provision 50% à l'encre.</strong><br>Reçu délivré, solde à la remise — HT + TVA claire.</p>
+      </div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <div class="topbar">
+      <div class="crumb">Bureau — <b>Tableau de bord · 28 août 2026</b> <span style="color:var(--brass); margin:0 6px">—</span> <span style="font-weight:500; text-transform:none; letter-spacing:0">Dossiers HT/TVA en localStorage (offline)</span></div>
+      <div class="top-actions">
+        <button class="btn">Exporter JSON</button>
+        <button class="btn btn-primary">＋ Nouveau dossier</button>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="hero-sheet">
+        <div class="double-rule"></div><div class="double-rule"></div>
+        <div class="hero-inner">
+          <div class="hero-meta">
+            <span class="pill brass">● Offline · file://</span>
+            <span class="pill">HT + TVA (art.91)</span>
+            <span class="pill">177 docs · 9 domaines</span>
+            <span class="pill" style="margin-left:auto">Loi 28-08 · Éduquer, pas démarcher</span>
+          </div>
+          <h2>Votre cabinet,<br><i>posé sur parchemin.</i></h2>
+          <p class="lead">AVOCATO tient en une feuille : la base qui attire sans publicité, le registre qui encaisse la provision à 50% (art.30), la remise qui solde. Pas de SaaS, juste votre bureau — numérisé à l'encre et au filet or.</p>
+
+          <div class="hero-grid">
+            <div class="ledger">
+              <h3>Registre du jour</h3>
+              <div class="kpi-row">
+                <div class="kpi"><div class="num">27 <small>DH k</small></div><div class="lbl">CA HT en cours</div></div>
+                <div class="kpi"><div class="num">13.5 <small>DH k</small></div><div class="lbl">Provisions (50%)</div></div>
+                <div class="kpi"><div class="num">3 <small style="color:var(--warn)">⚠ retards</small></div><div class="lbl">Échéances</div></div>
+              </div>
+              <table class="mini-table">
+                <thead><tr><th>Client</th><th>Mission</th><th style="text-align:right">Honoraires</th><th>Statut</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>SARL Atlas Digital</strong><br><span style="font-size:11px; color:var(--text-dim)">ICE 0012 · Freelance offshore</span></td><td style="font-size:12.5px">Contrats Essentielle<br><span style="color:var(--text-dim)">Clause réserve propriété</span></td><td class="mono" style="text-align:right">3 500 <span style="color:var(--text-dim)">DH HT</span><br><span style="font-size:11px">4 200 TTC</span></td><td><span class="badge b-signee">Convention signée</span></td></tr>
+                  <tr><td><strong>Boutique YouCan — Lina</strong></td><td style="font-size:12.5px">Conformité e-commerce</td><td class="mono" style="text-align:right">4 200 <span style="color:var(--text-dim)">DH HT</span></td><td><span class="badge b-encours">En cours</span></td></tr>
+                  <tr><td><strong>Clinique El Amal</strong><br><span style="font-size:11px; color:var(--text-dim)">Données santé · AWS</span></td><td style="font-size:12.5px">Loi 09-08 · Registre</td><td class="mono" style="text-align:right">18 000 <span style="color:var(--text-dim)">DH HT</span></td><td><span class="badge b-prospect">Prospect</span></td></tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="ledger" style="background:linear-gradient(180deg, #fffcf5, #f6f0e3);">
+              <h3>Échéances — 7 jours</h3>
+              <div style="display:grid; gap:8px">
+                <div style="display:flex; gap:10px; align-items:center; border:1px solid var(--line); background:var(--surface); border-radius:2px; padding:10px 11px">
+                  <div style="width:3px; align-self:stretch; background:var(--warn)"></div>
+                  <div><div style="font:700 12.5px Public Sans">Remise V1 + Loom — SARL Atlas</div><div style="font-size:12px; color:var(--text-dim)">Aujourd'hui · 17:00 — Vérif. cachet</div></div>
+                  <span style="margin-left:auto; font:700 11px monospace; color:var(--warn)">EN RETARD</span>
+                </div>
+                <div style="display:flex; gap:10px; align-items:center; border:1px solid var(--line); background:var(--surface); border-radius:2px; padding:10px 11px">
+                  <div style="width:3px; align-self:stretch; background:var(--brass)"></div>
+                  <div><div style="font:700 12.5px Public Sans">Dépôt CNDP — Clinique</div><div style="font-size:12px; color:var(--text-dim)">J+3 · Registre 5 onglets</div></div><span class="mono" style="margin-left:auto; font-size:11px; color:var(--text-dim)">31/08</span>
+                </div>
+                <div style="display:flex; gap:10px; align-items:center; border:1px solid var(--line); background:var(--surface); border-radius:2px; padding:10px 11px">
+                  <div style="width:3px; align-self:stretch; background:var(--teal)"></div>
+                  <div><div style="font:700 12.5px Public Sans">Relance provision — Lina Shop</div><div style="font-size:12px; color:var(--text-dim)">J+5 · Reçu à délivrer</div></div>
+                </div>
+              </div>
+              <div style="margin-top:12px; display:flex; gap:8px">
+                <button class="btn btn-primary" style="flex:1">Voir Échéances</button>
+                <button class="btn" style="flex:1">Générer convention CH-2026-014</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="double-rule"></div><div class="double-rule"></div>
+      </div>
+
+      <div class="section">
+        <div class="section-head"><h3>Base documentaire</h3><p>Lecture 65ch, TOC, checklists, table → graphique (1.7 interligne, serein)</p><span class="pill" style="margin-left:auto">Recherche <b style="letter-spacing:0; text-transform:none">/</b></span></div>
+        <div class="vault-list">
+          <div class="vault-item"><b>00 — Commencer ici (5 min)</b><span>READ_ME_FIRST + ADHD QuickStart + Guide FR + Veille légale 2025-2026. Ne pas lire linéaire : 1 niche, 1 canal.</span></div>
+          <div class="vault-item"><b>01 — Stratégie & 06 Déontologie 28-08</b><span>Rules of the Game, positioning trilingue, convention honoraires art.30, secret, conflits, grille sanctions.</span></div>
+          <div class="vault-item"><b>02 — Niches Deep Dive</b><span>07 PI · 08 Fisc. internationale · 09 Office des Changes (IGOC) · 10 MRE · 11 Nomads + 6× packs 2.5k–28k DH HT.</span></div>
+          <div class="vault-item"><b>03 — Acquisition sans pub (6 canaux)</b><span>LinkedIn authority, SEO éducationnel, partenariats comptables, WhatsApp funnel, ateliers, referral — Educate, don't advertise.</span></div>
+          <div class="vault-item"><b>08 — Jurisprudence</b><span>09-08 CNDP 4 décisions, 31-08 3 jugements CGV, Contrats 3 arrêts Cass., Office 31-08 sanctions.</span></div>
+          <div class="vault-item"><b>06 — ADHD OS · 07 — Plan 90j</b><span>Daily OS, second brain Notion, dopamine menu, weekly review · Phase traction 12→30 kDH</span></div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-head"><h3>Cabinet OS — détails d'un dossier</h3><p>Cliquer une ligne ouvre la feuille (provision → solde)</p></div>
+        <div class="cards">
+          <div class="card"><h4>Convention</h4><p><strong>CH-2026-014 · Art.30</strong><br>HT 3 500 DH · TTC 4 200 DH — Provision 2 100 TTC à la signature. Lettre de mission jointe.</p></div>
+          <div class="card"><h4>Livraison</h4><p><strong>Loom 15 min + 1 révision J+7</strong><br>Trame contrat FR/EN 12 clauses, annexes, registre Notion 5 onglets.</p></div>
+          <div class="card"><h4>Facturation</h4><p><strong>RP-2026-014 + FH-2026-014</strong><br>TVA 20% / 0% art.91 — Export PDF via <span class="mono">window.print</span>, RIB 24 chiffres.</p></div>
+        </div>
+      </div>
+
+      <div class="ink-footer">
+        <div style="flex:1"><strong>Éduquer, pas démarcher.</strong> <span style="color:var(--brass-light)">Un seul bandeau n'est jamais jaune ici — l'encre et le cuivre tiennent la confiance.</span><br><span style="font-size:12.5px; opacity:.85">Prochain atelier : Loi 09-08 santé — « Registre en 5 onglets qui évite 50k DH HT ». Comptables invités, pas de démarchage.</span></div>
+        <button class="btn" style="background:var(--brass); color:var(--ink); border-color:var(--brass-light); font-weight:700">S'inscrire — Atelier gratuit</button>
+      </div>
+    </div>
+  </main>
+</div>
+</body>
+</html>

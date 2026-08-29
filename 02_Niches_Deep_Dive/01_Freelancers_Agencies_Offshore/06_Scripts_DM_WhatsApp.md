@@ -15,8 +15,8 @@ Merci pour votre message. Votre situation est typique des
 freelances marocains qui facturent à l'étranger — vous avez
 besoin de sécuriser votre statut et vos contrats.
 
-Je propose un diagnostic de 45 min à 600 DH HT (convention
-d'honoraires écrite conformément à l'art. 30 Loi 28-08).
+Je propose un diagnostic de 45 min à 900 DH HT (convention
+d'honoraires écrite, conformément à la loi professionnelle).
 À l'issue, je vous remets une note de risques écrite et un
 devis pour la mission à mener. Le diagnostic est déduit de
 la mission si vous signez dans les 14 jours.
@@ -40,7 +40,7 @@ Bonjour [nom],
 
 Merci pour votre message. Pour bien comprendre votre
 situation et vous proposer une mission adaptée, je vous
-propose un diagnostic de 45 minutes à 600 DH HT.
+propose un diagnostic de 45 minutes à 900 DH HT.
 
 À l'issue, je vous remets une note de risques écrite et
 un devis pour la mission à mener. Le diagnostic est déduit
@@ -64,8 +64,8 @@ Avocat au barreau de [Ville]
 Bonjour [nom],
 
 Merci pour votre message. Pour cette demande, je propose
-un diagnostic juridique de 45 min à 600 DH HT (convention
-écrite, art. 30 Loi 28-08).
+un diagnostic juridique de 45 min à 900 DH HT (convention
+écrite, loi professionnelle).
 
 Si vous souhaitez réserver, je vous invite à visiter mon
 site : [site] ou à m'envoyer vos disponibilités.
@@ -115,7 +115,7 @@ peux leur envoyer la même checklist gratuitement. Vous me
 mettez en contact WhatsApp ?
 
 Pour chaque recommandation, j'offre un diagnostic gratuit
-(valeur 600 DH HT) au filleul.
+(valeur 900 DH HT) au filleul.
 
 Bien à vous,
 [Nom]
@@ -144,7 +144,7 @@ Bien à vous,
 | :--- | :--- |
 | « Je suis le meilleur avocat pour freelances » | « J'accompagne les freelances offshore marocains » |
 | « Contactez-moi maintenant » | « Pour réserver un créneau : [Calendly] » |
-| « DM-moi pour un audit gratuit » | « Pour un diagnostic à 600 DH HT : [lien] » |
+| « DM-moi pour un audit gratuit » | « Pour un diagnostic à 900 DH HT : [lien] » |
 | « Vous gagnerez votre affaire à 100% » | « Voici les étapes juridiques de votre affaire » |
 
 ## 10. FAQ

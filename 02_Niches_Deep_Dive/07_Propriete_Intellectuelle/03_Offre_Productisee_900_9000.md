@@ -14,7 +14,10 @@ Le client n'achète pas un paquet standardisé. Il confie un problème (copie de
 
 
 
-> **Rappel déontologique** — `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/03_Actes_Permis_Cadre_Legal.md` : honoraires HT indicatifs ajustés au diagnostic (art. 59), provision 50% convenue à la convention (art. 30), solde à remise, débours OMPIC/OMPI en sus, aucune garantie de délivrance (l'OMPIC décide).
+> **Mission professionnelle** — Honoraires indicatifs HT, fixés par **convention écrite préalable** (art. 30 Loi 28-08, Règlement Intérieur du Barreau). Aucun forfait ne constitue une offre commerciale type e-commerce. Chaque dossier fait l'objet d'un diagnostic (art. 59) et d'une provision (art. 32). Débours OMPIC/CNDP/Office des Changes en sus. Aucune garantie de résultat.
+
+
+> Déontologie `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/03_Actes_Permis_Cadre_Legal.md`: honoraires HT indicatifs, provision 50% à convention, solde à remise, débours OMPIC/OMPI en sus, aucune garantie délivrance OMPIC décide.
 
 ## 5 Missions packagées (FR + EN version)
 

@@ -34,7 +34,7 @@ Délai: [7-14]j à compter provision + justificatifs complets.
 
 ## 4 Scripts co-traitance (sobre)
 
-*   **Vers comptable:** `Bonjour [Prénom], j'ai Yassine 600k offshore → SARL + TVA art.92 + IGOC 30j. Tu fais liasse IS 20 % (LF 2026), je fais statut+convention+contrats. Tripartite 5,900+1,500 ? Café 20 min ?`
+*   **Vers comptable:** `Bonjour [Prénom], j'ai Yassine 600k offshore → SARL + TVA art.92 + IGOC 30j. Tu fais liasse IS 15%, je fais statut+convention+contrats. Tripartite 5,900+1,500 ? Café 20 min ?`
 *   **Vers client:** `Votre dossier est suivi par duo avocat (juridique) + comptable agréé (chiffrage) — 0 friction, 1 interlocuteur avocat.`
 
 ## Modèles

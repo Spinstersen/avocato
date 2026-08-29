@@ -1,65 +1,51 @@
 # 08 — Zones Grises & Cas Limites (04_Content_Creators_Infopreneurs)
 
-> Niche-specifique Content Creators & Infopreneurs — complement de `00_START_HERE/03_Glossaire_12_Concepts_Cles.md`. Le createur cumule droit d'auteur + formation + marque.
+> Complément encyclopédique — réplique `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/07_Zones_Grises_Cas_Pratiques.md`, version créateurs.
 
-## 5 Zones grises VRAIMENT pertinentes — Creators
+## 5 Zones grises créateurs
 
-| Zone | Gris (tolere) | Rouge (sanction) | Procedure sortie | Base legale | Renvoi glossaire §X |
+| # | Situation | Vert | Orange | Rouge | Réf |
 |---|---|---|---|---|---|
-| 1. Cession droits non ecrite | Accord oral amiable tolere si pas litige | Cession freelance/monteur sans ecrit art.11 Loi 2-00 = nulle, vous ne possedez rien | Contrat cession ecrit FR : droits cedes, duree, territoire, remuneration distincte, avant livraison | Loi 2-00 art.11, DOC art.443 | §11 DOC + §5 OMPIC |
-| 2. CGV formation sans 7j | CGV PDF copiees tolerees <30j | Vente formation 5 000 DH sans retractation 7j art.36-38 + sans ICE = remboursement force | CGV Loi 31-08 : 7j, programme, duree, attestation, ICE + facture art.144 | Loi 31-08 art.36-38, CGI art.144 | §11 + §4 TVA |
-| 3. Marque classe 41 non deposee | Nom podcast YouTube sans depot tolere <72h | Concurrent depose 41 (formation) avant vous → perte nom + strikedown | Recherche OMPIC 2h + depot 41 (+9 si app) 1 200 DH/classe en 72h + surveillance 10 ans | Loi 17-97 art.133/148 | §5 OMPIC |
-| 4. Contrat sponsor sans cession image | Deal 2 000 DH oral tolere 1 fois | Contrat YouTube sponsor sans cession droit image → retrait video + dommages | Contrat sponsor FR/EN : cession image, duree 12m, territoire, remuneration, reserve 618, penale 10% | Loi 2-00 art.11, DOC art.230/264 | §11 DOC + §10 |
-| 5. AE 200k service depasse | CA 190k AE tolere, 200-210k gris 1 an | 250k formation (service 200k plafond) 2 ans = radiation + résultat réel (IS 20 %) + majorations + 30% | Basculer SARL avant 200k, capital 10k, IS 20 % (LF 2026), facturation art.92 si etranger | Loi 114-13 art.4, CGI art.150, Loi 5-96 | §9 AE/SARL |
+| 1 | Deal sans écrit (accord DM + virement) | <10k DH exécuté de bonne foi | >10k sans écrit : preuve fragile | Litige : créance invendable `DOC art. 443` | DOC |
+| 2 | Sponsoring sans mention « publicité » | Recommandation sincère (aucun contrepartie) | Produit offert non déclaré, deal tacite | Campagne de produit interdit/contrefait (paris sportifs, faux luxe) | Vide légal 31-08 + pénal — plaintes MDJS 2025 |
+| 3 | Cession IP au contrat marque | Licence bornée, média/durée/territoire | Cession large mais payée au prix | « Cession totale perpétuelle tous médias » au prix d'un post — revente de l'actif de Yasmine sans elle | Loi 2-00 (écrit, droits individualisés) |
+| 4 | Vente formation en ligne | Info complète + rétractation 7j + numérique descellé documenté (art. 36-38) | CGV collées d'un modèle UE (14j, mentions étrangères) | Promesse de gains (« 30k/mois garantis ») sans preuve | 31-08 pratiques trompeuses |
+| 5 | Base contacts (concours, newsletter, VIP) | Opt-in prouvé, STOP testé, registre tenu | Emails collectés « de confiance » sans trace | Liste revendue/WhatsApp blast sans consentement `08_Jurisprudence/01_...` §4 | 09-08 art. 64 |
 
-## Cas limite detaille — chiffre niche 04
+## Cas limite détaillé (à raconter en diagnostic)
 
-### Faits
-- Creatrice Casa, formation en ligne 280k CA 100% service, AE depuis 2 ans.
-- Monteuse freelance payee 30k sans cession ecrite, nom "MindfulScale" non depose classe 41.
-- Contrat sponsor 60k marque FR sans cession image, CGV sans 7j, facture sans ICE.
+*   **Faits :** Yasmine, 360k DH/an de cachets marques + 80k de CA boutique sous son pseudo « Yasmine Style », non déposé. Concours Instagram (follow + tag + email) : 4 200 adresses récoltées, revendues à une marque amie pour 3 000 DH « cachet de base de données ». Un contrat exclusivité beauté signé 12 mois bloque trois offres entrantes (60k de deals refusés). Son ancien manager a déposé « Yasmine Style » en classes 35/41 huit mois plus tôt, sans qu'elle le sache.
+*   **Analyse en 3 temps :**
+    1.  **Qualification** : la revente de base = cession de données personnelles sans base légale ni information des personnes (09-08) — le « cachet base de données » est un traitement illicite monnayé, pas un partenariat. Exclusivité 12 mois = engagement B2B valable (31-08 ne protège pas Yasmine ici). Le pseudo déposé par le manager : le nom est devenu une marque appartenant à un tiers — premier déposant.
+    2.  **Risque chiffré** : côté CNDP — défaut de formalités + collecte/revente illicites : amende (art. 64 : 10-100k) + purge des 4 200 contacts + riposte d'une marque concurrente plaignante. Côté pipeline : 60k/an gelés par l'exclusivité mal bornée. Côté marque : rebranding forcé ou rachat du nom à son ex-manager (négociation par son droit antérieur d'exploitation = argument, pas garantie) — l'affaire NOUR DAR/ALNOUR montre que tout se gagne par la procédure et les délais, pas par l'ancienneté sentimentale.
+    3.  **Parade** : purge + refonte opt-in (09-08 en règle), renégociation du renouvellement du contrat marque (exclusivité à 3 mois + droit de sortie sans volume), audit marque : opposition si dépôt manager encore dans les délais (2 mois post-publication), sinon action en revendication (sur faits : dépôt frauduleux d'un signe connu) ou négociation de cession — et dépôt du vrai nom de la structure pour la suite.
+*   **Solution livrée** : Diagnostic 900 + Pack conformité base 2 500 + accompagnement marque 3 500 + contrat cadre 3 000 — 10k d'honoraires pour 60k/an de deals débloqués + une base légale + un nom.
 
-### Qualification
-- AE 280k >200k service → depassement Loi 114-13 art.4 → tolerance 1 an puis radiation annee 2, redressement résultat réel (IS 20 %) + majorations + 30% = ~85k sur 280k.
-- Cession sans ecrit art.11 Loi 2-00 → nulle, monteuse peut revendiquer montage sur YouTube, retrait monetisation.
-- Marque 41 non deposee → concurrent depose MindfulScale 41 → perte chaine + rebrand 30k.
-- Sponsor sans image → marque peut exiger retrait video 60k + dommages.
-- CGV sans 7j → stagiaire demande remboursement J6, vous devez rembourser 5k meme consomme partiel.
+## Checklist 5 zones grises (auto-diagnostic créateur)
 
-### Solution
-- Transformation AE→SARL avant J+30 (AGE + RC 7-14j, apport fonds).
-- Regularisation cession 2-00 avec monteuse + reserve 618 avant paiement solde.
-- Depot OMPIC 41+35 en 72h 2 400 DH avant lancement saison 2.
-- Contrat sponsor avec cession image 12m + remuneration distincte.
-- CGV 31-08 7j + facture 144 + registre 09-08 5 col. si collecte mails stagiaires.
-
-### Cout
-- Diag 900 HT → Pack Creator 5 900 HT (SARL 7 500 HT si AE→SARL + cession + CGV + depot).
-- Economie radiation evitee 85k + rebrand 30k + retrait sponsor 60k. Delai purge : cession 24h, depot 72h, CGV 48h.
-
-## Methode qualification en 3 temps (Creators)
-
-1. **Qualification** : prestation = oeuvre ? → Loi 2-00 cession ecrite obligatoire. Vente formation ? → Loi 31-08 7j. Nom = marque ? → Loi 17-97 41. CA >200k ? → Loi 114-13.
-2. **Risque chiffre** : cession nulle = perte oeuvre, 250k AE = 85k redressement, marque = perte nom, CGV = remboursement, sponsor = retrait.
-3. **Parade purgeante** : cession signee avant paiement, CGV 7j avant vente, depot 72h avant lancement, SARL avant 200k, contrat image avant tournage.
-
-## Interactions (chaine creator)
-
-- `§11 DOC cession 2-00 art.11` → `§5 OMPIC 41 depot 72h` → `Loi 31-08 CGV 7j` ↔ `§6 Loi 09-08 registre` (8 000 mails stagiaires) → `§9 AE 200k` → `§4 TVA art.144` → `§10 Convention`.
-- Sans cession, depot marque ne protege pas les videos. Sans SARL, CGV meme parfaites restent requalifiables AE.
-
-## Checklist 5 zones grises
-
-- [ ] Cession 2-00 ecrite signee avant paiement monteur ?
-- [ ] CGV 31-08 7j + programme + ICE + facture 144 ?
-- [ ] Marque 41 (+35/9) deposee 72h opposition 2m ?
-- [ ] Contrat sponsor cession image 12m + 618 + 264 ?
-- [ ] CA <200k service ou SARL 10k creee avant depassement ?
+*   [ ] Tous tes deals >10k DH sont-ils couverts par un écrit (ou une acceptation de devis tracée) ?
+*   [ ] Un post rémunéré (argent ou produit) est-il signalé — ou la marque l'exige-t-elle par contrat ?
+*   [ ] Tes contrats cèdent-ils des droits que tu n'as pas chiffrés (médias, durée, exclusivité) ?
+*   [ ] Ta formation vendue en ligne affiche-t-elle le bon délai (7j) et les bonnes exceptions (art. 38) ?
+*   [ ] Ton nom de scène est-il déposé à ton nom (pas à celui de l'ex-manager) ?
 
 ---
 
-## Pourquoi la zone grise est opportunite pedagogique
+## Lecture professionnelle — pourquoi ces zones sont grises
 
-Le gris creator nait de l'ecart entre pratique (oral, template CGV US) et texte MA (2-00 ecrit, 31-08 7j, 17-97 premier deposant). L'avocat expose si... alors... sinon... chiffre avec renvoi `11_Arbre_Decision_Avant_Action.md`, et ne tranche pas a la place du client.
+**La niche créateur** est grise par construction : le droit avance plus vite que les usages ne se cristallisent. Pas d'obligation de mention publicité (contre : le vide comblé par les contrats des marques étrangères) ; pas de jurisprudence influence publiée en nombre (contre : la qualification de prestation vs salariat qui, elle, est jugeable) ; pas de statut professionnel dédié (contre : le AE/SARL ordinaire qui ne colle pas à l'activité mixte). La zone grise naît de l'absence de texte dédié — la parade, c'est de choisir la branche prudente et de la rendre payante (« je mentionne même si rien ne l'impose : je vends ma transparence »).
 
-> Sources : Loi 2-00 art.11, Loi 31-08 art.36-38, Loi 17-97 art.133/148, Loi 114-13 art.4, CGI art.144/150, Loi 5-96, Glossaire `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §5/§9/§11. Verif sgg.gov.ma + ompic.ma.
+**Raisonnement en 3 temps** :
+1.  **Qualification** : sommes-nous en B2B (DOC), en vente à conso (31-08), en cession d'œuvre (2-00), en traitement de données (09-08) ? La même story peut basculer de l'un à l'autre.
+2.  **Risque** : qui peut agir, avec quel levier — la marque (contractuel), l'abonnée (31-08/DDCCRF), l'auteur copié (2-00), la CNDP (plainte), le tiers qui dépose avant (17-97) ?
+3.  **Parade** : quel document scelle la branche prudente — clause, CGV, opt-in, dépôt, note de négociation.
+
+> Références : lois 2-00/34-05, 17-97 (ROMARIN/bulletin), 31-08 (dahir 1-11-03 ; brochure dgssi.gov.ma), 09-08 + grille cndp.ma, DOC (443), IGOC édition courante (oc.gov.ma), analyses presse eco influence/sponsoring (déc. 2025-fév. 2026). Dernière vérification : 28/08/2026.
+
+---
+
+## Pourquoi la zone grise est une opportunité pédagogique
+
+La zone grise n'est pas une faille à exploiter mais le terrain exact où le client paie pour de la clarté : « mentionner ou non ? » — pas d'obligation légale, une obligation de relation avec l'audience. L'avocat ne répond pas `oui/non` mais `si... alors... sinon...` : si tu gardes le marché français, alors la mention devient contractuelle ; si ta marque te propose « on ne met rien », alors c'est qu'elle achète ta complicité de tromperie — chiffre-la ou refuse-la (`01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/11_Arbre_Decision_Avant_Action.md`).
+
+**Exemple** : produit offert non déclaré — ni vente ni publicité formelle, zone grise typique. La parade n'est pas juridique, elle est probatoire : une ligne au contrat (« contrepartie : produit d'une valeur de X, mention non exigée par la marque ») transforme un silence risqué en choix documenté.

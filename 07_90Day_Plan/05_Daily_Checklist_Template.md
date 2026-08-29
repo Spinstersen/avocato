@@ -1,46 +1,46 @@
-# Template de checklist quotidienne (imprimer 30 exemplaires, mettre sur le porte-bloc)
+# Daily Checklist Template (Print 30 copies, put on clipboard)
 
-Date : __________  Jour : L/M/M/J/V/S/D  Énergie (1-10) : ___
+Date: __________  Day: L/M/M/J/V/S/D  Energy (1-10): ___
 
-## Matin (10 min)
-- [ ] Vide-tête (3 min)
-- [ ] Choisir les 3 MITs :
-  1. [Chiffre d'affaires] ___________________________ (ex : Diagnostic 11h, Devis X)
-  2. [Visibilité] _________________________ (ex : Post LinkedIn, 5 commentaires)
-  3. [Livraison] ___________________________ (ex : Contrat client Y)
-- [ ] Timebox dans le calendrier : Profond [__:__-__:__] Léger [11h30, 18h00]
+## Morning (10 min)
+- [ ] Brain dump (3 min)
+- [ ] Pick 3 MITs:
+  1. [Revenue] ___________________________ (ex: Diagnostic 11h, Devis X)
+  2. [Visibility] _________________________ (ex: Post LinkedIn, 5 comments)
+  3. [Delivery] ___________________________ (ex: Contrat client Y)
+- [ ] Timebox in calendar: Deep [__:__-__:__] Shallow [11:30, 18:00]
 
-## Travail profond (10h00-11h30, Pomodoro 25x3)
-- [ ] Pomodoro 1 (25) — Tâche : ____________
-- [ ] Pomodoro 2 (25) — Tâche : ____________
-- [ ] Pomodoro 3 (25) — Tâche : ____________
-- [ ] Téléphone dans une autre pièce ? O/N  Body double ? O/N
+## Deep Work (10:00-11:30, Pomodoro 25x3)
+- [ ] Pomodoro 1 (25) — Task: ____________
+- [ ] Pomodoro 2 (25) — Task: ____________
+- [ ] Pomodoro 3 (25) — Task: ____________
+- [ ] Phone in other room? Y/N  Body double? Y/N
 
-## Fenêtres légères UNIQUEMENT
-- [ ] 11h30-12h00 : répondre aux DM WhatsApp + LinkedIn (pas scroller)
-- [ ] 18h00-18h30 : DM + email + planifier demain
+## Shallow Windows ONLY
+- [ ] 11:30-12:00: WhatsApp + LinkedIn DMs replied (not scrolling)
+- [ ] 18:00-18:30: DM + email + plan tomorrow
 
-## Outreach (mar/jeu) OU contenu (dim)
-- [ ] Outreach : 5 messages envoyés ? __/5  À : ____________
-- [ ] OU Commentaires : 10 commentaires faits ? __/10
-- [ ] OU Post : publié ? O/N  Lien : ____________
+## Outreach (Tue/Thu) OR Content (Sun)
+- [ ] Outreach: 5 messages sent? __/5  To: ____________
+- [ ] OR Comments: 10 comments done? __/10
+- [ ] OR Post: Published? Y/N  Link: ____________
 
-## Clôture du soir (5 min, 18h30)
-- [ ] 3 MITs faits ? __/3  Déplacer les non-faits à demain : ____________
-- [ ] Les 3 MITs de demain écrits ? O/N
-- [ ] Suivi d'habitudes coché X ? O/N
-- [ ] Bureau rangé ? O/N
-- [ ] Phrase de clôture : « Journée terminée. » Fermer l'ordinateur.
+## Evening Shutdown (5 min, 18:30)
+- [ ] 3 MITs done? __/3  Move unfinished to tomorrow: ____________
+- [ ] Tomorrow's 3 MITs written? Y/N
+- [ ] Habit tracker X marked? Y/N
+- [ ] Desk cleared? Y/N
+- [ ] Shutdown phrase: "Journée terminée." Close laptop.
 
-## Journée minimum viable (si énergie basse, faites ça et c'est une VICTOIRE)
-- [ ] 10 min : répondre à 3 DM/commentaires
-- [ ] 20 min : brouillonner 1 post
-- [ ] 15 min : 1 message outreach
+## Minimum Viable Day (if low energy, do this and it's a WIN)
+- [ ] 10 min: Reply 3 DMs/comments
+- [ ] 20 min: Draft 1 post
+- [ ] 15 min: 1 outreach message
 
-Si vous avez fait la JMV, marquez le jour ✅ quand même.
+If you did MVD, mark day as ✅ anyway.
 
-## Notes / victoires du jour :
+## Notes / Wins today:
 _____________________________________________
 _____________________________________________
 
-## Récompense après 3 pomos : _____________________
+## Reward after 3 pomos: _____________________

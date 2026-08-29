@@ -138,7 +138,7 @@ Pack Conformité 09-08 PME (12 000 DH HT) + Pack Sous-traitants (3 000 DH HT). T
 ## 10. La spécificité de la niche : l'alignment 09-08 + GDPR
 
 ```
-┌─────────────────────────────────────────────────Ŀ
+┌──────────────────────────────────────────────────┐
 │ Conformité 09-08 (Maroc)                          │
 │  ├── Registre 09-08                               │
 │  ├── Mentions site                                 │

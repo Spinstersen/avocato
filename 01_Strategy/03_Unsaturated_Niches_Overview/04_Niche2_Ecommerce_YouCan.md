@@ -48,7 +48,7 @@ La niche 2 est la **niche à volume** par excellence : 25 000 boutiques actives 
 
 ### 3.5 Statut flou
 
-- Auto-entrepreneur plafonné à 200 000 DH CA pour les services, 500 000 DH pour le commerce.
+- Auto-entrepreneur plafonné à 200 000 DH CA pour les services, 1 million pour le commerce.
 - Au-delà, bascule en SARL ou autre.
 
 ## 4. Offre dédiée

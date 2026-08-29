@@ -30,7 +30,6 @@ Voir les fichiers `02_Niches_Deep_Dive/[niche]/04_Mots_Cles_SEO.md`.
 
 - Système global : `01_Strategy/04_Client_Acquisition_System_No_Ads/02_Maillon1_Contenu_Educatif.md`.
 - Déontologie : `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/04_Site_Web_Conforme_Specifications.md`.
-- `05_Fiche_Complete_SEO.md` - Fiche complète du canal (encyclopédie)
 
 ---
 

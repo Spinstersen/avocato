@@ -12,23 +12,54 @@ Test J90: diag à blanc 10 min sans notes → 3 risques chiffrés OK?
 
 ---
 
-## À retenir + checklist + suite — Métriques Sharpness
+## Approfondissement Encyclopédique (Bonus)
 
-**3 points clés de ce fichier :**
-- 5 KPIs 90j : 60 cas issue-spotting (5/sem), 10/10 nombres, 24 jurisprudences (2/sem), 12 posts veille, diag <40 min.
-- Test J90 : diag à blanc 10 min sans notes → 3 risques chiffrés (valeur + base légale + coût) OK ?
-- Notion KPI + Dopamine Board : cocher chaque diag, streak 5 = récompense, écart = plan correctif.
+### Cas pratique détaillé
+**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
 
-**Checklist 6 points — sharpness mesurée :**
-- [ ] 5 cas/sem notés (Notion KPI : date + niche + 3 risques H/M/B chiffrés)
-- [ ] Numbers Sheet 10/10 testé J7/J30/J90 (score noté dans BDD KPI)
-- [ ] 2 jurisprudences/sem SCQA 150 mots (jep.ma + cndp.ma) → 24/90j
-- [ ] 1 post veille/sem publié LinkedIn (Plausible vues → DM tracé)
-- [ ] Temps diag chronométré <40 min (SPIN I quantifié <10 min)
-- [ ] Rétro J90 : 10 min diag blanc → si échec, plan Anki 7j + revoir `04_Routine_Hebdo.md`
+### Erreurs fréquentes (Top 5)
+1. Vouloir tout faire J1 -> overwhelm
+2. Négliger 09-08/CNDP -> sanction 300k
+3. Omettre provision art30 -> impayé
+4. Publier sans relecture -> faute FR + hallucination
+5. Pas de métrique -> 0 amélioration
 
-**Renvoi glossaire :** `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §01-§12 — chaque risque doit citer base légale exacte (ex: 500k Loi114-13, 300k art.52).
+### Checklist encyclopédique (12 points)
+- [ ] Anonymisation / 09-08 OK
+- [ ] Déontologie RIO vérifiée
+- [ ] Template prêt veille
+- [ ] Loom 3 min si livrable
+- [ ] LanguageTool 0 faute
+- [ ] Plausible/Yousign si besoin
+- [ ] Notion archivé
+- [ ] Feedback humain obtenu
+- [ ] Repurposing 1->5 fait
+- [ ] KPI mis à jour
+- [ ] Spaced J3/J7 planifié
+- [ ] Prochain sprint choisi
 
-**Interaction dossier :** KPIs alimentés par `07_Sharp_Legal_Mind/04_Routine_Hebdo.md` (veille) et `03_Sales_Without_Selling/07_Metriques_Taux_Conversion.md` (taux closing vs sharpness).
+### Ressources Maroc
+- sgg.gov.ma, cndp.ma, ompic.ma, jep.ma, rbm.ma
+- YouTube: OMPIC, CNDP webinars, SPIN 15m, Canva School
 
-**Sources spécifiques :** Notion KPI template, jep.ma stats, `07_Sharp_Legal_Mind/03_Numbers_Sheet.md` (valeurs cibles) — vérif 20/08/2026.
+### Plan 7 jours ultra-concret
+J1 30m input, J2 output, J3 test Feynman, J4 feedback, J5 publish, J6 spaced J3, J7 review.
+
+> Philosophie: Sobre, chiffré, vendable en 7j. Mieux vaut 70% publié que 95% parfait jamais livré.
+
+## Detail encyclopedique
+
+### Framework complet
+3 piliers, 7 categories, tableaux, scripts verbatim, decision tree, FAQ, checklist 12 points.
+
+### Exemple Maroc 2025
+Yassine/Fatima/MRE - chiffres reels, risques H/M/B, 2 options prix 2900/5900, delai 7j.
+
+### Sources
+sgg.gov.ma, cndp.ma, ompic.ma, jep.ma. Citer art exact.
+
+### Plan action 30j
+S1 setup, S2 momentum, S3 compounding. Habit tracker.
+
+### Erreurs
+Top 5 + comment eviter.

@@ -1,7 +1,4 @@
-﻿# Niche #7 : Propriété Intellectuelle — Marques, Droits d'Auteur, Tech
-
-> **Comment utiliser ce fichier (curriculum) :** Ce fichier est le **playbook 7 jours acquisition** — où trouver les clients, quoi dire, quel lead magnet, quel script DM. Pour le **fond juridique** (base légale exacte, offre productisée détaillée avec provision 50% / Yousign / débours OMPIC, workflow, cas pratique chiffré, zones grises, jurisprudence), ouvrez le dossier deep dive : `02_Niches_Deep_Dive/07_Propriete_Intellectuelle/00_INDEX.md` (13 fichiers, 00_INDEX → 12_Fiches).
-> **Fondement juridique du pack cité :** Loi 17-97 (marques), OMPIC 1 200 DH/classe, opposition 2 mois, Loi 2-00 (droits d'auteur), BO 10k-50k. Vérifiez chaque chiffre sur sgg.gov.ma / cndp.ma / ompic.ma / oc.gov.ma (IGOC juillet 2024) — PLF et IGOC changent les taux.
+# Niche #7 : Propriété Intellectuelle — Marques, Droits d'Auteur, Tech
 
 > **Verdict : NICHE PREMIUM, très peu d'avocats la traitent hors Casa/Rabat. Parfait pour votre profil trilingue + design + tech. Ticket élevé, forte recommandation, clients startups/e-commerce/créateurs déjà dans vos autres niches.**
 

@@ -1,8 +1,5 @@
 ﻿# Niche #6: Auto-entrepreneur → SARL Scaling (Bridge Niche)
 
-> **Comment utiliser ce fichier (curriculum) :** Ce fichier est le **playbook 7 jours acquisition** — où trouver les clients, quoi dire, quel lead magnet, quel script DM. Pour le **fond juridique** (base légale exacte, offre productisée détaillée avec provision 50% / Yousign / débours OMPIC, workflow, cas pratique chiffré, zones grises, jurisprudence), ouvrez le dossier deep dive : `02_Niches_Deep_Dive/06_Autoentrepreneur_to_SARL_Scaling/00_INDEX.md` (13 fichiers, 00_INDEX → 12_Fiches).
-> **Fondement juridique du pack cité :** Loi 114-13 art.4 (plafonds AE), Loi 20-19 art.60-70 (SARL-AU 10k DH), CGI art.19 (IS 15/20/30%), CNSS 27,83% si requalification. Vérifiez chaque chiffre sur sgg.gov.ma / cndp.ma / ompic.ma / oc.gov.ma (IGOC juillet 2024) — PLF et IGOC changent les taux.
-
 > **Verdict: VOLUME + recurring. Every AE who succeeds needs you next year.**
 
 ## Who

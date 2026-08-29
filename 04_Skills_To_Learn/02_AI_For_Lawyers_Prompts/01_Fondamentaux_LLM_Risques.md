@@ -20,23 +20,37 @@ Demande "Donne arrêt marocain sur clause pénale DOC" → 3 fois sur 5, LLM inv
 
 ---
 
-## À retenir + checklist + suite — LLM & Risques Avocat
+## Approfondissement Encyclopédique (Bonus)
 
-**3 points clés de ce fichier :**
-- LLM = prédiction mot suivant, pas de compréhension juridique → 15–30% arrêts inventés (Stanford HAI 2024).
-- 3 risques : hallucination (Cass. inventée), fuite secret art.36 Loi 28-08 (prompt US), responsabilité art.59 (l'avocat répond même si draft IA).
-- Règle d'or : IA 70% draft → humain 30% relecture + vérif source primaire `sgg.gov.ma`/`jep.ma`.
+### Cas pratique détaillé
+**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
 
-**Checklist 6 points — usage IA sans sanction :**
-- [ ] Prompt anonymisé : [Client A] au lieu de "Yassine 600k DH offshore"
-- [ ] Test hallucination fait : demander 1 arrêt DOC → vérifier sur jep.ma/cndp.ma
-- [ ] Aucune donnée perso (art.36 secret) dans ChatGPT/Muse non-EU
-- [ ] Vérif systématique base légale exacte (CGI art.92, Loi 09-08 art.52) avant citation
-- [ ] Temps gagné noté (IA 70% vs humain 30%) + Loom 3 min de relecture
-- [ ] Charte interne IA signée : qui anonymise, qui vérifie, où archiver
+### Erreurs fréquentes (Top 5)
+1. Vouloir tout faire J1 -> overwhelm
+2. Négliger 09-08/CNDP -> sanction 300k
+3. Omettre provision art30 -> impayé
+4. Publier sans relecture -> faute FR + hallucination
+5. Pas de métrique -> 0 amélioration
 
-**Renvoi glossaire :** `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §06 Loi 09-08 (anonymisation) + §11 DOC art.443 preuve + §04 TVA art.92 (exemple hallucination).
+### Checklist encyclopédique (12 points)
+- [ ] Anonymisation / 09-08 OK
+- [ ] Déontologie RIO vérifiée
+- [ ] Template prêt veille
+- [ ] Loom 3 min si livrable
+- [ ] LanguageTool 0 faute
+- [ ] Plausible/Yousign si besoin
+- [ ] Notion archivé
+- [ ] Feedback humain obtenu
+- [ ] Repurposing 1->5 fait
+- [ ] KPI mis à jour
+- [ ] Spaced J3/J7 planifié
+- [ ] Prochain sprint choisi
 
-**Interaction dossier :** Se connecte à `06_French_Communication_With_Clients/02_Grammaire_20_Fautes.md` (LanguageTool avant publish) et `01_Legal_Tech_Stack/09_Securite_Backup_09-08.md` (registre).
+### Ressources Maroc
+- sgg.gov.ma, cndp.ma, ompic.ma, jep.ma, rbm.ma
+- YouTube: OMPIC, CNDP webinars, SPIN 15m, Canva School
 
-**Sources spécifiques :** Stanford HAI hallucination study 2024, Loi 28-08 art.36/59 sgg.gov.ma, openai.com/enterprise-privacy, cndp.ma guide IA — vérif 20/08/2026.
+### Plan 7 jours ultra-concret
+J1 30m input, J2 output, J3 test Feynman, J4 feedback, J5 publish, J6 spaced J3, J7 review.
+
+> Philosophie: Sobre, chiffré, vendable en 7j. Mieux vaut 70% publié que 95% parfait jamais livré.

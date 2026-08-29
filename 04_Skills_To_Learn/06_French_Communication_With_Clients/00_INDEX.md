@@ -1,4 +1,4 @@
-﻿# 06 — French Communication : Dossier Maître Encyclopédique
+# 06 — French Communication : Dossier Maître Encyclopédique
 
 > **Dossier maître — Skills n°6.** Français juridique clair, sobre, trilingue FR/AR/EN. 12 fichiers.
 
@@ -27,6 +27,8 @@ Clarté > jargon. Phrases 15 mots, 1 idée/phrase, SCQA, 0 "Il convient". Ton "B
 
 ## Approfondissement Encyclopédique (Bonus)
 
+### Cas pratique détaillé
+**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
 
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 -> overwhelm

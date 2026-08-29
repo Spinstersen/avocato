@@ -1,8 +1,5 @@
 ﻿# Niche #2 : E-commerce / Dropshipping / YouCan / Shopify / COD
 
-> **Comment utiliser ce fichier (curriculum) :** Ce fichier est le **playbook 7 jours acquisition** — où trouver les clients, quoi dire, quel lead magnet, quel script DM. Pour le **fond juridique** (base légale exacte, offre productisée détaillée avec provision 50% / Yousign / débours OMPIC, workflow, cas pratique chiffré, zones grises, jurisprudence), ouvrez le dossier deep dive : `02_Niches_Deep_Dive/02_Ecommerce_Dropshipping_YouCan/00_INDEX.md` (13 fichiers, 00_INDEX → 12_Fiches).
-> **Fondement juridique du pack cité :** Loi 31-08 art.8 (identité) + art.36-39 (rétractation 7j), Loi 09-08 art.52 (10k-300k DH), CGI art.144 (mentions facture), OMPIC 1 200 DH/classe. Vérifiez chaque chiffre sur sgg.gov.ma / cndp.ma / ompic.ma / oc.gov.ma (IGOC juillet 2024) — PLF et IGOC changent les taux.
-
 > **Verdict : VOLUME LE PLUS RAPIDE. Marché énorme, très peu servi juridiquement, faible sensibilité au prix si vous parlez leur langue.**
 
 ## Qui exactement

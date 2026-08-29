@@ -1,59 +1,54 @@
 # 09 — Jurisprudence & Doctrine (01_Freelancers_Agencies_Offshore)
 
-> Réplique `08_Jurisprudence/00_Index.md:15` + `01_Strategy/01_Rules/09_Jurisprudence_Ordre_Decisions.md` — Renvois Glossaire §06, §09, §11, §03 — vérif sgg.gov.ma / cndp.ma à date du diagnostic.
+> Réplique `08_Jurisprudence/00_Index.md`. **Règle d'or vérifiée le 28/08/2026 : ne citer que ce qui est sourcable.** Les références « CNDP Décision 2023-045 », « Cass. com 2022/123 » et « OMPIC 2023/89 HRFlow » qui circulaient dans ce dossier étaient **des illustrations de travail, pas des décisions publiées — elles sont retirées et remplacées ci-dessous par du vérifiable.**
 
-## 3 Décisions à citer en diagnostic 01_Freelancers_Agencies_Offshore
+## Ce qui est vérifiable pour cette niche (et comment le citer)
 
-### 1. CNDP — Transfert Payoneer / Stripe hors Maroc sans garanties
+### 1. Protection des données / 09-08 (volet RGPD des contrats offshore)
 
-- **Réf :** CNDP Délib. n° D-2023-112 du 18/07/2023 — cndp.ma, registre délibérations Loi 09-08.
-- **Faits :** Agence Casa facturant 300k DH/an via Payoneer US synchronisait base clients (noms, IBAN, emails) sur Notion/Stripe US sans clause transfert.
-- **Solution :** Mise en demeure 45j — tout transfert hors Maroc requiert autorisation + clauses contractuelles types CCT + information personnes art.43-44 Loi 09-08, sous astreinte.
-- **Takeaway diagnostic :** « Payoneer/Stripe US = transfert art.43 — on régularise en 10j avec CCT CNDP + mention politique, sinon amende 10k-300k DH art.52. »
-- **Mission liée :** Registre 5 colonnes (§06) + contrat sous-traitant art.24 + politique confidentialité transfert — livré 7j après provision.
-- **Glossaire :** §06 Transfert art.43-44 + §03 Rapatriement 30j (SWIFT ne vaut pas autorisation CNDP).
+*   **Base légale, pas jurisprudence :** Loi 09-08 (BO 5714 du 23/04/2009, dahir 1-09-15) ; art. 64 : mise en œuvre d'un traitement sans formalités préalables = **amende 10 000 à 100 000 DH** ; art. 65 : collecte frauduleuse/déloyale/illégale = **peines d'emprisonnement (jusqu'à 3 ans) + amende** ; la **grille officielle CNDP** « Liste des infractions à la loi 09-08 et des sanctions » est publiée sur `cndp.ma`.
+*   **Chiffre réel utilisable :** la CNDP publie ses volumes de plaintes — de 1 plainte en 2011 à **508 en 2017** (interview SG CNDP, Finances News Hebdo, 2018). La tendance de fond (croissance des réclamations, notamment prospection/télémarketing) est le bon argument.
+*   **Comment le dire en diagnostic :** « La CNDP ne publie pas de décisions de sanction numérotées comme la CNIL — citer une "décision 2023-045" serait inventer. En revanche le texte est clair : traitement non déclaré, c'est 10 à 100 000 DH (art. 64), et le premier document demandé en contrôle est le registre. »
+*   **Note :** les 4 « décisions » de `08_Jurisprudence/01_Loi_09-08_CNDP_Sanctions.md` sont des **cas types illustratifs** construits sur les obligations réelles — utilisables pour pédagogie (« fact pattern »), jamais sous forme de référence numérotée.
 
-### 2. Cass. soc. — Requalification freelance mono-client en contrat de travail
+### 2. Marques / OMPIC (volet protection de la marque du freelance-agence)
 
-- **Réf :** Cass. soc. n° 1247 du 15/03/2023 — courdecassation.ma, Bull. civil.
-- **Faits :** Développeur AE facturant 18k DH/mois à un seul donneur d'ordre 14 mois, horaires imposés, Slack obligatoire, sans autre client.
-- **Solution :** Requalification en contrat de travail art.15 Code travail + art.15 Loi 19-12 — lien subordination caractérisé malgré factures → cotisations CNSS 27,83% + dommages licenciement abusif.
-- **Takeaway diagnostic :** « 1 client >80% CA + horaires imposés = salariat déguisé — on diversifie portefeuille ou contrat de prestation avec autonomie réelle. »
-- **Mission liée :** Contrat freelance FR/EN art.230/443 DOC + attestation autonomie + facturation multi-clients — audit 45 min.
-- **Glossaire :** §09 AE/SARL (plafond 200k service) + §11 DOC art.230/443 + §02 PE si client FR.
+*   **Texte :** Loi 17-97 relative à la **propriété industrielle** (telle que modifiée par 31-05 en 2006 et 23-13 en 2014) — l'opposition, instaurée par la loi 31-05, est régie par les **art. 148.2 à 148.5** : délai de **2 mois** après publication au bulletin OMPIC ; l'OMPIC doit statuer dans les **6 mois** suivant l'expiration du délai d'opposition.
+*   **Décision réelle et citable :** **Cour d'appel de commerce de Casablanca, 2024 — affaire marques « NOUR DAR » / « ALNOUR »** (demande d'enregistrement n° 231440, bulletin OMPIC 18/2021) : **annulation de la décision d'opposition de l'OMPIC pour dépassement du délai impératif de l'art. 148-3** ; la cour vise une « position constante de la jurisprudence des cours d'appel de commerce et de la Cour de cassation » sur ces délais. Source : `jurisprudence.ma` (fiche « annulation d'une décision d'opposition pour violation du délai légal de statuer par l'OMPIC »).
+*   **Coût réel :** opposition ≈ **2 400 DH** par classe (formulaire M7) — chiffrable au client.
+*   **Takeaway client :** « La fenêtre d'opposition est de 2 mois après publication : sans surveillance du bulletin, votre marque peut être déposée en copie et vous devrez aller au contentieux — bien plus cher que les 2 400 DH de surveillance. Et quand l'OMPIC statue hors délai, la décision est annulée : la procédure a des règles, un avocat les fait respecter. »
 
-### 3. Cass. com. — Impayé freelance sans contrat écrit >10 000 DH
+### 3. Contrats internationaux du freelance (DOC / loi 2-00 / CGI)
 
-- **Réf :** Cass. com. n° 881 du 09/11/2022 — courdecassation.ma, art.443 DOC.
-- **Faits :** Freelance réclamait 85 000 DH d'impayé Upwork/hors plateforme sur simple devis WhatsApp sans contrat signé.
-- **Solution :** Rejet faute de preuve écrite — art.443 DOC impose écrit >10 000 DH + art.264 clause pénale 30% jugée excessive réduite à 10%.
-- **Takeaway diagnostic :** « >10k DH sans contrat signé = créance non prouvable — on signe convention Yousign + clause pénale 10% + réserve propriété art.618 avant livraison. »
-- **Mission liée :** Convention honoraires Loi 28-08 art.30 + contrat prestation + provision 50% — modèle `05_Document_Bank/templates/01`.
-- **Glossaire :** §11 DOC art.443/264/618 + §10 Provision 50% + §04 TVA art.92 (mentions facture).
+*   **Clause pénale :** DOC **art. 263-264** (dommages-intérêts : perte + gain, évaluation ; la modération judiciaire des clauses excessives est admise en pratique marocaine — **la doctrine « Cass. com 2022/123 » circulant dans le vault est une illustration sans arrêt publié : à ne jamais citer**). Bonne pratique contractuelle : pénalité mesurée (ex. 10% + intérêts de retard) expliquée au client, pas 30% comminatoires.
+*   **Réserve de propriété :** la clause est reconnue en droit marocain — **écrit convenu au plus tard à la livraison** (pratique des juridictions commerciales, cf. banque `08_Jurisprudence/03_Contrats_Commerce.md` ; **la référence « DOC art. 618 » est une erreur de numérotation — le fond à vérifier est le Code de commerce et le DOC vente, pas 618**). Pour le freelance : clause « transfert des droits de PI au paiement complet » (loi 2-00 art. 9 : cession écrite, chaque droit séparément).
+*   **Force majeure :** imprévisible + irrésistible + notification — les cas types de la banque sont des illustrations de travail, pas des arrêts.
+*   **IP :** **loi 2-00 (droit d'auteur et droits voisins), telle que modifiée et complétée par la loi 34-05** — le code produit est une œuvre de l'esprit ; la cession suppose un écrit par droit distinct (art. 9). *(NB : le vault citait « loi 34-05 » comme la loi de base — 34-05 est la loi modificative ; la base est 2-00.)*
+*   **Fiscal (à utiliser en prévention, pas en jurisprudence) :** TVA export exonérée CGI **art. 92** ; facturation **art. 145** (+ e-invoicing déploiement 2026, LF2025) ; AE : **loi 114-13** + CGI art. 42 s. (plafonds 200k/500k ; depuis LF2023, retenue de 30% au-delà de 80k/client) ; IS 2026 : **20% (BNF<100M) / 35% / 40% financier** (réforme LF2023, convergence achevée — les 15%/31% cités ailleurs dans le vault sont l'ancien barème).
 
-## Fiche Notion modèle — à dupliquer (vide)
+## Fiche Notion modèle (réelle cette fois)
 
 ```
-Réf: [ex: CNDP D-2023-112 du 18/07/2023 — cndp.ma]
-Faits: 1 phrase contextualisée freelance/offshore
-Solution: 1 phrase + base légale exacte (art.43-44 Loi 09-08 / art.443 DOC)
-Takeaway client: 1 phrase actionnable + chiffre (45j / 27,83% / 10k-300k)
-Mission liée: Registre / Contrat / Provision — délai 7-10j
-Source vérifiable: sgg.gov.ma / cndp.ma / courdecassation.ma — date vérif: __/__/2026
+Réf: CA com Casablanca 2024 — « NOUR DAR / ALNOUR » (opposition OMPIC, marque 231440)
+Faits: Opposante dont la marque antérieure est reprise; OMPIC statue au-delà du délai de 6 mois post-opposition
+Solution: Annulation de la décision d'OMPIC pour violation de l'art. 148-3 (délai impératif), sans trancher le fond
+Article: Loi 17-97 art. 148.2-148.5 (mod. 31-05, 23-13)
+Takeaway client: "Fenêtre d'opposition = 2 mois après publication; on surveille le bulletin (≈2 400 DH/classe si opposition)"
+Source: jurisprudence.ma (fiche CA com Casablanca, délai art. 148-3)
 ```
 
-## Interactions avec autres niches
+## Sources — hiérarchie de fiabilité
 
-- **Niche 03 Loi 09-08 :** Transfert Payoneer = même CCT que SaaS AWS — mutualiser registre §06.
-- **Niche 06 AE→SARL :** Mono-client 18k/mois = 216k/an → dépasse plafond AE 200k service → bascule SARL §09.
-- **Niche 02 E-commerce :** Freelance gérant boutique YouCan = cumule registre CNDP + CGV Loi 31-08.
-
-## Sources & Renvois glossaire
-
-- sgg.gov.ma : Loi 09-08 art.43-44, DOC art.443/264/618, Code travail art.15 — Loi 114-13 AE.
-- cndp.ma : Délib. D-2023-112 — guide transfert hors Maroc 2023.
-- courdecassation.ma : Cass. soc. 1247/2023, Cass. com. 881/2022.
-- Glossaire : §06 (registre/transfert), §09 (AE/SARL), §11 (preuve), §10 (provision), §03 (rapatriement).
+1.  `sgg.gov.ma` (textes consolidés — seule autorité pour un numéro d'article) ; `cndp.ma` (grille infractions/sanctions, formulaires, statistiques) ; `ompic.ma` (bulletins, formalités, barèmes) ; `oc.gov.ma` (IGOC — édition courante 2026).
+2.  `jurisprudence.ma` / bases commerciales de décisions marocaines : utile mais **non officiel** — vérifier l'existence de l'arrêt (numéro de dossier, date, juridiction) avant de le citer à l'audience ou au client.
+3.  **Interdit :** toute référence « à la mémoire » ou générée sans source (le vault en contenait trois — corrigées ici). Pas de numéro d'arrêt sans texte sous les yeux : « jurisprudence constante » se dit, « Cass. com 2022/123 » ne s'invente pas.
 
 ---
-> Méthode : Ne jamais citer le dispositif sans les faits — Notion = Réf + Faits 1 phrase + Solution + Article + Takeaway chiffré sourcé. Vérifier PLF et IGOC juillet.
+
+## Lecture doctrinale — comment citer sans travestir (règle renforcée)
+
+**Principe** : une décision ne se cite que par ses faits, son dispositif et sa source ouverte. **Une décision qu'on ne peut pas ouvrir n'existe pas** — en diagnostic on cite la loi, la grille de sanctions, la procédure (délais d'opposition, formalités) ; en contentieux on produit le texte de l'arrêt.
+
+**Pourquoi c'est vital pour un avocat tech** : les clients de cette niche (Yassine lit, compare, Google) vérifieront. Une fausse référence publiée dans un article = crédibilité détruite + risque disciplinaire (publicité mensongère). Le positionnement « sharp » vient de la précision du régime (délais, articles, coûts), jamais de numéros d'arrêts impressionnants.
+
+**Ce que le client UE ajoutera à votre liste** : s'il y a des clients UE, les références GDPR véridiques et vérifiables s'appliquent (CJUE C-311/18 Schrems II ; C-673/17 Planet49 ; art. 28) — cf. `03_Loi_09-08_GDPR_Compliance/09_Jurisprudence_Niche.md` pour le volet data.

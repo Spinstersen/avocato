@@ -1,0 +1,641 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-28T22:53:06.517Z",
+  "title": "Design System: AVOCATO — Base documentaire & Cabinet OS",
+  "extensions": {
+    "colorMeta": {
+      "encrier": {
+        "role": "primary",
+        "displayName": "Encrier Ink",
+        "canonical": "#070e1c",
+        "tonalRamp": [
+          "#060e18",
+          "#0a1a30",
+          "#0f2a44",
+          "#1c3d5e",
+          "#2a567d",
+          "#4a7aa8",
+          "#7ea4c7",
+          "#b9d0e8"
+        ]
+      },
+      "encrier-light": {
+        "role": "primary",
+        "displayName": "Encrier Light (dark mode)",
+        "canonical": "#9fc2e8",
+        "tonalRamp": [
+          "#0f2a44",
+          "#1e4066",
+          "#2d5a85",
+          "#4a7aa8",
+          "#739fca",
+          "#9fc2e8",
+          "#c2d9f0",
+          "#e6eef8"
+        ]
+      },
+      "encrier-bg-dark": {
+        "role": "neutral",
+        "displayName": "Ink Ground Dark",
+        "canonical": "#10151c",
+        "tonalRamp": [
+          "#06080b",
+          "#0a0e15",
+          "#10151c",
+          "#1a2330",
+          "#2a3442",
+          "#445060",
+          "#6b7a8e",
+          "#a8b4c2"
+        ]
+      },
+      "parchment": {
+        "role": "neutral",
+        "displayName": "Parchment Warm",
+        "canonical": "#f6f0e3",
+        "tonalRamp": [
+          "#b8a898",
+          "#c9bdb0",
+          "#d9d0c3",
+          "#e6ddd2",
+          "#efece4",
+          "#f4f1ea",
+          "#f7f5f0",
+          "#fcfaf7"
+        ]
+      },
+      "parchment-alt": {
+        "role": "neutral",
+        "displayName": "Parchment Alt",
+        "canonical": "#ece6d5",
+        "tonalRamp": [
+          "#a99d8f",
+          "#bfb5a7",
+          "#d0c7ba",
+          "#ddd5c8",
+          "#efece4",
+          "#f3efe9",
+          "#f7f5f0",
+          "#fdfcfb"
+        ]
+      },
+      "parchment-dark": {
+        "role": "neutral",
+        "displayName": "Parchment Dark",
+        "canonical": "#0d1322",
+        "tonalRamp": [
+          "#0a0d12",
+          "#0f131a",
+          "#171e27",
+          "#222d3a",
+          "#344050",
+          "#4e5c6e",
+          "#7a8696",
+          "#b2bbc6"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Surface White",
+        "canonical": "#fffcf5",
+        "tonalRamp": [
+          "#dfd9cd",
+          "#e8e0d6",
+          "#efece4",
+          "#f4f1ea",
+          "#faf8f5",
+          "#fcfaf7",
+          "#ffffff",
+          "#ffffff"
+        ]
+      },
+      "surface-dark": {
+        "role": "neutral",
+        "displayName": "Surface Dark",
+        "canonical": "#141d33",
+        "tonalRamp": [
+          "#0a0e15",
+          "#131b27",
+          "#1b2330",
+          "#26364a",
+          "#3a4d64",
+          "#5a6d84",
+          "#8a9ab0",
+          "#c2cdd9"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink Text",
+        "canonical": "#1a2332",
+        "tonalRamp": [
+          "#0a0f16",
+          "#121b28",
+          "#1c2733",
+          "#2d3d4e",
+          "#425466",
+          "#5a6b7b",
+          "#93a4b4",
+          "#c8d2db"
+        ]
+      },
+      "ink-dark": {
+        "role": "neutral",
+        "displayName": "Ink Text Dark Mode",
+        "canonical": "#e6edf4",
+        "tonalRamp": [
+          "#93a4b4",
+          "#aab8c7",
+          "#c0cddb",
+          "#d4dde6",
+          "#e6edf4",
+          "#eff3f8",
+          "#f5f7fa",
+          "#fcfdfe"
+        ]
+      },
+      "ink-dim": {
+        "role": "neutral",
+        "displayName": "Ink Dim",
+        "canonical": "#6b6a63",
+        "tonalRamp": [
+          "#1c2733",
+          "#2d3d4e",
+          "#3f4f60",
+          "#5a6b7b",
+          "#768898",
+          "#93a4b4",
+          "#b8c4d0",
+          "#d8e0e7"
+        ]
+      },
+      "ink-dim-dark": {
+        "role": "neutral",
+        "displayName": "Ink Dim Dark",
+        "canonical": "#93a4b4",
+        "tonalRamp": [
+          "#2d3d4e",
+          "#425466",
+          "#5a6b7b",
+          "#768898",
+          "#93a4b4",
+          "#b0bfcc",
+          "#cbd5df",
+          "#e6edf4"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line Greige",
+        "canonical": "rgba(197,164,106,0.26)",
+        "tonalRamp": [
+          "#8a7f74",
+          "#a99d8f",
+          "#b9ad9e",
+          "#c9beb0",
+          "#dfd9cd",
+          "#e6ddd2",
+          "#efece4",
+          "#f7f5f0"
+        ]
+      },
+      "line-dark": {
+        "role": "neutral",
+        "displayName": "Line Dark",
+        "canonical": "rgba(197,164,106,0.20)",
+        "tonalRamp": [
+          "#10151c",
+          "#1a2330",
+          "#2c3847",
+          "#3a4b5e",
+          "#4e6176",
+          "#6b7f96",
+          "#93a4b4",
+          "#b8c4d0"
+        ]
+      },
+      "teal": {
+        "role": "secondary",
+        "displayName": "Teal Tool-Mark",
+        "canonical": "#1a8a7f",
+        "tonalRamp": [
+          "#0b3a37",
+          "#0e5a55",
+          "#13857a",
+          "#1fa89e",
+          "#34c4b5",
+          "#45c7bb",
+          "#7ad9d0",
+          "#b8ece7"
+        ]
+      },
+      "teal-dark": {
+        "role": "secondary",
+        "displayName": "Teal Dark Mode",
+        "canonical": "#45c7bb",
+        "tonalRamp": [
+          "#0e5a55",
+          "#13857a",
+          "#1fa89e",
+          "#2db8a8",
+          "#45c7bb",
+          "#6dd5c9",
+          "#9de3dc",
+          "#c9f0eb"
+        ]
+      },
+      "teal-soft": {
+        "role": "secondary",
+        "displayName": "Teal Soft",
+        "canonical": "#e6f0ee",
+        "tonalRamp": [
+          "#7ad9d0",
+          "#9de3dc",
+          "#b8ece7",
+          "#cfe7e4",
+          "#e4f2f0",
+          "#edf6f5",
+          "#f5faf9",
+          "#fcfefc"
+        ]
+      },
+      "teal-soft-dark": {
+        "role": "secondary",
+        "displayName": "Teal Soft Dark",
+        "canonical": "#14303a",
+        "tonalRamp": [
+          "#0a1e25",
+          "#0f2a33",
+          "#14303a",
+          "#1a4a52",
+          "#1e6a72",
+          "#2a8a8e",
+          "#45a9a5",
+          "#7ad9d0"
+        ]
+      },
+      "terracotta": {
+        "role": "tertiary",
+        "displayName": "Terracotta Signal",
+        "canonical": "#b4552d",
+        "tonalRamp": [
+          "#4a2111",
+          "#6b3118",
+          "#8a3f1f",
+          "#b4552d",
+          "#c96a3a",
+          "#d4835a",
+          "#e28a5b",
+          "#f0b090"
+        ]
+      },
+      "terracotta-dark": {
+        "role": "tertiary",
+        "displayName": "Terracotta Dark",
+        "canonical": "#e28a5b",
+        "tonalRamp": [
+          "#6b3118",
+          "#8a3f1f",
+          "#b4552d",
+          "#c96a3a",
+          "#d4835a",
+          "#e28a5b",
+          "#eaa07e",
+          "#f5c2a6"
+        ]
+      },
+      "chart-violet": {
+        "role": "neutral",
+        "displayName": "Chart Violet",
+        "canonical": "#7a5aa8",
+        "tonalRamp": [
+          "#2e1f45",
+          "#3d2d5e",
+          "#4d3a76",
+          "#7a5aa8",
+          "#9577c2",
+          "#a890d1",
+          "#c1b0df",
+          "#dbd0ee"
+        ]
+      },
+      "chart-blue": {
+        "role": "neutral",
+        "displayName": "Chart Blue",
+        "canonical": "#3a7ca5",
+        "tonalRamp": [
+          "#143042",
+          "#1c4966",
+          "#2a6083",
+          "#3a7ca5",
+          "#5096c0",
+          "#72b0d2",
+          "#9ec9df",
+          "#cae3ee"
+        ]
+      },
+      "chart-amber": {
+        "role": "neutral",
+        "displayName": "Chart Amber",
+        "canonical": "#c98f2e",
+        "tonalRamp": [
+          "#4a3410",
+          "#6a4b16",
+          "#8a611d",
+          "#c98f2e",
+          "#d9a03a",
+          "#e3b05a",
+          "#eccc8a",
+          "#f2ddb3"
+        ]
+      },
+      "chart-green": {
+        "role": "neutral",
+        "displayName": "Chart Green",
+        "canonical": "#5f8a52",
+        "tonalRamp": [
+          "#1e2e1b",
+          "#2d4528",
+          "#3c5d35",
+          "#5f8a52",
+          "#759f6b",
+          "#8cb48d",
+          "#b0ccaa",
+          "#d4e5d0"
+        ]
+      },
+      "chart-berry": {
+        "role": "neutral",
+        "displayName": "Chart Berry",
+        "canonical": "#a34d77",
+        "tonalRamp": [
+          "#3a1b2a",
+          "#4f253a",
+          "#652f4b",
+          "#a34d77",
+          "#b86a92",
+          "#c98aa9",
+          "#dbb0c5",
+          "#ecd2dd"
+        ]
+      },
+      "brass": {
+        "role": "primary",
+        "displayName": "Brass Hammered",
+        "canonical": "#c5a46a",
+        "tonalRamp": [
+          "#3a2f18",
+          "#5a4a28",
+          "#7a6538",
+          "#8a6d3a",
+          "#a08045",
+          "#c5a46a",
+          "#d8c08a",
+          "#e8d9b0"
+        ]
+      },
+      "brass-light": {
+        "role": "primary",
+        "displayName": "Brass Light",
+        "canonical": "#e8d9b0",
+        "tonalRamp": [
+          "#8a6d3a",
+          "#a08045",
+          "#b8965a",
+          "#c5a46a",
+          "#d1b57a",
+          "#d8c08a",
+          "#e2d0a0",
+          "#e8d9b0"
+        ]
+      },
+      "brass-deep": {
+        "role": "primary",
+        "displayName": "Brass Deep",
+        "canonical": "#8a6d3a",
+        "tonalRamp": [
+          "#2a1f0f",
+          "#3a2f18",
+          "#5a4a28",
+          "#7a6538",
+          "#8a6d3a",
+          "#a08045",
+          "#b8965a",
+          "#c5a46a"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display — EB Garamond",
+        "purpose": "Hero plaque + doc h1, 1.85rem, brass rule"
+      },
+      "headline": {
+        "displayName": "Headline / H2",
+        "purpose": "Section opener with top hairline, scroll-margin for hash nav."
+      },
+      "title": {
+        "displayName": "Title — Public Sans Upper",
+        "purpose": "H3 caps 0.81rem 700, brass-deep, section labels"
+      },
+      "body": {
+        "displayName": "Body — Public Sans",
+        "purpose": "Prose & table copy at 1.7 LHC, 65–75ch measure."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Nav items, badges, pills, table header (13px 600)."
+      },
+      "mono": {
+        "displayName": "Mono / Data",
+        "purpose": "Code, money (tabular), dates, inline code."
+      }
+    },
+    "shadows": [
+      {
+        "name": "card-rest",
+        "value": "0 1px 3px rgba(7,14,28,0.08)",
+        "purpose": "Card rest on parchment, plus brass double filet"
+      },
+      {
+        "name": "dialog-overlay",
+        "value": "0 10px 30px rgba(0,0,0,0.20)",
+        "purpose": "Modal overlay elevation for conventions/factures dialogs."
+      },
+      {
+        "name": "scrim",
+        "value": "rgba(0,0,0,0.40) backdrop",
+        "purpose": "Mobile drawer scrim behind sidebar."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-standard",
+        "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "purpose": "Default for state transitions (hover, focus, drawer)."
+      },
+      {
+        "name": "caret-rotate",
+        "value": "transform 0.15s ease",
+        "purpose": "Tree folder caret 0→90deg."
+      },
+      {
+        "name": "sidebar-drawer",
+        "value": "transform 0.2s ease",
+        "purpose": "Mobile sidebar slide."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "drawer",
+        "value": "860px"
+      },
+      {
+        "name": "doc-narrow",
+        "value": "640px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Ink field for dossier, convention, facture primary actions.",
+      "html": "<button class=\"ds-btn-primary\">Enregistrer dossier</button>",
+      "css": ".ds-btn-primary { background: #0f2a44; color: #ffffff; border: 1px solid #0f2a44; border-radius: 8px; padding: 8px 14px; font: 600 13px/1.4 system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif; letter-spacing: 0.01em; cursor: pointer; transition: opacity 0.15s ease, border-color 0.15s ease; } .ds-btn-primary:hover { opacity: 0.92; border-color: #1fa89e; } .ds-btn-primary:focus-visible { outline: 2px solid #1fa89e; outline-offset: 2px; } .ds-btn-primary:disabled { opacity: 0.5; cursor: not-allowed; }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary / cancel alongside primary, parchment.",
+      "html": "<button class=\"ds-btn-ghost\">Annuler</button>",
+      "css": ".ds-btn-ghost { background: #ffffff; color: #5a6b7b; border: 1px solid #dfd9cd; border-radius: 8px; padding: 8px 12px; font: 600 13px/1.4 system-ui, sans-serif; cursor: pointer; transition: color 0.15s ease, border-color 0.15s ease; } .ds-btn-ghost:hover { color: #1c2733; border-color: #1fa89e; } .ds-btn-ghost:focus-visible { outline: 2px solid #1fa89e; outline-offset: 2px; }"
+    },
+    {
+      "name": "Icon Button",
+      "kind": "button",
+      "refersTo": "icon-button",
+      "description": "34px square for prev/next/read/font/theme/menu — topbar.",
+      "html": "<button class=\"ds-icon-btn\" aria-label=\"Précédent\">←</button>",
+      "css": ".ds-icon-btn { width: 34px; height: 34px; border-radius: 8px; border: 1px solid #dfd9cd; background: #ffffff; color: #1c2733; font-size: 14px; display: inline-flex; align-items: center; justify-content: center; cursor: pointer; transition: border-color 0.15s ease, background 0.15s ease; } .ds-icon-btn:hover { border-color: #1fa89e; } .ds-icon-btn.active { background: #e4f2f0; color: #0f2a44; border-color: #1fa89e; } .ds-icon-btn:focus-visible { outline: 2px solid #1fa89e; outline-offset: 2px; }"
+    },
+    {
+      "name": "Tree Item Active",
+      "kind": "nav",
+      "refersTo": "tree-item-active",
+      "description": "Active doc in parchment sidebar — teal soft fill + left teal bar.",
+      "html": "<button class=\"ds-tree-active\"><span class=\"ds-dot\"></span> 01 — Textes Fondamentaux</button>",
+      "css": ".ds-tree-active { display: flex; align-items: center; gap: 7px; width: 100%; background: #e4f2f0; color: #0f2a44; border: 0; border-left: 2px solid #1fa89e; border-radius: 7px; padding: 6px 8px; font: 600 13px/1.4 system-ui, sans-serif; text-align: left; } .ds-tree-active .ds-dot { width: 7px; height: 7px; border-radius: 50%; background: #1fa89e; flex: 0 0 7px; }"
+    },
+    {
+      "name": "Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Dashboard card & panel — surface on parchment.",
+      "html": "<div class=\"ds-card\"><div class=\"ds-num\">18 000</div><div class=\"ds-lbl\">DH HT</div></div>",
+      "css": ".ds-card { background: #ffffff; color: #1c2733; border: 1px solid #dfd9cd; border-radius: 10px; padding: 18px 20px; box-shadow: 0 1px 3px rgba(15,42,68,0.08); } .ds-card .ds-num { font-size: 1.7rem; font-weight: 700; color: #0f2a44; line-height: 1.1; } .ds-card .ds-lbl { font-size: 12px; color: #5a6b7b; margin-top: 4px; }"
+    },
+    {
+      "name": "Doc Container",
+      "kind": "custom",
+      "refersTo": "card",
+      "description": "Vault doc paper — 800px centered, subtle rule on h1.",
+      "html": "<article class=\"ds-doc\"><h1>Titre du document</h1><p>Lecture lisible 65–75ch, interligne 1.7, marqueurs teal.</p></article>",
+      "css": ".ds-doc { max-width: 800px; margin: 0 auto; background: #ffffff; border: 1px solid #dfd9cd; border-radius: 10px; box-shadow: 0 1px 3px rgba(15,42,68,0.08); padding: 34px 40px 48px; color: #1c2733; font: 400 16px/1.7 system-ui, sans-serif; } .ds-doc h1 { font-size: 1.75rem; line-height: 1.25; font-weight: 700; margin: 0 0 6px; padding-bottom: 10px; border-bottom: 2px solid #1fa89e; }"
+    },
+    {
+      "name": "Pill / Badge",
+      "kind": "chip",
+      "refersTo": "pill-folder",
+      "description": "Metadata pills + status badges (prospect/envoyée/signée).",
+      "html": "<span class=\"ds-pill\">📁 Stratégie</span> <span class=\"ds-badge-prospect\">Prospect</span>",
+      "css": ".ds-pill { display: inline-block; background: #e4f2f0; color: #0f2a44; border: 1px solid #1fa89e; padding: 2px 10px; border-radius: 999px; font: 600 12.5px/1.4 system-ui, sans-serif; } .ds-badge-prospect { display: inline-block; background: #fff3cd; color: #664d03; border: 1px solid #dfd9cd; padding: 2px 8px; border-radius: 999px; font: 600 11px/1.4 system-ui, sans-serif; }"
+    },
+    {
+      "name": "Input / Select",
+      "kind": "input",
+      "refersTo": "button-ghost",
+      "description": "Cabinet forms — search, dossier fields, selects.",
+      "html": "<label class=\"ds-field\">Client / Société *<input class=\"ds-input\" placeholder=\"Ex: SARL Atlas — M. Alami\"></label>",
+      "css": ".ds-field { display: flex; flex-direction: column; gap: 4px; font: 600 12px/1.4 system-ui, sans-serif; color: #5a6b7b; } .ds-input { padding: 8px 10px; border: 1px solid #dfd9cd; border-radius: 8px; background: #f7f5f0; color: #1c2733; font: 400 13px/1.4 system-ui, sans-serif; outline: none; } .ds-input:focus { border-color: #1fa89e; box-shadow: 0 0 0 2px #e4f2f0; } .ds-input::placeholder { color: #5a6b7b; opacity: 0.8; }"
+    },
+    {
+      "name": "Table",
+      "kind": "custom",
+      "refersTo": "card",
+      "description": "Doc + cabinet tables — zebra + hover teal-soft.",
+      "html": "<div class=\"ds-table-wrap\"><table class=\"ds-table\"><thead><tr><th>Client</th><th>Honoraires</th></tr></thead><tbody><tr><td>SARL Atlas</td><td>3 500 DH HT</td></tr></tbody></table></div>",
+      "css": ".ds-table-wrap { overflow-x: auto; border: 1px solid #dfd9cd; border-radius: 8px; background: #ffffff; } .ds-table { width: 100%; border-collapse: collapse; font-size: 13px; } .ds-table th, .ds-table td { padding: 9px 10px; border-bottom: 1px solid #dfd9cd; text-align: left; white-space: nowrap; } .ds-table th { background: #efece4; font-weight: 650; } .ds-table tbody tr:nth-child(even) { background: #f7f5f0; } .ds-table tbody tr:hover { background: #e4f2f0; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Ink & Parchment Bureau",
+    "overview": "A small-city business-lawyer's offline bureau translated to the web: parchment paper, ink, and a single teal tool-mark. No marketing gloss; authority comes from reading clarity and operational tidiness. Light is parchment + white surfaces with ink text; dark is a genuine ink-on-slate inversion for late-night work, not a dimmed clone. Every surface is flat, tonal, and typographically driven — depth is reserved for state. 300px parchment sidebar + 800px read measure + dense operational tables share one ink/teal language across Read (vault) and Operate (cabinet).",
+    "keyCharacteristics": [
+      "Brass hammered #c5a46a hairline on ink #070e1c + parchment #f6f0e3, teal #1a8a7f ≤10% rare",
+      "EB Garamond display + Public Sans workhorse, hierarchy by brass rule + weight",
+      "Flat tonal layering; shadows only as 1px card rest or dialog overlay, plus light sweep on plaque",
+      "Square-ish controls 2px, pills 999px metadata, 320px brass plaque sidebar + 800px read measure",
+      "Double-filet or + encrier glass + tabular mono money as signature"
+    ],
+    "rules": [
+      {
+        "name": "The One Teal Rule",
+        "body": "Teal appears on ≤10% of a viewport and only as text, underline, left-border, dot, or thin stroke — never as a large field. Its rarity is the signal.",
+        "section": "colors"
+      },
+      {
+        "name": "The Parchment Ground Rule",
+        "body": "Page bg is always parchment (#f7f5f0 light / #10151c dark), not surface white. Cards cut out of it. A white page ground breaks the bureau.",
+        "section": "colors"
+      },
+      {
+        "name": "The Warm Gray Rule",
+        "body": "On colored surfaces (ink hero, teal-soft), tint secondary text from that surface's hue or from ink — never neutral #888 gray.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Family Rule",
+        "body": "No imported display serif. All hierarchy lives in the system sans; mono only for code/data.",
+        "section": "typography"
+      },
+      {
+        "name": "The Measure Rule",
+        "body": "Body never exceeds 75ch (800px container). A full-bleed paragraph is a defect.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat-By-Default Rule",
+        "body": "Surfaces are flat at rest. Shadows appear only as 0 1px 3px on cards and overlay on dialogs — no mid-elevation.",
+        "section": "elevation"
+      },
+      {
+        "name": "The No-Halo Rule",
+        "body": "Zero-offset colored halos/glows are not shadows. Depth has offset + blur or it is decoration.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep doc measure at 800px max and dash at 900px — body 65–75ch is not optional.",
+      "Do use parchment as page ground and surface-white only for cards/docs.",
+      "Do keep teal to ≤10% as left-border/dot/underline/text — rarity is signal.",
+      "Do carry scroll-margin-top:70px on h2/h3/h4 for hash links under sticky topbar.",
+      "Do tint secondary text from surface hue on ink/teal-soft surfaces; never #888 gray.",
+      "Do preserve tabular numerals for money (mono 12px) and dates.",
+      "Do keep control radii 7–8px and pill 999px strictly to metadata/badges.",
+      "Do keep elevation flat-by-default (card rest only, dialog overlay) — no mid shadows."
+    ],
+    "donts": [
+      "Don't add a kicker/eyebrow above a heading — the heading carries its own weight.",
+      "Don't use gradient text, glass/blur as decoration, or geometric masks for photos.",
+      "Don't give cards/chips a thick border-left: 4px color stripe — the 2px active border is the only left-border.",
+      "Don't introduce a new display serif (Fraunces/Playfair/Cormorant/Lora/Syne) — one-family system sans holds.",
+      "Don't scatter teal field fills across a neutral ground — commit to region fields or stay neutral.",
+      "Don't use emoji/glyphs as an icon system — authored SVG in one stroke/weight if icons needed.",
+      "Don't use hard offset box-shadow:4px 4px 0 zero-blur blocks unless world becomes neobrutalist.",
+      "Don't add sparklines/progress rings as placeholder content — show real dossier/échéance/mission data."
+    ]
+  }
+}

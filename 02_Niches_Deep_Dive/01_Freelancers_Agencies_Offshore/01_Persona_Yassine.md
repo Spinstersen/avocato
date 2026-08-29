@@ -91,7 +91,7 @@ Yassine n'achète pas un « avocat généraliste ». Il achète un **partenaire 
             ↓
 [Contacte l'avocat par formulaire sobre]
             ↓
-[Diagnostic 45 min à 600 DH HT]
+[Diagnostic 45 min à 900 DH HT]
             ↓
 [Mission Pack Freelance Contrat 2 900 DH HT + création SARL 4 900 DH HT]
             ↓

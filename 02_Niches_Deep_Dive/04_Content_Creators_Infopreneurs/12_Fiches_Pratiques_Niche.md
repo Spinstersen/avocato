@@ -1,69 +1,66 @@
 # 12 — Fiches Pratiques + Checklist (04_Content_Creators_Infopreneurs)
 
-> **Niche :** YouTubeur/coach qui vend formation en ligne + contrats sponsors/affiliation. Risque = PI non cédée + marque non déposée + CGV 31-08 absente. Chiffre en 1j perdu si marque volée.
+## Checklist 15 points — la créatrice protégée (mémoire externe de mission)
 
-## Checklist 12 points — Content Creators / Infopreneurs (formations, sponsors, YouTube)
+**Contrats marques**
+*   [ ] Un écrit pour tout deal >10k DH (contrat, devis accepté, échange tracé) — `DOC art. 443`
+*   [ ] Livrables chiffrés : nombre de posts/stories/reels, formats, calendrier, validations marque (briques du « pas de mission »)
+*   [ ] Paiement : acompte 50% à la commande + délai 30j + pénalités symétriques ; RAS 30% sur le >80k/brand/an anticipée dans le prix (`05_Document_Bank/templates/01_Convention_Honoraires_Modele.md` miroir)
+*   [ ] **IP** : licence bornée (média, durée, territoire) OU cession chiffrée ; réutilisation en ads payantes = forfait distinct ; clause « transfert des droits au paiement complet »
+*   [ ] **Exclusivité** : catégorie + territoire + durée bornés ; droit de sortie si aucun volume commandé en 6 mois
+*   [ ] Résiliation réciproque + force majeure bad buzz des deux côtés
 
-*   [ ] CGV formation Loi 31-08 art.36-38 + DOC art.230 — CGV FR/AR : prix TTC + durée accès + 7j rétractation (sauf contenu débloqué avec consentement exprès) + remboursement 15j + preuve écrit >10k art.443 → voir Glossaire §11
-*   [ ] Contrat sponsor / affiliation — cession PI Loi 2-00 art.11 — contrat écrit FR fait foi : objet + rémunération HT + cession droits limitée (durée/territoire/support) + crédit art.11 Loi 2-00, sinon créateur garde PI → voir Glossaire §11 + Loi 2-00
-*   [ ] Dépôt marque OMPIC Loi 17-97 classes 41+35+9 (1 200 DH/classe) — nom de formation/logo : recherche 2h directompic.ma, dépôt 72h, publication 4-6 mois, opposition 2 mois art.148, 10 ans renouvelables, premier déposant = propriétaire → voir Glossaire §05
-*   [ ] Contrat plateforme YouTube/Meta/TikTok — CGU plateforme ≠ contrat sponsor : vérifier monétisation + cession non exclusive, garder contrat sponsor séparé avec clause PI, réserve propriété art.618 si livraison vidéo avant paiement → voir Glossaire §11
-*   [ ] Mentions Loi 09-08 collecte emails/leads (art.14) — dès 1 email lead magnet : registre 5 colonnes + base consentement non pré-cochée + bannière + politique + contrat Mailchimp/Système.io art.24 + transfert US art.43 → voir Glossaire §06
-*   [ ] Facture CGI art.144 + TVA — facture ICE/RC/IF + TVA 20% si client Maroc, exon art.92 si client hors Maroc + paiement devises + rapatriement 30j IGOC, conservation 10 ans → voir Glossaire §04 + §03
-*   [ ] Statut AE 200k service vs SARL 10k capital (Loi 114-13/5-96) — AE IR 2% si CA <200k 12m glissants, au-delà SARL IS 20 % (LF 2026) OMPIC 7-14j CRI ~2 000 DH, AE incompatible si équipe >1 → voir Glossaire §09
-*   [ ] DOC art.443 preuve >10k + art.264 clause pénale 10% — contrat écrit obligatoire si formation >10k, clause pénale impayé 10% max (juge réduit si 30%), paiement 30j → voir Glossaire §11
-*   [ ] Droits à l'image & PI tiers (Loi 2-00) — autorisation écrite si invité/témoignage vidéo, musique libre de droits ou licence, sinon retrait YouTube + dommages → voir Glossaire §05 + §11
-*   [ ] Compte convertible 48-72h / devise si nomad — ouverture RC + contrat sponsor + CGV → convertible si résident 183j, devise résident si nomad 210j + carte séjour 200 DH → voir Glossaire §12
-*   [ ] Provision 50% art.30 Loi 28-08 — convention préalable HT/TVA, provision 50% Yousign avant rédaction CGV/contrat sponsor, délai 7j après provision + accès Drive/YouTube → voir Glossaire §10
-*   [ ] Transfert hors Maroc art.43-44 si audience UE (Mailchimp/AWS) — hébergement formations sur Teachable US = transfert → CTT CNDP + info abonnés + registre → voir Glossaire §06
+**Vente à ses abonnés (formation, boutique, communauté)**
+*   [ ] CGV 31-08 : ICE/adresse, prix TTC, délais, **rétractation 7 jours (art. 36)** + formulaire type, exceptions numériques (art. 38) documentées
+*   [ ] Remboursement process ≤15 jours (art. 37) ; preuve d'information conservée (art. 34)
+*   [ ] Page de vente sans promesse de résultat (ou preuve à l'appui) — pratique trompeuse
+*   [ ] Base contacts : opt-in non pré-coché + STOP + registre des preuves (09-08) ; formulaire de collecte des gagnants de concours avec mention durée
 
-> **Légende :** Chaque case = Concept (base légale) — procédure 1 ligne + chiffre 2025 + renvoi Glossaire. Ne cochez pas sans avoir lu le §.
+**Structure & actifs**
+*   [ ] Statut cohérent avec l'activité mixte : plafond AE 200k/500k, RNAE 1 activité — plan de bascule SARL-AU calé avec le comptable partenaire (co-traitance)
+*   [ ] Devises : compte pro + justificatif banque (IGOC édition courante, `oc.gov.ma`) ; AdSense déclaré
+*   [ ] Nom de scène/pseudo : ROMARIN vierge → dépôt OMPIC (classes 35/41 + produits) à SON nom ; veille bulletin 2 mois (`05_Document_Bank/templates/05_Registre_09-08_Modele.md` + registre marques)
+*   [ ] Image des enfants apparaissant dans les contenus : autorisation parentale écrite + bornes de durée
+*   [ ] Livrables versionnés : contrats dans Notion « mes deals » (dates, échéances exclusivité, dates de paiement à relancer)
 
-## Scripts (FR fait foi)
+## Scripts express (FR fait foi)
 
-*   **DM créateur :** `Bonjour [Prénom], vu ta formation [Nom] + sponsors : 90% sans CGV 31-08 7j ni contrat sponsor avec cession PI Loi 2-00 art.11 ni marque cl.41 (1 200 DH). Je fais diag 1 200 HT (CGV+contrat sponsor+09-08 leads) + pack créateur 5 900 HT 7j (CGV+contrat PI+marque 41+politique 09-08). Checklist 1p ? — [Nom], avocat [Ville]`
-*   **Objection "YouTube suffit" :** `YouTube ne couvre pas ton sponsor — sans contrat PI art.11, tu cèdes tout sans limite. On cale contrat FR fait foi + réserve art.618 : paiement 30j sinon vidéo bloquée.`
-*   **Objection "marque plus tard" :** `Premier déposant = propriétaire art.133 — à 100k vues, dépôt concurrent cl.41 te bloque. Recherche 2h + dépôt 72h = 1 200 DH, 10 ans protégé.`
+*   **DM entrant Instagram :** `Bonjour [Prénom], envoie le PDF — relecture + clauses de contre-projet sous 72h, 1 500 HT, ou diagnostic 900 HT déduit si mission. Convention Yousign, pas de DM sans écrit. — [Nom], avocat barreau [Ville]`
+*   **Après un live IG (réponse à une question en story) :** la réponse utile en 3 lignes + grille gratuite [lien] + option diagnostic — scripts complets : `06_Scripts_DM_WhatsApp.md`.
+*   **Objection « la marque ne négocie pas » :** « Alors on chiffre le risque et tu décides. » (script §8)
 
-## Modèles `05_Document_Bank` à joindre
+## Modèles `05_Document_Bank`
 
-*   `templates/15_CGV_Formation_31-08_Modele.md` — CGV formation : accès/durée/7j rétractation/15j remboursement + DOC 443
-*   `templates/16_Contrat_Sponsor_PI_Loi2-00.md` — sponsor/affiliation : rémunération HT + cession limitée art.11 + PI + art.618
-*   `templates/17_Depot_Marque_OMPIC_Checklist.md` — dépôt cl.41+35+9, recherche antériorité + opposition 2 mois
-*   `templates/12_Politique_Confidentialite_09-08_Modele.md` — registre leads 5 colonnes + bannière + art.24/43
-*   `templates/06_Recu_Provision_Facture.md` — HT/TVA + débours OMPIC 1 200 DH/classe en sus
+*   `01_Convention_Honoraires_Modele.md` — mission avec objet + livrables nommés + SLA 72h
+*   `06_Recu_Provision_Facture.md` — provision à la commande (deal urgent)
+*   `03_Pack_Freelance_Contrat.md` (niche 1) — base de trame prestation à adapter « marque-influenceur »
+*   `05_Registre_09-08_Modele.md` — registre des traitements base abonnés
 
-## Plan 7j — Content Creator
+## Plan 7 premiers jours d'un abonnement créateur
 
-*   **J1 :** Diag 1 200 HT — audit CGV formation + contrat sponsor PI + marque cl.41 + leads 09-08
-*   **J2 :** Provision 50% + accès formation/contrats sponsors → convention Yousign 48h
-*   **J3-J4 :** Rédaction CGV 31-08 + contrat sponsor Loi 2-00 art.11 + politique 09-08 + facture art.144
-*   **J5 :** Dépôt marque OMPIC cl.41 (72h accusé) + déclaration CNDP 30j si leads
-*   **J6 :** Relecture client + ajustement cession PI (durée/territoire) selon deal sponsor
-*   **J7 :** Pack 5 900 HT livré (7 500 si SARL+marque 3 classes) → J14 OMPIC + J30 CNDP
-*   **J30 :** Suivi OMPIC opposition 2 mois + CNDP récépissé, formation droits image
+*   **J1 :** convention + intake (les 3 derniers contrats, la base contacts, la plateforme de vente).
+*   **J2 :** audit flash 15 cases → top 3 actions chiffrées.
+*   **J3 :** contrat cadre envoyable + clauses par marques étrangères.
+*   **J5 :** CGV formation corrigées + opt-in modèle.
+*   **J7 :** plan d'action 90j (bascule statut avec le comptable, dépôt marque, purge base).
 
-## Erreurs qui coûtent cher — Creators
+## Notion « Cabinet côté créateurs » (livré à la cliente)
 
-*   Sponsor sans cession limitée → exploitation à vie du visage/voix sans royalties
-*   Formation sans CGV 7j → remboursement forcé 15j + avis Google négatif + DDPC
-*   Marque non déposée → rebrand forcé après 100k abonnés, perte SEO + 30k refonte
+*   Base `Deals` (marque, montant, statut paiement, échéance exclusivité)
+*   Base `Contrats types` (cadre, marque UE, affiliation)
+*   Base `Contenus/IP` (où part quel shoot, quelles licences en cours)
+*   Dashboard `Revenus par nature` (services vs commerce — la base du comptable)
 
-## Chiffres 2025 à vérifier à chaque diag (PLF + OMPIC)
+---
 
-*   CGV 31-08 7j + 15j remboursement, contrat PI Loi 2-00 art.11 cession limitée
-*   Marque 1 200 DH/classe 41+35+9, 72h accusé, 2 mois opposition, 10 ans, art.133 premier déposant
-*   Leads 09-08 dès 1 email 5 colonnes + CNDP 30j + bannière + art.24/43 si Mailchimp US
-*   Facture art.144 ICE 10 ans + TVA 20% ou 0% art.92 si devises+30j
-*   AE 200k IR 2% vs SARL 10k IS 20 % (LF 2026), RC 7-14j CRI ~2 000 DH
+**Fin du dossier `02_Niches_Deep_Dive/04_Content_Creators_Infopreneurs/`.**
+
+**Suite logique :** `02_Niches_Deep_Dive/05_MRE_Foreign_Investors/` — la niche 5.
 
 ---
 
 ## Fiche comme mémoire externe, pas comme script de vente
 
-Cette fiche est une mémoire pour ne rien confondre chez un créateur qui vend formation + sponsors + YouTube : CGV 31-08 7j n'est pas les CGU YouTube, contrat sponsor doit contenir cession PI limitée Loi 2-00 art.11 (sinon le sponsor exploite à vie), marque cl.41 indispensable avant de scaler (1 200 DH/classe, opposition 2 mois, premier déposant gagne), leads = registre 09-08 5 colonnes dès 1 email, facture art.144 + TVA 20% ou exon art.92 si client hors Maroc. Ordre : PI → marque → CGV → contrat sponsor → 09-08 → statut AE 200k vs SARL 10k. Le créateur vend de l'immatériel : PI et marque valent plus que la SARL.
+La checklist 15 points est une mémoire du devoir de conseil : écrit avant paiement, licence vs cession chiffrée, exclusivité bornée, 7 jours et 15 jours côté abonnés, opt-in prouvé, nom déposé, devises tracées, statut aligné sur la réalité mixte de l'activité. Chaque case renvoie à une fiche du dossier. Dans cette niche volatile, ce qui est daté et archivé se facture ; ce qui ne l'est pas se plaide — et personne n'a envie de plaider un deal à 15 000 DH.
 
-> Sources : `sgg.gov.ma` Loi 2-00 art.11, Loi 17-97 art.133/148, Loi 31-08 art.36-38, CGI art.144/92, Loi 09-08 art.14/24/43, DOC art.443/618, `ompic.ma`, `cndp.ma` — vérifier annuellement. Glossaire : `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §04 §05 §06 §09 §11.
-> Contexte niche 04 : audience = produit. Protéger nom (marque 41) avant de scaler ads.
-
-**Fin Fiches 04_Content_Creators_Infopreneurs — profondeur max.**
+> Sources : `sgg.gov.ma` (2-00/34-05, 17-97, 31-08, DOC), `ompic.ma` (ROMARIN, barèmes), `cndp.ma` (formalités, grille), `oc.gov.ma` (IGOC édition courante), presse eco documentée (statut influenceurs 2025-2026) — vérifier annuellement ; toute « décision » citée est ouverte sous les yeux (watch 28/08/2026).

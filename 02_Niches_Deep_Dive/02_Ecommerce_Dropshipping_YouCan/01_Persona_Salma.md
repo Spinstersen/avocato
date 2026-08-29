@@ -92,7 +92,7 @@ Salma n'achète pas un « avocat ». Elle achète une **solution concrète à un
    ↓
 [Contacte l'avocat par WhatsApp Business]
    ↓
-[Diagnostic 45 min à 600 DH HT]
+[Diagnostic 45 min à 900 DH HT]
    ↓
 [Mission Pack CGV YouCan 4 900 DH HT + Facturation 2 500 DH HT]
    ↓

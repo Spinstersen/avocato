@@ -1,4 +1,4 @@
-﻿# 05 — Sales Techniques Playbook : manuel de vente avocat
+# 05 — Sales Techniques Playbook : manuel de vente avocat
 
 > **Dossier maître — Skills n°5.** Manuel complet des techniques de vente pour un avocat d'affaires trilingue tech-savvy.
 
@@ -8,8 +8,10 @@ SPIN, Challenger, BATNA, anchoring, objection-handling, closing. Tous les outils
 
 ## Fichiers
 
-- `00_INDEX.md` — ce fichier (sommaire du dossier)
-- `01_Objections.md` — Top 10 objections et reframes (seul fichier détaillé actuel ; les méthodes SPIN/Challenger/BATNA sont traitées en profondeur dans `03_Sales_Without_Selling/`)
+- `00_INDEX.md`
+- `01_Methodes.md` — SPIN, Challenger, BATNA
+- `02_Objections.md` — Top 10 objections et reframes
+- `03_Closing.md` — Comment conclure
 
 ## Les 5 méthodes
 
@@ -44,10 +46,10 @@ Diagnostic SPIN + proposition Challenger.
 4. « Je peux faire le contrat moi-même. » → Risque de clauses défavorables.
 5. « Un autre avocat propose moins cher. » → Différenciation trilingue + tech + design.
 6. « Pourquoi provision 50% ? » → Engagement et garantie.
-7. « Je veux payer en noir. » → Refus formel (fraude fiscale — art. 192 CGI, devoir de probité).
-8. « Vous n'êtes pas de ma ville. » → Travail à distance possible (Zoom + Yousign, dossier national).
-9. « Pouvez-vous garantir le résultat ? » → Non (promesse de résultat interdite — art. 59 Loi 28-08, obligation de moyens).
-10. « Combien de temps ? » → Délai précis (7–14 jours ouvrés après provision + pièces complètes, convention art. 30).
+7. « Je veux payer en noir. » » → Refus formel (fraude fiscale).
+8. « Vous n'êtes pas de ma ville. » » → Travail à distance possible.
+9. « Pouvez-vous garantir le résultat ? » » → Non (promesse interdite).
+10. « Combien de temps ? » » → Délai précis (7-14 jours).
 
 ## Le closing
 
@@ -59,6 +61,8 @@ Diagnostic SPIN + proposition Challenger.
 
 ## Approfondissement Encyclopédique (Bonus)
 
+### Cas pratique détaillé
+**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
 
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 -> overwhelm

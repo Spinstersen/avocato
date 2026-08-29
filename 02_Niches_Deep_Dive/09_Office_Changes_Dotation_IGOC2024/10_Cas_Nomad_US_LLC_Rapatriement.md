@@ -2,7 +2,7 @@
 
 ## Cas 1 — Yassine freelance 600k via Wise → convertible
 
-*   12 virements $5k = 600k DH → 12× justif 30j `07_Obligations...` → IGOC OK → IS 20 % (LF 2026) sur 400k bénéfice (après charges) = 60k vs redressement 180k → Pack 1,500.
+*   12 virements $5k = 600k DH → 12× justif 30j `07_Obligations...` → IGOC OK → IS 15% sur 400k bénéfice (après charges) = 60k vs redressement 180k → Pack 1,500.
 
 ## Cas 2 — Lena nomad 300k US LLC → rapatrie dividende
 

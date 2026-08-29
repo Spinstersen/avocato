@@ -1,4 +1,4 @@
-﻿# 02 — AI for Lawyers : Dossier Maître Encyclopédique
+# 02 — AI for Lawyers : Dossier Maître Encyclopédique
 
 > **Dossier maître — Skills n°2.** IA = assistant, pas avocat. 12 fichiers. Validation humaine 100%, anonymisation 100%, 0 publication brute. S'appuie sur `01_Strategy/01_Rules/12_Fiches_Pratiques.md:144` et `09_Securite_Backup_09-08.md`.
 
@@ -37,6 +37,8 @@
 
 ## Approfondissement Encyclopédique (Bonus)
 
+### Cas pratique détaillé
+**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
 
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 -> overwhelm

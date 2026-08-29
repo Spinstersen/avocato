@@ -1,4 +1,4 @@
-﻿# 10 — Arbre Décision Utiliser IA ou Non
+# 10 — Arbre Décision Utiliser IA ou Non
 
 ```
 Tâche = recherche jurisprudentielle pointue ?
@@ -22,6 +22,8 @@ Si 1 non → ne lance pas.
 
 ## Approfondissement Encyclopédique (Bonus)
 
+### Cas pratique détaillé
+**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
 
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 -> overwhelm

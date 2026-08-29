@@ -21,8 +21,6 @@ Ne courez pas les niches saturées (immobilier résidentiel Casa, recouvrement d
 | 08 | `08_Niche6_AE_vers_SARL.md` | Fiche détaillée niche 6 |
 | 09 | `09_Niches_A_Eviter.md` | Pour éviter les pièges des niches saturées |
 | 10 | `10_Arbre_Choix_Niche.md` | Pour choisir votre niche pilote en 5 min |
-| 11 | `11_Comparatif_International_Niches.md` | Maroc vs France vs Golfe |
-| 12 | `12_Fiches_Pratiques_Niches.md` | 15 fiches choisir/lancer 48h |
 
 ## Le tableau de scoring synthétique
 

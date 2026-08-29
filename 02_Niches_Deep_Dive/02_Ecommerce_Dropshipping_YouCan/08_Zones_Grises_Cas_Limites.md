@@ -1,66 +1,53 @@
 # 08 — Zones Grises & Cas Limites (02_Ecommerce_Dropshipping_YouCan)
 
-> Niche-specifique E-commerce / Dropshipping YouCan — complement de `00_START_HERE/03_Glossaire_12_Concepts_Cles.md`. 80% litiges = CGV + CNDP, pas PE.
+> Complément encyclopédique — réplique `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/07_Zones_Grises_Cas_Pratiques.md`, version e-commerce.
 
-## 5 Zones grises VRAIMENT pertinentes — E-commerce YouCan
+## 5 Zones grises e-commerce YouCan/COD
 
-| Zone | Gris (tolere) | Rouge (sanction) | Procedure sortie | Base legale | Renvoi glossaire §X |
+| # | Situation | Vert | Orange | Rouge | Réf |
 |---|---|---|---|---|---|
-| 1. CGV sans retractation 7j | CGV Shopify copiees tolerees <30j apres lancement | Vente sans info retractation 7j + sans ICE = nullite + amende | CGV Loi 31-08 art.36-38 : 7j, livraison, SAV, ICE/RC/IF + case non pre-cochee | Loi 31-08 art.36-38, DOC art.443 | §11 DOC + §6 09-08 |
-| 2. Registre CNDP sans declaration | Collecte <100 mails sans registre tolere <45j | Registre 5 col. incomplet art.14 sans recepisse 45j → amende 10k-300k + 6m prison | Registre 5 col. art.14 + declaration cndp.ma (recepisse 30j) + CTT si Shopify US art.43-44 | Loi 09-08 art.12/14/23/52 | §6 Loi 09-08 |
-| 3. Banniere cookies non consentie | Bandeau info sans blocage tolere si pas depot | Cookies pub deposes avant consentement = sanction CNDP delib 40-22 | CMP avec consentement prealable, preuve log 3 ans, banniere non pre-cochee | Loi 09-08 art.23, delib CNDP 40-22 | §6 Loi 09-08 |
-| 4. Facture sans ICE art.144 | Facture YouCan sans ICE <10k toleree inter-pro | Facture >10k sans ICE/RC/IF = rejet DGI + TVA 20% + 15% penalites | Facture art.144 : ICE RC IF + mention TVA + numerotation + archivage 10 ans | CGI art.144, art.92 si export | §4 TVA |
-| 5. Marque sans depot classe 35 | Usage nom Insta sans depot tolere <72h | Concurrent depose 35+9 avant vous → perte nom (premier deposant art.133) | Recherche directompic.ma 2h + depot 1 200 DH/classe 35+9+42 en 72h + opposition 2m art.148 | Loi 17-97 art.133/148/155 | §5 OMPIC |
+| 1 | CGV & mentions | CGV complètes (art. 26 s.), ICE/adresse/prix TTC visibles avant paiement | CGV présentes mais copié-collé étranger (rétractation « 14 jours » sans base) | Aucune CGV / clause « aucun retour possible » | Loi 31-08 art. 3, 26-38, 19 (clause abusive nulle) |
+| 2 | Rétractation | 7 jours + formulaire + remboursement ≤15j (art. 36-37) | Politique 7j mais traitement lent sans dépassement du délai | Refus type « produit soldé = pas de retour » alors que la loi ne l'exclut pas (art. 38 liste fermée) | Loi 31-08 art. 36-38 |
+| 3 | COD & retour livraison | Retours refusés-tracés, colis identifiables, frais de retour mentionnés avant commande | Taux de retour >15% sans process — litiges « colis jamais reçu » | Base clients constituée par appels non sollicités + relances SMS sans opt-in | Loi 31-08 ; 09-08 (consentement prospection) |
+| 4 | Plateforme & paiement | CMI/MoPay activés avec dossier conforme ; YouCan + hébergeur → contrat sous-traitant 09-08 | Compte via compte d'un proche (zone dangereuse) | Encaissement perso non déclaré ; factures hors mentions CGI | CGI art. 145 ; obligations bancaires |
+| 5 | Statut & seuils | AE ≤500k CA commerce encaissé, 0,5% | 450k+ approche du plafond sans plan de bascule | Dépassement 2 ans consécutifs → radiation RNAE ; ou CA réel masqué (reconstitution) | Loi 114-13, CGI art. 42 s. |
 
-## Cas limite detaille — chiffre niche 02
+## Cas limite détaillé (à raconter en diagnostic)
 
-### Faits
-- Store YouCan Casa, CA 620k/an commerce 2 400 commandes, CGV template US sans art.36-38.
-- Collecte 8 000 mails + tel WhatsApp sans registre, banniere pre-cochee "accepter tout".
-- Factures sans ICE, nom "AtlasGlow" non depose, hebergement Shopify US sans CTT.
+*   **Faits :** Boutique YouCan cosmétiques, 620k DH/an de CA encaissé (commerce), AE depuis 3 ans. Campagnes WhatsApp « promos flash » sur 12 000 numéros collectés via concours Instagram (case à cocher pré-remplie, aucune archive des consentements). CGV rédigées d'après un modèle français : « rétractation 14 jours » partout, mais mention des frais de retour absente et « aucun remboursement sur produits cosmétiques ouverts » (hors liste art. 38). Un client se plaint à la DDTC ; deux abonnés publient les captures sur un groupe Facebook. Un concurrent vient de déposer une marque identique au nom de boutique, ROMARIN à l'appui.
+*   **Analyse en 3 temps :**
+    1.  **Qualification** : trois régimes distincts se télescopent — consommation (clause cosmétiques ouverte = probablement abusive car l'art. 38 ne l'exclut pas ; « 14 jours » ne fait pas courir d'illégalité mais révèle une CGV non adaptée), données personnelles (concours Instagram = traitement + prospection sans preuve de consentement → art. 64 amende ; case pré-cochée ≠ consentement), fiscal (CA 620k > 500k pendant 2 ans → radiation RNAE inéluctable + rehaussement possible des exercices non prescrits), PI (nom de boutique non déposé = le premier déposant gagne).
+    2.  **Risque chiffré** : amende formalités 09-08 (10k-100k, art. 64) + purge de la base (12 000 contacts marketing perdus) + redressement sur dépassement AE (requalification en entreprise individuelle, IS/IR + TVA sur CA non déclaré) + rachat/rebranding de marque (~30k avec perte de SEO) + réponse DDTC.
+    3.  **Parade** : diagnostic 900 → plan 30 jours : CGV refaites droit marocain, formulaire de consentement + purge/archivage, dossier de bascule SARL avec le comptable, dépôt OMPIC en 2 classes (produits + vente au détail) avant la publication du concurrent, dossier de réponse DDTC.
+*   **Solution livrée** : Pack CGV (4 900) + Mission sous-traitants/transferts plateforme (3 000) + accompagnement bascule SARL (4 900 + comptable) + dépôt marque (mandat OMPIC) ≈ 13-15k HT — pour un business à 620k. Le chiffre d'éviction justifie la dépense.
 
-### Qualification
-- CGV sans retractation 7j → Loi 31-08 art.36 → consommateur annule + signalement, risque remboursement partiel 620k.
-- Registre 09-08 absent + transfert US sans art.43-44 → mise en demeure CNDP 45j (juris. 2023-045) puis amende 10k-300k art.52.
-- Cookies avant consentement → meme sanction cumulable.
-- Factures sans ICE → DGI rejet compta, redressement TVA/IR.
-- Marque : concurrent depose AtlasGlow 35 → perte Insta + domaine, rebrand 40k.
+## Checklist 5 zones (auto-diagnostic e-commerçant)
 
-### Solution
-- CGV 31-08 refondues FR/AR 7j + ICE, contrat FR/EN.
-- Registre 5 col. + declaration CNDP 30j + CTT Shopify + politique confidentialite.
-- CMP Axeptio/Didomi consent prealable, log 3 ans.
-- Facturation art.144 + logiciel numerote.
-- Depot OMPIC 35+9 en 72h 2 400 DH avant notif concurrent.
-
-### Cout
-- Diag 900 HT → Pack e-commerce 4 500 HT (CGV+Registre+CTT+banniere) + depot 2 400 DH.
-- Amende evitee 10k-300k + rebrand 40k. Delai purge : CGV 48h, registre 30j, depot 72h.
-
-## Methode qualification en 3 temps (E-commerce)
-
-1. **Qualification** : vente en ligne → Loi 31-08 applicable ? collecte 1 mail → Loi 09-08 art.14 ? nom → Loi 17-97 ?
-2. **Risque chiffre** : 7j manquant = remboursement, 45j CNDP = 10k-300k, ICE manquant = TVA 20%+15%, marque = perte totale.
-3. **Parade purgeante** : CGV 31-08 avant 1ere vente, registre avant 100 mails, CMP avant pixel, ICE avant facturation, depot 72h avant pub Insta.
-
-## Interactions (chaine e-commerce)
-
-- `Loi 31-08 CGV 7j` ↔ `§6 Loi 09-08 registre 5 col.` ↔ `transfert art.43-44 Shopify US` → `§5 OMPIC 35` → `§4 TVA art.144`.
-- `§3 Rapatriement 30j` si Stripe devises → `§12 Compte`. Sans registre, CGV meme parfaites restent sanctionnables.
-- Ordre diag : CGV → registre → transfert → marque → facturation → compte.
-
-## Checklist 5 zones grises
-
-- [ ] CGV 31-08 art.36-38 7j + ICE + retractation ?
-- [ ] Registre 5 col. art.14 + recepisse CNDP 30j + CTT ?
-- [ ] Banniere consent prealable non pre-cochee + log 3 ans ?
-- [ ] Facture art.144 ICE/RC/IF numerotee ?
-- [ ] Marque 35+9 deposee 72h opposition 2m ?
+*   [ ] Vos CGV citent-elles les délais MAROCAINS (7 jours) et non européens ?
+*   [ ] Avez-vous une PREUVE de consentement par contact marketing (date, source, case non pré-cochée) ?
+*   [ ] CA encaissé des 2 dernières années vs plafond 500k — où êtes-vous ?
+*   [ ] Votre nom de boutique est-il déposé (ROMARIN vérifié) ?
+*   [ ] CMI/MoPay : le dossier site est-il à jour (mentions, CGV, politique retour) ?
 
 ---
 
-## Pourquoi la zone grise est opportunite pedagogique
+## Lecture professionnelle — pourquoi ces zones sont grises
 
-Le gris e-commerce nait de l'ecart entre template Shopify (US) et exigences MA (31-08 + 09-08). Tolere 45j apres mise en demeure CNDP, mais sanctionne au-dela. L'avocat expose les deux branches chiffrees et propose la convention qui couvre la branche prudente, renvoi `11_Arbre_Decision_Avant_Action.md`.
+**E-commerce** est la niche où le texte a le plus d'avance sur les pratiques. La loi 31-08 date de 2011 et ses textes d'application (arrêtés sur la vente à distance) ont tardé ; la doctrine d'application (DDCCRF, associations) est encore peu documentée publiquement ; la CNDP sanctionne davantage sur plainte que par campagne de contrôle. La zone grise naît de ce vide apparent entre « la loi écrit » et « personne ne vérifie encore » — et se referme vite : la digitalisation de la relation client (paiement en ligne, e-facturation 2026) crée une trace que les administrations exploitent déjà.
 
-> Sources : Loi 31-08 art.36-38, Loi 09-08 art.12/14/23/43-44/52, delib CNDP 40-22, Loi 17-97 art.133/148, CGI art.144, IGOC 2024, Glossaire `00_START_HERE/03_Glossaire_12_Concepts_Cles.md` §4-§6. Verif cndp.ma + sgg.gov.ma.
+**Raisonnement en 3 temps** :
+1.  **Qualification** : l'obligation existe-t-elle (CGV, rétractation, opt-in, plafond AE, dépôt de marque) ? — en droit marocain, pas en droit français importé.
+2.  **Risque** : qui est actif aujourd'hui — le client qui saisit la DDCCRF ou une association, la CNDP sur plainte, la DGI sur recoupement bancaire, le concurrent qui dépose avant vous ?
+3.  **Parade** : quel document purge le risque — CGV locales, preuve de consentement, dossier de bascule, récépissé OMPIC.
+
+**Exemple e-commerce** : « Nos produits sont scellés, donc pas de retour » — hors liste art. 38, l'exception ne tient qu'avec descellage effectif et s'apprécie par le juge. La zone grise se tranche par une clause bien rédigée (« retour refusé si sceau rompu pour raison d'hygiène, mention précontractuelle ») + une politique affichée, pas par un panneau « ni repris ni échangé ».
+
+> Références : loi 31-08 (dahir 1-11-03 du 18/02/2011, texte DGCCRF `dgssi.gov.ma`), loi 09-08 + grille `cndp.ma`, loi 53-05 (contrat électronique), loi 17-97/ROMARIN (`ompic.ma`), CGI art. 42 s./145 (`tax.gov.ma`), IGOC édition courante (`oc.gov.ma`). Dernière vérification : 28/08/2026.
+
+---
+
+## Pourquoi la zone grise est une opportunité pédagogique
+
+La zone grise n'est pas une faille à exploiter mais l'écart entre obligation légale et ignorance du marché — l'avocat la comble par de l'information : « le 14 jours de vos CGV françaises ne dit rien de vos 7 jours marocains », « un fichier WhatsApp sans opt-in est une preuve contre vous ». L'avocat n'y répond pas `oui/non` mais `si ... alors ... sinon ...` avec chiffrage des deux branches (`01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/11_Arbre_Decision_Avant_Action.md`).
+
+**Exemple** : Taux de refus COD de 20% — toléré commercialement, rouge dès que les colis retournés sont revendus sans traçabilité ni reprise conformes au droit de la consommation. L'explication porte sur la chaîne contractuelle (fournisseur-livreur-client), pas sur le pourcentage.

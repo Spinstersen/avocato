@@ -33,7 +33,7 @@ La niche 5 a le **meilleur score composite** (32/40) mais la plus difficile acce
 
 ### 3.2 Convention fiscale Maroc-France (ou autre)
 
-- Convention fiscale 29 mai 1970 (modifiée) entre Maroc et France.
+- Convention fiscale 1959 (modifiée) entre Maroc et France.
 - Article 4 : résidence fiscale (critères : foyer, séjour, lieu d'activité).
 - Article 13 : bénéfices des entreprises (établissement stable).
 - Article 27 : méthodes d'élimination de la double imposition.

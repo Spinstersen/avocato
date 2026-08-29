@@ -1,4 +1,4 @@
-﻿# 09 — Comparatif Styles Vente
+# 09 — Comparatif Styles Vente
 
 | Style | Écoute | Pression | Closing | Déonto | Pour avocat |
 |---|---|---|---|---|---|
@@ -16,6 +16,8 @@ SPIN 70% + Challenger 30% = meilleur. Hard sell = sanction + mauvais bouche-à-o
 
 ## Approfondissement Encyclopédique (Bonus)
 
+### Cas pratique détaillé
+**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
 
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 -> overwhelm

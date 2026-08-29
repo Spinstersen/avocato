@@ -2,52 +2,69 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, interactive-widget=resizes-content">
-<title>AVOCATO Learn — Vault de formation juridique</title>
-<link rel="manifest" href="manifest.webmanifest">
-<meta name="theme-color" content="#f2efe8" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#12151c" media="(prefers-color-scheme: dark)">
-<link rel="icon" type="image/svg+xml" href="icons/icon.svg">
-<link rel="apple-touch-icon" href="icons/icon.svg">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AVOCATO — Base documentaire & Cabinet OS — Bureau Plaque & Encrier</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,700;1,500&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
-<script>try{var t=JSON.parse(localStorage.getItem('avocato:theme'));if(t)addEventListener('DOMContentLoaded',function(){document.body.dataset.theme=t;});}catch(e){}</script>
 </head>
-<body data-theme="system" data-font="md" data-app="learn">
-<div id="readProgress" aria-hidden="true"></div>
+<body data-theme="light" data-font="md">
+<!--
+THESIS: Le bureau est l'interface — la plaque de cuivre et l'encrier portent le cabinet, pas un dashboard SaaS anonyme. Refus du admin-template cartes identiques.
+OWN-WORLD: Ink #070e1c + parchment #f6f0e3 + hammered brass #c5a46a hairline + teal tool-mark #1fa89e rare, EB Garamond + Public Sans, double-filet or, flat tonal + 1px card shadow.
+STORY: L'avocat reconnaît son bureau en 2s, ouvre un dossier, signe provision 50% art.30, lance la remise Loom.
+FIRST VIEWPORT: Plaque cuivre 320px gauche + feuille parchemin double-filet or avec ledger registre (KPI + dossiers) et échéances 7j — primaire ink "Nouveau dossier", pas Learn more.
+FORM: Assigned 6/7 Plaque de Cuivre & Encrier (brass bureau) raised with terminal-yellow scale, spectro hairline, miura deploy, cyclorama dawn band — seed df3c790f.
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
+-->
 <div class="app">
 
-  <aside class="sidebar" id="sidebar" aria-label="Navigation">
-    <div class="sidebar-head">
-      <div class="brand">
-        <span class="brand-mark">AV</span>
-        <div>
-          <strong>AVOCATO&nbsp;LEARN</strong>
-          <span class="brand-sub">Vault de formation · FR/EN/AR</span>
-        </div>
+  <aside class="sidebar" id="sidebar" aria-label="Navigation bureau">
+    <div class="plaque" role="banner">
+      <div class="plaque-kicker">République Marocaine <span></span> Barreau</div>
+      <div class="plaque-title">
+        <strong>AVOCATO</strong><em>Bureau</em>
+        <span class="brand-sub">Base documentaire & Cabinet OS</span>
       </div>
+      <p class="plaque-desc">Sans publicité, Loi 28-08. Tenue sur parchemin, scellée à l'encre — offline, localStorage.</p>
+      <div class="plaque-meta"><span>Me <b>Alami</b></span> · <span>ICE 001234567000018</span></div>
       <button class="icon-btn sidebar-close" id="sidebarClose" aria-label="Fermer la navigation">✕</button>
+    </div>
+
+    <div class="mode-switch" role="tablist" aria-label="Mode">
+      <button class="mode-btn active" data-mode="vault" role="tab" aria-selected="true">📚 Base</button>
+      <button class="mode-btn" data-mode="cabinet" role="tab" aria-selected="false">⚖️ Cabinet OS</button>
     </div>
 
     <label class="search-wrap" id="searchWrap">
       <span class="search-icon" aria-hidden="true">⌕</span>
-      <input id="searchInput" type="search" placeholder="Rechercher dans 698 docs…" autocomplete="off">
-      <span class="search-key">/</span>
+      <input id="searchInput" type="search" placeholder="Rechercher… ( / )" autocomplete="off">
     </label>
-
-    <nav style="padding:0 8px 4px;display:flex;flex-wrap:wrap;gap:4px;" id="domainFilter">
-      <button class="df-chip" data-df="all">Tout</button>
-    </nav>
-
-    <nav class="curriculum-path" id="pathChips" aria-label="Parcours curriculum"></nav>
 
     <nav class="tree" id="tree" aria-label="Documents"></nav>
 
+    <nav class="cabinet-nav" id="cabinetNav" hidden>
+      <button class="cab-nav-item active" data-view="dashboard"><span class="glyph">◈</span> Tableau de bord</button>
+      <button class="cab-nav-item" data-view="dossiers"><span class="glyph">▣</span> Dossiers</button>
+      <button class="cab-nav-item" data-view="conventions"><span class="glyph">✎</span> Conventions</button>
+      <button class="cab-nav-item" data-view="factures"><span class="glyph">₪</span> Factures & Provisions</button>
+      <button class="cab-nav-item" data-view="echeances"><span class="glyph">◐</span> Échéances</button>
+      <button class="cab-nav-item" data-view="bibliotheque"><span class="glyph">⧉</span> Bibliothèque</button>
+      <hr class="cab-sep">
+      <button class="cab-nav-item" data-view="new-dossier">＋ Nouveau dossier</button>
+    </nav>
+
     <div class="sidebar-foot">
-      <button class="btn btn-block" id="btnDeadlines" title="Rappels PLF, IGOC, veille, transitions">Échéances légales</button>
-      <a class="btn crosslink" href="cabinet.html" title="Ouvrir la gestion du cabinet">
-        <span>Cabinet OS</span><span aria-hidden="true">→</span>
-      </a>
-      <div class="build-hint">Progression sauvegardée localement (offline)</div>
+      <div class="encrier-row">
+        <div class="encrier" aria-hidden="true"></div>
+        <div>
+          <strong>Provision 50% à l'encre.</strong>
+          <p>Reçu délivré, solde à la remise — HT + TVA claire. Offline.</p>
+        </div>
+      </div>
+      <button class="btn btn-ghost btn-block" id="btnDashboard">🏠 Base — Tableau de bord</button>
+      <div class="build-hint">Base: <code>node scripts/build.js</code> après modif .md</div>
+      <div class="build-hint">Cabinet: données en localStorage</div>
     </div>
   </aside>
   <div class="scrim" id="scrim" hidden></div>
@@ -57,13 +74,12 @@
       <button class="icon-btn" id="menuBtn" aria-label="Ouvrir la navigation">☰</button>
       <div class="crumbs" id="crumbs"></div>
       <div class="topbar-actions">
-        <button class="icon-btn" id="prevBtn" title="Leçon précédente [ [" aria-label="Document précédent">←</button>
-        <button class="icon-btn" id="nextBtn" title="Leçon suivante ] ]" aria-label="Document suivant">→</button>
-        <button class="icon-btn" id="readBtn" title="Marquer lu ( l )" aria-label="Marquer comme lu">✓</button>
-        <button class="icon-btn" id="printBtn" title="Imprimer / PDF ( p )" aria-label="Imprimer" style="font-size:10px;font-weight:700;letter-spacing:.08em">PDF</button>
+        <button class="icon-btn" id="prevBtn" title="Précédent [ [ ]" aria-label="Document précédent">←</button>
+        <button class="icon-btn" id="nextBtn" title="Suivant [ ] ]" aria-label="Document suivant">→</button>
+        <button class="icon-btn" id="readBtn" title="Marquer lu" aria-label="Marquer comme lu">✓</button>
         <button class="icon-btn" id="fontDec" title="Réduire la police" aria-label="Réduire la police">A−</button>
-        <button class="icon-btn" id="fontInc" title="Augmenter la police" aria-label="Agrandir la police">A+</button>
-        <button class="icon-btn" id="themeBtn" title="Thème : clair / sombre / système ( d )" aria-label="Changer de thème">◐</button>
+        <button class="icon-btn" id="fontInc" title="Augmenter la police" aria-label="Augmenter la police">A+</button>
+        <button class="icon-btn" id="themeBtn" title="Thème ( d )" aria-label="Changer de thème">🌙</button>
       </div>
     </header>
 
@@ -71,15 +87,87 @@
   </main>
 </div>
 
+<!-- Cabinet dialogs -->
+<dialog id="dlgDossier" class="dlg">
+  <form method="dialog" id="formDossier">
+    <h3 id="dlgDossierTitle">Nouveau dossier</h3>
+    <div class="form-grid">
+      <label>Client / Société *<input name="client" required placeholder="Ex: SARL Atlas - M. Alami"></label>
+      <label>ICE (si société)<input name="ice" placeholder="ICE 15 chiffres"></label>
+      <label>Type *<select name="type" required>
+        <option value="">— Choisir —</option>
+        <option>Freelance / Agence offshore</option>
+        <option>E-commerce / YouCan</option>
+        <option>Loi 09-08 / PME</option>
+        <option>Créateur / Infopreneur</option>
+        <option>MRE / Investisseur</option>
+        <option>AE → SARL</option>
+        <option>Autre</option>
+      </select></label>
+      <label>Mission *<select name="mission" required>
+        <option value="">— Choisir —</option>
+        <option>Diagnostic (600-900 DH HT)</option>
+        <option>Mission Contrats - Essentielle (2.500-5.000 DH HT)</option>
+        <option>Mission Conformité e-commerce (3.500-6.000 DH HT)</option>
+        <option>Mission Loi 09-08 (12.000-28.000 DH HT)</option>
+        <option>Mission Création/Structuration (5.000-8.000 DH HT)</option>
+        <option>Abonnement - Secrétariat juridique (2.500-6.000 DH HT/mois)</option>
+      </select></label>
+      <label>Honoraires HT (DH) *<input name="honoraires" type="number" min="0" required placeholder="2900"></label>
+      <label>TVA
+        <select name="tva"><option value="20">20% (assujetti)</option><option value="0">0% (non assujetti, art. 91 CGI)</option></select>
+      </label>
+      <label>Provision %<input name="provisionPct" type="number" min="0" max="100" value="50"></label>
+      <label>Statut<select name="statut">
+        <option>Prospect</option>
+        <option>Convention envoyée</option>
+        <option>Convention signée</option>
+        <option>En cours</option>
+        <option>Livré - solde dû</option>
+        <option>Clôturé</option>
+        <option>Abandonné</option>
+      </select></label>
+      <label>Échéance prévisionnelle<input name="echeance" type="date"></label>
+      <label>Contact (tél/WhatsApp)<input name="contact" placeholder="06 XX XX XX XX"></label>
+      <label class="span-2">Notes<textarea name="notes" rows="2" placeholder="Source: comptable X, diagnostic du JJ/MM, risques identifiés..."></textarea></label>
+    </div>
+    <div class="dlg-actions">
+      <button type="button" class="btn" id="btnCancelDossier">Annuler</button>
+      <button type="submit" class="btn btn-primary">Enregistrer dossier</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="dlgEcheance" class="dlg">
+  <form method="dialog" id="formEcheance">
+    <h3>Nouvelle échéance</h3>
+    <div class="form-grid">
+      <label>Dossier<select name="dossierId" id="echeanceDossierSel"></select></label>
+      <label>Date *<input name="date" type="date" required></label>
+      <label>Type<select name="type">
+        <option>Remise livrables</option>
+        <option>Relance provision</option>
+        <option>Relance solde</option>
+        <option>Dépôt CNDP/OMPIC/CRI</option>
+        <option>AG / Formalité</option>
+        <option>Renouvellement abonnement</option>
+        <option>Autre</option>
+      </select></label>
+      <label class="span-2">Intitulé *<input name="intitule" required placeholder="Ex: Remise V1 contrat + Loom"></label>
+    </div>
+    <div class="dlg-actions">
+      <button type="button" class="btn" id="btnCancelEcheance">Annuler</button>
+      <button type="submit" class="btn btn-primary">Ajouter</button>
+    </div>
+  </form>
+</dialog>
+
+<div id="printArea" hidden></div>
+
 <script src="vendor/marked.min.js"></script>
 <script src="vendor/chart.umd.min.js"></script>
 <script src="data.js"></script>
-<script src="glossary.js"></script>
 <script src="app.js"></script>
-<script>
-if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) {
-  navigator.serviceWorker.register('sw.js').catch(() => {});
-}
-</script>
+<script src="cabinet.js"></script>
 </body>
 </html>

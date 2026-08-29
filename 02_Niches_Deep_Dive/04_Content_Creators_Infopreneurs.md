@@ -1,8 +1,5 @@
 ﻿# Niche #4 : Créateurs de contenu, Infopreneurs, Formateurs en ligne
 
-> **Comment utiliser ce fichier (curriculum) :** Ce fichier est le **playbook 7 jours acquisition** — où trouver les clients, quoi dire, quel lead magnet, quel script DM. Pour le **fond juridique** (base légale exacte, offre productisée détaillée avec provision 50% / Yousign / débours OMPIC, workflow, cas pratique chiffré, zones grises, jurisprudence), ouvrez le dossier deep dive : `02_Niches_Deep_Dive/04_Content_Creators_Infopreneurs/00_INDEX.md` (13 fichiers, 00_INDEX → 12_Fiches).
-> **Fondement juridique du pack cité :** Loi 31-08 (CGV formation, rétractation), Loi 2-00 art.9 (cession PI), Loi 09-08 (données), OMPIC classes 41/35, DMCA. Vérifiez chaque chiffre sur sgg.gov.ma / cndp.ma / ompic.ma / oc.gov.ma (IGOC juillet 2024) — PLF et IGOC changent les taux.
-
 > **Verdict : OCÉAN BLEU. Aucun avocat ne les cible, ils ont de la trésorerie, besoin en PI + contrats.**
 
 ## Qui

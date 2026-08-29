@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AVOCATO — Concept C · Split-Flap Concourse</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --board:#0a0a0a;
+    --board-2:#111214;
+    --steel:#c0c6cc;
+    --steel-2:#aeb5bf;
+    --steel-3:#e6e8eb;
+    --amber:#ffb800;
+    --amber-dim:#8a5d00;
+    --red:#ff2b2b;
+    --line:#2a2e35;
+    --text:#f2f3f5;
+    --text-dim:#9aa0aa;
+    --yellow:#ffcc00;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:
+      linear-gradient(180deg, #d7dae0 0%, #c0c6cc 18%, #aeb5bf 100%);
+    color:var(--board);
+    font-family:"IBM Plex Sans", system-ui, sans-serif;
+    min-height:100vh;
+  }
+  ::selection{background:var(--amber)}
+  :focus-visible{outline:2px solid var(--amber); outline-offset:2px}
+
+  .frame{
+    max-width:1180px; margin:18px auto; background:linear-gradient(180deg, #e6e8eb, #c0c6cc 12%, #aeb5bf 100%);
+    border:1px solid #8a9099; border-radius:4px; padding:10px; box-shadow:0 12px 40px rgba(0,0,0,.25), inset 0 1px 0 rgba(255,255,255,.7);
+  }
+  .board{
+    background:var(--board); border:1px solid #000; border-radius:3px; overflow:hidden;
+    box-shadow:inset 0 2px 0 rgba(255,255,255,.06), inset 0 -1px 0 rgba(0,0,0,.6);
+  }
+  .board-top{
+    display:flex; align-items:center; gap:12px; padding:10px 14px; background:#111214; border-bottom:1px solid var(--line);
+  }
+  .lamps{display:flex; gap:5px}
+  .lamp{width:8px;height:8px; border-radius:50%; background:#222; border:1px solid #333; box-shadow:inset 0 1px 1px rgba(0,0,0,.8)}
+  .lamp.amber{background:var(--amber); box-shadow:0 0 6px rgba(255,184,0,.8), inset 0 1px 0 rgba(255,255,255,.6)}
+  .board-top b{font:700 10px "IBM Plex Sans"; letter-spacing:.16em; text-transform:uppercase; color:rgba(255,255,255,.55)}
+  .board-top b strong{color:var(--amber)}
+
+  /* Hero split-flap header */
+  .hero-flap{
+    display:grid; grid-template-columns:1fr 320px; gap:0; border-bottom:6px solid #000;
+  }
+  .flap-left{padding:28px 26px 22px; border-right:1px solid #1a1a1a}
+  .kicker{font:600 10px "IBM Plex Mono"; letter-spacing:.16em; text-transform:uppercase; color:var(--amber); display:flex; align-items:center; gap:8px}
+  .kicker:after{content:""; flex:1; height:1px; background:linear-gradient(to right, var(--amber), transparent)}
+  .flap-left h1{
+    margin:10px 0 8px; font:700 44px/0.9 "IBM Plex Sans"; letter-spacing:-.04em; text-transform:uppercase; color:var(--text);
+  }
+  .flap-left h1 .flap-word{
+    background:linear-gradient(180deg, #1a1a1a 0%, #000 48%, #1a1a1a 52%, #000 100%);
+    color:#fff; padding:2px 8px; border:1px solid #2a2a2a; border-radius:2px; display:inline-block;
+    box-shadow:0 2px 0 #000, inset 0 1px 0 rgba(255,255,255,.08);
+    text-shadow:0 1px 0 #000;
+  }
+  .flap-left p{margin:0; max-width:52ch; color:rgba(255,255,255,.58); font:400 13.5px/1.65 "IBM Plex Sans"}
+  .flap-right{background:#0f0f0f; padding:18px; display:grid; gap:10px; border-left:1px solid #1a1a1a}
+  .flap-stack{font:600 10px "IBM Plex Mono"; letter-spacing:.12em; text-transform:uppercase; color:rgba(255,255,255,.45)}
+  .flap{ 
+    display:grid; grid-template-columns:repeat(8,1fr); gap:3px;
+  }
+  .cell{
+    background:linear-gradient(180deg, #1e1e1e 0%, #0a0a0a 50%, #0a0a0a 52%, #111 100%);
+    border:1px solid #2a2a2a; border-radius:2px; height:44px; display:grid; place-items:center;
+    font:700 20px/1 "IBM Plex Mono"; color:#fff; letter-spacing:.02em;
+    box-shadow:0 2px 0 #000, inset 0 1px 0 rgba(255,255,255,.06); position:relative; overflow:hidden;
+  }
+  .cell:after{content:""; position:absolute; left:0; right:0; top:50%; height:1px; background:rgba(0,0,0,.85); box-shadow:0 1px 0 rgba(255,255,255,.04)}
+  .cell.amber{color:var(--amber); border-color:rgba(255,184,0,.35)}
+  .meta-row{display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin-top:6px}
+  .meta{background:#141414; border:1px solid #222; border-radius:2px; padding:9px 10px}
+  .meta .n{font:700 18px/1 "IBM Plex Mono"; color:#fff}
+  .meta .n.amber{color:var(--amber)}
+  .meta .l{font:600 9px "IBM Plex Mono"; letter-spacing:.1em; text-transform:uppercase; color:rgba(255,255,255,.45); margin-top:2px}
+
+  /* Table as board rows */
+  .section{padding:14px}
+  .section-head{display:flex; align-items:center; gap:10px; margin-bottom:10px}
+  .section-head h3{margin:0; font:700 11px "IBM Plex Mono"; letter-spacing:.14em; text-transform:uppercase; color:rgba(255,255,255,.72)}
+  .section-head h3 b{color:var(--amber)}
+  .section-head span{font:400 11px "IBM Plex Mono"; color:rgba(255,255,255,.38); margin-left:auto}
+  .rows{display:grid; gap:6px}
+  .row{
+    display:grid; grid-template-columns:56px 1.2fr .9fr 110px 120px 46px; gap:0;
+    background:linear-gradient(180deg, #1a1a1a 0%, #0f0f0f 100%); border:1px solid #222; border-radius:2px; overflow:hidden;
+    box-shadow:0 1px 0 #000;
+  }
+  .row>div{padding:11px 10px; border-right:1px solid #222; display:flex; flex-direction:column; justify-content:center; min-height:56px}
+  .row>div:last-child{border-right:0; align-items:center; justify-content:center; background:#0a0a0a}
+  .row .gate{font:700 13px "IBM Plex Mono"; letter-spacing:.08em; color:var(--amber); text-transform:uppercase}
+  .row .client{font:600 13px "IBM Plex Sans"; color:#fff; line-height:1.2}
+  .row .client small{font:400 11px "IBM Plex Mono"; color:rgba(255,255,255,.45); display:block; margin-top:2px}
+  .row .mission{font:500 12px "IBM Plex Sans"; color:rgba(255,255,255,.75); line-height:1.35}
+  .row .mission small{color:rgba(255,255,255,.4); font:400 11px "IBM Plex Mono"}
+  .row .money{font:600 12px "IBM Plex Mono"; color:#fff; text-align:right; align-items:end}
+  .row .money small{font:400 10px "IBM Plex Mono"; color:rgba(255,255,255,.45)}
+  .badge{font:700 10px "IBM Plex Mono"; letter-spacing:.08em; text-transform:uppercase; padding:4px 7px; border-radius:2px; border:1px solid #222; text-align:center; width:100%}
+  .b-prospect{background:#111; color:rgba(255,255,255,.75); border-color:#2a2a2a}
+  .b-signee{background:var(--amber); color:#111; border-color:var(--amber)}
+  .b-encours{background:#1a2a4a; color:#a9c0ff; border-color:#2a3d6b}
+  .b-retard{background:#c3002f; color:#fff; border-color:#900020; animation:blink 1.2s steps(2, end) infinite}
+  @keyframes blink{50%{opacity:.55}}
+  .row.dim{opacity:.55}
+  .row.dim .badge{background:#0a0a0a; color:rgba(255,255,255,.4)}
+  .arrow-btn{width:30px;height:30px; border:1px solid #333; background:#111; color:rgba(255,255,255,.7); display:grid; place-items:center; border-radius:2px; cursor:pointer}
+  .arrow-btn:hover{border-color:var(--amber); color:var(--amber)}
+
+  .vault{
+    display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin-top:10px;
+  }
+  .vault-card{background:#111214; border:1px solid #222; border-radius:2px; padding:12px 12px 10px}
+  .vault-card h4{margin:0 0 4px; font:700 11px "IBM Plex Mono"; letter-spacing:.08em; text-transform:uppercase; color:var(--amber)}
+  .vault-card p{margin:0; font:400 12px/1.5 "IBM Plex Sans"; color:rgba(255,255,255,.58)}
+  .steel-label{font:600 10px "IBM Plex Mono"; letter-spacing:.12em; text-transform:uppercase; color:rgba(255,255,255,.35); text-align:center; margin-top:10px}
+
+  @media (max-width:980px){
+    .hero-flap{grid-template-columns:1fr}
+    .row{grid-template-columns:56px 1fr 110px 46px}
+    .row .mission, .row .money{ display:none}
+    .vault{grid-template-columns:1fr}
+    .frame{margin:0; border-radius:0; padding:6px}
+  }
+</style>
+</head>
+<body>
+<!-- THESIS: Concours as cabinet — every dossier is a departure, its status is the flap. OWN-WORLD: Matte black flap faces + white paint letters + brushed steel frame + amber delay lamps, condensed sans in fixed cells, ruled row/columns as composition, cascade character by character. STORY: Avocat lifts eyes with travelers as board clacks — Milan becomes Marseille — dossiers update without losing the gaze. FIRST VIEWPORT: Steel-framed board with hero flap "AVOCATO DEPARTURES" + gate stack A7 + three metrics — rows ranked by time, columns never move, only flaps. FORM: Challenger 4 fused (signals-instruments-split-flap-concourse) vs brass assignment — competitive on clarity, donation steel frame + amber cascade discipline. FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance -->
+<div class="frame">
+  <div class="board">
+    <div class="board-top">
+      <div class="lamps"><span class="lamp amber"></span><span class="lamp amber"></span><span class="lamp"></span></div>
+      <b>AVOCATO · <strong>Board</strong> — Offline file:// · localStorage · HT+TVA · 177 DOCS</b>
+      <span style="margin-left:auto; font:600 10px 'IBM Plex Mono'; letter-spacing:.12em; text-transform:uppercase; color:rgba(255,255,255,.4)">Clack cascade · Semantic table beneath</span>
+      <span style="background:var(--amber); color:#111; padding:3px 7px; font:700 10px 'IBM Plex Mono'; border-radius:2px">● LIVE</span>
+    </div>
+
+    <div class="hero-flap">
+      <div class="flap-left">
+        <div class="kicker">Concourse — Dossiers en partance</div>
+        <h1>AVOCATO <span class="flap-word">DEPARTURES</span></h1>
+        <p>La cascade qui tient mille regards : destination, porte, heure, statut — tout change lettre par lettre, la grille ne bouge jamais. Un poste = un sillon, lisible à 10 mètres.</p>
+        <div class="meta-row">
+          <div class="meta"><div class="n">27<span style="font-size:12px; opacity:.6">k</span></div><div class="l">DH HT en cours</div></div>
+          <div class="meta"><div class="n amber">3</div><div class="l">Retards · Amber lamp</div></div>
+          <div class="meta"><div class="n">12</div><div class="l">Gates ouverts</div></div>
+        </div>
+      </div>
+      <div class="flap-right">
+        <div class="flap-stack">Now boarding — Gate A7</div>
+        <div class="flap" aria-hidden="true">
+          <div class="cell">A</div><div class="cell">7</div><div class="cell">—</div><div class="cell">A</div><div class="cell">T</div><div class="cell">L</div><div class="cell">A</div><div class="cell">S</div>
+        </div>
+        <div class="flap" style="margin-top:4px">
+          <div class="cell amber" style="font-size:12px">14:30</div><div class="cell">C</div><div class="cell">H</div><div class="cell">—</div><div class="cell">0</div><div class="cell">1</div><div class="cell">4</div><div class="cell">→</div>
+        </div>
+        <div style="font:400 11px/1.5 'IBM Plex Sans'; color:rgba(255,255,255,.55)">SARL Atlas Digital — Convention signée · Provision <b style="color:var(--amber)">2 100 TTC</b> · Loom 15 min. Le volet claque, la ligne s'imprime.</div>
+        <button style="background:var(--amber); color:#111; border:1px solid var(--amber); padding:10px; font:700 11px 'IBM Plex Mono'; letter-spacing:.08em; text-transform:uppercase; border-radius:2px; cursor:pointer">↗ Ouvrir Gate A7 — Dossier</button>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-head"><h3>Live rows — <b>ranked by time</b></h3><span>Columns never move, only flaps · Delayed rows amber, cancelled dim red</span></div>
+      <div class="rows">
+        <div class="row">
+          <div><span class="gate">A7</span><span style="font:600 9px 'IBM Plex Mono'; letter-spacing:.1em; color:rgba(255,255,255,.35)">14:30</span></div>
+          <div><span class="client">SARL Atlas Digital<small>ICE 0012 · Offshore · Agence</small></span></div>
+          <div><span class="mission">Contrats Essentielle<small>Réserve propriété · 12 clauses</small></span></div>
+          <div><span class="money">3 500<small>DH HT / 4 200 TTC</small></span></div>
+          <div><span class="badge b-signee">Signée — Boarding</span></div>
+          <div><button class="arrow-btn">→</button></div>
+        </div>
+        <div class="row">
+          <div><span class="gate">A8</span><span style="font:600 9px 'IBM Plex Mono'; color:rgba(255,255,255,.35)">15:10</span></div>
+          <div><span class="client">Lina Shop — YouCan<small>E-commerce · COD 3 litiges</small></span></div>
+          <div><span class="mission">Conformité e-commerce<small>CGV 31-08 + 09-08</small></span></div>
+          <div><span class="money">4 200<small>DH HT</small></span></div>
+          <div><span class="badge b-encours">En cours</span></div>
+          <div><button class="arrow-btn">→</button></div>
+        </div>
+        <div class="row" style="border-color:rgba(255,43,43,.45)">
+          <div><span class="gate" style="color:var(--red)">A9</span><span style="font:600 9px 'IBM Plex Mono'; color:var(--red)">RETARD</span></div>
+          <div><span class="client">Clinique El Amal<small>Données santé · AWS · Registre 5 onglets</small></span></div>
+          <div><span class="mission">Loi 09-08<small>Grille sanctions 50k HT</small></span></div>
+          <div><span class="money">18 000<small>DH HT</small></span></div>
+          <div><span class="badge b-retard">● Retard J+2</span></div>
+          <div><button class="arrow-btn" style="color:var(--red); border-color:var(--red)">↗</button></div>
+        </div>
+        <div class="row dim">
+          <div><span class="gate">A10</span><span style="font:600 9px 'IBM Plex Mono'; color:rgba(255,255,255,.25)">16:00</span></div>
+          <div><span class="client">MRE Invest — Tanger<small>Clôturé</small></span></div>
+          <div><span class="mission">Création / Structuration</span></div>
+          <div><span class="money">6 500<small>DH HT</small></span></div>
+          <div><span class="badge b-prospect">Clôturé</span></div>
+          <div><button class="arrow-btn">×</button></div>
+        </div>
+      </div>
+      <div style="display:flex; gap:8px; margin-top:10px; flex-wrap:wrap">
+        <span style="font:600 10px 'IBM Plex Mono'; letter-spacing:.1em; text-transform:uppercase; color:rgba(255,255,255,.45)">Légende bord:</span>
+        <span style="font:600 10px 'IBM Plex Mono'; background:var(--amber); color:#111; padding:3px 6px; border-radius:2px">AMBER = Delay</span>
+        <span style="font:600 10px 'IBM Plex Mono'; background:#c3002f; color:#fff; padding:3px 6px; border-radius:2px">RED = Cancelled / Retard</span>
+        <span style="font:600 10px 'IBM Plex Mono'; background:#1a2a4a; color:#a9c0ff; padding:3px 6px; border-radius:2px">BLUE = En cours</span>
+      </div>
+    </div>
+
+    <div class="section" style="border-top:1px solid #1a1a1a">
+      <div class="section-head"><h3>Vault — <b>information juridique</b></h3><span>177 docs · Ruled rows are the composition · No card grid</span></div>
+      <div class="vault">
+        <div class="vault-card"><h4>00 Commencer ici</h4><p>5 min · READ_ME + ADHD QuickStart. Une niche, un canal. La grille tient le regard, pas l'illustration.</p></div>
+        <div class="vault-card"><h4>01 Stratégie 28-08</h4><p>Rules, positioning trilingue, déontologie 06 — grille sanctions, secret, conflits.</p></div>
+        <div class="vault-card"><h4>02 Niches 07·08·09</h4><p>PI / Fisc. inter. / Office Changes IGOC — packs chiffrés, provision 50%.</p></div>
+        <div class="vault-card"><h4>03 Acquisition 6 canaux</h4><p>LinkedIn, SEO éducationnel, comptables, WhatsApp, ateliers, referral — sans pub.</p></div>
+        <div class="vault-card"><h4>06 ADHD OS</h4><p>Daily OS, Notion second brain, dopamine menu — flat, tonal, 1px shadow.</p></div>
+        <div class="vault-card" style="border-color:var(--amber)"><h4 style="color:var(--amber)">08 Jurisprudence</h4><p>09-08 CNDP 4 déc., 31-08, Contrats Cass. — à citer en diagnostic.</p></div>
+      </div>
+      <div class="steel-label">Brushed steel frame as ground · Flap faces are the content · Motion = per-character cascade, semantic table beneath</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

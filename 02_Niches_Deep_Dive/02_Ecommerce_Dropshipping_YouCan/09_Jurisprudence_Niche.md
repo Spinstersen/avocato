@@ -1,59 +1,52 @@
 # 09 — Jurisprudence & Doctrine (02_Ecommerce_Dropshipping_YouCan)
 
-> Réplique `08_Jurisprudence/00_Index.md:15` + `01_Strategy/01_Rules/09_Jurisprudence_Ordre_Decisions.md` — Renvois Glossaire §06, §05, §11 — vérif sgg.gov.ma / cndp.ma / ompic.ma à date du diagnostic.
+> Réplique `08_Jurisprudence/00_Index.md` — **règle de vérifiabilité (28/08/2026)** : les trois références « CNDP 2023-045 / Cass. com 2022/123 / OMPIC 2023/89 HRFlow » qui circulaient dans ce dossier étaient des illustrations sans décision publiée — retirées. Ci-dessous : ce qui est réellement citable pour un e-commerçant marocain.
 
-## 3 Décisions à citer en diagnostic 02_Ecommerce_Dropshipping_YouCan
+## Ce qui est vérifiable pour cette niche
 
-### 1. CNDP — E-commerce 50 commandes/jour sans registre 5 colonnes
+### 1. Droit de la consommation (loi 31-08) — les articles, pas des arrêts inventés
 
-- **Réf :** CNDP Délib. n° D-2023-045 du 12/04/2023 — cndp.ma, publiée `08_Jurisprudence/01_Loi_09-08/00_INDEX.md:5`.
-- **Faits :** Boutique YouCan/Shopify à 50 cmd/j collectait noms/tél/adresses + prospection WhatsApp sans registre, sans information clients, sans consentement traçable.
-- **Solution :** Mise en demeure 45j de constituer registre 5 colonnes (traitement/finalité/base légale/durée/destinataires) art.14 + art.23 Loi 09-08, amende 10k-300k DH art.52 en cas d'inexécution.
-- **Takeaway diagnostic :** « Sans registre 5 colonnes vous êtes en infraction dès le 1er email — on le constitue en 48h, sinon amende 10k-300k au contrôle. »
-- **Mission liée :** Registre Notion/Excel + politique confidentialité + formulaire opt-in non pré-coché — livré 10j.
-- **Glossaire :** §06 Loi 09-08 registre 45j + §10 clause données dans CGV.
+*   **Art. 36** : rétractation **7 jours** (vente à distance) — portée à **30 jours** si le vendeur n'a pas confirmé les informations légales par écrit. Source : texte officiel (dahir 1-11-03 du 18/02/2011), brochure `dgssi.gov.ma`.
+*   **Art. 37** : remboursement intégral **sous 15 jours** après rétractation ; intérêts au taux légal au-delà.
+*   **Art. 38** : liste fermée d'exceptions (services déjà commencés avec accord, biens personnalisés, produits descellés, etc.) — « vendu = final » n'en fait pas partie.
+*   **Art. 15-19** : clauses abusives nulles de plein droit ; le contrat subsiste pour le reste (art. 19) — source : texte consolidé, revues juridiques (9anoun.ai, adala.ai citant l'article).
+*   **Art. 33-34** : silence ≠ acceptation ; **charge de la preuve sur le fournisseur** — l'argument décisif en diagnostic : sans CGV ni trace de consentement, le vendeur perd d'avance.
+*   **Contrôle administratif** : la DGCCRF (ministère de l'Industrie et du Commerce, `mcinet.gov.ma`) dispose d'enquêteurs assermentés et communique sur les campagnes de conformité (prix, information) — citer ses communiqués, pas des « jurisprudences » fantômes.
+*   **Prudence :** la jurisprudence marocaine de la consommation publiée en français est rare ; les « décisions » circulant sur les blogs sont souvent des résumés sans référence. En diagnostic : on cite l'article + le mécanisme de preuve. En contentieux : on produit le jugement.
 
-### 2. Trib. com. Casa — CGV sans droit de rétractation 7 jours
+### 2. Données personnelles de la boutique (loi 09-08)
 
-- **Réf :** Trib. com. Casablanca Jugt n° 4521 du 22/09/2023 — greffe trib. com. Casa, Loi 31-08.
-- **Faits :** Dropshipper YouCan livrait en 20j avec CGV copiée « ni repris ni échangé », sans info rétractation, livraison >30j.
-- **Solution :** Clause abusive annulée art.15+19 Loi 31-08 + art.264 DOC — rétractation légale 7j art.36-37 Loi 31-08 d'ordre public, remboursement 15j + astreinte 500 DH/j.
-- **Takeaway diagnostic :** « CGV sans rétractation 7j = clause nulle + remboursement forcé — on réécrit CGV avec 7j + livraison 30j max + médiation. »
-- **Mission liée :** Pack CGV/Mentions légales/Politique retour conforme 31-08 + registre consentements — modèle `05_Document_Bank`.
-- **Glossaire :** §11 DOC art.264/230 + §05 OMPIC (marque avant CGV).
+*   **Art. 64** : traitement sans formalités préalables → amende **10 000-100 000 DH** ; **art. 65** : collecte frauduleuse/déloyale → jusqu'à 3 ans.
+*   **Grille officielle CNDP** : « Liste des infractions à la loi n°09-08 et des sanctions prévues » (PDF sur `cndp.ma`) — à afficher en diagnostic.
+*   **Cas type prospection** (illustration `08_Jurisprudence/01_...` §4) : SMS/WhatsApp sur base de concours sans case non pré-cochée = le premier contentieux CNDP en volume (plaintes : 508/an dès 2017 — chiffres CNDP publiés).
 
-### 3. OMPIC — Contrefaçon boutique YouCan classe 35 déposée après usage
+### 3. Marque de la boutique (loi 17-97, propriété industrielle)
 
-- **Réf :** OMPIC Opposition n° 2023-147 du 06/12/2023 — ompic.ma Bulletin n° 412, Loi 17-97.
-- **Faits :** Boutique YouCan « CasaGlow » usage 8 mois sans dépôt — concurrent dépose « CASAGLOW » classe 35 (e-commerce) + 42, opposition 2 mois art.148.
-- **Solution :** Opposition admise — premier déposant propriétaire art.133 Loi 17-97, même si usage antérieur non déposé = contrefaçon art.155, retrait listings + 25k DH dommages.
-- **Takeaway diagnostic :** « Premier déposant = propriétaire — on dépose classe 35 + 9/42 avant 1ère pub, surveillance Bulletin 2 mois sinon 25k + fermeture boutique. »
-- **Mission liée :** Recherche antériorité directompic.ma 2h + dépôt 1 200 DH/classe 72h + surveillance 2 mois — joint à CGV.
-- **Glossaire :** §05 OMPIC classe 35/42 + §11 cession PI Loi 2-00 si freelance a créé logo.
+*   **Décision réelle** : **CA com Casablanca 2024 — « NOUR DAR » / « ALNOUR »** : annulation de la décision d'opposition OMPIC pour dépassement du délai impératif (art. 148-3) — source `jurisprudence.ma`. Takeaway e-commerce : les droits se gagnent par la procédure (dépôt d'abord, opposition dans les 2 mois ensuite) et l'administration elle-même est annulée quand elle rate ses délais.
+*   **Barèmes sourcés** : dépôt marque ≈ **1 800 DH/classe** + publication ≈ 400 DH ; opposition ≈ **2 400 DH/classe**, formulaire M7, décision OMPIC sous 6 mois (art. 148.2-3) — `ompic.ma`. Recherche d'antériorité gratuite : ROMARIN.
 
-## Fiche Notion modèle — à dupliquer (vide)
+### 4. Contrat électronique & paiement
+
+*   **Loi 53-05** (échange électronique de données juridiques) : validité du contrat en ligne, conservation — la base de « votre CGV acceptée par clic a une valeur ».
+*   **CMI/MoPay** : exigences contractuelles privées (CGV visibles, ICE, politique retour) — citables comme engagement contractuel, pas comme obligation légale.
+
+## Fiche Notion modèle
 
 ```
-Réf: [ex: CNDP D-2023-045 du 12/04/2023 — cndp.ma / OMPIC 2023-147]
-Faits: 1 phrase contextualisée e-commerce/YouCan/dropshipping
-Solution: 1 phrase + base légale exacte (art.14 Loi 09-08 / art.36 Loi 31-08 / art.133 Loi 17-97)
-Takeaway client: 1 phrase actionnable + chiffre (45j / 7j / 2 mois / 10k-300k)
-Mission liée: Registre CGV / Dépôt marque — délai 7-10j
-Source vérifiable: cndp.ma / ompic.ma / sgg.gov.ma — date vérif: __/__/2026
+Réf: Loi 31-08 art. 36 (rétractation 7j) + art. 37 (remboursement 15j)
+Faits: type — client demande retour à J+5, vendeur refuse « ni repris ni remboursé »
+Solution: rétractation valable (dans liste art. 38 aucune exception applicable) ; clause « aucun retour » nulle (art. 19)
+Article: 31-08 art. 36-38, 15-19 ; preuve charge vendeur (art. 34)
+Takeaway client: "Un CGV française à 14 jours + un refus de retour = procès perdu d'avance et clause effacée"
+Source: dgssi.gov.ma (brochure officielle) / sgg.gov.ma (texte consolidé)
 ```
-
-## Interactions avec autres niches
-
-- **Niche 03 Loi 09-08 :** Registre 50 cmd/j = socle — boutique sans registre = mission Niche 03 en urgence §06.
-- **Niche 04 Creators :** Boutique qui vend formation = CGV 31-08 + cession droits Loi 2-00 — cumuler §05 + §11.
-- **Niche 01 Freelance :** Gérant offshore encaissant Shopify via Stripe US = transfert art.43-44 + rapatriement 30j §03/§06.
-
-## Sources & Renvois glossaire
-
-- sgg.gov.ma : Loi 09-08 art.14/23/52, Loi 31-08 art.36-37/15, Loi 17-97 art.133/148/155, DOC art.264.
-- cndp.ma : Délib. D-2023-045 — guide registre 5 colonnes.
-- ompic.ma : Opposition 2023-147 — Bull. 412 — guide classes Nice 35/42.
-- Glossaire : §06 (CNDP 45j), §05 (OMPIC 2 mois/1 200 DH), §11 (clause pénale), §03 (Shopify US = transfert).
 
 ---
-> Méthode : `08_Jurisprudence/01:5-10` — vérifier dernier Bulletin OMPIC et PLF avant chiffrage amende/dépôt.
+
+## Lecture doctrinale — citer sans travestir (adapté e-commerce)
+
+**La tentation spécifique de cette niche** est le recours à une « jurisprudence CNIL/CNIL-like » ou un précédent français qu'on ne peut pas produire au juge marocain. Le client YouCan veut du concret : ce que l'article impose, ce que la plateforme exige, ce que le concurrent peut faire (dépôt de marque). Chaque phrase chiffrée de ce dossier a une source ouverte : texte 31-08 (DGCCRF/sgg), grille CNDP, barème OMPIC.
+
+**Hiérarchie de l'argument en diagnostic** : (1) obligation textuelle vérifiable ; (2) exigence contractuelle de la plateforme (CMI, YouCan, Meta) ; (3) comportement des concurrents et contentieux de marque ; (4) statistiques publiques (plaintes CNDP, campagnes DGCCRF). La « peur du chiffre » vient du régime de preuve (art. 34 : c'est le vendeur qui prouve), pas d'un montant max rarement appliqué.
+
+**Exemple de bonne citation** : « Le code de la consommation marocain donne 7 jours au client (art. 36) — 30 si vous n'avez pas confirmé vos informations par écrit — et impose le remboursement sous 15 jours (art. 37). En cas de litige, la preuve que l'info a été donnée, c'est VOUS qui la devez (art. 34). Vos CGV actuelles ne le démontrent pas. On réécrit ça en 7 jours. »

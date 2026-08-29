@@ -1,55 +1,49 @@
-﻿# LISEZ-MOI D'ABORD — Démarrage en 5 minutes
+﻿# READ ME FIRST — 5 Minute Start
 
-> خبير بالقانون ، مرحبا بك — Bienvenue. Ce vault est votre système de formation et de gestion.
+## Who This Is For
+You: Master Droit de l'Entreprise, small office in small city, can't do ads, ADHD, tech/design/AI skills, 3 languages.
 
-## À qui s'adresse ce vault
+Goal: 5-10 retainer clients (3,000-5,000 DH HT/month each) + 10-15 pack sales/month = 35k-60k DH/month stable, without leaving your city.
 
-Vous : Master en droit de l'entreprise, petit cabinet en petite ville, pas de budget publicitaire, ADHD, compétences tech/design/IA, 3 langues.
+## The 3 Decisions You Must Make Today
 
-Objectif : 5-10 clients récurrents (3 000-5 000 DH HT/mois chacun) + 10-15 ventes de packs/mois = **35k-60k DH/mois stables**, sans quitter votre ville.
+### 1. You are NOT a "generalist lawyer" anymore
+Generalists starve in small cities. Specialists get flown in via Zoom.
 
-## Les 3 décisions à prendre aujourd'hui
-
-### 1. Vous n'êtes plus un « avocat généraliste »
-Les généralistes meurent de faim en petite ville. Les spécialistes sont invités en Zoom.
-> قال محامي الأعمال: التخصص هو الطريق — La spécialisation est la voie.
-
-Votre nouveau titre (site *informatif* / LinkedIn) :
+Your new title (for *informational* site/LinkedIn):
 > **Avocat d'Affaires | Droit de l'Entreprise & Numérique | Accompagnement Startups, E-commerce & Freelances | FR/AR/EN**
 
-Pas : « Avocat au Barreau de X — Droit divers ».
+Not: "Avocat au Barreau de X - Droit divers"
 
-### 2. Choisissez UNE niche de départ (pour les 90 prochains jours)
-Ne cherchez pas à servir tout le monde. Classement par facilité/vitesse pour votre profil :
+### 2. Pick ONE Starter Niche (for next 90 days)
+Do not try to serve everyone. Ranked by easiest to fastest cash for your profile:
 
-| Priorité | Niche | Pourquoi pour VOUS | Vitesse 1er client |
-|---|---|---|---|
-| **#1 CHOISISSEZ CELLE-CI** | **Freelances & agences servant des clients étrangers** | Ils parlent EN, ont besoin de contrats EN, sont sur LinkedIn/FB, mal servis, vous comprenez la tech | 2-3 semaines |
-| **#2** | **E-commerce / dropshippers** | Énorme volume, désespérés de Loi 31-08, faciles à trouver dans les groupes FB | 1-2 semaines |
-| **#3** | **Conformité Loi 09-08 pour PME** | Ticket élevé (15k-30k DH), récurrent, peu de concurrence hors Casa | 4-6 semaines |
+| Priority | Niche | Why for YOU | First Client Speed |
+| :--- | :--- | :--- | :--- |
+| **#1 PICK THIS** | **Freelancers & Agencies serving foreign clients** | They speak EN, need EN contracts, are on LinkedIn/FB, underseved, you understand tech | 2-3 weeks |
+| **#2** | **E-commerce / Dropshippers** | Huge volume, desperate for Loi 31-08 help, easy to find on FB groups | 1-2 weeks |
+| **#3** | **Loi 09-08 Compliance for SMEs** | High ticket (15k-30k DH), recurring, little competition outside Casa | 4-6 weeks |
 
-Recommandation : **commencez par #1 ou #2**. Friendliness ADHD : boucle de feedback rapide, cycle de vente court.
+Recommendation: **Start with #1 or #2**. They are ADHD-friendly (fast feedback loop, short sales cycle).
 
-Détails : `02_Niches_Deep_Dive/`
+Details in `02_Niches_Deep_Dive/`
 
-### 3. Choisissez UN canal d'acquisition (pas 5)
-Piège ADHD : LinkedIn + TikTok + SEO + événements en même temps = 0 résultat.
+### 3. Pick ONE Acquisition Channel (not 5)
+ADHD trap: doing LinkedIn + TikTok + SEO + events at once = 0 results.
 
-Choisissez-en un :
-- Si vous aimez écrire/design → `03_Acquisition_Without_Ads/01_LinkedIn_Authority_Engine/`
-- Si vous détestez les réseaux → `03_Acquisition_Without_Ads/03_Partnerships_Comptables_Fiduciaires/` (partenariat 3 comptables)
+Pick one:
+- If you like writing/design -> `03_Acquisition_Without_Ads/01_LinkedIn_Authority_Engine.md`
+- If you hate social -> `03_Acquisition_Without_Ads/03_Partnerships_Comptables_Fiduciaires.md` (partner with 3 comptables)
 
-## Comment ce vault est conçu ADHD
+## How This Vault is ADHD-Designed
+- Every file has **TL;DR + Checklist + 30-min Action** at the top. Read TL;DR only if low energy.
+- Every template is **copy-paste**. No creation from blank page.
+- Every niche has a **Dopamine Metric**: visible client count, not vague "brand awareness".
+- Work in **2-day sprints**. Not "build website in 1 month".
 
-- Chaque fichier a **TL;DR + Checklist + Action 30 min** en haut. Lisez le TL;DR seul si énergie basse.
-- Chaque modèle est **copier-coller**. Pas de création à partir de zéro.
-- Chaque niche a des **métriques dopaminergiques** : nombre de clients visible, pas un vague « notoriété ».
-- Travail en **sprints de 2 jours**. Pas « créer un site en 1 mois ».
+## Your First 30 Minutes TODAY
+- [ ] 10 min: Read `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/00_INDEX.md` (so you don't get sanctioned)
+- [ ] 10 min: Read `02_Niches_Deep_Dive/01_Freelancers_Agencies_Offshore.md` OR `02_Ecommerce_Dropshipping.md`
+- [ ] 10 min: Open `06_ADHD_System/01_Daily_Operating_System.md` and set up your 3 daily tasks template
 
-## Vos 30 premières minutes AUJOURD'HUI
-
-- [ ] 10 min : lire `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/00_INDEX.md` (pour ne pas être sanctionné)
-- [ ] 10 min : lire `02_Niches_Deep_Dive/01_Freelancers_Agencies_Offshore/00_INDEX.md` OU `02_Niches_Deep_Dive/02_Ecommerce_Dropshipping_YouCan/00_INDEX.md` (pour un survol rapide d'une page : voir les playbooks plats `02_Niches_Deep_Dive/01_Freelancers_Agencies_Offshore.md` et `02_Niches_Deep_Dive/02_Ecommerce_Dropshipping_YouCan.md`)
-- [ ] 10 min : ouvrir `06_ADHD_System/01_Daily_Operating_System.md` et poser votre modèle de 3 tâches quotidiennes
-
-> **Si vous ne faites qu'une chose demain :** envoyez 5 message à des comptables/fiduciaires de votre région avec le script dans `03_Acquisition_Without_Ads/03_Partnerships_Comptables_Fiduciaires/02_Prise_Contact.md`
+> If you only do one thing tomorrow: Send 5 DMs to comptables/fiduciaires in your region using script in `03_Acquisition_Without_Ads/03_Partnerships_Comptables_Fiduciaires.md`

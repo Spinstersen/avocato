@@ -5,27 +5,28 @@
 ### Plafond CA auto-entrepreneur
 
 - 200 000 DH/an pour les services.
-- 500 000 DH/an pour les activités commerciales (art. 4 Loi 114-13, plafond révisé).
-- Au-delà : bascule obligatoire en SARL ou autre régime.
+- 500 000 DH/an pour les activités commerciales, industrielles et artisanales (statut : Loi 114-13 ; plafonds : CGI art. 42 et s.).
+- Au-delà : bascule obligatoire en SARL ou autre régime (1ʳᵉ année de dépassement tolérée en pratique ; 2 années consécutives = radiation du RNAE).
 
 ### Régime fiscal AE
 
-- IR libératoire : 1-3% sur les services, 0,5-1% sur le commerce.
+- IR libératoire : 1% du CA encaissé (services), 0,5% (commerce/industrie/artisanat).
+- Affiliation CNSS-AMO obligatoire depuis 2021.
+- Depuis LF2023 : retenue à la source de 30% sur la part >80 000 DH/an avec un même client (CGI art. 42 bis).
 - Pas de déduction de charges.
-- Pas de TVA facturée (sauf option).
+- Pas de TVA facturée (AE hors champ, CGI art. 91-II).
 
 ### Régime SARL
 
-- IS : 20 % unifié (LF 2026) si bénéfice net <100M MAD ; 35 % au-delà.
+- IS (taux cibles 2026, réforme LF2023 — CGI art. 247-XXXVII) : **20%** sur les bénéfices <100 M DH, **35%** ≥100 M DH, 40% secteur financier. (Trajectoire transitoire 2023-2025 : 10/20/30% — l'ancien barème 15%/31% cité ailleurs dans le vault est périmé ; à jour 28/08/2026.)
 - Déduction des charges (salaires, frais, investissements).
 - TVA : facturée et reversée (sauf exonération art. 92 CGI pour exports).
 - Comptabilité d'engagement obligatoire.
 
 ### Références juridiques
 
-- Loi 20-19 sur les sociétés (SARL-AU).
-- Loi 1-15-02 sur l'auto-entrepreneur (2015).
-- CGI article 150 (régime fiscal AE).
+- Loi 5-96 sur les sociétés (SARL, SARL-AU ; SAS/SASU introduites par la loi 19-20) ; loi 17-95 (SA). *(Le vault citait « loi 20-19 » : numérotation erronée, corrigée 28/08/2026.)*
+- Loi 114-13 portant statut de l'auto-entrepreneur (RNAE) ; régime fiscal CGI art. 42 et s. (taux, plafonds, retenue 80k).
 - CGI article 92 (exonération TVA export).
 
 ## 2. Le contrat de prestation offshore
@@ -46,8 +47,8 @@
 ### Référence juridique
 
 - DOC (Droit des Obligations et des Contrats) articles 1 à 100 (formation du contrat).
-- DOC articles 230 et seq. (résiliation).
-- Loi 34-05 sur le droit d'auteur (art. 1-12).
+- DOC articles 230 et seq. (responsabilité pour inexécution, dommages-intérêts).
+- Loi 2-00 relative aux droits d'auteur et droits voisins (modifiée et complétée par la loi 34-05).
 
 ## 3. La TVA sur prestations offshore
 
@@ -102,7 +103,7 @@ Stripe n'est pas directement disponible au Maroc. Les freelances offshore utilis
 
 ## 6. Les conventions fiscales
 
-### Maroc-France (29 mai 1970)
+### Maroc-France (1959 modifiée)
 
 - Éviter la double imposition.
 - Article 4 : résidence fiscale (foyer, séjour, lieu d'activité).
@@ -117,11 +118,11 @@ Stripe n'est pas directement disponible au Maroc. Les freelances offshore utilis
 
 ## 7. La propriété intellectuelle
 
-### Loi 34-05 (droit d'auteur)
+### Loi 2-00 (droit d'auteur, modifiée par loi 34-05)
 
-- Article 1 : protection des œuvres de l'esprit.
-- Article 9 : cession des droits (écrit obligatoire).
-- Articles 11-12 : présomption de cession en faveur de l'employeur (salariat) — pas pour le freelance.
+- Art. 1 et s. : protection des œuvres de l'esprit dès la création.
+- Art. 9 : cession des droits — **écrit obligatoire, chaque droit cédé séparément** (vérifier le numéro exact dans le texte consolidé sur `sgg.gov.ma`).
+- Œuvres de salarié : régime propre à vérifier au cas par cas — **pas de présomption de cession pour le freelance**.
 
 ### Pour le freelance dev
 
@@ -168,26 +169,26 @@ Stripe n'est pas directement disponible au Maroc. Les freelances offshore utilis
 ### Obligations
 
 - Conservation des preuves de paiement (relevés bancaires).
-- Factures conformes (art. 144 CGI).
+- Factures conformes (art. 145 CGI ; mentions obligatoires ; déploiement facturation électronique à partir de 2026).
 - Relevés annuels envoyés aux clients (récapitulatif).
 
 ## 11. Synthèse
 
 | Douleur | Référence | Coût si non résolu |
 | :--- | :--- | :--- |
-| Statut flou | Loi 20-19, CGI art. 150 | Redressement fiscal |
-| Contrat absent | DOC, Loi 34-05 | Litige client, perte IP |
+| Statut flou | Loi 5-96, Loi 114-13, CGI art. 42 s. | Redressement fiscal, radiation RNAE |
+| Contrat absent | DOC, Loi 2-00/34-05 | Litige client, perte IP |
 | TVA non exonérée | CGI art. 92 | Sur-facturation fiscale |
 | Stripe bloqué | — | Blocage paiement |
 | Revenus non déclarés | CGI | Contrôle fiscal |
 | Double imposition | Conv. fiscale | Taxation double |
-| IP non cédée | Loi 34-05 | Perte droits |
+| IP non cédée | Loi 2-00 (mod. 34-05) | Perte droits |
 | Litige international | — | Procédure longue et coûteuse |
 
 ## 12. FAQ
 
 **Q : Quelles références juridiques l'avocat doit-il maîtriser pour servir cette niche ?**
-R : Loi 28-08, Loi 20-19, Loi 34-05, CGI (arts. 30, 32, 92, 144, 150), DOC, conventions fiscales bilatérales.
+R : Loi 66-23 (organisation de la profession — succède à la loi 28-08 depuis août 2026), Loi 5-96 (SARL), Loi 114-13 + CGI art. 42 s. (AE), Loi 2-00 modifiée par 34-05 (droit d'auteur), Loi 17-97 (propriété industrielle), CGI (arts. 92, 145), DOC, conventions fiscales bilatérales, IGOC en vigueur (édition 2026).
 
 **Q : Combien de temps pour maîtriser la niche ?**
 R : 3-6 mois de pratique avec 5-10 dossiers.

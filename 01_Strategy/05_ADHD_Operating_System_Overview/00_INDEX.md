@@ -21,8 +21,6 @@ Le cerveau ADHD n'est pas paresseux — il fonctionne à la **dopamine** et à l
 | 08 | `08_Protocoles_Recuperation.md` | Les jours bas, les burnout |
 | 09 | `09_Outils_Stack_Tech.md` | Les outils recommandés |
 | 10 | `10_Fiches_Pratiques.md` | Outils prêts à l'emploi (checklists, prompts) |
-| 11 | `11_FAQ_ADHD_Avocat.md` | 30 questions ADHD sans recherche |
-| 12 | `12_Plan_30_Jours_ADHD.md` | 4 semaines externaliser→friction zéro |
 
 ## Les 4 règles fondamentales
 

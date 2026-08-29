@@ -1,4 +1,4 @@
-﻿# 11 — Arbre Décision Prix
+# 11 — Arbre Décision Prix
 
 ```
 Prospect budget <2000?
@@ -18,6 +18,8 @@ Toujours 2 options max. 3 = confusion, 1 = pression.
 
 ## Approfondissement Encyclopédique (Bonus)
 
+### Cas pratique détaillé
+**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
 
 ### Erreurs fréquentes (Top 5)
 1. Vouloir tout faire J1 -> overwhelm

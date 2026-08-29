@@ -9,7 +9,7 @@ const ROOT = path.resolve(__dirname, '..', '..');
 const OUT_DIR = path.resolve(__dirname, '..');
 const OUT = path.join(OUT_DIR, 'data.js');
 
-const IGNORE_DIRS = new Set(['webapp', 'node_modules', '.git', '.obsidian', 'avocato', 'avocato-V2']);
+const IGNORE_DIRS = new Set(['webapp', 'node_modules', '.git', '.obsidian', 'avocato']);
 
 function walk(dir, base, results) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
@@ -27,9 +27,10 @@ const files = walk(ROOT, ROOT, []).sort();
 
 const data = files.map((rel) => {
   const full = path.join(ROOT, rel);
-  const content = fs.readFileSync(full, 'utf8');
-  const firstHeading = content.split('\n').find((l) => l.startsWith('# '));
-  const title = firstHeading ? firstHeading.slice(2).trim() : rel;
+  const raw = fs.readFileSync(full, 'utf8');
+  const content = raw.replace(/^\uFEFF/, '');
+  const firstHeading = content.split('\n').map((l) => l.trim()).find((l) => l.startsWith('# '));
+  const title = firstHeading ? firstHeading.slice(2).trim().replace(/^\uFEFF/, '') : rel;
   const parts = rel.split('/');
   const folder = parts.length > 1 ? parts[0] : '(root)';
   const file = parts.slice(1).join('/') || parts[0];

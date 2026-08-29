@@ -42,26 +42,20 @@ LIVRAISON (Mission 3) :
 ```
 
 **Checklist conformité (lead magnet Mission Conformité) :**
-Tally 10 questions Oui/Non :
-1. Avez-vous ICE/IF/RC + adresse + WhatsApp affichés (Loi 31-08 art. 8) ?
-2. CGV avec droit de rétractation 7 jours (Loi 31-08 art. 36) + exceptions claires ?
-3. Politique retour claire (qui paye le retour, délai 14j remboursement) ?
-4. Mentions Loi 09-08 (finalités, durée 3 ans, droits, contact DPO/CNDP) ?
-5. Facture conforme CGI art. 144 (ICE, IF, RC) ?
-6. Livreur contractuel (Cathedis etc.) avec contrat art. 24 Loi 09-08 ?
-7. Registre de traitement Loi 09-08 tenu (5 colonnes minimum) ?
-8. Transfert hors Maroc déclaré/autorisé si Shopify & co. ?
-9. CGV datées et versionnées ?
-10. Procédure réclamation / médiation indiquée ?
-... Score /10 → si <6 : « Non conforme, risque litige élevé — diagnostic conformité 600–1 200 DH HT (déductible si mission CGV 3 500–4 900 DH HT) »
+Tally 10 questions Oui/Non:
+1. Avez-vous ICE/IF affiché?
+2. CGV avec droit de rétractation 7 jours?
+3. Politique retour claire?
+4. Mentions 09-08?
+... Score /10 → si <6: "Non conforme, risque litige élevé → Audit 590 DH HT"
 
 ---
 
 ## Cadre déontologique et pédagogie de l'honoraire
 
-**Aucun honoraire n'est un prix catalogue** : L'art. 30 Loi 28-08 exige une **convention écrite préalable** qui précise l'objet, le temps prévisible, la spécialité, les débours et la **provision convenue** (usuellement 50% à la signature — clause conventionnelle, pas tarif légal). Le chiffre indicatif HT sert à la transparence, pas à la vente.
+**Aucun honoraire n'est un prix catalogue** : L'art. 30 Loi 28-08 exige une convention écrite préalable qui précise l'objet, le temps prévisible, la spécialité, et les débours. L'art. 32 impose la provision. Le chiffre indicatif HT sert à la transparence, pas à la vente.
 
-**Pédagogie (à dire au client e-commerce)** : « 3 500–4 900 DH HT pour des CGV + mentions 09-08 + politique de retour + registre + Loom d'installation YouCan/Shopify, c'est le coût d'un seul litige évité : un retour non encadré (Loi 31-08 art. 36-39) ou une absence de registre 09-08 (sanction CNDP 10 000–300 000 DH, Loi 09-08 art. 52) coûte 3 à 10 fois plus. La provision 50% engage les deux parties ; le solde est facturé à la livraison contre PV ; toute extension = avenant écrit (art. 30). »
+**Pédagogie** : Expliquer que 3 500 DH HT pour 12 clauses, c'est 290 DH par clause rédigée, relue, et expliquée en Loom — à comparer avec le coût d'une clause pénale mal rédigée (pénalité excessive = réduite par le juge, DOC art. 263-264 — pratique de modération, voir `08_Jurisprudence/03_Contrats_Commerce.md` ; ne jamais citer un arrêt non produit).
 
 **Hors périmètre** : Le comptable chiffre, l'avocat qualifie. La co-traitance tripartite (`08_Fiscalite_Internationale_Rapatriement/12_Fiches_Checklist_CoTraitance_Comptable.md`) évite l'exercice illégal.
 
