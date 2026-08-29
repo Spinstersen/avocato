@@ -11,7 +11,7 @@
 
 ### Persona B — E-commerçant YouCan/Shopify (Volume)
 *   **Profil:** 24-32 ans, boutique Jumia/Instagram, 50 cmd/j, marque copiée.
-*   **Douleur:** `"On m'a copié mon logo sur Jumia"` `07_Propriete_Intellectuelle.md:15`
+*   **Douleur:** `"On m'a copié mon logo sur Jumia"` (marque non déposée — voir `02_Douleurs_Juridiques.md` #1)
 *   **Budget:** 3,500 dépôt OK.
 *   **Où trouver:** Groupes FB "E-commerce Maroc", Bulletin OMPIC marques publiées copiées.
 
@@ -45,4 +45,4 @@ Si 2× non → prospect chaud Diagnostic 900 HT.
 
 ## Note de méthode professionnelle
 
-Ce document s'inscrit dans la démarche `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/` : information sobre, références primaires (`sgg.gov.ma`, `oc.gov.ma`, `cndp.ma`), devoir d'information art. 59, secret art. 36, convention art. 30. Le chiffre n'est jamais jeté sans sa base légale et sa date de vérification.
+Ce document s'inscrit dans la démarche `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/` : information sobre, références primaires (`ompic.ma`, `sgg.gov.ma`, `wipo.int`), devoir d'information, secret professionnel, convention d'honoraires (loi 28-08 → loi 66-23, watch `01/00_INDEX.md`). Le chiffre n'est jamais jeté sans sa base légale et sa date de vérification.
