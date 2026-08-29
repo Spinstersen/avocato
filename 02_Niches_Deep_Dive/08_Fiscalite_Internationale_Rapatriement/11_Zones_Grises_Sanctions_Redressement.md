@@ -8,12 +8,12 @@
 | Détachement 14m sans renouvel | 12m OK | 12-24 avec demande | >24 sans filiale → requalification |
 | Freelance AE 600k >200k | — | 200-250k tolérance 1 an | >300k 3 ans → redressement 180k |
 | Portage sans pouvoir conclure | Clause sans pouvoir | Pouvoir partiel | Pouvoir plein → PE 6m |
-| Rapatriement sans justif 30j | Justif 30j OK | 30-60j retard | >60j → infraction Office 3k-30k |
+| Recettes export non rapatriées | ≤ 90 j (services) / 150 j (biens) | Retard → régulariser + diligences écrites | Au-delà → **infraction de change, délit continu** amende <= 1 000 000 DH, >= 5x la valeur (dahirs 1939/1949) |
 
 ## Sanctions chiffrées
 
 *   **CGI redressement:** majoration 30% + pénalité 15% + intérêt 5,5%/an. Ex: 100k bénéfice non déclaré ×31%×3 ans = 93k + 27k majoration + 15k pénalités = 135k.
-*   **Office infractions:** Loi 19-06 change: amende 3k-30k + blocage compte + interdiction chèque.
+*   **Office infractions:** Fondement reel (dahirs 10/09/1939 + 30/08/1949) : amende amende <= 1 000 000 DH, >= 5x la valeur (dahirs 1939/1949) + blocage compte + interdiction chèque.
 *   **CNSS:** 2% majoration/mois retard + contrainte.
 
 ## Jurisprudence (à citer `08_Jurisprudence/`)
@@ -29,7 +29,7 @@
 
 *   [ ] 183j compté exact
 *   [ ] PE <6m
-*   [ ] Justif 30j Office OK
+*   [ ] Délais 90j/150j tenus (registre)
 *   [ ] Provision 30% si rectif
 *   [ ] Convention art.27 appliquée
 

@@ -5,7 +5,7 @@
 ## Fondement juridique
 
 *   **Loi 28-08** art. 30 (convention), art. 32 (provision), art. 59 (information), art. 36 (secret).
-*   **Textes spéciaux** selon mission : Loi 17-97 (PI), CGI art. 19/23/92, IGOC 2024 (Instruction Générale des Opérations de Change, Office des Changes — texte à jour sur oc.gov.ma) Office des Changes, Loi 20-19, Loi 02-03.
+*   **Textes spéciaux** selon mission : Loi 17-97 (PI), CGI art. 19/23/92, IGOC edition courante (2026) (Instruction Générale des Opérations de Change, Office des Changes — texte à jour sur oc.gov.ma) Office des Changes, Loi 20-19, Loi 02-03.
 *   **Déontologie** : Règlement Intérieur Barreau — honoraires adaptés à la complexité, au temps, à la spécialité.
 
 ## Pourquoi une approche par mission
@@ -22,7 +22,7 @@ Le client n'achète pas un paquet standardisé. Il confie un problème (copie de
 | Mission | Prix HT | Inclus | Délai | Pour qui |
 |---|---|---|---|---|
 | **Diagnostic International** | 1 200 DH HT (indicatif) | 45 min + 2p (résidence 183j, statut AE/SARL/succursale, convention applicable, risque PE, 3 priorités) + Loom 5 min | 72h | Tous (porte) |
-| **Mission de Rapatriement Freelance/Ecom** | 5 900 DH HT (indicatif, sur convention) | Diagnostic + choix statut AE/SARL + contrat FR/EN art.92 + facture modèle + ouverture compte convertible + checklist IGOC 30j + co-traitance comptable IS | 7j | Freelance 200k-1M, ecom |
+| **Mission de Rapatriement Freelance/Ecom** | 5 900 DH HT (indicatif, sur convention) | Diagnostic + choix statut AE/SARL + contrat FR/EN art.92 + facture modèle + ouverture compte convertible + checklist IGOC delais (90j services / 150j biens) + co-traitance comptable IS | 7j | Freelance 200k-1M, ecom |
 | **Mission Salarié Hors Maroc** | 5 900 DH HT (indicatif, sur convention) | Diagnostic + choix détachement/portage/contrat local + lettres + certificat CNSS + clause anti-PE | 7j | Société avec salarié remote |
 | **Mission MRE Fiscal** | 7 500 DH HT (indicatif, sur convention) + débours OMPIC/Office | Diagnostic + SARL distance `10_MRE_Entrepreneurs/03_Creation_SARL_Distance_Procuration.md` + convention art.4 + compte MRE + PV dividende + Office | 14j | MRE entrepreneur |
 | **Mission Nomade Légal** | 7 500 DH HT (indicatif, sur convention) + débours | Diagnostic + SARL/Portage + carte séjour 1 an + compte convertible + attestation résidence | 14j | Nomad >183j |

@@ -10,7 +10,7 @@ START: Es-tu salarié hors Maroc ?
     └─ OUI → Résident 183j ?
         ├─ OUI (nomad >183j) → SARL (IS 15%) + carte séjour 1 an `04_Statut_Juridique_Nomad_Carte_Sejour.md` → Pack 7,500
         └─ NON (MRE non-résident) → SARL non-résident + convention art.27 → Pack 7,500
-            └─ Client US ? → TVA art.92 exon + IGOC 30j `06_Rapatriement...`
+            └─ Client US ? → TVA art.92 exon + IGOC delais (90j services / 150j biens) `06_Rapatriement...`
 ```
 
 ## Raccourci rapatriement

@@ -71,7 +71,7 @@
 ### Sources primaires à consulter (à jour au 20/08/2026)
 
 *   **sgg.gov.ma** — CGI (art. 19, 23, 92, 144, 150), Loi 20-19 (SARL), Loi 114-13 (AE), Loi 02-03 (séjour).
-*   **oc.gov.ma** — IGOC 2024 (Instruction Générale des Opérations de Change), circulaires Office des Changes.
+*   **oc.gov.ma** — IGOC edition courante (2026) (Instruction Générale des Opérations de Change), circulaires Office des Changes.
 *   **cndp.ma** — Délibération 40-22 et guide registre Loi 09-08.
 *   **courdecassation.ma / jep.ma** — Jurisprudence Cass. com. (clause pénale, réserve propriété, établissement stable).
 *   **ompic.ma** — Guide dépôt marque, classification Nice, Bulletin des marques.

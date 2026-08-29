@@ -1,12 +1,12 @@
 # 08 — Fiscalité Internationale & Rapatriement : Dossier Maître Encyclopédique
 
-> **Dossier maître — Niche 8 (nouvelle).** Cœur de ta conquête MRE/nomad/freelance e-commerce. **Avec comptable agréé sans friction** (réseau experts) — co-traitance tripartite fluide. **Profondeur maximale 13 fichiers**, refs CGI, IGOC 2024, conventions fiscales Maroc-France/Belgique/Espagne/US, Loi 20-19. S'appuie sur `02_Niches_Deep_Dive/01_Freelancers_Agencies_Offshore/02_Douleurs_Juridiques.md:8` + `05_MRE_Foreign_Investors/02_Douleurs_Juridiques.md:18`.
+> **Dossier maître — Niche 8 (nouvelle).** Cœur de ta conquête MRE/nomad/freelance e-commerce. **Avec comptable agréé sans friction** (réseau experts) — co-traitance tripartite fluide. **Profondeur maximale 13 fichiers**, refs CGI, IGOC edition courante (2026), conventions fiscales Maroc-France/Belgique/Espagne/US, Loi 20-19. S'appuie sur `02_Niches_Deep_Dive/01_Freelancers_Agencies_Offshore/02_Douleurs_Juridiques.md:8` + `05_MRE_Foreign_Investors/02_Douleurs_Juridiques.md:18`.
 
 ## TL;DR
 
 *   **Résidence fiscale:** >183j ou foyer au Maroc = résident mondial, sinon non-résident source Maroc seulement `CGI art.23` + `05_MRE.../02_Douleurs_Juridiques.md:32` + attestation.
 *   **Salarié hors Maroc:** détachement 12 mois vs portage international vs contrat local = CNSS A1, risque établissement stable si >6 mois remote.
-*   **Freelance/e-com rapatriement:** AE 200k/1M vs SARL IS 15%/31% vs succursale vs portage → TVA art.92 exonération export, rapatriement 30j IGOC, provision art.30.
+*   **Freelance/e-com rapatriement:** AE 200k services / 500k commerce vs SARL IS 20%/35%/40% (taux 2026) vs succursale vs portage → TVA art.92 exonération export, rapatriement 90 j (services) IGOC, provision art.30.
 *   **Double imposition:** conv. fiscale art.4 résidence, art.7/13 bénéfices, art.27 élimination `01_Freelancers.../02_Douleurs_Juridiques.md:32`.
 *   **Offre:** Diagnostic International 1,200 HT → Pack Rapatriement 5,900 HT → Pack MRE Fiscal 7,500 HT + débours OMPIC/Office.
 
@@ -41,7 +41,7 @@ Es-tu résident 183j Maroc ?
 
 ## Matrice statut pour rapatrier
 
-| Statut | Plafond CA | IS/IR | TVA export | CNSS | Rapatriement 30j | Pour qui |
+| Statut | Plafond CA | IS/IR | TVA export | CNSS | Rapatriement change : services 90 j / biens 150 j | Pour qui |
 |---|---|---|---|---|---|---|
 | AE service | 200k DH/an | IR 1-3% libératoire | Exon art.92 si justificatif | 0 salarié | Compte perso + Office justif | Freelance <200k test |
 | AE commerce | 1M DH/an | IR 0.5-1% | Idem | 0 | Idem | Ecom <1M test |
@@ -59,5 +59,5 @@ Es-tu résident 183j Maroc ?
 
 *   Préalable: `01_Strategy/01_Rules/` + `09_Office_Changes_Dotation_IGOC/` (délais rapatriement)
 *   MRE: `10_MRE_Entrepreneurs/` + `11_Nomads_Digital/` (2 dossiers séparés)
-*   Change: `09_Office_Changes_Dotation_IGOC/07_Rapatriement_Obligations.md`
+*   Change: `09_Office_Changes_Dotation_IGOC/07_Obligations_Rapatriement_Justificatifs.md`
 *   Skills: `04_Skills_To_Learn/07_Sharp_Legal_Mind/03_Numbers_Sheet.md` (10 chiffres fiscaux)

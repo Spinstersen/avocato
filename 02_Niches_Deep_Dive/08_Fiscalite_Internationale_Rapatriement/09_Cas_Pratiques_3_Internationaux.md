@@ -7,14 +7,14 @@
 *   **Solution Pack Rapatriement 5,900 HT:**
     *   J1-2: Diagnostic 1,200 (résident 340j → IS mondial, convention US art.7 pas PE si <6 mois).
     *   J3-7: Création SARL-AU 7j OMPIC 10k capital + contrat FR/EN `03_Pack_Freelance_Contrat.md` + facture art.92 + ouverture compte convertible Attijari.
-    *   J8: Formation IGOC 30j (justif banque).
+    *   J8: Formation IGOC delais (90j services / 150j biens) (justif banque).
     *   **Co-traitance comptable:** IS 15% sur 400k bénéfice = 60k vs AE 18k mais légal.
 *   **Livrable:** SARL RC + contrat + compte + checklist IGOC + Loom 10 min.
 
 ## Cas 2 — Salma ecom YouCan 30k/mois (360k/an) Dubai nomad — Salarié hors Maroc
 
 *   **Faits:** 31 ans, boutique YouCan 30k/mois, 1 salariée designer à Paris remote 8 mois, boutique stock FBA France.
-*   **Risques:** PE France 25% IS + CNSS France 45% vs CNSS Maroc 21% + dotation e-commerce 15k `09_Office.../03_Ecommerce_15k.md`.
+*   **Risques:** PE France 25% IS + CNSS France 45% vs CNSS Maroc 21% + dotation e-commerce 20 000 DH (2026) `09_Office.../03_Dotation_Ecommerce_20k.md`.
 *   **Solution Pack Salarié Hors Maroc 5,900 HT:**
     *   Option portage Paris (8-10% CA) vs détachement 12m CNSS Maroc (économie 24%) → choix portage (illimité).
     *   Clause anti-PE (<6 mois stock) + portage contrat 3 parties.

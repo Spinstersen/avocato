@@ -8,7 +8,7 @@
 |---|---|---|---|---|---|
 | 1 | Facturer sans contrat | — | Contrat oral <10k DH gris | Sans écrit >10k = preuve 0 `DOC art.443` | DOC |
 | 2 | Dépassement plafond AE 200k | <200k OK | 1ʳᵉ année de dépassement tolérée (pratique DGI) | 2 années consécutives = radiation RNAE + bascule de régime `06_Autoentrepreneur.../02_Douleurs_Juridiques.md:7` | Loi 114-13, CGI art. 42 s. |
-| 3 | Rapatriement 30j non fait | Justif 30j OK | 30-60j retard | >60j infraction Office `09_Office_Changes_Dotation_IGOC/08_Infractions_Sanctions_Change.md` | IGOC |
+| 3 | Recettes export non rapatriées | ≤ 90 j (services) — IGOC 2026 | Retard → régulariser + diligences | Au-delà → infraction de change (délit continu `09_Office_Changes_Dotation_IGOC/08_Infractions_Sanctions_Change.md` | IGOC |
 | 4 | PE 6 mois | <6m OK | 6m pouvoir partiel | >6m pouvoir plein = PE `08_Fiscalite.../07_Etablissement_Stable...` | Conv. art.7 |
 | 5 | Marque non déposée | Dépôt rapide OK | Usage sans dépôt gris | Copie sans dépôt = perte — fenêtre d'opposition de 2 mois seulement `07_PI/02_Douleurs_OMPIC_BMDA.md` | Loi 17-97 art. 148.2 (mod. 31-05) |
 
@@ -22,7 +22,7 @@
 
 *   [ ] Contrat écrit >10k ?
 *   [ ] Plafond <200k (services) / 500k (commerce) ?
-*   [ ] Rapatriement 30j ?
+*   [ ] Rapatriement services ≤ 90 j (registre + alertes) ?
 *   [ ] PE <6m ?
 *   [ ] Marque déposée 72h ?
 

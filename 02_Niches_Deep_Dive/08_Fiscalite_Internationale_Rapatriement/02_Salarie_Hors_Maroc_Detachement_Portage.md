@@ -27,7 +27,7 @@ Client 1: **Société marocaine veut salarié à Paris** (remote). Client 2: **S
 *   **Montage:** Freelance Yassine (Casa) → portage `MABC Portage` (Paris) → client US → portage facture 5k€ → verse salaire 3,5k€ net + cotis 45% → solde 0.
 *   **Avantage fiscal:** Portage gère TVA, IR, CNSS — Yassine reste résident Maroc 340j → IR Maroc mais cotis FR (A1).
 *   **Contrat:** `Contrat travail portage` + `Convention portage` (3 parties) — modèle `05_Document_Bank/templates/`.
-*   **Dotation Office:** Portage = prestation service export → rapatriement 30j IGOC `09_Office_Changes_Dotation_IGOC/07_Rapatriement_Obligations.md`.
+*   **Dotation Office:** Portage = prestation service export → rapatriement 90 j (services) IGOC `09_Office_Changes_Dotation_IGOC/07_Obligations_Rapatriement_Justificatifs.md`.
 
 ## Contrat local (MRE crée filiale)
 
@@ -68,7 +68,7 @@ Besoin <12m et pas PE ?
 ### Sources primaires à consulter (à jour au 20/08/2026)
 
 *   **sgg.gov.ma** — CGI (art. 19, 23, 92, 144, 150), Loi 20-19 (SARL), Loi 114-13 (AE), Loi 02-03 (séjour).
-*   **oc.gov.ma** — IGOC 2024 (Instruction Générale des Opérations de Change), circulaires Office des Changes.
+*   **oc.gov.ma** — IGOC edition courante (2026) (Instruction Générale des Opérations de Change), circulaires Office des Changes.
 *   **cndp.ma** — Délibération 40-22 et guide registre Loi 09-08.
 *   **courdecassation.ma / jep.ma** — Jurisprudence Cass. com. (clause pénale, réserve propriété, établissement stable).
 *   **ompic.ma** — Guide dépôt marque, classification Nice, Bulletin des marques.

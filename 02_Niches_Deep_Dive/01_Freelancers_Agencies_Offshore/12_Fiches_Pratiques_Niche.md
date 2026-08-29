@@ -7,8 +7,8 @@
 *   [ ] Statut AE/SARL choisi `11_Arbre...` ?
 *   [ ] Contrat FR/EN `05_Document_Bank/templates/03_Pack_Freelance_Contrat.md` + facture conforme art. 145 + mention export art. 92 `08_Fiscalite.../03_Freelance...` ?
 *   [ ] Compte convertible/devise MRE `09_Office.../06_Compte_Devise_Convertible_MRE.md` 48-72h ?
-*   [ ] Rapatriement 30j justif `09_Office.../07_Obligations...` ?
-*   [ ] Dotation 15k/100k `09_Office.../02_Dotation_Voyage_100k.md` ?
+*   [ ] Rapatriement délais (90 j services / 150 j biens) + justificatifs `09_Office.../07_Obligations_Rapatriement_Justificatifs.md` ?
+*   [ ] Dotations 2026 : e-commerce 20 k / voyage 100 k + 30 % IR (500 k max) `09_Office.../02_Dotation_Voyage_100k.md` ?
 *   [ ] Carte séjour 30j si nomad >183j `11_Nomads.../03_Carte_Sejour_1An_Procedure.md` ?
 *   [ ] Convention art.27 `08_Fiscalite.../05_Conventions...` ?
 *   [ ] PE <6m `08_Fiscalite.../07_Etablissement_Stable...` ?
@@ -37,6 +37,6 @@
 
 ## Fiche comme mémoire externe, pas comme script de vente
 
-La checklist 15 points n'est pas à cocher devant le client. Elle est une mémoire externe (art. 59 devoir de conseil) pour ne rien oublier : 183j, PE 6m, Office 30j, dotation 15k/100k, carte séjour, convention art. 27, compte 48-72h, provision art. 30, co-traitance comptable. Chaque case renvoie à une fiche détaillée, pas à un chiffre jeté.
+La checklist 15 points n'est pas à cocher devant le client. Elle est une mémoire externe (devoir de conseil — loi 28-08 → 66-23, watch `00_INDEX.md`) pour ne rien oublier : résidence 183 j, établissement stable (délai selon convention applicable — à ouvrir, jamais de mémoire), **délais de change 90 j services / 150 j biens (IGOC 2026)**, dotations 2026 (e-commerce 20 k / voyage 100 k + 30 % IR ≤ 500 k), compte en devises/convertible, facture conforme (CGI art. 145) + mention art. 92, provision à la convention, co-traitance comptable. Chaque case renvoie à une fiche détaillée, pas à un chiffre jeté.
 
 > Sources : `sgg.gov.ma`, `oc.gov.ma` (IGOC édition courante 2026), `cndp.ma`, `ompic.ma`, `tax.gov.ma` — vérifier annuellement ; jurisprudences non sourcées retirées (watch 28/08/2026, `00_INDEX.md`).
