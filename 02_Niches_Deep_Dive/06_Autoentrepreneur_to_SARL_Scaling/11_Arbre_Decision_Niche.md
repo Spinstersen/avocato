@@ -1,33 +1,76 @@
 # 11 — Arbre Décision (06_Autoentrepreneur_to_SARL_Scaling)
 
+> Trois questions, un ordre. L'arbre de la niche ne décide pas « AE ou SARL » (le client a déjà répondu en appelant) : il décide **QUAND** et **AVEC QUOI** — et s'il dit « pas maintenant », il le dit avec une date écrite.
+
+## L'arbre
+
 ```
-CA >200k (service) ou >500k (commerce) 06_Autoentrepreneur_to_SARL_Scaling ?
-├─ NON → AE suffit 1j IR 1-3% → Diagnostic 1,200
-└─ OUI → Résident 183j `08_Fiscalite.../01_Residence...` ?
-    ├─ OUI → SARL 15% 7-14j `08_Fiscalite.../03_Freelance...` + carte 1 an si nomad `11_Nomads.../03_Carte_Sejour_1An_Procedure.md`
-    └─ NON (MRE 40j) → SARL non-résident + devise MRE `10_MRE.../04_Compte_Bancaire_MRE_Convertible_Devise.md`
-        └─ Besoin >15k SaaS ? → OUI dotation 15k `09_Office.../03_Dotation_Ecommerce_15k.md`
+CA ENCAISSÉ — où êtes-vous par rapport au plafond
+(CGI art. 42 ter : 200k services / 500k commerce) ?
+├─ < 80 % du plafond, client diversifié
+│   └→ RESTER AE. Livrable : note « signaux d'alerte +
+│      2 ans max » + agenda de veille. (Oui, on vend des
+│      notes qui disent « ne changez rien ».)
+├─ 80-100 % OU une année de dépassement écoulée
+│   ├─ Bascule anticipée choisie → M1 plan 30j (S2/13)
+│   │   calendrier recommandé : immatriculer en année creuse,
+│   │   cesser l'AE à une date écrite, avenants clients avant
+│   └─ Bascule refusée en conscience → note signée des
+│       deux branches (risque radiation 1/1 + RAS) —
+│       l'écrit protège le client ET la mission
+└─ 2ᵉ année de dépassement en cours
+    └→ URGENCE CALENDRIER : radiation au 1/1. Bascule
+       «Salima» (08, cas limite) : la date de cessation
+       se choisit encore ; dans 3 semaines, non.
+
+LE CLIENT PERSONNE MORALE > 80 k (CGI art. 42 bis) ?
+├─ OUI, et il concentre > 50 % du CA
+│   ├─ Diversification réelle possible ? → mission M5
+│   │   (nouveaux contrats, sous-traitance déclarée)
+│   └─ Non (mono-client de fait) → SALARIAT DÉGUISÉ ou
+│       SARL : c'est un choix de vie, pas un choix fiscal —
+│       la note M2 le dit sans détours
+└─ NON → la RAS ne bouge pas ; voir branche plafond
+
+BESOIN D'EMBAUCHE (loi 114-13 : AE ne peut pas) ?
+├─ OUI (y compris « mon assistante ») → SARL obligatoire
+│   (pas « la SARL est mieux » — l'AE ne PEUT pas) :
+│   contrat 65-99 + CNSS employeur avant 1ʳᵉ embauche
+└─ NON ou « juste la saison » → sous-traitance déclarée
+    réelle (factures, multi-clients) OU SARL à terme
+
+QUEL VÉHICULE ? (avec le comptable, jamais seul)
+├─ Solo, activité unique, capital simple → SARL-AU (5-96)
+├─ Associé(e) réel(le) / investissement partagé
+│   → SARL + pacte (13 S4) — l'associé « dormant » est une
+│     zone rouge, pas une solution
+├─ Besoin réel de dirigeants salariés multiples / levée
+│   → SAS/SASU (17-95 mod. 19-20) — mission structurée,
+│     hors pack standard
+└─ Test court, coûts faibles, CA < seuil durable
+    → rester AE encore un an = réponse légale (note écrite)
 ```
 
-## Filtre 5 questions
+## Le filtre des 5 questions (à tenir en 2 minutes)
 
-*   [ ] CA > plafond ?
-*   [ ] 183j ?
-*   [ ] PE 6m `08_Fiscalite.../07_Etablissement_Stable...` ?
-*   [ ] Dotation < plafond ?
-*   [ ] Marque déposée `07_PI/03_Offre...` ?
+1. CA encaissé N-1 et N (par catégorie RNAE) ?
+2. Plus gros client personne morale : montant, retenue appliquée ?
+3. Qui travaille avec vous, déclaré comment ?
+4. Qu'est-ce que votre patrimoine personnel a à perdre cette année ?
+5. Quelle est votre date d'échéance (radiation, appel d'offres, crédit) ?
+
+## Les 3 erreurs de lecture de l'arbre
+
+| Erreur | Ce que l'arbre dit vraiment |
+| :--- | :--- |
+| « Dépassement = redressement immédiat de 30 % » | Non : tolérance année 1, **radiation** à date fixe ensuite — le 30 % est la RAS du client PM, une autre mécanique (`02` §2) |
+| « SARL = moins d'impôt » | Rarement au démarrage : SARL = **droits** (embauche, crédibilité, bouclier) payés par une assiette différente (bénéfice) — le comparatif est une table à 3 colonnes, pas une devinette |
+| « On verra après la radiation » | Après la radiation : plus de régime AE, plus de facture opposable, plus de « on verra » |
 
 ---
 
 ## Comment lire l'arbre sans le subir
 
-L'arbre n'est pas un automate qui décide à la place du client. Il hiérarchise les questions préalables : 1) Suis-je au-dessus du seuil légal ? (AE 200k/500k), 2) Suis-je résident 183j ? (CGI art. 23), 3) Ai-je un établissement stable 6 mois ? (conv. art. 7). Chaque branche renvoie à une mission avec convention, pas à un produit panier.
+L'arbre est un outil d'entretien : chaque nœud pose une question que le client ne s'est pas posée (encaissé ≠ facturé ; radiation ≠ redressement ; « assistante » ≠ « prestataire »). Il ne remplace pas la note M2 — il la **dicte**. Et sa branche la plus vertueuse commercialement est celle qui dit « restez AE, voici les signaux » : un client qui repart sans dépenser 6 900 DH est un prescripteur qui reviendra avec trois bascules.
 
-**Pour AE vers SARL** : L'arbre évite l'erreur de choisir le statut avant la résidence — choisir SARL avant de savoir si l'on est résident 210j (IS mondial) ou non-résident 40j (IS source) inverse le conseil.
-
-
----
-
-## L'arbre comme outil d'entretien, pas comme automate
-
-L'arbre hiérarchise les questions préalables — il ne décide pas. La première question n'est jamais le prix, mais : `Suis-je au-dessus du seuil légal ?` (200k/500k), puis `Suis-je résident 183j ?` (`08_Fiscalite_Internationale_Rapatriement/01_Residence_Fiscale_183j_Foyer.md`), puis `Ai-je un établissement stable 6 mois ?`. Chaque réponse renvoie à une mission avec convention, pas à un panier.
+> Base : CGI art. 42 et s., 42 bis, 42 ter, 91-II-3° ; lois 114-13, 5-96, 17-95 (mod. 19-20), 65-99. Vérifié 29/08/2026.
