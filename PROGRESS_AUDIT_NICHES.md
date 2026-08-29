@@ -44,6 +44,13 @@ Audit complet des références légales/jurisprudentielles du vault contre les s
 
 ---
 
+### Webapp (`webapp/`) — réparée 29/08 soir
+- `data.js` reconstruit (`node scripts/build.js` depuis `webapp/`) : 491 documents, les **11 niches présentes** dont 01-04 à 14 fichiers (13_Solutions inclus). **Rappel : relancer le build après chaque modif .md, sinon l'app « ne contient pas les niches ».**
+- `app.js` : labels propres pour les 11 niches dans la sidebar (avant : noms bruts `02_Niches_Deep_Dive/05_...`), fallback formaté pour tout nouveau dossier, recherche avec minuscules pré-calculées + debounce (fix lag sur 1,8 Mo de contenu).
+- 7 fichiers legacy `02_Niches_Deep_Dive/0X_*.md` archivés dans `_archive/02_niches_legacy/` (hors build via IGNORE_DIRS).
+- Plaque latérale : mention loi professionnelle mise à jour (66-23 ex-28-08).
+- À tester dans le navigateur (Ctrl+F5) : `webapp/index.html` en file:// fonctionne (offline). Si un souci visuel subsiste, préciser l'écran/la niche concerné.
+
 ## 2. RESTE À FAIRE (ordre confirmé : 05 → 06 → 07 → 09 → 10 → 11)
 
 ### Routine de redo (identique pour chaque niche)
@@ -71,7 +78,7 @@ Audit complet des références légales/jurisprudentielles du vault contre les s
 
 **Transverse (toutes niches)**
 - Prix diagnostics harmonisés à **900 HT** partout (03 dit 1 200 → à trancher : soit niche premium = cohérent, soit 900 ; à ce jour 03/12 gardent 1 200 HT — décider au prochain passage).
-- Les fichiers legacy racine `02_Niches_Deep_Dive/0X_*.md` (7 fichiers) : archiver vers `00_START_HERE/archive/` en fin de campagne.
+- ~~Les fichiers legacy racine `02_Niches_Deep_Dive/0X_*.md`~~ ✅ FAIT 29/08 soir : archivés dans `_archive/02_niches_legacy/` (exclus du build webapp).
 - Références « 01_Rules/ » (raccourci de `01_Rules_Of_The_Game_No_Ads_Morocco/`) = convention du vault, OK.
 
 ## 3. Notes de session

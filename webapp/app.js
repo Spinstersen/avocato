@@ -23,12 +23,18 @@
   const FOLDER_LABELS = {
     '00_START_HERE': 'Commencer ici',
     '01_Strategy': 'Stratégie',
-    '02_Niches_Deep_Dive': 'Niches — Fondamentaux',
-    '02_Niches_Deep_Dive/07_Propriete_Intellectuelle': 'PI — Marques & BMDA',
-    '02_Niches_Deep_Dive/08_Fiscalite_Internationale_Rapatriement': 'Fiscalité Internationale & Rapatriement',
-    '02_Niches_Deep_Dive/09_Office_Changes_Dotation_IGOC2024': 'Office des Changes & Dotations (IGOC 2024)',
-    '02_Niches_Deep_Dive/10_MRE_Entrepreneurs': 'MRE & Entrepreneurs',
-    '02_Niches_Deep_Dive/11_Nomads_Digital': 'Nomads Digital — Légal au Maroc',
+    '02_Niches_Deep_Dive': 'Niches — Vues générales',
+    '02_Niches_Deep_Dive/01_Freelancers_Agencies_Offshore': 'Niche 01 · Freelances & Agences offshore',
+    '02_Niches_Deep_Dive/02_Ecommerce_Dropshipping_YouCan': 'Niche 02 · E-commerce & YouCan',
+    '02_Niches_Deep_Dive/03_Loi_09-08_GDPR_Compliance': 'Niche 03 · Conformité 09-08 & GDPR',
+    '02_Niches_Deep_Dive/04_Content_Creators_Infopreneurs': 'Niche 04 · Créateurs & Infopreneurs',
+    '02_Niches_Deep_Dive/05_MRE_Foreign_Investors': 'Niche 05 · MRE & Investisseurs étrangers',
+    '02_Niches_Deep_Dive/06_Autoentrepreneur_to_SARL_Scaling': 'Niche 06 · AE → SARL',
+    '02_Niches_Deep_Dive/07_Propriete_Intellectuelle': 'Niche 07 · PI — Marques & BMDA',
+    '02_Niches_Deep_Dive/08_Fiscalite_Internationale_Rapatriement': 'Niche 08 · Fiscalité internationale & Rapatriement',
+    '02_Niches_Deep_Dive/09_Office_Changes_Dotation_IGOC2024': 'Niche 09 · Office des Changes & Dotations (IGOC)',
+    '02_Niches_Deep_Dive/10_MRE_Entrepreneurs': 'Niche 10 · MRE Entrepreneurs',
+    '02_Niches_Deep_Dive/11_Nomads_Digital': 'Niche 11 · Nomades digitaux',
     '03_Acquisition_Without_Ads': 'Acquisition sans pub',
     '04_Skills_To_Learn': 'Compétences',
     '05_Document_Bank': 'Banque de Documents',
@@ -49,7 +55,11 @@
     const n = parseFloat(t);
     return isNaN(n) ? NaN : (k ? n * 1000 : n);
   }
-  function folderLabel(f) { return FOLDER_LABELS[f] || f; }
+  function folderLabel(f) {
+    if (FOLDER_LABELS[f]) return FOLDER_LABELS[f];
+    const last = f.split('/').pop();
+    return last.replace(/^\d+_/, '').replace(/_/g, ' ');
+  }
 
   /* ---------- markdown render ---------- */
   const renderer = {
@@ -325,6 +335,9 @@
   }
   function renderTree(filter) {
     const tree = $('#tree');
+    if (filter && DATA.length && DATA[0]._lc === undefined) {
+      DATA.forEach(d => { d._lc = (d.title + ' ' + d.file).toLowerCase(); d._lcC = d.content.toLowerCase(); });
+    }
     const groups = {};
     DATA.forEach(d => { const g = getGroupKey(d); (groups[g] = groups[g] || []).push(d); });
     const folders = Object.keys(groups).sort((a, b) => {
@@ -336,9 +349,8 @@
     folders.forEach(folder => {
       const items = groups[folder].filter(d =>
         !filter ||
-        d.title.toLowerCase().includes(filter) ||
-        d.file.toLowerCase().includes(filter) ||
-        d.content.toLowerCase().includes(filter)
+        d._lc.includes(filter) ||
+        d._lcC.includes(filter)
       );
       if (filter && !items.length) return;
       const total = groups[folder].length;
@@ -551,8 +563,10 @@
   }
 
   /* ---------- search ---------- */
+  let searchTimer = null;
   function onSearch(q) {
-    renderTree(q.trim().toLowerCase());
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => renderTree(q.trim().toLowerCase()), 120);
   }
 
   /* ---------- boot ---------- */
