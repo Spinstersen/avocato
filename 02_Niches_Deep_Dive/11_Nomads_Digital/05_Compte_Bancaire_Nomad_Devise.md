@@ -1,6 +1,6 @@
 # 05 — Compte Bancaire Nomad : Devise Résident 48h
 
-> Détail `09_Office_Changes_Dotation_IGOC2024/06_Compte_Devise_Convertible_MRE.md`.
+> Détail `09_Office_Changes_Dotation_IGOC/06_Compte_Devise_Convertible_MRE.md`.
 
 ## Choix nomad
 

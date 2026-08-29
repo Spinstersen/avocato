@@ -11,7 +11,7 @@
 ## Persona B — Entrepreneur Casa 32 ans
 
 *   **Profil:** Casa, CA 50k/mois, 2 salariés, veut ouvrir succursale Dubai.
-*   **Douleur:** Dotation investissement 100M `09_Office.../04_Dotation_Investissement_100M.md`.
+*   **Douleur:** Dotation investissement 100M `09_Office.../04_Investissement_Etranger.md`.
 *   **Budget:** 7,500 HT.
 
 ## Tableau

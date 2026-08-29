@@ -1,6 +1,6 @@
 # 06 — Change MRE : Rapatriement Dividende & Salaire (IGOC 30j)
 
-> Renvoi `09_Office_Changes_Dotation_IGOC2024/07_Obligations_Rapatriement_Justificatifs.md` + `08_Fiscalite.../06_Rapatriement_Dividendes_Salaires_Change.md`.
+> Renvoi `09_Office_Changes_Dotation_IGOC/07_Obligations_Rapatriement_Justificatifs.md` + `08_Fiscalite.../06_Rapatriement_Dividendes_Salaires_Change.md`.
 
 ## Dividende MRE (Karim 100k bénéfice)
 
@@ -15,7 +15,7 @@
 
 ## Délai 30j IGOC
 
-*   30j justif sinon amende 3k-30k `09_Office.../08_Infractions_Sanctions_Loi1906.md`.
+*   30j justif sinon amende 3k-30k `09_Office.../08_Infractions_Sanctions_Change.md`.
 
 ## Checklist dividende
 

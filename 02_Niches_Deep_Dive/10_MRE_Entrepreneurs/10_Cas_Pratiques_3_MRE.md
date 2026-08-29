@@ -6,7 +6,7 @@
 
 ## Cas 2 — Entrepreneur Casa 32 ans — Succursale Dubai
 
-*   50k CA Casa + Dubai succursale 20M <100M → dotation investissement 100M `09_Office.../04_Dotation_Investissement_100M.md` → dossier Office RC1 30j → Pack 3,500 HT.
+*   50k CA Casa + Dubai succursale 20M <100M → dotation investissement 100M `09_Office.../04_Investissement_Etranger.md` → dossier Office RC1 30j → Pack 3,500 HT.
 
 ## Cas 3 — Famille MRE 4 adultes — 400k voyage
 

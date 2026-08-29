@@ -4,7 +4,7 @@
 MRE jours Maroc /an ?
 ├─ <183j non-résident → SARL non-résident (IS source 15%) + devise MRE + dividende 10% France → Pack 7,500 14j
 └─ >183j résident → SARL résident (IS mondial) + attestation DGI + crédit France → Pack 7,500
-   └─ Besoin >100M investissement ? → OUI Office RC1 30j `09_Office.../04_Dotation_Investissement_100M.md` / NON rapatriement 30j
+   └─ Besoin >100M investissement ? → OUI Office RC1 30j `09_Office.../04_Investissement_Etranger.md` / NON rapatriement 30j
 ```
 
 ## Choix compte

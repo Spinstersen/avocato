@@ -1,6 +1,6 @@
 # 07 — Change Nomad : Rapatriement 30j IGOC
 
-> Renvoi `09_Office_Changes_Dotation_IGOC2024/07_Obligations_Rapatriement_Justificatifs.md`.
+> Renvoi `09_Office_Changes_Dotation_IGOC/07_Obligations_Rapatriement_Justificatifs.md`.
 
 ## Rapatriement nomad
 
@@ -8,7 +8,7 @@
 
 ## Dotations nomad
 
-*   E-commerce 15k `09_Office.../03_Dotation_Ecommerce_15k.md` (SaaS) + Voyage 100k `09_Office.../02_Dotation_Voyage_100k.md` (voyage) → 115k/an cumul.
+*   E-commerce 15k `09_Office.../03_Dotation_Ecommerce_20k.md` (SaaS) + Voyage 100k `09_Office.../02_Dotation_Voyage_100k.md` (voyage) → 115k/an cumul.
 
 ## Cas Lena 5k$/mois (60k/an)
 

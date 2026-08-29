@@ -1,6 +1,6 @@
 # 11 — Nomads Digital : Dossier Maître Encyclopédique Séparé
 
-> **Dossier maître — Niche 11 (nouvelle, séparé de 10_MRE).** Pour nomads EU/US + entrepreneurs remote qui veulent être **légaux au Maroc** >183j. **100% FR + EN léger (FR fait foi)** + profondeur max 13 files. S'appuie sur `08_Fiscalite_Internationale_Rapatriement/04_Statut_Juridique_Nomad_Carte_Sejour.md` + `09_Office_Changes_Dotation_IGOC2024/`.
+> **Dossier maître — Niche 11 (nouvelle, séparé de 10_MRE).** Pour nomads EU/US + entrepreneurs remote qui veulent être **légaux au Maroc** >183j. **100% FR + EN léger (FR fait foi)** + profondeur max 13 files. S'appuie sur `08_Fiscalite_Internationale_Rapatriement/04_Statut_Juridique_Nomad_Carte_Sejour.md` + `09_Office_Changes_Dotation_IGOC/`.
 
 ## TL;DR
 
@@ -38,7 +38,7 @@
 
 *   MRE séparé: `10_MRE_Entrepreneurs/`
 *   Fiscal: `08_Fiscalite_Internationale_Rapatriement/`
-*   Change: `09_Office_Changes_Dotation_IGOC2024/`
+*   Change: `09_Office_Changes_Dotation_IGOC/`
 
 ---
 

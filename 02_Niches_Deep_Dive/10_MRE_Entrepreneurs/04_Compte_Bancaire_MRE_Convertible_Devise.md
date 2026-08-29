@@ -1,6 +1,6 @@
 # 04 — Compte Bancaire MRE : Devise vs Convertible
 
-> Détail `09_Office_Changes_Dotation_IGOC2024/06_Compte_Devise_Convertible_MRE.md`.
+> Détail `09_Office_Changes_Dotation_IGOC/06_Compte_Devise_Convertible_MRE.md`.
 
 ## Choix MRE
 
@@ -17,7 +17,7 @@
 ## Alimentation
 
 *   Virement SEPA Paris → devise MRE 10k€ = 110k DH (cours 11) → libre débit DH ou devises.
-*   Loyer Casa 10k/mois → devise MRE → transfert Paris libre (Office 0 si <10M/an dividendes `09_Office.../04_Dotation_Investissement_100M.md`).
+*   Loyer Casa 10k/mois → devise MRE → transfert Paris libre (Office 0 si <10M/an dividendes `09_Office.../04_Investissement_Etranger.md`).
 
 ## Rapatriement dividende (voir `06_Change_MRE_Rapatriement_Dividende.md`)
 

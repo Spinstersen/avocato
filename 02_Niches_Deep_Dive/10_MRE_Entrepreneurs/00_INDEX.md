@@ -1,6 +1,6 @@
 # 10 — MRE & Entrepreneurs (Dossier Maître Encyclopédique Séparé)
 
-> **Dossier maître — Niche 10 (MRE séparé, 5→13 files).** Pour MRE France/Espagne/Italie/Dubai/USA + entrepreneurs Casa qui veulent investir. 100% FR (choix #2). Séparé de `11_Nomads_Digital/` (choix #3). S'appuie sur `02_Niches_Deep_Dive/05_MRE_Foreign_Investors/` 5 files 1,867 avg + `08_Fiscalite_Internationale_Rapatriement/01_Residence_Fiscale_183j_Foyer.md` + `09_Office_Changes_Dotation_IGOC2024/`.
+> **Dossier maître — Niche 10 (MRE séparé, 5→13 files).** Pour MRE France/Espagne/Italie/Dubai/USA + entrepreneurs Casa qui veulent investir. 100% FR (choix #2). Séparé de `11_Nomads_Digital/` (choix #3). S'appuie sur `02_Niches_Deep_Dive/05_MRE_Foreign_Investors/` 5 files 1,867 avg + `08_Fiscalite_Internationale_Rapatriement/01_Residence_Fiscale_183j_Foyer.md` + `09_Office_Changes_Dotation_IGOC/`.
 
 ## TL;DR
 
@@ -42,7 +42,7 @@
 
 ## Liens
 
-*   Préalable: `08_Fiscalite_Internationale_Rapatriement/` + `09_Office_Changes_Dotation_IGOC2024/`
+*   Préalable: `08_Fiscalite_Internationale_Rapatriement/` + `09_Office_Changes_Dotation_IGOC/`
 *   Nomad séparé: `11_Nomads_Digital/`
 
 ---

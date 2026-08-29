@@ -1,6 +1,6 @@
 # 06 — Rapatriement Dividendes, Salaires & IGOC (Office des Changes)
 
-> Pont vers `09_Office_Changes_Dotation_IGOC2024/07_Rapatriement_Obligations.md`.
+> Pont vers `09_Office_Changes_Dotation_IGOC/07_Rapatriement_Obligations.md`.
 
 ## 3 Flux rapatriement (IGOC 2024)
 

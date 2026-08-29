@@ -6,7 +6,7 @@ CA >200k (service) ou >500k (commerce) 01_Freelancers_Agencies_Offshore ?
 └─ OUI → Résident 183j `08_Fiscalite.../01_Residence...` ?
     ├─ OUI → SARL IS 20% (2026) 7-14j `08_Fiscalite.../03_Freelance...` + carte 1 an si nomad `11_Nomads.../03_Carte_Sejour_1An_Procedure.md`
     └─ NON (MRE 40j) → SARL non-résident + devise MRE `10_MRE.../04_Compte_Bancaire_MRE_Convertible_Devise.md`
-        └─ Besoin >15k SaaS ? → OUI vérifier dotation e-commerce IGOC 2026 `09_Office.../03_Dotation_Ecommerce_15k.md`
+        └─ Besoin >15k SaaS ? → OUI vérifier dotation e-commerce IGOC 2026 `09_Office.../03_Dotation_Ecommerce_20k.md`
 ```
 
 ## Filtre 5 questions

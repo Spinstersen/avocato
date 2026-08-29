@@ -21,11 +21,11 @@
 *   **Mentions facture:** `N° ICE, RC, IF, Exonération TVA art.92 CGI — paiement devises via banque [X] le [date] — Rapatriement 30j IGOC`.
 *   **Erreur fréquente:** Facturer TVA 20% à client US → perte compétitivité 20% + redressement si non reversée.
 
-## Procédure rapatriement 30j IGOC (voir `09_Office_Changes_Dotation_IGOC2024/07_Rapatriement_Obligations.md`)
+## Procédure rapatriement 30j IGOC (voir `09_Office_Changes_Dotation_IGOC/07_Rapatriement_Obligations.md`)
 
 1.  Client US paie 5k$ sur Wise → virement vers compte convertible SARL Attijari (délai 2j).
 2.  Banque demande justificatifs sous 30j: contrat FR/EN `05_Document_Bank/templates/03_Pack_Freelance_Contrat.md` + facture + attestation export.
-3.  Sans justif → compte bloqué J+30 + déclaration Office infractions `09_Office_Changes_Dotation_IGOC2024/08_Infractions_Sanctions.md`.
+3.  Sans justif → compte bloqué J+30 + déclaration Office infractions `09_Office_Changes_Dotation_IGOC/08_Infractions_Sanctions.md`.
 
 ## Cas chiffré Yassine 600k DH (freelance dev US)
 

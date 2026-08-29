@@ -8,7 +8,7 @@
 *   [ ] PE <6m clause `07_Etablissement_Stable`
 *   [ ] Contrat FR/EN `05_Document_Bank/templates/03_Pack_Freelance_Contrat.md` + facture art.92 `03_Freelance_Ecom_Rapatrier...`
 *   [ ] Compte convertible ouvert `10_MRE_Entrepreneurs/04_Compte_Bancaire_MRE_Nomad.md`
-*   [ ] IGOC 30j justif banque `09_Office_Changes_Dotation_IGOC2024/07_Rapatriement_Obligations.md`
+*   [ ] IGOC 30j justif banque `09_Office_Changes_Dotation_IGOC/07_Rapatriement_Obligations.md`
 *   [ ] CNSS/A1 si salarié détaché `02_Salarie_Hors_Maroc...`
 *   [ ] Déclaration IS/IR avec comptable agréé
 *   [ ] Carte séjour si nomad >183j `04_Statut_Juridique_Nomad_Carte_Sejour.md`
@@ -51,7 +51,7 @@ Délai: [7-14]j à compter provision + justificatifs complets.
 *   `sgg.gov.ma` CGI, `office des changes` IGOC 2024 PDF, `cndp.ma`, `courdecassation.ma`, réseau comptable agréé.
 
 ---
-**Fin Dossier 08 — Passerelle vers `09_Office_Changes_Dotation_IGOC2024/` (délais 30j) et `10_MRE_Entrepreneurs/` (MRE séparé) et `11_Nomads_Digital/` (nomad séparé).**
+**Fin Dossier 08 — Passerelle vers `09_Office_Changes_Dotation_IGOC/` (délais 30j) et `10_MRE_Entrepreneurs/` (MRE séparé) et `11_Nomads_Digital/` (nomad séparé).**
 
 ---
 

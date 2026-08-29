@@ -59,7 +59,7 @@ Voir `01_Persona_Karim.md`.
 - Vue d'ensemble : `01_Strategy/03_Unsaturated_Niches_Overview/07_Niche5_MRE_Investisseurs.md`.
 - Sœur (SARL à distance pas à pas) : `02_Niches_Deep_Dive/10_MRE_Entrepreneurs/`.
 - Fiscalité internationale : `02_Niches_Deep_Dive/08_Fiscalite_Internationale_Rapatriement/`.
-- Change au quotidien : `02_Niches_Deep_Dive/09_Office_Changes_Dotation_IGOC2024/` (dossier à renommer IGOC 2026 — redo prévu).
+- Change au quotidien : `02_Niches_Deep_Dive/09_Office_Changes_Dotation_IGOC/` (dossier à renommer IGOC 2026 — redo prévu).
 - Banque PI (utile pour l'investisseur qui dépose sa marque) : `08_Jurisprudence/05_PI_OMPIC.md`.
 - Déontologie : `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/`.
 
