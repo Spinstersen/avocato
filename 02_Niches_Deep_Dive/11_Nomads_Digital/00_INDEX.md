@@ -5,7 +5,7 @@
 ## TL;DR
 
 *   **Persona:** Lena 29 ans Berlin, designer, clients US 300k DH/an, 210j Agadir, veut légal.
-*   **Statut:** Touriste 90j (gris) vs Carte séjour 1 an art.13 Loi 02-03 + SARL 7-14j OMPIC `02_Niches_Deep_Dive/10_MRE_Entrepreneurs/03_Creation_SARL_Distance_Procuration_Apostille.md` vs Portage.
+*   **Statut:** Touriste 90j (gris) vs Carte séjour 1 an art.13 Loi 02-03 + SARL 7-14j OMPIC `02_Niches_Deep_Dive/10_MRE_Entrepreneurs/12_Fiches_Pratiques_Niche.md` vs Portage.
 *   **Fiscal:** >183j = résident mondial Maroc `08_Fiscalite.../01_Residence_Fiscale_183j_Foyer.md`, TVA art.92 exon, IGOC 30j `09_Office.../07_Obligations_Rapatriement_Justificatifs.md`.
 *   **Offre:** Diagnostic Nomad 1,200 HT → Pack Nomad Légal 7,500 HT + débours OMPIC 2,750 + carte séjour + compte devise résident.
 

@@ -7,7 +7,7 @@
 *   [ ] Convention pays client identifiée et OUVERTE (France 1970 : art. 2/13/25) `05_Conventions...`
 *   [ ] ES : où est décidée l'activité (note `13` S6) clause `07_Etablissement_Stable`
 *   [ ] Contrat FR/EN `05_Document_Bank/templates/03_Pack_Freelance_Contrat.md` + facture art.92 `03_Freelance_Ecom_Rapatrier...`
-*   [ ] Compte convertible ouvert `10_MRE_Entrepreneurs/04_Compte_Bancaire_MRE_Convertible_Devise.md`
+*   [ ] Compte convertible ouvert `09_Office_Changes_Dotation_IGOC/06_Compte_Devise_Convertible_MRE.md`
 *   [ ] IGOC delais (90j services / 150j biens) justif banque `09_Office_Changes_Dotation_IGOC/07_Obligations_Rapatriement_Justificatifs.md`
 *   [ ] CNSS/A1 si salarié détaché `02_Salarie_Hors_Maroc...`
 *   [ ] Déclaration IS/IR avec comptable agréé
