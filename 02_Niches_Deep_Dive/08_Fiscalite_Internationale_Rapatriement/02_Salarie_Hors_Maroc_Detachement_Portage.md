@@ -1,80 +1,46 @@
-# 02 — Salarié Hors Maroc : Détachement 12 mois vs Portage International vs Contrat Local
+# 02 — Salarié hors Maroc : détachement (convention 2007), portage, contrat local
 
-> **Vide total avant** (`Select-String salarié.*étranger:1 hit`). Profondeur maximale.
+> Trois montages, trois régimes — et deux textes que les anciens fichiers du vault citaient faux : la **convention générale de sécurité sociale France-Maroc du 22/10/2007** (en vigueur le 01/06/2011 — pas « 1968 », pas la circulaire française UE), et le **délai de détachement de 3 ans** renouvelable d'accord commun (pas « 12 mois »). Vérifié 29/08/2026 au texte (décret FR n° 2011-567 ; arrangement administratif du 18/07/2008 ; cleiss/cnss).
 
-## Problème
+## 1. Le triangle des options
 
-Client 1: **Société marocaine veut salarié à Paris** (remote). Client 2: **Société française veut salarié à Casa** (coût moitié). Client 3: **Freelance veut devenir salarié hors Maroc** pour sécurité.
+| Option | Cadre juridique | Durée | Social | Fiscal | Quand la choisir |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Détachement** (Maroc → France ou inverse) | Convention sécu **France-Maroc du 22/10/2007** : le travailleur détaché par son employeur dans l'autre État **demeure assujetti au régime d'origine** si la durée n'excède pas **3 ans** (renouvellement possible d'accord commun des autorités), s'il n'est pas envoyé en remplacement, et si l'employeur exerce normalement son activité dans l'État d'origine | ≤ 3 ans (pratique : durée de la mission) | **Certificat d'assujettissement** délivré par la caisse d'origine (CNSS marocaine pour un salarié marocain détaché en France — formulaire/référence à vérifier à l'arrangement administratif + CLEISS/CNSS) : on cotise au Maroc, pas à l'URSSAF | IR : l'**emploi exercé** dans l'autre État y devient imposable selon la clause salaires de la **conv. fiscale 1970** (la dérogation « 183 j + employeur qui ne supporte pas la charge + non-résident de l'État d'emploi » se lit au texte) ; attention : > 183 j = impôt local | Mission déterminée, équipe existante, pas d'implantation |
+| **Portage / umbrella** (société de portage dans le pays d'exécution) | Contrat de travail avec la société de portage + convention de portée ; **pas** de détachement (la portage locale salarie localement) | Sans limite | **Local** (URSSAF en France ; CNSS au Maroc) — l'intégralité des charges du pays | Salaire local, imposition à la source | 1 poste durable, pas d'entité, client exige du « légal local » |
+| **Contrat local / entité** | Filiale, succursale ou embauche directe par la SARL marocaine (droit du travail applicable au lieu d'exécution — code du travail marocain **01-99? Non : livre II du dahir de 1936?** — **le code du travail marocain est le dahir n° 1-03-198 promulguant la loi 65-99** ; en France : code du travail FR) | Stable | Local | Local (et **établissement stable** possible si l'activité de l'entreprise s'y exerce — `07`) | > 3 postes, implantation réelle |
 
-## 3 Options (comparatif complet)
+## 2. Détachement Maroc → France (le cas 1 du cabinet)
 
-| Option | Durée max | Contrat | CNSS/URSSAF | Fiscalité | Avantages | Inconvénients |
-|---|---|---|---|---|---|---|
-| **Détachement** (art. L.1262 Code travail FR + convention sécu Maroc-France 1968) | 12 mois renouvelable 12 (24 max) | Contrat Maroc reste, mission lettre | CNSS Maroc reste (certificat A1 FR si détachement UE, sinon convention bilat) | IR foyer (183j) mais cotis Maroc | Rapide, pas création entité | Limité 12-24m, risque PE après 6m |
-| **Portage international** (société portage Paris/Casa) | Illimité | Contrat portage (salarié porté) | Portage paie URSSAF/CNSS | IR lieu travail 183j | Illimité, sans entité, rapatriement salaire 100% | Coût portage 8-10% CA |
-| **Contrat local** (créer filiale/succursale) | Illimité | Contrat local (FR ou MA) | Local | Local | Plein droit | Création 14j + IS |
+*   **Conditions (art. 5 de la convention 2007)** : l'employeur marocain exerce normalement son activité au Maroc ; durée ≤ 3 ans ; pas de remplacement d'un détaché arrivé à terme ; mission déterminée.
+*   **Pièces du dossier** : contrat de travail marocain en cours (ancienneté réelle), lettre de mission (objet, durée, rémunération maintenue, prise en charge logement/billet), **attestation d'assujettissement CNSS** (circuit CLEISS côté français — le formulaire exact se vérifie à la caisse, pas au blog), sécurité/mutuelle côté mission.
+*   **Impôt sur le revenu** : dès que le salarié passe **plus de 183 jours en France** (ou si la charge est supportée par une présence française), la France impose les salaires (conv. 1970, clause salaires) : c'est la **frontière fiscale** du montage — distincte de la frontière sociale (3 ans) : les deux calendriers se pilotent séparément, et c'est l'erreur n° 1 des employeurs (le « on est en détachement » social ne protège pas du tout de l'IR français).
+*   **Risque de change/salaire** : le salaire payé en France par l'employeur marocain via le compte du salarié = flux à documenter (rémunération versée à un non-résident — IGOC `09_Office...` ; c'est un paiement courant justifié par le contrat + bulletin).
 
-## Détachement détaillé (cas Maroc → France 12m)
+## 3. Le portage international (cas 2 : Yassine veut un statut salarié pour un client UE)
 
-*   **Conditions:** salarié Maroc 6 mois ancienneté, reste à charge société Maroc, pas remplacement autre détaché.
-*   **Formalités:** déclaration détachement SIPSI (FR), certificat CNSS Maroc → CPAM (form. SE 350-01), attestation DGI résidence.
-*   **CNSS:** reste affilié CNSS Maroc (taux 21.09%) 12 mois, pas URSSAF (économie 45% → 25%).
-*   **IR:** si <183j France → IR Maroc seulement (conv. art.15). Si >183j → IR France (retenue 0-20%).
-*   **Risque PE:** Si salarié a pouvoir conclure contrats à Paris >6 mois → établissement stable art.13 conv. → IS France 25% sur bénéfice attribué.
+*   **Mécanique** : la société de portage (française ou marocaine selon l'exécution) facture le client, salarie, paie les charges **locales**, reverse un net ; coût de gestion 8-12 %.
+*   **Pour qui** : le freelance qui vend durablement à l'étranger **sans** vouloir structurer (SARL `06`) ni gérer la TVA d'un autre pays (le porteur, pas lui).
+*   **Piège** : si l'activité réelle s'exécute au Maroc (le salarié porté y travaille), le portage français ne déplace pas la résidence fiscale ni les obligations de change du revenu — le portage règle la **relation de travail**, pas la **géographie du revenu** (le cas « résident marocain porté français » s'analyse au regard des règles françaises de salarié détaché/travailleur frontalier + IR marocain : **confrère**).
 
-## Portage détaillé (recommandé freelance → salarié hors Maroc)
+## 4. Contrat local & employeur étranger sans implantation (cas 3)
 
-*   **Montage:** Freelance Yassine (Casa) → portage `MABC Portage` (Paris) → client US → portage facture 5k€ → verse salaire 3,5k€ net + cotis 45% → solde 0.
-*   **Avantage fiscal:** Portage gère TVA, IR, CNSS — Yassine reste résident Maroc 340j → IR Maroc mais cotis FR (A1).
-*   **Contrat:** `Contrat travail portage` + `Convention portage` (3 parties) — modèle `05_Document_Bank/templates/`.
-*   **Dotation Office:** Portage = prestation service export → rapatriement 90 j (services) IGOC `09_Office_Changes_Dotation_IGOC/07_Obligations_Rapatriement_Justificatifs.md`.
+*   Société française qui veut un collaborateur à Casablanca **sans** entité marocaine : trois voies licites, dans l'ordre de risque — (1) **portage marocain** (la société de portage marocaine est l'employeur légal CNSS/IR), (2) **contrat de prestation** avec une SARL-AU du collaborateur (c'est du B2B — lien de subordination absent, sinon requalification : la ligne `08`/`13`), (3) **détachement à l'envers** (salarié français envoyé travailler au Maroc sous la convention 2007 côté marocain — certificat d'assujettissement français, CNSS marocaine non déclenchée ≤ 3 ans).
+*   Le « prêt de main-d'œuvre illicite » et le « travail dissimulé » guettent la 4ᵉ voie (contrat de prestation qui est en réalité un CDI déguisé) : le tribunal social marocain et l'inspection du travail lisent les faits — horaires, lien hiérarchique, outil unique — pas le titre du contrat (pivot `06`/`02`).
 
-## Contrat local (MRE crée filiale)
+## 5. Missions & livrables
 
-*   Si MRE Paris veut salarié Casa → créer SARL Casa (Loi 20-19) `10_MRE_Entrepreneurs/03_Creation_SARL_Distance_Procuration.md` → contrat CDI Maroc (Code travail art.16) + CNSS.
-*   **Coût:** Salaire 8k DH brut + CNSS 2,100 DH = 10,100 DH vs 25k DH Paris.
-
-## Synthèse arbre
-
-```
-Besoin <12m et pas PE ?
-├─ OUI → Détachement (rapide, CNSS Maroc)
-└─ NON (>12m ou PE) → Portage si 1 salarié, Filiale si >2 salariés
-```
-
-## Missions
-
-*   Diagnostic Salarie Hors Maroc 1,500 HT (choix option + risque PE)
-*   Pack Détachement 5,900 HT (lettres + certificat + convention)
-*   Pack Portage 4,500 HT (contrats 3 parties)
-
-## Checklist
-
-*   [ ] 183j compté
-*   [ ] Convention sécu FR-MA vérifiée
-*   [ ] Certificat A1/SE 350
-*   [ ] Lettre détachement 12m
-*   [ ] Clause non-PE dans contrat
-*   [ ] Co-traitance comptable pour IR
+| Livrable | Mission | Prix |
+| :--- | :--- | :--- |
+| Note de choix (détachement/portage/local) + calendrier social-fiscal des deux pays | Diagnostic 900 → note | 900 HT |
+| Dossier détachement complet (lettre de mission + clauses + checklist CNSS/CLEISS + suivi 183 j) | Pack Salarié International | 4 500-5 900 HT |
+| Contrat porté / B2B securisé + fiche anti-requalification | Pack Portage/Contrat local | 3 500-4 500 HT |
+| Revue trimestrielle des positions (jours, certificats, échéances 3 ans) | Abonnement M6 (dossier `09`) | 1 000-1 500 HT/mois |
 
 ---
 
-## Analyse doctrinale et raisonnement juridique — Salarié hors Maroc
+## Lecture professionnelle — pourquoi cette fiche tient en deux calendriers
 
-**Pourquoi détachement, portage et contrat local ne sont pas interchangeables** : Le détachement (12 mois, convention sécurité sociale Maroc-France 1968, formulaire SE 350-01) maintient l'affiliation CNSS marocaine — utile pour une mission temporaire sans créer d'entité. Le portage crée un contrat de travail avec la société de portage, qui porte le risque social (URSSAF/CNSS) moyennant 8-10% de gestion — utile pour un poste durable sans filiale. Le contrat local suppose une SARL/succursale et transfère tout le droit social local.
+Le droit du travailleur international n'est pas un empilement de régimes : ce sont **deux horloges qui tournent l'une sur l'autre** — la sociale (certificat d'assujettissement, 3 ans, accord des autorités) et la fiscale (183 jours, charge de la rémunération, établissement stable de l'employeur). Le détachement réussi est celui dont les deux calendriers sont écrits noir sur blanc dans la lettre de mission, avec alertes paramétrées. Le fichier du cabinet n'est pas « le modèle de détachement », c'est **le tableau des seuils** — celui que l'employeur qui n'a rien écrit découvre le jour du redressement URSSAF et de la question de change cumulés.
 
-**Raisonnement** : Le choix se fait en deux questions : durée >12 mois ? et pouvoir de conclure des contrats pour l'employeur à l'étranger ? Si l'un des deux est oui, le détachement bascule vers portage ou filiale, sinon on crée un établissement stable (art. 7 convention) taxé localement. L'erreur fréquente est de laisser un salarié marocain signer 8 mois à Paris sans portage — on crée un PE taxable en France sans le savoir.
-
-### Sources primaires à consulter (à jour au 20/08/2026)
-
-*   **sgg.gov.ma** — CGI (art. 19, 23, 92, 144, 150), Loi 20-19 (SARL), Loi 114-13 (AE), Loi 02-03 (séjour).
-*   **oc.gov.ma** — IGOC edition courante (2026) (Instruction Générale des Opérations de Change), circulaires Office des Changes.
-*   **cndp.ma** — Délibération 40-22 et guide registre Loi 09-08.
-*   **courdecassation.ma / jep.ma** — Jurisprudence Cass. com. (clause pénale, réserve propriété, établissement stable).
-*   **ompic.ma** — Guide dépôt marque, classification Nice, Bulletin des marques.
-
-> Toute référence chiffrée (plafond, taux, délai) doit être vérifiée sur le texte source à la date de la consultation — les lois de finances annuelles modifient le barème IS/TVA et les dotations IGOC.
-
-### Limites et devoir d'information (art. 59 Loi 28-08)
-
-Cette fiche est une information doctrinale, pas une consultation individualisée. Le diagnostic préalable (45 min, convention art. 30) reste indispensable pour qualifier la situation personnelle du client, notamment avec le comptable agréé pour le chiffrage exact.
+> Références : Convention générale de sécurité sociale France-Maroc du **22/10/2007** (décret FR 2011-567 ; arrangement administratif — formulaires à vérifier CLEISS/CNSS) ; CGI et **conv. fiscale France-Maroc du 29/05/1970** (clause salaires — à ouvrir) ; IGOC 2026 ; code du travail **loi 65-99** ; code du travail français (L.1262 et s. — pour l'employeur étranger en France, confrère). Vérifié 29/08/2026.

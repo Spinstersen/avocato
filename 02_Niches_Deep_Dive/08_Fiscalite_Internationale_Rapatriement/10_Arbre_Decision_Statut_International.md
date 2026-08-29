@@ -6,10 +6,10 @@ START: Es-tu salarié hors Maroc ?
 │   ├─ NON (<12m) → Détachement 12m CNSS Maroc (rapide, 5,900)
 │   └─ OUI (>12m) → 1 salarié ? → OUI Portage 8% (illimité) / NON Filiale SARL
 └─ NON (freelance/ecom) → CA >200k (service) /500k (commerce) ?
-    ├─ NON → AE suffit (1j, IR 1-3%) → Pack 1,200 diag
+    ├─ NON → AE suffit (1j, IR 1 % / 0,5 %) → diag 900 d'abord
     └─ OUI → Résident 183j ?
-        ├─ OUI (nomad >183j) → SARL (IS 15%) + carte séjour 1 an `04_Statut_Juridique_Nomad_Carte_Sejour.md` → Pack 7,500
-        └─ NON (MRE non-résident) → SARL non-résident + convention art.27 → Pack 7,500
+        ├─ OUI (nomad >183j) → SARL (IS 20 % taux 2026) + carte séjour 1 an `04_Statut_Juridique_Nomad_Carte_Sejour.md` → Pack 7,500
+        └─ NON (MRE non-résident) → SARL non-résident + convention (crédit/crédit d'impôt — art. 25 France) → Pack 7,500
             └─ Client US ? → TVA art.92 exon + IGOC delais (90j services / 150j biens) `06_Rapatriement...`
 ```
 
@@ -27,7 +27,7 @@ START: Es-tu salarié hors Maroc ?
 *   [ ] Convention pays client ? (05)
 *   [ ] PE risque >6m ? (07)
 
-Si 1 non → faire Diagnostic 1,200 d'abord.
+Si 1 non → faire Diagnostic 900 d'abord.
 
 ---
 

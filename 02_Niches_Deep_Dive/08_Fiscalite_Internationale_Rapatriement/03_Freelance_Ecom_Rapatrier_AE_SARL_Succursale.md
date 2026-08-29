@@ -1,79 +1,52 @@
-# 03 — Freelance / E-com : Quel Statut pour Rapatrier Légalement
+# 03 — Freelance / E-com : quel statut pour encaisser et rapatrier légalement
 
-> Cœur conquête MRE/nomad qui rapatrient. Répond `Youssef freelance ecom veut statut juridique pour rapatrier`.
+> La question que les clients posent en anglais et en dirhams : « my client pays in USD — what am I legally ? ». La réponse en 2026 (textes vérifiés 29/08/2026 ; les anciens « AE commerce 1 M », « IS 15/31 », « loi 15-06 » et « redressement 30 % » de cette fiche étaient faux — corrigés ici, en gras).
 
-## Tableau rapatriement par statut (IGOC edition courante (2026) + CGI)
+## 1. La grille des statuts (édition 2026)
 
-| Statut | Plafond CA | Création | IS/IR | TVA export art.92 `01_Freelancers.../02_Douleurs_Juridiques.md:40` | Rapatriement change : services 90 j / biens 150 j Office | Compte | Pour qui |
-|---|---|---|---|---|---|---|---|
-| **AE service** | 200k DH/an `06_Autoentrepreneur.../02_Douleurs_Juridiques.md:7` | 1j gratuit | IR 1-3% libératoire | Exon si client hors Maroc + justif export | Virement perso (pas pro séparé) | Perso | Test <200k, 1 client |
-| **AE commerce** | 1M DH/an | 1j | IR 0.5-1% | Idem | Idem | Perso | Ecom <1M test |
-| **SARL/SARL-AU** | Illimité | 7-14j OMPIC `05_MRE.../02_Douleurs_Juridiques.md:8`, capital 10k min | IS 15% <300k bénéf, 31% au-delà | Exon art.92 | Dividende/salaire via compte pro convertible, déclar 30j IGOC `09_Office_Changes_IGOC2024/07_Obligations_Rapatriement_Justificatifs.md` | Pro convertible | Freelance >200k, ecom >1M, PME |
-| **Succursale** (art.379 loi 17-95) | Illimité | 14j RC + Office | IS sur bénéf Maroc seulement | Exon | Maison mère → succursale (Office) | Pro succursale | Ecom étranger (Dubai) veut Maroc |
-| **Auto-entrepreneur → SARL scaling** | Passage obligé plafond | `06_Autoentrepreneur_to_SARL_Scaling/02_Douleurs_Juridiques.md:7` | Transition IR→IS | Idem | Idem | Pro | Atteint plafond |
+| Statut | Éligibilité / plafond | Fiscalité | TVA export | Change | Compte | Pour qui |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **AE services** | Personne physique **résidente**, activité **unique** — plafond **200 000 DH/an de CA encaissé** | IR libératoire **1 %** (+ **RAS 30 %** sur la part > 80 k/client personne morale — art. 42 bis CGI) | **Hors champ** (art. 91-II-3°) — donc pas d'exonération à revendiquer : on ne facture pas la TVA | Recettes export : rapatriement **90 j** (services) | Pro (l'AE a un compte dédié) ; l'idéal converti : SARL-AU | Test < 200 k, mono-client acceptable |
+| **AE commerce/industrie/artisanat** | **500 000 DH/an** (pas « 1 M » — l'erreur des blogs qui recopient la France) | IR libératoire **0,5 %** (+ RAS 30 % idem) | Hors champ (idem) | Idem ; les **encaissements plateforme** (YouCan/Jumia/paiement à la livraison) : flux DH locaux — le change ne se pose que pour l'import fournisseur | Pro | E-com local < 500 k |
+| **SARL / SARL-AU** (loi **5-96**) | Illimité ; capital libre (usage 10 k) | IS **20 %** (BNF < 100 M DH — taux 2026) + RAS dividendes 11,25 % (2026) → 10 % (2027) | Exonération **art. 92** si client non-résident + utilisation à l'étranger + paiement en devises rapatrié — avec droit à déduction en amont | Compte **en devises / convertible** ; rétention partielle (`09_Office.../05`) | **Compte pro, le seul qui tienne à terme** | > 200/500 k ; > 1 activité ; embauche ; marchés corporate |
+| **Succursale** d'une société étrangère | Immatriculation RC + régime Office des Changes des succursales (le « art. 379 loi 17-95 » du vault : non retrouvé — la base se cite au **registre du commerce + IGOC** après vérification du texte applicable) | IS sur le bénéfice **de la succursale au Maroc** | Idem art. 92 | Comptes de la succursale (résidentielle pour les changes) ; les flux siège↔succursale se qualifient (courant vs capital) | Pro | L'entité étrangère qui veut vendre depuis le Maroc |
+| **Portage** (dossier `02`) | Via société de portage | IR salarié | Portage gère | Dans le cadre du porté | Porteur | Le freelance qui refuse toute structure |
 
-## TVA art.92 exonération export — condition sine qua non
+## 2. Le vrai calcul du franchissement (celui qui fait signer, pas la peur)
 
-*   **CGI art.92:** `Export de services hors Maroc = exonération TVA` si:
-    1.  Client hors Maroc (adresse + RC étranger)
-    2.  Paiement en devises (virement/Wise, pas DH)
-    3.  Justificatif: contrat + facture `Exonération TVA art.92 CGI — prestation export` + avis virement.
-*   **Mentions facture:** `N° ICE, RC, IF, Exonération TVA art.92 CGI — paiement devises via banque [X] le [date] — Rapatriement change : services 90 j / biens 150 j IGOC`.
-*   **Erreur fréquente:** Facturer TVA 20% à client US → perte compétitivité 20% + redressement si non reversée.
+**Yassine, 600 k DH/an services via Wise, 2 clients US personnes morales (400 k + 200 k) :**
 
-## Procédure rapatriement 90 j (services) IGOC (voir `09_Office_Changes_Dotation_IGOC/07_Obligations_Rapatriement_Justificatifs.md`)
+| | Rester AE (hors statut — 2ᵉ année de dépassement) | Basculer SARL-AU |
+| :--- | :--- | :--- |
+| IR/IS | 6 000 « théoriques » — mais **plus de statut** : imposition au régime de droit commun des revenus professionnels + régularisation des années | IS 20 % sur le bénéfice (après charges réelles) : si charges 250 k → BNF 350 k → **70 k** |
+| RAS 30 % clients > 80 k | ≈ 30 % × (400+200 − 160 k franchisés) = **≈ 222 k retenus** | N'existe plus : la SARL est un redevable normal |
+| TVA | 0 (hors champ, pas de déduction sur les outils importés) | 0 export (art. 92) **+ déduction** sur SaaS/ads/outils → souvent < 0 net |
+| Change | 90 j par exigibilité + compte pro à ouvrir | Compte devise, rétention, dossier export structuré |
+| Total « paisible » | Irréaliste — le cumul IR progressif + RAS + pénalités du hors-statut est **supérieur** à la colonne de droite | Chiffrable, opposable en banque et en marché |
 
-1.  Client US paie 5k$ sur Wise → virement vers compte convertible SARL Attijari (délai 2j).
-2.  Banque demande les justificatifs (régime + délai 90 j services): contrat FR/EN `05_Document_Bank/templates/03_Pack_Freelance_Contrat.md` + facture + attestation export.
-3.  Sans justif → compte bloqué J+30 + déclaration Office infractions `09_Office_Changes_Dotation_IGOC/08_Infractions_Sanctions.md`.
+**La conclusion honnête du dossier `06` est la sienne** : au-delà du plafond, la SARL n'est pas « plus cher que l'AE » — l'AE **n'existe plus** pour ce niveau de CA ; la vraie comparaison est SARL vs régime réel de personne physique, avec l'embauche et le bouclier patrimonial en plus.
 
-## Cas chiffré Yassine 600k DH (freelance dev US)
+## 3. TVA export : la triple condition qui fait gagner ou perdre le dossier (CGI art. 92)
 
-*   AE 600k >200k plafond → redressement 30% + IS rétro 31% = 180k DH si contrôle.
-*   **Solution SARL:** IS 15% sur bénéfice 400k (après charges 200k) = 60k DH + CNSS 25k vs IR AE 3%×600k=18k mais limité plafond → **SG: SARL coûte +42k mais légal + embauche**.
-*   **Pack:** SARL 7-14j (OMPIC) + contrat FR/EN + TVA exon + compte convertible = `08_Missions_Pack_International_Fiscal.md:5,900 HT`.
+1.  Client **établi hors Maroc** (et la prestation **utilisée à l'étranger** — le client UE qui « utilise » au Maroc se discute, documenter la destination) ;
+2.  Paiement en **devises rapatriées** dans les délais des changes (90 j services — `09_Office.../05_Import_Export_Rapatriement.md`) : l'exonération TVA et la licéité du change sont **les mêmes pièces du dossier** ;
+3.  **Mentions** de facture (CGI art. 145) + référence art. 92 + état des prestations exportées selon le calendrier DGI (TVA électronique en déploiement LF2025-2026 — calendrier par taille d'entreprise à vérifier).
 
-## Cas Salma ecom 30k DH/mois (360k/an) YouCan
+## 4. E-commerce : les seuils qui font changer de monde (correction des « 1 M »)
 
-*   AE commerce 1M plafond OK mais **loi 15-06 e-commerce** + **31-08 protection consommateur** + **09-08** exigent SARL au-delà 1M → anticiper.
-*   **Solution:** AE jusqu'à 800k → bascule SARL avant 1M (prévisionnel 6 mois).
+*   **Salma, YouCan 360 k/an** → **AE services ?** Non : l'e-com de vente = **commerce** (plafond 500 k) — mais avec des **prestations** (conseil, formation vendue) elle a **deux activités** : le RNAE n'en accepte qu'une → la question n'est pas « AE ou SARL », c'est « **quelle est mon activité réelle ?** » puis « quel seuil je franchis cette année ? » (la réponse se planifie au 1ᵉʳ semestre, pas en décembre).
+*   Au-delà de tout plafond ou dès le premier salarié, la bascule SARL (`06`) ; pour la vente en ligne : **loi 53-05** (contractualisation électronique) + **loi 31-08** (protection du consommateur — rétractation 7 j art. 36) + **09-08** (fichier clients) — pas « 15-06 » (référence inexistante retirée).
 
-## Checklist rapatriement
+## 5. Les 3 questions qui règlent le diagnostic (900 HT)
 
-*   [ ] Statut < plafond ?
-*   [ ] Contrat FR/EN signé avant paiement
-*   [ ] Facture art.92 mention
-*   [ ] Compte convertible ouvert (Attijari/CGP) `10_MRE_Entrepreneurs/04_Compte_Bancaire_MRE_Nomad.md`
-*   [ ] Virement devises (pas DH)
-*   [ ] Justificatifs + delai 90j (services)
-*   [ ] Déclaration IS/IR avec comptable
-*   [ ] Registre 09-08 si collecte données
-
-## Statut juridique pour rapatrier — réponse directe
-
-*   **<200k:** AE service suffit (1j, IR 1-3%).
-*   **200k-1M:** SARL obligatoire (ou portage si salarié hors Maroc `02_Salarie_Hors_Maroc`).
-*   **>1M ou 3 clients EU:** SARL + compte convertible + TVA exon.
-*   **Étranger veut Maroc:** succursale 14j.
+1.  **Combien encaissé par activité réelle l'an dernier** (les deux plafonds se lisent séparément) — et quelle est la projection N+1 ?
+2.  **Qui sont les 5 premiers payeurs** : personne morale ? > 80 k ? (la RAS dessine la fiscalité réelle)
+3.  **Qu'est-ce que je veux faire dans 24 mois** : embaucher (→ société), répondre à un corporate (→ société), vendre une ligne de produits (→ activité mixte = société) ? — le statut se choisit **avec** le projet, pas contre l'impôt.
 
 ---
 
-## Analyse doctrinale et raisonnement juridique — Statut pour rapatrier
+## Lecture professionnelle — la ligne de conduite de cette fiche
 
-**Pourquoi le statut conditionne le rapatriement** : L'AE (art. 4 Loi 114-13, plafond 200k services / 500k commerce) est un régime IR libératoire sans déduction de charges, conçu pour tester. Au-delà, la SARL (Loi 20-19, capital 10k, IS barème art. 19 CGI) devient obligatoire non pour payer plus d'impôt, mais pour déduire les charges, embaucher (CNSS), et justifier un compte pro convertible. La succursale (art. 379 loi 17-95) est l'antenne d'une société étrangère qui veut facturer depuis le Maroc.
+La « question du statut pour rapatrier » est un faux problème renversé : **ce n'est pas le rapatriement qui choisit le statut, c'est l'activité qui les choisit tous les deux**. L'avocat qui commence par le change (compte, délais, pièces) rassure et vend la mission M3 du dossier `09` ; celui qui s'arrête au taux (« 1 % vs 20 % ») rate la radioscopie (activités cumulées, RAS, embauche, marchés). La fiche se termine toujours par le même triptyque : le chiffre d'affaires réel par activité, le calendrier du franchissement, le projet du client à 24 mois — et la bascule se décide en année creuse, pas en année de panique.
 
-**Raisonnement** : Le choix ne se fait pas sur le taux (1% AE vs 10% IS) mais sur la capacité à justifier le flux IGOC delais (90j services / 150j biens). Une facture AE de 600k sans contrat au-delà du plafond est rejetée par la banque, même à 1% — alors qu'une facture SARL de 600k avec contrat FR/EN et compte convertible passe, même à 10% IS. La TVA art. 92 (exonération export si client hors Maroc + paiement devises) achève de rendre le prix compétitif malgré l'IS.
-
-### Sources primaires à consulter (à jour au 20/08/2026)
-
-*   **sgg.gov.ma** — CGI (art. 19, 23, 92, 144, 150), Loi 20-19 (SARL), Loi 114-13 (AE), Loi 02-03 (séjour).
-*   **oc.gov.ma** — IGOC edition courante (2026) (Instruction Générale des Opérations de Change), circulaires Office des Changes.
-*   **cndp.ma** — Délibération 40-22 et guide registre Loi 09-08.
-*   **courdecassation.ma / jep.ma** — Jurisprudence Cass. com. (clause pénale, réserve propriété, établissement stable).
-*   **ompic.ma** — Guide dépôt marque, classification Nice, Bulletin des marques.
-
-> Toute référence chiffrée (plafond, taux, délai) doit être vérifiée sur le texte source à la date de la consultation — les lois de finances annuelles modifient le barème IS/TVA et les dotations IGOC.
-
-### Limites et devoir d'information (art. 59 Loi 28-08)
-
-Cette fiche est une information doctrinale, pas une consultation individualisée. Le diagnostic préalable (45 min, convention art. 30) reste indispensable pour qualifier la situation personnelle du client, notamment avec le comptable agréé pour le chiffrage exact.
+> Références : loi 114-13 + CGI art. 42 et s. (42 bis RAS 30 %/80 k ; 42 ter plafonds 200/500 k) ; loi 5-96 ; CGI art. 92, 91-II-3°, 145 ; LF 2026 (IS 20/35/40 ; RAS 11,25 → 10) ; loi 53-05 ; loi 31-08 ; IGOC 2026. Vérifié 29/08/2026.

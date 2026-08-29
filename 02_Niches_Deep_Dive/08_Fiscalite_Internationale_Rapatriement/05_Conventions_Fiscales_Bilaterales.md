@@ -1,83 +1,49 @@
-# 05 — Conventions Fiscales Bilatérales (4 pays détaillés)
+# 05 — Conventions fiscales bilatérales : la méthode (textes vérifiés 29/08/2026)
 
-## Cadre général (OCDE)
+> **Règle d'or de la fiche** : une convention se cite par sa **date exacte** et par l'**article du texte ouvert** — jamais par un numéro OCDE générique ni par une date « de mémoire ». Les anciens fichiers du vault dataient mal (France « 1959 ») et citez une convention « Maroc-US 1977 » qui **n'existe pas**. Les repères ci-dessous sont vérifiés (`impots.gouv.fr`/BOFiP, textes publiés, presse spécialisée) ; chaque taux destiné à un client se re-vérifie au texte consolidé le jour de l'acte.
 
-*   Maroc = 40 conventions (France 1959 modifiée 1972/1989/2008, Belgique 1972, Espagne 1985, US 1977). Principe: éviter double imposition art.27.
-*   **3 articles clés à connaître par cœur** (comme `08_Jurisprudence/00_Index.md:15`):
+## 1. La méthode en 5 mouvements (valable pour toutes les conventions)
 
-| Article | Sujet | Usage MRE/nomad |
-|---|---|---|
-| **4** | Résidence fiscale | Détermine où payer (foyer, 183j) |
-| **7/13** | Bénéfices entreprises / Établissement stable | Où taxer bénéfice SARL |
-| **27** | Élimination double imposition | Crédit d'impôt |
+1. **Résidence** (critères de la convention — France : art. 2 « personne domiciliée » : foyer → séjour → centre d'activité ; OCDE moderne : art. 4 tie-breaker) → qui a droit au crédit, où.
+2. **Qualification du revenu** : bénéfice d'entreprise (Maroc : imposition dans l'autre État **seulement** s'il y a établissement stable), dividendes, intérêts, redevances, salaires, pensions.
+3. **Plafonds de retenue** dans l'État de la source — et **jamais oublier** : si le taux interne marocain est **plus doux** que le plafond conventionnel, c'est le taux interne qui s'applique (RAS dividendes 11,25 % en 2026 < plafond France 15 %).
+4. **Élimination de la double imposition dans l'État de résidence** : crédit (parfois **forfaitaire** — ex. France/Maroc art. 25 : déduction égale à 25 % attachée aux dividendes marocains sous barème ; interactions PFU à trancher par le fiscaliste du pays de résidence), ou exonération avec progressivité (à lire dans le texte).
+5. **Procédure** : attestation de résidence de l'autre État + formulaire local (France : attestation de résidence fiscale pour l'application de la convention, modèle 5000 series — **à vérifier au BOFIP**) + case « convention » dans la déclaration + dossier de preuves d'effectivité. **L'avocat marocain ne pratique le droit de l'État de résidence qu'avec un confrère.**
 
-## Maroc-France (la plus utilisée)
+## 2. Les textes réellement en vigueur pour les clientèles du cabinet (vérifiés 29/08/2026)
 
-*   **Art.4:** foyer permanent → centre intérêts → séjour habituel → nationalité.
-*   **Art.7:** Bénéfices SARL Casa taxés Maroc seulement sauf établissement stable Paris (bureau >6 mois ou salarié pouvoir conclure).
-*   **Art.15:** Salaires taxés État travail sauf si <183j + employeur non-résident + charge non supportée par établissement stable → alors État résidence.
-*   **Art.27:** France accorde crédit impôt = IS Maroc payé (max IS France).
+| Partenariat | Texte (date et entrée en vigueur) | Points d'usage client (à citer au texte ouvert) |
+| :--- | :--- | :--- |
+| **France** | Convention du **29/05/1970** (en vigueur 01/12/1971), modifiée par avenant du **18/08/1989** (en vigueur 01/12/1990) — BOFiP BOI-INT-CVB-MAR | Dividendes : retenue source **≤ 15 %** (art. 13) — le taux interne marocain 11,25 %/10 % s'applique en pratique ; élimination FR : **déduction forfaitaire de 25 %** des dividendes marocains (art. 25-3-a, régime du barème — option PFU à arbitrer **avec le confrère**) ; salaires : imposition à la résidence sauf emploi dans l'autre État (règles 183 j au texte) ; la convention de 1970 **ne suit pas la numérotation OCDE** : art. 4/7/10/15/27 = modèle, pas ce texte |
+| **Belgique** | Convention du **31/05/2006** (signée à Bruxelles ; en vigueur **30/04/2009**) — remplace la convention du 04/05/1972 et son avenant du 14/02/1983 | Texte moderne : dividendes 10 % (6,5 % si participation ≥ 25 % — taux FR-side précompte ; retenue **marocaine** plafonnée à la convention) ; intérêts 10 % ; pensions résidence ; **à ouvrir avant tout client BE** |
+| **Espagne** | Convention du **10/07/1978** (en vigueur 16/05/1985) | Dividendes 10 %/15 % selon participation (art. 10-2), intérêts 10 % (art. 11-2), redevances **5 % (droits d'auteur littéraire/art./sci.) ou 10 %** (art. 12-2) — utile aux créateurs/MRE Espagne ; lettres interprétatives 2015 existent |
+| **Italie** | Convention du **07/06/1972** (+ protocole 1979) — jamais modernisée | Prudence : texte ancien, litiges d'interprétation fréquents → systématiquement avec confrère |
+| **Canada** | Convention du **22/12/1975** (en vigueur 1977) ; sécu : entente 1998 (en vigueur 2000) | Dividendes 15 % ; MRE Montréal — dossier mixte avec la fiscalité provinciale (confrère) |
+| **Pays-Bas** | Convention du **12/08/1977** — renégociations en cours (exclue du plan 2025 côté NL) | Ne pas bâtir un montage NL dessus sans ouverture du texte + veille |
+| **États-Unis** | **Aucune convention fiscale Maroc-US** (janvier 2026) | Droit interne US seul : imposition **mondiale des US persons** quel que soit le lieu de résidence ; crédit d'impôt étranger (*foreign tax credit*, droit interne US) ; formalités FBAR/FATCA pour les accounts étrangers des US persons → **CPA US obligatoire, toujours** |
 
-**Cas Karim MRE Paris + SARL Casa 100k bénéfice:**
+> **Campagnes & avoirs** (rappel transversal, cf. watch `01/00_INDEX.md`) : la régularisation des avoirs étrangers des résidents s'est faite par lois (63-14 ; art. 4 ter LF 110-13 ; art. 8 LF 70-19 puis LF 55-23) — quand un client US ou autre avoue un compte étranger non déclaré, la question est d'abord : **quel régime de régularisation est ouvert aujourd'hui** (`08` dossier 09 ; confrère du pays).
 
-*   Sans convention: IS Maroc 15% (15k) + IR France 25% (25k) = 40k.
-*   Avec conv.: IS Maroc 15k (crédit France) + solde France 10k = 25k → économie 15k.
+## 3. Les 4 erreurs de citation qui reviennent (et qu'on ne fait plus)
 
-## Maroc-Belgique (1972)
+1.  « Convention France-Maroc **1959** » → **29/05/1970** (avenant 18/08/1989). La date « 1959 » court encore sur les blogs ; nos articles la corrigent publiquement — c'est un positionnement.
+2.  Citer « art. 7 (bénéfices), art. 10 (dividendes), art. 27 » **pour la France** : ces numéros sont ceux du **modèle OCDE** ; la France-Maroc 1970 a sa numérotation propre (dividendes **art. 13**). Pour la Belgique 2006, les numéros modernes s'en rapprochent — mais **on ouvre le texte**.
+3.  « Convention Maroc-USA 1977 » → **n'existe pas** ; tout montage « Delaware + 0 % grâce à la convention » est une contrevérité (et la niche 11 la voit passer).
+4.  Confondre **taux de retenue marocain** et **taux plafond conventionnel** : 15 % France = un plafond ; le Maroc prélève 11,25 % (2026, puis 10 %) — et c'est **Maroc source** qui retient, jamais la France sur un dividende marocain.
 
-*   Similaire France mais dividende source 15% retenue (vs 10% France). Intéressant holding.
+## 4. Procédure « appliquer la convention » (fiche client type)
 
-## Maroc-Espagne (1985)
-
-*   Art.10 dividendes 10% (Maroc-Espagne), très utilisé MRE Espagne.
-
-## Maroc-US (1977)
-
-*   US taxe ses citoyens mondial (citoyen US nomad Casa = IR US même si résident Maroc). Convention art.4 + Foreign Tax Credit (FTC) US: crédit IS Maroc sur IR US. Besoin CPA US + comptable Maroc.
-
-## Procédure appliquer convention
-
-1.  Attestation résidence DGI `01_Residence_Fiscale_183j_Foyer.md`.
-2.  Formulaire convention (5000-F pour France).
-3.  Déclaration IS/IR avec case `convention`.
-
-## Checklist
-
-*   [ ] Convention pays client identifiée
-*   [ ] Art.4/7/13/15/27 appliqués
-*   [ ] Attestation DGI
-*   [ ] Co-traitance comptable + expert étranger si US
-*   [ ] Déclaration crédit impôt
-
-## Tableau synthèse
-
-| Pays client | Convention | Dividende retenue | Besoin attestation |
-|---|---|---|---|
-| France | 1959 | 10% | Oui 5000-F |
-| Belgique | 1972 | 15% | Oui |
-| Espagne | 1985 | 10% | Oui |
-| US | 1977 | 15% | Oui + FTC |
+*   [ ] Résidence établie par **preuve** (attestation de résidence de l'**autre** État ; DGI marocaine si résidence revendiquée au Maroc)
+*   [ ] Revenu qualifié au texte de la convention ouverte (copie PDF datée dans le dossier)
+*   [ ] Retenue à la source marocaine calculée au taux interne **ou** conventionnel, le plus favorable documenté
+*   [ ] Formulaire de l'État de résidence transmis **avant** paiement (5000-F et consorts — vérifier les modèles en vigueur côté étranger)
+*   [ ] Crédit/déduction côté résidence chiffré **par le confrère** (jamais l'avocat marocain seul)
+*   [ ] Archivage : la convention litigieuse se prouve avec la version applicable à l'année d'imposition
 
 ---
 
-## Analyse doctrinale et raisonnement juridique — Conventions fiscales
+## Lecture professionnelle — pourquoi cette fiche est un arsenal et pas une liste
 
-**Pourquoi les conventions existent** : Sans elles, le même bénéfice serait taxé au Maroc (IS) et en France (IR) — double imposition économique. Les conventions répartissent le droit d'imposer (art. 7 bénéfices d'entreprise : taxés dans l'État de l'entreprise sauf établissement stable) et prévoient l'élimination (art. 27 crédit d'impôt).
+Dans les dossiers MRE/nomad, la convention n'est pas un bonus : c'est la **clé de voûte** qui distingue le client structuré du client « double-imposé par ignorance ». Le cabinet gagne cette niche en citant **exactement** (1970, pas 1959 ; art. 13, pas art. 10 ; « aucune convention US », pas un chiffre inventé) — chaque erreur de citation concurrente est une démonstration de plus de notre méthode. Et là où le texte manque ou vieillit (Italie 1972, Pays-Bas 1977, US zéro), la réponse est toujours la même : **on dit « je ne sais pas sans le texte », on le cherche, ou on passe le client au confrère local** — l'anti-recette de la clientèle internationale.
 
-**Raisonnement** : On ne lit pas l'article isolation. On procède : 1) Déterminer la résidence (art. 4), 2) Qualifier le revenu (bénéfice art. 7 vs dividende art. 10 vs salaire art. 15), 3) Vérifier la présence d'établissement stable (6 mois + pouvoir de conclure), 4) Appliquer l'élimination. Chaque étape exige l'attestation de résidence et le justificatif bancaire — sinon la convention reste théorique.
-
-**Doctrine** : Modèle OCDE commenté, à consulter sur `impots.gouv.fr` (Bofip) pour l'interprétation française, et `sgg.gov.ma` pour la publication marocaine.
-
-### Sources primaires à consulter (à jour au 20/08/2026)
-
-*   **sgg.gov.ma** — CGI (art. 19, 23, 92, 144, 150), Loi 20-19 (SARL), Loi 114-13 (AE), Loi 02-03 (séjour).
-*   **oc.gov.ma** — IGOC edition courante (2026) (Instruction Générale des Opérations de Change), circulaires Office des Changes.
-*   **cndp.ma** — Délibération 40-22 et guide registre Loi 09-08.
-*   **courdecassation.ma / jep.ma** — Jurisprudence Cass. com. (clause pénale, réserve propriété, établissement stable).
-*   **ompic.ma** — Guide dépôt marque, classification Nice, Bulletin des marques.
-
-> Toute référence chiffrée (plafond, taux, délai) doit être vérifiée sur le texte source à la date de la consultation — les lois de finances annuelles modifient le barème IS/TVA et les dotations IGOC.
-
-### Limites et devoir d'information (art. 59 Loi 28-08)
-
-Cette fiche est une information doctrinale, pas une consultation individualisée. Le diagnostic préalable (45 min, convention art. 30) reste indispensable pour qualifier la situation personnelle du client, notamment avec le comptable agréé pour le chiffrage exact.
+> Sources : textes publiés (`sgg.gov.ma`, BO N°), `impots.gouv.fr` (PDF conventions + BOFiP INT-CVB-MAR/BEL/ESP/ITA), Service public fédéral belge (loi du 30/03/2009), BOE (convention ES-MA 1978), guides CCME (recueil des conventions), presse spécialisée (2026). Vérifié le 29/08/2026.

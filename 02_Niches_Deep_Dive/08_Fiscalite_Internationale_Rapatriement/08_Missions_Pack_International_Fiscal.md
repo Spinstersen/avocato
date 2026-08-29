@@ -1,52 +1,49 @@
-# 08 — Missions Mission International Fiscal (5 Packs 1,200 → 7 500 DH HT (indicatif, sur convention))
+# 08 — Missions « International fiscal » : du diagnostic 900 au pack MRE 7 500 HT
 
-> **Nature juridique — FISC** — Missions sur convention écrite préalable (art. 30 Loi 28-08). Honoraires indicatifs HT, provision 50% à la signature, débours OMPIC/Office/CNDP en sus, TVA art. 91 CGI. Aucun forfait ne constitue un produit e-commerce. Le diagnostic préalable (art. 59) détermine l'étendue exacte.
+> **Nature juridique** — Missions sur **convention d'honoraires écrite préalable** (repères loi 28-08 → **66-23**, transposition — watch `01/00_INDEX.md`). Honoraires indicatifs HT ; provision à la signature ; débours en sus ; **aucune garantie de résultat administratif** (le taux d'une convention, l'accord d'une banque, la position d'une administration ne se promettent pas). Diagnostic préalable : **900 DH HT**.
 
-## Fondement juridique
+## Pourquoi une mission, pas un forfait
 
-*   **Loi 28-08** art. 30 (convention), art. 32 (provision), art. 59 (information), art. 36 (secret).
-*   **Textes spéciaux** selon mission : Loi 17-97 (PI), CGI art. 19/23/92, IGOC edition courante (2026) (Instruction Générale des Opérations de Change, Office des Changes — texte à jour sur oc.gov.ma) Office des Changes, Loi 20-19, Loi 02-03.
-*   **Déontologie** : Règlement Intérieur Barreau — honoraires adaptés à la complexité, au temps, à la spécialité.
+Le client international n'apporte jamais « un problème fiscal » : il apporte une situation à trois couches (résidence, structures, flux) dont chaque couche a son texte, son calendrier et son pays. Le chiffrage indicatif sert à la transparence du premier rendez-vous ; la convention fixe le périmètre exact après le diagnostic — et parfois le diagnostic dit « ne changez rien » (c'est un livrable, pas une perte).
 
-## Pourquoi une approche par mission
+## Les missions
 
-Le client n'achète pas un paquet standardisé. Il confie un problème (copie de marque, risque PE 6 mois, dépassement 183j, blocage compte) qui exige une analyse individualisée. Le chiffrage indicatif permet la transparence, la convention permet l'ajustement motivé.
+| Mission | Prix HT indicatif | Contenu | Délai | Pour qui |
+| :--- | ---: | :--- | :--- | :--- |
+| **Diagnostic International** | 900 | 45 min + note 2 p. : résidence (183 j/foyer/centre — `01`), statut au regard des plafonds (AE/SARL/EI réel — `03`), convention applicable **ouverte** (`05`), risques ES/flux (`07`, `06`), 3 actions datées + Loom | 72 h | Tout dossier transfrontalier |
+| **Mission Rapatriement / Conformité export** | 5 900 | Choix de statut avec le comptable + contrat de prestation export (`13` S3) + factures conformes + compte devise/convertible + registre des 90 j + interface banque | 7-14 j | Freelance/SARL export (pont `09_Office.../09` M3) |
+| **Mission Salarié International** | 5 900 | Choix détachement (convention sécu **2007**, 3 ans, certificat d'assujettissement — `02`)/portage/contrat local ; lettre de mission, clauses, calendrier social+ fiscal des deux pays | 7-14 j | Société qui envoie ou reçoit un collaborateur |
+| **Mission MRE Fiscal** | 7 500 + débours | Résidence (art. 2 conv. 1970) + création/consolidation SARL à distance (dossier `10/03_Creation_SARL_Distance_Procuration_Apostille.md`) + compte au bon régime + **pack dividende** (PV, RAS, dossier banque — `06`) + confrère du pays de résidence | 14-30 j | MRE entrepreneur |
+| **Mission Nomade Légal** | 7 500 + débours | Note 3 couches (séjour/résidence/structure — `04`) + structure + banque + attestation de résidence + plan des avoirs étrangers | 14-30 j | Lena et les résidents de fait |
+| **Abonnement Veille Internationale** | 1 500/mois | Revue annuelle des positions (résidence, conventions, IGOC nouvelle édition, LF) + alertes de délais + 1 h Q&A/mois | mensuel | Tout portefeuille ouvert |
 
-
-
-> **Mission professionnelle** — Honoraires indicatifs HT, fixés par **convention écrite préalable** (art. 30 Loi 28-08, Règlement Intérieur du Barreau). Aucun forfait ne constitue une offre commerciale type e-commerce. Chaque dossier fait l'objet d'un diagnostic (art. 59) et d'une provision (art. 32). Débours OMPIC/CNDP/Office des Changes en sus. Aucune garantie de résultat.
-
-
-> Avec **comptable agréé sans friction** — co-traitance tripartite `01_Strategy/01_Rules/06_Apporteur_Affaires_Partenariats.md`. Provision art.30, débours en sus, FR+EN FR fait foi.
-
-| Mission | Prix HT | Inclus | Délai | Pour qui |
-|---|---|---|---|---|
-| **Diagnostic International** | 1 200 DH HT (indicatif) | 45 min + 2p (résidence 183j, statut AE/SARL/succursale, convention applicable, risque PE, 3 priorités) + Loom 5 min | 72h | Tous (porte) |
-| **Mission de Rapatriement Freelance/Ecom** | 5 900 DH HT (indicatif, sur convention) | Diagnostic + choix statut AE/SARL + contrat FR/EN art.92 + facture modèle + ouverture compte convertible + checklist IGOC delais (90j services / 150j biens) + co-traitance comptable IS | 7j | Freelance 200k-1M, ecom |
-| **Mission Salarié Hors Maroc** | 5 900 DH HT (indicatif, sur convention) | Diagnostic + choix détachement/portage/contrat local + lettres + certificat CNSS + clause anti-PE | 7j | Société avec salarié remote |
-| **Mission MRE Fiscal** | 7 500 DH HT (indicatif, sur convention) + débours OMPIC/Office | Diagnostic + SARL distance `10_MRE_Entrepreneurs/03_Creation_SARL_Distance_Procuration.md` + convention art.4 + compte MRE + PV dividende + Office | 14j | MRE entrepreneur |
-| **Mission Nomade Légal** | 7 500 DH HT (indicatif, sur convention) + débours | Diagnostic + SARL/Portage + carte séjour 1 an + compte convertible + attestation résidence | 14j | Nomad >183j |
-| **Abonnement Veille Fiscale** | 1 500 DH HT (indicatif)/mois | Veille CGI/conv./IGOC + 1h Q&A + maj Numbers Sheet | Mensuel | Portefeuille |
-
-## Convention tripartite modèle (extrait `05_Document_Bank/templates/01_Convention_Honoraires_Modele.md`)
+## Convention tripartite (l'extrait qui règle les rôles)
 
 ```
-Article 3 — Honoraires avocat: [5,900] HT. Débours comptable agréé: [1,500] HT en sus (facturé direct comptable). Provision avocat 50% (2,950 HT).
-Article 3b — Co-traitance: le comptable agréé [Nom] assure chiffrage IS/IR/TVA et liasse, l'avocat assure statut/convention/contrats/IGOC.
+Article 3 — Honoraires avocat : [5 900] DH HT ; provision 50 % à la
+signature ; solde à remise des livrables. Débours (greffe, banque,
+fiscalité étrangère facturée par leurs émetteurs) en sus.
+Article 3b — Co-traitance : l'expert-comptable [nom] chiffre les
+bases (IS/IR/TVA, liasses) ; l'avocat qualifie (statut, convention,
+contrats, change) ; les fiscalités étrangères sont traitées par le
+confrère [pays], facturant son propre honoraire. Aucune commission
+entre les trois ; recommandation loyale et documentée.
 ```
 
-## Tableau marge
+## La pédagogie du prix (à dire dans le diagnostic)
 
-| Mission | Honoraires avocat | Temps | Marge | CA 6 mois (5 packs/mois) |
-|---|---|---|---|---|
-| Diagnostic 1,200 | 1,200 | 2h | 80% | 6k |
-| Rapatriement 5,900 | 5,900 | 8h | 75% | 29,5k |
-| MRE 7,500 | 7,500 | 12h | 70% | 37,5k |
+*   **« 900 HT pour une note qui dit "restez où vous êtes" »** : c'est le prix d'une certitude datée — la norme de la maison (niches 01, 05, 06, 09 : même entrée).
+*   **« 5 900 vs ce que vous payez déjà sans le savoir »** : RAS 30 % sur les clients > 80 k (AE mono-client), change à 90 j non tenus (délit continu), requalifications sociales — les cas de la fiche `09` chiffrés, pas agités.
+*   **La formule d'anchoring honnête** : « votre situation a trois piliers ; la mission les aligne une fois pour toutes et laisse une machine annuelle (AG, registre, attestations) — le prix d'un dossier de régularisation, lui, se compte en branches et ne se promet pas. »
 
-## Script prix (anchoring `03_Sales_Without_Selling/03_Anchoring_Pricing_BATNA.md`)
+## Version EN (client non francophone — le FR fait foi à la convention)
 
-*   `"Mission MRE Fiscal complet 7 500 DH HT (indicatif, sur convention) + débours OMPIC 2,400 + Office 0 (si <10M) = 9,900 TTC vs redressement 180k si non déclaré. Lequel coûte plus ?"`
+`International tax & currency mission — diagnostic 900 MAD HT (2-page written note) → structuring & repatriation package 5 900-7 500 MAD HT + third-party fees. Engagement letter in French prevails. Foreign tax matters handled with — and billed by — local counsel.`
 
-## EN version (pour nomad/MRE, FR fait foi)
+---
 
-*   `International Tax Mission — 7,500 MAD HT + official fees — 14 days — French version prevails`
+## Rappel déontologique
+
+Aucun honoraire ne garantit un résultat administratif ; aucune note ne promet une résidence (« vous êtes résident de X » se démontre, ne se décrète pas) ; le conseil en droit étranger se rend **avec** le confrère local, jamais à sa place. Co-traitance tripartite structurée (`12_Fiches_Checklist_CoTraitance_Comptable.md`).
+
+> Références : `01_Strategy/06_Deontologie_Pratique_Avocat_Maroc/01_Convention_Honoraires.md`, `05_Document_Bank/templates/01_Convention_Honoraires_Modele.md`.

@@ -1,72 +1,48 @@
-# 01 — Résidence Fiscale : 183 jours, Foyer, Attestation
+# 01 — Résidence fiscale : 183 jours, foyer, centre d'intérêts, attestation
 
-## Cadre CGI art.23 + convention art.4
+> Le premier acte de tout dossier international : la résidence décide **qui impose quoi**, et elle se prouve **avant** le contrôle, pas pendant. Vérifié 29/08/2026 (`sgg.gov.ma` — CGI art. 23-I et s. ; `impots.gouv.fr` — convention France-Maroc du **29/05/1970**, av. 1989, art. 2 ; `oc.gov.ma` — résidence au sens des changes, distincte).
 
-*   **CGI art.23:** Résident fiscal Maroc = **séjour >183j / an** OU **foyer d'habitation permanent** au Maroc OU **centre intérêts économiques**.
-*   **Convention fiscale Maroc-France art.4 (1959 modifiée):** Si résident des 2 États → foyer permanent → liens personnels/économiques → séjour habituel → nationalité. L'ordre est hiérarchique.
-*   **Attestation résidence fiscale:** DGI Maroc délivre attestation si >183j + foyer — indispensable pour appliquer convention (sinon double imposition).
+## 1. Les textes (et leurs vrais numéros)
 
-## 4 Tests hiérarchiques (faire dans l'ordre)
+*   **Maroc — CGI art. 23-I (LF consolidées 2026)** : sont imposables à l'IR sur l'ensemble de leurs revenus mondiaux les personnes physiques ayant au Maroc : **leur foyer d'habitation permanent** OU **lieu de séjour principal (> 183 jours** sur l'année d'imposition OU **centre de leur activité professionnelle** (hors salariés de certaines sociétés étrangères de services — exception à lire au texte, pas en blog).
+*   **France-Maroc — convention du 29/05/1970, art. 2** (« personne domiciliée ») : si les deux États revendiquent la résidence, le triage est **conventionnel** : foyer permanent d'habitation → **centre des intérêts vitaux** (liens personnels et économiques) → séjour habituel → nationalité / accord amiable des autorités. Le texte français et son commentaire (BOFiP) guident l'application — l'ancien « art. 4 (1959) » du vault était doublement faux (date et numéro).
+*   **Résidence des changes ≠ résidence fiscale** : l'IGOC a ses propres critères (résident = personne physique ayant son domicile habituel au Maroc ou y exerçant une activité économique — et un MRE qui « rentre » peut devenir résident des changes **avant** l'année fiscale pleine) : les deux cartes se lisent ensemble, jamais l'une par l'autre (dossier `09`).
 
-1.  **Foyer permanent:** Appartement Casa + famille Maroc = résident Maroc même si 100j.
-2.  **183j:** Comptage jours présence physique (tampon passeport, billet). Nomad 200j à Agadir = résident même sans foyer.
-3.  **Centre intérêts:** Si CA 80% Maroc, compte principal Maroc → résident.
-4.  **Séjour habituel:** Où dort-il le plus ?
+## 2. Les 4 tests, dans l'ordre du praticien
 
-## Tableau MRE vs Nomad vs Freelance
+1.  **Foyer** : où vit la famille (conjoint, enfants, scolarité) ? Le foyer familial au Maroc **avant** tout comptage de jours est le test qui fait basculer un « non-résident tranquille » (CGI art. 23-I-1° ; conv. art. 2).
+2.  **183 jours** : présence physique (tampons, billets, bornages, logs de visio depuis le Maroc) — l'année fiscale marocaine est l'année civile ; le dépassement d'**un** jour contamine l'année entière.
+3.  **Centre d'activité professionnelle** : où est le travail qui crée le revenu ? (CA concentré au Maroc, clients marocains, équipe au Maroc = fort indice.)
+4.  **Résidence des changes** : compte MRE = régime de non-résident ; le retour physique déclenche l'obligation de requalification bancaire (pivot `09_Office.../06_...` et `10_MRE_...`).
 
-| Profil | Jours Maroc | Foyer Maroc | Résident ? | Imposition | Attestation ? |
-|---|---|---|---|---|---|
-| Karim MRE Paris, 40j Maroc/an, foyer Paris | 40 | Non (Paris) | **Non-résident** (source Maroc seulement) `05_MRE.../02_Douleurs_Juridiques.md:32` | IR source Maroc (dividendes 15%) | Non |
-| Lena Nomad Berlin, 210j Agadir, Airbnb | 210 | Oui (Agadir location 12 mois) | **Résident** | Mondial Maroc | Oui (demander DGI) |
-| Yassine freelance Casa, 340j, foyer Casa | 340 | Oui | **Résident** | Mondial (mais TVA art.92 exon export) | Oui |
+## 3. La grille par profil du cabinet
 
-## Procédure attestation DGI (10j)
+| Profil | Faits types | Résidence probable | Conséquence |
+| :--- | :--- | :--- | :--- |
+| **Karim, MRE Paris** (40 j Maroc, foyer Paris) | famille + emploi France | **Non-résident Maroc** | Imposé au Maroc **uniquement sur ses revenus de source marocaine** (SARL → IS au Maroc ; dividendes → RAS interne ≤ plafond conv. 15 %) ; en France : imposable monde, crédit/déduction de l'art. 25 conv. 1970 (mécanisme forfaitaire 25 % sous barème — arbitrage PFU/barème : **confrère**) |
+| **Lena, nomade Berlin** (210 j Taghazout, bail 12 mois, clients US) | > 183 j + centre d'activité | **Résidente Maroc** (et peut-être plus résidente fiscale allemande — la convention DE-MA n'est pas la FR : à vérifier au traité applicable ; l'Allemagne impose aussi selon ses règles) | IR barème marocain sur le revenu **mondial** OU IS si société marocaine + déclaration des revenus étrangers + **compte des changes à requalifier** ; attestation DGI à demander |
+| **Yassine, dev Casa** (340 j, foyer Casa, clients étrangers) | résident évident | **Résident** | IR/IS marocain ; ses clients paient en devises **à lui** → obligations de rapatriement (`09_Office.../05/07`) ; exonération TVA export art. 92 — pas une exonération d'impôt ! |
+| **Salma, e-com** (résidente Casa, stock FBA France, 3 mois/an France) | foyer + activité Maroc | **Résidente Maroc** ; **mais** la France peut revendiquer (stock/ES) → double revendication : tie-breaker de la **conv. France-Maroc art. 2** | Le tie-breaker tranche la résidence **d'impôt sur le revenu** ; l'ES France reste imposable en France **de son propre chef** (dispositions « établissement stable » de la même convention — la résidence ne fait pas disparaître un ES) |
 
-*   Demande + CIN/passeport + contrat bail + relevé 183j + attestation sur honneur → DGI → attestation 15j → transmettre à fisc étranger pour exonération.
+## 4. La preuve : le dossier de résidence (à monter en année 0)
 
-## Risque si non déterminé
+*   [ ] **Attestation de résidence** de l'État revendiqué (France : attestation du SIE ; Maroc : DGI — la demande marocaine d'attestation de résidence se fait à la DGI du domicile ; conditions à vérifier au jour de la demande). C'est **le** sésame des banques, des clients étrangers (exonération de retenue) et des contrôles.
+*   [ ] **Décompte des jours** documenté (billets + passeport + preuves d'adresse à chaque date) pour les années ouvertes — à faire **chaque année**, pas au premier courrier.
+*   [ ] Justificatifs de foyer (bail, propriété, scolarité enfants, CMU/couverture santé du pays revendiqué).
+*   [ ] Revenus de source marocaine listés (loyers, dividendes, honoraires) même pour un non-résident — une **RAS/libératoire spécifique du non-résident** s'applique souvent sans déclaration (taux selon nature — CGI LF en vigueur ; le « non-résident = 0 formalité » est le mythe le plus cher de la niche).
+*   [ ] Cohérence des **déclarations faites dans les deux pays** (un non-résident du Maroc qui se dit résident ailleurs doit l'être quelque part : l'incohérence entre les deux déclarations est la première pièce du dossier d'un contrôle).
 
-*   Double imposition: 31% IS Maroc + 25% IR France si pas d'attestation art.27 non appliquée.
-*   Redressement CGI art.150: majoration 30% + pénalités 15%.
+## 5. Les pièges chiffrés de la niche (à dire tels quels en diagnostic)
 
-## Checklist 10 points
-
-*   [ ] Comptage 183j exact (Excel tampons)
-*   [ ] Bail/foyer preuve
-*   [ ] Centre intérêts (CA %)
-*   [ ] Attestation DGI si résident
-*   [ ] Convention art.4 applicable (France/Belgique/Espagne/US)
-*   [ ] Co-traitance comptable pour chiffrage
-*   [ ] Déclaration 30 avril N+1 si résident
-*   [ ] Non-résident: déclaration source seulement
-*   [ ] Notion suivi jours (dashboard)
-*   [ ] Planifier J-30 avant 183j (switch statut)
-
-## Cas chiffré
-
-*   Lena 210j → résidente → IS 15% sur bénéfice 200k = 30k DH vs non-résident 0% → mais évite double 25k France → gain net 15k avec convention.
+*   **La bascule de retour** : le MRE qui rentre « pour six mois tester » est résident à l'impôt dès le **1ᵉʳ janvier si** son foyer effectif est au Maroc (le « test » n'est pas un régime) — avec conséquences sur le compte MRE (dossier `09_Office...`), la déclaration des revenus étrangers, et le taux applicable (le plan de bascule est un produit — `13` S8).
+*   **Le télétravailleur « non-résident »** : 200 j au Maroc en travaillant pour un employeur étranger : les conventions distinguent selon l'employeur et la charge, mais l'exception « 183 j » se perd au **210ᵉ jour** — et l'employeur étranger sans ES n'est pas le seul concerné.
+*   **L'attestation « de confort »** : fournir une attestation de résidence française **alors que** le foyer est à Casablanca depuis 2 ans = faux document + abus de convention — la ligne rouge que la doctrine anti-abus des textes récents (et le MLI, que la France applique à ses conventions ; l'applicabilité marocaine à vérifier) rend toxique, pas seulement fiscale.
+*   **Oublier l'exit** : changer de résidence ne se déclare pas toujours — certains pays exigent des formalités de sortie fiscales (exit tax, déclaration des plus-values latentes : France cas limités ; US : renonciation à la nationalité/US person régime — hors compétence marocaine, confrère).
 
 ---
 
-## Analyse doctrinale et raisonnement juridique — Résidence fiscale
+## Lecture professionnelle — l'art de ne jamais répondre « ça dépend des jours »
 
-**Pourquoi la règle des 183 jours existe** : Le CGI retient la présence physique comme critère objectif de rattachement, complété par le foyer permanent (art. 23 CGI). La convention fiscale (art. 4 OCDE) hiérarchise ensuite foyer → centre des intérêts vitaux → séjour habituel → nationalité, pour départager les doubles résidences. L'objectif n'est pas de compter les jours comme un exercice comptable, mais de déterminer où se situe le centre de vie effectif.
+La réponse « ça dépend » est exacte et inutile ; le produit est dans la **matrice des deux branches chiffrées** + le dossier de preuves qui fait pencher la sienne. Dans cette niche, la résidence est un **fait continu** qui se documente jour après jour, pas une opinion qu'on se forme à la lecture d'un courrier : l'avocat qui remet à chaque client international son « dossier de résidence » annuel (décompte, attestations, cohérences) vend de la tranquillité, et le jour du contrôle, il n'y a plus de dossier — il y a une démonstration.
 
-**Raisonnement en pratique** : On commence toujours par le foyer (appartement loué 12 mois + famille). Si le foyer est à Paris mais le client passe 210 jours à Agadir, c'est le séjour qui tranche (210 >183). Le comptage se fait sur tampons passeport et billets, pas sur déclaration sur l'honneur. L'attestation de résidence fiscale (DGI) n'est délivrée qu'après ce faisceau d'indices, et elle conditionne l'application de la convention (art. 27).
-
-**Exemple** : Lena (nomade Berlin) 210j Taghazout + bail 12 mois = résidente Maroc même sans foyer historique. Karim (MRE Paris) 40j Maroc + foyer Paris = non-résident, même s'il a une SARL Casa. La nuance change l'imposition de mondiale à source seulement.
-
-### Sources primaires à consulter (à jour au 20/08/2026)
-
-*   **sgg.gov.ma** — CGI (art. 19, 23, 92, 144, 150), Loi 20-19 (SARL), Loi 114-13 (AE), Loi 02-03 (séjour).
-*   **oc.gov.ma** — IGOC edition courante (2026) (Instruction Générale des Opérations de Change), circulaires Office des Changes.
-*   **cndp.ma** — Délibération 40-22 et guide registre Loi 09-08.
-*   **courdecassation.ma / jep.ma** — Jurisprudence Cass. com. (clause pénale, réserve propriété, établissement stable).
-*   **ompic.ma** — Guide dépôt marque, classification Nice, Bulletin des marques.
-
-> Toute référence chiffrée (plafond, taux, délai) doit être vérifiée sur le texte source à la date de la consultation — les lois de finances annuelles modifient le barème IS/TVA et les dotations IGOC.
-
-### Limites et devoir d'information (art. 59 Loi 28-08)
-
-Cette fiche est une information doctrinale, pas une consultation individualisée. Le diagnostic préalable (45 min, convention art. 30) reste indispensable pour qualifier la situation personnelle du client, notamment avec le comptable agréé pour le chiffrage exact.
+> Références : CGI art. 23-I et s. (`tax.gov.ma`) ; convention France-Maroc du 29/05/1970 art. 2/13/25 (`impots.gouv.fr`) ; BOFiP INT-CVB-MAR ; IGOC 2026 pour la résidence des changes (`oc.gov.ma`). Vérifié 29/08/2026 — toute convention appliquée se relit au texte du jour.
