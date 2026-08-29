@@ -1,42 +1,73 @@
-# 12 — Fiches Pratiques + Checklist (05_MRE_Foreign_Investors)
+# 12 — Fiches Pratiques + Checklists (05_MRE_Foreign_Investors)
 
-## Checklist 12 points 05_MRE_Foreign_Investors
+> Trois fiches de terrain (celles qu'on utilise vraiment) + plan 7 jours. Les montants OMPIC/enregistrement sont des ordres de grandeur à confirmer au bordereau du jour.
 
-*   [ ] Persona qualifié `01_Persona` ?
-*   [ ] 3 douleurs cochées `02_Douleurs` ?
-*   [ ] Statut AE/SARL choisi `11_Arbre...` ?
-*   [ ] Contrat FR/EN `05_Document_Bank/templates/03_Pack_Freelance_Contrat.md` + facture art.92 `08_Fiscalite.../03_Freelance...` ?
-*   [ ] Compte convertible/devise MRE `09_Office.../06_Compte_Devise_Convertible_MRE.md` 48-72h ?
-*   [ ] Rapatriement 30j justif `09_Office.../07_Obligations...` ?
-*   [ ] Dotation 15k/100k `09_Office.../02_Dotation_Voyage_100k.md` ?
-*   [ ] Carte séjour 30j si nomad >183j `11_Nomads.../03_Carte_Sejour_1An_Procedure.md` ?
-*   [ ] Convention art.27 `08_Fiscalite.../05_Conventions...` ?
-*   [ ] PE <6m `08_Fiscalite.../07_Etablissement_Stable...` ?
-*   [ ] Provision 50% art.30 `05_Document_Bank/templates/01_Convention_Honoraires_Modele.md` ?
-*   [ ] Notion 183j + PE suivi ?
+## Fiche A — Dossier « création SARL-AU à distance » (le kit du client qui ne revient pas)
 
-## Scripts (FR fait foi)
+**Papiers côté client (dans son pays de résidence)**
+*   [ ] Passeport + justificatif de domicile (bank KYC l'exigera aussi)
+*   [ ] **Procuration spéciale** notariée (objet écrit noir sur blanc : constitution SARL-AU, dépôt des fonds, immatriculation, signature banque) — pas de procuration générale, la banque la refusera et un mandataire général est un danger
+*   [ ] **Apostille** du pays (Convention de La Haye du 05/10/1961 — applicable France/UEM/EAU comme Maroc ; vérifier pour tout autre pays)
+*   [ ] Attestation d'ouverture de compte/RIB du compte d'où partira l'apport (traçabilité devises)
+*   [ ] Attestation de résidence fiscale de l'année en cours (si le pays en délivre une)
 
-*   **DM:** `Bonjour [Prénom], vu post 05_MRE_Foreign_Investors — je fais diagnostic 1,200 HT + pack 5,900 7j, checklist 1p WhatsApp ? — [Nom], avocat barreau [Ville]`
-*   **EN léger si MRE/Nomad:** `Hi [Name], 2 options: ... FR prevails`
+**Papiers côté Maroc (produits par la mission)**
+*   [ ] Certificat négatif OMPIC (nom réservé)
+*   [ ] Statuts avec clauses distance (`13` S1) — signature légalisée via procuration
+*   [ ] Attestation de **blocage/dépôt des fonds** (banque) — le sésame qui fait ou défait le calendrier
+*   [ ] Enregistrement des statuts (droits — bordereau du jour)
+*   [ ] Immatriculation RC (OMPIC) + extrait
+*   [ ] Déclaration commencement d'activité ; IF/TP selon local ; CNSS dès le 1ᵉʳ salarié
+*   [ ] **Dossier banque « futur transfert » ouvert le jour de l'immatriculation** (preuve apport devises + planning AG)
 
-## Modèles `05_Document_Bank`
+**Planning réel** : procuration 3-7 j (pays) + apostille 2-7 j → dépôt fonds 3-10 j (KYC banque) → enregistrement/immatriculation 5-10 j. **Total typique : 3-4 semaines**, pas 72 h.
 
-*   `01_Convention_Honoraires_Modele.md` tripartite
-*   `07_Lettre_Mission_Planning.md` 7-14j
-*   `06_Recu_Provision_Facture.md` HT/TVA
+## Fiche B — Dossier permanent de transfert (dividendes & cession)
 
-## Plan 7j
+Le dossier qui fait passer l'entretien bancaire sans drame — à monter **en année 1**, jamais dans l'urgence :
 
-*   J1: Diag 1,200 → J3: Arbre statut → J7: Pack 5,900/7,500 → J14: Livraison + Office formation.
+*   [ ] Statuts + RC à jour (extrait < 3 mois)
+*   [ ] **Preuve de l'apport initial en devises** : SWIFT d'origine + attestation de dépôt de la banque
+*   [ ] Liasses fiscales des exercices clos (IS 20 % / taux en vigueur) + attestations de paiement
+*   [ ] PV d'**assemblée annuelle d'approbation des comptes** (obligation loi 5-96 — et elle n'a pas été faite cette année, vérifier)
+*   [ ] PV d'**affectation avec mise en distribution** daté (la date du PV décide du taux de RAS applicable — 11,25 % en 2026, 10 % dès 2027)
+*   [ ] Attestation fiscale DGI de régularité (à commander en amont, pas le jour J)
+*   [ ] Relevé du compte marocain de la société (solde justifié = liasse + bilan)
+*   [ ] Lettre de demande de transfert à la banque domiciliaire (modèle `05_Document_Bank` — sortie de la mission M3)
+*   [ ] Le cas échéant : autorisation individuelle Office des Changes si l'opération sort des circuits libératoires — **délai à planifier, pas à promettre**
 
----
-**Fin Fiches 05_MRE_Foreign_Investors — profondeur max.**
+> **Rappel IGOC** : l'édition applicable est celle du **1ᵉʳ janvier de l'année en cours** (IGOC 2026 depuis le 01/01/2026, `oc.gov.ma`) — la fiche est à recalibrer chaque année ; « IGOC 2024 » dans les vieux mémos = signal d'obsolescence immédiat.
+
+## Fiche C — Résidence fiscale : les 6 preuves qui datent
+
+À mettre au dossier du client MRE/investisseur, une fois par an :
+
+1. [ ] Attestation de résidence de l'**autre** État (certificat consulaire/autoritaire — pour Rachid à Dubaï : le « tax residence certificate » émirati, sans lui l'argument ne pèse rien).
+2. [ ] Attestation de résidence marocaine DGI (si revendiquée côté Maroc).
+3. [ ] Relevé des jours passés au Maroc (billets + bornages : 183 j — CGI art. 23).
+4. [ ] Statut du foyer (bail/propriété famille, scolarité enfants — les trois faits qui font basculer une qualification).
+5. [ ] Déclaration d'options fiscales cohérente (France : barème vs PFU — voir §10 ; l'option se signe, elle ne se décrète pas).
+6. [ ] Régime du compte marocain compatible avec la résidence revendiquée (compte MRE/devises = non-résident ; la bascule de résidence **coupe** l'éligibilité — pivot `10_MRE_Entrepreneurs`/`09_Office_Changes`).
+
+## Plan 7 jours (du premier contact à la convention signée)
+
+*   **J1** : Formulaire/site → réponses aux 5 questions filtre (`11`) → créneau diagnostic.
+*   **J2-3** : Diagnostic 45 min visio — **900 DH HT** — note « où vous en êtes, ce que ça coûte de ne rien faire » sous 72 h.
+*   **J4** : Devis mission (M1/M2/M3 selon arbre) + convention d'honoraires Yousign + lettre co-intervention confrère si double-fiscalité.
+*   **J5** : Provision 50 % encaissée ; kit Fiche A envoyé au client ; RV notaire/apostille côté client posé dans la semaine.
+*   **J6-7** : Certificat négatif déposé ; checklist bancaire envoyée à la banque marocaine choisie ; calendrier signé (Gantt 30 j).
+
+## Modèles `05_Document_Bank` mobilisés
+
+*   `01_Convention_Honoraires_Modele.md` (objet, périmètre, débours, provision)
+*   Lettre de co-intervention (confrère étranger — à créer depuis trame « lettre mission »)
+*   Kit procuration : texte-type de la **procuration spéciale de constitution** (à rédiger en FR + EN — projet `13_Solutions_Juridiques.md` clause S2)
+*   Lettre-type banque (demande transfert dividendes — sortie M3)
 
 ---
 
 ## Fiche comme mémoire externe, pas comme script de vente
 
-La checklist 15 points n'est pas à cocher devant le client. Elle est une mémoire externe (art. 59 devoir de conseil) pour ne rien oublier : 183j, PE 6m, Office 30j, dotation 15k/100k, carte séjour, convention art. 27, compte 48-72h, provision art. 30, co-traitance comptable. Chaque case renvoie à une fiche détaillée, pas à un chiffre jeté.
+Ces trois fiches existent parce que la niche **récompense la mémoire** : le client MRE ne se souvient pas d'avoir oublié son AG, et la banque ne se souvient pas de ses demandes successives — l'avocat qui date et archive tranche à la place des absents. Chaque case cochée est une pièce de dossier qui vaut de l'argent (le transfert) ou qui en évite (le redressement) : c'est la définition d'une checklist professionnelle.
 
-> Sources : `sgg.gov.ma`, `oc.gov.ma` IGOC 2024, `cndp.ma`, `ompic.ma` — vérifier annuellement.
+> Sources : bordereaux OMPIC (`ompic.ma`), IGOC 2026 (`oc.gov.ma`), CGI LF 2026 (`tax.gov.ma`), sgg.gov.ma. Vérifié le 29/08/2026.
