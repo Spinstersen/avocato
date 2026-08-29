@@ -4,7 +4,7 @@
 CA >200k (service) ou >500k (commerce) 01_Freelancers_Agencies_Offshore ?
 ├─ NON → AE suffit (IR libératoire 1% services / 0,5% commerce) → Diagnostic 900
 └─ OUI → Résident 183j `08_Fiscalite.../01_Residence...` ?
-    ├─ OUI → SARL IS 20% (2026) 7-14j `08_Fiscalite.../03_Freelance...` + carte 1 an si nomad `11_Nomads.../03_Carte_Sejour_1An_Procedure.md`
+    ├─ OUI → SARL IS 20% (2026) 7-14j `08_Fiscalite.../03_Freelance...` + carte 1 an si nomad `11_Nomads.../04_Statut_Juridique_Nomad_Carte_Sejour.md (dossier 08)`
     └─ NON (MRE 40j) → SARL non-résident + devise MRE `10_MRE.../04_Compte_Bancaire_MRE_Convertible_Devise.md`
         └─ Besoin >15k SaaS ? → OUI vérifier dotation e-commerce IGOC 2026 `09_Office.../03_Dotation_Ecommerce_20k.md`
 ```

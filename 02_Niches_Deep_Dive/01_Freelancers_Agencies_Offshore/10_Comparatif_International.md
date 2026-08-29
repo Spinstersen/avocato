@@ -8,7 +8,7 @@
 | IS (2026) | **20% (<100M BNF), 35% (≥100M), 40% finance** — réforme LF2023-2026 | 15% <42,5k (PME), 25% > | 20% | 15% startup, 25% | 21% |
 | TVA export | Exon art.92 | Exon art.262 | Exon | Exon | Sales tax 0 export |
 | Convention | — | 1959 mod. — méthode élimination (n° d'article à vérifier au texte consolidé) | 1964/1972 — div. 15% | 1985 — div. 10% | 1977 |
-| Carte nomad | Accueil 1 an (procédure ~30j) `11_Nomads.../03_Carte_Sejour_1An_Procedure.md` | Talent 4 ans | — | Digital 1 an | — |
+| Carte nomad | Accueil 1 an (procédure ~30j) `11_Nomads.../04_Statut_Juridique_Nomad_Carte_Sejour.md (dossier 08)` | Talent 4 ans | — | Digital 1 an | — |
 
 > Nid de précisions : ce tableau est une grille d'ordres de grandeur pour le diagnostic, pas un avis de droit étranger. Les taux français/belges/espagnons US sont vérifiables côté local ; les taux marocains sont sourcés CGI (LF2026 n° 50-25, `tax.gov.ma`). Les références de conventions fiscales doivent être vérifiées article par article sur le texte consolidé (`sgg.gov.ma`) avant citation chiffrée — dernière vérification 28/08/2026.
 

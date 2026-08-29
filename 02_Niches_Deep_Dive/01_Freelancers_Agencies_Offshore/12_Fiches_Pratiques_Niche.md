@@ -9,7 +9,7 @@
 *   [ ] Compte convertible/devise MRE `09_Office.../06_Compte_Devise_Convertible_MRE.md` 48-72h ?
 *   [ ] Rapatriement délais (90 j services / 150 j biens) + justificatifs `09_Office.../07_Obligations_Rapatriement_Justificatifs.md` ?
 *   [ ] Dotations 2026 : e-commerce 20 k / voyage 100 k + 30 % IR (500 k max) `09_Office.../02_Dotation_Voyage_100k.md` ?
-*   [ ] Carte séjour 30j si nomad >183j `11_Nomads.../03_Carte_Sejour_1An_Procedure.md` ?
+*   [ ] Carte séjour 30j si nomad >183j `11_Nomads.../04_Statut_Juridique_Nomad_Carte_Sejour.md (dossier 08)` ?
 *   [ ] Convention art.27 `08_Fiscalite.../05_Conventions...` ?
 *   [ ] PE <6m `08_Fiscalite.../07_Etablissement_Stable...` ?
 *   [ ] Provision 50% + convention écrite préalable (base loi 28-08, transition loi 66-23) `05_Document_Bank/templates/01_Convention_Honoraires_Modele.md` ?
