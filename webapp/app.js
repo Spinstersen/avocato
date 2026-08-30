@@ -362,7 +362,7 @@
 
   function getGroupKey(d) {
     const parts = d.id.split('/');
-    if (parts[0] === '02_Niches_Deep_Dive' && parts.length > 2) return parts.slice(0, 2).join('/');
+    if (parts.length > 2 && (parts[0] === '02_Niches_Deep_Dive' || parts[0] === '04_Skills_To_Learn')) return parts.slice(0, 2).join('/');
     return d.folder;
   }
   function folderIsOpen(folder, filter) {
