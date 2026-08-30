@@ -31,7 +31,7 @@ Vous vous démarquerez instantanément :
 - **Polices :** Inter ou General Sans pour les titres, IBM Plex Sans Arabic pour l'arabe
 - **Logo :** Simple logotype textuel : `NOM Prénom — Avocat d'Affaires` (pas d'icône balance)
 - **Documents :** Mettez en forme vos contrats/CGV comme un produit SaaS (épuré, numéroté, table des matières, pied de page avec numéros de page). Les clients paieront plus pour la valeur perçue.
-- **Pack Canva :** Utilisez `04_Skills_To_Learn/04_Design_Canva_For_Legal.md` pour les modèles.
+- **Pack Canva :** Utilisez `04_Skills_To_Learn/04_Design_Canva_For_Legal/00_INDEX.md` pour les modèles.
 
 ## Votre échelle d'offres (ne vendez pas que des consultations d'1 heure)
 Les gens ne veulent pas « une consultation ». Ils veulent un problème résolu.
@@ -54,4 +54,4 @@ Le client perçoit 5 fois plus de valeur qu'un « appel 1h à 800 DH HT » — e
 
 ## Action (30 min)
 - [ ] Choisissez UNE phrase de positionnement ci-dessus et placez-la en titre LinkedIn + bio WhatsApp + description fiche Google Business
-- [ ] Créez un site simple d'une page avec Carrd/Notion + nom de domaine personnalisé : `votrenom-avocat.ma` (voir `04_Skills_To_Learn/01_Legal_Tech_Stack.md`)
+- [ ] Créez un site simple d'une page avec Carrd/Notion + nom de domaine personnalisé : `votrenom-avocat.ma` (voir `04_Skills_To_Learn/01_Legal_Tech_Stack/00_INDEX.md`)

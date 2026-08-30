@@ -36,7 +36,7 @@ L'agenda fait loi. La liste de tâches n'est qu'une suggestion.
 ## Journée minimale viable (Quand l'énergie est basse)
 Les jours de TDAH difficiles, faites simplement cette version de 45 min et cela reste une victoire :
 - [ ] 10 min : Répondre à 3 commentaires/messages privés
-- [ ] 20 min : Rédiger un brouillon de publication LinkedIn (utilisez le prompt IA dans `04_Skills_To_Learn/02_AI_For_Lawyers.md`)
+- [ ] 20 min : Rédiger un brouillon de publication LinkedIn (utilisez le prompt IA dans `04_Skills_To_Learn/02_AI_For_Lawyers/00_INDEX.md`)
 - [ ] 15 min : 1 message de prise de contact à un comptable/partenaire
 
 C'est tout. Maintenez la série.

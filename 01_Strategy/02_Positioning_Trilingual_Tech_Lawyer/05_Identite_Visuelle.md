@@ -178,7 +178,7 @@ Canva peut produire des visuels acceptables **si** on évite les pièges :
 - Couleurs : imposer la palette du cabinet (créer un Canva Brand Kit).
 - Typographie : imposer Inter ou General Sans.
 
-Voir `04_Skills_To_Learn/04_Design_Canva_For_Legal.md` pour le pack Canva du cabinet.
+Voir `04_Skills_To_Learn/04_Design_Canva_For_Legal/00_INDEX.md` pour le pack Canva du cabinet.
 
 ## 9. Les livrables comme « produits »
 

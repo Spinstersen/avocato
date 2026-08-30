@@ -1,92 +1,106 @@
 # 02 — Notion Cabinet OS Détaillé (Cœur du Système)
 
-> Inspire de `01_Strategy/05_ADHD_Operating_System_Overview/04_Second_Brain_Notion.md` mais spécialisé avocat d'affaires.
+> **Pourquoi Notion plutôt qu'un logiciel métier d'avocat :** à 10 clients, un tableur CRM suffit ; à 30, tu ne retrouves plus la convention de Yassine. Notion centralise clients, missions, contenu et veille dans un seul outil à ≈10-12 $/mois, partageable avec le client sans lui installer quoi que ce soit. Le prix à payer : des données hébergées hors Maroc → protocole d'anonymisation strict (fiche 09). Inspire de `01_Strategy/05_ADHD_Operating_System_Overview/04_Second_Brain_Notion.md`, spécialisé avocat d'affaires.
 
-## Dashboard (page d'accueil Notion)
+## POURQUOI une seule base par objet
+
+Trois règles structurelles évitent le chaos : (1) un objet = une base (les clients ne vivent pas dans les missions) ; (2) les liens se font par **Relations**, pas par copier-coller — la mission « Pack Yassine » pointe vers la fiche client, pas une copie du nom ; (3) le dashboard n'affiche que des **vues filtrées** des bases, jamais des doublons. Résultat : modifier le statut d'une mission met à jour le pipeline commercial automatiquement.
+
+## COMMENT : le dashboard
 
 ```
-┌─ 3 MITs du jour (checkbox) ─────────────────┐
-│ [ ] Rédiger contrat Yassine [ ] Publier post │
-├─ Calendrier semaine (vue Calendar) ──────────┤
-├─ Bases de données ───────────────────────────┤
-│ CLIENTS (12 props)  MISSIONS (15) CONTENT (8)│
-│ PROSPECTS  PARTENAIRES  TEMPLATES  VEILLE KPI│
-└─────────────────────────────────────────────┘
+┌─ 3 MITs du jour (checkbox) ──────────────────────┐
+│ [ ] Finaliser convention Yassine  [ ] Publier post│
+├─ Calendrier semaine (vue Calendar de MISSIONS) ───┤
+├─ Vues utiles ─────────────────────────────────────┤
+│ MISSIONS en cours (Kanban)  PROSPECTS à relancer  │
+│ CONTENT cette semaine       KPI du mois           │
+├─ Liens rapides : Tally stats · Yousign · Plausible┤
+└──────────────────────────────────────────────────┘
 ```
 
-## Schéma BDD CLIENTS (exemple 1 page)
+## Schéma détaillé des bases de données
 
-- Props: Nom, Statut (AE/SARL), Niche (Freelance/Ecom/09-08), CA, Date entrée, Missions liées (relation), Contact (email/tél), Notes, Next step + date.
-- Template: page client avec sous-pages missions.
+### BDD CLIENTS (12 propriétés)
 
-## BDD MISSIONS
+| Colonne | Type | Usage / options |
+|---|---|---|
+| CodeClient | Title | « CL-012 » + pseudonyme, jamais la raison sociale complète brute |
+| StatutJuridique | Select | AE / SARL-AU / SARL / SNDFR / foreign co |
+| Niche | Multi-select | Freelance-offshore / Ecom / 09-08 / Creators / MRE |
+| CA_Declaré | Text | Fourchette (« 400-600k DH/an »), pas le chiffre exact |
+| DateEntrée | Date | Premier dossier |
+| Missions | Relation → MISSIONS | Historique complet |
+| ContactEmail | Email | Réel, mais la fiche est en page restreinte |
+| ContactTel | Phone | Optionnel |
+| NextStep | Text + date | Une action claire par client |
+| HonorairesCumules | Formula (rollup) | Somme des MISSIONS |
+| Retainer | Checkbox | Abonnement actif ? |
+| Notes | Text | Jamais de fait judiciaire sensible en clair |
 
-Props: Client (relation), Type (Pack Freelance 2900DH), Statut (Intake/Diag/Convention/Prod/Livré/Facturé), Échéance, Honoraires HT, Provision %, Lien Drive, Loom livraison.
-Vues: Kanban par Statut, Timeline par Échéance, Table par CA.
+### BDD MISSIONS (15 propriétés)
 
-## BDD CONTENT
+| Colonne | Type | Options / notes |
+|---|---|---|
+| Mission | Title | « M-2026-014 Pack Freelance — CL-012 » |
+| Client | Relation CLIENTS | Obligatoire |
+| Type | Select | Diagnostic 900 · Pack Freelance 2 900 · Pack SARL-AU 5 500 + débours · Retainer 2 500-4 500/mois · Ad hoc |
+| Statut | Select | Intake / Diag / Convention / Prod / Livré / Facturé / Clos |
+| Echeance | Date | Négociée à la convention |
+| HonorairesHT | Number | Standard vault (pas de prix inventés à la tête du client) |
+| ProvisionPct | Number | 50 % par défaut |
+| ConventionSignee | Checkbox + date | Référence du PDF Yousign/Docuseal |
+| DossierDrive | URL | `00_CLIENTS/CL-012/M-2026-014/` |
+| Livrables | Checklist | PDF, Notion share, Loom |
+| LoomLivraison | URL | — |
+| TempsPasse | Number | Rentabilité horaire |
+| RisquesIdentifies | Relation VEILLE ou texte | — |
+| NextAction | Text | Ce qui débloque la prod |
+| FactureSolde | Checkbox | — |
 
-Idées → Brouillon → Publié → Recyclé. Props: Canal (Blog/LinkedIn/Carrousel), Niche, Mot-clé SEO, Lien, Date pub, Perf (vues).
-Automatisation: bouton "Dupliquer en post LinkedIn" (Zapier).
+**Vues MISSIONS :** Kanban par Statut (ta vue de travail quotidienne) · Timeline par Echeance (semaine) · Table triée HonorairesHT (clôture mensuelle) · Vue filtrée « Statut ≠ Clos » sur le dashboard.
 
-## BDD PROSPECTS
+### BDD CONTENT (8 props)
 
-Source (LinkedIn/Bouche/Coworking), Score (0-10), Diagnostic fait? (checkbox), Offre proposée, Objection, Next touch date.
-Règle: tout DM entrant → créer prospect en <2 min (Tally intake).
+Statut (Idée / Brouillon / Publié / Recyclé), Canal (Blog / LinkedIn / Carrousel / Atelier), Niche, MotCleSEO, LienPub, DatePub, Perfs (number), SourceMission (relation — un dossier client bien géré devient un article anonymisé).
 
-## Templates à créer (5)
+### BDD PROSPECTS (7 props)
 
-1. Template Mission Pack Freelance (sections: Contexte, Risques, Livrables, Planning)
-2. Template Note de risques (7 catégories checklist `07_Sharp_Legal_Mind`)
-3. Template Post LinkedIn (Hook, Corps SCQA, Signature)
-4. Template Veille (source, phrase client, idée content)
-5. Template Atelier (agenda 60m, slides 10, feedback form)
+Source (LinkedIn / Bouche-à-oreille / Coworking / Atelier), Score 0-10, DiagnosticBooké (checkbox + date), OffreProposee, ObjectionPrincipale, NextTouch (date), EntréeTally (URL). Règle : tout DM entrant → fiche PROSPECT en moins de 2 minutes.
 
-## Workflow type (détaillé `08_Workflow_Integration_Zapier_Make.md`)
+### BDD TEMPLATES, PARTENAIRES, VEILLE, KPI
 
-Tally intake → Zapier crée Notion Prospect → Calendly book → Meet → Notion Mission → Yousign envoi → Stripe provision → Prod Notion → Loom → PDF → Facture solde
+- **TEMPLATES** : modèles de pages mission, note, post (listés plus bas).
+- **PARTENAIRES** : comptables, agences YouCan, coworkings — 1 fiche, 1 contact, commission jamais écrite noir sur blanc si le RIO l'interdit.
+- **VEILLE** : source, phrase entendue en réunion (« mon client US veut payer via Stripe »), idée de contenu.
+- **KPI** : board hebdo — diagnostics, signatures, CA HT, taux de conversion.
 
-## Checklist setup J1 (45 min)
+## Les 5 templates de page à créer
 
-- [ ] Créer workspace `Cabinet [Nom]`
-- [ ] Créer 6 BDD vides + 1 entrée test par BDD
-- [ ] Créer Dashboard + lier vues
-- [ ] Importer 2 clients fictifs (Yassine dev, Fatima ecom)
-- [ ] Tester flow: créer prospect → mission → archiver
+1. **Mission Pack Freelance** — sections : Contexte (3 lignes) / Risques identifiés / Livrables (contrat FR-EN, CGV, annexe IP) / Planning J1-J7 / Relances.
+2. **Note de risques** — checklist 7 catégories (contractuel, fiscal, changes, données, PI, social, contentieux) — méthode dans `07_Sharp_Legal_Mind` du même niveau.
+3. **Post LinkedIn** — Hook / corps SCQA / signature sobre. Alimenté par la BDD CONTENT.
+4. **Veille** — Source, citation client anonymisée, angle possible.
+5. **Atelier** — agenda 60 min, liste slides (10), lien formulaire feedback Tally.
 
----
+## Exemple : workflow d'une mission dans Notion
 
-## Approfondissement Encyclopédique (Bonus)
+`Intake Tally` crée PROSPECT (via Make/Zapier, fiche 08) → diagnostic booké → conversion en MISSION statut « Convention » → la page mission hérite du template 1 → prod → cases cochées → statut « Livré » → facture → « Clos ». Le dossier Yassine (freelance dev offshore, client US payant par SWIFT) et celui de Fatima (e-commerce YouCan, politique de confidentialité 09-08) sont les deux entrées fictives de test.
 
-### Cas pratique détaillé
-**Contexte Maroc 2025:** appliqué à Yassine (freelance 600k DH offshore) et Fatima (ecom 30k/mois). 7 catégories + chiffrage.
+## Checklist setup J1 (45 min, cronométrée)
 
-### Erreurs fréquentes (Top 5)
-1. Vouloir tout faire J1 -> overwhelm
-2. Négliger 09-08/CNDP -> sanction 300k
-3. Omettre provision art30 -> impayé
-4. Publier sans relecture -> faute FR + hallucination
-5. Pas de métrique -> 0 amélioration
+- [ ] Créer le workspace « Cabinet [Nom] », activer l'authentification à deux facteurs
+- [ ] Créer les 8 BDD vides + 1 entrée de test chacune
+- [ ] Câbler les Relations CLIENTS↔MISSIONS et le Rollup HonorairesCumules
+- [ ] Dashboard : lier les 4 vues (MITs, Kanban, Prospects, KPI)
+- [ ] Importer Yassine (CL-001) et Fatima (CL-002) en fictifs
+- [ ] Tester le flow complet : prospect → mission → clos → archiver
+- [ ] Export Notion initial (Settings → Export all workspace content → Markdown & CSV) et le stocker sur disque chiffré
 
-### Checklist encyclopédique (12 points)
-- [ ] Anonymisation / 09-08 OK
-- [ ] Déontologie RIO vérifiée
-- [ ] Template prêt veille
-- [ ] Loom 3 min si livrable
-- [ ] LanguageTool 0 faute
-- [ ] Plausible/Yousign si besoin
-- [ ] Notion archivé
-- [ ] Feedback humain obtenu
-- [ ] Repurposing 1->5 fait
-- [ ] KPI mis à jour
-- [ ] Spaced J3/J7 planifié
-- [ ] Prochain sprint choisi
+## Les 3 règles anti-dérive
 
-### Ressources Maroc
-- sgg.gov.ma, cndp.ma, ompic.ma, jep.ma, rbm.ma
-- YouTube: OMPIC, CNDP webinars, SPIN 15m, Canva School
+1. **Pseudonymes** : CodeClient partout, identité réelle dans un champ restreint ou mieux : hors du cloud US (coffre local chiffré, fiche 09).
+2. **Une vérité par champ** : la date d'échéance n'existe que dans MISSIONS.
+3. **Revue hebdo 15 min** : dimanche, statut « Prod » qui dort depuis 7 jours → NextAction obligatoire.
 
-### Plan 7 jours ultra-concret
-J1 30m input, J2 output, J3 test Feynman, J4 feedback, J5 publish, J6 spaced J3, J7 review.
-
-> Philosophie: Sobre, chiffré, vendable en 7j. Mieux vaut 70% publié que 95% parfait jamais livré.
+> **Lecture pro :** Notion est un excellent serveur, un mauvais coffre. Tout ce qui est pièce d'identité, dossier pénal ou contrat signé en clair vit chiffré côté UE/local ; Notion ne garde que les index et les brouillons pseudonymisés.

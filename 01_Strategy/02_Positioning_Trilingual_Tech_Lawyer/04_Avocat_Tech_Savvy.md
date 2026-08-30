@@ -76,7 +76,7 @@ L'avocat tech-savvy :
 - SEO technique (sitemap, robots.txt, hreflang, schema.org).
 - IA : intégration via API, prompts complexes, RAG sur votre base juridique.
 
-Voir `04_Skills_To_Learn/01_Legal_Tech_Stack.md` et `04_Skills_To_Learn/02_AI_For_Lawyers_Prompts.md`.
+Voir `04_Skills_To_Learn/01_Legal_Tech_Stack/00_INDEX.md` et `04_Skills_To_Learn/02_AI_For_Lawyers_Prompts/00_INDEX.md`.
 
 ## 4. Comment le tech-savvy se montre sans se crier
 

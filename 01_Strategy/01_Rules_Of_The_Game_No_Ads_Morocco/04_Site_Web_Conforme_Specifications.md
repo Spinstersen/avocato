@@ -265,7 +265,7 @@ Pour un avocat pas technicien, mais voulant un site rapide, sobre, maîtrisé :
 | **WordPress** | WP + thème sobre + plugins minimum | Flexible, écosystème, pas de code | Maintenance, sécurité, lenteur |
 | **Webflow** | Webflow + custom domain | Design pro sans code | Coût mensuel, dépendance |
 
-Voir `04_Skills_To_Learn/01_Legal_Tech_Stack.md`.
+Voir `04_Skills_To_Learn/01_Legal_Tech_Stack/00_INDEX.md`.
 
 ## 9. Accessibilité et qualité
 

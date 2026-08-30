@@ -54,7 +54,7 @@ Recherche ROMARIN 1 classe (42) : signe libre en 42, mais **occupé en 35** par 
 | **Total honoraire année 1** | 9 000 + 1 500 × ~7 ≈ **19 500 HT** |
 | Coût évité (estimation client) | rebranding ~30 k + rachat de marque / procès ~80 k + levée bloquée ~1 M |
 
-## Template Notion (fiche portefeuille — à créer `04_Skills_To_Learn/01_Legal_Tech_Stack/02_Notion_Cabinet_OS_Détail.md`)
+## Template Notion (fiche portefeuille — à créer `04_Skills_To_Learn/01_Legal_Tech_Stack/02_Notion_Cabinet_OS_Detaille.md`)
 
 | Signe | Déposant | Classes | N° OMPIC | Dépôt | Publication | Opposition | Certificat | Renouvellement | Veille |
 |---|---|---|---|---|---|---|---|---|---|

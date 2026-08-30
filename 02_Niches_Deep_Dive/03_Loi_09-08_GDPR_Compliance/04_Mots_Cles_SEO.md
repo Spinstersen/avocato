@@ -38,7 +38,7 @@ Volumes estimés (outils gratuits + Search Console à 6 mois) — la niche est l
 - **Un article = une douleur** de `02_Douleurs_Juridiques.md` — jamais un sujet généraliste.
 - 1 500-2 500 mots, structure SCQA (voir `04_Skills_To_Learn/06_French_Communication_With_Clients/03_Structure_SCQA.md`), H2 par question posée en diagnostic.
 - Chaque article : 1 tableau ou 1 checklist réutilisable + 1 renvoi discret au diagnostic (jamais au pack — la vente se fait au RDV).
-- **Réutilisation 1→4** : article → post LinkedIn texte → carrousel Canva 8 slides → vidéo 90s (permanence : voir `04_Skills_To_Learn/09_SEO_Content_Engine/04_04_Repurposing_1vers5.md`).
+- **Réutilisation 1→4** : article → post LinkedIn texte → carrousel Canva 8 slides → vidéo 90s (permanence : voir `04_Skills_To_Learn/09_SEO_Content_Engine/04_Repurposing_1vers5.md`).
 
 ## Volet EN (le client UE du client)
 
@@ -48,7 +48,7 @@ Volumes estimés (outils gratuits + Search Console à 6 mois) — la niche est l
 ## FAQ ranking
 
 - Les requêtes « modèle gratuit » (registre, politique) convertissent le download en lead qualifié : formulaire Tally 4 questions (société, effectif, traitements estimés, clients UE ?).
-- À 6 mois : mesurer positions GSC sur les 9 requêtes — objectif top 3 sur 5 requêtes, pas trafic global (voir `04_Skills_To_Learn/09_SEO_Content_Engine/06_06_Metriques_Position.md`).
+- À 6 mois : mesurer positions GSC sur les 9 requêtes — objectif top 3 sur 5 requêtes, pas trafic global (voir `04_Skills_To_Learn/09_SEO_Content_Engine/06_Metriques_Position.md`).
 
 ---
 
