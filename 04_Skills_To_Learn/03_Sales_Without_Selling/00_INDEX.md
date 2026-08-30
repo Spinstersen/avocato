@@ -8,7 +8,7 @@
 - Diagnostic 45 min à **900 DH HT** (déductible si mission) : c'est l'acte de vente, pas le pitch.
 - Toujours **deux options** maximum, jamais de promo, jamais d'offre limitée : la sollicitation individuelle est interdite (loi 28-08 → **loi 66-23**, promulguée le 18/08/2026, dahir n° 1-26-75, BO n° 7536 ; numéros d'articles en transposition).
 
-## Map des 12 fichiers
+## Map des 13 fichiers
 
 | # | Fichier | Rôle | Quand l'ouvrir |
 |---|---------|------|----------------|
@@ -25,6 +25,7 @@
 | 10 | 10_Psychologie_Cialdini | 6 leviers + 7e, version éthique | pour rédiger ses supports |
 | 11 | 11_Arbre_Decision_Prix | quel prix proposer à qui | devant un prospect hésitant |
 | 12 | 12_Fiches_Pratiques_Scripts | DM/email/WhatsApp conformes | réponse à demande entrante |
+| 13 | 13_Pipeline_CRM_Hebdo | la revue Notion `PROSPECTS` du lundi : scoring 0-10, 5 états, alertes | chaque lundi, 20 min chrono |
 
 > Note : l'ancien `01_Theorie_SPIN_Challenger.md` a été fusionné dans `01_Methodes_Vente.md` puis archivé dans `_archive/04_skills_legacy/`. L'ancien dossier `05_Sales_Techniques_Playbook` (dossier + fichier racine) est archivé au même endroit ; son contenu utile a été versé dans les fichiers 01, 04 et 05 du présent dossier.
 

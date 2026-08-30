@@ -1,6 +1,6 @@
 # 09 — SEO & Content Engine : le moteur éditorial no-ads du cabinet
 
-> **Dossier bonus (Skills n°9).** 12 fichiers : le SEO longue traîne comme seul canal d'acquisition aligné sur la stratégie no-ads du vault — recherche de mots-clés, structure d'article qui convertit en diagnostic, Search Console honnête, repurposing 1→5, calendrier 12 mois, métriques, erreurs, arbitrage SEO/SEA (avec la vraie discussion déontologique), un cas d'école et les checklists. S'appuie sur `01_Strategy/04_Client_Acquisition` (maillon contenu éducatif) et nourrit `04_Skills_To_Learn/03_Sales_Without_Selling` (la conversion se fait au diagnostic, pas dans l'article).
+> **Dossier bonus (Skills n°9).** 13 fichiers : le SEO longue traîne comme seul canal d'acquisition aligné sur la stratégie no-ads du vault — recherche de mots-clés, structure d'article qui convertit en diagnostic, Search Console honnête, repurposing 1→5, calendrier 12 mois, métriques, erreurs, arbitrage SEO/SEA (avec la vraie discussion déontologique), un cas d'école, les checklists, et les landing pages de conversion. S'appuie sur `01_Strategy/04_Client_Acquisition` (maillon contenu éducatif) et nourrit `04_Skills_To_Learn/03_Sales_Without_Selling` (la conversion se fait au diagnostic, pas dans l'article).
 
 ## TL;DR du dossier en 8 lignes
 
@@ -13,7 +13,7 @@
 7. Le SEA n'est pas « interdit » par la loi — il est à trancher avec le RIO/barreau ; le no-ads du vault est un choix stratégique ET une prudence déonto.
 8. L'erreur capitale du SEO juridique est l'hallucination d'article de loi : une seule règle — la citation ne se délègue jamais.
 
-## Map 12 fichiers
+## Map 13 fichiers
 
 | # | Fichier | Le geste qu'il donne |
 |---|---------|----------------------|
@@ -29,6 +29,7 @@
 | 09 | `09_Cas_YouCan_0908.md` | Le cas d'école complet [cas illustratif] |
 | 10 | `10_Arbre_Choix_MotCle.md` | Décider quoi écrire ensuite en 10 min |
 | 11 | `11_Fiches_Checklist_SEO.md` | Checklist 15 points + template article + revues |
+| 12 | `12_Landing_Pages_Conversion.md` | Transformer un article qui se positionne en landing qui convertit en diagnostic 900 DH HT |
 
 ## Les règles transversales du dossier (une ligne chacune)
 

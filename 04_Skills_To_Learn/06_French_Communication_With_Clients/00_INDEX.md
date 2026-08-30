@@ -1,6 +1,6 @@
 # 06 — French Communication with Clients : dossier maître
 
-> **Dossier maître — Skills n° 6.** Le français juridique du cabinet : sobre, précis, trilingue FR/AR/EN. 12 fichiers. **Pour qui :** l'avocat dont l'écrit EST le produit — chaque email, chaque note, chaque clause est l'unité de vente et de réputation. Temps de lecture : 4 minutes.
+> **Dossier maître — Skills n° 6.** Le français juridique du cabinet : sobre, précis, trilingue FR/AR/EN. 13 fichiers. **Pour qui :** l'avocat dont l'écrit EST le produit — chaque email, chaque note, chaque clause est l'unité de vente et de réputation. Temps de lecture : 4 minutes.
 
 ## 1. Thèse du dossier
 
@@ -25,7 +25,7 @@ La compétence la plus sous-estimée du jeune avocat n'est pas le droit — il l
 - **Au fil de l'eau :** `10` l'arbre se consulte à chaque hésitation de formule ; `11` la FAQ se consulte à chaque doute.
 - **Chaque mois :** réviser `03` (SCQA) sur une note réelle, et retraduire un modèle en arabe et en anglais via `06`.
 
-## 4. Table des 12 fichiers
+## 4. Table des 13 fichiers
 
 | # | Fichier | Rôle | Quand le consulter |
 |---|---------|------|--------------------|
@@ -41,6 +41,7 @@ La compétence la plus sous-estimée du jeune avocat n'est pas le droit — il l
 | 09 | `09_Comparatif_Registres.md` | 4 registres, tableau registre × situation | Pour calibrer un écrit atypique |
 | 10 | `10_Arbre_Decision_Ton.md` | Arbre appel/clôture par destinataire et canal | À chaque hésitation de formule |
 | 11 | `11_FAQ_40Q.md` | 40 Q/R couvrant tout le dossier | À chaque « attends, on écrit ça comment ? » |
+| 12 | `12_Courrier_Officiel_Administrations.md` | Lettres à l'administration (DGI, Office des Changes, CNDP, tribunal, OMPIC, conservateur) : format officiel, 3 tons, 3 lettres rédigées | Avant tout courrier à une institution |
 
 ## 5. Liens croisés
 
@@ -99,4 +100,4 @@ La compétence la plus sous-estimée du jeune avocat n'est pas le droit — il l
 - Les références citées dans un écrit de mars sont encore justes en septembre.
 - Zéro correction d'un tiers ne contient de faute de français.
 
-> **Lecture pro :** un cabinet qui écrit bien n'a pas besoin de crier qu'il écrit bien — ses emails font le travail. Les douze fichiers de ce dossier existent pour qu'à 19 h 40, un mardi de novembre, l'avocat fatigue écrive quand même juste.
+> **Lecture pro :** un cabinet qui écrit bien n'a pas besoin de crier qu'il écrit bien — ses emails font le travail. Les treize fichiers de ce dossier existent pour qu'à 19 h 40, un mardi de novembre, l'avocat fatigue écrive quand même juste.

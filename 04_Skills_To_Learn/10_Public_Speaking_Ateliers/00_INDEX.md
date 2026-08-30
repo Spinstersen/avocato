@@ -17,6 +17,7 @@
 | 08 | [[08_Erreurs_Public_Speaking]] | 10 erreurs avec symptôme + correctif : dépasser, lire les slides, jargon, vendre depuis la scène, pas de cas concret, pas de follow-up… |
 | 09 | [[09_Arbre_Choix_Sujet]] | 5 filtres : problème vu 3× en diagnostics, saisonnalité (LF janvier, rentrée, échéances DGI), concurrent thématique, article recyclable, demande de l'hôte. |
 | 10 | [[10_Checklist_Orga_15j]] | J-15 → J+2 cochable : salle, captation sous consentement écrit (défaut = interne uniquement), test depuis le fond, notice loi 09-08 à l'émargement. |
+| 11 | [[11_Supports_Imprimes_PostSession]] | Les supports physiques : PDF 4 pages « 10 erreurs » (distribution par la landing 09/12 + consentement), affiche A3 aux tokens DESIGN.md, badge QR vers fiche Ressource (jamais vers un formulaire de vente), impression au Maroc par catégories de prestataires ; loi unique : chaque imprimé passe la checklist qualité 04/10. |
 
 ## Le fil rouge en 60 secondes
 

@@ -38,14 +38,14 @@ Live URL: `https://<user>.github.io/<repo>/` — no server needed, works from an
 ### Folder Map
 ```
 00_START_HERE/          -> Start here (5 min)
-01_Strategy/            -> Big picture + déontologie Loi 28-08 (06_Deontologie_Pratique)
-02_Niches_Deep_Dive/    -> 6 niches (missions HT, provision 50%, convention)
+01_Strategy/            -> Big picture + déontologie (loi 66-23, ex-28-08 — 06_Deontologie_Pratique)
+02_Niches_Deep_Dive/    -> 11 niches auditées (missions HT, provision 50%, convention)
 03_Acquisition_Without_Ads/ -> 6 channels sans publicité
-04_Skills_To_Learn/     -> Sales, French, sharpness, AI, design
+04_Skills_To_Learn/     -> 19 dossiers de compétences (Sales, French, sharpness, AI, design, SEO, speaking, négo, finance, DRAFTING FR/EN, litigation basics, recherche juridique, client ops, SOP/ops, EQ/désescalade, structuration internationale)
 05_Document_Bank/       -> 8 modèles pros (convention, reçu, PV, trames)
 06_ADHD_System/         -> OS quotidien
 07_90Day_Plan/          -> Plan 90 jours
-08_Jurisprudence/       -> 4 fiches CNDP/31-08/contrats à citer
+08_Jurisprudence/       -> Bank corrigée 28/08/2026 (références vérifiées uniquement)
 webapp/                 -> Vault reader + Cabinet OS (offline, localStorage)
 ```
 

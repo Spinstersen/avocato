@@ -20,8 +20,8 @@ Pas d'audience secondaire à figer pour l'instant — usage solo. Les clients fi
 
 AVOCATO fait exister ce qui manquait au Maroc : un système complet pour obtenir des clients **sans publicité** et faire tourner le cabinet au quotidien, dans une seule app offline.
 
-- **Vault (Base documentaire)** — 177 docs : stratégie & déontologie 28-08 (06_Deontologie_Pratique), 6 niches deep-dive, 6 canaux d'acquisition sans pub, 12+ compétences (Legal Tech, AI, Sales, Design, Finance cabinet, etc.), système ADHD, plan 90 jours, jurisprudence. Chaque doc est lisible, cherchable, avec TOC, checklists persistées, charts auto et mode sombre/impression.
-- **Cabinet OS** — offline localStorage : dossiers (client, ICE, type, mission, honoraires HT/TVA/TTC, provision %, statut, échéance), conventions d'honoraires art. 30 (CH-YYYY-XXX), reçus provision + factures solde, échéances, bibliothèque 8 modèles + fiches jurisprudence, export/import JSON.
+- **Vault (Base documentaire)** — 581 docs : stratégie & déontologie (loi 66-23, ex-28-08 — 06_Deontologie_Pratique), 11 niches deep-dive, 6 canaux d'acquisition sans pub, 19 compétences (Legal Tech, AI, Sales, Design, Finance cabinet, Drafting FR/EN, Litigation basics, Recherche juridique, Client Ops, Opérations, EQ/désescalade, Structuration transfrontalière, etc.), système ADHD, plan 90 jours, jurisprudence. Chaque doc est lisible, cherchable, avec TOC, checklists persistées, charts auto et mode sombre/impression.
+- **Cabinet OS** — offline localStorage : dossiers (client, ICE, type, mission, honoraires HT/TVA/TTC, provision %, statut, échéance), conventions d'honoraires (ex-art. 30 loi 28-08 → loi 66-23, numérotation en transposition) (CH-YYYY-XXX), reçus provision + factures solde, échéances, bibliothèque 8 modèles + fiches jurisprudence, export/import JSON.
 
 Le produit existe pour transformer la contrainte légale en avantage. Succès = pipeline éducatif qui génère des diagnostics → conventions signées (provision 50 % encaissée) → missions productisées (600–28 000 DH HT) → livrables + Loom → solde → abonnements 2 500–6 000 DH HT/mois, sans dépendre du bouche-à-oreille ni de la prospection interdite, et tenu dans la durée grâce à l'OS ADHD.
 
@@ -39,14 +39,14 @@ Un concurrent générique (banque de modèles, SaaS de gestion de cabinet, ou fo
 
 **Flux pro canonique :** Dossier → Convention d'honoraires (provision 50 %, art. 30) → Lettre de mission → Livrables + Loom 15 min → Facture solde + PV de remise → Clôture / Abonnement. Tous montants HT + TVA (20 % si assujetti, 0 % art. 91 CGI sinon).
 
-**Environnement & tech :** App 100 % statique, offline — double-clic `webapp/index.html` (hash routing, chemins relatifs, vendor `marked.min.js` + `chart.umd.min.js`). Source de vérité = 177 `.md` (rebuild `node webapp/scripts/build.js` → `webapp/data.js`). Cabinet = `localStorage` (`avocato:dossiers`, `conventions`, `factures`, `echeances`, `read`, `checks`, `folders`, `theme`, `font`, `mode`). Déploiement GitHub Pages via `.github/workflows/deploy.yml` (rebuild + deploy `webapp/` sur push `main`, Settings → Pages → Source: GitHub Actions). Pas de backend, pas d'internet requis.
+**Environnement & tech :** App 100 % statique, offline — double-clic `webapp/index.html` (hash routing, chemins relatifs, vendor `marked.min.js` + `chart.umd.min.js`). Source de vérité = 581 `.md` (rebuild `node webapp/scripts/build.js` → `webapp/data.js`). Cabinet = `localStorage` (`avocato:dossiers`, `conventions`, `factures`, `echeances`, `read`, `checks`, `folders`, `theme`, `font`, `mode`). Déploiement GitHub Pages via `.github/workflows/deploy.yml` (rebuild + deploy `webapp/` sur push `main`, Settings → Pages → Source: GitHub Actions). Pas de backend, pas d'internet requis.
 
 **Documents & rituels :** 8 modèles (convention, reçu/facture, lettre de mission, PV, trames contrats/CGV/registre, scripts) + 4 fiches jurisprudence/déontologie. Rituels ADHD : daily OS, weekly review, body-double / dopamine menu, deep-work Pomodoro.
 
 ## Capabilities and Constraints
 
 **Capacités confirmées :**
-- Vault reader complet (177 docs, 9 domaines : 00_START_HERE, 01_Strategy, 02_Niches ×11, 03_Acquisition ×6, 04_Skills ×13, 05_Document_Bank, 06_ADHD, 07_90Day, 08_Jurisprudence) avec recherche plein-texte, suivi lecture, persistance checklists.
+- Vault reader complet (581 docs, 9 domaines : 00_START_HERE, 01_Strategy, 02_Niches ×11, 03_Acquisition ×6, 04_Skills ×19, 05_Document_Bank, 06_ADHD, 07_90Day, 08_Jurisprudence) avec recherche plein-texte, suivi lecture, persistance checklists.
 - Cabinet OS CRUD + générations imprimables (convention art. 30 numérotée, reçu provision, facture solde HT/TVA/TTC calculée), échéances auto-créées, filtres, export/import JSON.
 - Charts : explicites (`chart:` fences) + implicites (table → graphique).
 - Thème clair/sombre, tailles de police, responsive (sidebar drawer <860px, scrim), print stylesheet, accessibilité clavier.
@@ -66,8 +66,8 @@ Constats actuels (non contraignants, libres d'être remplacés) : marque « ⚖�
 
 ## Evidence on Hand
 
-- Repo : `C:/divers/coding/claude code/avocato` — `webapp/index.html` (157 lignes), `webapp/app.js` (603 lignes), `webapp/cabinet.js` (701 lignes), `webapp/styles.css` (375 lignes), `webapp/data.js` (généré, 177 docs), `webapp/scripts/build.js` (générateur), `webapp/vendor/marked.min.js` + `chart.umd.min.js` (offline).
-- 177 `.md` source : `00_START_HERE/` (3), `01_Strategy/` (6 sous-domaines), `02_Niches_Deep_Dive/` (07 PI, 08 Fiscalité, 09 Office Changes, 10 MRE, 11 Nomads + 6 niches historiques), `03_Acquisition_Without_Ads/` (6 canaux), `04_Skills_To_Learn/` (12), `05_Document_Bank/` (templates + registre), `06_ADHD_System/`, `07_90Day_Plan/`, `08_Jurisprudence/` (01–08 fiches).
+- Repo : `C:/divers/coding/claude code/avocato` — `webapp/index.html` (157 lignes), `webapp/app.js` (603 lignes), `webapp/cabinet.js` (701 lignes), `webapp/styles.css` (375 lignes), `webapp/data.js` (généré, 581 docs), `webapp/scripts/build.js` (générateur), `webapp/vendor/marked.min.js` + `chart.umd.min.js` (offline).
+- 581 `.md` source : `00_START_HERE/` (3), `01_Strategy/` (6 sous-domaines), `02_Niches_Deep_Dive/` (07 PI, 08 Fiscalité, 09 Office Changes, 10 MRE, 11 Nomads + 6 niches historiques), `03_Acquisition_Without_Ads/` (6 canaux), `04_Skills_To_Learn/` (19 dossiers, 234 fichiers), `05_Document_Bank/` (templates + registre), `06_ADHD_System/`, `07_90Day_Plan/`, `08_Jurisprudence/` (01–08 fiches).
 - Templates : `05_Document_Bank/templates/01_Convention_Honoraires_Modele.md`, `03_Pack_Freelance_Contrat.md`, `04_Pack_Ecommerce_CGV.md`, `05_Registre_09-08_Modele.md` + reçus/PV/lettres (8 au total via Cabinet OS Bibliothèque).
 - Deploy : `.github/workflows/deploy.yml` (GitHub Pages, Actions).
 - État git : branch `main` à jour `origin/main` (Spinstersen/avocato), nombreuses modifications non commitées — redesign law-firm en cours (commits v3.3 encrier/or).

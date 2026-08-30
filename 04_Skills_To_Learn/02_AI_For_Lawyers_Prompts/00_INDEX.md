@@ -1,6 +1,6 @@
 ﻿# 02 — IA pour Avocats : Dossier Maître (Prompts & Garde-fous)
 
-> **Dossier maître — Skills n°2.** L'IA est un assistant de rédaction, jamais un conseiller juridique. 12 fichiers. Règle permanente : validation humaine 100 %, anonymisation 100 % avant envoi, zéro publication de sortie brute. Le détail des devoirs (secret, responsabilité) est indexé sur `08_Jurisprudence\` et la conformité sur `02_Niches_Deep_Dive\03_Loi_09-08_GDPR_Compliance\`.
+> **Dossier maître — Skills n°2.** L'IA est un assistant de rédaction, jamais un conseiller juridique. 13 fichiers. Règle permanente : validation humaine 100 %, anonymisation 100 % avant envoi, zéro publication de sortie brute. Le détail des devoirs (secret, responsabilité) est indexé sur `08_Jurisprudence\` et la conformité sur `02_Niches_Deep_Dive\03_Loi_09-08_GDPR_Compliance\`.
 
 ## TL;DR
 
@@ -25,6 +25,7 @@
 | 09 | `09_Metriques_Hallucination.md` | Mettre en place la QA interne (20 extractions mensuelles) |
 | 10 | `10_Arbre_Decision_Usage_IA.md` | IA ou pas IA, quel outil |
 | 11 | `11_Fiches_Pratiques_Checklist.md` | Checklists avant envoi / avant publication |
+| 12 | `12_Workflows_IA_Par_Type_Mission.md` | Les 5 chaînes de travail bout-en-bout (diagnostic, contrat, veille, note, clôture) |
 
 ## Matrice coût / risque par usage
 

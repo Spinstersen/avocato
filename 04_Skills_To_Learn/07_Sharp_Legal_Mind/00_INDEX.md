@@ -1,6 +1,6 @@
 # 07 — Sharp Legal Mind : dossier maître
 
-> **Dossier maître — Skills n° 7.** Le raisonnement qui vend : issue-spotting, chiffres exacts, veille réelle, business awareness — 12 fichiers, environ 90 minutes d'entraînement par semaine. **Pour qui :** l'avocat solo dont la rareté n'est pas le diplôme mais la netteté du diagnostic. Temps de lecture : 4 minutes.
+> **Dossier maître — Skills n° 7.** Le raisonnement qui vend : issue-spotting, chiffres exacts, veille réelle, business awareness — 13 fichiers, environ 90 minutes d'entraînement par semaine. **Pour qui :** l'avocat solo dont la rareté n'est pas le diplôme mais la netteté du diagnostic. Temps de lecture : 4 minutes.
 
 ## 1. Thèse du dossier
 
@@ -20,7 +20,7 @@ Trois piliers rendent un jeune cabinet redoutable, et aucun n'est « connaître 
 - **Ordre quotidien :** au bureau, l'arbre de diagnostic (`09`) sur papier ; dans les transports, la récitation de la Numbers Sheet ; mardi, jeudi et dimanche, les créneaux de veille (`04`).
 - **Ordre de doute :** la FAQ (`10`) répond à trente objections ; le comparatif des méthodes (`07`) arbitre « IRAC ou SCQA ? ».
 
-## 4. Table des 12 fichiers
+## 4. Table des 13 fichiers
 
 | # | Fichier | Rôle | Quand le consulter |
 |---|---------|------|--------------------|
@@ -36,6 +36,7 @@ Trois piliers rendent un jeune cabinet redoutable, et aucun n'est « connaître 
 | 09 | `09_Arbre_Decision_Issue_Spotting.md` | L'arbre de balayage + drapeaux rouges + orientations | Imprimé, dans la mallette |
 | 10 | `10_FAQ_30_Questions.md` | 30 Q/R méthode, chiffres, TDAH, éthique | À chaque doute de pratique |
 | 11 | `11_Plan_90_Jours.md` | Fondations → vitesse → autorité, jalons J30/J60/J90 | Jour 1 — et chaque dimanche |
+| 12 | `12_Lecture_Rapide_Contrats_25_Red_Flags.md` | Le scan 30 min d'un contrat entrant : 3 passes, 25 signaux, triage vert/orange/rouge, seuil de refus | À chaque contrat reçu (méthode ; liste bilingue en `13_Legal_Drafting_FR_EN/07`) |
 
 ## 5. Liens croisés
 
