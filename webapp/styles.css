@@ -916,9 +916,11 @@ body.sidebar-open .mob-tab[data-mob="menu"]{color:var(--accent-cms)}
     background:transparent; border-color:rgba(255,255,255,.20); color:rgba(255,255,255,.80);
   }
   #sidebarClose:hover, #sidebarClose:active{border-color:#fff; color:#fff; background:rgba(255,255,255,.08)}
-  .mode-switch{margin:6px 14px 2px}
-  .search-wrap{margin:4px 14px 8px}
-  #resumeChip{margin:0 14px 6px}
+  .mode-switch{margin:6px 14px 8px}
+  /* une seule recherche au doigt : la palette (barre basse « Rechercher » / loupe topbar).
+     Le filtre d'arbre et le chip « Reprendre » faisaient doublon — le dernier doc s'ouvre seul. */
+  .search-wrap{display:none}
+  #resumeChip{display:none}
   .side-cta{display:none}
   .sidebar-foot{display:none}
   #fabNewDossier{

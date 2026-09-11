@@ -271,6 +271,7 @@ Flat by default; tonal layering carries depth (`paper → paper-alt/surface-2 �
 - Sidebar: petrol gradient, flat brand block (Cormorant wordmark + mono sub), segmented mode switch (surface inset, orange active), search inset, tree (cohorts, 40px rows, 2px active left border), cabinet nav (16px SVG glyph + label, 44px rows, section labels `Piloter / Argent / Base`), foot actions.
 - Mobile (<980px): drawer over scrim; topbar keeps menu + crumbs + actions.
 - **Mobile ≤680px**: barre basse fixe (pétrole, filet laiton, indicateur orange 26×2 sur l'onglet actif) — Base : Base / Rechercher / Cabinet / Menu, Cabinet : Aujourd'hui / Dossiers / Agenda / Argent / Plus ; recherche topbar (mode Cabinet) ; FAB masqué sur `dossiers`/`calendrier` (CTA dans la vue), circulaire ailleurs ; `100dvh` + `env(safe-area-inset-*)`.
+- **Tiroir mobile ≤680px** : seulement l'essentiel — bandeau marque compact (sous-titre et pied masqués), segmented Base/Cabinet, puis l'arbre (Base) ou la nav par groupes (Cabinet) qui occupe toute la hauteur. Pas de champ recherche dans le tiroir, pas de chip « Reprendre », pas de CTA : la recherche est unique (palette via barre basse ou loupe topbar) et le dernier doc s'ouvre seul.
 
 ### Charts
 - `.chart-canvas-wrap`: 2px radius, surface-2 bg, 280px (dash 240px) with `Chart.js`; colors from `--chart-1..8` read at render time (theme switch re-renders).

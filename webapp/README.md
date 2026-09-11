@@ -99,6 +99,7 @@ python -m http.server 8765 --directory "C:\Users\N\Documents\Default Project\avo
 L'app est pensée pour être utilisée au cabinet, sur téléphone :
 
 - **Barre basse** — mode Base : Base (tableau de bord) · Rechercher · Cabinet · Menu ; mode Cabinet : Aujourd'hui · Dossiers · Agenda · Argent · Plus. L'onglet actif est mémorisé et souligné orange ; « Plus / Menu » ouvre le tiroir.
+- **Tiroir minimal** — bandeau marque compact, segmented Base/Cabinet, puis l'arbre des documents (Base) ou la nav par groupes (Cabinet) sur toute la hauteur. Une seule recherche au doigt (la palette Ctrl+K via « Rechercher » ou la loupe topbar) ; ni chip « Reprendre » (le dernier doc s'ouvre seul), ni pied, ni CTA redondant.
 - **Tables → fiches** — les tables `.cab-table` (dossiers, factures, échéances…) deviennent des fiches empilées avec étiquettes (`data-label` dérivé du thead par `mobile.js`) : tout est lisible sans zoom ni défilement horizontal.
 - **Dialogues en feuille basse** — plein écran, titre collant, boutons d'action collants au-dessus de la zone geste ; champs en 16 px (pas de zoom Android au focus).
 - **Tiroir latéral** — 85 % de largeur max, balayage depuis le bord gauche pour ouvrir / vers la gauche pour fermer, fermeture au scrim ou après sélection, focus rendu au bouton menu.
