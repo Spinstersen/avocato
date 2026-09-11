@@ -24,7 +24,7 @@ python -m http.server 8765 --directory "C:\Users\N\Documents\Default Project\avo
 - **Tableau de bord** — progression par dossier, graphique objectif de revenus, répartition, démarrage rapide.
 - **Rendu lisible** — tableaux, citations, code, sommaire (TOC) par doc. **A−/A+ agrandit le texte des documents** (13,5 / 15 / 17 px, mémorisé).
 - **Typographie hors-ligne** — polices auto-hébergées dans `fonts/` (aucun CDN), double-filet laiton sur les titres, données chiffrées en tabulaire.
-- **Navigation** — groupes Piloter / Argent / Base repliables (état mémorisé), icônes SVG sur chaque vue ; sur mobile, A−/A+/thème se replient derrière « ⋯ ».
+- **Navigation** — groupes Piloter / Argent / Base repliables (état mémorisé), icônes SVG sur chaque vue ; sur téléphone (≤ 680 px) : barre basse Base / Cabinet, recherche dans la topbar, tiroir au balayage.
 - **Accessibilité** — lien « Aller au contenu », palette Ctrl+K en combobox ARIA, graphiques avec table de données de repli.
 - **Graphiques auto depuis les tableaux** — toute table numérique → bouton "📊 Voir en graphique".
 - **Graphiques explicites** — blocs ` ```chart:line ` (bar/line/doughnut).
@@ -94,6 +94,20 @@ python -m http.server 8765 --directory "C:\Users\N\Documents\Default Project\avo
 #### F3 — Recherche globale v2 (Ctrl+K)
 - **Palette (Ctrl+K)** indexe désormais : **Actions** (Frais, Délais, Veille), **Dossiers** (client/ICE/mission/adverse), **Échéances** (intitulé/type/date), **Veille** (titre/source/tags), **Frais** (libellé/catégorie), **Factures** (num/type), **Docs** (Vault). Tapez un nom de client, une date, un tag « 09-08 » ou « CNDP » → tout remonte.
 
+## 📱 Téléphone (≤ 680 px — Galaxy S24, Android/iOS)
+
+L'app est pensée pour être utilisée au cabinet, sur téléphone :
+
+- **Barre basse** — mode Base : Base (tableau de bord) · Rechercher · Cabinet · Menu ; mode Cabinet : Aujourd'hui · Dossiers · Agenda · Argent · Plus. L'onglet actif est mémorisé et souligné orange ; « Plus / Menu » ouvre le tiroir.
+- **Tables → fiches** — les tables `.cab-table` (dossiers, factures, échéances…) deviennent des fiches empilées avec étiquettes (`data-label` dérivé du thead par `mobile.js`) : tout est lisible sans zoom ni défilement horizontal.
+- **Dialogues en feuille basse** — plein écran, titre collant, boutons d'action collants au-dessus de la zone geste ; champs en 16 px (pas de zoom Android au focus).
+- **Tiroir latéral** — 85 % de largeur max, balayage depuis le bord gauche pour ouvrir / vers la gauche pour fermer, fermeture au scrim ou après sélection, focus rendu au bouton menu.
+- **Safe-areas** — `viewport-fit=cover` + `env(safe-area-inset-*)` sur topbar, barre basse, tiroir, feuilles et toasts ; hauteurs en `dvh` (pas de saut avec la barre Android).
+- **Tactile** — cibles ≥ 44 px, cases à cocher agrandies, pas de tooltips au doigt (`pointer:coarse`), pipeline déplaçable au doigt (glisser une fiche).
+- **Lecture** — titres recalibrés, sommaire replié par défaut, tables scrollables avec fondu, A−/A+ toujours actif.
+
+Tests dédiés : `tests/test-mobile.mjs` (barre, palette, fiches, tiroir, events).
+
 ## ⌨️ Raccourcis (Vault)
 
 | Touche | Action |
@@ -117,7 +131,7 @@ cd tests
 npm ci
 npm test
 ```
-`npm test` lance `tests/run-all.mjs` : démarre un serveur isolé sur un port libre avec une base temporaire (`AVOCATO_DATA`), exécute les 12 fichiers de test (jsdom + API), puis nettoie. Aucun serveur manuel requis. `npm run test:server` ne lance que la suite sécurité de l'API. Le CI (`.github/workflows/test.yml`) exécute le rebuild + la suite complète sur chaque push/PR, Node 24, `TZ=Africa/Casablanca`.
+`npm test` lance `tests/run-all.mjs` : démarre un serveur isolé sur un port libre avec une base temporaire (`AVOCATO_DATA`), exécute les 13 fichiers de test (jsdom + API), puis nettoie. Aucun serveur manuel requis. `npm run test:server` ne lance que la suite sécurité de l'API. Le CI (`.github/workflows/test.yml`) exécute le rebuild + la suite complète sur chaque push/PR, Node 24, `TZ=Africa/Casablanca`.
 
 ## 🚀 Déployer sur GitHub Pages
 
@@ -147,6 +161,7 @@ webapp/
   mock-data.js          → seed/wipe/validate démo supprimable (Phase G)
   sync.js               → sync locale optionnelle vers server/ (Phase B) — ouvrir l'app via http://127.0.0.1:8790/app/ (origine file:// refusée par l'API)
   palette.js            → palette Ctrl+K (docs + dossiers + échéances + veille + frais + factures)
+  mobile.js             → couche téléphone ≤680 px (barre basse, tables→fiches data-label, gestes du tiroir)
   icons.js              → jeu d'icônes SVG gravées (nav, statuts, actions) — pas d'emoji
   styles.css            → thème (Vault + Cabinet + print) ; --doc-size pilote A−/A+
   fonts.css             → @font-face auto-hébergées (Cormorant, Inter, JetBrains Mono)

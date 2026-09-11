@@ -91,6 +91,16 @@
     return last.replace(/^\d+_/, '').replace(/_/g, ' ');
   }
 
+  /* Téléphone (≤ 680 px) : le sommaire reste replié, les graphiques respirent */
+  function isNarrow() {
+    try { return !!(window.matchMedia && window.matchMedia('(max-width:680px)').matches); }
+    catch (e) { return false; }
+  }
+  function notifyRendered(view, extra) {
+    try { document.dispatchEvent(new CustomEvent('avocato:rendered', { detail: Object.assign({ view: view }, extra || {}) })); }
+    catch (e) { /* custom events indisponibles ? silencieux */ }
+  }
+
   /* ---------- markdown render ---------- */
   const renderer = {
     code(code, infostring) {
@@ -346,7 +356,7 @@
     const { html, toc } = renderMarkdown(doc.content);
 
     const tocHtml = toc.length > 1
-      ? `<details class="toc" ${toc.length > 4 ? '' : 'open'}><summary>Sommaire (${toc.length})</summary><ul>` +
+      ? `<details class="toc" ${(toc.length <= 4 && !isNarrow()) ? 'open' : ''}><summary>Sommaire (${toc.length})</summary><ul>` +
         toc.map(t => `<li class="lvl-${t.tag}"><a href="#${t.id}">${esc(t.text)}</a></li>`).join('') +
         `</ul></details>` : '';
 
@@ -382,6 +392,7 @@
     window.scrollTo({ top: 0 });
     LS.set('last', id);
     updateResumeChip();
+    notifyRendered('base-doc', { id });
   }
 
   function updateCrumbs(doc) {
@@ -599,7 +610,7 @@
           borderColor: th.ticks, borderWidth: 1
         }]
       },
-      options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'right', labels: { color: th.ticks, font: { size: 11 } } } } }
+      options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: isNarrow() ? 'bottom' : 'right', labels: { color: th.ticks, font: { size: 11 } } } } }
     });
     state.charts.push(revenue, distribution);
 
@@ -607,6 +618,7 @@
     highlightTree();
     updateReadBtn();
     window.scrollTo({ top: 0 });
+    notifyRendered('base-dashboard');
   }
 
   /* ---------- topbar actions ---------- */
@@ -654,7 +666,7 @@
         if (toc.length > 1 && !tocEl) {
           const d = document.createElement('details');
           d.className = 'toc';
-          if (toc.length <= 4) d.open = true;
+          if (toc.length <= 4 && !isNarrow()) d.open = true;
           d.innerHTML = `<summary>Sommaire (${toc.length})</summary><ul>` + toc.map(t => `<li class="lvl-${t.tag}"><a href="#${t.id}">${esc(t.text)}</a></li>`).join('') + '</ul>';
           article.insertBefore(d, contentEl);
         }

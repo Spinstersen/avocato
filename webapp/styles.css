@@ -214,7 +214,7 @@ a:hover{text-decoration-thickness:2px}
 .double-rule + .double-rule{margin-top:1px; height:1px; background:var(--line-strong)}
 .plaque .double-rule{margin-top:10px}
 
-.app{display:flex; min-height:100vh}
+.app{display:flex; min-height:100vh; min-height:100dvh}
 
 /* Sidebar — registre pétrole sombre, façon CMS (la plaque laiton est conservée) */
 .sidebar{
@@ -225,7 +225,7 @@ a:hover{text-decoration-thickness:2px}
   color:#f2efe6;
   border-right:1px solid rgba(255,255,255,.08);
   display:flex; flex-direction:column;
-  position:sticky; top:0; height:100vh; z-index:30;
+  position:sticky; top:0; height:100vh; height:100dvh; z-index:30;
 }
 /* Brand à plat, façon sidebar du CMS (pas de boîte) */
 .plaque{
@@ -584,9 +584,10 @@ body.dark .topbar{background:rgba(18,38,43,.86); border-color:var(--line)}
 .dlg{border:1px solid var(--line-strong); border-radius:2px; padding:0; max-width:640px; width:calc(100% - 24px); background:var(--surface); color:var(--text); box-shadow:0 18px 50px rgba(18,38,43,.28)}
 .dlg::backdrop{background:rgba(18,38,43,.5); backdrop-filter:blur(2px)}
 .dlg h3{margin:0; padding:16px 18px 0; font-weight:700;font-size:13px;font-family:var(--font-body); letter-spacing:.06em; text-transform:uppercase; color:var(--petrol)}
-.form-grid{display:grid; grid-template-columns:1fr 1fr; gap:10px 12px; padding:14px 18px}
-.form-grid label{display:flex; flex-direction:column; gap:4px; font-weight:600;font-size:11.5px;font-family:var(--font-body); letter-spacing:.04em; text-transform:uppercase; color:var(--text-dim)}
+.form-grid{display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:10px 12px; padding:14px 18px}
+.form-grid label{display:flex; flex-direction:column; gap:4px; min-width:0; font-weight:600;font-size:11.5px;font-family:var(--font-body); letter-spacing:.04em; text-transform:uppercase; color:var(--text-dim)}
 .form-grid input, .form-grid select, .form-grid textarea{
+  min-width:0; max-width:100%;
   padding:10px 12px; border:1px solid var(--line); border-radius:2px; background:var(--surface-2); color:var(--text); font-weight:400;font-size:13.5px;font-family:var(--font-body);
 }
 input::placeholder, textarea::placeholder{color:var(--faint); opacity:1}
@@ -676,7 +677,7 @@ input::placeholder, textarea::placeholder{color:var(--faint); opacity:1}
   .doc > .toc{margin-left:18px; margin-right:18px}
   .dash-grid{grid-template-columns:1fr}
   .topbar{padding:8px 12px}
-  .form-grid{grid-template-columns:1fr}
+  .form-grid{grid-template-columns:minmax(0,1fr)}
 }
 @media (prefers-reduced-motion:reduce){*,*:before,*:after{transition:none !important; animation:none !important}}
 @media print{
@@ -693,7 +694,7 @@ input::placeholder, textarea::placeholder{color:var(--faint); opacity:1}
     --text:#12262b; --text-dim:#6f7b7e; --caption:#3d4f54;
     --accent-2:#2e6b46; --accent-2-ink:#265a3a; --warn:#9a5b12; --chart-2:#e0641f;
   }
-  .sidebar, .topbar, .scrim, .chart-toggle, .chart-canvas-wrap, #fabNewDossier, #toastRegion{display:none !important}
+  .sidebar, .topbar, .scrim, .chart-toggle, .chart-canvas-wrap, #fabNewDossier, #toastRegion, .mobbar{display:none !important}
   button, .cab-toolbar, dialog, #bellPanel, #syncChip, #toastRegion{display:none !important}
   .cab-table-wrap{overflow:visible;border:0}
   .doc{border:0}
@@ -845,4 +846,239 @@ body.dark .btn-line{color:var(--petrol-ink)}
 body.dark .btn-danger.force-go{color:#0a1428}
 body.dark .doc pre{background:#0a1428; color:#cfc9b8; border-color:var(--line)}
 body.dark .tbl tbody tr:hover, body.dark .cab-table tbody tr:hover, body.dark .index-row:hover{background:rgba(255,255,255,.04)}
+
+/* ============================================================================
+   MOBILE UX v6 (téléphone ≤ 680 px, cible Galaxy S24 360×780 @3x)
+   Grammaire : barre de navigation basse, tables→fiches, dialogues en feuille,
+   safe-areas (encoche/geste), cibles tactiles 44 px, lecture confort.
+   Contrat documenté dans DESIGN.md § Mobile.
+   ============================================================================ */
+html{-webkit-text-size-adjust:100%}
+
+/* — barre basse (masquée par défaut ; visible ≤680 px) — */
+.mobbar{display:none; position:fixed; left:0; right:0; bottom:0; z-index:15;
+  background:linear-gradient(180deg, var(--sidebar) 0%, var(--sidebar-deep) 100%);
+  border-top:1px solid rgba(255,255,255,.10);
+  padding-bottom:env(safe-area-inset-bottom);
+  box-shadow:0 -6px 24px rgba(7,39,45,.18);
+}
+.mobbar-in{display:flex; align-items:stretch}
+.mob-cab{display:none}
+body[data-mode="cabinet"] .mob-vault{display:none}
+body[data-mode="cabinet"] .mob-cab{display:flex}
+.mob-tab{
+  flex:1 1 0; min-width:0; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:3px;
+  min-height:54px; padding:7px 2px 6px; position:relative;
+  background:none; border:0; cursor:pointer;
+  color:rgba(242,239,230,.60); font-weight:600; font-size:10px; font-family:var(--font-body); letter-spacing:.04em;
+  transition:color .18s cubic-bezier(.32,.72,0,1), transform .18s cubic-bezier(.32,.72,0,1);
+  -webkit-tap-highlight-color:transparent; touch-action:manipulation;
+}
+.mob-tab .glyph{display:inline-flex; color:inherit}
+.mob-tab .glyph .ico{width:18px; height:18px}
+.mob-tab:hover{color:rgba(242,239,230,.88)}
+.mob-tab:active{transform:scale(.94)}
+.mob-tab.active{color:var(--accent-cms)}
+.mob-tab.active:before{content:""; position:absolute; top:0; left:50%; transform:translateX(-50%); width:26px; height:2px; background:var(--accent-cms); border-radius:0 0 2px 2px}
+body.sidebar-open .mob-tab[data-mob="menu"]{color:var(--accent-cms)}
+
+/* — tiroir latéral : largeur lisible, scroll maîtrisé, gestes (mobile.js) — */
+@media (max-width:980px){
+  .sidebar{width:min(85vw, 340px); flex:0 0 auto; box-shadow:8px 0 30px rgba(0,0,0,.32)}
+  body.sidebar-open{overflow:hidden}
+  body.sidebar-open .content-wrap{overflow:hidden}
+  body.sidebar-open #fabNewDossier{display:none}
+  #sidebarClose{
+    position:absolute; top:10px; right:10px; z-index:2; width:40px; height:40px;
+    background:rgba(0,0,0,.22); border-color:rgba(255,255,255,.24); color:rgba(255,255,255,.85);
+  }
+  #sidebarClose:hover{border-color:#fff; color:#fff}
+  .sidebar-foot{padding-bottom:calc(16px + env(safe-area-inset-bottom))}
+  .tree, .cabinet-nav{overscroll-behavior:contain}
+}
+
+/* — barre basse + FAB + toasts : dégager le pouce et la zone geste — */
+@media (max-width:680px){
+  .mobbar{display:block}
+  #btnSearchMobile{display:none}
+  body[data-mode="cabinet"] #btnSearchMobile{display:inline-flex}
+  .topbar{padding:calc(8px + env(safe-area-inset-top)) 12px 8px}
+  .content-wrap{padding:18px 14px calc(92px + env(safe-area-inset-bottom))}
+  .dash, .cab{max-width:100%}
+  #fabNewDossier{
+    bottom:calc(72px + env(safe-area-inset-bottom)); right:14px;
+    width:52px; height:52px; padding:0; gap:0; justify-content:center;
+    border-radius:50%; font-size:0;
+  }
+  #fabNewDossier .ico{width:19px; height:19px}
+  #fabNewDossier .fab-key{display:none}
+  /* vues denses : le bouton flottant masquerait des actions (les vues gardent leur CTA) */
+  body[data-view="dossiers"] #fabNewDossier,
+  body[data-view="calendrier"] #fabNewDossier{display:none}
+  #toastRegion{bottom:calc(76px + env(safe-area-inset-bottom)); width:100%; padding:0 12px}
+  .toast{width:100%; max-width:none}
+  .cal-day .dnum{margin-bottom:1px}
+}
+
+/* — tables du cabinet → fiches empilées (décorées par mobile.js : data-label) — */
+@media (max-width:680px){
+  .cab-table-wrap{border:0; background:none; box-shadow:none; overflow:visible}
+  .cab-table.mtable{display:block; border-collapse:separate; background:none; border:0}
+  .cab-table.mtable thead{display:none}
+  .cab-table.mtable tbody{display:flex; flex-direction:column; gap:10px}
+  .cab-table.mtable tbody tr{
+    display:block; background:var(--surface); border:1px solid var(--line); border-left:2px solid var(--brass);
+    border-radius:2px; padding:11px 13px 9px; box-shadow:0 1px 0 rgba(197,164,106,.10);
+  }
+  .cab-table.mtable tbody tr:hover{background:var(--surface)}
+  .cab-table.mtable td{
+    display:flex; align-items:baseline; justify-content:space-between; gap:12px;
+    white-space:normal; padding:7px 0; border-bottom:1px dashed var(--line);
+  }
+  .cab-table.mtable td:last-child{border-bottom:0; padding-bottom:0}
+  .cab-table.mtable td:empty{display:none}
+  .cab-table.mtable td[data-label]:not([data-label=""])::before{
+    content:attr(data-label); flex:0 0 auto; font-weight:700; font-size:9.5px; font-family:var(--font-body);
+    letter-spacing:.12em; text-transform:uppercase; color:var(--text-dim); padding-top:2px;
+  }
+  .cab-table.mtable td:first-child{
+    display:block; margin:0 0 6px; padding:0 0 8px; border-bottom:1px solid var(--line);
+    font-size:15px;
+  }
+  .cab-table.mtable td:first-child::before{display:none}
+  .cab-table.mtable td:first-child[data-label=""]{
+    display:flex; align-items:center; justify-content:flex-start; gap:10px;
+    margin:0; padding:0 0 6px; border-bottom:1px dashed var(--line);
+  }
+  .cab-table.mtable td:first-child[data-label=""]::before{display:none}
+  .cab-table.mtable td .cell-title{font-size:16.5px}
+  .cab-table.mtable td .cell-sub{margin-top:2px}
+  .cab-table.mtable td.cell-mission{max-width:none !important; white-space:normal !important}
+  .cab-table.mtable td .btn, .cab-table.mtable td .btn-sm{min-height:38px}
+  .cab-table.mtable .badge{padding:3px 10px; font-size:10px}
+}
+
+/* — dialogues : feuille basse plein écran, actions collantes — */
+@media (max-width:680px){
+  .dlg{
+    margin:auto auto 0; width:100%; max-width:none; max-height:min(92dvh, 100%);
+    border-left:0; border-right:0; border-bottom:0;
+    overflow-y:auto; overflow-x:hidden; overscroll-behavior:contain;
+  }
+  .dlg h3{position:sticky; top:0; z-index:2; background:var(--surface); padding:14px 16px 10px; border-bottom:1px solid var(--line)}
+  .dlg-actions{
+    position:sticky; bottom:0; z-index:2; background:var(--surface);
+    padding:12px 16px calc(12px + env(safe-area-inset-bottom));
+    box-shadow:0 -8px 20px rgba(18,38,43,.06);
+  }
+  .dlg-actions .btn{flex:1 1 auto; min-height:46px}
+  .form-grid{padding:12px 16px; gap:12px}
+  .form-grid input, .form-grid select, .form-grid textarea{font-size:16px; min-height:46px}
+  .form-grid textarea{min-height:0}
+  .dlg-palette{margin:calc(5vh + env(safe-area-inset-top)) 0 auto; max-height:84dvh; overflow:hidden; display:flex; flex-direction:column}
+  .dlg-palette[open]{display:flex; flex-direction:column}
+  .pal-results{flex:1; max-height:none; overflow-y:auto; -webkit-overflow-scrolling:touch}
+  .pal-results li{min-height:50px; padding:10px 12px}
+  #palInput{font-size:16px}
+  #provisionLive{margin:0 16px; font-size:11.5px}
+}
+
+/* — tableaux de bord et bandeaux : 2 colonnes serrées, chiffres recalibrés — */
+@media (max-width:680px){
+  .dash-hero{padding:22px 18px; border-top-width:3px}
+  .dash-hero h1{font-size:1.45rem}
+  .dash-hero p{font-size:13px}
+  .dash-cards{grid-template-columns:repeat(2, 1fr); gap:10px}
+  .dash-card{padding:13px 12px 11px}
+  .dash-card .num{font-size:1.42rem}
+  .dash-card .lbl{font-size:9.5px; letter-spacing:.08em}
+  .dash-grid{gap:10px}
+  .dash-panel{padding:14px 14px}
+  .dash-panel .chart-canvas-wrap{height:190px}
+  .chart-canvas-wrap{height:210px; padding:10px}
+  .stats-band{grid-template-columns:repeat(2, 1fr); gap:12px; padding:18px 16px}
+  .stats-band .stat + .stat{border-left:0; padding-left:0}
+  .stat-num{font-size:31px}
+  .cab h2{font-size:1.85rem}
+  .cab-toolbar{flex-direction:column; align-items:stretch}
+  .cab-toolbar input, .cab-toolbar select{width:100%}
+  .ag-tabs{overflow-x:auto; flex-wrap:nowrap; padding-bottom:2px}
+  .ag-tabs .btn{flex:0 0 auto}
+  /* calendrier : navigation du mois compacte sur une ligne */
+  .cab-toolbar:has(#calPrev){flex-direction:row; flex-wrap:wrap; align-items:center; gap:8px}
+  .cab-toolbar:has(#calPrev) #calPrev,
+  .cab-toolbar:has(#calPrev) #calNext{flex:0 0 52px; width:52px; justify-content:center; padding:10px 0}
+  .cab-toolbar:has(#calPrev) #calLabel{flex:1 1 auto; min-width:0; font-size:1.05rem}
+  .cab-toolbar:has(#calPrev) #calToday{flex:1 1 100%}
+  .cab-toolbar:has(#calPrev) #calPush{flex:1 1 100%}
+  .treasury-grid{grid-template-columns:repeat(2, 1fr); gap:8px}
+  .today-action{align-items:flex-start; flex-wrap:wrap}
+  .today-action .ta-date{min-width:0; width:100%; order:-1}
+  .today-action .ta-body{white-space:normal}
+  .journal-list li{flex-wrap:wrap}
+  .j-force{white-space:normal}
+  .pipe-cols{grid-template-columns:repeat(6, 80vw); gap:12px; scroll-snap-type:x mandatory; scroll-padding-left:8px}
+  .pipe-col{scroll-snap-align:start}
+  .pipe-card{padding:12px 14px}
+  .pipe-card strong{font-size:15px}
+  .pc-mission{white-space:normal}
+  .cal-grid{gap:4px}
+  .cal-day{min-height:54px; padding:4px 5px; gap:2px}
+  .cal-day .dnum{font-size:11.5px}
+  .cal-day.today .dnum{width:19px; height:19px}
+  .cal-day .dots{gap:3px; min-height:10px}
+  .dot{width:7px; height:7px}
+  #bellPanel{position:fixed; left:0; right:0; width:100%; max-height:78dvh; z-index:45}
+}
+
+/* — lecture (Base) : échelle éditoriale recalibrée, TOC et code compacts — */
+@media (max-width:680px){
+  .doc h1{font-size:1.72rem}
+  .doc h1:after{margin-top:11px}
+  .doc h2{font-size:1.22rem; margin:1.5em 0 .5em}
+  .doc h3{font-size:12px; margin-top:1.4em}
+  .doc blockquote{font-size:17px; padding:.8em 1em; margin:.9em 0}
+  .doc pre{padding:12px 13px; font-size:12.5px; border-radius:2px}
+  .doc code{font-size:11.5px}
+  .doc p{margin:.62em 0}
+  .doc > .doc-meta, .doc > .toc, .doc-content{padding-left:16px; padding-right:16px}
+  .doc > .toc{margin-left:16px; margin-right:16px}
+  .doc h2, .doc h3, .doc h4{scroll-margin-top:64px}
+  .doc th, .doc td{padding:7px 8px}
+  .doc .table-scroll{
+    -webkit-overflow-scrolling:touch;
+    background:
+      linear-gradient(to right, var(--surface), var(--surface)) left center / 14px 100% no-repeat local,
+      linear-gradient(to left, var(--surface), var(--surface)) right center / 14px 100% no-repeat local,
+      radial-gradient(farthest-side at 0 50%, rgba(18,38,43,.16), transparent) left center / 12px 100% no-repeat scroll,
+      radial-gradient(farthest-side at 100% 50%, rgba(18,38,43,.16), transparent) right center / 12px 100% no-repeat scroll;
+  }
+  .toc{padding:11px 13px}
+  .doc-meta{font-size:11.5px; gap:6px 8px}
+  .doc-meta .pill{padding:3px 9px; font-size:10px}
+  .empty-state{padding:44px 16px}
+}
+
+/* — cibles tactiles : 44 px mini, cases lisibles, pas de tooltip au doigt — */
+@media (pointer:coarse){
+  .icon-btn{width:44px; height:44px}
+  .btn-sm{min-height:40px}
+  .tree-folder, .tree-item{min-height:44px}
+  .cab-nav-item{min-height:48px}
+  .doc input[type="checkbox"], .daily-item input, .verrous-box .chk input,
+  .proc-item input{width:20px; height:20px}
+  .icon-btn[data-tip]:hover::after, .icon-btn[data-tip]:focus-visible::after{content:none}
+  button, a, .tree-folder, .tree-item, .cab-nav-item, .mob-tab, .pipe-card{-webkit-tap-highlight-color:transparent}
+  .tree, .cabinet-nav, .pal-results, .content-wrap{-webkit-overflow-scrolling:touch}
+}
+
+/* — petits écrans 360 px : une colonne pour les chiffres — */
+@media (max-width:380px){
+  .dash-cards{grid-template-columns:1fr 1fr}
+  .stats-band{grid-template-columns:1fr}
+  .cal-day{min-height:48px}
+  .mob-tab{font-size:9.5px}
+  .mob-tab .glyph .ico{width:17px; height:17px}
+}
+
 

@@ -2,8 +2,8 @@
    App shell en cache-first pour le mode offline ; l'API /v1 n'est JAMAIS
    mise en cache (miroir frais garanti) ; file:// non concerné (pas de SW). */
 'use strict';
-/* v4 (10/09/2026) : helpers centralises avocato-core.js + correctifs Phase 2. */
-const V = 'avocato-v13';
+/* v5 (11/09/2026) : couche mobile v6 (mobile.js, barre basse, tables→fiches). */
+const V = 'avocato-v14';
 const CORE = [
   'index.html', 'fonts.css', 'styles.css', 'manifest.webmanifest',
   'fonts/cormorant.woff2', 'fonts/cormorant-italic.woff2', 'fonts/inter.woff2', 'fonts/mono.woff2',
@@ -11,7 +11,7 @@ const CORE = [
   'store.js',
   'app.js', 'cabinet.js', 'cabinet-ops.js', 'cabinet-features.js',
   'cabinet-cour.js', 'cabinet-agenda.js', 'cabinet-relations.js',
-  'cabinet-mahakim.js', 'cabinet-packs-14-18.js', 'cabinet-registres.js', 'mock-data.js', 'sync.js', 'palette.js',
+  'cabinet-mahakim.js', 'cabinet-packs-14-18.js', 'cabinet-registres.js', 'mock-data.js', 'sync.js', 'palette.js', 'mobile.js',
   'icons.js', 'data.js',
   'vendor/marked.min.js', 'vendor/chart.umd.min.js',
   'icons/icon-192.png', 'icons/icon-512.png'

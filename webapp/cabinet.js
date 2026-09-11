@@ -186,6 +186,7 @@
   function setMode(m) {
     mode = m;
     LS.set('mode', m);
+    document.body.dataset.mode = m;
     $$('.mode-btn').forEach(b => {
       const on = b.dataset.mode === m;
       b.classList.toggle('active', on);
@@ -230,11 +231,13 @@
       // cabinet
       renderCabinet();
     }
+    try { document.dispatchEvent(new CustomEvent('avocato:rendered', { detail: { view: isBase ? 'base' : 'cabinet' } })); } catch (e) { console.warn('avocato', e); }
   }
 
   function goView(v) { cabView = v; LS.set('cabinetView', v); renderCabinet(); }
 
   function renderCabinet() {
+    document.body.dataset.view = cabView;
     $$('.cab-nav-item').forEach(b => { const on = b.dataset.view === cabView; b.classList.toggle('active', on); if (on) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current'); });
     if (cabView === 'today') { renderToday(); try { if (window.Agenda && window.Agenda.todayHook) window.Agenda.todayHook(); } catch (e) { console.warn('avocato', e); } }
     else if (cabView === 'dashboard') renderCabDashboard();
@@ -1515,8 +1518,12 @@
     });
   }
 
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initCabinet);
-  else initCabinet();
+  /* Boot différé à DOMContentLoaded : les modules de vues (agenda, cour,
+     registres, relations…) sont définis après ce fichier ; restaurer une vue
+     comme « calendrier » au démarrage doit les trouver chargés. */
+  function bootCabinet() { initCabinet(); }
+  if (document.readyState === 'complete') bootCabinet();
+  else document.addEventListener('DOMContentLoaded', bootCabinet);
 
   // expose for app.js mode sync + ops module
   window.Cabinet = { setMode, renderCabinet, goView, getMode: () => mode, get editingId() { return editingId; }, newDossier: () => openDlgDossier(), viewDossier, openSettings: () => openDlgPlaque(), STORE, toast: (m, o) => toast(m, o), todayISO, exportJSON, missionDeliverables, collectBackup, applyBackup };

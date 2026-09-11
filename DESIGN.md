@@ -265,18 +265,22 @@ Flat by default; tonal layering carries depth (`paper → paper-alt/surface-2 �
 ### Tables
 - `.cab-table` / `.doc table`: 1px grid, header `3px double` top rule, sticky header (cab), zebra `surface-2` (doc), hover `surface-2` (cab).
 - Money/date cells use `.mono` 12px tabular.
+- **Mobile ≤680px** — `.cab-table.mtable` devient une pile de fiches : thead masqué, chaque `tr` = carte `surface` + filet laiton à gauche, chaque `td` = ligne étiquette/valeur (`::before: attr(data-label)`, dérivé du thead par `mobile.js`), première cellule en tête de fiche, actions en pied. Tables sans thead : défilement horizontal conservé.
 
 ### Navigation
 - Sidebar: petrol gradient, flat brand block (Cormorant wordmark + mono sub), segmented mode switch (surface inset, orange active), search inset, tree (cohorts, 40px rows, 2px active left border), cabinet nav (16px SVG glyph + label, 44px rows, section labels `Piloter / Argent / Base`), foot actions.
 - Mobile (<980px): drawer over scrim; topbar keeps menu + crumbs + actions.
+- **Mobile ≤680px**: barre basse fixe (pétrole, filet laiton, indicateur orange 26×2 sur l'onglet actif) — Base : Base / Rechercher / Cabinet / Menu, Cabinet : Aujourd'hui / Dossiers / Agenda / Argent / Plus ; recherche topbar (mode Cabinet) ; FAB masqué sur `dossiers`/`calendrier` (CTA dans la vue), circulaire ailleurs ; `100dvh` + `env(safe-area-inset-*)`.
 
 ### Charts
 - `.chart-canvas-wrap`: 2px radius, surface-2 bg, 280px (dash 240px) with `Chart.js`; colors from `--chart-1..8` read at render time (theme switch re-renders).
 - Sequence: petrol → orange → brass → ochre → bordeaux → success → teal → dim.
+- Mobile ≤680px : 210px (panneaux 190px), légende doughnut repositionnée en bas.
 
 ### Dialogs
 - Native `<dialog>`, 2px radius, line-strong border, overlay shadow, `max-width:640px`, `width:calc(100% - 24px)`.
-- Header label 13px uppercase petrol; `.form-grid` `1fr 1fr` (1fr <980px); actions right-aligned above a top hairline.
+- Header label 13px uppercase petrol; `.form-grid` `minmax(0,1fr) minmax(0,1fr)` (`minmax(0,1fr)` <980px — les `1fr` nus laissent les `<select>` imposer 500px+) ; actions right-aligned above a top hairline.
+- **Mobile ≤680px** : feuille basse plein écran (`margin:auto auto 0`, `max-height:92dvh`, `overflow-x:hidden`), titre et `.dlg-actions` collants, champs 16px + 46px (anti-zoom), palette ancrée haute.
 
 ### Print
 - Chrome hidden (sidebar, topbar, FAB, toasts, buttons, dialogs). Tokens forced to the light palette even in dark mode.
@@ -301,4 +305,4 @@ Flat by default; tonal layering carries depth (`paper → paper-alt/surface-2 �
 - **Don't** load fonts from a CDN — the app is offline-first; fonts ship in `webapp/fonts/`.
 
 ---
-*V6 — 10/09/2026 : réconcilié avec le thème CMS v5 (`styles.css`). Anciens documents Plaque & Encrier archivés dans `THEMES.md` §5 et `_archive/`.*
+*V7 — 11/09/2026 : couche mobile v6 (`mobile.js`, `styles.css` § MOBILE UX) — barre basse Base/Cabinet, tables→fiches `data-label`, dialogues en feuille, safe-areas + `dvh`, cibles 44 px, pipeline au doigt. Réconcilié avec le thème CMS v5.*
