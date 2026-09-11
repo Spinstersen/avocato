@@ -6,7 +6,7 @@
 
 Niche pilote recommandée pour un avocat trilingue tech-savvy en lancement. Volume ~30 000 freelances offshore au Maroc, douleur juridique vive (blocages Stripe, contrôle fiscal, contrats absents), faible concurrence, accessibilité réseau forte (LinkedIn, coworkings).
 
-## Comment lire ce dossier (14 fichiers)
+## Comment lire ce dossier (17 fichiers)
 
 | # | Fichier | Quand le consulter |
 | :--- | :--- | :--- |
@@ -24,6 +24,9 @@ Niche pilote recommandée pour un avocat trilingue tech-savvy en lancement. Volu
 | 11 | `11_Arbre_Decision_Niche.md` | Statut/résidence/PE en 2 min |
 | 12 | `12_Fiches_Pratiques_Niche.md` | Checklist 15 points + modèles + plan 7j |
 | 13 | `13_Solutions_Juridiques.md` | **Le playbook douleur → parade** : la solution juridique détaillée de chaque douleur (clause rédigée, formalité, piège) |
+| 14 | `14_Contrats_Clients_Etrangers_Encyclopedique.md` | Contrat offshore clause par clause + 3 variantes + dossier preuve banque |
+| 15 | `15_Portage_AE_SARL_Decortique.md` | AE/SARL/portage : mécanique, comparatif 9 points, bascule 6 mois |
+| 16 | `16_Agence_SousTraitance_Impayes.md` | Contrats miroirs, marge, recouvrement transfrontalier pas à pas |
 
 ## ⚠️ Vérité juridique — watch du 28/08/2026 (audit des références)
 
@@ -44,7 +47,7 @@ Corrections appliquées dans tout le dossier après vérification des sources (`
 - CGV adaptées.
 - Modèle de devis & facture conformes.
 - Note de choix de statut (AE vs SARL).
-- Note explicative Loom 15 min.
+- Note explicative en restitution : Loom 15 min, ou visio Zoom / au cabinet (20-30 min) selon le client.
 
 ## Le persona — Yassine
 

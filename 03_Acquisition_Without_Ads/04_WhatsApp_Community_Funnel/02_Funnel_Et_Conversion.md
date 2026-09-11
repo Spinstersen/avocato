@@ -23,7 +23,7 @@
 - ✅ Suivi logistique (adresse, créneau, confirmation).
 - ✅ Réponses brèves aux questions ponctuelles.
 - ✅ Partage de documents (PDF, photos).
-- ✅ Lien Calendly / Yousign / Stripe.
+- ✅ Lien Calendly / Yousign / lien de paiement local (CMI/MoPay selon l'activité).
 
 ## Quand ne pas utiliser WhatsApp
 
@@ -51,7 +51,7 @@ propose un horaire.
 ## FAQ
 
 **Q : Le client peut-il payer par WhatsApp ?**
-R : Via un lien Stripe, possible. Mais préférer virement ou signature électronique (plus traçable).
+R : Non — Stripe n'est pas disponible pour un résident marocain ; proposer le virement (RIB) ou un lien de paiement local, plus traçable.
 
 **Q : Que faire si un prospect envoie un message le soir ?**
 R : Répondre le lendemain matin (dans les créneaux 11h/18h). Pas de réponse immédiate la nuit.

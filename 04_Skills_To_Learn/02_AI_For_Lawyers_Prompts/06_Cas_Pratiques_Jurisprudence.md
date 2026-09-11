@@ -18,7 +18,7 @@ Un rappel de règle (« vérifiez vos citations ») s'oublie en dix minutes ; un
 2. L'erreur n'était pas une malveillance ni un bug : une **absence de vérification** d'un format pourtant impeccable.
 3. Le coût de la vérification (ouvrir la décision citée) est dérisoire comparé au coût de la faute — c'est la règle des 3 V en une phrase.
 
-Ce qui s'est passé ensuite dans ce dossier (appels, détails des peines disciplinaires) : à ne jamais citer de mémoire — vérifie les textes dans `08_Jurisprudence\09_IA_Jurisprudence_Comparée.md` (fiche du vault) avant toute publication.
+Ce qui s'est passé ensuite dans ce dossier (appels, détails des peines disciplinaires) : à ne jamais citer de mémoire — vérifie les textes dans `04_Skills_To_Learn/15_Recherche_Juridique_Veille/05_Recherche_Jurisprudence.md` avant toute publication.
 
 ## [FICTION] Cas 1 — Le post halluciné (l'erreur n°1 du cabinet)
 

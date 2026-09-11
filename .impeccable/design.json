@@ -1,412 +1,277 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-28T22:53:06.517Z",
+  "generatedAt": "2026-09-10T17:01:38.013Z",
   "title": "Design System: AVOCATO — Base documentaire & Cabinet OS",
   "extensions": {
     "colorMeta": {
-      "encrier": {
+      "paper": {
         "role": "primary",
-        "displayName": "Encrier Ink",
-        "canonical": "#070e1c",
+        "displayName": "Paper",
+        "canonical": "#fbfaf7",
         "tonalRamp": [
-          "#060e18",
-          "#0a1a30",
-          "#0f2a44",
-          "#1c3d5e",
-          "#2a567d",
-          "#4a7aa8",
-          "#7ea4c7",
-          "#b9d0e8"
+          "#373736",
+          "#545453",
+          "#70706f",
+          "#8d8d8c",
+          "#a9a9a9",
+          "#c6c6c5",
+          "#e2e2e2",
+          "#fffffe"
         ]
       },
-      "encrier-light": {
-        "role": "primary",
-        "displayName": "Encrier Light (dark mode)",
-        "canonical": "#9fc2e8",
-        "tonalRamp": [
-          "#0f2a44",
-          "#1e4066",
-          "#2d5a85",
-          "#4a7aa8",
-          "#739fca",
-          "#9fc2e8",
-          "#c2d9f0",
-          "#e6eef8"
-        ]
-      },
-      "encrier-bg-dark": {
+      "paper-alt": {
         "role": "neutral",
-        "displayName": "Ink Ground Dark",
-        "canonical": "#10151c",
+        "displayName": "Paper Alt",
+        "canonical": "#f4f1e9",
         "tonalRamp": [
-          "#06080b",
-          "#0a0e15",
-          "#10151c",
-          "#1a2330",
-          "#2a3442",
-          "#445060",
-          "#6b7a8e",
-          "#a8b4c2"
-        ]
-      },
-      "parchment": {
-        "role": "neutral",
-        "displayName": "Parchment Warm",
-        "canonical": "#f6f0e3",
-        "tonalRamp": [
-          "#b8a898",
-          "#c9bdb0",
-          "#d9d0c3",
-          "#e6ddd2",
-          "#efece4",
-          "#f4f1ea",
-          "#f7f5f0",
-          "#fcfaf7"
-        ]
-      },
-      "parchment-alt": {
-        "role": "neutral",
-        "displayName": "Parchment Alt",
-        "canonical": "#ece6d5",
-        "tonalRamp": [
-          "#a99d8f",
-          "#bfb5a7",
-          "#d0c7ba",
-          "#ddd5c8",
-          "#efece4",
-          "#f3efe9",
-          "#f7f5f0",
-          "#fdfcfb"
-        ]
-      },
-      "parchment-dark": {
-        "role": "neutral",
-        "displayName": "Parchment Dark",
-        "canonical": "#0d1322",
-        "tonalRamp": [
-          "#0a0d12",
-          "#0f131a",
-          "#171e27",
-          "#222d3a",
-          "#344050",
-          "#4e5c6e",
-          "#7a8696",
-          "#b2bbc6"
+          "#363533",
+          "#525250",
+          "#6f6e6d",
+          "#8b8b8a",
+          "#a8a8a6",
+          "#c5c4c3",
+          "#e1e1e0",
+          "#fefefd"
         ]
       },
       "surface": {
         "role": "neutral",
-        "displayName": "Surface White",
-        "canonical": "#fffcf5",
+        "displayName": "Surface",
+        "canonical": "#ffffff",
         "tonalRamp": [
-          "#dfd9cd",
-          "#e8e0d6",
-          "#efece4",
-          "#f4f1ea",
-          "#faf8f5",
-          "#fcfaf7",
-          "#ffffff",
+          "#383838",
+          "#555555",
+          "#717171",
+          "#8d8d8d",
+          "#aaaaaa",
+          "#c6c6c6",
+          "#e3e3e3",
           "#ffffff"
-        ]
-      },
-      "surface-dark": {
-        "role": "neutral",
-        "displayName": "Surface Dark",
-        "canonical": "#141d33",
-        "tonalRamp": [
-          "#0a0e15",
-          "#131b27",
-          "#1b2330",
-          "#26364a",
-          "#3a4d64",
-          "#5a6d84",
-          "#8a9ab0",
-          "#c2cdd9"
         ]
       },
       "ink": {
         "role": "neutral",
-        "displayName": "Ink Text",
-        "canonical": "#1a2332",
+        "displayName": "Ink",
+        "canonical": "#12262b",
         "tonalRamp": [
-          "#0a0f16",
-          "#121b28",
-          "#1c2733",
-          "#2d3d4e",
-          "#425466",
-          "#5a6b7b",
-          "#93a4b4",
-          "#c8d2db"
+          "#040809",
+          "#24282a",
+          "#45494a",
+          "#65696a",
+          "#86898a",
+          "#a6a9aa",
+          "#c7c9ca",
+          "#e7e9ea"
         ]
       },
-      "ink-dark": {
+      "ink-soft": {
         "role": "neutral",
-        "displayName": "Ink Text Dark Mode",
-        "canonical": "#e6edf4",
+        "displayName": "Ink Soft",
+        "canonical": "#3d4f54",
         "tonalRamp": [
-          "#93a4b4",
-          "#aab8c7",
-          "#c0cddb",
-          "#d4dde6",
-          "#e6edf4",
-          "#eff3f8",
-          "#f5f7fa",
-          "#fcfdfe"
+          "#0d1112",
+          "#2d3132",
+          "#4d5051",
+          "#6d7071",
+          "#8c8f90",
+          "#acafaf",
+          "#cccecf",
+          "#ecedee"
         ]
       },
       "ink-dim": {
         "role": "neutral",
         "displayName": "Ink Dim",
-        "canonical": "#6b6a63",
+        "canonical": "#6f7b7e",
         "tonalRamp": [
-          "#1c2733",
-          "#2d3d4e",
-          "#3f4f60",
-          "#5a6b7b",
-          "#768898",
-          "#93a4b4",
-          "#b8c4d0",
-          "#d8e0e7"
+          "#181b1c",
+          "#373a3a",
+          "#565859",
+          "#757778",
+          "#949696",
+          "#b3b4b5",
+          "#d2d3d3",
+          "#f1f2f2"
         ]
       },
-      "ink-dim-dark": {
+      "faint": {
         "role": "neutral",
-        "displayName": "Ink Dim Dark",
-        "canonical": "#93a4b4",
+        "displayName": "Faint",
+        "canonical": "#9aa4a5",
         "tonalRamp": [
-          "#2d3d4e",
-          "#425466",
-          "#5a6b7b",
-          "#768898",
-          "#93a4b4",
-          "#b0bfcc",
-          "#cbd5df",
-          "#e6edf4"
+          "#222424",
+          "#404242",
+          "#5e6060",
+          "#7c7e7e",
+          "#9a9c9c",
+          "#b9baba",
+          "#d7d8d8",
+          "#f5f6f6"
         ]
       },
       "line": {
         "role": "neutral",
-        "displayName": "Line Greige",
-        "canonical": "rgba(197,164,106,0.26)",
+        "displayName": "Line",
+        "canonical": "#e3ddce",
         "tonalRamp": [
-          "#8a7f74",
-          "#a99d8f",
-          "#b9ad9e",
-          "#c9beb0",
-          "#dfd9cd",
-          "#e6ddd2",
-          "#efece4",
-          "#f7f5f0"
+          "#32312d",
+          "#4f4e4b",
+          "#6c6b68",
+          "#898885",
+          "#a6a5a2",
+          "#c2c2c0",
+          "#dfdfdd",
+          "#fcfcfa"
         ]
       },
-      "line-dark": {
+      "line-strong": {
         "role": "neutral",
-        "displayName": "Line Dark",
-        "canonical": "rgba(197,164,106,0.20)",
+        "displayName": "Line Strong",
+        "canonical": "#c9c0a8",
         "tonalRamp": [
-          "#10151c",
-          "#1a2330",
-          "#2c3847",
-          "#3a4b5e",
-          "#4e6176",
-          "#6b7f96",
-          "#93a4b4",
-          "#b8c4d0"
+          "#2c2a25",
+          "#4a4843",
+          "#676561",
+          "#84837f",
+          "#a2a09d",
+          "#bfbeba",
+          "#dcdbd8",
+          "#faf9f6"
         ]
       },
-      "teal": {
+      "petrol": {
         "role": "secondary",
-        "displayName": "Teal Tool-Mark",
-        "canonical": "#1a8a7f",
+        "displayName": "Petrol",
+        "canonical": "#0d535f",
         "tonalRamp": [
-          "#0b3a37",
-          "#0e5a55",
-          "#13857a",
-          "#1fa89e",
-          "#34c4b5",
-          "#45c7bb",
-          "#7ad9d0",
-          "#b8ece7"
+          "#031215",
+          "#233234",
+          "#445153",
+          "#657072",
+          "#859092",
+          "#a6afb1",
+          "#c6ced0",
+          "#e7eeef"
         ]
       },
-      "teal-dark": {
+      "petrol-deep": {
         "role": "secondary",
-        "displayName": "Teal Dark Mode",
-        "canonical": "#45c7bb",
+        "displayName": "Petrol Deep",
+        "canonical": "#083a44",
         "tonalRamp": [
-          "#0e5a55",
-          "#13857a",
-          "#1fa89e",
-          "#2db8a8",
-          "#45c7bb",
-          "#6dd5c9",
-          "#9de3dc",
-          "#c9f0eb"
+          "#020d0f",
+          "#222d2f",
+          "#434c4e",
+          "#646c6e",
+          "#848c8d",
+          "#a5acad",
+          "#c6cccd",
+          "#e6ebec"
         ]
       },
-      "teal-soft": {
-        "role": "secondary",
-        "displayName": "Teal Soft",
-        "canonical": "#e6f0ee",
+      "petrol-ink": {
+        "role": "primary",
+        "displayName": "Petrol Ink",
+        "canonical": "#0b2e35",
         "tonalRamp": [
-          "#7ad9d0",
-          "#9de3dc",
-          "#b8ece7",
-          "#cfe7e4",
-          "#e4f2f0",
-          "#edf6f5",
-          "#f5faf9",
-          "#fcfefc"
+          "#020a0c",
+          "#232a2c",
+          "#444a4b",
+          "#646a6b",
+          "#858a8b",
+          "#a5aaab",
+          "#c6cacb",
+          "#e7eaeb"
         ]
       },
-      "teal-soft-dark": {
-        "role": "secondary",
-        "displayName": "Teal Soft Dark",
-        "canonical": "#14303a",
+      "sidebar": {
+        "role": "primary",
+        "displayName": "Sidebar Petrol",
+        "canonical": "#0a3942",
         "tonalRamp": [
-          "#0a1e25",
-          "#0f2a33",
-          "#14303a",
-          "#1a4a52",
-          "#1e6a72",
-          "#2a8a8e",
-          "#45a9a5",
-          "#7ad9d0"
+          "#020d0f",
+          "#232c2e",
+          "#434c4e",
+          "#646c6d",
+          "#858c8d",
+          "#a5acad",
+          "#c6cbcc",
+          "#e7ebec"
         ]
       },
-      "terracotta": {
-        "role": "tertiary",
-        "displayName": "Terracotta Signal",
-        "canonical": "#b4552d",
+      "sidebar-deep": {
+        "role": "primary",
+        "displayName": "Sidebar Deep",
+        "canonical": "#07272d",
         "tonalRamp": [
-          "#4a2111",
-          "#6b3118",
-          "#8a3f1f",
-          "#b4552d",
-          "#c96a3a",
-          "#d4835a",
-          "#e28a5b",
-          "#f0b090"
+          "#02090a",
+          "#22292a",
+          "#43494a",
+          "#64696a",
+          "#84898a",
+          "#a5a9aa",
+          "#c6c9ca",
+          "#e6e9ea"
         ]
       },
-      "terracotta-dark": {
-        "role": "tertiary",
-        "displayName": "Terracotta Dark",
-        "canonical": "#e28a5b",
+      "accent": {
+        "role": "primary",
+        "displayName": "Accent Orange",
+        "canonical": "#e0641f",
         "tonalRamp": [
-          "#6b3118",
-          "#8a3f1f",
-          "#b4552d",
-          "#c96a3a",
-          "#d4835a",
-          "#e28a5b",
-          "#eaa07e",
-          "#f5c2a6"
+          "#311607",
+          "#4e3527",
+          "#6b5447",
+          "#887368",
+          "#a59288",
+          "#c2b1a8",
+          "#dfd0c8",
+          "#fcf0e9"
         ]
       },
-      "chart-violet": {
-        "role": "neutral",
-        "displayName": "Chart Violet",
-        "canonical": "#7a5aa8",
+      "accent-deep": {
+        "role": "primary",
+        "displayName": "Accent Deep",
+        "canonical": "#b34d12",
         "tonalRamp": [
-          "#2e1f45",
-          "#3d2d5e",
-          "#4d3a76",
-          "#7a5aa8",
-          "#9577c2",
-          "#a890d1",
-          "#c1b0df",
-          "#dbd0ee"
+          "#271104",
+          "#453024",
+          "#635045",
+          "#816f65",
+          "#9e8f86",
+          "#bcaea6",
+          "#dacec7",
+          "#f7ede7"
         ]
       },
-      "chart-blue": {
-        "role": "neutral",
-        "displayName": "Chart Blue",
-        "canonical": "#3a7ca5",
+      "accent-soft": {
+        "role": "primary",
+        "displayName": "Accent Soft",
+        "canonical": "#fdeee2",
         "tonalRamp": [
-          "#143042",
-          "#1c4966",
-          "#2a6083",
-          "#3a7ca5",
-          "#5096c0",
-          "#72b0d2",
-          "#9ec9df",
-          "#cae3ee"
-        ]
-      },
-      "chart-amber": {
-        "role": "neutral",
-        "displayName": "Chart Amber",
-        "canonical": "#c98f2e",
-        "tonalRamp": [
-          "#4a3410",
-          "#6a4b16",
-          "#8a611d",
-          "#c98f2e",
-          "#d9a03a",
-          "#e3b05a",
-          "#eccc8a",
-          "#f2ddb3"
-        ]
-      },
-      "chart-green": {
-        "role": "neutral",
-        "displayName": "Chart Green",
-        "canonical": "#5f8a52",
-        "tonalRamp": [
-          "#1e2e1b",
-          "#2d4528",
-          "#3c5d35",
-          "#5f8a52",
-          "#759f6b",
-          "#8cb48d",
-          "#b0ccaa",
-          "#d4e5d0"
-        ]
-      },
-      "chart-berry": {
-        "role": "neutral",
-        "displayName": "Chart Berry",
-        "canonical": "#a34d77",
-        "tonalRamp": [
-          "#3a1b2a",
-          "#4f253a",
-          "#652f4b",
-          "#a34d77",
-          "#b86a92",
-          "#c98aa9",
-          "#dbb0c5",
-          "#ecd2dd"
+          "#383432",
+          "#54514f",
+          "#716e6c",
+          "#8d8a88",
+          "#a9a7a5",
+          "#c6c4c2",
+          "#e2e1df",
+          "#fffdfc"
         ]
       },
       "brass": {
         "role": "primary",
-        "displayName": "Brass Hammered",
-        "canonical": "#c5a46a",
+        "displayName": "Brass",
+        "canonical": "#a98a4b",
         "tonalRamp": [
-          "#3a2f18",
-          "#5a4a28",
-          "#7a6538",
-          "#8a6d3a",
-          "#a08045",
-          "#c5a46a",
-          "#d8c08a",
-          "#e8d9b0"
-        ]
-      },
-      "brass-light": {
-        "role": "primary",
-        "displayName": "Brass Light",
-        "canonical": "#e8d9b0",
-        "tonalRamp": [
-          "#8a6d3a",
-          "#a08045",
-          "#b8965a",
-          "#c5a46a",
-          "#d1b57a",
-          "#d8c08a",
-          "#e2d0a0",
-          "#e8d9b0"
+          "#251e11",
+          "#433d30",
+          "#615b50",
+          "#7f7a6f",
+          "#9d988f",
+          "#bbb6ae",
+          "#d9d5ce",
+          "#f6f3ed"
         ]
       },
       "brass-deep": {
@@ -414,85 +279,393 @@
         "displayName": "Brass Deep",
         "canonical": "#8a6d3a",
         "tonalRamp": [
-          "#2a1f0f",
-          "#3a2f18",
-          "#5a4a28",
-          "#7a6538",
-          "#8a6d3a",
-          "#a08045",
-          "#b8965a",
-          "#c5a46a"
+          "#1e180d",
+          "#3d372d",
+          "#5b564c",
+          "#7a756c",
+          "#98948c",
+          "#b6b3ac",
+          "#d5d1cc",
+          "#f3f0eb"
+        ]
+      },
+      "brass-soft": {
+        "role": "primary",
+        "displayName": "Brass Soft",
+        "canonical": "#f3ecda",
+        "tonalRamp": [
+          "#353430",
+          "#52514d",
+          "#6f6d6a",
+          "#8b8a87",
+          "#a8a7a4",
+          "#c5c4c1",
+          "#e1e0de",
+          "#fefdfb"
+        ]
+      },
+      "ochre": {
+        "role": "tertiary",
+        "displayName": "Ochre",
+        "canonical": "#9a5b12",
+        "tonalRamp": [
+          "#221404",
+          "#403324",
+          "#5e5245",
+          "#7c7265",
+          "#9a9186",
+          "#b9b0a6",
+          "#d7cfc7",
+          "#f5efe7"
+        ]
+      },
+      "ochre-soft": {
+        "role": "tertiary",
+        "displayName": "Ochre Soft",
+        "canonical": "#faf0dd",
+        "tonalRamp": [
+          "#373531",
+          "#54514e",
+          "#706e6b",
+          "#8d8b88",
+          "#a9a7a5",
+          "#c6c4c2",
+          "#e2e1df",
+          "#fffefc"
+        ]
+      },
+      "bordeaux": {
+        "role": "tertiary",
+        "displayName": "Bordeaux",
+        "canonical": "#7f2d3a",
+        "tonalRamp": [
+          "#1c0a0d",
+          "#3b2a2d",
+          "#594a4c",
+          "#786a6c",
+          "#968a8c",
+          "#b5aaac",
+          "#d4cacc",
+          "#f2eaeb"
+        ]
+      },
+      "bordeaux-soft": {
+        "role": "tertiary",
+        "displayName": "Bordeaux Soft",
+        "canonical": "#f9e9eb",
+        "tonalRamp": [
+          "#373334",
+          "#535050",
+          "#706d6d",
+          "#8c8a8a",
+          "#a9a6a7",
+          "#c5c3c3",
+          "#e2e0e0",
+          "#fefdfd"
+        ]
+      },
+      "success": {
+        "role": "secondary",
+        "displayName": "Success",
+        "canonical": "#2e6b46",
+        "tonalRamp": [
+          "#0a180f",
+          "#2a362f",
+          "#4a554f",
+          "#6a746e",
+          "#8a938e",
+          "#aab2ad",
+          "#cad1cd",
+          "#eaf0ed"
+        ]
+      },
+      "success-soft": {
+        "role": "secondary",
+        "displayName": "Success Soft",
+        "canonical": "#e7f2ea",
+        "tonalRamp": [
+          "#333533",
+          "#505250",
+          "#6c6f6d",
+          "#898b8a",
+          "#a6a8a7",
+          "#c3c4c3",
+          "#e0e1e0",
+          "#fdfefd"
+        ]
+      },
+      "night-paper": {
+        "role": "primary",
+        "displayName": "Night Paper",
+        "canonical": "#070e1c",
+        "tonalRamp": [
+          "#020306",
+          "#222426",
+          "#434447",
+          "#646567",
+          "#848587",
+          "#a5a6a8",
+          "#c6c6c8",
+          "#e6e7e8"
+        ]
+      },
+      "night-surface": {
+        "role": "neutral",
+        "displayName": "Night Surface",
+        "canonical": "#0e1830",
+        "tonalRamp": [
+          "#03050b",
+          "#24262b",
+          "#44464a",
+          "#65666a",
+          "#85878a",
+          "#a6a7aa",
+          "#c6c8ca",
+          "#e7e8ea"
+        ]
+      },
+      "night-surface-2": {
+        "role": "neutral",
+        "displayName": "Night Surface 2",
+        "canonical": "#14213a",
+        "tonalRamp": [
+          "#04070d",
+          "#25272d",
+          "#45484c",
+          "#66686c",
+          "#86888c",
+          "#a7a8ac",
+          "#c7c9cc",
+          "#e8e9eb"
+        ]
+      },
+      "night-ink": {
+        "role": "neutral",
+        "displayName": "Night Ink",
+        "canonical": "#ece7d8",
+        "tonalRamp": [
+          "#343330",
+          "#51504d",
+          "#6d6c6a",
+          "#8a8987",
+          "#a7a6a4",
+          "#c4c3c1",
+          "#e0e0de",
+          "#fdfdfb"
+        ]
+      },
+      "night-brass": {
+        "role": "primary",
+        "displayName": "Night Brass",
+        "canonical": "#d3b578",
+        "tonalRamp": [
+          "#2e281a",
+          "#4c4639",
+          "#696358",
+          "#868177",
+          "#a39f95",
+          "#c0bcb4",
+          "#dddad3",
+          "#fbf8f2"
+        ]
+      },
+      "chart-1": {
+        "role": "secondary",
+        "displayName": "Chart Petrol",
+        "canonical": "#0d535f",
+        "tonalRamp": [
+          "#031215",
+          "#233234",
+          "#445153",
+          "#657072",
+          "#859092",
+          "#a6afb1",
+          "#c6ced0",
+          "#e7eeef"
+        ]
+      },
+      "chart-2": {
+        "role": "secondary",
+        "displayName": "Chart Orange",
+        "canonical": "#e0641f",
+        "tonalRamp": [
+          "#311607",
+          "#4e3527",
+          "#6b5447",
+          "#887368",
+          "#a59288",
+          "#c2b1a8",
+          "#dfd0c8",
+          "#fcf0e9"
+        ]
+      },
+      "chart-3": {
+        "role": "secondary",
+        "displayName": "Chart Brass",
+        "canonical": "#a98a4b",
+        "tonalRamp": [
+          "#251e11",
+          "#433d30",
+          "#615b50",
+          "#7f7a6f",
+          "#9d988f",
+          "#bbb6ae",
+          "#d9d5ce",
+          "#f6f3ed"
+        ]
+      },
+      "chart-4": {
+        "role": "secondary",
+        "displayName": "Chart Ochre",
+        "canonical": "#9a5b12",
+        "tonalRamp": [
+          "#221404",
+          "#403324",
+          "#5e5245",
+          "#7c7265",
+          "#9a9186",
+          "#b9b0a6",
+          "#d7cfc7",
+          "#f5efe7"
+        ]
+      },
+      "chart-5": {
+        "role": "secondary",
+        "displayName": "Chart Bordeaux",
+        "canonical": "#7f2d3a",
+        "tonalRamp": [
+          "#1c0a0d",
+          "#3b2a2d",
+          "#594a4c",
+          "#786a6c",
+          "#968a8c",
+          "#b5aaac",
+          "#d4cacc",
+          "#f2eaeb"
+        ]
+      },
+      "chart-6": {
+        "role": "secondary",
+        "displayName": "Chart Success",
+        "canonical": "#2e6b46",
+        "tonalRamp": [
+          "#0a180f",
+          "#2a362f",
+          "#4a554f",
+          "#6a746e",
+          "#8a938e",
+          "#aab2ad",
+          "#cad1cd",
+          "#eaf0ed"
+        ]
+      },
+      "chart-7": {
+        "role": "secondary",
+        "displayName": "Chart Teal",
+        "canonical": "#12707e",
+        "tonalRamp": [
+          "#04191c",
+          "#24383a",
+          "#455659",
+          "#657578",
+          "#869496",
+          "#a6b3b5",
+          "#c7d2d3",
+          "#e7f1f2"
+        ]
+      },
+      "chart-8": {
+        "role": "secondary",
+        "displayName": "Chart Dim",
+        "canonical": "#6f7b7e",
+        "tonalRamp": [
+          "#181b1c",
+          "#373a3a",
+          "#565859",
+          "#757778",
+          "#949696",
+          "#b3b4b5",
+          "#d2d3d3",
+          "#f1f2f2"
         ]
       }
     },
     "typographyMeta": {
       "display": {
-        "displayName": "Display — EB Garamond",
-        "purpose": "Hero plaque + doc h1, 1.85rem, brass rule"
+        "displayName": "Display — Cormorant Garamond",
+        "purpose": "Doc h1, cab h2, dash hero, stat numbers (700, 2.25rem/1.15)."
       },
       "headline": {
         "displayName": "Headline / H2",
-        "purpose": "Section opener with top hairline, scroll-margin for hash nav."
+        "purpose": "Section opener, top hairline, scroll-margin 72px."
       },
       "title": {
-        "displayName": "Title — Public Sans Upper",
-        "purpose": "H3 caps 0.81rem 700, brass-deep, section labels"
+        "displayName": "Title — Inter Upper",
+        "purpose": "Doc h3 and panel headers, 13px 700 .08em uppercase, petrol."
       },
       "body": {
-        "displayName": "Body — Public Sans",
-        "purpose": "Prose & table copy at 1.7 LHC, 65–75ch measure."
+        "displayName": "Body — Inter",
+        "purpose": "Prose and table copy at --doc-size (13.5/15/17px), 1.8 LHC, 68ch measure."
       },
       "label": {
         "displayName": "Label",
-        "purpose": "Nav items, badges, pills, table header (13px 600)."
+        "purpose": "Nav, badges, pills, form labels (11.5px 600 uppercase)."
       },
       "mono": {
         "displayName": "Mono / Data",
-        "purpose": "Code, money (tabular), dates, inline code."
+        "purpose": "Money and dates tabular (JetBrains Mono 12–13px), inline code."
       }
     },
     "shadows": [
       {
         "name": "card-rest",
-        "value": "0 1px 3px rgba(7,14,28,0.08)",
-        "purpose": "Card rest on parchment, plus brass double filet"
+        "value": "0 1px 0 rgba(197,164,106,0.10)",
+        "purpose": "Flat card rest on dash cards, panels, table wraps."
       },
       {
         "name": "dialog-overlay",
-        "value": "0 10px 30px rgba(0,0,0,0.20)",
-        "purpose": "Modal overlay elevation for conventions/factures dialogs."
+        "value": "0 18px 50px rgba(18,38,43,0.28)",
+        "purpose": "Modal elevation (native <dialog>)."
       },
       {
-        "name": "scrim",
-        "value": "rgba(0,0,0,0.40) backdrop",
-        "purpose": "Mobile drawer scrim behind sidebar."
+        "name": "fab",
+        "value": "0 8px 24px rgba(179,77,18,0.40)",
+        "purpose": "Single floating action (Nouveau dossier)."
       }
     ],
     "motion": [
       {
         "name": "ease-standard",
-        "value": "cubic-bezier(0.4, 0, 0.2, 1)",
-        "purpose": "Default for state transitions (hover, focus, drawer)."
+        "value": "cubic-bezier(0.32, 0.72, 0, 1)",
+        "purpose": "Hover, reveal and progress transitions."
       },
       {
-        "name": "caret-rotate",
-        "value": "transform 0.15s ease",
-        "purpose": "Tree folder caret 0→90deg."
+        "name": "ease-seal",
+        "value": "cubic-bezier(0.34, 1.4, 0.64, 1)",
+        "purpose": "Seal-press on closed dossiers (600ms, reduced-motion safe)."
       },
       {
-        "name": "sidebar-drawer",
-        "value": "transform 0.2s ease",
-        "purpose": "Mobile sidebar slide."
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce",
+        "purpose": "All transitions and animations disabled."
       }
     ],
     "breakpoints": [
       {
         "name": "drawer",
-        "value": "860px"
+        "value": "980px"
       },
       {
-        "name": "doc-narrow",
-        "value": "640px"
+        "name": "compact",
+        "value": "780px"
+      },
+      {
+        "name": "narrow",
+        "value": "680px"
+      },
+      {
+        "name": "minimal",
+        "value": "380px"
       }
     ]
   },
@@ -501,141 +674,110 @@
       "name": "Primary Button",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "Ink field for dossier, convention, facture primary actions.",
-      "html": "<button class=\"ds-btn-primary\">Enregistrer dossier</button>",
-      "css": ".ds-btn-primary { background: #0f2a44; color: #ffffff; border: 1px solid #0f2a44; border-radius: 8px; padding: 8px 14px; font: 600 13px/1.4 system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif; letter-spacing: 0.01em; cursor: pointer; transition: opacity 0.15s ease, border-color 0.15s ease; } .ds-btn-primary:hover { opacity: 0.92; border-color: #1fa89e; } .ds-btn-primary:focus-visible { outline: 2px solid #1fa89e; outline-offset: 2px; } .ds-btn-primary:disabled { opacity: 0.5; cursor: not-allowed; }"
+      "description": "Petrol-ink field, white text, 2px radius, min-height 44px."
     },
     {
-      "name": "Ghost Button",
+      "name": "Accent Button",
       "kind": "button",
-      "refersTo": "button-ghost",
-      "description": "Secondary / cancel alongside primary, parchment.",
-      "html": "<button class=\"ds-btn-ghost\">Annuler</button>",
-      "css": ".ds-btn-ghost { background: #ffffff; color: #5a6b7b; border: 1px solid #dfd9cd; border-radius: 8px; padding: 8px 12px; font: 600 13px/1.4 system-ui, sans-serif; cursor: pointer; transition: color 0.15s ease, border-color 0.15s ease; } .ds-btn-ghost:hover { color: #1c2733; border-color: #1fa89e; } .ds-btn-ghost:focus-visible { outline: 2px solid #1fa89e; outline-offset: 2px; }"
+      "refersTo": "button-accent",
+      "description": "Orange field for the single primary action (FAB, side CTA)."
     },
     {
-      "name": "Icon Button",
+      "name": "Line Button",
       "kind": "button",
-      "refersTo": "icon-button",
-      "description": "34px square for prev/next/read/font/theme/menu — topbar.",
-      "html": "<button class=\"ds-icon-btn\" aria-label=\"Précédent\">←</button>",
-      "css": ".ds-icon-btn { width: 34px; height: 34px; border-radius: 8px; border: 1px solid #dfd9cd; background: #ffffff; color: #1c2733; font-size: 14px; display: inline-flex; align-items: center; justify-content: center; cursor: pointer; transition: border-color 0.15s ease, background 0.15s ease; } .ds-icon-btn:hover { border-color: #1fa89e; } .ds-icon-btn.active { background: #e4f2f0; color: #0f2a44; border-color: #1fa89e; } .ds-icon-btn:focus-visible { outline: 2px solid #1fa89e; outline-offset: 2px; }"
+      "refersTo": "button-line",
+      "description": "Surface + line-strong stroke, petrol-ink text."
     },
     {
-      "name": "Tree Item Active",
-      "kind": "nav",
-      "refersTo": "tree-item-active",
-      "description": "Active doc in parchment sidebar — teal soft fill + left teal bar.",
-      "html": "<button class=\"ds-tree-active\"><span class=\"ds-dot\"></span> 01 — Textes Fondamentaux</button>",
-      "css": ".ds-tree-active { display: flex; align-items: center; gap: 7px; width: 100%; background: #e4f2f0; color: #0f2a44; border: 0; border-left: 2px solid #1fa89e; border-radius: 7px; padding: 6px 8px; font: 600 13px/1.4 system-ui, sans-serif; text-align: left; } .ds-tree-active .ds-dot { width: 7px; height: 7px; border-radius: 50%; background: #1fa89e; flex: 0 0 7px; }"
-    },
-    {
-      "name": "Card",
-      "kind": "card",
-      "refersTo": "card",
-      "description": "Dashboard card & panel — surface on parchment.",
-      "html": "<div class=\"ds-card\"><div class=\"ds-num\">18 000</div><div class=\"ds-lbl\">DH HT</div></div>",
-      "css": ".ds-card { background: #ffffff; color: #1c2733; border: 1px solid #dfd9cd; border-radius: 10px; padding: 18px 20px; box-shadow: 0 1px 3px rgba(15,42,68,0.08); } .ds-card .ds-num { font-size: 1.7rem; font-weight: 700; color: #0f2a44; line-height: 1.1; } .ds-card .ds-lbl { font-size: 12px; color: #5a6b7b; margin-top: 4px; }"
-    },
-    {
-      "name": "Doc Container",
-      "kind": "custom",
-      "refersTo": "card",
-      "description": "Vault doc paper — 800px centered, subtle rule on h1.",
-      "html": "<article class=\"ds-doc\"><h1>Titre du document</h1><p>Lecture lisible 65–75ch, interligne 1.7, marqueurs teal.</p></article>",
-      "css": ".ds-doc { max-width: 800px; margin: 0 auto; background: #ffffff; border: 1px solid #dfd9cd; border-radius: 10px; box-shadow: 0 1px 3px rgba(15,42,68,0.08); padding: 34px 40px 48px; color: #1c2733; font: 400 16px/1.7 system-ui, sans-serif; } .ds-doc h1 { font-size: 1.75rem; line-height: 1.25; font-weight: 700; margin: 0 0 6px; padding-bottom: 10px; border-bottom: 2px solid #1fa89e; }"
-    },
-    {
-      "name": "Pill / Badge",
-      "kind": "chip",
-      "refersTo": "pill-folder",
-      "description": "Metadata pills + status badges (prospect/envoyée/signée).",
-      "html": "<span class=\"ds-pill\">📁 Stratégie</span> <span class=\"ds-badge-prospect\">Prospect</span>",
-      "css": ".ds-pill { display: inline-block; background: #e4f2f0; color: #0f2a44; border: 1px solid #1fa89e; padding: 2px 10px; border-radius: 999px; font: 600 12.5px/1.4 system-ui, sans-serif; } .ds-badge-prospect { display: inline-block; background: #fff3cd; color: #664d03; border: 1px solid #dfd9cd; padding: 2px 8px; border-radius: 999px; font: 600 11px/1.4 system-ui, sans-serif; }"
-    },
-    {
-      "name": "Input / Select",
+      "name": "Input",
       "kind": "input",
-      "refersTo": "button-ghost",
-      "description": "Cabinet forms — search, dossier fields, selects.",
-      "html": "<label class=\"ds-field\">Client / Société *<input class=\"ds-input\" placeholder=\"Ex: SARL Atlas — M. Alami\"></label>",
-      "css": ".ds-field { display: flex; flex-direction: column; gap: 4px; font: 600 12px/1.4 system-ui, sans-serif; color: #5a6b7b; } .ds-input { padding: 8px 10px; border: 1px solid #dfd9cd; border-radius: 8px; background: #f7f5f0; color: #1c2733; font: 400 13px/1.4 system-ui, sans-serif; outline: none; } .ds-input:focus { border-color: #1fa89e; box-shadow: 0 0 0 2px #e4f2f0; } .ds-input::placeholder { color: #5a6b7b; opacity: 0.8; }"
+      "refersTo": "input",
+      "description": "Surface field, 2px radius, petrol focus ring 3px."
     },
     {
-      "name": "Table",
-      "kind": "custom",
+      "name": "Card / Panel",
+      "kind": "container",
       "refersTo": "card",
-      "description": "Doc + cabinet tables — zebra + hover teal-soft.",
-      "html": "<div class=\"ds-table-wrap\"><table class=\"ds-table\"><thead><tr><th>Client</th><th>Honoraires</th></tr></thead><tbody><tr><td>SARL Atlas</td><td>3 500 DH HT</td></tr></tbody></table></div>",
-      "css": ".ds-table-wrap { overflow-x: auto; border: 1px solid #dfd9cd; border-radius: 8px; background: #ffffff; } .ds-table { width: 100%; border-collapse: collapse; font-size: 13px; } .ds-table th, .ds-table td { padding: 9px 10px; border-bottom: 1px solid #dfd9cd; text-align: left; white-space: nowrap; } .ds-table th { background: #efece4; font-weight: 650; } .ds-table tbody tr:nth-child(even) { background: #f7f5f0; } .ds-table tbody tr:hover { background: #e4f2f0; }"
+      "description": "Surface, 1px line, 2px radius, flat card-rest shadow."
+    },
+    {
+      "name": "Stats Band",
+      "kind": "container",
+      "refersTo": "stats-band",
+      "description": "Petrol gradient band with brass double top rule; 4–6 stats."
+    },
+    {
+      "name": "Tree Item",
+      "kind": "navigation",
+      "refersTo": "tree-item-active",
+      "description": "2px orange active left border, orange text on rgba(224,100,31,.14)."
+    },
+    {
+      "name": "Pill",
+      "kind": "chip",
+      "refersTo": "pill",
+      "description": "999px metadata chip: line-strong outline, petrol / accent / ochre / bordeaux / green variants."
+    },
+    {
+      "name": "Double Rule",
+      "kind": "ornament",
+      "refersTo": "rule-double",
+      "description": "3px double line-strong — the one recurring signature (doc h1, tables, index rows)."
     }
   ],
   "narrative": {
-    "northStar": "The Ink & Parchment Bureau",
-    "overview": "A small-city business-lawyer's offline bureau translated to the web: parchment paper, ink, and a single teal tool-mark. No marketing gloss; authority comes from reading clarity and operational tidiness. Light is parchment + white surfaces with ink text; dark is a genuine ink-on-slate inversion for late-night work, not a dimmed clone. Every surface is flat, tonal, and typographically driven — depth is reserved for state. 300px parchment sidebar + 800px read measure + dense operational tables share one ink/teal language across Read (vault) and Operate (cabinet).",
+    "northStar": "The Ink & Parchment Bureau — CMS register",
+    "overview": "A small-city business-lawyer's bureau translated to the web: warm paper ground, a dark petrol register on the left, brass rules, and a single action orange. Read (Vault) and Operate (Cabinet) share one palette and two densities; dark is a genuine Encrier inversion (#070e1c).",
     "keyCharacteristics": [
-      "Brass hammered #c5a46a hairline on ink #070e1c + parchment #f6f0e3, teal #1a8a7f ≤10% rare",
-      "EB Garamond display + Public Sans workhorse, hierarchy by brass rule + weight",
-      "Flat tonal layering; shadows only as 1px card rest or dialog overlay, plus light sweep on plaque",
-      "Square-ish controls 2px, pills 999px metadata, 320px brass plaque sidebar + 800px read measure",
-      "Double-filet or + encrier glass + tabular mono money as signature"
+      "Paper #fbfaf7 ground, petrol #0d535f structure, orange #e0641f action-only, brass #a98a4b rules.",
+      "Cormorant Garamond display + Inter workhorse + JetBrains Mono tabular figures.",
+      "2px control/card radius, 999px pills strictly for metadata, 280px petrol sidebar, 800px read measure.",
+      "Flat tonal layering; one card rest shadow; stats band and toasts in petrol-ink.",
+      "Double-filet 3px line-strong as the one recurring signature."
     ],
     "rules": [
       {
-        "name": "The One Teal Rule",
-        "body": "Teal appears on ≤10% of a viewport and only as text, underline, left-border, dot, or thin stroke — never as a large field. Its rarity is the signal.",
-        "section": "colors"
+        "name": "The Orange Rule",
+        "body": "Orange marks action and state only — CTA, active nav, counts, alerts. Never decoration."
       },
       {
         "name": "The Parchment Ground Rule",
-        "body": "Page bg is always parchment (#f7f5f0 light / #10151c dark), not surface white. Cards cut out of it. A white page ground breaks the bureau.",
-        "section": "colors"
+        "body": "Page background is always paper (#fbfaf7); dark is always #070e1c. White is a component surface."
       },
       {
-        "name": "The Warm Gray Rule",
-        "body": "On colored surfaces (ink hero, teal-soft), tint secondary text from that surface's hue or from ink — never neutral #888 gray.",
-        "section": "colors"
-      },
-      {
-        "name": "The One Family Rule",
-        "body": "No imported display serif. All hierarchy lives in the system sans; mono only for code/data.",
-        "section": "typography"
+        "name": "The Tokens-Only Rule",
+        "body": "Fonts and colors are consumed through --font-* and palette tokens; no literal stacks or hex in new code."
       },
       {
         "name": "The Measure Rule",
-        "body": "Body never exceeds 75ch (800px container). A full-bleed paragraph is a defect.",
-        "section": "typography"
+        "body": "Body text stays ≤ 75ch (.doc 800px, p 68ch). Full-bleed paragraphs are a defect."
+      },
+      {
+        "name": "The Mono Rule",
+        "body": "Money and dates are JetBrains Mono with tabular numerals; never the display serif in tables."
+      },
+      {
+        "name": "The No-Emoji Rule",
+        "body": "Every icon is authored SVG (icons.js), one stroke weight, one viewBox. No emoji or text glyphs."
       },
       {
         "name": "The Flat-By-Default Rule",
-        "body": "Surfaces are flat at rest. Shadows appear only as 0 1px 3px on cards and overlay on dialogs — no mid-elevation.",
-        "section": "elevation"
-      },
-      {
-        "name": "The No-Halo Rule",
-        "body": "Zero-offset colored halos/glows are not shadows. Depth has offset + blur or it is decoration.",
-        "section": "elevation"
+        "body": "Surfaces are flat at rest; shadows exist for card rest and dialogs only."
       }
     ],
     "dos": [
-      "Do keep doc measure at 800px max and dash at 900px — body 65–75ch is not optional.",
-      "Do use parchment as page ground and surface-white only for cards/docs.",
-      "Do keep teal to ≤10% as left-border/dot/underline/text — rarity is signal.",
-      "Do carry scroll-margin-top:70px on h2/h3/h4 for hash links under sticky topbar.",
-      "Do tint secondary text from surface hue on ink/teal-soft surfaces; never #888 gray.",
-      "Do preserve tabular numerals for money (mono 12px) and dates.",
-      "Do keep control radii 7–8px and pill 999px strictly to metadata/badges.",
-      "Do keep elevation flat-by-default (card rest only, dialog overlay) — no mid shadows."
+      "Do use the tokens (--paper, --petrol-ink, --accent, --font-*) — never literal hex or font stacks.",
+      "Do keep orange for action/state and petrol for structure.",
+      "Do keep the reading scale on --doc-size so A−/A+ changes document text.",
+      "Do use tabular mono for money and the double rule for tables.",
+      "Do respect prefers-reduced-motion (all transitions are already disabled under it)."
     ],
     "donts": [
-      "Don't add a kicker/eyebrow above a heading — the heading carries its own weight.",
-      "Don't use gradient text, glass/blur as decoration, or geometric masks for photos.",
-      "Don't give cards/chips a thick border-left: 4px color stripe — the 2px active border is the only left-border.",
-      "Don't introduce a new display serif (Fraunces/Playfair/Cormorant/Lora/Syne) — one-family system sans holds.",
-      "Don't scatter teal field fills across a neutral ground — commit to region fields or stay neutral.",
-      "Don't use emoji/glyphs as an icon system — authored SVG in one stroke/weight if icons needed.",
-      "Don't use hard offset box-shadow:4px 4px 0 zero-blur blocks unless world becomes neobrutalist.",
-      "Don't add sparklines/progress rings as placeholder content — show real dossier/échéance/mission data."
+      "Don't reintroduce the retired Encrier/Plaque palette names outside the documented dark tokens.",
+      "Don't use emoji or text glyphs as UI icons — SVG only.",
+      "Don't add a second accent hue; brass rules are not an accent.",
+      "Don't round controls or cards beyond 2px, and keep pills to metadata.",
+      "Don't load fonts from a CDN — fonts ship in webapp/fonts/ (offline-first)."
     ]
   }
 }

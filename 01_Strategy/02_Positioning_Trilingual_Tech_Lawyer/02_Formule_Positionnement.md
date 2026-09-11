@@ -56,7 +56,7 @@ Comment vous résolvez ces problèmes :
 - Quelle est la temporalité (mission ponctuelle, abonnement).
 - Quel est le prix (forfait, provision).
 
-Exemple : « Mission Contrat Offshore Essentiel : convention d'honoraires CH-2025-XXX, contrat FR/EN sur mesure (clauses paiement, IP, résiliation), CGV adaptées, modèle de devis et facture conformes, note de choix de statut, note explicative Loom 15 min. Provision 50%. Livraison sous 7 jours ouvrés. »
+Exemple : « Mission Contrat Offshore Essentiel : convention d'honoraires CH-2025-XXX, contrat FR/EN sur mesure (clauses paiement, IP, résiliation), CGV adaptées, modèle de devis et facture conformes, note de choix de statut, restitution explicative (Loom 15 min, ou visio Zoom / au cabinet). Provision 50%. Livraison sous 7 jours ouvrés. »
 
 ### Étape 4 — Identifier le résultat rêvé
 

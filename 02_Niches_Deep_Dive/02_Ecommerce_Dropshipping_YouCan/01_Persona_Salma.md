@@ -96,7 +96,7 @@ Salma n'achète pas un « avocat ». Elle achète une **solution concrète à un
    ↓
 [Mission Pack CGV YouCan 4 900 DH HT + Facturation 2 500 DH HT]
    ↓
-[Livraison sous 7 jours, Loom clôture]
+[Livraison sous 7 jours, restitution clôture]
    ↓
 [Abonnement Secrétariat 2 500-3 500 DH HT/mois]
    ↓

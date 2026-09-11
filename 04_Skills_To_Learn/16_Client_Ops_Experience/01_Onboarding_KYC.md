@@ -85,7 +85,7 @@ AVANT toute facturation B2B (cf. `02_Niches_Deep_Dive/06_Autoentrepreneur_to_SAR
       00_admin/      convention signée, reçu provision + avis de crédit, KYC (chiffré)
       01_entree/     brief, notes des échanges, documents reçus du client
       02_travail/    brouillons (dossier QUI SERA PURGÉ À LA CLÔTURE — cf. 06 § 3)
-      03_livrables/  versions envoyées (jamais modifiées après envoi) + note de risques + Loom
+      03_livrables/  versions envoyées (jamais modifiées après envoi) + note de risques + restitution (Loom/Zoom/cabinet)
       04_sortie/     PV de remise, facture de solde, NPS, referral le cas échéant
 ```
 

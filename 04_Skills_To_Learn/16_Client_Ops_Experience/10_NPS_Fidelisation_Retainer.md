@@ -135,7 +135,7 @@ durcie : un J5 manqué = un J7 re-daté LE JOUR MÊME). À J+90 : veille nominat
 seuils se discutent avant le 1er janvier ») — Yassine signe une mission SARL-AU
 (5 500 DH HT + débours) six mois plus tard, sans une ligne de relance commerciale.
 
-> **Lecture pro :** la fidélisation d'un cabinet solo tient dans trois dates — 48 heures après le Loom,
+> **Lecture pro :** la fidélisation d'un cabinet solo tient dans trois dates — 48 heures après la restitution,
 > 7 jours pour la question, 30 jours pour la proposition. Tout le reste est de l'improvisation qui se
 > déguise en relation client. Reichheld n'a jamais promis un score : il a promis une discipline —
 > celui qui recommande est celui qu'on a su écouter à temps.

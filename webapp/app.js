@@ -1,14 +1,11 @@
-﻿/* AVOCATO Base Reader — app logic (no dependencies except marked + Chart.js) */
+/* AVOCATO Base Reader — app logic (no dependencies except marked + Chart.js) */
 (function () {
   'use strict';
 
   const DATA = window.VAULT_DATA || [];
   const $ = (sel, root) => (root || document).querySelector(sel);
   const $$ = (sel, root) => Array.from((root || document).querySelectorAll(sel));
-  const LS = {
-    get(k, d) { try { const v = localStorage.getItem('avocato:' + k); return v ? JSON.parse(v) : d; } catch { return d; } },
-    set(k, v) { try { localStorage.setItem('avocato:' + k, JSON.stringify(v)); } catch {} }
-  };
+  var LS = window.AvocatoStore.LS;
 
   const state = {
     current: null,
@@ -32,7 +29,7 @@
     '02_Niches_Deep_Dive/06_Autoentrepreneur_to_SARL_Scaling': 'Niche 06 · AE → SARL',
     '02_Niches_Deep_Dive/07_Propriete_Intellectuelle': 'Niche 07 · PI — Marques & BMDA',
     '02_Niches_Deep_Dive/08_Fiscalite_Internationale_Rapatriement': 'Niche 08 · Fiscalité internationale & Rapatriement',
-    '02_Niches_Deep_Dive/09_Office_Changes_Dotation_IGOC2024': 'Niche 09 · Office des Changes & Dotations (IGOC)',
+    '02_Niches_Deep_Dive/09_Office_Changes_Dotation_IGOC': 'Niche 09 · Office des Changes & Dotations (IGOC)',
     '02_Niches_Deep_Dive/10_MRE_Entrepreneurs': 'Niche 10 · MRE Entrepreneurs',
     '02_Niches_Deep_Dive/11_Nomads_Digital': 'Niche 11 · Nomades digitaux',
     '03_Acquisition_Without_Ads': 'Acquisition sans pub',
@@ -42,6 +39,7 @@
     '04_Skills_To_Learn/02_AI_For_Lawyers_Prompts': 'Skill 02 · IA & prompts',
     '04_Skills_To_Learn/03_Sales_Without_Selling': 'Skill 03 · Vendre sans vendre',
     '04_Skills_To_Learn/04_Design_Canva_For_Legal': 'Skill 04 · Design Canva',
+    '04_Skills_To_Learn/05_Deontologie_IA_Secret': 'Skill 05 · Déontologie IA & secret',
     '04_Skills_To_Learn/06_French_Communication_With_Clients': 'Skill 06 · Communication clients (FR)',
     '04_Skills_To_Learn/07_Sharp_Legal_Mind': 'Skill 07 · Acuité juridique',
     '04_Skills_To_Learn/08_Livres_Cours_Recommandes': 'Skill 08 · Livres & cours',
@@ -56,6 +54,7 @@
     '04_Skills_To_Learn/17_Operations_SOP_Scaling': 'Skill 17 · Opérations & SOP',
     '04_Skills_To_Learn/18_Intelligence_Emotionnelle_Desescalade': 'Skill 18 · Intelligence émotionnelle',
     '04_Skills_To_Learn/19_Structuration_Transfrontaliere': 'Skill 19 · Structuration internationale',
+    '04_Skills_To_Learn/20_Compta_Pour_Avocat': 'Skill 20 · Compta pour avocat',
     '05_Document_Bank': 'Banque de Documents',
     '06_ADHD_System': 'Système ADHD',
     '07_90Day_Plan': 'Plan 90 jours',
@@ -77,12 +76,12 @@
   }
 
   /* ---------- helpers ---------- */
-  function esc(s) { return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
+  const esc = window.AvocatoCore.esc;
   function parseNum(s) {
     if (s == null) return NaN;
     let t = String(s).trim().replace(/\s/g, '').replace(/,/g, '.');
     const k = /k$/i.test(t); t = t.replace(/k$/i, '');
-    t = t.replace(/[DH€$dh%dh]/g, '');
+    t = t.replace(/[DH$dh%dh]/g, '');
     const n = parseFloat(t);
     return isNaN(n) ? NaN : (k ? n * 1000 : n);
   }
@@ -157,9 +156,14 @@
   }
 
   /* ---------- charts ---------- */
+  if (window.Chart) {
+    Chart.defaults.font.family = getComputedStyle(document.body).getPropertyValue('--font-body').trim() || '"Inter", sans-serif';
+    Chart.defaults.font.size = 11.5;
+    Chart.defaults.color = '#6f7b7e';
+  }
   const CHART_COLORS = {
-    light: { accent: '#1fa89e', accent2: '#0f2a44', grid: 'rgba(15,42,68,.12)', ticks: '#5a6b7b' },
-    dark: { accent: '#45c7bb', accent2: '#9fc2e8', grid: 'rgba(159,194,232,.15)', ticks: '#93a4b4' }
+    light: { accent: '#0d535f', accent2: '#e0641f', grid: 'rgba(18,38,43,.12)', ticks: '#6f7b7e' },
+    dark: { accent: '#d3b578', accent2: '#e0641f', grid: 'rgba(197,164,106,.15)', ticks: '#9a958a' }
   };
 
   function parseCsvData(raw) {
@@ -183,7 +187,16 @@
   }
 
   function chartTheme() {
-    return CHART_COLORS[state.theme === 'dark' ? 'dark' : 'light'];
+    const fb = CHART_COLORS[state.theme === 'dark' ? 'dark' : 'light'];
+    const fbSeq = state.theme === 'dark'
+      ? [fb.accent, fb.accent2, '#c5a46a', '#e0a44f', '#e08a95', '#7fd09a', '#7fb3bd', '#9a958a']
+      : [fb.accent, fb.accent2, '#a98a4b', '#9a5b12', '#7f2d3a', '#2e6b46', '#12707e', '#6f7b7e'];
+    try {
+      const cs = getComputedStyle(document.body);
+      const g = (n, f) => (cs.getPropertyValue(n) || '').trim() || f;
+      const seq = [1, 2, 3, 4, 5, 6, 7, 8].map(i => g('--chart-' + i, fbSeq[i - 1]));
+      return { accent: seq[0], accent2: seq[1], grid: fb.grid, ticks: g('--text-dim', fb.ticks), seq };
+    } catch (e) { return Object.assign({ seq: fbSeq }, fb); }
   }
 
   function renderChartBox(box) {
@@ -193,12 +206,22 @@
     const th = chartTheme();
     const wrap = document.createElement('div');
     wrap.className = 'chart-canvas-wrap';
+    wrap.setAttribute('role', 'img');
+    wrap.setAttribute('aria-label', 'Graphique ' + type + ' : ' + data.series.map(s => s.label).join(', ') + ' — ' + data.labels.length + ' points');
     const canvas = document.createElement('canvas');
+    canvas.setAttribute('aria-hidden', 'true');
     wrap.appendChild(canvas);
     box.innerHTML = '';
     box.appendChild(wrap);
+    const details = document.createElement('details');
+    details.className = 'chart-data';
+    details.innerHTML = '<summary>Données du graphique</summary><table><thead><tr><th></th>' +
+      data.series.map(s => '<th>' + esc(s.label) + '</th>').join('') + '</tr></thead><tbody>' +
+      data.labels.map((l, i) => '<tr><th>' + esc(l) + '</th>' + data.series.map(s => '<td class="mono">' + (isNaN(s.data[i]) ? '' : s.data[i]) + '</td>').join('') + '</tr>').join('') +
+      '</tbody></table>';
+    box.appendChild(details);
 
-    const palette = [th.accent, th.accent2, '#b4552d', '#7a5aa8', '#3a7ca5'];
+    const palette = th.seq.slice(0, 5);
     const chart = new Chart(canvas, {
       type: type,
       data: {
@@ -232,7 +255,7 @@
     // find numeric columns (2nd col onwards)
     let bestCol = -1, bestScore = 0;
     for (let c = 1; c < colCount; c++) {
-      const vals = body.map(r => r[c] || '').filter(v => v && v !== '—');
+      const vals = body.map(r => r[c] || '').filter(v => v && v !== '');
       if (!vals.length) continue;
       const numeric = vals.filter(v => !isNaN(parseNum(v)));
       const score = numeric.length / vals.length;
@@ -258,6 +281,8 @@
       chartEl.style.display = 'none';
       const wrap = document.createElement('div');
       wrap.className = 'chart-canvas-wrap';
+      wrap.setAttribute('role', 'img');
+      wrap.setAttribute('aria-label', 'Graphique : ' + info.header + ' — ' + info.labels.length + ' lignes');
       chartEl.appendChild(wrap);
       table.parentNode.insertBefore(btn, table.nextSibling);
       table.parentNode.insertBefore(chartEl, btn.nextSibling);
@@ -306,9 +331,15 @@
     '01_Strategy/03_Unsaturated_Niches_Overview/00_INDEX.md': 'Choisir une niche'
   };
 
+  function destroyCharts() {
+    state.charts.forEach(c => { try { c.destroy(); } catch (e) { console.warn('avocato', e); } });
+    state.charts = [];
+  }
+
   function openDoc(id) {
     const doc = DATA.find(d => d.id === id);
     if (!doc) return;
+    destroyCharts();
     state.current = id;
     const main = $('#content');
     main.classList.remove('dash-mode');
@@ -346,7 +377,7 @@
     highlightTree();
     updateReadBtn();
     if (location.hash !== '#' + encodeURIComponent(id)) {
-      try { history.replaceState(null, '', '#' + encodeURIComponent(id)); } catch {}
+      try { history.replaceState(null, '', '#' + encodeURIComponent(id)); } catch (e) { console.warn('avocato', e); }
     }
     window.scrollTo({ top: 0 });
     LS.set('last', id);
@@ -409,13 +440,13 @@
 
       html += `<div class="tree-section">
         <button class="tree-folder ${isOpen ? 'open' : ''}" data-folder="${esc(folder)}" aria-expanded="${isOpen}">
-          <span class="caret" aria-hidden="true">▶</span><span>${esc(folderLabel(folder))}</span>
+          <span class="caret" aria-hidden="true"></span><span>${esc(folderLabel(folder))}</span>
           <span class="folder-meta">${readCount}/${total}</span>
           <span class="progress-mini"><span class="bar"><span class="fill" style="width:${pct}%"></span></span></span>
         </button>
         <div class="tree-items" style="display:${isOpen ? '' : 'none'}">
           ${items.map(d => `
-            <button class="tree-item ${state.read.has(d.id) ? 'read' : ''} ${state.current === d.id ? 'active' : ''}" data-id="${esc(d.id)}">
+            <button class="tree-item ${state.read.has(d.id) ? 'read' : ''} ${state.current === d.id ? 'active' : ''}" data-id="${esc(d.id)}"${state.current === d.id ? ' aria-current="page"' : ''}>
               <span class="read-dot" aria-hidden="true"></span>
               <span class="fname">${esc(d.title)}</span>
             </button>`).join('')}
@@ -469,6 +500,7 @@
   /* ---------- dashboard ---------- */
   function openDashboard() {
     state.current = null;
+    destroyCharts();
     const main = $('#content');
     main.classList.add('dash-mode');
     const total = DATA.length;
@@ -563,7 +595,7 @@
         labels: Object.keys(groups).map(folderLabel),
         datasets: [{
           data: Object.keys(groups).map(f => groups[f].length),
-          backgroundColor: ['#1fa89e', '#0f2a44', '#b4552d', '#7a5aa8', '#3a7ca5', '#c98f2e', '#5f8a52', '#a34d77'],
+          backgroundColor: th.seq,
           borderColor: th.ticks, borderWidth: 1
         }]
       },
@@ -607,9 +639,10 @@
   function applyTheme() {
     document.body.dataset.theme = state.theme;
     document.body.classList.toggle('dark', state.theme === 'dark');
+    const meta = $('#metaThemeColor') || document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.setAttribute('content', state.theme === 'dark' ? '#070e1c' : '#fbfaf7');
     $('#themeBtn').innerHTML = window.ico(state.theme === 'dark' ? 'sun' : 'moon');
-    state.charts.forEach(c => { try { c.destroy(); } catch {} });
-    state.charts = [];
+    destroyCharts();
     if (state.current) {
       const main = $('#content');
       const { html, toc } = renderMarkdown(DATA.find(d => d.id === state.current).content);
@@ -635,6 +668,13 @@
 
   function applyFont() {
     document.body.dataset.font = state.font;
+    const levels = { sm: 'petite', md: 'normale', lg: 'grande' };
+    const status = $('#fontStatus');
+    if (status) status.textContent = 'Taille du texte des documents : ' + levels[state.font];
+    const dec = $('#fontDec');
+    const inc = $('#fontInc');
+    if (dec) dec.disabled = state.font === 'sm';
+    if (inc) inc.disabled = state.font === 'lg';
   }
 
   /* ---------- search ---------- */
@@ -649,6 +689,8 @@
 
   /* ---------- boot ---------- */
   function init() {
+    /* Icônes gravées : hydrate les emplacements data-ico (nav, mode switch) */
+    $$('[data-ico]').forEach((el) => { if (!el.firstChild) el.innerHTML = window.ico(el.getAttribute('data-ico')); });
     applyTheme();
     applyFont();
     renderTree('');
@@ -668,15 +710,38 @@
     $('#fontDec').addEventListener('click', () => { const o = ['sm', 'md', 'lg']; state.font = o[Math.max(0, o.indexOf(state.font) - 1)]; applyFont(); LS.set('font', state.font); });
     $('#fontInc').addEventListener('click', () => { const o = ['sm', 'md', 'lg']; state.font = o[Math.min(o.length - 1, o.indexOf(state.font) + 1)]; applyFont(); LS.set('font', state.font); });
     $('#themeBtn').addEventListener('click', () => { state.theme = state.theme === 'dark' ? 'light' : 'dark'; LS.set('theme', state.theme); applyTheme(); });
+    /* Topbar mobile : options (A−/A+/thème) repliées derrière "⋯" */
+    const moreBtn = $('#topbarMore');
+    if (moreBtn) {
+      const closeMore = () => { document.body.classList.remove('topbar-more-open'); moreBtn.setAttribute('aria-expanded', 'false'); };
+      moreBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const open = document.body.classList.toggle('topbar-more-open');
+        moreBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+      document.addEventListener('click', (e) => {
+        if (!document.body.classList.contains('topbar-more-open')) return;
+        if (e.target.closest('#topbarOpts, #topbarMore')) return;
+        closeMore();
+      });
+      document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeMore(); });
+    }
     $('#btnDashboard').addEventListener('click', () => { openDashboard(); document.body.classList.remove('sidebar-open'); });
+    const helpDlg = $('#dlgHelp');
+    const openHelp = () => { if (helpDlg && !helpDlg.open) { helpDlg.showModal(); const c = $('#btnCloseHelp'); if (c) c.focus(); } };
+    const helpBtn = $('#btnHelp');
+    if (helpBtn) helpBtn.addEventListener('click', openHelp);
+    const helpClose = $('#btnCloseHelp');
+    if (helpClose) helpClose.addEventListener('click', () => { if (helpDlg && helpDlg.open) helpDlg.close(); });
 
     document.addEventListener('keydown', (e) => {
-      if (e.target.matches('input, textarea')) return;
-      if (e.key === '/') { e.preventDefault(); $('#searchInput').focus(); }
+      if (e.target.matches('input, textarea, select')) return;
+      if (e.key === '?') { e.preventDefault(); openHelp(); }
+      else if (e.key === '/') { e.preventDefault(); $('#searchInput').focus(); }
       else if (e.key === '[') nextPrev(-1);
       else if (e.key === ']') nextPrev(1);
       else if (e.key.toLowerCase() === 'd') { state.theme = state.theme === 'dark' ? 'light' : 'dark'; LS.set('theme', state.theme); applyTheme(); }
-      else if (e.key === 'Escape') document.body.classList.remove('sidebar-open');
+      else if (e.key === 'Escape') { if (document.querySelector('dialog[open]')) return; document.body.classList.remove('sidebar-open'); }
     });
 
     const last = LS.get('last', null);

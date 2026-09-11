@@ -50,7 +50,7 @@ Trois colonnes font la grammaire du tableau :
 
 ## 4. EXEMPLE de déroulé n°1 — S1 Notion, jour par jour (gabarit à reproduire)
 
-- **J1 (45 min) :** créer les bases CLIENTS et MISSIONS en suivant `04_Skills_To_Learn/01_Legal_Tech_Stack/02_Notion_Detaille.md`. Ne rien inventer : dupliquer la structure du vault.
+- **J1 (45 min) :** créer les bases CLIENTS et MISSIONS en suivant `04_Skills_To_Learn/01_Legal_Tech_Stack/02_Notion_Cabinet_OS_Detaille.md`. Ne rien inventer : dupliquer la structure du vault.
 - **J2 (30 min) :** importer 2 clients fictifs — Yassine (dev offshore ~600 000 DH/an, au-delà du plafond AE services de 200 000 DH) et Fatima (e-commerce 30 000 DH/mois, sous le plafond commerce de 500 000 DH mais concernée par la loi 09-08 dès qu'elle collecte des données clients) — et 1 mission « Pack Freelance Contrat Offshore 2 900 DH HT ».
 - **J3 (45 min) :** configurer le dashboard 3 MITs + la vue Dopamine Board (streaks).
 - **J4 (30 min) :** tester le workflow complet : intake Tally → fiche client → mission → facture.

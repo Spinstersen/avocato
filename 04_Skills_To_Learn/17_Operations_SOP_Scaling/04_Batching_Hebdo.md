@@ -68,7 +68,7 @@ Jeudi : le même client est calmé parce que sa revue hebdo est arrivée — et 
 
 ```text
 LUNDI     matin  BLOC RÉDACTION (SOP en cours)        après-midi  missions / RDV isolés
-MARDI     matin  rédaction résiduelle + Loom           après-midi  disponibilité réelle
+MARDI     matin  rédaction résiduelle + restitutions    après-midi  disponibilité réelle
 MERCREDI  matin  diagnostics (si pas jeudi)            après-midi  atelier ou mentorat
 JEUDI     matin  BLOC RDV (diagnostics, kickoffs)      après-midi  rédaction légère
 VENDREDI  matin  revue hebdo Notion                    14 h-15 h 30  BLOC RELANCES & ADMIN

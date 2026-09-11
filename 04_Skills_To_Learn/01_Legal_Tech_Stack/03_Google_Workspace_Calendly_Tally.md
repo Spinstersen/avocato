@@ -15,7 +15,7 @@ Un jeune cabinet perd des prospects à trois endroits : mail parti en spam (deli
 5. **SPF** : TXT `v=spf1 include:_spf.google.com ~all`. **DKIM** : admin Console → Application → Google Workspace → Settings for Gmail → Authenticate email → activer (clé 2048 bits). **DMARC** : TXT `_dmarc` → `v=DMARC1; p=none; rua=mailto:dmarc@cabinet.ma`.
 6. Tester : envoyer un mail à un compte Gmail, « Afficher l'original » → `DKIM: PASS` + `SPF: PASS`. Ou mail-tester.com → score ≥8/10.
 7. Drive : arborescence `00_CLIENTS/[CodeClient]/[Mission]/` , `01_TEMPLATES/` , `02_COMPTA/` , `03_VIDEOS_LOOM/`.
-8. Signature sobre (nom, barreau, adresse, tél, site) — pas de slogan, pas de « meilleure cabinet » ; modèle dans `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/12_Fiches_Pratiques.md`.
+8. Signature sobre (nom, barreau, adresse, tél, site) — pas de slogan, pas de « meilleure cabinet » ; modèle dans `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/12_Fiches_Pratiques_Avocat.md`.
 
 **Pourquoi c'est critique :** sans DKIM, les confirmations de RDV tombent en spam chez Gmail — ton client ne reçoit pas le lien Meet et te croit désorganisé.
 

@@ -30,7 +30,7 @@
 ### À faire — `webapp/cabinet.js:49` `calcTTC` + `openDlgDossier` + `genConvention`
 
 - [x] **Hydrater identité plaque** : dans `genConvention` `previewConvention`, remplacer `[Nom]/[Ville]/[X]` par valeurs plaque `Maître Ayoub` / `Barreau` lues depuis `plaque-meta` ou `localStorage avocato:plaque` (fallback `Maître [Nom]` si vide). Injecter `dossier.client` + `ICE` déjà fait, mais ajouter `dossier.contact` tel.
-- [x] **Miroir param mission** : remplacer lorem `"1 présentation Loom 15 min + 1 révision sous 7 jours"` par mapping mission → texte (ex: `Diagnostic → 1 restitution Loom 15min + 1 correctif J+7`, `Loi 09-08 → Registre 5 onglets + dépôt CNDP`). Si mission inconnue, garder générique mais sans crochets.
+- [x] **Miroir param mission** : remplacer lorem `"1 restitution (Loom / visio Zoom / au cabinet) + 1 révision sous 7 jours"` par mapping mission → texte (ex: `Diagnostic → 1 restitution Loom 15min + 1 correctif J+7`, `Loi 09-08 → Registre 5 onglets + dépôt CNDP`). Si mission inconnue, garder générique mais sans crochets.
 - [x] **Lien visuel provision** : dans preview table, ligne `Provision 50% = 2 100 TTC` doit reprendre exactement la valeur du live ci-dessus (même `calcTTC` + `provisionPct`). Ajouter microcopy sous table `12px #6b6a63` : `Provision encaissée à la signature — protège art.30, solde verrouillé à la remise. RIB 24 chiffres en pied.`
 
 **Acceptance :**

@@ -8,10 +8,10 @@
 *   **Persona:** Hicham, 38 ans, cofondateur SaaS B2B (10 employés), 200 clients Maroc + 30 UE. Pas de registre, mentions absentes, données en clair dans HubSpot hébergé UE/US.
 *   **Cadre:** Loi 09-08 (dahir 1-09-15, BO 5714) + décret 2-10-450 : formalités préalables (déclaration ; **autorisation** pour données sensibles), registre des traitements, information, sécurité, transferts hors Maroc encadrés ; volet pénal art. 52-65 — citables en diagnostic : **art. 64 (défaut de formalités : 10 000-100 000 DH)**, art. 65 (collecte frauduleuse : jusqu'à 3 ans de prison). + GDPR (règlement UE 2016/679) : art. 3(2) (application extraterritoriale), art. 27 (représentant UE), art. 28 (sous-traitants), art. 44-49 (transferts). *(Note 28/08/2026 : les numéros internes du vault « art. 12-14 / 23 / 43-44 » pour le droit marocain ne sont pas vérifiés au texte consolidé — transposer depuis `sgg.gov.ma` avant citation publique.)*
 *   **Règle:** Le Maroc n'a **pas** de décision d'adéquation UE. Un SaaS marocain qui sert l'UE doit satisfaire **aux deux** — 09-08 et GDPR — via clauses contractuelles types, pas l'un ou l'autre.
-*   **Offre:** Diagnostic 1 200 HT → Pack Conformité 09-08 PME 8 000-12 000 HT → Alignment GDPR 5 000-8 000 HT → Abonnement veille conformité 4 500 HT/mois.
+*   **Offre:** Diagnostic 900 HT → Pack Conformité 09-08 PME 8 000-12 000 HT → Alignment GDPR 5 000-8 000 HT → Abonnement veille conformité 4 500 HT/mois.
 *   **Canal #1:** LinkedIn tech + SEO « loi 09-08 » + partenariats DSI/agences web qui livrent des sites non conformes sans le savoir.
 
-## Comment lire ce dossier (14 fichiers)
+## Comment lire ce dossier (17 fichiers)
 
 | # | Fichier | Quand le consulter |
 | :--- | :--- | :--- |
@@ -29,6 +29,9 @@
 | 11 | `11_Arbre_Decision_Niche.md` | Déclarer, autoriser, s'aligner : l'arbre en 2 min |
 | 12 | `12_Fiches_Pratiques_Niche.md` | Checklist 15 points + modèles Document Bank |
 | 13 | `13_Solutions_Juridiques.md` | **Le playbook douleur → parade** : solution juridique détaillée de chaque douleur (registre, clause rédigée, procédure, piège) |
+| 14 | `14_Registre_Audit_Encyclopedique.md` | Cartographie, registre 5 colonnes, formalités CNDP, transferts |
+| 15 | `15_Sanctions_Controle_Reponse.md` | Déclencheurs, déroulé contrôle, 3 cas, kit 72h |
+| 16 | `16_Pack_Site_SaaS_Conformite.md` | Pack vendable S1-S4 + récurrence veille |
 
 ## Matrice risque (à afficher en diagnostic)
 

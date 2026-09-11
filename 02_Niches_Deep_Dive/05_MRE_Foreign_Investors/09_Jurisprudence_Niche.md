@@ -20,7 +20,7 @@
 *   **BOFiP BOI-INT-CVB-MAR** (administration fiscale française, commentaire officiel de la convention de 1970) — source primaire pour toute note sur les dividendes/résidence. Gratuit, daté, citable.
 *   **IGOC 2026** (`oc.gov.ma`, édition applicable au 01/01/2026) + circulaires Office des Changes : la matière « change » est **réglementaire et bancaire**, pas jurisprudentielle ; la citation correcte est l'article/circulaire + la réponse écrite de la banque, jamais « la pratique veut que ».
 *   **Charte 03-22** : art. 37-38 (règlement des différends des conventions d'investissement) + décret n° 2-23-1 + arrêté n° 3-13-23 (BO n° 7184) : les textes fondateurs à épingler aux notes plutôt que des « décisions » hypothétiques.
-*   **Maroc, CA de commerce de Casablanca 2024 « NOUR DAR / ALNOUR »** (marque 231440 — banque `08_Jurisprudence/05_PI_OMPIC.md`) : cité ici uniquement pour le volet PI du programme d'investissement de l'étranger (dépôt marque 17-97, opposition art. 148.2-3) — pas pour inventer une « jurisprudence MRE ».
+*   **Maroc, CA de commerce de Casablanca 2024 « NOUR DAR / ALNOUR »** (marque 231440 — banque `08_Jurisprudence/05_Propriete_Intellectuelle_OMPIC.md`) : cité ici uniquement pour le volet PI du programme d'investissement de l'étranger (dépôt marque 17-97, opposition art. 148.2-3) — pas pour inventer une « jurisprudence MRE ».
 
 ## 4. Interdits de citation (liste de contrôle niche 05)
 

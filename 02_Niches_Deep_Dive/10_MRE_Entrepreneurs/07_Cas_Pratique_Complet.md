@@ -26,7 +26,7 @@ M1 Pack MRE 8 500 HT (dossier avec futur salariat) + débours estimés 3 000-4 0
 - **J+17** : enregistrement, immatriculation RC (OMPIC), IF/TP, déclaration de commencement d'activité ; ICE ;
 - **J+20** : contrats types livrés (prestation FR/EN ; CGV ; mention TVA du régime) ; note 09-08 « vos fichiers clients = traitement de données — dépôt à faire » (option) ;
 - **J+25** : **avenant/letter of engagement** pour le cousin (mandat de collaboration **sans lien de subordination** ou **CDI différé** — décision écrite `13` S8) ;
-- **J+30** : Loom clôture 20 min + **agenda année 1** (8 dates : TVS mensuelle/trimestrielle, CNSS si embauche, AG à M+15, liasse, veille LF/IGOC au 1/1).
+- **J+30** : restitution clôture 20 min + **agenda année 1** (8 dates : TVS mensuelle/trimestrielle, CNSS si embauche, AG à M+15, liasse, veille LF/IGOC au 1/1).
 
 ## 5. Année N+1 : le test que le client attendait — premier dividende
 

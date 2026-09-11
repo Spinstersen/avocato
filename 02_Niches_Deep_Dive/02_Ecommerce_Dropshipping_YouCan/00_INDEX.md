@@ -6,7 +6,7 @@
 
 Niche à volume. Persona Salma, e-commerçante YouCan à Marrakech. Pack cœur : Pack CGV E-commerce YouCan à 4 900 DH HT. Canaux : SEO FR, groupes Facebook e-commerce, ateliers en coworking, partenariats comptables et plateforme. Le bon angle de vente n'est pas « être en règle » mais « débloquer CMI et dormir pendant le Ramadan ».
 
-## Comment lire ce dossier (14 fichiers)
+## Comment lire ce dossier (17 fichiers)
 
 | # | Fichier | Quand le consulter |
 | :--- | :--- | :--- |
@@ -24,6 +24,9 @@ Niche à volume. Persona Salma, e-commerçante YouCan à Marrakech. Pack cœur :
 | 11 | `11_Arbre_Decision_Niche.md` | L'arbre de la commande (info → preuve → statut) |
 | 12 | `12_Fiches_Pratiques_Niche.md` | Checklist 15 points boutique conforme |
 | 13 | `13_Solutions_Juridiques.md` | **Le playbook douleur → parade** : solution juridique de chaque douleur (clause rédigée, process, piège) |
+| 14 | `14_CGV_Ecommerce_Encyclopedique.md` | CGV clause par clause 31-08/53-05/09-08 + 3 variantes + dossier CMI |
+| 15 | `15_Dotation_Ads_Import_Decortique.md` | Dotation e-commerce, import, TVA/IS : dossier banque complet |
+| 16 | `16_Litiges_Chargeback_Reputation.md` | 5 litiges + chargeback CMI/Stripe + procédure interne |
 
 ## ⚠️ Vérité juridique — watch (complète dans `01_Freelancers_Agencies_Offshore/00_INDEX.md`, vérifiée 28/08/2026)
 
@@ -45,7 +48,7 @@ Corrections spécifiques appliquées à ce dossier après vérification (`dgssi.
 - Politique de confidentialité type.
 - Modèle de politique de retour (minimum légal 7 jours, politique commerciale 14-30 jours).
 - Registre 09-08 vierge + notice de tenue.
-- Note explicative Loom 15 min.
+- Note explicative en restitution : Loom 15 min, ou visio Zoom / au cabinet (20-30 min) selon le client.
 
 ## Le persona — Salma
 

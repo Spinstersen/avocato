@@ -22,7 +22,7 @@ Sortie finale de la SOP : dossier clôturé, PV de remise signé, solde encaiss�
 | 5 | 20 min | **Kickoff.** Appel ou message écrit bilatéral : ce que je fais / ce que le client fournit / canal unique / revue hebdo fixe | Email de cadrage post-kickoff archivé |
 | 6 | 3 h 30 | **Rédaction.** Bloc de rédaction profond ([[04_Batching_Hebdo]]) : trame du pack, adaptation au client, deux relectures espacées | Projet complet en version « interne » horodatée |
 | 7 | 45 min | **Contrôle qualité interne.** Checklist de fin du fichier ; correction ; mise en forme finale | Checklist cochée dans la fiche Notion |
-| 8 | 25 min | **Loom de livraison.** Vidéocode courte (8-12 min) préparée en 15 min : ce qui est livré, où sont les 3 points à lire, ce que le client doit faire maintenant | Loom envoyée avec le pack en PDF |
+| 8 | 25 min | **Restitution de livraison.** Canal selon le client : Loom (vidéo courte 8-12 min préparée en 15 min) ou session live Zoom / au cabinet (30 min, sans tournage — les questions sortent de la session). Même contenu : ce qui est livré, où sont les 3 points à lire, ce que le client doit faire maintenant | Restitution faite (lien envoyé avec le pack PDF, ou session tenue) |
 | 9 | 15 min | **Facture de solde.** Émettre le solde 1 450 HT ; conditionner le PV de remise à l'usage, pas à l'envoi | Facture solde envoyée, échéance J+10 posée |
 | 10 | 20 min | **Clôture.** `08_PV_Remise_Cloture.md` signé ; mini-bilan écrit ; question de feedback isolée de la facture ; archivage ; éventuelle demande de témoignage consenti | Dossier statut « clos », pièces archivées |
 
@@ -43,7 +43,8 @@ Hypothèse à valider sur trois packs consécutifs avant d'ajuster le prix ou le
 2. Tout le périmètre promis dans la convention est livré ; rien au-delà n'est livré (le hors-périmètre se facture en avenant, jamais en cadeau — cf. la mécanique de [[11_Negotiation_Psychology/04_Gestion_Client_Difficile]]).
 3. Chaque clause sensible porte une note de bas de page « à adapter à ton activité » — le pack informe, il ne simule pas du sur-mesure non qualifié.
 4. Zéro donnée d'un autre client dans les exemples ou trames copiées (hygiène du secret professionnel — loi 66-23, ex-loi 28-08, secret repris avec sa propre numérotation à vérifier).
-5. La Loom a été regardée en entier par toi avant envoi (le « oublié au montage » existe).
+5. Si canal Loom : la vidéo a été regardée en entier par toi avant envoi (le « oublié au montage » existe).
+   Si canal live : les 3 points à lire sont écrits dans l'agenda de la session.
 
 ## Exemple verbatim — le message de kickoff (étape 5)
 
@@ -66,8 +67,8 @@ Hypothèse à valider sur trois packs consécutifs avant d'ajuster le prix ou le
   La provision de 50 % est un cadre structurant (ex-art. 30/32 de la loi 28-08, transposition loi 66-23 — numérotation à vérifier), pas un manque de confiance.
 - **La rédaction qui glisse de 3 h 30 à 6 h** parce que « tant qu'à faire, j'ajoute une clause » : chaque ajout sans avenant est une baisse déguisée du taux horaire.
   Le périmètre est écrit à l'étape 3, il est clos.
-- **Livrer sans Loom** : le client ne lit pas un pack de 25 pages, il regarde 9 minutes.
-  Sans Loom, tu paies en questions répétées ce que tu as économisé en préparation ([[03_Bibliotheque_SOP_Diagnostic_Et_Atelier]]).
+- **Livrer sans restitution** (aucun canal) : le client ne lit pas un pack de 25 pages, il regarde 9 minutes
+  ou écoute 30. Sans restitution, tu paies en questions répétées ce que tu as économisé en préparation ([[03_Bibliotheque_SOP_Diagnostic_Et_Atelier]]).
 - **Clôturer sans PV** : sans PV de remise signé, la mission reste ouverte psychologiquement et juridiquement — le solde se rappelle mal et la clôture NPS n'a pas de date anniversaire.
 - **Envoyer le feedback avec la facture de solde** → mesure biaisée.
   Question NPS séparée, à J+7 minimum ([[10_Public_Speaking_Ateliers/07_Metriques_NPS]] pour la mécanique de mesure).
@@ -89,7 +90,8 @@ Hypothèse à valider sur trois packs consécutifs avant d'ajuster le prix ou le
 6. Email de kickoff envoyé : moi / toi / canal / urgence / revue hebdo.
 7. Bloc rédaction posé dans le calendrier ; timer Clockify démarré à l'ouverture.
 8. Contrôle qualité des 5 points coché AVANT export PDF.
-9. Loom préparée (15 min), enregistrée (8-12 min), regardée en entier.
+9. Restitution préparée : Loom (15 min + enregistrement 8-12 min + visionnage complet)
+   ou session Zoom/cabinet de 30 min calée à J5.
 10. Facture de solde émise à la livraison, échéance J+10 dans le calendrier.
 11. PV de remise signé à réception ; archive de la mission close.
 12. Durée réelle relevée dans la fiche ; écart vs 7 h 25 noté pour l'audit.

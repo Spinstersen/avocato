@@ -34,7 +34,7 @@ Entre les soussignés :
 ## 1. Objet de la mission
 [Description précise : ex. "Rédaction d'un contrat de prestation
 FR/EN, CGV e-commerce, modèle de devis et facture conformes, note
-de choix de statut, note explicative Loom 15 min"]
+de choix de statut, restitution explicative (Loom 15 min, ou visio Zoom / au cabinet)"]
 
 ## 2. Étendue des prestations
 [Liste des livrables attendus]

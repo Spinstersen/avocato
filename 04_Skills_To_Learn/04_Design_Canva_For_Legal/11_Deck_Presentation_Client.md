@@ -1,6 +1,6 @@
 # 11 — Le deck de présentation client : 12 slides pour la réunion de closing
 
-> **À quoi ça sert :** le gabarit T9 du dossier — le deck qu'on projette (ou qu'on envoie) en réunion de restitution de diagnostic et de remise des deux options : 12 slides maximum, une densité maximale de 28 mots par slide, les tokens de `DESIGN.md` (encrier `#070e1c`/`#0f2a44`, parchemin `#f6f0e3`, laiton `#c5a46a`, teal `#1a8a7f` en ≤10 %), et une loi absolue : **le deck ne promet jamais un résultat.** Export PDF + note Loom. **Pour qui :** l'avocat qui accompagne un diagnostic 900 DH HT d'une vraie soutenance — et refuse le Word de 1998 comme la présentation « agence » qui jurerait avec le cabinet. Temps de lecture : 15 minutes.
+> **À quoi ça sert :** le gabarit T9 du dossier — le deck qu'on projette (ou qu'on envoie) en réunion de restitution de diagnostic et de remise des deux options : 12 slides maximum, une densité maximale de 28 mots par slide, les tokens de `DESIGN.md` (encrier `#070e1c`/`#0f2a44`, parchemin `#f6f0e3`, laiton `#c5a46a`, teal `#1a8a7f` en ≤10 %), et une loi absolue : **le deck ne promet jamais un résultat.** Export PDF + restitution (note Loom ou session live). **Pour qui :** l'avocat qui accompagne un diagnostic 900 DH HT d'une vraie soutenance — et refuse le Word de 1998 comme la présentation « agence » qui jurerait avec le cabinet. Temps de lecture : 15 minutes.
 
 ## POURQUOI un deck alors que la note existe
 

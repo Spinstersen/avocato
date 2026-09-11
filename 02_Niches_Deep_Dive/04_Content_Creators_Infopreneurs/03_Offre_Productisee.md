@@ -30,7 +30,7 @@ Après le premier contrat relu, le besoin bascule : Yasmine ne veut plus attendr
 2.  **Version FR + courtoisie EN** (FR fait foi).
 3.  **Annexe formulaire d'acceptation** (le « oui » de la marque vaut contrat — preuve DOC art. 443).
 4.  **Checklist de signature** 1 page : les 7 questions avant d'envoyer (qui, quoi, quand, combien, combien de droits, combien de temps, qui paie si ça casse).
-5.  Loom 15 min : comment présenter, argumenter, tenir la trame.
+5.  Restitution 15 min (Loom ou session live) : comment présenter, argumenter, tenir la trame.
 
 ### Méthodologie
 
@@ -87,7 +87,7 @@ J-3 : DM entrant / referral — envoi du contrat de la marque
 J-2 : Diagnostic 45 min (900 HT, déduit si mission sous 14j)
 J   : Convention Yousign + provision
 J+1 : Note de négociation + contre-projet de clauses
-J+3 : Livrable + Loom d'appropriation 30 min
+J+3 : Livrable + restitution d'appropriation 30 min
       → Yasmine envoie sa contre-proposition, la marque signe (ou pas)
 J+30 : Check-in : quel deal reçu entre-temps ? (relecture incluse)
 J+90 : Proposition Pack Contrat cadre (2 500-3 500) puis abonnement si >2 deals/mois

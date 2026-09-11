@@ -26,7 +26,7 @@ Quatre raisons de fermer une mission avec le même soin qu'on l'ouvre :
 
 | Temps | Geste | Outil / base |
 |---|---|---|
-| C0 | Vérifier que les livrables sont « FINAL-signer » + Loom envoyé (`05_Livrable_Qualite.md`) | `03_livrables/` |
+| C0 | Vérifier que les livrables sont « FINAL-signer » + restitution faite (Loom/Zoom/cabinet) (`05_Livrable_Qualite.md`) | `03_livrables/` |
 | C0 | **PV de remise** signé (ou contresigné par email) : pièces remises, observations du client, statut du solde | template `[[08_PV_Remise_Cloture]]` — l'utiliser et le dater, pas le réécrire |
 | C0 | **Facture de solde** : mentions **CGI art. 145** (numéro vérifié par l'audit — jamais « 144 »), ICE, TVA ; formule « solde de tout compte de la mission [réf], hors avenants » | `12_Finance_Cabinet_OS/04_Devis_Facture_TVA` |
 | C0+ | **Note de clôture interne** : ce qui a marché / ce qui a coûté trop cher / délai réel vs promis — 5 lignes | base Notion Missions |

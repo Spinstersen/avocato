@@ -6,7 +6,7 @@
 
 Niche de transition, volume structurellement garanti (tout AE qui réussit y entre). Persona Tarik, consultant marketing à Casablanca, AE **services** à 350 k DH/an : doublement hors plafond (200 k), avec un client personne morale qui retient 30 % sur la fraction > 80 k — il paie déjà l'impôt de la SARL sans en avoir les droits. Pack cœur : **Pack Bascule AE → SARL 4 900-6 900 DH HT** (30 jours, radiation + immatriculation + contrats + premier bulletin de paie). Diagnostic 900 DH HT.
 
-## Comment lire ce dossier (14 fichiers)
+## Comment lire ce dossier (17 fichiers)
 
 | # | Fichier | Quand le consulter |
 | :--- | :--- | :--- |
@@ -24,6 +24,9 @@ Niche de transition, volume structurellement garanti (tout AE qui réussit y ent
 | 11 | `11_Arbre_Decision_Niche.md` | Trois questions, un ordre : plafond → client → emploi |
 | 12 | `12_Fiches_Pratiques_Niche.md` | Kit bascule 30 j + checklist 1ᵉʳ recrutement + agenda AE compliant |
 | 13 | `13_Solutions_Juridiques.md` | **Le playbook douleur → parade** : clauses rédigées, étapes datées, pièges |
+| 14 | `14_Bascule_AE_SARL_PasAPas.md` | Plan 30j : diagnostic, création, transfert carnet, année 1 |
+| 15 | `15_IS_TVA_Remuneration_Annee1.md` | Charges, TVA, mix salaire/dividende simulé |
+| 16 | `16_Premier_Recrutement_Faux_Freelance.md` | CDI/CDD, CNSS, sortie, frontière freelance |
 
 ## ⚠️ Vérité juridique — watch (voir `01/00_INDEX.md` pour la liste complète ; vérifié 29/08/2026)
 
@@ -47,7 +50,7 @@ Points spécifiques à cette niche, corrigés lors du redo :
 - Statuts SARL/SARL-AU sur mesure ; certificat négatif, RC, IF/TP, commencement d'activité.
 - Kit de bascule daté : déclaration de cessation AE, transfert/cession du carnet de clients (avenants de reprise), compte bancaire professionnel ouvert AVANT la première facture.
 - Premier salarié : contrat loi 65-99 + bulletin + adhésion CNSS (option du pack).
-- Note explicative Loom 20 min + agenda de conformité de l'année 1.
+- Restitution explicative 20 min (Loom ou session Zoom/cabinet) + agenda de conformité de l'année 1.
 
 ## Le persona — Tarik
 

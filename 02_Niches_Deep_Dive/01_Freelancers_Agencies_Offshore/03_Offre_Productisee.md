@@ -28,7 +28,7 @@ Le freelance facture sans contrat écrit, sous statut AE au-delà du plafond (20
 
 ### Livrables
 
-*   Note de risques 2 pages (PDF Canva sobre) + Loom explicatif 10 min + matrice décision AE/SARL.
+*   Note de risques 2 pages (PDF Canva sobre) + restitution explicative 10 min + matrice décision AE/SARL.
 
 ### Déroulement et provision
 
@@ -71,7 +71,7 @@ Loi 5-96 (SARL, y compris SARL à associé unique ; capital librement fixé, pas
 ### Contenu
 
 *   Statuts, PV constitution, déclaration gérance, formulaire RC/ICE/IF, attestation de blocage capital, suivi CRI 7-14j.
-*   Note explicative Loom 15 min + tableau AE vs SARL.
+*   restitution explicative (Loom 15 min, ou visio Zoom / au cabinet) + tableau AE vs SARL.
 
 ### Débours en sus
 

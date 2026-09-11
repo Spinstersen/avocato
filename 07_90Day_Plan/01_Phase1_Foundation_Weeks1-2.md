@@ -12,7 +12,7 @@
 **Day 2: Offer & Price**
 - [ ] 1h: Read deep dive for chosen niche (ex: `02_Niches_Deep_Dive/01_Freelancers...`)
 - [ ] 1h: Choose pack to sell (ex: Mission Contrats - Formule Essentielle 2,900 DH HT) — define its 5 deliverables.
-- [ ] 30 min: Create devis template in Canva (copy from `05_Document_Bank/templates/01_Devis_Template.md`)
+- [ ] 30 min: Create devis template in Canva (copy from `05_Document_Bank/templates/01_Convention_Honoraires_Modele.md`)
 
 **Day 3: Lead Magnet**
 - [ ] 2h: Create ONE lead magnet (Checklist 12 clauses OR Quiz Tally). Design in Canva 1 page.
@@ -40,7 +40,7 @@
 **Day 10: Delivery System**
 - [ ] Create Notion CRM (1 table Leads as in `06_ADHD_System/02_Notion...`) — 30 min.
 - [ ] Prepare Loom + contract/CGV template skeleton (copy structure from document bank) — 2h with AI.
-- [ ] Test delivery: send yourself a fake pack (PDF + Loom).
+- [ ] Test delivery: send yourself a fake pack (PDF + restitution).
 
 **Day 11-12: Atelier Prep (Optional but high ROI)**
 - [ ] Identify venue + 1 co-host for atelier in Week 5-6. Send proposal message.

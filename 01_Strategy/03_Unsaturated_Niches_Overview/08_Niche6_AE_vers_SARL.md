@@ -25,14 +25,14 @@ La niche 6 est une niche de **transition** : les auto-entrepreneurs marocains en
 ### 3.1 Plafond CA auto-entrepreneur atteint
 
 - 200 000 DH/an pour services → bascule obligatoire en SARL ou autre.
-- 1 million DH/an pour commerce → idem.
+- 500 000 DH/an pour le commerce → idem.
 - Risque : taxation rétroactive, redressement fiscal.
 
 ### 3.2 Fiscalité moins favorable au-delà du plafond
 
-- AE : IR libératoire 1-3% pour services, 0,5-1% pour commerce.
+- AE : IR libératoire 1% pour les services, 0,5% pour le commerce (CGI art. 42 et s.).
 - Au-delà de 200 000 DH/an CA, le régime AE n'est plus applicable.
-- SARL : IS 15% (jusqu'à 300 k DH bénéfice) ou 31% au-delà, mais déduction des charges (salaires, frais, investissements).
+- SARL : IS **20%** (bénéfice net fiscal < 100 M DH), **35%** (≥ 100 M DH), **40%** (secteur financier) — taux 2026, mais déduction des charges (salaires, frais, investissements).
 
 ### 3.3 Besoin d'embauche
 
@@ -59,7 +59,7 @@ Livrables :
 - PV de constitution.
 - Accompagnement clôture AE (cessation ou conservation).
 - Formalités OMPIC, RC, IF, TP.
-- Note explicative Loom 15 min.
+- Note explicative en restitution : Loom 15 min, ou visio Zoom / au cabinet (20-30 min) selon le client.
 
 ### 4.2 Pack Création SARL-AU — 4 900 DH HT
 
@@ -100,8 +100,8 @@ Tarik, AE, 350 k DH/an CA, veut embaucher et se verser un salaire. Hésite à pa
 ### Diagnostic
 
 Calcul comparatif :
-- AE : 350 k × 2% = 7 000 DH IR + CNSS forfaitaire 500 DH = 7 500 DH/an.
-- SARL : IS 15% sur bénéfice (350 k - charges 200 k = 150 k bénéfice × 15% = 22 500 DH IS + comptabilité 15 000 DH/an + salaire dirigeant 60 k DH/an → charges sociales 30 k DH = beaucoup plus cher mais avec salaire et CNSS).
+- AE : 350 k × 1% = 3 500 DH IR + CNSS forfaitaire 500 DH = 4 000 DH/an — mais 350 k dépasse le plafond services (200 k) : le régime AE n'est déjà plus régulier ; s'il s'agit de commerce (plafond 500 k), il reste éligible à 0,5%.
+- SARL : IS 20% sur bénéfice (350 k - charges 200 k = 150 k bénéfice × 20% = 30 000 DH IS) + comptabilité 15 000 DH/an + salaire dirigeant 60 k DH/an → charges sociales 30 k DH = plus cher, mais avec salaire et CNSS.
 
 Conclusion : SARL plus chère globalement, mais salaire + protection + scalabilité. À décider selon objectifs.
 

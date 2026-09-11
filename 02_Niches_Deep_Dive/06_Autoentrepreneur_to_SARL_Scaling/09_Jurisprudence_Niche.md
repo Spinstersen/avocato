@@ -12,7 +12,7 @@
 ## 2. La « jurisprudence » réelle dont on a besoin ici
 
 *   **Requalification du travail dissimulé** : la matière vit au **tribunal social** (liens de subordination de fait — horaires, matériel, exclusivité) et dans les **redressements CNSS**, rarement dans des arrêts publiés en français. Méthode du vault : ne citer que les décisions **portées à un dossier client ouvert** ; ailleurs, décrire le mécanisme de requalification sans numéro.
-*   **CA com Casablanca 2024 « NOUR DAR / ALNOUR »** (marque 231440, opposition annulée pour dépassement du délai de l'art. 148-3 — `08_Jurisprudence/05_PI_OMPIC.md`) : utile ici **uniquement** pour l'étape dépôt de la marque de la nouvelle SARL — rappel au client que la raison sociale protégée par le certificat négatif ne protège pas contre un titulaire antérieur de marque.
+*   **CA com Casablanca 2024 « NOUR DAR / ALNOUR »** (marque 231440, opposition annulée pour dépassement du délai de l'art. 148-3 — `08_Jurisprudence/05_Propriete_Intellectuelle_OMPIC.md`) : utile ici **uniquement** pour l'étape dépôt de la marque de la nouvelle SARL — rappel au client que la raison sociale protégée par le certificat négatif ne protège pas contre un titulaire antérieur de marque.
 *   **Doctrine DGI AE** : guides et FAQ du portail `ae.gov.ma` (dépassement, radiation au 1/1 N+1 après deux années, déclaration à zéro obligatoire) — la « doctrine » de la niche, gratuite et mise à jour. À archiver en PDF daté dans le dossier de veille.
 
 ## 3. Interdits de citation (liste de contrôle niche 6)

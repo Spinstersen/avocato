@@ -95,7 +95,7 @@ Yassine n'achète pas un « avocat généraliste ». Il achète un **partenaire 
             ↓
 [Mission Pack Freelance Contrat 2 900 DH HT + création SARL 4 900 DH HT]
             ↓
-[Livraison sous 14 jours, Loom de clôture]
+[Livraison sous 14 jours, restitution de clôture]
             ↓
 [Abonnement Secrétariat Juridique 4 500 DH HT/mois]
             ↓

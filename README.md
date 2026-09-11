@@ -1,27 +1,48 @@
-﻿# AVOCATO — Your No-Ads Client Acquisition Vault
+# AVOCATO - Your No-Ads Client Acquisition Vault
 
-> For a Moroccan `Avocat` (Droit de l'Entreprise) | Trilingual (AR/FR/EN) | Tech + AI + Design Savvy | Small City | Small Office | ADHD-Friendly
+> Pour un `Avocat` marocain (Droit de l'Entreprise) | Trilingue (AR/FR/EN) | Tech + AI + Design | Petite ville / Petit cabinet | ADHD-Friendly
 
-**Core Constraint:** Moroccan Law 28-08 forbids direct advertising/démarchage. This entire vault is built to get clients *without* advertising.
+**Contrainte :** La loi 66-23 (ex 28-08) interdit la publicité/démarchage. Tout ce vault est conçu pour obtenir des clients *sans publicité*.
 
-### Your Unfair Advantages (Why you will win)
-1.  **Trilingual:** 90% of lawyers are FR/AR only. You can capture EN market: MRE, offshoring, startups, freelancers paid in USD.
-2.  **Tech/AI/Design:** You can productize law (packs, templates, Notion) while others sell hourly consultations.
-3.  **Small City = Low Cost + National Reach:** You don't need foot traffic. Your office is a Zoom studio. Your clients are in Casa/Rabat/Tanger + Dubai/Paris online.
-4.  **Droit de l'Entreprise:** The most monetizable master for *recurring* B2B clients (not one-shot divorce cases).
+### Vos avantages unfair (pourquoi vous allez gagner)
+1. **Trilingue :** 90% des avocats sont FR/AR seulement. Vous captez le marché EN : MRE, offshoring, startups, freelances payés en USD.
+2. **Tech/AI/Design :** Vous productisez le droit (packs, templates, Notion) pendant que d'autres vendent de l'heure.
+3. **Petite ville = Coût faible + Portée nationale :** Pas besoin de passage. Votre bureau est un studio Zoom. Vos clients sont à Casa/Rabat/Tanger + Dubai/Paris en ligne.
+4. **Droit de l'Entreprise :** Le master le plus monétisable pour des clients B2B récurrents (pas des dossiers one-shot divorce).
 
-### How to Use This Vault (ADHD Mode)
-- **Don't read linearly.** Start with `00_START_HERE/00_READ_ME_FIRST.md` (5 min)
-- Then pick **ONE niche** from `02_Niches_Deep_Dive/` (don't try 3 at once)
-- Then run **ONE acquisition channel** from `03_Acquisition_Without_Ads/`
-- Use `06_ADHD_System/` to not burn out
+### Comment utiliser ce Vault (mode ADHD)
+- **Ne lisez pas linéairement.** Commencez par `00_START_HERE/00_READ_ME_FIRST.md` (5 min)
+- Puis choisissez **UNE niche** dans `02_Niches_Deep_Dive/` (pas 3 à la fois)
+- Puis lancez **UN canal d'acquisition** dans `03_Acquisition_Without_Ads/`
+- Utilisez `06_ADHD_System/` pour ne pas cramer
 
-### 📖 Web App — Vault & Cabinet OS (Recommended)
-Open **`webapp/index.html`** — double-click, offline. Toggle **📚 Vault** (177 docs, charts, checklists) / **⚖️ Cabinet OS** (dossiers, conventions d'honoraires art. 30, factures, échéances, bibliothèque). Details: `webapp/README.md`. Rebuild after editing .md: `node webapp/scripts/build.js`.
+### 🖥️ Web App — Vault & Cabinet OS (recommandé)
+Ouvrez **`webapp/index.html`** — double-clic, offline. Toggle **📚 Vault** (638 docs, graphiques, checklists) / **⚖️ Cabinet OS** (dossiers, conventions d'honoraires art. 30, factures, échéances, frais, délais, veille, bibliothèque). Détails : `webapp/README.md`. Rebuild après édition des .md : `node webapp/scripts/build.js`.
 
-### 🌍 Deploy to GitHub Pages (free hosting)
+### 🆕 Nouveautés Cabinet OS — 11 features (sept 2026)
 
-1. Create a repo on GitHub and push this folder:
+**Trésorerie & pilotage :**
+- **A1 Abonnements** — facturation mensuelle auto (FH + échéance) + panel par dossier.
+- **A2 Trésorerie réelle** — Encaissé / À encaisser / Prévisionnel 90j / Frais / TVA / Net, dans le tableau de bord.
+- **A3 Frais & Débours** — nouvelle vue globale + par dossier (timbres, OMPIC, déplacements, etc., remboursables).
+- **A4 Objectif CA** — objectif HT mensuel/annuel + barre % + niveaux Bronze/Argent/Or.
+
+**Ops juridiques :**
+- **C1 Calculateur délais CPC** — presets 15j/30j, fériés MA 2026-27, report au prochain ouvrable, création d'échéance + .ics.
+- **C2 Conflits v2** — check fuzzy (sans accents, Jaccard ≥0.5) sur client/ICE/adverse + liste noire (Paramètres), alerte dans la fiche.
+- **C3 Veille juridique** — base BO/sgg/CNDP/OMPIC/DGI/OC (À lire/Lu/Action requise), liée aux dossiers.
+
+**Productivité :**
+- **D4 .ics 1-clic** — bouton 📅 sur chaque échéance (et depuis Délais) → fichier iCalendar.
+- **F1 Entonnoir** — Prospect→Signé et Signé→Clôturé en % + barres.
+- **F2 Goulots** — dossiers bloqués > seuil (7/10/14j) + retards.
+- **F3 Recherche globale v2** — Ctrl+K indexe dossiers + échéances + veille + frais + factures + docs.
+
+Voir le détail complet dans `webapp/README.md` → section « Cabinet OS — fonctionnalités ».
+
+### 🚀 Déployer sur GitHub Pages (hébergement gratuit)
+
+1. Créez un repo sur GitHub et poussez ce dossier :
    ```
    git init
    git add .
@@ -30,28 +51,31 @@ Open **`webapp/index.html`** — double-click, offline. Toggle **📚 Vault** (1
    git remote add origin https://github.com/<user>/<repo>.git
    git push -u origin main
    ```
-2. In the repo: **Settings → Pages → Source: "GitHub Actions"** (not branch).
-3. The workflow `.github/workflows/deploy.yml` rebuilds `data.js` and deploys automatically on every push.
+2. Dans le repo : **Settings → Pages → Source: "GitHub Actions"** (pas branch).
+3. Le workflow `.github/workflows/deploy.yml` rebuild `data.js` et déploie automatiquement à chaque push.
 
-Live URL: `https://<user>.github.io/<repo>/` — no server needed, works from any subpath (relative links + hash routing).
+URL live : `https://<user>.github.io/<repo>/` — pas de serveur, fonctionne depuis n'importe quel subpath (liens relatifs + hash routing).
 
-### Folder Map
+### Dossiers
 ```
-00_START_HERE/          -> Start here (5 min)
+00_START_HERE/          -> Commencez ici (5 min)
 01_Strategy/            -> Big picture + déontologie (loi 66-23, ex-28-08 — 06_Deontologie_Pratique)
 02_Niches_Deep_Dive/    -> 11 niches auditées (missions HT, provision 50%, convention)
-03_Acquisition_Without_Ads/ -> 6 channels sans publicité
-04_Skills_To_Learn/     -> 19 dossiers de compétences (Sales, French, sharpness, AI, design, SEO, speaking, négo, finance, DRAFTING FR/EN, litigation basics, recherche juridique, client ops, SOP/ops, EQ/désescalade, structuration internationale)
-05_Document_Bank/       -> 8 modèles pros (convention, reçu, PV, trames)
+03_Acquisition_Without_Ads/ -> 8 canaux sans publicité (6 playbooks + 2 fiches)
+04_Skills_To_Learn/     -> 21 dossiers de compétences (Sales, French, sharpness, AI, design, SEO, speaking, négo, finance, DRAFTING FR/EN, litigation basics, recherche juridique, client ops, SOP/ops, EQ/désescalade, structuration internationale, compta)
+05_Document_Bank/       -> 16 modèles pros + 3 fiches (convention, reçu, PV, trames)
 06_ADHD_System/         -> OS quotidien
 07_90Day_Plan/          -> Plan 90 jours
-08_Jurisprudence/       -> Bank corrigée 28/08/2026 (références vérifiées uniquement)
+08_Jurisprudence/       -> Banque vérifiée (références ouvertes uniquement) + méthode 3V
 webapp/                 -> Vault reader + Cabinet OS (offline, localStorage)
 ```
 
-### Golden Rule: Educate, Don't Advertise
-You are forbidden to say: "I am the best lawyer, hire me!"
-You are ALLOWED to say: "Here is how Loi 09-08 impacts your e-commerce store. Common mistake #3 costs 50,000 DH HT."
-The first is `publicité`. The second is `information juridique`. One is illegal, one brings clients.
+### Règle d'or : Éduquer, pas démarcher
+Il vous est interdit de dire : "Je suis le meilleur avocat, engagez-moi !"
+Vous avez le droit de dire : "Voici comment la loi 09-08 impacte votre boutique e-commerce. L'erreur #3 coûte 50 000 DH HT."
+Le premier est `publicité`. Le second est `information juridique`. L'un est illégal, l'autre apporte des clients.
 
-**Next Step:** Open `00_START_HERE/00_READ_ME_FIRST.md`
+**Prochaine étape :** Ouvrez `00_START_HERE/00_READ_ME_FIRST.md`
+
+### Accents
+Tous les fichiers sont en UTF-8 propre (`<meta charset="UTF-8">`). Après une mise à jour, faire Ctrl+Shift+R si le navigateur affiche d'anciens caractères.

@@ -7,7 +7,7 @@ Le [Date], Me [Nom] a remis à [Client] :
 [ ] Livrable 1 : [ex: Contrat prestation FR/EN vF, PDF+Word]
 [ ] Livrable 2 : [ex: CGV/CGU, PDF+Word]
 [ ] Livrable 3 : [ex: Registre Loi 09-08, Excel]
-[ ] Note Loom : [lien / durée]
+[ ] Restitution effectuée : [ ] vidéo Loom (lien/durée : [__]) [ ] visio Zoom le [JJ/MM] [ ] au cabinet le [JJ/MM]
 [ ] Attestation / récépissé : [si dépôt OMPIC/CRI/CNDP]
 
 Observations du Client : [aucune / lister]

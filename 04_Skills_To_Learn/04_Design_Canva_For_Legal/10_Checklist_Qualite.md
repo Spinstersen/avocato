@@ -76,7 +76,7 @@ Carrousel « données personnelles » prêt, 9 slides, checklist appliquée : ca
 **E3 — Envoi d'un LIVRABLE de mission (contrat, pack, note finale)**
 
 - [ ] Version PDF impression + version éditable du fond
-- [ ] Loom de walkthrough joint (3-5 min) et lien Drive à accès restreint
+- [ ] Restitution assurée : Loom de walkthrough joint (3-5 min, lien Drive à accès restreint) ou session Zoom / cabinet calée et écrite
 - [ ] Nom de fichier conforme à la nomenclature (fichier 09)
 
 **E4 — Envoi d'une FACTURE**

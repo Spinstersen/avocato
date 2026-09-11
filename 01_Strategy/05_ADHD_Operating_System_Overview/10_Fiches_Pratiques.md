@@ -173,7 +173,7 @@ Bien à vous,
 
 - [ ] Tous les livrables produits.
 - [ ] Notion de mission à jour.
-- [ ] Loom de clôture 10-15 min enregistré.
+- [ ] restitution de clôture 10-15 min enregistré.
 - [ ] PDF design soigné généré.
 - [ ] Email de livraison envoyé.
 - [ ] Facture de solde envoyée (Yousign).

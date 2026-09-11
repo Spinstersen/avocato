@@ -43,7 +43,7 @@ Pick one:
 
 ## Your First 30 Minutes TODAY
 - [ ] 10 min: Read `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/00_INDEX.md` (so you don't get sanctioned)
-- [ ] 10 min: Read `02_Niches_Deep_Dive/01_Freelancers_Agencies_Offshore.md` OR `02_Ecommerce_Dropshipping.md`
+- [ ] 10 min: Read `02_Niches_Deep_Dive/01_Freelancers_Agencies_Offshore/00_INDEX.md` OR `02_Niches_Deep_Dive/02_Ecommerce_Dropshipping_YouCan/00_INDEX.md`
 - [ ] 10 min: Open `06_ADHD_System/01_Daily_Operating_System.md` and set up your 3 daily tasks template
 
 > If you only do one thing tomorrow: Send 5 DMs to comptables/fiduciaires in your region using script in `03_Acquisition_Without_Ads/03_Partnerships_Comptables_Fiduciaires.md`

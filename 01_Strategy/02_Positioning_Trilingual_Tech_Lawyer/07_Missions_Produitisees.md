@@ -47,7 +47,7 @@ Le client sait exactement ce qu'il achète et à quel prix. L'avocat sait exacte
 - CGV / Conditions de vente adaptées.
 - Modèle de devis commercial & facture conforme + mentions légales.
 - Note de choix de statut (auto-entrepreneur vs SARL).
-- Note explicative Loom 15 min.
+- Note explicative en restitution : Loom 15 min, ou visio Zoom / au cabinet (20-30 min) selon le client.
 
 **Workflow** :
 1. Intake Tally (5 min).
@@ -56,7 +56,7 @@ Le client sait exactement ce qu'il achète et à quel prix. L'avocat sait exacte
 4. Paiement provision 50%.
 5. Production 5 jours ouvrés.
 6. Livraison : Notion + PDF design.
-7. Facture de solde + Loom clôture.
+7. Facture de solde + restitution clôture.
 
 **Templates** : voir `05_Document_Bank/templates/03_Pack_Freelance_Contrat.md`.
 
@@ -70,7 +70,7 @@ Le client sait exactement ce qu'il achète et à quel prix. L'avocat sait exacte
 - Politique de confidentialité type.
 - Modèle de politique de retour.
 - Registre 09-08 vierge + notice de tenue.
-- Note explicative Loom 15 min.
+- Note explicative en restitution : Loom 15 min, ou visio Zoom / au cabinet (20-30 min) selon le client.
 
 **Templates** : voir `05_Document_Bank/templates/04_Pack_Ecommerce_CGV.md` et `05_Registre_09-08_Modele.md`.
 
@@ -83,7 +83,7 @@ Le client sait exactement ce qu'il achète et à quel prix. L'avocat sait exacte
 - PV de constitution.
 - Déclaration de nomination du gérant.
 - Formulaire d'enregistrement (RC + TP + IF).
-- Note explicative Loom 15 min.
+- Note explicative en restitution : Loom 15 min, ou visio Zoom / au cabinet (20-30 min) selon le client.
 
 ### 3.4 Pack Conformité 09-08 PME — 8 000-12 000 DH HT
 
@@ -96,7 +96,7 @@ Le client sait exactement ce qu'il achète et à quel prix. L'avocat sait exacte
 - Mentions site web (cookie banner, mentions d'identification).
 - Note de mise en conformité.
 - Plan d'action 90 jours.
-- Loom de synthèse 20 min.
+- Restitution de synthèse : Loom 20 min, ou session Zoom / cabinet.
 
 ### 3.5 Pack Cession de Parts SARL — 3 500 DH HT
 
@@ -107,7 +107,7 @@ Le client sait exactement ce qu'il achète et à quel prix. L'avocat sait exacte
 - PV d'assemblée d'approbation.
 - Déclarations (RC + IF).
 - Modèle d'acte réutilisable pour cessions futures.
-- Note explicative Loom 10 min.
+- Note explicative en restitution : Loom 10 min, ou visio Zoom / au cabinet (20-30 min) selon le client.
 
 ### 3.6 Pack Levée de Fonds Pré-Series A — 15 000-25 000 DH HT
 
@@ -118,7 +118,7 @@ Le client sait exactement ce qu'il achète et à quel prix. L'avocat sait exacte
 - Pacte d'associés sur mesure (clauses sortie, transfert, governance, BSA, BSPCE).
 - Closing documents (actes, déclarations, attestations).
 - Mentions obligatoires (info financière, droits).
-- Note explicative Loom 30 min.
+- Note explicative en restitution : Loom 30 min, ou visio Zoom / au cabinet (20-30 min) selon le client.
 
 ### 3.7 Pack Abonnement Secrétariat Juridique — 2 500-6 000 DH HT/mois
 
@@ -156,12 +156,12 @@ Le client sait exactement ce qu'il achète et à quel prix. L'avocat sait exacte
 
 Étape 5 — Livraison (J+5 ou J+14)
   Livrables en Notion + PDF design
-  Loom de clôture
+  restitution de clôture
   Note écrite de synthèse
 
 Étape 6 — Facturation (J+5 ou J+14)
   Facture de solde envoyée par Yousign
-  Paiement par virement ou Stripe
+  Paiement par virement bancaire (RIB)
 
 Étape 7 — Suivi (J+30, J+90)
   Email de check-in à 30 jours
@@ -257,7 +257,7 @@ Avec ces temps de production, le taux horaire effectif sur une mission à 2 900 
 Au fil des missions, l'avocat :
 
 - Identifie les clauses récurrentes (à standardiser dans les templates).
-- Identifie les difficultés (à expliquer en Loom).
+- Identifie les difficultés (à expliquer à la restitution).
 - Améliore les modèles (clauses plus précises, plus protectrices).
 - Optimise le workflow (Tally mieux structuré, Notion mieux organisé).
 

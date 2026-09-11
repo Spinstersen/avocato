@@ -12,7 +12,7 @@ Ce fichier détaille la stack d'outils recommandée pour un avocat ADHD, avec fo
 | Formulaires | Tally | Typeform |
 | Email | Google Workspace | Microsoft 365 |
 | Signature électronique | Yousign | Hellosign |
-| Facturation + paiement | Cabinet OS + Stripe | Stripe seul |
+| Facturation + paiement | Cabinet OS + virement RIB (CMI/MoPay selon l'activité) | Stripe seul (indisponible résident MA) |
 | Analytics site | Plausible | Fathom |
 | SEO | Google Search Console | — |
 | Visio | Google Meet | Zoom |
@@ -53,13 +53,13 @@ Notion est l'outil pivot du système ADHD. Voir `04_Second_Brain_Notion.md` pour
 - Templates de convention d'honoraires pré-configurés.
 - Workflow : envoi → signature → retour → archivage Notion.
 
-## 5. La facturation (Cabinet OS + Stripe)
+## 5. La facturation (Cabinet OS + virement)
 
 ### Configuration recommandée
 
 - Cabinet OS du vault (`webapp/`) pour gérer dossiers, conventions, factures, échéances.
-- Stripe (si toléré par RIO) pour paiement en ligne.
-- Virement bancaire alternatif.
+- Virement bancaire (RIB du cabinet) = la voie propre, traçable et disponible.
+- Stripe n'est **pas** disponible pour un résident marocain : ne jamais le proposer comme moyen d'encaissement (fiche `04_Skills_To_Learn/01_Legal_Tech_Stack/06_Stripe_Paiement_RIO.md`). Paiement local : CMI/MoPay selon l'activité.
 
 ## 6. Le visio (Google Meet)
 

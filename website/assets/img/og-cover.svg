@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="AVOCATO — Cabinet d'avocats, droit des affaires au Maroc">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0e4a55"/>
+      <stop offset="0.5" stop-color="#0a3942"/>
+      <stop offset="1" stop-color="#07272d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.1" r="0.9">
+      <stop offset="0" stop-color="#d3b578" stop-opacity="0.22"/>
+      <stop offset="0.6" stop-color="#d3b578" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <rect x="56" y="56" width="1088" height="518" fill="none" stroke="#d3b578" stroke-opacity="0.4"/>
+  <rect x="66" y="66" width="1068" height="498" fill="none" stroke="#d3b578" stroke-opacity="0.15"/>
+  <text x="110" y="250" fill="#d3b578" font-family="JetBrains Mono, Consolas, monospace" font-size="20" letter-spacing="6">CABINET D'AVOCATS · DROIT DES AFFAIRES</text>
+  <text x="106" y="370" fill="#f4f0e4" font-family="Cormorant Garamond, Georgia, serif" font-size="104" font-weight="600" letter-spacing="6">AVOCATO</text>
+  <line x1="110" y1="420" x2="420" y2="420" stroke="#a98a4b" stroke-width="2"/>
+  <text x="110" y="478" fill="#ece7d8" fill-opacity="0.78" font-family="Inter, Segoe UI, sans-serif" font-size="26">Sociétés · Contrats · Données · Fiscalité · International</text>
+  <text x="110" y="524" fill="#ece7d8" fill-opacity="0.5" font-family="Inter, Segoe UI, sans-serif" font-size="20">Français · العربية · English</text>
+  <g transform="translate(980 480)">
+    <circle cx="70" cy="70" r="70" fill="none" stroke="#d3b578" stroke-opacity="0.5"/>
+    <circle cx="70" cy="70" r="60" fill="none" stroke="#d3b578" stroke-opacity="0.25"/>
+    <text x="70" y="86" text-anchor="middle" fill="#d3b578" font-family="Cormorant Garamond, Georgia, serif" font-size="52" font-weight="600">AV</text>
+  </g>
+</svg>

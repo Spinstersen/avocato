@@ -41,7 +41,7 @@ HORS BRANCHES MAIS TOUJOURS VÉRIFIÉ :
 *   [ ] Avez-vous des clients/partenaires UE, ou un DPA en négociation ?
 *   [ ] Une personne sait-elle répondre à une demande d'accès cliente en moins de 15 jours ?
 
-3+ réponses « non/je ne sais pas » → diagnostic 1 200 HT le mois même. Uniquement des « oui » → prospect mûr pour l'abonnement, pas le pack.
+3+ réponses « non/je ne sais pas » → diagnostic 900 HT le mois même. Uniquement des « oui » → prospect mûr pour l'abonnement, pas le pack.
 
 ## Traduire l'arbre en mission (vendeur vs déontologique)
 

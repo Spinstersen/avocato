@@ -13,9 +13,18 @@
 
 | Fichier | Contenu | Mission liée |
 | :--- | :--- | :--- |
-| `01_Loi_09-08_CNDP_Sanctions.md` | 4 décisions CNDP + grille sanctions | Mission 3 — Conformité 09-08 |
-| `02_Loi_31-08_Protection_Consommateur.md` | 3 jugements + art. clés CGV/rétractation | Mission 3 — Conformité e-commerce |
+| `01_Loi_09-08_CNDP_Sanctions.md` | 4 cas types CNDP + grille sanctions (art. 64/65) | Mission 3 — Conformité 09-08 |
+| `02_Loi_31-08_Protection_Consommateur.md` | Art. clés CGV/rétractation (7 j art. 36) + cas types | Mission 3 — Conformité e-commerce |
 | `03_Contrats_Commerce.md` | 3 cas types (clause pénale, réserve de propriété, force majeure) — bases DOC/CC, arrêts à produire | Mission 2 — Contrats |
+| `04_Office_Changes_Sanctions.md` | Méthode + base vérifiée (dahirs 1939/1949, IGOC 2026) — décisions à collecter | Niches 08/09 — Change |
+| `05_Propriete_Intellectuelle_OMPIC.md` | Cadre PI/OMPIC + 1 décision vérifiée (CA com Casablanca 2024, NOUR DAR) | Niches 04/07 — PI |
+| `06_Fiscalite_Internationale_Conventions.md` | Conventions en vigueur (6 vérifiées, US = aucune) + méthode de lecture | Niches 08/10 — International |
+| `07_Droit_Social_CNSS.md` | Méthode + contentieux types (requalification, AT, dissimulé) | Niche 06 — Social |
+| `08_Contentieux_Clause_Penale.md` | Méthode + base DOC 263-264 (modération judiciaire) | Mission 2 — Contrats |
+| `09_Loi_66-23_Transposition.md` | 28-08 → 66-23 : table pratique + actions modèles | Toutes missions |
+| `10_Veille_Mensuelle_Protocole.md` | 2h/mois, 1 page, MAJ 14-18 | Toutes niches |
+
+> **Note.** Les fichiers `04`, `06`, `07` et `08` sont des **fiches de méthode** : base légale vérifiée + sources + fiche à remplir. Ils ne contiennent volontairement aucune décision numérotée tant qu'une copie n'a pas été ouverte (règle du point 2 ci-dessus).
 
 ## Méthode de fiche (Notion)
 
@@ -40,6 +49,7 @@ Gardez 15 fiches max, à jour. Mieux que 100 PDF non lus.
 - oc.gov.ma — IGOC édition courante (2026)
 - tax.gov.ma — CGI à jour, notes circulaires (NC 733-737)
 - jurisprudence.ma et bases similaires — accès aux décisions marocaines : **non officiel**, vérifier l'existence (date, juridiction, n° de dossier) avant toute citation à un client ou au juge.
+- juricaf.org — jurisprudence des cours suprêmes francophones (dont la Cour de cassation marocaine) : utile pour **trouver** une décision ; elle doit ensuite être ouverte et vérifiée avant citation.
 
 ---
 

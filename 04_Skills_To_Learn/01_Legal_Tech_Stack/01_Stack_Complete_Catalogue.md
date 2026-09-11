@@ -67,7 +67,7 @@ Page Notion Mission créée (statut : Convention signée)
   ↓
 Production + Looms ponctuels (mi-mission)
   ↓
-Livraison : Notion + PDF + Loom clôture
+Livraison : Notion + PDF + restitution (Loom/Zoom/cabinet)
   ↓
 Facture de solde + encaissement virement
   ↓
@@ -80,7 +80,7 @@ Suivi email J+15 + proposition retainer 2 500-4 500 DH HT/mois
 2. **Diagnostic** — 45 min structurées (voir `03_Sales_Without_Selling/02_Script_Diagnostic_40min.md` du dossier voisin). Le diagnostic est payé 900 DH HT par virement, déductible si mission.
 3. **Convention + provision** — Yousign pour clients UE ; pour clients marocains, signature électronique + mention « lu et approuvé » + email de transmission + conservations = faisceau de preuves (loi 53-05, DOC art. 443 pour la preuve écrite au-delà de 10 000 DH). Provision encaissée sur RIB = J0 du planning.
 4. **Production** — la page MISSION est le seul endroit où la mission existe : pièces, notes, livrables, Looms.
-5. **Livraison** — Loom clôture + PDF + mail sobre : « Votre mission est livrée. La facture de solde suit. Je reste disponible 15 jours pour questions. »
+5. **Livraison** — restitution (Loom clôturé, ou session Zoom / au cabinet) + PDF + mail sobre : « Votre mission est livrée. La facture de solde suit. Je reste disponible 15 jours pour questions. »
 6. **Suivi** — J+15 : « Tout va bien sur les documents livrés ? » ; J+60 : proposition d'abonnement si l'activité du client évolue.
 
 ## Grille de prix internes alignée vault

@@ -21,7 +21,7 @@
 
 1. **Clockify ou Toggl — version gratuite.** Les deux suffisent ; le vault ne sacralise aucun choix, Toggl est plus épuré, Clockify plus granulaire par projet.
   Le seul qui marche est celui dont le bouton « start » est à portée de pouce.
-2. **Un projet par fiche mission Notion**, nommé comme la fiche (« Pack freelance — K-114 ») ; tâches types pré-créées : rédaction, RDV, relances, admin, Loom.
+2. **Un projet par fiche mission Notion**, nommé comme la fiche (« Pack freelance — K-114 ») ; tâches types pré-créées : rédaction, RDV, relances, admin, restitution.
 3. **Le geste unique à ancrer : le timer se lance AVANT d'ouvrir le dossier, pas quand « ça commence vraiment ».** La tâche invisible des solos, c'est tout ce qui précède l'ouverture du fichier — rouvrir un email, relire le contexte, chercher la pièce.
   C'est justement ça qui ronge les marges.
 4. **Widget mobile sur l'écran d'accueil** ; une règle : pas de mission sans timer, même de cinq minutes — la ligne « 5 min » existe, elle n'est jamais du bruit.
@@ -95,7 +95,7 @@ Un calendrier Google dédié, nommé « GARDE-FOUS Cabinet », distinct de l'age
 ## Règles de paramétrage du timer et du calendrier
 
 - Un timer ne se met jamais en pause pour « deux minutes d'email » : la pause est le trou noir du suivi ; cesser = arrêter, reprendre = nouveau timer de la tâche correspondante.
-- Les catégories Clockify se limitent aux cinq de la SOP (rédaction, RDV, relances, admin, Loom) : une sixième catégorie est un aveu que la SOP a un angle mort — noter pour l'audit plutôt que de créer la catégorie.
+- Les catégories Clockify se limitent aux cinq de la SOP (rédaction, RDV, relances, admin, restitution) : une sixième catégorie est un aveu que la SOP a un angle mort — noter pour l'audit plutôt que de créer la catégorie.
 - Le calendrier de garde-fous ne contient que des dates subies ou données (livraisons, audiences, dépôts, relances) — jamais de tâches : ce qui peut glisser n'est pas un garde-fou, c'est une intention.
 - Export et lecture des chiffres en fin de mois, pas le vendredi : le taux horaire réel se juge sur un cycle de mission, pas sur une semaine de circonstances.
 

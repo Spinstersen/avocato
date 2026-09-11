@@ -143,7 +143,7 @@ Honoraires : [montant HT] / Provision : [50%]
 
 ## Loom
 - [Lien Loom d'introduction]
-- [Lien Loom de clôture]
+- [Lien restitution de clôture]
 
 ## Facturation
 - Provision : [date] - [réf] - [payée]

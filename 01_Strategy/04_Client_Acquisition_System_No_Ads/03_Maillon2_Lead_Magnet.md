@@ -30,7 +30,7 @@ Le lead magnet transforme un **lecteur passif** en **contact identifié**. Le pr
 ### 3.1 Niche 1 — Freelance offshore
 
 - « Checklist : 12 mentions obligatoires sur votre contrat FR/EN pour être payé ».
-- « Modèle de facture freelance offshore conforme (art. 144 CGI) — Excel ».
+- « Modèle de facture freelance offshore conforme (art. 145 CGI) — Excel ».
 - « Simulateur auto-entrepreneur vs SARL — Excel ».
 - « Guide : structurer son activité freelance offshore en 7 étapes ».
 

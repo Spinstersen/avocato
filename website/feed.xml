@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog AVOCATO — Repères juridiques pour les entreprises</title>
+    <link>https://www.avocato.ma/blog/</link>
+    <description>Analyses courtes sur le droit des affaires au Maroc : statuts, conformité, marques, fiscalité internationale et opérations des MRE.</description>
+    <language>fr-ma</language>
+    <lastBuildDate>Thu, 10 Sep 2026 09:00:00 +0100</lastBuildDate>
+    <atom:link href="https://www.avocato.ma/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Freelance à l'international : le régime auto-entrepreneur en 2026</title>
+      <link>https://www.avocato.ma/blog/auto-entrepreneur-freelance-international-2026.html</link>
+      <guid isPermaLink="true">https://www.avocato.ma/blog/auto-entrepreneur-freelance-international-2026.html</guid>
+      <pubDate>Fri, 04 Sep 2026 09:00:00 +0100</pubDate>
+      <description>Plafonds, TVA, retenue à la source et rapatriement des devises : ce qu'il faut vérifier avant de signer un client étranger.</description>
+    </item>
+    <item>
+      <title>Loi 09-08 : la checklist CNDP d'un site e-commerce</title>
+      <link>https://www.avocato.ma/blog/cndp-loi-09-08-obligations-ecommerce.html</link>
+      <guid isPermaLink="true">https://www.avocato.ma/blog/cndp-loi-09-08-obligations-ecommerce.html</guid>
+      <pubDate>Thu, 27 Aug 2026 09:00:00 +0100</pubDate>
+      <description>Déclaration, consentement, cookies et sous-traitance : les obligations qui concernent réellement une boutique en ligne.</description>
+    </item>
+    <item>
+      <title>Déposer sa marque à l'OMPIC : classes, délais, opposition</title>
+      <link>https://www.avocato.ma/blog/deposer-marque-ompic-2026.html</link>
+      <guid isPermaLink="true">https://www.avocato.ma/blog/deposer-marque-ompic-2026.html</guid>
+      <pubDate>Wed, 12 Aug 2026 09:00:00 +0100</pubDate>
+      <description>Comment choisir ses classes, ce que coûte un dépôt et comment réagir dans les deux mois qui suivent une publication.</description>
+    </item>
+    <item>
+      <title>Créer sa société au Maroc depuis l'étranger : le guide MRE</title>
+      <link>https://www.avocato.ma/blog/creer-societe-maroc-depuis-etranger.html</link>
+      <guid isPermaLink="true">https://www.avocato.ma/blog/creer-societe-maroc-depuis-etranger.html</guid>
+      <pubDate>Fri, 24 Jul 2026 09:00:00 +0100</pubDate>
+      <description>Procuration, documents, compte bancaire et apports : les étapes d'une constitution réussie à distance.</description>
+    </item>
+  </channel>
+</rss>

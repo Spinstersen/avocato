@@ -51,7 +51,7 @@ L'honoraire est **perçu** comme raisonnable si le client comprend la valeur. Po
 
 - La liste détaillée des livrables (5+ livrables pour 2 900 DH = 580 DH/livrable, raisonnable).
 - Le design soigné des livrables (valeur perçue supérieure).
-- Le Loom explicatif (valeur perçue supérieure).
+- La restitution explicative (valeur perçue supérieure).
 - La rapidité (7 jours au lieu de 30 = valeur perçue supérieure).
 
 > **Loi.** Plus la valeur perçue est élevée, plus l'honoraire paraît raisonnable.

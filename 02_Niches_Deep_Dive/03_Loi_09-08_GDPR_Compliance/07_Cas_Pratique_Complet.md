@@ -39,7 +39,7 @@ Yousign. Paiement provision.
 - 3 contrats sous-traitants (HubSpot, AWS, Mailchimp) avec clauses de protection des données.
 - Plan d'action 90 jours.
 
-### J+13 : Loom clôture (20 min)
+### J+13 : restitution clôture (20 min)
 
 ### J+14 : Livraison + facture solde 7 500 DH
 

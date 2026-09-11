@@ -9,3 +9,12 @@ node_modules/
 # OS
 Thumbs.db
 .DS_Store
+
+# Local server data (portable DB + logs = client data, never commit)
+server/data/
+*.db
+*.db-wal
+*.db-shm
+
+# Local test installs
+tests/node_modules/

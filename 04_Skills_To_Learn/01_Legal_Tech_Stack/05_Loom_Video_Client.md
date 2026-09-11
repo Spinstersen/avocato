@@ -1,8 +1,18 @@
-# 05 — Loom Vidéo Client : Différenciation Majeure
+# 05 — Restituer au client : Loom, visio Zoom ou cabinet
 
-> **Pourquoi la vidéo bat le mail :** un client qui comprend ce qu'il achète signe plus vite, râle moins, et recommande. Trois Loom (intro, clause, clôture) couvrent 95 % des situations. Coût : ≈12-15 $/user/mois (Business, août 2026, à vérifier). Alternative gratuite : enregistrement écran OBS + upload Drive — moins élégant, même service.
+> **Le principe : toute mission est restituée, jamais seulement envoyée.** Un client qui comprend ce qu'il achète signe plus vite, râle moins, et recommande. Trois canaux selon le client — et trois formats (intro, clause, clôture) qui couvrent 95 % des situations.
 
-## POURQUOI Loom plutôt que les pièces jointes
+## Choisir le canal : la règle des trois signes
+
+| Signal client | Canal | Pourquoi |
+|---|---|---|
+| Autonome, lit tout, réponses en une ligne, sujet simple | **Loom (asynchrone)** — vidéo 3-10 min | Le client regarde quand il veut, à 1,25×, et revoit sans rappeler. Zéro friction d'agenda. Coût : ≈12-15 $/user/mois (Business, août 2026, à vérifier) ; gratuit via OBS + Drive. |
+| Pose des questions en appel, plusieurs décideurs côté client, clause sensible | **Visio Zoom (live, 20-30 min)** | Les questions sortent de la session — une réponse en direct vaut trois allers-retours email. Le live évite le hors-périmètre par téléphone. |
+| Dossier à forte valeur, dirigeant inquiet, première mission, sujet qui engage la personne (SARL-AU, fiscal, contentieux naissant) | **Cabinet (présentiel)** | Le présentiel désarme l'anxiété que ni la vidéo ni la visio ne traitent. Coût : zéro DH — le bureau est déjà payé ; le temps de trajet du client est son propre engagement. |
+
+**Le canal est choisi à l'ouverture du dossier** (champ `canalRestitution` du Cabinet OS, défaut « À convenir ») — il est écrit dans la convention et porte les échéances J0→J7. On ne le découvre pas à J6. Et rien n'interdit de combiner : Loom de clôture + Zoom de questions pour les dossiers lourds.
+
+## POURQUOI une restitution plutôt que des pièces jointes
 
 Le droit est asymétrique : toi tu vois le contrat toute la journée, le client ne le voit que trois fois. Une vidéo de 3-5 min avec partage d'écran et surlignage fait en une minute ce que dix paragraphes font jamais : elle transforme un document subi en explication choisie. Effet mesuré sur ton activité (pas une étude, une pratique) : moins de questions de re-livraison, livrables ouverts, conventions plus vite signées.
 
@@ -76,19 +86,21 @@ J1 intro 2 min 40 (planning) → J4 clause IP 4 min 10 (partage écran annexe ce
 - **Sous-titres** : activés (Loom auto) — les clients regardent en réunion ou en transport sans son ; l'accessibilité est un standard pro, pas un bonus.
 - **Vitesse par défaut 1,25×** : indique-le dans le mail (« la plupart la regardent à 1,25, le script est fait pour ça »).
 
-## Quand choisir quoi (vidéo vs écrit vs appel)
+## Quand choisir quoi (asynchrone vs live vs présentiel vs écrit)
 
 | Situation | Canal |
 |---|---|
-| Expliquer un planning, rassurer | Loom 3 min |
-| Négocier, écouter une inquiétude | Appel ou Meet — la vidéo ne remplace pas l'échange |
+| Expliquer un planning, rassurer un client autonome | Loom 3 min |
+| Dossier avec questions attendues, plusieurs interlocuteurs | **Visio Zoom 20-30 min** — la réponse sort de la session |
+| Remise à forte valeur, client inquiet, premier rendez-vous de clôture | **Cabinet (présentiel)** — la réassurance ne se filme pas |
+| Négocier, écouter une inquiétude | Visio ou présentiel — l'échange en direct reste roi |
 | Acter une décision, un fait | Email écrit court + PDF |
-| Livrer plusieurs documents d'un coup | Loom walkthrough + PDF joints |
-| Question de droit sensible ou engageante | Rendez-vous ou email validé — jamais une vidéo non relue |
+| Livrer plusieurs documents d'un coup à un client autonome | Loom walkthrough + PDF joints |
+| Question de droit sensible ou engageante | Rendez-vous (Zoom/cabinet) ou email validé — jamais une vidéo non relue |
 
 ## Métrique interne (mensuel, 5 min)
 
-Objectif de pratique : **100 % des missions livrées avec au moins un Loom de clôture** — suivi dans la BDD MISSIONS (case LoomLivraison). Second indicateur : part des clients qui répondent « très clair » au feedback Tally (fiche 24 du dossier IA pour la rédaction du form). Ce sont des compteurs de discipline interne ; ne publie jamais de performance chiffrée de type « +30 % de referrals » sans mesure réelle documentée.
+Objectif de pratique : **100 % des missions livrées avec une restitution** (Loom de clôture, session Zoom, ou remise au cabinet) — suivie dans la BDD MISSIONS (case `RestitutionFaite`, lien Loom ou date de session) et dans le panneau Processus du Cabinet OS. Second indicateur : part des clients qui répondent « très clair » au feedback Tally (fiche 24 du dossier IA pour la rédaction du form). Ce sont des compteurs de discipline interne ; ne publie jamais de performance chiffrée de type « +30 % de referrals » sans mesure réelle documentée.
 
 ## Le mail d'envoi d'un Loom (verbatim, sobre)
 

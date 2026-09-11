@@ -10,7 +10,9 @@ Responsable : Me [Nom] — Collaborateur : [si applicable]
 J0   Signature + provision [50%] + réception pièces (checklist ci-dessous)
 J+1  Recherche / audit documentaire
 J+2  Rédaction V1 + contrôle qualité interne
-J+3  Envoi V1 (PDF) + Loom 15 min + recueil observations (48h)
+J+3  Envoi V1 (PDF) + recueil observations (48h)
+J+4  Restitution des livrables : visio Zoom 30 min ou au cabinet (si questions attendues /
+     besoin de réassurance) ; vidéo Loom 15 min si le client préfère l'asynchrone.
 J+5  V1 corrigée (1 révision incluse) + facturation solde + envoi final Word+PDF
 
 Pièces à fournir par le Client (cocher) :

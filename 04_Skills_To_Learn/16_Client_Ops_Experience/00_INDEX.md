@@ -19,9 +19,9 @@ Les renvois `15/xx` et `16/xx` désignent les fichiers des deux nouveaux dossier
 | `[[02_Conflits_Interets_Checklist]]` | Les cinq questions avant acceptation ; matrice accepter / condition / refus ; consentement éclairé ; script de refus élégant rédigé ; registre Notion | 3 minutes de contrôle avant chaque signature |
 | `[[03_Rythme_Reporting]]` | Métronome J0-J2-J5-J7 ; emails rédigés ; règle « pas de nouvelle = mauvaise nouvelle » ; paramétrage ADHD (le reporting est une case, pas une décision) | Deux récurrences créées à l'ouverture du dossier |
 | `[[04_Boundary_Communication]]` | Horaires ÉCRITS dans la convention ; message tampon daté ; tri urgence réelle / ressentie ; WhatsApp canal pro ; le client panique (passerelle `18_Intelligence_Emotionnelle_Desescalade`) | Répondre sous 24 h ouvrées — et le faire savoir |
-| `[[05_Livrable_Qualite]]` | Le paquet de quatre (note de risques + livrables + Loom + mode d'emploi) ; checklist qualité pré-envoi ; email d'envoi type ; versioning « FINAL-signer » | Ne jamais envoyer un document sans son mode d'emploi |
+| `[[05_Livrable_Qualite]]` | Le paquet de quatre (note de risques + livrables + restitution Loom/Zoom/cabinet + mode d'emploi) ; checklist qualité pré-envoi ; email d'envoi type ; versioning « FINAL-signer » | Ne jamais envoyer un document sans son mode d'emploi |
 | `[[06_Clôture_Offboarding]]` | PV de remise (template Banque) ; facture solde art. 145 ; archivage en trois corbeilles (durées à fixer dans votre politique [flag]) ; purge des brouillons ; droit à l'oubli | La clause C+15 : archivage + purge |
-| `[[07_Demander_le_Referral]]` | Le QUAND (Loom + 48 h) et le process (Notion, messages A/B, attribution) — sans dupliquer les scripts du dossier Acquisition 03 ; ZÉRO commission d'apport tant que l'encadrement n'est pas vérifié [flag] | La tâche referral créée au statut « clôturé » |
+| `[[07_Demander_le_Referral]]` | Le QUAND (restitution + 48 h) et le process (Notion, messages A/B, attribution) — sans dupliquer les scripts du dossier Acquisition 03 ; ZÉRO commission d'apport tant que l'encadrement n'est pas vérifié [flag] | La tâche referral créée au statut « clôturé » |
 | `[[08_Impayes_Recouvrement]]` | J+0 rappel, J+15 mise en demeure (modèle entier), J+30 suspension (DOC art. 230 s., base réelle, formule sans promesse), J+60 injonction (renvoi `14_Litigation_Basics/05`, flag CPC consolidé) ; interdits : pas de pression sur la personne, pas de dénonciation | L'escalade par calendrier, jamais par émotion |
 | `[[09_Incident_Plainte_Client]]` | Protocole 48 h (stop-tracer-qualifier-informer) ; les trois scénarios (erreur, menace Ordre, conflit né) ; transparence maîtrisée ; RC pro [flag Ordre] ; l'interdit de la falsification | La note de chronologie datée, écrite le jour même |
 | `[[10_NPS_Fidelisation_Retainer]]` | Une question NPS (Reichheld, HBR déc. 2003) à J+7 ; fenêtre retainer à J+30 avec test préalable ; proposition sobre rédigée ; trois gestes de fidélisation sans retainer ; KPI | Les trois dates après chaque clôture |
@@ -50,7 +50,7 @@ Les renvois `15/xx` et `16/xx` désignent les fichiers des deux nouveaux dossier
   Son `06_Suivi_Relance_7_Touches` est le jumeau pré-signature du fichier 03 ici.
 - `04_Design_Canva_For_Legal/10_Checklist_Qualite` — la checklist design branchée sur la checklist qualité 05 § 3.
 - `01_Legal_Tech_Stack/02_Notion_Cabinet_OS_Detaille` — la base Missions et l'arborescence du fichier 01 ;
-  `/05_Loom_Video_Client` — le Loom de 3 minutes (03, 05, 06) ; `/06_Stripe_Paiement_RIO` — l'encaissement
+  `/05_Loom_Video_Client` — le guide des canaux de restitution (Loom / visio Zoom / cabinet) (03, 05, 06) ; `/06_Stripe_Paiement_RIO` — l'encaissement
   sans Stripe (résident Maroc) ; `/09_Securite_Backup_09-08` — le socle d'archive chiffré du fichier 06.
 - `02_AI_For_Lawyers_Prompts/03_Anonymisation_Protocole` — anonymiser les incidents avant d'en faire des cas (09).
 - `11_Negotiation_Psychology/04_Gestion_Client_Difficile` — l'archétype au-delà de la panique (04 § 3) ;

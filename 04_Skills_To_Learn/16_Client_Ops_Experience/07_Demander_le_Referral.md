@@ -2,14 +2,14 @@
 
 > **À quoi ça sert :** les scripts et la psychologie de la demande de parrainage vivent dans
 > `03_Acquisition_Without_Ads/06_Referral_Engine` — ne pas dupliquer. Ce fichier est la face OPS :
-> le QUAND dans la séquence de clôture (Loom + 48 h), le COMMENT process (Notion, relances, attribution),
+> le QUAND dans la séquence de clôture (restitution + 48 h), le COMMENT process (Notion, relances, attribution),
 > et l'interdit qui cadre tout : la rémunération d'apport d'affaires n'est pas un automatisme —
 > encadrement déontologique à vérifier [flag]. Temps de lecture : 8 minutes.
 
 ## 1. POURQUOI : le referral se rate au moment où la mission réussit
 
-Le pic de satisfaction d'un client n'est pas la livraison — c'est le moment où il a compris, grâce au
-Loom, que son problème est réglé. Passée cette fenêtre, la satisfaction retombe en « normal »
+Le pic de satisfaction d'un client n'est pas la livraison — c'est le moment où il a compris, grâce à la
+restitution (Loom, visio Zoom ou cabinet), que son problème est réglé. Passée cette fenêtre, la satisfaction retombe en « normal »
 et la demande devient une relance commerciale.
 
 Le vault a déjà écrit le pourquoi et les mots (dossier 03) ; ce qui manquait était le process :
@@ -30,7 +30,7 @@ lien social (remerciement, reconnaissance, réciprocité différée), jamais sur
 ## 2. COMMENT : la timeline d'exécution (l'automate)
 
 ```
-C0      Clôture : PV + facture solde + Loom envoyés (06)
+C0      Clôture : PV + facture solde + restitution faite (06)
 C0+48h  LE MOMENT : demande de referral (message A § 3) — le client a eu deux jours
         d'utiliser le livrable et de le montrer à son équipe.
         → tâche NOTION créée automatiquement au passage du statut « clôturé »
@@ -46,7 +46,7 @@ C0+30j  Fenêtre retainer (10) — les deux se parlent : un promoteur sans retai
         en retour, dîner annuel sobre [flag : seuils d'hospitalité à confirmer au RIO].
 ```
 
-**Pourquoi 48 h après le Loom, et pas 5 minutes ou 5 semaines :**
+**Pourquoi 48 h après la restitution, et pas 5 minutes ou 5 semaines :**
 à J+0, la mission est une promesse ; à J+2, elle est un souvenir récent ET un usage commencé —
 le client a pu REALISER ce qui a été réglé. Trop tôt, le referral porte sur la promesse ;
 trop tard, sur un souvenir tiède. Et « 48 h » n'est jamais « quand je pense à lui » :
@@ -54,7 +54,7 @@ c'est un rappel Notion à 10 h le surlendemain.
 
 ## 3. Les deux messages d'exécution (modèles entiers — la version ops des scripts 03)
 
-**Message A — J+2 après le Loom de clôture [illustratif : Fatima, dossier 5 900 DH HT] :**
+**Message A — J+2 après la restitution de clôture [illustratif : Fatima, dossier 5 900 DH HT] :**
 
 > Objet — Une question de méthode (30 secondes de réponse si vous n'avez rien)
 > Bonjour Fatima,

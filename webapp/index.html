@@ -1,23 +1,22 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AVOCATO — Base documentaire & Cabinet OS — Bureau Plaque & Encrier</title>
+<title>AVOCATO — Base documentaire & Cabinet OS</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%23070e1c'/%3E%3Ctext x='8' y='12' font-family='Georgia,serif' font-size='11' fill='%23c5a46a' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,700;1,500&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#fbfaf7" id="metaThemeColor">
+<link rel="preload" href="fonts/cormorant.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="fonts.css">
 <link rel="stylesheet" href="styles.css">
 </head>
-<body data-theme="light" data-font="md">
-<!--
-THESIS: Le bureau est l'interface — la plaque de cuivre et l'encrier portent le cabinet, pas un dashboard SaaS anonyme. Refus du admin-template cartes identiques.
-OWN-WORLD: Ink #070e1c + parchment #f6f0e3 + hammered brass #c5a46a hairline + teal tool-mark #1fa89e rare, EB Garamond + Public Sans, double-filet or, flat tonal + 1px card shadow.
-STORY: L'avocat reconnaît son bureau en 2s, ouvre un dossier, signe provision 50% art.30, lance la remise Loom.
-FIRST VIEWPORT: Plaque cuivre 320px gauche + feuille parchemin double-filet or avec ledger registre (KPI + dossiers) et échéances 7j — primaire ink "Nouveau dossier", pas Learn more.
-FORM: Assigned 6/7 Plaque de Cuivre & Encrier (brass bureau) raised with terminal-yellow scale, spectro hairline, miura deploy, cyclorama dawn band — seed df3c790f.
-FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
--->
+<body data-font="md">
+<a class="skip-link" href="#content">Aller au contenu</a>
+<!-- AVOCATO shell — thème CMS v5 (contrat : DESIGN.md v6, genèse : THEMES.md).
+     Offline-first (file:// + localStorage), hash routing, zéro build pour le rendu.
+     Icônes : SVG gravés uniquement (icons.js) — pas d'emoji comme système d'icônes. -->
 <div class="app">
 
   <aside class="sidebar" id="sidebar" aria-label="Navigation bureau">
@@ -27,17 +26,18 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
         <span class="brand-sub">Base documentaire & Cabinet OS</span>
       </div>
       <div class="plaque-meta"><span>Maître <b>Ayoub</b></span></div>
+      <div class="double-rule" aria-hidden="true"></div>
       <button class="icon-btn sidebar-close" id="sidebarClose" aria-label="Fermer la navigation"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="m4.2 4.2 7.6 7.6M11.8 4.2l-7.6 7.6"/></svg></button>
     </div>
 
-    <div class="mode-switch" role="tablist" aria-label="Mode">
-      <button class="mode-btn active" data-mode="vault" role="tab" aria-selected="true"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3.6C6.6 2.6 4.3 2.5 2.7 3v9.8c1.6-.5 3.9-.4 5.3.6 1.4-1 3.7-1.1 5.3-.6V3c-1.6-.5-3.9-.4-5.3.6Z"/><path d="M8 3.6v9.8"/></svg> Base</button>
-      <button class="mode-btn" data-mode="cabinet" role="tab" aria-selected="false"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2.6v10.8M5.5 13.4h5M3 4.8h10"/><path d="M3 4.8 1.7 7.9a1.55 1.55 0 0 0 2.6 0L3 4.8ZM13 4.8l-1.3 3.1a1.55 1.55 0 0 0 2.6 0L13 4.8Z"/></svg> Cabinet OS</button>
+    <div class="mode-switch" role="group" aria-label="Mode">
+      <button class="mode-btn active" data-mode="vault" aria-pressed="true"><span class="mico" data-ico="book"></span> Base</button>
+      <button class="mode-btn" data-mode="cabinet" aria-pressed="false"><span class="mico" data-ico="scale"></span> Cabinet OS</button>
     </div>
 
     <label class="search-wrap" id="searchWrap">
-      <span class="search-icon" aria-hidden="true">⌕</span>
-      <input id="searchInput" type="search" placeholder="Rechercher… ( / )" autocomplete="off">
+      <span class="search-icon" aria-hidden="true"></span>
+      <input id="searchInput" type="search" placeholder="Rechercher dossier ( / )" autocomplete="off" aria-label="Rechercher un dossier">
     </label>
 
     <div id="resumeChip" hidden>
@@ -48,23 +48,44 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
     <nav class="tree" id="tree" aria-label="Documents"></nav>
 
     <nav class="cabinet-nav" id="cabinetNav" hidden>
-      <button class="cab-nav-item" data-view="today"><span class="glyph"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M9 1.8 4.4 9h3l-1 5.2L11.6 7h-3l.4-5.2Z"/></svg></span> Aujourd'hui</button>
-      <button class="cab-nav-item active" data-view="dashboard"><span class="glyph"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="5.8"/><path d="M8 8l2.8-2.8M8 2.2v.9M13.8 8h-.9M8 13.8v-.9M2.2 8h.9"/></svg></span> Tableau de bord</button>
-      <button class="cab-nav-item" data-view="pipeline"><span class="glyph"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 13.6V2.6M4 3.2c3-1.2 5 1.2 8 0v5.6c-3 1.2-5-1.2-8 0"/></svg></span> Pipeline</button>
-      <button class="cab-nav-item" data-view="dossiers"><span class="glyph"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 12.5V4h4.3l1.4 1.8H14v6.7H2Z"/><path d="M2 7.4h12"/></svg></span> Dossiers</button>
-      <button class="cab-nav-item" data-view="conventions"><span class="glyph"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2.2 12.8 7 8.8 13.6H7.2L3.2 7 8 2.2Z"/><circle cx="8" cy="8" r="1.1"/><path d="M8 9.1v4.5"/></svg></span> Conventions</button>
-      <button class="cab-nav-item" data-view="factures"><span class="glyph"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.2 2h7.6v12l-1.9-1.1-1.9 1.1-1.9-1.1L4.2 14V2Z"/><path d="M6.3 5.4h3.4M6.3 8h3.4"/></svg></span> Factures & Provisions</button>
-      <button class="cab-nav-item" data-view="echeances"><span class="glyph"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><rect x="2.4" y="3.6" width="11.2" height="10" rx="1"/><path d="M2.4 6.6h11.2M5.4 2.1v2.8M10.6 2.1v2.8"/><path d="M5.5 9.4h1.2M8 9.4h1.2M5.5 11.4h1.2"/></svg></span> Échéances</button>
-      <button class="cab-nav-item" data-view="bibliotheque"><span class="glyph"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13.4V3.8h2.7v9.6H3ZM6.6 13.4V3.8h2.7v9.6H6.6Z"/><path d="m10.6 13.6.9-9.4 2.4.3-1.1 9.3-2.2-.2Z"/></svg></span> Bibliothèque</button>
+      <button class="btn-accent side-cta" id="btnNewDossierNav">+ Nouveau dossier</button>
+      <button type="button" class="nav-group" data-group="piloter" aria-expanded="true" aria-controls="navGroupPiloter"><span class="ng-caret" aria-hidden="true"></span>Piloter<span class="ng-count">8</span></button>
+      <div class="nav-group-body" id="navGroupPiloter">
+        <button class="cab-nav-item" data-view="today"><span class="glyph" data-ico="bolt"></span> Aujourd'hui</button>
+        <button class="cab-nav-item active" data-view="dashboard"><span class="glyph" data-ico="gauge"></span> Tableau de bord</button>
+        <button class="cab-nav-item" data-view="pipeline"><span class="glyph" data-ico="flag"></span> Pipeline</button>
+        <button class="cab-nav-item" data-view="dossiers"><span class="glyph" data-ico="folder"></span> Dossiers</button>
+        <button class="cab-nav-item" data-view="echeances"><span class="glyph" data-ico="clock"></span> Échéances</button>
+        <button class="cab-nav-item" data-view="calendrier"><span class="glyph" data-ico="calendar"></span> Calendrier</button>
+        <button class="cab-nav-item" data-view="audiences"><span class="glyph" data-ico="scale"></span> Audiences</button>
+        <button class="cab-nav-item" data-view="delais"><span class="glyph" data-ico="hourglass"></span> Délais CPC</button>
+      </div>
+      <button type="button" class="nav-group" data-group="argent" aria-expanded="true" aria-controls="navGroupArgent"><span class="ng-caret" aria-hidden="true"></span>Argent<span class="ng-count">7</span></button>
+      <div class="nav-group-body" id="navGroupArgent">
+        <button class="cab-nav-item" data-view="clients"><span class="glyph" data-ico="users"></span> Clients</button>
+        <button class="cab-nav-item" data-view="conventions"><span class="glyph" data-ico="nib"></span> Conventions</button>
+        <button class="cab-nav-item" data-view="factures"><span class="glyph" data-ico="receipt"></span> Factures &amp; Provisions</button>
+        <button class="cab-nav-item" data-view="finances"><span class="glyph" data-ico="chart"></span> Finances</button>
+        <button class="cab-nav-item" data-view="frais"><span class="glyph" data-ico="coin"></span> Frais &amp; Débours</button>
+        <button class="cab-nav-item" data-view="registres"><span class="glyph" data-ico="book"></span> Registres 90j</button>
+        <button class="cab-nav-item" data-view="dividendes"><span class="glyph" data-ico="percent"></span> Dividendes / AG</button>
+      </div>
+      <button type="button" class="nav-group" data-group="base" aria-expanded="true" aria-controls="navGroupBase"><span class="ng-caret" aria-hidden="true"></span>Base<span class="ng-count">4</span></button>
+      <div class="nav-group-body" id="navGroupBase">
+        <button class="cab-nav-item" data-view="sejours"><span class="glyph" data-ico="globe"></span> Séjour & Veille</button>
+        <button class="cab-nav-item" data-view="bibliotheque"><span class="glyph" data-ico="library"></span> Bibliothèque</button>
+        <button class="cab-nav-item" data-view="veille"><span class="glyph" data-ico="newspaper"></span> Veille juridique</button>
+        <button class="cab-nav-item" data-view="settings"><span class="glyph" data-ico="gear"></span> Paramètres du cabinet</button>
+      </div>
       <hr class="cab-sep">
-      <button class="cab-nav-item" data-view="new-dossier"><span class="glyph"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10M3 8h10"/></svg></span> Nouveau dossier <span class="mono-key" aria-hidden="true">N</span></button>
+      <button class="cab-nav-item" data-view="new-dossier"><span class="glyph" data-ico="plus"></span> Nouveau dossier <span class="mono-key" aria-hidden="true">N</span></button>
     </nav>
 
     <div class="sidebar-foot">
       <button class="btn btn-ghost btn-block" id="btnDashboard"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M2.6 7.6 8 2.6l5.4 5M4.6 6.4V13h6.8V6.4"/><path d="M7 13v-3.4h2V13"/></svg> Base — Tableau de bord</button>
       <button class="btn btn-ghost btn-block" id="btnPalette" aria-label="Recherche globale ( Ctrl+K )"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7.2" cy="7.2" r="4.2"/><path d="m10.4 10.4 3 3"/></svg> Rechercher tout <span class="mono-key" aria-hidden="true">Ctrl K</span></button>
-      <div class="build-hint">Base: <code>node scripts/build.js</code> après modif .md</div>
-      <div class="build-hint">Cabinet: données en localStorage</div>
+      <button class="btn btn-ghost btn-block" id="btnHelp" aria-label="Raccourcis clavier ( ? )"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2"/><path d="M6.2 6.2c.2-1 1-1.7 1.9-1.7 1 0 1.9.8 1.9 1.8 0 1.3-1.9 1.4-1.9 2.7"/><path d="M8 11.6v.2"/></svg> Raccourcis <span class="mono-key" aria-hidden="true">?</span></button>
+      <div class="build-hint">Tes données restent sur cet appareil — exporte un JSON régulièrement.</div>
     </div>
   </aside>
   <div class="scrim" id="scrim" hidden></div>
@@ -77,13 +98,17 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
         <button class="icon-btn" id="prevBtn" data-tip="Précédent" title="Précédent [ [ ]" aria-label="Document précédent"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M9.8 3 5 8l4.8 5"/></svg></button>
         <button class="icon-btn" id="nextBtn" data-tip="Suivant" title="Suivant [ ] ]" aria-label="Document suivant"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M6.2 3 11 8l-4.8 5"/></svg></button>
         <button class="icon-btn" id="readBtn" data-tip="Lu" title="Marquer lu" aria-label="Marquer comme lu"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="m3.2 8.6 3.4 3.4L12.8 4.4"/></svg></button>
-        <button class="icon-btn" id="fontDec" data-tip="A− police" title="Réduire la police" aria-label="Réduire la police">A−</button>
-        <button class="icon-btn" id="fontInc" data-tip="A+ police" title="Augmenter la police" aria-label="Augmenter la police">A+</button>
-        <button class="icon-btn" id="themeBtn" data-tip="Thème" title="Thème ( d )" aria-label="Changer de thème"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M9.8 2.4a6.1 6.1 0 1 0 3.8 9.3A6.7 6.7 0 0 1 9.8 2.4Z"/></svg></button>
+        <div class="topbar-opts" id="topbarOpts">
+          <button class="icon-btn" id="fontDec" data-tip="A− police" title="Réduire la police" aria-label="Réduire la police">A−</button>
+          <button class="icon-btn" id="fontInc" data-tip="A+ police" title="Augmenter la police" aria-label="Augmenter la police">A+</button>
+          <button class="icon-btn" id="themeBtn" data-tip="Thème" title="Thème ( d )" aria-label="Changer de thème"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M9.8 2.4a6.1 6.1 0 1 0 3.8 9.3A6.7 6.7 0 0 1 9.8 2.4Z"/></svg></button>
+          <span id="fontStatus" class="visually-hidden" aria-live="polite"></span>
+        </div>
+        <button class="icon-btn" id="topbarMore" aria-label="Plus d'options" aria-expanded="false" aria-controls="topbarOpts"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><circle cx="3.4" cy="8" r="1.1"/><circle cx="8" cy="8" r="1.1"/><circle cx="12.6" cy="8" r="1.1"/></svg></button>
       </div>
     </header>
 
-    <article class="content-wrap" id="content"></article>
+    <article class="content-wrap" id="content" tabindex="-1"></article>
   </main>
 </div>
 
@@ -93,21 +118,36 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
 <dialog id="paletteDlg" class="dlg dlg-palette" aria-label="Recherche globale">
   <div class="pal-input-wrap">
     <svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7.2" cy="7.2" r="4.2"/><path d="m10.4 10.4 3 3"/></svg>
-    <input id="palInput" type="text" placeholder="Aller à un dossier, un document, une action…" autocomplete="off" spellcheck="false">
+    <input id="palInput" type="text" role="combobox" aria-expanded="true" aria-controls="palResults" aria-autocomplete="list" aria-activedescendant="" placeholder="Aller à un dossier, un document, une action" autocomplete="off" spellcheck="false" aria-label="Recherche globale — dossiers, documents, actions">
     <span class="pal-esc mono">Esc</span>
   </div>
   <ul id="palResults" class="pal-results" role="listbox" aria-label="Résultats"></ul>
+  <span id="palCount" class="visually-hidden" aria-live="polite"></span>
+</dialog>
+
+<dialog id="dlgHelp" class="dlg" aria-labelledby="dlgHelpTitle">
+  <h3 id="dlgHelpTitle">Raccourcis clavier</h3>
+  <div class="form-grid">
+    <div><span class="pill mono">/</span></div><div>Rechercher un dossier</div>
+    <div><span class="pill mono">Ctrl K</span></div><div>Recherche globale</div>
+    <div><span class="pill mono">N</span></div><div>Nouveau dossier</div>
+    <div><span class="pill mono">D</span></div><div>Changer de thème</div>
+    <div><span class="pill mono">[ ]</span></div><div>Document précédent / suivant</div>
+    <div><span class="pill mono">?</span></div><div>Ouvrir cette aide</div>
+    <div><span class="pill mono">Esc</span></div><div>Fermer la recherche ou un dialogue</div>
+  </div>
+  <div class="dlg-actions"><button type="button" class="btn btn-primary" id="btnCloseHelp">Fermer</button></div>
 </dialog>
 
 <!-- Cabinet dialogs -->
-<dialog id="dlgDossier" class="dlg">
+<dialog id="dlgDossier" class="dlg" aria-labelledby="dlgDossierTitle">
   <form method="dialog" id="formDossier">
     <h3 id="dlgDossierTitle">Nouveau dossier</h3>
     <div class="form-grid" id="dlgStep1">
       <label>Client / Société *<input name="client" required placeholder="Ex: SARL Atlas - M. Benali"></label>
       <label>ICE (si société)<input name="ice" placeholder="ICE 15 chiffres"></label>
       <label>Type *<select name="type" required>
-        <option value="">— Choisir —</option>
+        <option value="">— Choisir </option>
         <option>Freelance / Agence offshore</option>
         <option>E-commerce / YouCan</option>
         <option>Loi 09-08 / PME</option>
@@ -117,7 +157,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
         <option>Autre</option>
       </select></label>
       <label>Mission *<select name="mission" required>
-        <option value="">— Choisir —</option>
+        <option value="">— Choisir </option>
         <option>Diagnostic (600-900 DH HT)</option>
         <option>Mission Contrats - Essentielle (2.500-5.000 DH HT)</option>
         <option>Mission Conformité e-commerce (3.500-6.000 DH HT)</option>
@@ -126,15 +166,15 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
         <option>Abonnement - Secrétariat juridique (2.500-6.000 DH HT/mois)</option>
       </select></label>
       <label>Honoraires HT (DH) *<input name="honoraires" type="number" min="0" required placeholder="2900"></label>
-      <div class="span-2 dlg-step-nav"><button type="button" class="btn btn-primary" id="btnDlgNext">Continuer vers l'avancé →</button></div>
+      <div class="span-2 dlg-step-nav"><button type="button" class="btn btn-primary" id="btnDlgNext">Continuer vers l'avancé </button></div>
     </div>
     <div class="form-grid" id="dlgStep2" hidden>
-      <div class="span-2 dlg-step-nav"><button type="button" class="btn btn-ghost2" id="btnDlgBack">← Retour aux infos client</button><span class="step-tag mono">Étape 2 / 2 — Avancé</span></div>
+      <div class="span-2 dlg-step-nav"><button type="button" class="btn btn-ghost2" id="btnDlgBack">— Retour aux infos client</button><span class="step-tag mono">Étape 2 / 2 — Avancé</span></div>
       <label>TVA
         <select name="tva"><option value="20">20% (assujetti)</option><option value="0">0% (non assujetti, art. 91 CGI)</option></select>
       </label>
       <label>Provision %<input name="provisionPct" type="number" min="0" max="100" value="50" aria-describedby="provHelp">
-        <span class="field-help" id="provHelp">ⓘ Exigible avant démarrage — reçu immédiat, art. 30. Solde à la remise.</span>
+        <span class="field-help" id="provHelp">— Exigible avant démarrage — reçu immédiat, art. 30. Solde à la remise.</span>
       </label>
       <label>Statut<select name="statut">
         <option>Prospect</option>
@@ -145,8 +185,25 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
         <option>Clôturé</option>
         <option>Abandonné</option>
       </select></label>
+      <label>Canal de restitution<select name="canalRestitution">
+        <option>À convenir (Loom / Zoom / cabinet)</option>
+        <option>Vidéo Loom (15 min)</option>
+        <option>Visio Zoom (30 min)</option>
+        <option>Au cabinet — présentiel</option>
+      </select></label>
+      <div class="span-2 verrous-box">
+        <span class="verrous-title">Verrous avant démarrage — art. 30 &amp; onboarding (16/01)</span>
+        <label class="chk"><input type="checkbox" name="pouvoirsVerifies"> Pouvoirs du signataire vérifiés</label>
+        <label class="chk"><input type="checkbox" name="iceVerifie"> ICE vérifié (15 chiffres)</label>
+        <label class="chk"><input type="checkbox" name="conflitCheck"> Conflits d'intérêts vérifiés (16/02)</label>
+        <label class="chk chk-prov"><input type="checkbox" name="provisionEncaissee"> Provision encaissée <em>(verrou art. 30 — coche = reçu émis, rythme J0-J2-J5-J7 créé)</em></label>
+      </div>
       <label>Échéance prévisionnelle<input name="echeance" type="date"></label>
       <label>Contact (tél/WhatsApp)<input name="contact" placeholder="06 XX XX XX XX"></label>
+      <label>Niche<select name="niche"><option value="">— Niche</option><option>01 Freelance offshore</option><option>02 E-commerce</option><option>03 Loi 09-08</option><option>04 Créateurs</option><option>05 MRE investisseur</option><option>06 AE → SARL</option><option>07 IP OMPIC</option><option>08 Fiscalité internationale</option><option>09 Change IGOC</option><option>10 MRE entrepreneur</option><option>11 Nomade</option><option>Autre</option></select></label>
+      <label>Pack<select name="pack"><option value="">— Pack</option><option>Diagnostic 900</option><option>Contrat offshore</option><option>CGV e-commerce</option><option>09-08 PME</option><option>Bascule AE→SARL</option><option>Marque OMPIC</option><option>MRE distance</option><option>Nomade légal</option><option>Optimisation fiscale</option><option>Change/rapatriement</option><option>Abonnement veille</option></select></label>
+      <label>Résidence<select name="residence"><option value="">— Résidence</option><option>Résident MA</option><option>MRE / non-résident</option><option>Mixte / année de bascule</option></select></label>
+      <label>Échéance AG / carte (si pack)<input name="dateCle" type="date"></label>
       <label class="span-2">Notes<textarea name="notes" rows="2" placeholder="Source: comptable X, diagnostic du JJ/MM, risques identifiés..."></textarea></label>
     </div>
     <div id="provisionLive" class="mono" aria-live="polite"></div>
@@ -157,9 +214,9 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
   </form>
 </dialog>
 
-<dialog id="dlgEcheance" class="dlg">
+<dialog id="dlgEcheance" class="dlg" aria-labelledby="dlgEcheanceTitle">
   <form method="dialog" id="formEcheance">
-    <h3>Nouvelle échéance</h3>
+    <h3 id="dlgEcheanceTitle">Nouvelle échéance</h3>
     <div class="form-grid">
       <label>Dossier<select name="dossierId" id="echeanceDossierSel"></select></label>
       <label>Date *<input name="date" type="date" required></label>
@@ -172,7 +229,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
         <option>Renouvellement abonnement</option>
         <option>Autre</option>
       </select></label>
-      <label class="span-2">Intitulé *<input name="intitule" required placeholder="Ex: Remise V1 contrat + Loom"></label>
+      <label class="span-2">Intitulé *<input name="intitule" required placeholder="Ex: Remise V1 contrat + restitution (Zoom)"></label>
     </div>
     <div class="dlg-actions">
       <button type="button" class="btn" id="btnCancelEcheance">Annuler</button>
@@ -181,14 +238,119 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
   </form>
 </dialog>
 
+<dialog id="dlgPlaque" class="dlg" aria-labelledby="dlgPlaqueTitle">
+  <form method="dialog" id="formPlaque">
+    <h3 id="dlgPlaqueTitle">Paramètres du cabinet</h3>
+    <div class="form-grid">
+      <label class="span-2">Nom affiché (plaque &amp; documents)<input name="nom" placeholder="Ex: Maître Ayoub"></label>
+      <label>Barreau<input name="barreau" placeholder="Ex: Barreau de Casablanca"></label>
+      <label>ICE du cabinet<input name="ice" inputmode="numeric" maxlength="15" placeholder="15 chiffres"></label>
+      <label class="span-2">Téléphone<input name="tel" placeholder="06 XX XX XX XX"></label>
+      <label class="span-2">RIB (24 chiffres)<input name="rib" inputmode="numeric" maxlength="24" placeholder="0001112223334445556667778">
+        <span class="field-help">Imprimé en pied de convention, reçu de provision et facture solde.</span>
+      </label>
+      <label class="span-2">Banque du RIB<input name="ribBanque" placeholder="Ex: Attijariwafa bank"></label>
+    </div>
+    <p class="field-error" id="plaqueErr" hidden></p>
+    <div class="dlg-actions">
+      <button type="button" class="btn" id="btnCancelPlaque">Annuler</button>
+      <button type="submit" class="btn btn-primary">Enregistrer</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="dlgForce" class="dlg dlg-force" aria-labelledby="forceTitle">
+  <form method="dialog" id="formForce">
+    <h3 id="forceTitle">— Forcer le verrou art. 30</h3>
+    <p id="forceCtx" class="force-ctx"></p>
+    <div class="form-grid">
+      <label class="span-2">Motif du forçage — obligatoire, inscrit au journal
+        <textarea name="motif" rows="2" required placeholder="Ex: provision promise par virement aujourd'hui ; client déjà rencontré au cabinet ; urgence date légale."></textarea>
+      </label>
+    </div>
+    <div class="dlg-actions">
+      <button type="button" class="btn" id="btnCancelForce">Annuler</button>
+      <button type="submit" class="btn btn-danger force-go">Forcer (journalisé)</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="dlgFrais" class="dlg" aria-labelledby="dlgFraisTitle">
+  <form method="dialog" id="formFrais">
+    <h3 id="dlgFraisTitle">Ajouter un frais / débours</h3>
+    <div class="form-grid">
+      <label>Dossier<select name="dossierId" id="fraisDossierSel"></select></label>
+      <label>Date *<input name="date" type="date" required></label>
+      <label>Catégorie<select name="categorie"><option>Timbre / Droit</option><option>OMPIC / Dépôt</option><option>CNDP</option><option>Greffe / Tribunal</option><option>Déplacement</option><option>Traduction</option><option>Autre</option></select></label>
+      <label>Montant HT (DH) *<input name="montantHT" type="number" min="0" step="0.01" required placeholder="500"></label>
+      <label>TVA (DH)<input name="tva" type="number" min="0" step="0.01" value="0"></label>
+      <label class="span-2">Libellé *<input name="label" required placeholder="Ex: Timbre OMPIC dépôt marque"></label>
+      <label class="chk span-2"><input type="checkbox" name="remboursable" checked> Remboursable (à refacturer au client)</label>
+      <label>Statut<select name="statut"><option>À facturer</option><option>Facturé</option><option>Non remboursable</option></select></label>
+    </div>
+    <div class="dlg-actions">
+      <button type="button" class="btn" id="btnCancelFrais">Annuler</button>
+      <button type="submit" class="btn btn-primary">Ajouter</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="dlgVeille" class="dlg" aria-labelledby="dlgVeilleTitle">
+  <form method="dialog" id="formVeille">
+    <h3 id="dlgVeilleTitle">Nouvelle veille</h3>
+    <div class="form-grid">
+      <label>Date<input name="date" type="date"></label>
+      <label>Source<select name="source"><option>BO</option><option>sgg.gov.ma</option><option>CNDP</option><option>OMPIC</option><option>DGI / tax.gov.ma</option><option>Office des Changes</option><option>Autre</option></select></label>
+      <label class="span-2">Titre *<input name="title" required placeholder="Ex: BO 7536 - Loi 66-23 promulguée"></label>
+      <label class="span-2">URL<input name="url" type="url" placeholder="https://"></label>
+      <label>Tags<input name="tags" placeholder="09-08, CNDP, sanction"></label>
+      <label>Dossier lié<select name="dossierId"><option value="">— Aucun </option></select></label>
+      <label>Statut<select name="statut"><option>À lire</option><option>Lu</option><option>Action requise</option><option>Archivé</option></select></label>
+      <label class="span-2">Notes<textarea name="notes" rows="3" placeholder="Impact, action a prendre, reference article..."></textarea></label>
+    </div>
+    <div class="dlg-actions">
+      <button type="button" class="btn" id="btnCancelVeille">Annuler</button>
+      <button type="submit" class="btn btn-primary">Enregistrer</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="dlgObjectif" class="dlg" aria-labelledby="dlgObjectifTitle">
+  <form method="dialog" id="formObjectif">
+    <h3 id="dlgObjectifTitle">Objectif CA</h3>
+    <p class="field-help" style="margin:8px 18px">Définissez un cap HT pour animer le cabinet (mensuel ou annuel). Progression basée sur factures Encaissées.</p>
+    <div class="form-grid">
+      <label>Objectif HT (DH) *<input name="targetHT" type="number" min="0" required placeholder="50000"></label>
+      <label>Période<select name="period"><option value="mensuel">Mensuel</option><option value="annuel">Annuel</option></select></label>
+    </div>
+    <div class="dlg-actions">
+      <button type="button" class="btn" id="btnCancelObjectif">Annuler</button>
+      <button type="submit" class="btn btn-primary">Enregistrer</button>
+    </div>
+  </form>
+</dialog>
+
 <div id="printArea" hidden></div>
 
-<script src="vendor/marked.min.js"></script>
-<script src="vendor/chart.umd.min.js"></script>
-<script src="icons.js"></script>
-<script src="data.js"></script>
-<script src="app.js"></script>
-<script src="cabinet.js"></script>
-<script src="palette.js"></script>
+<script>if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) { window.addEventListener('load', function () { navigator.serviceWorker.register('sw.js').catch(function () {}); }); }</script>
+<script src="vendor/marked.min.js" defer></script>
+<script src="vendor/chart.umd.min.js" defer></script>
+<script src="avocato-core.js" defer></script>
+<script src="store.js" defer></script>
+<script src="icons.js" defer></script>
+<script src="data.js" defer></script>
+<script src="app.js" defer></script>
+<script src="cabinet.js" defer></script>
+<script src="cabinet-ops.js" defer></script>
+<script src="cabinet-features.js" defer></script>
+<script src="cabinet-cour.js" defer></script>
+<script src="cabinet-agenda.js" defer></script>
+<script src="cabinet-relations.js" defer></script>
+<script src="cabinet-mahakim.js" defer></script>
+<script src="cabinet-packs-14-18.js" defer></script>
+<script src="cabinet-registres.js" defer></script>
+<script src="mock-data.js" defer></script>
+<script src="sync.js" defer></script>
+<script src="palette.js" defer></script>
 </body>
 </html>

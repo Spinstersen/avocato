@@ -129,4 +129,4 @@ R : Oui pour la créativité, l'hyperfocus, la sensibilité relationnelle. À ex
 
 ---
 
-**Suivant :** `02_Pourquoi_Pratrique_Classique_Echoue.md` — Pourquoi le cabinet classique échoue avec un avocat ADHD.
+**Suivant :** `02_Pourquoi_Pratique_Classique_Echoue.md` — Pourquoi le cabinet classique échoue avec un avocat ADHD.

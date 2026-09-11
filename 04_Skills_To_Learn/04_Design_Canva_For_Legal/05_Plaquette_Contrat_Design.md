@@ -61,7 +61,7 @@ Le contrat est le seul « produit » physique du cabinet — il se traite comme 
 - **Papeterie** (si remise physique) : A4 surface `#fffcf5`, wordmark en-tête, agrafe ou piqûre à cheval pour les 4 pages, coin du exemplaire client marqué du prénom en mono.
 - **Paraphes** : ligne de paraphe discrète en bas de chaque page (filet + « Paraphe ») — le design sert ici la valeur probante, pas l'esthétique.
 - **Annexes** : chaque annexe reprend l'en-tête avec la mention « Annexe 2 au contrat [réf] » — un dossier dont les pièces se détachent visuellement ne se perd pas.
-- **Le Loom de walkthrough** (3-5 min) fait partie du design de livraison : il montre COMMENT lire le contrat (page 2 = ce que vous faites, page 4 = ce que je fais, page 7 = signer).
+- **La restitution de walkthrough** (Loom 3-5 min, ou 20 minutes en Zoom/cabinet) fait partie du design de livraison : elle montre COMMENT lire le contrat (page 2 = ce que vous faites, page 4 = ce que je fais, page 7 = signer).
 
 ## COMMENT — les trois formats à produire cette année, dans l'ordre
 

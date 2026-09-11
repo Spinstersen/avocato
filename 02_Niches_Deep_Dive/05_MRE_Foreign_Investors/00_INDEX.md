@@ -6,7 +6,7 @@
 
 Niche haut de gamme, meilleur score composite (32/40) mais accessibilité réseau difficile (6-12 mois). Persona Karim, cadre tech à Paris (40 ans), veut créer une SARL-AU au Maroc sans s'y installer. Douleur centrale : choisir une structure **avant** de déterminer sa résidence fiscale — l'inverse du conseil utile. Pack cœur : Création SARL-AU à Distance **4 900-6 900 DH HT**, + mission Conseil Investissement **8 000-15 000 DH HT**. Diagnostic 900 DH HT.
 
-## Comment lire ce dossier (14 fichiers)
+## Comment lire ce dossier (17 fichiers)
 
 | # | Fichier | Quand le consulter |
 | :--- | :--- | :--- |
@@ -24,6 +24,9 @@ Niche haut de gamme, meilleur score composite (32/40) mais accessibilité résea
 | 11 | `11_Arbre_Decision_Niche.md` | Résidence → structure → change → protection, dans cet ordre |
 | 12 | `12_Fiches_Pratiques_Niche.md` | Checklists dossier création à distance + rapatriement dividendes + plan 7j |
 | 13 | `13_Solutions_Juridiques.md` | **Le playbook douleur → parade** : clause rédigée, formalité, piège par douleur |
+| 14 | `14_Achat_Immobilier_Distance.md` | Procuration/apostille, notaire, change, 3 détentions |
+| 15 | `15_Succession_Donation_Transfrontaliere.md` | Inventaire, testaments coordonnés, règlement double |
+| 16 | `16_Retour_Definitif_Maroc.md` | Plan J-90, bascule, année 1 |
 
 ## ⚠️ Vérité juridique — watch (voir `01/00_INDEX.md` pour la liste complète ; vérifié 29/08/2026)
 
@@ -46,7 +49,7 @@ Points spécifiques à cette niche, corrigés lors du redo 29/08/2026 :
 - Procuration notariée + apostille (Maroc partie à la Convention de La Haye de 1961) — kit à distance.
 - Accompagnement dépôt des fonds / ouverture compte bancaire professionnel.
 - Note de résidence fiscale 2 pages + orientation confrère étranger.
-- Note explicative Loom 20 min.
+- Note explicative en restitution : Loom 20 min, ou visio Zoom / au cabinet (20-30 min) selon le client.
 
 ## Le persona — Karim
 
@@ -60,7 +63,7 @@ Voir `01_Persona_Karim.md`.
 - Sœur (SARL à distance pas à pas) : `02_Niches_Deep_Dive/10_MRE_Entrepreneurs/`.
 - Fiscalité internationale : `02_Niches_Deep_Dive/08_Fiscalite_Internationale_Rapatriement/`.
 - Change au quotidien : `02_Niches_Deep_Dive/09_Office_Changes_Dotation_IGOC/` (dossier à renommer IGOC 2026 — redo prévu).
-- Banque PI (utile pour l'investisseur qui dépose sa marque) : `08_Jurisprudence/05_PI_OMPIC.md`.
+- Banque PI (utile pour l'investisseur qui dépose sa marque) : `08_Jurisprudence/05_Propriete_Intellectuelle_OMPIC.md`.
 - Déontologie : `01_Strategy/01_Rules_Of_The_Game_No_Ads_Morocco/`.
 
 ---

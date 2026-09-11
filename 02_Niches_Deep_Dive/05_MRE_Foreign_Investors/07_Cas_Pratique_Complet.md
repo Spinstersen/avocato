@@ -46,7 +46,7 @@ Livrable du diagnostic : note 2 pages (schéma de circulation des dividendes IS�
 
 ### J+20 → J+30 — Clôture
 
-- Loom de clôture 20 min ; archive numérique Notion/Drive : statuts, RC, procuration apostillée, certificat de dépôt, planning AG annuel (JV : approbation des comptes + PV de distribution = les deux pièces qui feront sortir l'argent dans 2 ans).
+- restitution de clôture 20 min ; archive numérique Notion/Drive : statuts, RC, procuration apostillée, certificat de dépôt, planning AG annuel (JV : approbation des comptes + PV de distribution = les deux pièces qui feront sortir l'argent dans 2 ans).
 - Facture de solde 9 450 DH HT.
 
 ## 6. Suivi et rebond

@@ -31,7 +31,7 @@
 *   [ ] Immatriculation employeur CNSS ; contrats 65-99 signés (option) ; bulletins
 *   [ ] Registre 09-08 (données clients/salariés) — dépôt si nécessaire
 *   [ ] Archive AE (factures, déclarations) copiée + conservée 10 ans
-*   [ ] Loom clôture + agenda année 1 (Fiche C) + facture solde
+*   [ ] restitution clôture + agenda année 1 (Fiche C) + facture solde
 
 **Le détail qui signe la mission** : la **date** de cessation doit être la même partout (RNAE, DGI, clients, banque). Cinq documents, un seul calendrier.
 

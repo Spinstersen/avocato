@@ -61,7 +61,7 @@ L'information uniquement orale est difficile à prouver. Préférer le Loom ou l
 Pendant la mission, envoyer au client :
 
 - Un email à mi-parcours (J+3) : « Mission en cours, livrables en production, livraison confirmée à J+7. »
-- Un Loom de clôture à la livraison (J+7) : 10-15 min de synthèse.
+- Un restitution de clôture à la livraison (J+7) : 10-15 min de synthèse.
 - Un email de facturation (J+7).
 - Un email de check-in à J+30 : « Tout se passe bien suite à la mission ? »
 

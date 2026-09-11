@@ -86,7 +86,7 @@ Résoudre un problème juridique précis et délimité.
 
 | Mission type | Tarif indicatif HT | Livrables |
 | :--- | :--- | :--- |
-| **Contrat de prestation freelance FR/EN** | 2 900 DH | Contrat FR/EN, modèle de devis, modèle de facture, note de choix de statut, Loom 15 min |
+| **Contrat de prestation freelance FR/EN** | 2 900 DH | Contrat FR/EN, modèle de devis, modèle de facture, note de choix de statut, restitution (Loom/Zoom/cabinet) |
 | **CGV e-commerce YouCan** | 4 900 DH | CGV conformes, mentions obligatoires 09-08 et 31-08, modèle de politique de retour, registre 09-08 vierge |
 | **Création SARL-AU** | 4 900 DH | Statuts, PV de constitution, déclaration de nomination, formulaire d'enregistrement, note explicative |
 | **Conformité 09-08 PME** | 8 000-12 000 DH | Audit, registre, mentions site, politique de confidentialité, note de mise en conformité |
@@ -106,7 +106,7 @@ Résoudre un problème juridique précis et délimité.
 - Paiement de la provision 50% par virement ou Stripe (selon RIO local).
 - Notion de mission partagé.
 - Livraison sous 7 à 14 jours ouvrés.
-- Facture de solde + Loom de clôture.
+- Facture de solde + restitution de clôture.
 
 ## 5. Niveau 4 — Missions complexes (12 000-50 000 DH HT)
 
@@ -292,7 +292,7 @@ R : Conventionnellement, non (sauf mission non commencue). À préciser dans la 
 R : Oui, encadré (montant fixe plafonné), en complément d'un honoraire de base. Pas de pure quota litis.
 
 **Q : Comment justifier un honoraire de 12 000 DH HT pour une conformité 09-08 ?**
-R : Convention d'honoraires détaillée : audit (x jours), registre, mentions, politique de confidentialité, note de mise en conformité, Loom explicatif. Le client voit l'étendue et comprend la valeur.
+R : Convention d'honoraires détaillée : audit (x jours), registre, mentions, politique de confidentialité, note de mise en conformité, restitution explicative. Le client voit l'étendue et comprend la valeur.
 
 ---
 

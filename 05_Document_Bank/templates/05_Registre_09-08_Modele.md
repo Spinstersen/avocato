@@ -27,7 +27,9 @@
 
 **Notion alternative:** Create Notion database with same columns + gallery view per traitement. Client loves visual.
 
-**Loom delivery:** 20 min video walking through each ligne with client.
+**Restitution:** walk through each ligne with the client — live (visio Zoom 30 min or at the
+cabinet; preferred for 09-08: the questions ARE the delivery) or async Loom 20 min for a
+comfortable, autonomous client.
 
 **Source:** Vérifier deliberate CNDP 40-22 et guide CNDP 2024.
 

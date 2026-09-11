@@ -10,7 +10,7 @@
 *   **Les sanctions** : ce n'est PAS une « loi 19-06 » (référence fictive retirée) — le fondement pénal est le **dahir du 10/09/1939** (prohibition/organisation des changes) et le **dahir du 30/08/1949** (répression : emprisonnement 1 mois à 5 ans, 10 en récidive ; amende de 500 DH à 1 000 000 DH, jamais inférieure à 5 fois la valeur de l'objet de la fraude ; confiscation ; **pas de prescription** pour le non-rapatriement, délit continu). La **transaction** (régularisation négociée avec l'Office, recouvrement ADII) est la porte de sortie professionnelle.
 *   **Clientèle** : freelances/exportateurs de services (01, 04, 06), MRE (05, 10, 11), startups (07), PME import (08), et tous les dossiers de change des niches 5-6-10-11.
 
-## Comment lire ce dossier (14 fichiers)
+## Comment lire ce dossier (16 fichiers)
 
 | # | Fichier | Quand |
 | :--- | :--- | :--- |
@@ -28,6 +28,8 @@
 | 11 | `11_Arbre_Dotation_Quelle_Dotation.md` | Quelle dotation / compte / quel délai, en 2 min |
 | 12 | `12_Fiches_Formulaires_Office.md` | Fiches banque/Office, formulaires (à épingler aux textes du jour), checklist 15 |
 | 13 | `13_Solutions_Juridiques.md` | **Le playbook douleur → parade** : clauses rédigées, dossiers montés, échéanciers |
+| 14 | `14_Transaction_Regularisation_Change.md` | Gel, généalogie 3 ans, transaction ADII/Office pas à pas |
+| 15 | `15_Dossiers_Banque_Refus.md` | 7 refus types + dossiers qui débloquent + méthode banque |
 
 ## ⚠️ Watch 2026 — vérité juridique de ce dossier (vérifié 29/08/2026)
 

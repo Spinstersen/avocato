@@ -37,12 +37,12 @@ La niche 1 est la **niche pilote recommandée** pour un avocat trilingue tech-sa
 
 ### 3.1 Le statut (auto-entrepreneur vs SARL)
 
-- L'auto-entrepreneur a un plafond de CA annuel (200 000 DH pour services, 1 million pour achat-revente) — au-delà, bascule obligatoire en SARL ou autre.
-- L'auto-entrepreneur paie l'IR au taux libératoire (1-3% pour les services, 0,5-1% pour le commerce). Au-delà de 200 000 DH/an, la fiscalité devient moins intéressante.
+- L'auto-entrepreneur a un plafond de CA annuel (200 000 DH pour les services, 500 000 DH pour le commerce) — au-delà, bascule obligatoire en SARL ou autre.
+- L'auto-entrepreneur paie l'IR au taux libératoire (1% pour les services, 0,5% pour le commerce — CGI art. 42 et s.). Au-delà du plafond, la fiscalité devient moins intéressante.
 - La SARL permet de déduire les charges (salaires, frais, investissements), de protéger le patrimoine, de facturer offshore avec TVA exonérée.
 - Le passage AE → SARL a des conséquences (transfert de clientèle, comptabilité, statut du gérant).
 
-> **Référence.** Loi 20-19 sur les sociétés (SARL-AU) ; Loi n° 1-15-02 sur l'auto-entrepreneur (2015) ; CGI article 150 (régime fiscal AE).
+> **Référence.** Loi 5-96 sur les sociétés (SARL/SARL-AU ; SAS/SASU via 19-20) ; loi 114-13 sur l'auto-entrepreneur (dahir 1-15-06, 19/02/2015) ; CGI art. 42 et s. (plafonds et impôt libératoire AE).
 
 ### 3.2 Le contrat de prestation offshore
 
@@ -89,7 +89,7 @@ Livrables :
 - CGV / Conditions de vente adaptées.
 - Modèle de devis commercial & facture conforme + mentions légales.
 - Note de choix de statut (auto-entrepreneur vs SARL).
-- Note explicative Loom 15 min.
+- Note explicative en restitution : Loom 15 min, ou visio Zoom / au cabinet (20-30 min) selon le client.
 
 ### 4.2 Pack Création SARL-AU — 4 900 DH HT
 
@@ -98,7 +98,7 @@ Livrables :
 - PV de constitution.
 - Déclaration de nomination du gérant.
 - Formulaire d'enregistrement (RC + TP + IF).
-- Note explicative Loom 15 min.
+- Note explicative en restitution : Loom 15 min, ou visio Zoom / au cabinet (20-30 min) selon le client.
 
 ### 4.3 Pack Stripe Offshore Structuration — 6 900-12 000 DH HT
 
@@ -188,7 +188,7 @@ freelances marocains qui facturent à l'étranger — vous avez
 besoin de sécuriser votre statut et vos contrats.
 
 Je propose un diagnostic 45 min à 600 DH HT (convention
-d'honoraires écrite conformément à l'art. 30 Loi 28-08).
+d'honoraires écrite conformément à l'art. 30 loi 28-08, transposé par la loi 66-23).
 À l'issue, je vous remets une note de risques écrite et un
 devis pour la mission à mener. Le diagnostic est déduit de
 la mission si vous signez dans les 14 jours.
@@ -255,7 +255,7 @@ Total : 14 700 DH HT (provision 50% = 7 350 DH). Délai : 30 jours.
 ### Livraison (J+30)
 
 - Notion de mission archivé.
-- Loom de clôture 15 min.
+- Restitution de clôture : Loom 15 min, ou session Zoom / cabinet.
 - Facture de solde 7 350 DH HT.
 - Proposition d'abonnement mensuel 4 500 DH HT/mois (revue contrats clients illimitée, conseil illimité email, 1 visio/mois).
 

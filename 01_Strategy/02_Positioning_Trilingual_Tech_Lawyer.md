@@ -48,7 +48,7 @@ Exemple Mission Contrats - Formule Essentielle (convention CH-2025-XXX) :
 - CGV / Conditions de vente adaptées
 - Modèle de devis commercial & facture conforme + mentions légales
 - Note de choix de statut + projet de PV
-- Note explicative Loom 15 min
+- restitution explicative (Loom 15 min, ou visio Zoom / au cabinet)
 
 Le client perçoit 5 fois plus de valeur qu'un « appel 1h à 800 DH HT » — et vous respectez l'art. 30 Loi 28-08 (convention écrite + provision).
 

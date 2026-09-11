@@ -1,6 +1,6 @@
 # 05 — Livrable et qualité : le workflow de livraison en quatre pièces
 
-> **À quoi ça sert :** un livrable que le client ne comprend pas est une mission à moitié vendue — et une facture solde à moitié payée. Ce fichier pose le workflow complet : **note de risques + livrables + Loom + mode d'emploi**, la checklist qualité avant envoi, et la discipline de versioning qui rend la « dernière version » évidente. Temps de lecture : 9 minutes.
+> **À quoi ça sert :** un livrable que le client ne comprend pas est une mission à moitié vendue — et une facture solde à moitié payée. Ce fichier pose le workflow complet : **note de risques + livrables + restitution (Loom / visio Zoom / cabinet) + mode d'emploi**, la checklist qualité avant envoi, et la discipline de versioning qui rend la « dernière version » évidente. Temps de lecture : 9 minutes.
 
 ## 1. POURQUOI : on ne livre pas un document, on livre un usage
 
@@ -31,7 +31,12 @@ NOTE DE RISQUES — [client] — [mission] — [date]
 
 La section 4 est la plus rentable du document : elle transforme un trou perçu en frontière vendue (et prépare l'avenant ou le retainer sans aucune pression).
 
-### Pièce 3 — Le Loom de 3 minutes (cf. `01_Legal_Tech_Stack/05_Loom_Video_Client`)
+### Pièce 3 — La restitution : Loom de 3 min, visio Zoom ou cabinet (cf. `01_Legal_Tech_Stack/05_Loom_Video_Client`)
+
+> **Choisir le canal selon le client :** Loom si le client est autonome et le sujet simple ;
+> visio Zoom si des questions sont attendues (les réponses sortent de la session) ;
+> cabinet si la remise doit rassurer (dossier sensible, valeur élevée, dirigeant inquiet).
+> Le contenu ci-dessous est identique dans les trois cas — seul le porteur change.
 
 Structure en 4 temps, jamais improvisée :
 
@@ -60,8 +65,8 @@ QUALITE-LIVRAISON — dossier [réf] — date [du jour]
 [ ] Design sobre conforme DESIGN.md (04/) — un livrable moche est lu deux fois moins
 [ ] Versioning aux noms (fichier 04) + LISEZ-MOI dans le dossier
 [ ] Note de risques jointe (jamais livrée sans elle — même bonne nouvelle)
-[ ] Loom testé en navigation privée depuis un autre compte (le lien n'est PAS
-    « accessible à moi seulement »)
+[ ] Si canal Loom : lien testé en navigation privée depuis un autre compte (le lien n'est PAS
+    « accessible à moi seulement ») ; si canal Zoom/cabinet : créneau confirmé par écrit (date + heure)
 [ ] Envoi à DEUX destinés client si société (gérant + contact opérationnel)
 [ ] Relecture française : tutoiement/vouvoiement constant, dates au format français
     (06_French_Communication/02)
@@ -77,7 +82,7 @@ QUALITE-LIVRAISON — dossier [réf] — date [du jour]
 > 2. La note de risques d'une page : ce que le paquet règle, ce qui reste à votre main,
 >    les trois risques qui survivent, et ce que la mission ne couvre pas.
 > 3. La vidéo de 3 minutes : où cliquer, quoi remplir, les deux erreurs à ne pas commettre.
->    [lien Loom]
+>    [lien Loom ou date de la session Zoom / au cabinet]
 > 4. Le LISEZ-MOI : qui fait quoi dans votre équipe de ces documents, et la date du prochain point utile.
 > Le solde de 2 950 DH HT est facturé (FH-2026-XXX, joints) — payable à la réception,
 > comme prévu à la convention. Je vous propose un point de 15 minutes vendredi ou lundi
@@ -106,4 +111,4 @@ Trois lois :
 
 [cas illustratif] **Karim (SARL-AU 5 500 DH HT + débours) reçoit le pack statuts.** Sans workflow : trois emails de questions, un appel de 25 minutes, un doute sur la clause d'agrément (« c'est quoi la différence avec ce que mon comptable allemand a dit ? » — rappel utile : pour l'Allemagne, c'est la légalisation consulaire qui s'applique, pas l'apostille — objection documentée, `15/06`). Avec le paquet de quatre : la note de risques § 2 répond à la question avant qu'elle soit posée, le Loom montre où est l'agrément en 20 secondes, le solde est réglé à J+4 au lieu de J+18. Coût du workflow : ~50 minutes de plus par mission ; bénéfice observable : le délai de paiement du solde divisé par deux [hypothèse à valider sur vos chiffres réels — cf. 12/03 KPI].
 
-> **Lecture pro :** la dernière heure de la mission — assembler les quatre pièces, tourner le Loom, nommer les fichiers — est la mieux payée du catalogue : c'est elle qui transforme un document juridique en expérience, et une facture solde en automatisme. Les clients ne reviennent pas pour l'article qu'ils n'ont pas lu ; ils reviennent pour la vidéo qu'ils ont regardée deux fois.
+> **Lecture pro :** la dernière heure de la mission — assembler les quatre pièces, préparer la restitution (Loom tourné ou session calée), nommer les fichiers — est la mieux payée du catalogue : c'est elle qui transforme un document juridique en expérience, et une facture solde en automatisme. Les clients ne reviennent pas pour l'article qu'ils n'ont pas lu ; ils reviennent pour la restitution qui les a fait comprendre.

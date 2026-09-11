@@ -115,7 +115,7 @@ Au lieu d'un suivi par email dispersé :
 Au lieu d'un Word par email :
 
 - PDF design soigné (Notion-to-PDF, ou Webflow-to-PDF).
-- Loom de clôture (10-15 min) qui résume et donne les suites.
+- restitution de clôture (10-15 min) qui résume et donne les suites.
 - Notion de mission archivé et accessible au client.
 
 > **Effet perçu.** Le client a l'impression d'avoir payé pour un produit moderne, pas pour un document. La valeur perçue triple.
@@ -199,7 +199,7 @@ Un avocat tech-savvy produit des documents qui ont l'allure d'un produit :
 ### Étape 4 — Livraison (J+7)
 
 - Livrables en PDF design soigné + Notion archivé.
-- Loom de clôture 10-15 min.
+- restitution de clôture 10-15 min.
 - Note explicative écrite.
 - Facture de solde envoyée par signature électronique.
 

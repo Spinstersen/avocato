@@ -28,11 +28,11 @@ Pour scoriger et choisir une niche, il faut connaître le **contexte économique
 
 ### 1.3 Tendances juridiques structurantes (2023-2025)
 
-- **Loi 09-08** : durcissement du contrôle CNDP, sanctions plus fréquentes (amendes jusqu'à 50 000 DH pour les personnes morales, jusqu'à 100 000 DH en cas de récidive — art. 65 et 67 Loi 09-08).
+- **Loi 09-08** : durcissement du contrôle CNDP, sanctions plus fréquentes (traitement sans formalités préalables : amende **10 000 à 100 000 DH** — art. 64 ; collecte frauduleuse : jusqu'à 3 ans d'emprisonnement — art. 65).
 - **Loi 31-08** : vigilance sur les pratiques commerciales trompeuses, droit de rétractation, mentions obligatoires sur les e-commerçants.
-- **Loi 20-19** (LSC) : réforme du droit des sociétés (SARL, SARL-AU, SA, SAS futures, SARL offshore).
+- **Loi 5-96** (SARL/SARL-AU, modifiée notamment par la loi 19-20 pour les SAS/SASU) : cadre du droit des sociétés.
 - **CGI (Code Général des Impôts)** : IF, IS, IR, TVA, retenue à la source.
-- **Loi 28-08** : organisation des avocats (cadre déontologique).
+- **Loi 66-23** (ex 28-08) : organisation de la profession d'avocat (cadre déontologique) — numéros d'articles en transposition.
 
 ## 2. Les statistiques marocaines utiles pour les niches
 
@@ -94,38 +94,32 @@ Sources : OMPIC, Travaux de l'Agence Nationale de l'Auto-Entrepreneur.
 
 ### 3.1 Loi 09-08 (protection des données personnelles)
 
-- **Article 3 à 5** : champ d'application, définitions.
-- **Article 7 à 12** : conditions de licéité du traitement (consentement, intérêt légitime).
-- **Article 14 à 25** : obligations du responsable de traitement (sécurité, confidentialité, durée de conservation).
-- **Article 26 à 32** : droits des personnes (accès, rectification, opposition).
-- **Article 47 à 52** : CNDP (organisation, missions).
-- **Article 53 à 58** : déclaration préalable et autorisation.
-- **Article 60 à 67** : sanctions (amendes, peines d'emprisonnement en cas de traitement illicite).
-- **Décret d'application** : décret n° 2-09-362 (modifié).
+- Champ : traitement des données à caractère personnel (définitions et principes).
+- Obligations clés : formalités préalables auprès de la CNDP (déclaration ; autorisation pour données sensibles), sécurité et confidentialité, registre des traitements.
+- Droits des personnes : accès, rectification, opposition, information.
+- Sanctions : art. 64 (défaut de formalités) — amende **10 000 à 100 000 DH** ; art. 65 (collecte frauduleuse) — jusqu'à 3 ans d'emprisonnement.
+- Décret d'application : décret n° 2-09-362 (modifié). *Numéros d'articles à épingler au texte consolidé `sgg.gov.ma`.*
 
 ### 3.2 Loi 31-08 (protection du consommateur)
 
-- **Article 1 à 4** : champ d'application.
-- **Article 5 à 14** : information précontractuelle.
-- **Article 15 à 25** : pratiques commerciales (interdiction des pratiques trompeuses, clause abusive).
-- **Article 26 à 35** : contrats (CGV, mentions obligatoires).
-- **Article 36 à 45** : garanties.
-- **Article 46 à 55** : sanctions.
+- Champ : relations fournisseur–consommateur (B2C uniquement, pas le B2B).
+- Obligations clés : information précontractuelle, mentions obligatoires (ICE, prix TTC, frais), pratique commerciale loyale, clauses abusives nulles.
+- Rétractation vente à distance : **7 jours** (art. 36), portée à 30 jours si l'information légale n'est pas confirmée par écrit ; remboursement sous 15 jours (art. 37) ; exceptions en liste fermée (art. 38).
+- Sanctions : civiles (nullité de clause, dommages-intérêts) + amendes. *Ranges d'articles : vérifier au texte consolidé.*
 
-### 3.3 Loi 20-19 (droit des sociétés)
+### 3.3 Loi 5-96 (droit des sociétés)
 
-- **Article 1 à 10** : dispositions générales.
-- **Article 50 à 100** : SARL (création, vie sociale, dissolution).
-- **Article 60 à 70** : SARL-AU (dispositions spécifiques).
-- **Article 200 à 250** : SA (réforme en cours, SAS à venir).
+- SARL / SARL-AU : constitution, capital, gérance, cession de parts, dissolution.
+- SAS/SASU : introduites par la loi 19-20 (modifiant la loi 5-96).
+- La « loi 20-19 » citée dans d'anciennes versions de ce vault n'existe pas — ne jamais la reprendre.
+- *Numéros d'articles (SARL, SARL-AU) à épingler au texte consolidé avant citation.*
 
 ### 3.4 Code Général des Impôts (CGI)
 
-- **Article 1 à 10** : IF (impôt foncier), IR (impôt sur le revenu).
-- **Article 30 à 60** : IS (impôt sur les sociétés).
-- **Article 80 à 100** : TVA.
-- **Article 121 à 130** : retenue à la source.
-- **Article 150 à 160** : auto-entrepreneur (régime fiscal spécifique).
+- IS : **20 %** (bénéfice net fiscal < 100 M DH), **35 %** (≥ 100 M DH), **40 %** (secteur financier) — taux 2026.
+- TVA : 20 % / 10 % / 0 % ; export de services exonéré sous conditions (art. 92).
+- IR / auto-entrepreneur : statut = **loi 114-13** ; plafonds et impôt libératoire = **CGI art. 42 et s.** (200 000 DH services / 500 000 DH commerce).
+- Facture : mentions obligatoires **art. 145 CGI** (pas 144).
 
 ## 4. Les zones de friction juridique pour les niches prioritaires
 
@@ -144,7 +138,7 @@ Sources : OMPIC, Travaux de l'Agence Nationale de l'Auto-Entrepreneur.
 - Mentions obligatoires 09-08 manquantes sur le site.
 - CMI / MoPay exigeant des mentions spécifiques pour activer le paiement.
 - Registre 09-08 non tenu.
-- Factures non conformes (Loi 31-08 + CGI art. 144).
+- Factures non conformes (Loi 31-08 + CGI art. 145 : mentions obligatoires).
 - Statut fiscal flou (AE vs SARL).
 
 ### 4.3 Conformité 09-08 — les frictions
@@ -174,7 +168,7 @@ Sources : OMPIC, Travaux de l'Agence Nationale de l'Auto-Entrepreneur.
 ### 4.6 AE → SARL — les frictions
 
 - Choix du moment (CA seuil, envie de salariés, signature clients importants).
-- Fiscalité comparée (AE IR progressif vs SARL IS 15-31%).
+- Fiscalité comparée (AE IR libératoire 1%/0,5% vs SARL IS 20/35/40% — taux 2026).
 - Comptabilité (passage à une comptabilité d'engagement).
 - Statut du dirigeant (gérant minoritaire/majoritaire, rémunération).
 - Protection du patrimoine (responsabilité limitée).
@@ -271,8 +265,8 @@ R : Variables. Les données OMPIC (créations d'entreprises) sont fiables. Les d
 **Q : La fiscalité marocaine est-elle stable ?**
 R : Relativement stable dans ses grands principes, mais évolutive dans les détails (lois de finances annuelles). Veille annuelle nécessaire.
 
-**Q : La réforme des sociétés (Loi 20-19) est-elle aboutie ?**
-R : Oui pour les SARL et SARL-AU. La SAS (société par actions simplifiée) est en cours d'introduction (annonces 2024-2025). À suivre.
+**Q : La réforme des sociétés est-elle aboutie ?**
+R : La loi 5-96 régit les SARL/SARL-AU ; la loi 19-20 a introduit les SAS/SASU. Le suivi passe par le Bulletin Officiel, pas par la « loi 20-19 » (référence erronée retirée du vault).
 
 ---
 

@@ -8,7 +8,7 @@ ARTICLE 2: Produits & Prix (DH TTC, frais livraison)
 ARTICLE 3: Commande & Paiement (CMI, MoPay, COD)
 ARTICLE 4: Livraison (délais, transporteur COD type Cathedis, frais, retard)
 ARTICLE 5: Droit de rétractation (7 jours Loi 31-08, exceptions produits personnalisés)
-ARTICLE 6: Retours & Remboursements (procédure, qui paye retour, délai 14 jours)
+ARTICLE 6: Retours & Remboursements (procédure, qui paye retour, remboursement sous 15 jours — art. 37 Loi 31-08)
 ARTICLE 7: Garantie légale
 ARTICLE 8: Protection données (Loi 09-08: finalités, durée, droits, contact CNDP)
 ARTICLE 9: Litiges & Médiation (tribunal compétent)
@@ -37,7 +37,8 @@ CONTRAT FOURNISSEUR (annexe):
 
 LIVRAISON (Mission 3) :
 - 3 fichiers Word : CGV longue (juridique), CGV courte (checkout), Mentions + Politique
-- Note Loom 15 min : où coller chaque texte sur YouCan/Shopify (capture écran)
+- Note explicative : où coller chaque texte sur YouCan/Shopify (capture écran) — vidéo Loom
+  15 min, ou restitution live (visio Zoom / au cabinet) si le client attend des questions
 - Remise contre PV + facture solde
 ```
 
@@ -55,7 +56,7 @@ Tally 10 questions Oui/Non:
 
 **Aucun honoraire n'est un prix catalogue** : L'art. 30 Loi 28-08 exige une convention écrite préalable qui précise l'objet, le temps prévisible, la spécialité, et les débours. L'art. 32 impose la provision. Le chiffre indicatif HT sert à la transparence, pas à la vente.
 
-**Pédagogie** : Expliquer que 3 500 DH HT pour 12 clauses, c'est 290 DH par clause rédigée, relue, et expliquée en Loom — à comparer avec le coût d'une clause pénale mal rédigée (pénalité excessive = réduite par le juge, DOC art. 263-264 — pratique de modération, voir `08_Jurisprudence/03_Contrats_Commerce.md` ; ne jamais citer un arrêt non produit).
+**Pédagogie** : Expliquer que 3 500 DH HT pour 12 clauses, c'est 290 DH par clause rédigée, relue, et expliquée à la restitution (Loom / Zoom / cabinet) — à comparer avec le coût d'une clause pénale mal rédigée (pénalité excessive = réduite par le juge, DOC art. 263-264 — pratique de modération, voir `08_Jurisprudence/03_Contrats_Commerce.md` ; ne jamais citer un arrêt non produit).
 
 **Hors périmètre** : Le comptable chiffre, l'avocat qualifie. La co-traitance tripartite (`08_Fiscalite_Internationale_Rapatriement/12_Fiches_Checklist_CoTraitance_Comptable.md`) évite l'exercice illégal.
 

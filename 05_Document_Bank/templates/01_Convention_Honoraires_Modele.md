@@ -28,7 +28,7 @@ Objet : [Entourer / préciser]
 ├─────────────────────────────────────────────────────────────────┤
 │ Désignation                  │ Contenu                           │ Honoraires HT │
 │ Mission [X] - [Formule]      │ • [Lister 3-5 livrables précis]   │ [XXXX] DH HT │
-│                              │ • 1 présentation Loom 15 min      │              │
+│                              │ • 1 restitution (Loom/Zoom/cab.)   │              │
 │                              │ • 1 révision incluse sous 7 jours │              │
 │ Débours / frais              │ [0 DH / Frais OMPIC/CRI en sus]  │ [XXXX] DH HT │
 │ TOTAL HONORAIRES HT          │                                   │ [XXXX] DH HT │

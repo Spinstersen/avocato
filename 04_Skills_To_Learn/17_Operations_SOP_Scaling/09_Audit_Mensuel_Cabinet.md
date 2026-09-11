@@ -68,7 +68,7 @@ La ligne « ressenti » n'est pas décorative : l'audit est aussi le capteur ant
 Mars.
 Pipeline : 9 diagnostics (dont 4 atelier), 5 convertis — le meilleur mois depuis le lancement, l'atelier de février a marché.
 Taux réel : les packs tournent autour de 390 DH/h, la mission « SARL-AU » est à 310 DH/h — sous le plancher, deuxième mois consécutif, toujours sur l'étape « débours et formalités » qui double.
-Incidents : trois — un oubli de Loom, un solde relancé à J+22, un client paniqué non rappelé dans les 24 h.
+Incidents : trois — une restitution oubliée, un solde relancé à J+22, un client paniqué non rappelé dans les 24 h.
 SOP du mois : la checklist du pack reçoit une ligne « vérification pièces manquantes à J+3 » ; et le module incident « client paniqué » se raccorde à la SOP d'urgence ([[18_Intelligence_Emotionnelle_Desescalade/03_Protocole_Desescalade_6_Temps]]).
 Décision de prix : le SARL-AU passe de 5 500 à 6 000 HT + débours réels facturés — le gap de 140 DH/h ne se rattrape pas par la discipline, la mission est structurellement sous-payée ; effective 1er avril, à vérifier au taux réel de mai.
 Ressenti : « chargé, mais la mécanique tient ».

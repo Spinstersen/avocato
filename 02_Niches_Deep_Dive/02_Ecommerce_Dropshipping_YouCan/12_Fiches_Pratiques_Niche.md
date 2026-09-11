@@ -16,7 +16,7 @@
 *   [ ] **Sous-traitants** : YouCan/hébergeur, transporteurs (Amana/Cathedis…), community manager avec accès clients → contrats/clauses 09-08 + réversibilité
 *   [ ] **Marque** : ROMARIN vierge → dépôt classes produits + 35 (vente au détail) ; veille bulletin 2 mois (fenêtre d'opposition art. 148.2)
 *   [ ] **Dropshipping/import** : fournisseur écrit (responsabilité produit, délais), information client sur droits de douane AVANT paiement, chaîne de retour traçable
-*   [ ] **Livraison design + appropriation** : PDF + éditable Notion + Loom 15 min + plan 30 jours avec owners (le droit ne livre pas la conformité technique — le dev/ops l'exécute)
+*   [ ] **Livraison design + appropriation** : PDF + éditable Notion + restitution (Loom / Zoom / cabinet) + plan 30 jours avec owners (le droit ne livre pas la conformité technique — le dev/ops l'exécute)
 
 ## Scripts express (FR fait foi)
 
@@ -36,7 +36,7 @@
 *   **J1 :** convention + provision + intake (captures du site, base contacts, fournisseur).
 *   **J2-J3 :** audit express 15 cases ci-dessus → liste des non-conformités avec articles.
 *   **J5 :** projet CGV + politique confidentialité + politique retour envoyés pour commentaires.
-*   **J7 :** livraison (PDF + Notion + Loom) + dossier CMI re-soumis + devis missions complémentaires (opt-in purge, marque, SARL).
+*   **J7 :** livraison (PDF + Notion + restitution) + dossier CMI re-soumis + devis missions complémentaires (opt-in purge, marque, SARL).
 
 ---
 

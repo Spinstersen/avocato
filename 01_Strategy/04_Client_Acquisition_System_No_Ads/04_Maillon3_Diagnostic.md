@@ -75,7 +75,7 @@ Le diagnostic n'est pas un appel commercial. C'est une **consultation juridique 
 ### 5.5 Proposition de mission (5 min)
 
 > « Je vous propose 2 options :
-> - **Formule Essentielle (2 900 DH HT)** : corrige le risque [Y]. Contrat type FR/EN + CGV + note de choix de statut + Loom 15 min. Livraison 7 jours.
+> - **Formule Essentielle (2 900 DH HT)** : corrige le risque [Y]. Contrat type FR/EN + CGV + note de choix de statut + restitution (Loom / Zoom / cabinet). Livraison 7 jours.
 > - **Formule Étendue (4 900 DH HT)** : corrige [Y + X] + création SARL. Livraison 14 jours.
 > Laquelle vous parle le plus ? »
 

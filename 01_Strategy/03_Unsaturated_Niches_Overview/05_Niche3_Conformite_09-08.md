@@ -25,8 +25,8 @@ La niche 3 est la niche **montée en gamme** par excellence : tarifs plus élev�
 
 ### 3.1 Absence de registre 09-08
 
-- Article 14 à 18 Loi 09-08 : registre des traitements obligatoire.
-- Sanction : amende jusqu'à 50 000 DH (art. 65), 100 000 DH en récidive (art. 67).
+- Registre des traitements obligatoire (loi 09-08 — numéros à épingler au texte consolidé `sgg.gov.ma`).
+- Sanction : amende **10 000 à 100 000 DH** pour défaut de formalités (art. 64) ; collecte frauduleuse = pénal (art. 65).
 
 ### 3.2 Mentions site web non conformes
 
@@ -63,7 +63,7 @@ Livrables :
 - Mentions site web (cookie banner, mentions d'identification).
 - Note de mise en conformité.
 - Plan d'action 90 jours.
-- Loom de synthèse 20 min.
+- Restitution de synthèse : Loom 20 min, ou session Zoom / cabinet.
 
 ### 4.2 Pack Politique de Confidentialité — 1 500-2 500 DH HT
 
@@ -122,7 +122,7 @@ Pack Conformité 09-08 PME (12 000 DH HT) + Pack Sous-traitants (3 000 DH HT). T
 - Mentions site + bannière cookies.
 - 3 contrats sous-traitants (HubSpot, AWS, Mailchimp).
 - Plan d'action 90 jours.
-- Loom 20 min.
+- 1 restitution : Loom 20 min, ou visio Zoom / au cabinet (20-30 min).
 
 ### Suite
 

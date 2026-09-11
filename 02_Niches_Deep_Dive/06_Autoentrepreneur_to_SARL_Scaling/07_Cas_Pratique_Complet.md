@@ -41,7 +41,7 @@ Décision : **B** — et sans attendre le redressement qui, lui, n'attendra pas.
 - **J+15** : **avenants de substitution** aux 4 contrats en cours : banque (245 k), deux PME, un client public local — la banque exige RC + ICE + RIB SARL : livrés en 48 h, la banque signe la substitution et **arrête la retenue de 30 %** (la SARL est un redevable normal).
 - **J+18** : contrats de travail (la première assistante en CDI — l'« ancienneté de fait » est régularisée par une date d'embauche assumée + point écrit au client sur le risque résiduel : `13` S5), immatriculation employeur CNSS, bulletins.
 - **J+25** : première facture SARL (mentions CGI art. 145 + TVA du régime) ; archive AE numérotée (les 5 ans de factures : conservées 10 ans, prescriptions aidant).
-- **J+30** : Loom de clôture + **agenda année 1** (`12` Fiche C) + facture solde 3 450.
+- **J+30** : restitution de clôture + **agenda année 1** (`12` Fiche C) + facture solde 3 450.
 
 ## 6. Suivi et rebond
 

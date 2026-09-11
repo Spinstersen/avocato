@@ -13,7 +13,7 @@ Le produit d'appel de la niche. Pour le MRE/étranger non-résident qui crée se
 3. Procuration spéciale aux fins de formalités (trame + kit de signature notaire local + **apostille** — Convention de La Haye du 05/10/1961).
 4. Dépôt des fonds : choix de banque, rendez-vous KYC préparé (checklist origines de fonds), suivi du certificat de dépôt.
 5. Certificat négatif OMPIC, enregistrement, immatriculation au registre du commerce, commencement d'activité.
-6. Note explicative Loom 20 min + dossier numérique archive (prêt pour banque/Office des changes).
+6. Restitution explicative 20 min (Loom ou session Zoom/cabinet) + dossier numérique archive (prêt pour banque/Office des changes).
 
 ### Hors périmètre (dit dans la convention)
 
@@ -82,7 +82,7 @@ J   : Note de cadrage résidence + choix de structure
 J+3 : Statuts envoyés pour relecture ; procuration notariée/pays de résidence ; apostille lancée
 J+7 : Dépôt des fonds (RV banque préparé) ; certificat négatif ; enregistrement
 J+15 : Immatriculation RC ; commencement d'activité ; ouverture compte (exploitable)
-J+25 : Dossier banque « transfert » monté ; Loom clôture ; archive numérique
+J+25 : Dossier banque « transfert » monté ; restitution clôture ; archive numérique
 J+30 : Facture de solde + plan annuel (AG, dividendes, veille)
 ```
 

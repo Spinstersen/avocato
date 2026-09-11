@@ -6,7 +6,7 @@
 
 Persona Karim, 38 ans, cadre tech à Paris (variante Montréal/Bruxelles/Dubaï), **non-résident**, veut exploiter une SARL-AU de services depuis le Maroc (clients marocains + export). Sa vraie douleur n'est pas le droit des sociétés — c'est **la chaîne** : procuration/apostille → compte → RC/IF → premier contrat → dividende, chaque maillon ayant son régime et sa date. Pack cœur : **Pack MRE de bout en bout — 6 900 à 9 500 DH HT** (formation à distance + kit banque + chaîne du dividende + première année suivie). Diagnostic 900 DH HT.
 
-## Comment lire ce dossier (14 fichiers)
+## Comment lire ce dossier (17 fichiers)
 
 | # | Fichier | Quand le consulter |
 | :--- | :--- | :--- |
@@ -24,6 +24,9 @@ Persona Karim, 38 ans, cadre tech à Paris (variante Montréal/Bruxelles/Dubaï)
 | 11 | `11_Arbre_Decision_Niche.md` | Statut → compte → chaîne du dividende, dans l'ordre |
 | 12 | `12_Fiches_Pratiques_Niche.md` | Kits : procuration+apostille par pays, ouverture compte, AG/dividende, plan 7 j |
 | 13 | `13_Solutions_Juridiques.md` | **Le playbook douleur → parade** (S1→S9, clauses rédigées) |
+| 14 | `14_SARL_Distance_Bout_En_Bout.md` | Procuration par pays, création J-7/J+30, dividende daté |
+| 15 | `15_Banque_Genealogie_Fonds.md` | KYC, registre apports, sorties propres |
+| 16 | `16_Associe_Local_Gouvernance.md` | Pacte 8 clauses, pilotage à distance |
 
 ## ⚠️ Vérité juridique — watch (spécifique MRE entrepreneur ; vérifié 29-30/08/2026)
 
@@ -43,7 +46,7 @@ Persona Karim, 38 ans, cadre tech à Paris (variante Montréal/Bruxelles/Dubaï)
 2. Formation SARL-AU (ou SARL à deux) **entièrement à distance** : statuts + procuration spéciale (texte par pays — `12`) + apostille/légalisation + dépôt des fonds + RC/IF/TP ;
 3. Kit banque : compte pro + (le cas échéant) compte devise/convertible, KYC préparé, **dossier de généalogie des fonds dès le premier jour** ;
 4. Chaîne du dividende outillée : convention de distribution, PV types, calendrier AG, dossier transfert banque ;
-5. Livrables EN de synthèse ; Loom clôture + agenda année 1.
+5. Livrables EN de synthèse ; restitution clôture + agenda année 1.
 
 **Différence avec `05`** : le pack 05 (4 900-6 900) livre la société créée ; le pack 10 livre la société **qui tourne** — banque, contrats, dividende, premier bilan d'année.
 

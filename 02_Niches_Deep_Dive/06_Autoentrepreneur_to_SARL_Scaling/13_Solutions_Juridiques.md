@@ -91,7 +91,7 @@ Un service achats ne « préfère pas la SARL » par fétichisme : il a besoin d
 
 ## S8 — La marque de la nouvelle société (l'oubliée de la bascule)
 
-**Le mécanisme.** Le certificat négatif OMPIC réserve un **nom commercial** ; il n'emporte aucun droit sur une **marque** — et un titulaire antérieur d'une marque identique/similaire (classes Nice concernées) peut interdire l'usage du nom de la SARL que Tarik vient de construire. C'est la leçon de l'arrêt réel **NOUR DAR/ALNOUR** (CA com Casablanca 2024 ; banque `08_Jurisprudence/05_PI_OMPIC.md`) : la vie du signe est dans le dépôt et la procédure d'opposition, pas dans l'immatriculation.
+**Le mécanisme.** Le certificat négatif OMPIC réserve un **nom commercial** ; il n'emporte aucun droit sur une **marque** — et un titulaire antérieur d'une marque identique/similaire (classes Nice concernées) peut interdire l'usage du nom de la SARL que Tarik vient de construire. C'est la leçon de l'arrêt réel **NOUR DAR/ALNOUR** (CA com Casablanca 2024 ; banque `08_Jurisprudence/05_Propriete_Intellectuelle_OMPIC.md`) : la vie du signe est dans le dépôt et la procédure d'opposition, pas dans l'immatriculation.
 
 **Le réflexe inclus dans M1 :** recherche d'antériorité ROMARIN + dépôt marque (classes des services exercés) **avant** la carte de visite — ≈ 1 800 DH/classe + ≈ 400 DH publication, renouvelable 10 ans (barème à confirmer au bordereau du jour).
 

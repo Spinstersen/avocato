@@ -12,7 +12,7 @@ Le cerveau ADHD n'est pas paresseux — il fonctionne à la **dopamine** et à l
 | :--- | :--- | :--- |
 | 00 | `00_INDEX.md` | Plan du dossier |
 | 01 | `01_Theorie_ADHD_Avocat.md` | Comprendre le fonctionnement cérébral ADHD |
-| 02 | `02_Pourquoi_Pratiq ue_Classique_Echoue.md` | Diagnostiquer les pièges du cabinet classique |
+| 02 | `02_Pourquoi_Pratique_Classique_Echoue.md` | Diagnostiquer les pièges du cabinet classique |
 | 03 | `03_Regles_Fondamentales.md` | Les 4 règles pivot |
 | 04 | `04_Second_Brain_Notion.md` | Construire le second cerveau |
 | 05 | `05_Routine_Quotidienne.md` | Le système du jour |

@@ -51,7 +51,7 @@ Convention Yousign. Paiement provision 3 700 DH.
 - Modèle de facture conforme.
 - Modèle de devis.
 
-### J+6 : Loom clôture
+### J+6 : restitution clôture
 
 - 15 min de synthèse.
 

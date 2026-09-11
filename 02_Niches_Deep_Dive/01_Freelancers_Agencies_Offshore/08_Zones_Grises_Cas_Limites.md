@@ -10,7 +10,7 @@
 | 2 | Dépassement plafond AE 200k | <200k OK | 1ʳᵉ année de dépassement tolérée (pratique DGI) | 2 années consécutives = radiation RNAE + bascule de régime `06_Autoentrepreneur.../02_Douleurs_Juridiques.md:7` | Loi 114-13, CGI art. 42 s. |
 | 3 | Recettes export non rapatriées | ≤ 90 j (services) — IGOC 2026 | Retard → régulariser + diligences | Au-delà → infraction de change (délit continu `09_Office_Changes_Dotation_IGOC/08_Infractions_Sanctions_Change.md` | IGOC |
 | 4 | PE 6 mois | <6m OK | 6m pouvoir partiel | >6m pouvoir plein = PE `08_Fiscalite.../07_Etablissement_Stable...` | Conv. art.7 |
-| 5 | Marque non déposée | Dépôt rapide OK | Usage sans dépôt gris | Copie sans dépôt = perte — fenêtre d'opposition de 2 mois seulement `07_PI/02_Douleurs_OMPIC_BMDA.md` | Loi 17-97 art. 148.2 (mod. 31-05) |
+| 5 | Marque non déposée | Dépôt rapide OK | Usage sans dépôt gris | Copie sans dépôt = perte — fenêtre d'opposition de 2 mois seulement `02_Niches_Deep_Dive/07_Propriete_Intellectuelle/02_Douleurs_Juridiques.md` | Loi 17-97 art. 148.2 (mod. 31-05) |
 
 ## Cas limite détaillé
 

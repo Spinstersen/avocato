@@ -1,4 +1,4 @@
-# Règles du Jeu : Ce que vous NE POUVEZ PAS et POUVEZ faire (Loi 28-08)
+# Règles du Jeu : Ce que vous NE POUVEZ PAS et POUVEZ faire (Loi 66-23, ex 28-08)
 
 > **Avertissement :** Il s'agit d'informations stratégiques, non d'un avis juridique. Vérifiez toujours le Règlement Intérieur de votre Barreau. Les règles varient légèrement d'un Barreau à l'autre (Rabat, Casa, etc.).
 
@@ -8,7 +8,7 @@
 - L'astuce : **Vous ne faites pas de publicité. Vous vous faites trouver quand les gens cherchent une solution à leur problème.**
 
 ## 1. Ce qui est INTERDIT (Publicité illicite)
-Sur la base de la Loi 28-08 et du Code de Déontologie :
+Sur la base de la loi 66-23 (ex 28-08, articles en transposition) et du Code de Déontologie :
 - Publicité comparative / tapageuse / mensongère
 - Démarchage direct (porte-à-porte, envoi massif de messages pour solliciter)
 - Annonces payantes du type « Avocat pas cher, appelez-moi »
@@ -23,7 +23,7 @@ C'est ici que vous allez gagner :
 | Action autorisée | Comment l'utiliser pour obtenir des clients |
 | :--- | :--- |
 | **Plaque professionnelle** | Standard. Faites-la mais elle ne vous apportera pas de clients en ligne. |
-| **Site web informatif** | ESSENTIEL. Non pas « Engagez-moi » mais « Guide Loi 09-08 pour PME ». Le référencement naturel apporte des clients. Voir `03_Acquisition_Without_Ads/02_SEO_Google_Business.md` |
+| **Site web informatif** | ESSENTIEL. Non pas « Engagez-moi » mais « Guide Loi 09-08 pour PME ». Le référencement naturel apporte des clients. Voir `03_Acquisition_Without_Ads/02_SEO_Google_Business_Educational_Content/00_INDEX.md` |
 | **Articles & Publications juridiques** | Publiez sur LinkedIn/Medium : « 5 clauses qui manquent dans vos contrats de prestation ». C'est de la pédagogie, pas de la publicité. |
 | **Conférences & Ateliers gratuits** | « Atelier gratuit : Comment protéger juridiquement sa boutique YouCan.shop » dans un espace de coworking ou une CCI. Pure information. |
 | **Annuaire du Barreau** | Soyez-y. Basique. |
@@ -36,7 +36,7 @@ Retenez cette structure de phrase :
 
 **INTERDIT (Publicité) :** « Je suis l'avocat le plus compétent en droit des sociétés à [Ville], contactez-moi pour un service rapide et pas cher. »
 
-**AUTORISÉ (Information) :** « La loi 20-19 sur les sociétés à responsabilité limitée prévoit depuis 2023 [explication]. Voici 3 erreurs fréquentes lors de la création d'une SARL-AU. Article complet sur mon site. »
+**AUTORISÉ (Information) :** « La loi 5-96 sur les sociétés à responsabilité limitée prévoit [explication]. Voici 3 erreurs fréquentes lors de la création d'une SARL-AU. Article complet sur mon site. »
 
 Même expertise, formulation différente. La première est de l'auto-promotion. La seconde est de l'information juridique grand public. Google et les clients préfèrent de toute façon la seconde.
 

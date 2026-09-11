@@ -58,7 +58,7 @@
    → Diagnostic 45 min visio — 900 DH HT (3 questions : jours, devises, associés)
    → M2 Note de cadrage résidence/structure (2 500 HT, déduite de M1 si signée)
    → M1 Pack bout en bout 6 900-9 500 HT + débours — 30 jours
-   → Loom de clôture + agenda année 1 (AG, TVA, CNSS si équipe)
+   → restitution de clôture + agenda année 1 (AG, TVA, CNSS si équipe)
    → J+300 : premier dividende « chaîne prête » (M3) → M4 abonnement 2 500-4 500 HT/mois
 ```
 

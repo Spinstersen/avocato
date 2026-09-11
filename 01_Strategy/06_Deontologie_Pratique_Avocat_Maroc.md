@@ -1,6 +1,6 @@
-# Déontologie pratique — Avocat au Maroc (Loi 28-08)
+# Déontologie pratique — Avocat au Maroc (Loi 66-23, ex 28-08)
 
-> Ce document est opérationnel : que pouvez-vous écrire, dire, publier sans risquer une sanction du Conseil de l'Ordre ? Base : Loi 28-08, Décret 08-08, Règlements intérieurs des Barreaux (Rabat/Casa).
+> Ce document est opérationnel : que pouvez-vous écrire, dire, publier sans risquer une sanction du Conseil de l'Ordre ? Base : loi 66-23 (dahir 1-26-75, BO n° 7536, 18/08/2026 — articles en transposition), Décret 08-08, Règlements intérieurs des Barreaux (Rabat/Casa).
 
 ## L'essentiel en bref
 - **Interdit :** publicité comparative, démarchage, promesse de résultat, panneau lumineux, flyer, commission d'apporteur.
@@ -11,7 +11,7 @@
 
 | Texte | Article clé |
 | :--- | :--- |
-| Loi 28-08 | Art. 30 (convention d'honoraires écrite + provision), Art. 31 (dignité, interdiction publicité tapageuse) |
+| Loi 66-23 (ex 28-08, en transposition) | Art. 30 (convention d'honoraires écrite + provision), Art. 31 (dignité, interdiction publicité tapageuse) — repères ex-28-08 |
 | Règlement intérieur Barreau | Chapitre Publicité/Information (plaque, papier en-tête, site) |
 | Code de déontologie | Secret professionnel, indépendance, interdiction pacte de quota litis avec non-avocat |
 

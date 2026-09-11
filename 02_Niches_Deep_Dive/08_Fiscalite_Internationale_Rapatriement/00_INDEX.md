@@ -14,7 +14,7 @@
 8.  Jurisprudence « CNDP 2023 » et « Cass. com 2022 (PE 6 mois + stock) » de l'ancien fichier 11 : **fictives, retirées** — la matière se plaide au tribunal de commerce / procédure fiscale, sur les textes.
 9.  Prix : **diagnostic international 900 DH HT** (harmonisé ; l'ancien « 1 200 » est retiré).
 
-## Comment lire ce dossier (13 fichiers thématiques + playbook 13)
+## Comment lire ce dossier (18 fichiers thématiques + playbook 13)
 
 | # | Fichier | Quand |
 | :--- | :--- | :--- |
@@ -32,6 +32,11 @@
 | 11 | `11_Zones_Grises_Sanctions_Redressement.md` | Détachement, séjour, stock à l'étranger, compte non déclaré |
 | 12 | `12_Fiches_Checklist_CoTraitance_Comptable.md` | Le duo avocat-comptable (le seul format légal) |
 | 13 | `13_Solutions_Juridiques.md` | **Le playbook douleur → parade** (clauses, délais, dossiers) |
+| 14 | `14_Optimisation_Fiscale_Internationale_Legale.md` | Les 8 leviers licites (statut, TVA art.92, dividende, conventions) + test substance |
+| 15 | `15_Evasion_vs_Optimisation_Limites_Sanctions.md` | Frontière optimisation/abus/fraude + cumul fiscal/change/pénal + lettre de refus |
+| 16 | `16_Optimisation_Fiscale_Locale_Techniques_Creatives.md` | 10 techniques locales recommandables + 3 packs (bascule, rémunération, export) |
+| 17 | `17_Societes_Ecran_Montages_Typologies_GardeFous.md` | Écrans/coquilles : 6 montages décryptés, test substance 7 preuves, protocole refus/régularisation |
+| 18 | `18_LLC_Dubai_Decortiquees_Cas_Pratiques.md` | LLC US + Dubai FZ : 7 couches chacune, comparatif 3 voies, 3 cas Mehdi/Salma/Lena + fermeture propre |
 
 ## Le tableau des 4 flux (la grille de lecture de la niche)
 

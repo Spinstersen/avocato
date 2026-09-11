@@ -53,7 +53,7 @@ au [numéro].
 ## FAQ
 
 **Q : Puis-je utiliser WhatsApp pour facturer ?**
-R : Possible via lien Stripe, mais à éviter pour les honoraires (préférer virement ou signature électronique).
+R : Non — Stripe n'est pas disponible pour un résident marocain. Pour les honoraires : virement bancaire (RIB du cabinet) ou lien de paiement local (CMI/MoPay selon l'activité), plus traçable.
 
 ---
 

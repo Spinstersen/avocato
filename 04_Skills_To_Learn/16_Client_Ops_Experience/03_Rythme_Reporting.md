@@ -1,7 +1,7 @@
 # 03 — Rythme de reporting : le milieu de mission qui tue l'anxiété client
 
 > **À quoi ça sert :** la traversée du désert entre le kickoff (J0) et la livraison — là où le client
-> imagine le pire. Checkpoints fixes J2/J5, Loom court, email d'avancement template,
+> imagine le pire. Checkpoints fixes J2/J5, restitution courte (Loom ou Zoom), email d'avancement template,
 > règle « pas de nouvelle = mauvaise nouvelle », et le paramétrage ADHD-friendly :
 > le reporting est une case calendrier, pas une décision à prendre. Temps de lecture : 9 minutes.
 
@@ -32,7 +32,7 @@ parce que c'est exactement là que le client, lui, croit que ça coince.
 | **J0** | Kickoff (modèle entier : `01_Onboarding_KYC.md` § 6) | 5 min (template) | Email | Périmètre, calendrier annoncé, canal, mot « URGENT » défini |
 | **J2** | Checkpoint « en mouvement » | 3 min | Email court | Une brique faite ; la prochaine nommée ; la pièce qui manque avec sa date de grâce |
 | **J5** (ou J-2 avant livraison) | Checkpoint « presque fini » | 5 min | Email | Ce qui est prêt ; LA question ouverte unique ; la date de livraison re-confirmée |
-| **J7 / livraison** | Paquet de quatre : livrables + note de risques + Loom 3 min + mode d'emploi | 30-45 min | Drive + Loom + email | Workflow complet : `05_Livrable_Qualite.md` ; le Loom se filme UNE fois (`01_Legal_Tech_Stack/05_Loom_Video_Client`) |
+| **J7 / livraison** | Paquet de quatre : livrables + note de risques + restitution (Loom 3 min, ou Zoom/cabinet 30 min) + mode d'emploi | 30-45 min | Drive + email + lien ou date de restitution | Workflow complet : `05_Livrable_Qualite.md` ; si canal Loom, il se filme UNE fois (`01_Legal_Tech_Stack/05_Loom_Video_Client`) ; si Zoom/cabinet, la session a une date annoncée à J5 |
 | **J+30 / J+90** (missions longues, retainers) | Point de rappel mensuel | 5 min | Email | Une ligne d'état + une question ; même à vide, on sonne |
 
 **Les deux lois du rythme :**

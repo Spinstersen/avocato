@@ -76,9 +76,9 @@ Production : 4h pour l'article. Réutilisation : 1h supplémentaire pour les 4 f
 2. Auto-entrepreneur vs SARL : que choisir pour facturer offshore.
 3. TVA sur prestations offshore : guide pratique (art. 92 CGI).
 4. Stripe Maroc : solutions de paiement pour freelances.
-5. Modèle de facture freelance offshore conforme (art. 144 CGI).
+5. Modèle de facture freelance offshore conforme (art. 145 CGI).
 6. Convention fiscale Maroc-France : éviter la double imposition.
-7. Propriété intellectuelle dans le contrat freelance (art. 9 Loi 34-05).
+7. Propriété intellectuelle dans le contrat freelance (art. 9 loi 2-00, modifiée par la loi 34-05).
 8. Résilier un contrat de prestation : mode d'emploi (art. 230 DOC).
 9. Passer de auto-entrepreneur à SARL-AU en 5 étapes.
 10. Gérer un contrôle fiscal freelance offshore.
@@ -91,9 +91,9 @@ Production : 4h pour l'article. Réutilisation : 1h supplémentaire pour les 4 f
 2. Loi 09-08 e-commerce : déclaration CNDP obligatoire.
 3. Politique de confidentialité e-commerce Maroc : modèle.
 4. CMI blocage site e-commerce : causes et solutions.
-5. Facture conforme Maroc e-commerce (art. 144 CGI).
+5. Facture conforme Maroc e-commerce (art. 145 CGI).
 6. Mentions légales site e-commerce Maroc.
-7. Droit de rétractation e-commerce : 14 jours.
+7. Droit de rétractation e-commerce : 7 jours (art. 36) — le 14 jours est le délai européen.
 8. COD Maroc : mentions obligatoires.
 9. Statut e-commerçant : AE ou SARL.
 10. Registre 09-08 e-commerce : tenue et conservation.

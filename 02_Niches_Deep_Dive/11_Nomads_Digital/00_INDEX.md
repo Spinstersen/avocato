@@ -6,7 +6,7 @@
 
 Lena, 29 ans, designer UX berlinoise, 210 jours/an à Taghazout, clients US qui paient sur Wise : elle est **déjà** résidente fiscale marocaine (CGI art. 23-I), son séjour est **irrégulier depuis des mois** (au-delà de 90 jours sans titre — loi 02-03 art. 8), ses devises ne sont **jamais rentrées** par le circuit (obligation de rapatriement des recettes export : 90 jours — IGOC 2026), et elle paie en Allemagne une résidence qu'elle n'a peut-être plus. Pack cœur : **Pack Nomade Légal ≈ 7 500 DH HT + débours** (titre de séjour + structure + banque + change + résidence assumée). Diagnostic 900 DH HT.
 
-## Comment lire ce dossier (14 fichiers)
+## Comment lire ce dossier (17 fichiers)
 
 | # | Fichier | Quand le consulter |
 | :--- | :--- | :--- |
@@ -24,6 +24,9 @@ Lena, 29 ans, designer UX berlinoise, 210 jours/an à Taghazout, clients US qui 
 | 11 | `11_Arbre_Decision_Niche.md` | Jours → structure → compte → titre → fiscalité des deux côtés |
 | 12 | `12_Fiches_Pratiques_Niche.md` | Kit titre de séjour (textes vérifiés) + banque + change + agenda résidence |
 | 13 | `13_Solutions_Juridiques.md` | **Playbook douleur → parade** (S1→S10, clauses rédigées) |
+| 14 | `14_Sejour_02-03_Decortique.md` | >90j, carte, visiteur vs travail, dossier préfecture |
+| 15 | `15_Residence_Statut_LLC_Nomade.md` | Résidence annuelle, AE/SARL, LLC sans fantasme (renvoi 08/18) |
+| 16 | `16_Banque_Logement_Sante_Nomade.md` | Compte, bail triple preuve, couverture |
 
 ## ⚠️ Vérité juridique — watch (spécifique nomade ; vérifié 30/08/2026)
 
@@ -44,7 +47,7 @@ Lena, 29 ans, designer UX berlinoise, 210 jours/an à Taghazout, clients US qui 
 4. Banque : compte pro + compte devise/convertible selon régime + dossiers d'origine des fonds ;
 5. Change : rapatriement ≤ 90 j — contrat + facture art. 92 + registre (dossier `09`) ;
 6. Résidence du pays d'origine : la **lettre de sortie** (fiscalité de départ : **confrère**) + attestation de résidence marocaine une fois les conditions réunies ;
-7. Loom + agenda annuel (renouvellement de carte : J-15 avant échéance, décret art. 8).
+7. restitution + agenda annuel (renouvellement de carte : J-15 avant échéance, décret art. 8).
 
 ## Liens
 

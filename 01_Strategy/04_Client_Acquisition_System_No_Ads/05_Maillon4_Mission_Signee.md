@@ -15,7 +15,7 @@ La mission n'est pas une prestation horaire. C'est un **produit** : un ensemble 
    ↓
 [J+2 à J+5] Production des livrables
    ↓
-[J+6] Loom de clôture 10-15 min
+[J+6] restitution de clôture 10-15 min
    ↓
 [J+7] Livraison : Notion + PDF design + Loom
    ↓
@@ -32,7 +32,7 @@ Le client attend des livrables. L'avocat livre **plus que prévu** :
 
 - Convention d'honoraires signée + Notion partagé + Loom d'introduction 3 min (alors que non prévu).
 - Livrables design soigné (alors que Word aurait suffi).
-- Loom de clôture qui résume et donne des suites (alors que le PDF aurait suffi).
+- restitution de clôture qui résume et donne des suites (alors que le PDF aurait suffi).
 - Check-in à 30 jours (alors que non prévu).
 
 > **Loi de sur-délivrance.** Le client enchanté recommande. Le client satisfait reste silencieux. La sur-délivrance construit la réputation.
@@ -47,11 +47,11 @@ Le Notion de mission partagé avec le client contient :
 4. **Planning** : jalons et dates.
 5. **Notes de réunion** : si visio avec le client.
 6. **FAQ** : questions du client et réponses.
-7. **Livrables cliquables** : PDF, Notion, Loom.
+7. **Livrables cliquables** : PDF, Notion, lien de restitution (Loom) ou date de session (Zoom/cabinet).
 
-## 5. Le Loom de clôture
+## 5. La restitution de clôture (Loom, visio Zoom ou cabinet)
 
-10-15 min. Structure :
+10-15 min en Loom, 20-30 min en session live. Structure :
 
 1. **Rappel** : mission, contexte, durée.
 2. **Livrables** : qu'est-ce qui a été produit.

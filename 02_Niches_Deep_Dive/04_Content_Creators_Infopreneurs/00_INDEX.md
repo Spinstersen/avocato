@@ -6,7 +6,7 @@
 
 Niche à volume croissant, panier moyen limité mais fréquence élevée (un contrat marque par semaine chez les 10% du top). Persona Yasmine, influenceuse mode 80 k abonnés, AE, 30 k DH/mois — **déjà au-dessus du plafond AE services (200 k/an)** sans le savoir. Douleurs : contrats marques B2B déséquilibrés qu'aucune loi « protection du consommateur » ne rattrape (le créateur est un professionnel), IP cédée sans contrepartie, sponsoring non encadré (vide juridique marocain, février 2026), formations en ligne vendues sans CGV ni statut adapté. Pack cœur : Contrat partenariat 2 500-3 500 DH HT.
 
-## Comment lire ce dossier (14 fichiers)
+## Comment lire ce dossier (17 fichiers)
 
 | # | Fichier | Quand le consulter |
 | :--- | :--- | :--- |
@@ -24,6 +24,9 @@ Niche à volume croissant, panier moyen limité mais fréquence élevée (un con
 | 11 | `11_Arbre_Decision_Niche.md` | Arbre : d'où vient l'argent, sous quel droit ? |
 | 12 | `12_Fiches_Pratiques_Niche.md` | Checklist 15 points créateur protégé + plan 7j |
 | 13 | `13_Solutions_Juridiques.md` | **Le playbook douleur → parade** : chaque douleur a sa solution rédigée (clause copiable, formalité, piège) |
+| 14 | `14_Contrats_Marque_Createur_Encyclopedique.md` | Sponsoring/UGC/affiliation clause par clause + 3 variantes |
+| 15 | `15_Fiscalite_Statut_Createur.md` | Sortie AE, TVA formations, encaissement sponsoring propre |
+| 16 | `16_Image_Diffamation_Contrefacon.md` | Droit image, retrait vol contenu, concours |
 
 ## ⚠️ Vérité juridique — watch (voir `01/00_INDEX.md` pour la liste complète ; vérifié 28/08/2026)
 

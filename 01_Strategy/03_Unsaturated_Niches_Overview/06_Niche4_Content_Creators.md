@@ -30,20 +30,20 @@ La niche 4 est **énorme en volume, encore embryonnaire en maturité juridique**
 
 ### 3.2 Propriété intellectuelle sur le contenu non encadrée
 
-- Article 1 à 12 Loi 34-05 (droit d'auteur marocain).
+- Loi 2-00 sur le droit d'auteur (modifiée par la loi 34-05) — protection dès la fixation, cession écrite droit par droit.
 - Le créateur produit du contenu (photos, vidéos, formations) sans réfléchir à la propriété.
 - Plateformes (Instagram, YouTube) ont leurs propres CGU qui s'appliquent.
 
 ### 3.3 Statut fiscal flou
 
-- Auto-entrepreneur : 1-3% IR libératoire pour services.
+- Auto-entrepreneur : 1% IR libératoire pour les services (CGI art. 42 et s.).
 - Mais le créateur de contenu peut être requalifié en salarié (prestation continue pour une marque = relation salariale).
 - Le créateur qui vend des formations en ligne : TVA ( exonérée si export art. 92 CGI, sinon TVA 20%).
 
 ### 3.4 CGV formations en ligne absentes
 
 - Vente de formations en ligne = prestation de services → CGV obligatoires (Loi 31-08).
-- Droit de rétractation 14 jours (sauf exception pour les biens numériques dématérialisés).
+- Droit de rétractation **7 jours** (art. 36 loi 31-08 ; 30 jours si information légale non confirmée par écrit) — le « 14 jours » est le délai européen, pas marocain. Exceptions art. 38 (contenu numérique livré avec accord exprès).
 
 ### 3.5 Mentions légales chaîne YouTube/TikTok non conformes
 

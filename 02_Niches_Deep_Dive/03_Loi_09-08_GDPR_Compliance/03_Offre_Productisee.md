@@ -34,7 +34,7 @@ C'est le cœur de la niche : la mise en conformité marocaine complète, celle q
 5.  Dossier de déclaration CNDP des traitements courants (formulaires + dépôt).
 6.  Procédure de réponse aux droits (accès/rectification/opposition) : formulaire, circuits, délais, registre des demandes.
 7.  Plan d'action 90 jours chiffré (qui fait quoi, quel budget technique).
-8.  Loom de synthèse 20 min pour le COMEX.
+8.  restitution de synthèse 20 min pour le COMEX.
 
 ### Méthodologie
 
@@ -110,7 +110,7 @@ La conformité n'est pas un projet, c'est un état. Chaque nouveau produit, chaq
 
 - Convention écrite préalable systématique (art. 30) avec objet, périmètre exclus, livrables nommés.
 - Provision 50% à la signature (art. 32) — solde à livraison.
-- Livrables en PDF design + source éditable (Notion/Doc) + Loom d'appropriation.
+- Livrables en PDF design + source éditable (Notion/Doc) + restitution d'appropriation.
 - Co-intervention avec un confrère UE (France/Belgique) si le client exige un avis de droit local — mention explicite dans la convention, pas de consultation de droit étranger hors coopération.
 
 ## Workflow type (vue complète)
@@ -118,7 +118,7 @@ La conformité n'est pas un projet, c'est un état. Chaque nouveau produit, chaq
 ```
 J-3 : Intake Tally (liste des traitements, sous-traitants, DPA client reçu ?)
 J-2 : Pré-lecture du questionnaire par l'avocat
-J-0 : Diagnostic 45 min (1 200 HT) → note de risques + devis
+J-0 : Diagnostic 45 min (900 HT) → note de risques + devis
 J+1 : Convention Yousign → provision 50%
 J+3 : Atelier cartographie avec les métiers (2h)
 J+7 : Pré-registre commenté par le client

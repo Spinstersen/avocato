@@ -58,7 +58,7 @@ J+12: Immatriculation RC ; IF/TP ; commencement d'activité
 J+15: CESSATION AE déclarée à la date de bascule (cohérence rétro-planing)
 J+18: Avenants de substitution envoyés aux 3 premiers clients
 J+25: Compte pro actif ; 1ers contrats de travail + immatriculation employeur CNSS (avant 1ʳᵉ embauche) + bulletins ; factures SARL émises
-J+30: Loom clôture + agenda année 1 + facture solde
+J+30: restitution clôture + agenda année 1 + facture solde
 ```
 
 ## FAQ (réponses à donner en diagnostic)

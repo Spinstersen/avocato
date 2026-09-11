@@ -42,7 +42,7 @@ J+6  Documents reçus (DHL suivi) ; statuts finalisés et signés par mandataire
 J+10 Dépôt des fonds (banque) → attestation de dépôt
 J+15 Enregistrement ; J+18 Immatriculation RC ; IF/TP/commencement
 J+25 Compte pro actif ; contrats + factures types livrés ; classeur généalogie ouvert
-J+30 Loom clôture + agenda année 1 + facture solde
+J+30 restitution clôture + agenda année 1 + facture solde
      (J+300 : première AG — inclusion M4 ou M3)
 ```
 

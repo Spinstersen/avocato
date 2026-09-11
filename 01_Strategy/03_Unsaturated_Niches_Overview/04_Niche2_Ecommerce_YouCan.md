@@ -32,8 +32,8 @@ La niche 2 est la **niche à volume** par excellence : 25 000 boutiques actives 
 ### 3.2 Mentions 09-08 manquantes
 
 - Site e-commerce collecte des données clients (nom, adresse, téléphone, IBAN) → responsable de traitement au sens de la Loi 09-08.
-- Mentions obligatoires : politique de confidentialité, bannière cookies, mentions d'identification (art. 14 à 25 Loi 09-08).
-- Sanction : amende jusqu'à 50 000 DH (art. 65), jusqu'à 100 000 DH en récidive (art. 67).
+- Mentions obligatoires : politique de confidentialité, bannière cookies, mentions d'identification (obligations 09-08 — numéros à épingler au texte consolidé).
+- Sanction : traitement sans formalités préalables = amende **10 000 à 100 000 DH** (art. 64) ; collecte frauduleuse = jusqu'à 3 ans d'emprisonnement (art. 65).
 
 ### 3.3 Blocages CMI / MoPay
 
@@ -43,12 +43,12 @@ La niche 2 est la **niche à volume** par excellence : 25 000 boutiques actives 
 
 ### 3.4 Factures non conformes
 
-- Article 144 et seq. du CGI : mentions obligatoires sur les factures (ICE, IF, n° de la facture, désignation, prix HT, TVA, TTC).
+- Article 145 du CGI : mentions obligatoires sur les factures (ICE, IF, n° de la facture, désignation, prix HT, TVA, TTC).
 - Sanction : amende fiscale, refacturation.
 
 ### 3.5 Statut flou
 
-- Auto-entrepreneur plafonné à 200 000 DH CA pour les services, 1 million pour le commerce.
+- Auto-entrepreneur plafonné à 200 000 DH CA pour les services, 500 000 DH pour le commerce.
 - Au-delà, bascule en SARL ou autre.
 
 ## 4. Offre dédiée
@@ -61,7 +61,7 @@ Livrables :
 - Politique de confidentialité type.
 - Modèle de politique de retour.
 - Registre 09-08 vierge + notice de tenue.
-- Note explicative Loom 15 min.
+- Note explicative en restitution : Loom 15 min, ou visio Zoom / au cabinet (20-30 min) selon le client.
 
 ### 4.2 Pack Création SARL-AU — 4 900 DH HT
 
@@ -73,7 +73,7 @@ Livrables :
 - Modèle de facture conforme (CGI article 144).
 - Modèle de devis.
 - Mentions légales sur le site.
-- Note explicative Loom 10 min.
+- Note explicative en restitution : Loom 10 min, ou visio Zoom / au cabinet (20-30 min) selon le client.
 
 ### 4.4 Abonnement Secrétariat Juridique — 2 500-4 500 DH HT/mois
 
@@ -115,11 +115,11 @@ Mission proposée : Pack CGV E-commerce YouCan (4 900 DH HT) + Pack Facturation 
 
 ### Livraison
 
-- CGV conformes avec politique de retour 14 jours.
+- CGV conformes : rétractation **7 jours** (art. 36), remboursement **15 jours** (art. 37), exceptions art. 38.
 - Mentions 09-08 + politique de confidentialité + bannière cookies.
 - Registre 09-08 vierge.
 - Modèle de facture conforme.
-- Loom 15 min.
+- 1 restitution : Loom 15 min, ou visio Zoom / au cabinet (20-30 min).
 
 ### Suite
 

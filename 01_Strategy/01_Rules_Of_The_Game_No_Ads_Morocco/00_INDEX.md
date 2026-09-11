@@ -1,4 +1,4 @@
-# Règles du Jeu : Ce que vous NE POUVEZ PAS et POUVEZ faire (Loi 28-08)
+# Règles du Jeu : Ce que vous NE POUVEZ PAS et POUVEZ faire (Loi 66-23, ex 28-08)
 
 > **Dossier maître — Strategie n°1.** Ce dossier encyclopédique rassemble tout ce qu'un avocat marocain doit maîtriser du cadre déontologique de la publicité et du démarchage avant toute stratégie d'acquisition de clientèle. Les autres dossiers stratégiques (positionnement, niches, acquisition, déontologie pratique) s'appuient sur les notions posées ici.
 >
@@ -38,7 +38,7 @@ Apprenez cette structure de phrase — c'est la frontière entre l'interdit et l
 > « Je suis l'avocat le plus compétent en droit des sociétés à [Ville], contactez-moi pour un service rapide et pas cher. »
 
 **PERMIS (Information juridique publique) :**
-> « La loi 20-19 sur les sociétés à responsabilité limitée prévoit depuis 2023 [explication]. Voici 3 erreurs fréquentes lors de la création d'une SARL-AU. Article complet sur mon site. »
+> « La loi 5-96 sur les sociétés à responsabilité limitée prévoit [explication]. Voici 3 erreurs fréquentes lors de la création d'une SARL-AU. Article complet sur mon site. »
 
 Même expertise, cadrage différent. La première est autopromotion sollicitante. La seconde est éducation juridique publique. Google, les clients et l'Ordre préfèrent la seconde.
 

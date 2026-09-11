@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test": "node run-all.mjs",
+    "test:server": "node test-server.mjs"
+  },
+  "dependencies": {
+    "jsdom": "^24.1.3"
+  }
+}

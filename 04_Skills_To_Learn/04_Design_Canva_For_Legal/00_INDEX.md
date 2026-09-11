@@ -23,7 +23,7 @@
 | 08 | 08_Comparatif_Canva_Figma | quel outil, quand |
 | 09 | 09_Workflow_Livrable_Client | brief → PDF → Yousign → Notion |
 | 10 | 10_Checklist_Qualite | la barre avant envoi |
-| 11 | 11_Deck_Presentation_Client | le deck de réunion client/closing (12 slides, tokens DESIGN.md, PDF + Loom) |
+| 11 | 11_Deck_Presentation_Client | le deck de réunion client/closing (12 slides, tokens DESIGN.md, PDF + restitution) |
 
 > Note de fusion : `01_Brand_Kit_Canva.md` (configuration pas à pas) et `02_Brand_Kit_Palette_Typo.md` (les tokens) faisaient doublon ; ils n'en font plus qu'un, dans le fichier 02. L'ancien 01 est archivé dans `_archive/04_skills_legacy/`.
 

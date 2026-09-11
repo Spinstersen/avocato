@@ -67,7 +67,7 @@ Livrables :
 - Procuration pour formalités à distance.
 - Accompagnement ouverture compte capital.
 - Formalités OMPIC, RC, IF, TP.
-- Note explicative Loom 20 min.
+- Note explicative en restitution : Loom 20 min, ou visio Zoom / au cabinet (20-30 min) selon le client.
 
 ### 4.2 Mission Conseil Investissement MRE — 8 000-15 000 DH HT
 

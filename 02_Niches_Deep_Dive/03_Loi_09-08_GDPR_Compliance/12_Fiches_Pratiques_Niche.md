@@ -20,7 +20,7 @@
 
 ## Scripts express (FR fait foi)
 
-*   **DM entrant LinkedIn :** `Bonjour [Prénom], votre DPA bloque ? Le socle c'est registre + contrats sous-traitants + politique. Diagnostic 45 min, 1 200 HT, déduit si mission sous 14j — un créneau : [Calendly]. — [Nom], avocat barreau [Ville]`
+*   **DM entrant LinkedIn :** `Bonjour [Prénom], votre DPA bloque ? Le socle c'est registre + contrats sous-traitants + politique. Diagnostic 45 min, 900 HT, déduit si mission sous 14j — un créneau : [Calendly]. — [Nom], avocat barreau [Ville]`
 *   **Relance J+7 après devis :** objet `Votre conformité 09-08 — devis du [date]` ; corps sobre, une phrase de réalité (le calendrier du client UE, lui, court), pas de pression.
 *   **Réponse atelier (WhatsApp) :** les 3 lignes utiles (registre, opt-in prouvé, mentions durée) + lien diagnostic. Scripts complets : `06_Scripts_DM_WhatsApp.md`.
 *   **EN léger (prescripteur UE) :** `Your Moroccan vendor needs 09-08 filings AND GDPR-grade docs (Art.30 register, transfer clauses). We deliver both — French text prevails for the mandate.`

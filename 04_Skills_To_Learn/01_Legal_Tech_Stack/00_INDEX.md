@@ -15,7 +15,7 @@ Stack minimale viable : Notion + Google Workspace + Cal.com/Calendly + Tally + Y
 | 02 | `02_Notion_Cabinet_OS_Detaille.md` | Configurer Notion (cœur du système) |
 | 03 | `03_Google_Workspace_Calendly_Tally.md` | Email pro, deliverability, RDV, intake |
 | 04 | `04_Yousign_Signature_Conforme.md` | Convention dématérialisée, loi 53-05, faisceau de preuves |
-| 05 | `05_Loom_Video_Client.md` | 3 types de vidéos client |
+| 05 | `05_Loom_Video_Client.md` | Restitution client : 3 canaux (Loom / visio Zoom / cabinet) + 3 formats (intro, clause, clôture) |
 | 06 | `06_Stripe_Paiement_RIO.md` | Payer et encaisser depuis le Maroc (Stripe indisponible : les voies réelles) |
 | 07 | `07_Plausible_Analytics_CNDP.md` | Analytics conforme, pourquoi pas Google Analytics |
 | 08 | `08_Workflow_Integration_Zapier_Make.md` | Automatiser intake → Notion → signature |
@@ -60,7 +60,7 @@ Stack minimale viable : Notion + Google Workspace + Cal.com/Calendly + Tally + Y
 | « Pourquoi pas Stripe, tout le monde l'a ? » | Indisponible comme marchand au Maroc ; virement/SWIFT/devises/structure = mission | 06 |
 | « Vous utilisez Google Analytics ? » | Non : transfert hors Maroc sans autorisation + bandeau = double risque ; Plausible ou Matomo | 07 |
 | « Votre site est conforme 09-08 ? » | Registre, mentions, durées, rights contact `contact@cabinet.ma` — documenté, pas promis | 09 |
-| « C'est quoi votre différenciation ? » | Le Loom de clôture sur 100 % des missions + la réponse sous 24 h — la stack ne vend pas, elle tient la promesse | 03, 05 |
+| « C'est quoi votre différenciation ? » | La restitution sur 100 % des missions (Loom, visio Zoom ou cabinet) + la réponse sous 24 h — la stack ne vend pas, elle tient la promesse | 03, 05 |
 
 ## Les 4 parcours de lecture selon ta situation
 

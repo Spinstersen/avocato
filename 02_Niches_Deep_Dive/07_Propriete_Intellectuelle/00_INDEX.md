@@ -10,7 +10,7 @@
 *   **Offre :** Diagnostic 900 HT → Dépôt marque 3 500 HT + débours (≈ 1 800 DH/classe + ≈ 400 DH publication) → Contrats PI 4 500 HT → Pack Startup 9 000 HT → Veille 1 500 HT/mois.
 *   **Canaux #1-2 :** comptables qui créent les SARL (pack commun 6 900 HT) + Bulletin OMPIC (veille) + incubateurs (Technopark/YouCode/212 Founders).
 
-## Comment lire ce dossier (14 fichiers)
+## Comment lire ce dossier (17 fichiers)
 
 | # | Fichier | Quand le consulter |
 | :--- | :--- | :--- |
@@ -28,6 +28,9 @@
 | 11 | `11_Arbre_Decision_Niche.md` | Quoi protéger, où, comment, quand — dans l'ordre des budgets |
 | 12 | `12_Fiches_Pratiques_Niche.md` | Checklist dépôt 10 points + agenda du portefeuille + fiche signes |
 | 13 | `13_Solutions_Juridiques.md` | **Le playbook douleur → parade** : clauses rédigées (cession, NDA, pacte PI), formalités, dates |
+| 14 | `14_Depot_Marque_OMPIC_PasAPas.md` | Recherche, Nice, dépôt, opposition 2 mois, renouvellement |
+| 15 | `15_Cession_Licence_PI.md` | Cession droit par droit, licence bornée, 3 cas |
+| 16 | `16_Contrefacon_EnLigne_Retrait.md` | Constat, retrait 48h, gradation contentieuse |
 
 ## ⚠️ Vérité juridique — watch (spécifique PI ; vérifié 29/08/2026)
 

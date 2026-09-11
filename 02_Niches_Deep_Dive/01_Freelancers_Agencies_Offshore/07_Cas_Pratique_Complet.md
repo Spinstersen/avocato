@@ -74,7 +74,7 @@ Convention envoyée par Yousign. Yassine signe sous 24h. Paiement de la provisio
 - Modèle de devis commercial conforme.
 - Modèle de facture conforme (mentions art. 145 CGI).
 - Note de choix de statut (AE vs SARL, calcul comparatif).
-- Loom d'explication 15 min.
+- restitution d'explication 15 min.
 
 ### J+8 à J+15 : Pack Création SARL-AU
 
@@ -82,7 +82,7 @@ Convention envoyée par Yousign. Yassine signe sous 24h. Paiement de la provisio
 - PV de constitution.
 - Déclaration de nomination du gérant.
 - Formulaire d'enregistrement (RC + TP + IF).
-- Loom 15 min.
+- 1 restitution : Loom 15 min, ou visio Zoom / au cabinet (20-30 min).
 
 ### J+16 à J+30 : Pack Stripe Offshore Structuration
 
@@ -94,7 +94,7 @@ Convention envoyée par Yousign. Yassine signe sous 24h. Paiement de la provisio
 ## 9. La livraison (J+30)
 
 - Notion de mission archivé.
-- Loom de clôture 15 min.
+- Restitution de clôture : Loom 15 min, ou session Zoom / cabinet.
 - Facture de solde 7 350 DH HT envoyée par Yousign.
 - Proposition d'abonnement mensuel 4 500 DH HT/mois (revue contrats clients illimitée, conseil illimité email, 1 visio/mois).
 

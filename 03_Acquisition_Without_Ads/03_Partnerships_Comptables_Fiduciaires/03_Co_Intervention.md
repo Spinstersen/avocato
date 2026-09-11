@@ -2,7 +2,7 @@
 
 ## La co-intervention
 
-L'avocat et le comptaire interviennent ensemble sur des missions complémentaires :
+L'avocat et le comptable interviennent ensemble sur des missions complémentaires :
 
 - Comptable : fiscalité, comptabilité, social.
 - Avocat : contrats, contentieux, conformité 09-08.

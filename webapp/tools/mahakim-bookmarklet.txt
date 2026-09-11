@@ -1,0 +1,60 @@
+AVOCATO — Bookmarklet mahakim.ma v2 : fiche dossier (Phase F+)
+================================================================
+But : d'un seul clic, lire la fiche dossier DÉJÀ AFFICHÉE dans VOTRE session
+mahakim.ma — carte (بطاقة الملف : tribunal, rôle triple 2026/1202/1233, n°
+national, type, chambre, juge, enregistrement, dernier jugement), historique
+(لائحة الإجراءات : date, type, décision, prochaine audience) et parties —
+puis l'envoyer au serveur local AVOCATO (POST /v1/imports/mahakim, audit).
+Si le serveur est injoignable, un JSON est téléchargé : collez-le dans
+Cabinet > Audiences > « Importer mahakim » (source « JSON dossier suivi »),
+vérifiez le dossier proposé, importez. Reports détectés et journalisés ;
+annulation par lot.
+
+(Ancien usage conservé : sur une page de RÉSULTATS, l'autre favori envoie les
+lignes du tableau — voir le dialogue d'import, source « JSON ».)
+
+Respect des CGU / déontologie
+-----------------------------
+- Le bookmarklet ne navigue PAS, ne clique PAS, ne relance PAS de recherche :
+  il lit uniquement la page affichée, une fois, sur votre clic humain.
+- Aucune donnée hors de votre PC (POST vers 127.0.0.1 uniquement).
+- En cas de doute sur les CGU du portail, recopiez la carte à la main dans
+  la fiche audience (champs Chambre / Juge / N° national / Type).
+- Demande d'API officielle en cours (e-Participation data.gov.ma du
+  26/01/2026, sans réponse) : dès qu'elle existe, MahakimAdapter la branchera
+  et ce bookmarklet deviendra inutile.
+
+Installation (2 minutes)
+------------------------
+1. Démarrez le serveur :  node server/index.js   (dans le dossier avocato).
+2. Créez un appareil : ouvrez l'app, Ctrl+K > « Sync / serveur local » >
+   « Créer un appareil (token) » — copiez le token affiché.
+3. Créez un favori avec comme adresse le code ci-dessous (préfixé de
+   javascript:). Le dialogue d'import (bouton « Guide + bookmarklet »)
+   propose aussi le lien à glisser dans la barre de favoris.
+
+Utilisation
+-----------
+1. Connectez-vous sur mahakim.ma, ouvrez la fiche d'un dossier
+   (Suivi > recherche > بطاقة الملف), puis cliquez le favori.
+2. Collez le token à la première demande (mémorisé ensuite, clé
+   avocato_bm_token du stockage local du portail).
+3. Importez : Cabinet > Audiences > « Importer mahakim », source
+   « JSON dossier suivi », collez le JSON (ou rien à coller si POST réussi :
+   le lot serveur fait foi, l'import reprend vos audiences locales).
+
+--- CODE v2 fiche dossier (préfixer de javascript: dans l'adresse du favori) ---
+
+(function(){var E='http://127.0.0.1:8790/v1/imports/mahakim';
+function tok(){try{var t=localStorage.getItem('avocato_bm_token');if(t)return t;t=prompt('Token appareil AVOCATO (Ctrl+K > Sync / serveur local > Creer un appareil) :','');if(t){localStorage.setItem('avocato_bm_token',t.trim());return t.trim();}}catch(e){}return '';}
+function tx(el){return (el.innerText||el.textContent||'').replace(/\s+/g,' ').trim();}
+function T(){return Array.from(document.querySelectorAll('table'));}
+var MAP=[['رقم الملف بالمحكمة','role'],['الرقم الوطني','national'],['نوع الملف','typeDossier'],['الشعبة','chambre'],['القاضي المقرر','juge'],['المستشار','juge'],['تاريخ التسجيل','enregistrement'],['الموضوع','sujet'],['آخر حكم','dernierJugement'],['تاريخ آخر حكم','dateJugement'],['المحكمة','tribunal']];
+var card={};T().forEach(function(tb){Array.from(tb.querySelectorAll('tr')).forEach(function(tr){var cells=Array.from(tr.querySelectorAll('th,td')).map(tx);if(cells.length<2)return;MAP.forEach(function(kv){for(var i=0;i<cells.length-1;i++){if(cells[i].indexOf(kv[0])!==-1&&!card[kv[1]])card[kv[1]]=cells[i+1];}});});});
+var procedures=[];T().forEach(function(tb){var heads=Array.from(tb.querySelectorAll('thead th')).map(tx);if(!heads.length)heads=Array.from(tb.querySelectorAll('tr:first-child th')).map(tx);var H=heads.join('|');var isP=H.indexOf('تاريخ الإجراء')!==-1||H.indexOf('نوع الإجراء')!==-1;if(!isP)return;var rows=tb.querySelectorAll('tbody tr');if(!rows.length)rows=tb.querySelectorAll('tr');Array.from(rows).forEach(function(tr,i){if(!tb.querySelector('tbody')&&i===0&&tr.querySelector('th'))return;var c=Array.from(tr.querySelectorAll('td')).map(tx);if(!c.length)return;procedures.push({date:c[0]||'',type:c[1]||'',decision:c[2]||'',prochaine:c[3]||''});});});
+var parties=[];try{var h=document.evaluate("//*[contains(text(),'لائحة الأطراف')]",document,null,4,null).singleNodeValue;if(h){var sec=h;for(var k=0;k<4&&sec;k++){sec=sec.parentElement;if(sec){var t2=sec.querySelector('table');if(t2){Array.from(t2.querySelectorAll('td')).map(tx).forEach(function(x){if(x&&x.length>2&&!/^[\d\/\s:]+$/.test(x)&&parties.indexOf(x)===-1)parties.push(x);});break;}}}}catch(e){}
+if(!card.role){alert("Pas de carte dossier sur cette page : utilisez ce favori sur une fiche dossier.");return;}
+var payload={card:card,procedures:procedures,parties:parties,stats:{url:location.href,at:new Date().toISOString()}};
+function dl(){var b=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'});var a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='mahakim-dossier-'+(card.role||'x').replace(/\//g,'-')+'.json';a.click();}
+var t=tok();if(!t){alert('Sans token : JSON telecharge, a coller dans AVOCATO > Audiences > Importer (source dossier).');dl();return;}
+fetch(E,{method:'POST',headers:{'Content-Type':'application/json','x-avocato-token':t},body:JSON.stringify(payload)}).then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(d){alert('Dossier envoye ('+procedures.length+' actes, lot '+d.id+'). Importez-le dans AVOCATO > Audiences > Importer.');}).catch(function(){alert('Serveur injoignable : JSON telecharge.');dl();});})();

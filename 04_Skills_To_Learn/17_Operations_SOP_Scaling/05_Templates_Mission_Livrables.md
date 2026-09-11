@@ -53,7 +53,7 @@ Débours (frais de greffe, publicité légale, honoraires intermédiaires) suivi
 Références niches : `01_Strategy/03_Unsaturated_Niches_Overview/08_Niche6_AE_vers_SARL.md`.
 
 ### Kit 3 — Retainer mensuel (2 500-4 500 DH HT/mois)
-Documents : `01` + trame de revue hebdo (Loom) + `06` (mensualité facturée d'avance).
+Documents : `01` + trame de revue hebdo (restitution brève) + `06` (mensualité facturée d'avance).
 Particularité : les jalons ne sont pas une fin mais un cycle — la fiche pré-peuple la revue hebdo récurrente ET l'alerte churn : deux signaux = alerte, trois = entretien de sauvetage (mécanique héritée de l'ancien dossier client-psychologie, désormais dans [[09_Audit_Mensuel_Cabinet]] et [[18_Intelligence_Emotionnelle_Desescalade/06_Clients_Hypervigilants]]).
 Référence prix et contrat : [[12_Finance_Cabinet_OS/06_Abonnement_Retainer]].
 
